@@ -5,7 +5,7 @@ extractReslerianaData();
 
 function extractReslerianaData() {
 
-	helper.writeData(require('./extractcharacter.js')(), 'character');
+	helper.writeData(require('./extractcharacter.js')(), 'parsed', 'character');
 
-
+	// // // helper.writeData(helper.extractAndReplace('character'), 'parsed', 'character');
 }

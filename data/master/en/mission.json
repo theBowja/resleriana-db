@@ -1,0 +1,6871 @@
+[
+  {
+    "category": 1,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 10001,
+    "name": "Log in",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 10,
+    "reset_cycle": 1,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 1
+    }
+  },
+  {
+    "category": 1,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 10002,
+    "name": "Complete a synthesis",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 9,
+    "reset_cycle": 1,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30004
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 1,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 10003,
+    "name": "Use 50 stamina",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 8,
+    "reset_cycle": 1,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 50,
+        "reward_set_id": 30001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 3
+    }
+  },
+  {
+    "category": 1,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 10004,
+    "name": "Clear an EXP Quest",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7,
+    "reset_cycle": 1,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30043
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 12
+    }
+  },
+  {
+    "category": 1,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 10005,
+    "name": "Clear a Cole Quest",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 6,
+    "reset_cycle": 1,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30004
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 11
+    }
+  },
+  {
+    "category": 1,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 10006,
+    "name": "Clear an Orb Quest",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 5,
+    "reset_cycle": 1,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30043
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 14
+    }
+  },
+  {
+    "category": 1,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 10007,
+    "name": "Clear a Power Up Dew Quest",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 4,
+    "reset_cycle": 1,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30043
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 13
+    }
+  },
+  {
+    "category": 1,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 10008,
+    "name": "Clear a Dungeon",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 3,
+    "reset_cycle": 1,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30004
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 18
+    }
+  },
+  {
+    "category": 1,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 10009,
+    "name": "Clear a Score Battle",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 2,
+    "reset_cycle": 1,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30004
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 17
+    }
+  },
+  {
+    "category": 1,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 10010,
+    "name": "Make a wish",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 1,
+    "reset_cycle": 1,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30004
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 2,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 20001,
+    "name": "Synthesize {} time(s)",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 10,
+    "reset_cycle": 2,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30027
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 2,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 20002,
+    "name": "Synthesize {} time(s)",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 9,
+    "reset_cycle": 2,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 20,
+        "reward_set_id": 30013
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 2,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 20003,
+    "name": "Synthesize {} time(s)",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 8,
+    "reset_cycle": 2,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 30,
+        "reward_set_id": 30012
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 2,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 20004,
+    "name": "Use {} stamina",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7,
+    "reset_cycle": 2,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300,
+        "reward_set_id": 30001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 3
+    }
+  },
+  {
+    "category": 2,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 20005,
+    "name": "Use {} stamina",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 6,
+    "reset_cycle": 2,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 500,
+        "reward_set_id": 30053
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 3
+    }
+  },
+  {
+    "category": 2,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 20006,
+    "name": "Clear {} Material Quests",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 5,
+    "reset_cycle": 2,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30043
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 2,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 20007,
+    "name": "Clear {} Training Quests",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 4,
+    "reset_cycle": 2,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30043
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 10
+    }
+  },
+  {
+    "category": 2,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 20008,
+    "name": "Clear {} Piece Quests",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 3,
+    "reset_cycle": 2,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 30022
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 15
+    }
+  },
+  {
+    "category": 2,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 20009,
+    "name": "Take {} Orders",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 2,
+    "reset_cycle": 2,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 30043
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 26
+    }
+  },
+  {
+    "category": 2,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 20010,
+    "name": "Take {} Orders",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 1,
+    "reset_cycle": 2,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30043
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 26
+    }
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 1,
+    "id": 50001,
+    "name": "Level a character to Lv. 5",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 30,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 30046
+      }
+    ],
+    "total_task_condition_id": 47,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 1,
+    "id": 50002,
+    "name": "Level a character to Lv. 10",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 29,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30046
+      }
+    ],
+    "total_task_condition_id": 47,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 1,
+    "id": 50003,
+    "name": "Develop recipes 4 times",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 28,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 4,
+        "reward_set_id": 30046
+      }
+    ],
+    "total_task_condition_id": 134,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 1,
+    "id": 50004,
+    "name": "Synthesize 1 equipment item",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 27,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30046
+      }
+    ],
+    "total_task_condition_id": 52,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 1,
+    "id": 50005,
+    "name": "Clear a Score Battle 1 time",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 26,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30047
+      }
+    ],
+    "total_task_condition_id": 44,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 1,
+    "id": 50006,
+    "name": "Synthesize 1 battle item",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 25,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30046
+      }
+    ],
+    "total_task_condition_id": 53,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 1,
+    "id": 50007,
+    "name": "Synthesize 3 times",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 24,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 30046
+      }
+    ],
+    "total_task_condition_id": 51,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 1,
+    "id": 50008,
+    "name": "Clear an EXP Quest 1 time",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 23,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30046
+      }
+    ],
+    "total_task_condition_id": 40,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 1,
+    "id": 50009,
+    "name": "Clear a Power Up Dew Quest 1 time",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 22,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30046
+      }
+    ],
+    "total_task_condition_id": 41,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 2,
+    "id": 50011,
+    "name": "Clear an Orb Quest 1 time",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 20,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30047
+      }
+    ],
+    "total_task_condition_id": 42,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 2,
+    "id": 50012,
+    "name": "Clear a Piece Quest 1 time",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 19,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30051
+      }
+    ],
+    "total_task_condition_id": 43,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 2,
+    "id": 50013,
+    "name": "Enhance Growboards 10 times",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 18,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30047
+      }
+    ],
+    "total_task_condition_id": 49,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 2,
+    "id": 50014,
+    "name": "Clear Score Battles 5 times",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 17,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 30051
+      }
+    ],
+    "total_task_condition_id": 44,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 2,
+    "id": 50015,
+    "name": "Synthesize 3 equipment items",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 16,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 30047
+      }
+    ],
+    "total_task_condition_id": 52,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 2,
+    "id": 50016,
+    "name": "Clear Dungeons 3 times",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 15,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 30051
+      }
+    ],
+    "total_task_condition_id": 45,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 2,
+    "id": 50017,
+    "name": "Synthesize 3 battle items",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 14,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 30047
+      }
+    ],
+    "total_task_condition_id": 53,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 2,
+    "id": 50018,
+    "name": "Clear Orb Quests 10 times",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 13,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30051
+      }
+    ],
+    "total_task_condition_id": 42,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 2,
+    "id": 50019,
+    "name": "Clear EXP Quests 3 times",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 12,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 30047
+      }
+    ],
+    "total_task_condition_id": 40,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 3,
+    "id": 50021,
+    "name": "Develop 20 recipes",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 10,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 20,
+        "reward_set_id": 30051
+      }
+    ],
+    "total_task_condition_id": 134,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 3,
+    "id": 50022,
+    "name": "Level a Memoria to Lv. 20",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 9,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 20,
+        "reward_set_id": 30048
+      }
+    ],
+    "total_task_condition_id": 139,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 3,
+    "id": 50023,
+    "name": "Enhance Growboards 50 times",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 8,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 50,
+        "reward_set_id": 30051
+      }
+    ],
+    "total_task_condition_id": 49,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 3,
+    "id": 50024,
+    "name": "Synthesize 10 equipment items",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30048
+      }
+    ],
+    "total_task_condition_id": 52,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 3,
+    "id": 50025,
+    "name": "Get SS Rank in a Score Battle 10 times",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 6,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30048
+      }
+    ],
+    "total_task_condition_id": 46,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 3,
+    "id": 50026,
+    "name": "Synthesize 10 battle items",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 5,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30048
+      }
+    ],
+    "total_task_condition_id": 53,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 3,
+    "id": 50027,
+    "name": "Clear Dungeons 10 times",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 4,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30051
+      }
+    ],
+    "total_task_condition_id": 45,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 3,
+    "id": 50028,
+    "name": "Level a character to Lv. 30",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 3,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 30,
+        "reward_set_id": 30048
+      }
+    ],
+    "total_task_condition_id": 47,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": 3,
+    "id": 50029,
+    "name": "Enhance Growboards 100 times",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 2,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 30051
+      }
+    ],
+    "total_task_condition_id": 49,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300001,
+    "name": "Increase Player Rank to {}",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7600,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 2,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 3,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 4,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 5,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 6,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 7,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 8,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 9,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 10,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 11,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 12,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 13,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 14,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 15,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 16,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 17,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 18,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 19,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 20,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 21,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 22,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 23,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 24,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 25,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 26,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 27,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 28,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 29,
+        "reward_set_id": 30014
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30014
+      }
+    ],
+    "total_task_condition_id": 1,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300002,
+    "name": "Field a party with total power over {}",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7500,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1000,
+        "reward_set_id": 30015
+      },
+      {
+        "count": 3000,
+        "reward_set_id": 30015
+      },
+      {
+        "count": 5000,
+        "reward_set_id": 30015
+      },
+      {
+        "count": 7000,
+        "reward_set_id": 30015
+      },
+      {
+        "count": 10000,
+        "reward_set_id": 30015
+      },
+      {
+        "count": 11000,
+        "reward_set_id": 30015
+      },
+      {
+        "count": 12000,
+        "reward_set_id": 30015
+      },
+      {
+        "count": 13000,
+        "reward_set_id": 30015
+      },
+      {
+        "count": 14000,
+        "reward_set_id": 30015
+      },
+      {
+        "count": 15000,
+        "reward_set_id": 30015
+      },
+      {
+        "count": 16000,
+        "reward_set_id": 30015
+      },
+      {
+        "count": 17000,
+        "reward_set_id": 30015
+      },
+      {
+        "count": 18000,
+        "reward_set_id": 30015
+      },
+      {
+        "count": 19000,
+        "reward_set_id": 30015
+      },
+      {
+        "count": 20000,
+        "reward_set_id": 30015
+      }
+    ],
+    "total_task_condition_id": 81,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300003,
+    "name": "Clear Chapter 1-69 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7400,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 82,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300004,
+    "name": "Clear Chapter 2-74 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7300,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 83,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300005,
+    "name": "Clear Chapter 3-55 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7299,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 84,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300006,
+    "name": "Recruit {} characters",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 10,
+        "reward_set_id": 30019
+      },
+      {
+        "count": 15,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 20,
+        "reward_set_id": 30021
+      },
+      {
+        "count": 25,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 35,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 40,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 45,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30031
+      }
+    ],
+    "total_task_condition_id": 85,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300007,
+    "name": "Level a character to Lv. {}",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7000,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30055
+      },
+      {
+        "count": 20,
+        "reward_set_id": 30055
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30056
+      },
+      {
+        "count": 40,
+        "reward_set_id": 30057
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30039
+      },
+      {
+        "count": 60,
+        "reward_set_id": 30039
+      }
+    ],
+    "total_task_condition_id": 47,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300008,
+    "name": "Level {} characters to Lv. 10",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 6900,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 30017
+      }
+    ],
+    "total_task_condition_id": 48,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300009,
+    "name": "Level {} characters to Lv. 20",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 6800,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 6,
+        "reward_set_id": 30017
+      }
+    ],
+    "total_task_condition_id": 86,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300010,
+    "name": "Level {} characters to Lv. 30",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 6700,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 7,
+        "reward_set_id": 30017
+      }
+    ],
+    "total_task_condition_id": 87,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300011,
+    "name": "Level {} characters to Lv. 40",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 6600,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 8,
+        "reward_set_id": 30017
+      }
+    ],
+    "total_task_condition_id": 88,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300012,
+    "name": "Level {} characters to Lv. 50",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 6500,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30017
+      }
+    ],
+    "total_task_condition_id": 89,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300013,
+    "name": "Level {} characters to Lv. 60",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 6450,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30017
+      }
+    ],
+    "total_task_condition_id": 158,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300014,
+    "name": "Awaken characters {} time(s)",
+    "name_when_count_one": "Awaken a character",
+    "navigation_task_url_id": null,
+    "priority": 6400,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 3,
+        "reward_set_id": 30019
+      },
+      {
+        "count": 5,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 10,
+        "reward_set_id": 30021
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30024
+      }
+    ],
+    "total_task_condition_id": 90,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300015,
+    "name": "Enhance Growboards {} time(s)",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 6300,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30019
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30021
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 1500,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 2000,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 2500,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 3000,
+        "reward_set_id": 30031
+      }
+    ],
+    "total_task_condition_id": 49,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300016,
+    "name": "Get {} characters' Growboards to page II",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 6200,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 30018
+      }
+    ],
+    "total_task_condition_id": 91,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300017,
+    "name": "Get {} characters' Growboards to page III",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 6100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 30019
+      }
+    ],
+    "total_task_condition_id": 92,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300018,
+    "name": "Get {} characters' Growboards to page IV",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 6000,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 30020
+      }
+    ],
+    "total_task_condition_id": 93,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300019,
+    "name": "Get {} characters' Growboards to page V",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 5900,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 30021
+      }
+    ],
+    "total_task_condition_id": 94,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300020,
+    "name": "Get {} characters' Growboards to page VI",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 5800,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 30022
+      }
+    ],
+    "total_task_condition_id": 95,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300021,
+    "name": "Get {} characters' Growboards to page VII",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 5700,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 30024
+      }
+    ],
+    "total_task_condition_id": 96,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300022,
+    "name": "Get {} characters' Growboards to page VIII",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 5600,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 30027
+      }
+    ],
+    "total_task_condition_id": 97,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300023,
+    "name": "Get {} characters' Growboards to page IX",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 5500,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 30028
+      }
+    ],
+    "total_task_condition_id": 98,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300024,
+    "name": "Get {} characters' Growboards to page X",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 5400,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 30031
+      }
+    ],
+    "total_task_condition_id": 99,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300025,
+    "name": "Enhance EX Boards {} time(s)",
+    "name_when_count_one": "Enhance an EX Board",
+    "navigation_task_url_id": null,
+    "priority": 5300,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 3,
+        "reward_set_id": 30019
+      },
+      {
+        "count": 5,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 10,
+        "reward_set_id": 30021
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30024
+      }
+    ],
+    "total_task_condition_id": 100,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300026,
+    "name": "Collect {} Memoria",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 5200,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 10,
+        "reward_set_id": 30019
+      },
+      {
+        "count": 15,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 20,
+        "reward_set_id": 30021
+      },
+      {
+        "count": 25,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 35,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 40,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 45,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30031
+      }
+    ],
+    "total_task_condition_id": 101,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300027,
+    "name": "Level a Memoria to Lv. {}",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 5100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 30058
+      },
+      {
+        "count": 10,
+        "reward_set_id": 30058
+      },
+      {
+        "count": 20,
+        "reward_set_id": 30059
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30060
+      }
+    ],
+    "total_task_condition_id": 139,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300028,
+    "name": "Level {} Memoria to Lv. 10",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 5000,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 30017
+      }
+    ],
+    "total_task_condition_id": 50,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300029,
+    "name": "Level {} Memoria to Lv. 20",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 4900,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 7,
+        "reward_set_id": 30017
+      }
+    ],
+    "total_task_condition_id": 103,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300030,
+    "name": "Level {} Memoria to Lv. 30",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 4800,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30017
+      }
+    ],
+    "total_task_condition_id": 104,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300031,
+    "name": "Unlock Memoria {} time(s)",
+    "name_when_count_one": "Unlock a Memoria",
+    "navigation_task_url_id": null,
+    "priority": 4700,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 3,
+        "reward_set_id": 30019
+      },
+      {
+        "count": 5,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 10,
+        "reward_set_id": 30021
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30027
+      }
+    ],
+    "total_task_condition_id": 105,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300032,
+    "name": "Clear {} Material Quests",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 4600,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 200,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 700,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 2000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 3000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 4000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 5000,
+        "reward_set_id": 30001
+      }
+    ],
+    "total_task_condition_id": 107,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300033,
+    "name": "Clear {} Training Quests",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 4500,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30058
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30058
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30059
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30059
+      },
+      {
+        "count": 200,
+        "reward_set_id": 30060
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30060
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30060
+      },
+      {
+        "count": 700,
+        "reward_set_id": 30060
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30060
+      },
+      {
+        "count": 2000,
+        "reward_set_id": 30060
+      },
+      {
+        "count": 3000,
+        "reward_set_id": 30060
+      },
+      {
+        "count": 4000,
+        "reward_set_id": 30060
+      },
+      {
+        "count": 5000,
+        "reward_set_id": 30060
+      }
+    ],
+    "total_task_condition_id": 106,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300034,
+    "name": "Clear {}F of the Elemental Tower",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 4400,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 5,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 10,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 15,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 20,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 25,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30017
+      }
+    ],
+    "total_task_condition_id": 36,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300047,
+    "name": "Use {} stamina",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 3700,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 5000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 10000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 20000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 30000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 40000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 50000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 100000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 150000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 200000,
+        "reward_set_id": 30001
+      }
+    ],
+    "total_task_condition_id": 108,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300048,
+    "name": "Acquire {} Cole",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 3600,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100000,
+        "reward_set_id": 30058
+      },
+      {
+        "count": 300000,
+        "reward_set_id": 30058
+      },
+      {
+        "count": 500000,
+        "reward_set_id": 30059
+      },
+      {
+        "count": 1000000,
+        "reward_set_id": 30059
+      },
+      {
+        "count": 2000000,
+        "reward_set_id": 30059
+      },
+      {
+        "count": 3000000,
+        "reward_set_id": 30060
+      },
+      {
+        "count": 5000000,
+        "reward_set_id": 30060
+      },
+      {
+        "count": 7000000,
+        "reward_set_id": 30060
+      },
+      {
+        "count": 10000000,
+        "reward_set_id": 30060
+      },
+      {
+        "count": 20000000,
+        "reward_set_id": 30060
+      },
+      {
+        "count": 30000000,
+        "reward_set_id": 30060
+      },
+      {
+        "count": 40000000,
+        "reward_set_id": 30060
+      },
+      {
+        "count": 50000000,
+        "reward_set_id": 30060
+      },
+      {
+        "count": 70000000,
+        "reward_set_id": 30060
+      },
+      {
+        "count": 100000000,
+        "reward_set_id": 30060
+      }
+    ],
+    "total_task_condition_id": 109,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300049,
+    "name": "Obtain {} SS Score Ranks",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 3500,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 5,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 7,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 10,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 15,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 20,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 25,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 35,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 40,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 45,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30017
+      }
+    ],
+    "total_task_condition_id": 46,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300050,
+    "name": "Defeat {} enemies",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 3400,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 3000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 5000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 10000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 20000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 30000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 50000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 100000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 200000,
+        "reward_set_id": 30001
+      },
+      {
+        "count": 300000,
+        "reward_set_id": 30001
+      }
+    ],
+    "total_task_condition_id": 110,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300051,
+    "name": "Defeat {} Puni enemies",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 3300,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30019
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30021
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30023
+      },
+      {
+        "count": 2000,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 3000,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 5000,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 10000,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 20000,
+        "reward_set_id": 30030
+      },
+      {
+        "count": 30000,
+        "reward_set_id": 30031
+      }
+    ],
+    "total_task_condition_id": 111,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300052,
+    "name": "Defeat {} Beast enemies",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 3200,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30019
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30021
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30023
+      },
+      {
+        "count": 2000,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 3000,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 5000,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 10000,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 20000,
+        "reward_set_id": 30030
+      },
+      {
+        "count": 30000,
+        "reward_set_id": 30031
+      }
+    ],
+    "total_task_condition_id": 112,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300053,
+    "name": "Defeat {} Spirit enemies",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 3100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30019
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30021
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30023
+      },
+      {
+        "count": 2000,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 3000,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 5000,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 10000,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 20000,
+        "reward_set_id": 30030
+      },
+      {
+        "count": 30000,
+        "reward_set_id": 30031
+      }
+    ],
+    "total_task_condition_id": 113,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300054,
+    "name": "Defeat {} Aquatic enemies",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 3000,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30019
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30021
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30023
+      },
+      {
+        "count": 2000,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 3000,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 5000,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 10000,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 20000,
+        "reward_set_id": 30030
+      },
+      {
+        "count": 30000,
+        "reward_set_id": 30031
+      }
+    ],
+    "total_task_condition_id": 114,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300055,
+    "name": "Defeat {} Bird enemies",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 2900,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30019
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30021
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30023
+      },
+      {
+        "count": 2000,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 3000,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 5000,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 10000,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 20000,
+        "reward_set_id": 30030
+      },
+      {
+        "count": 30000,
+        "reward_set_id": 30031
+      }
+    ],
+    "total_task_condition_id": 115,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300056,
+    "name": "Defeat {} Golem enemies",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 2800,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30019
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30021
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30023
+      },
+      {
+        "count": 2000,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 3000,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 5000,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 10000,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 20000,
+        "reward_set_id": 30030
+      },
+      {
+        "count": 30000,
+        "reward_set_id": 30031
+      }
+    ],
+    "total_task_condition_id": 116,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300057,
+    "name": "Defeat {} Wraith enemies",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 2700,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30019
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30021
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30023
+      },
+      {
+        "count": 2000,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 3000,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 5000,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 10000,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 20000,
+        "reward_set_id": 30030
+      },
+      {
+        "count": 30000,
+        "reward_set_id": 30031
+      }
+    ],
+    "total_task_condition_id": 117,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300058,
+    "name": "Defeat {} Demon enemies",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 2600,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30019
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30021
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30023
+      },
+      {
+        "count": 2000,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 3000,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 5000,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 10000,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 20000,
+        "reward_set_id": 30030
+      },
+      {
+        "count": 30000,
+        "reward_set_id": 30031
+      }
+    ],
+    "total_task_condition_id": 118,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300059,
+    "name": "Take {} Orders",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 2500,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 10,
+        "reward_set_id": 30019
+      },
+      {
+        "count": 20,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30021
+      },
+      {
+        "count": 40,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30023
+      },
+      {
+        "count": 70,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 150,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 200,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30030
+      },
+      {
+        "count": 400,
+        "reward_set_id": 30031
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30032
+      }
+    ],
+    "total_task_condition_id": 119,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300060,
+    "name": "Synthesize {} time(s)",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 2400,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30047
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30047
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30061
+      },
+      {
+        "count": 70,
+        "reward_set_id": 30061
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30062
+      },
+      {
+        "count": 150,
+        "reward_set_id": 30063
+      },
+      {
+        "count": 200,
+        "reward_set_id": 30063
+      },
+      {
+        "count": 250,
+        "reward_set_id": 30063
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30063
+      },
+      {
+        "count": 350,
+        "reward_set_id": 30063
+      },
+      {
+        "count": 400,
+        "reward_set_id": 30063
+      },
+      {
+        "count": 450,
+        "reward_set_id": 30063
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30063
+      },
+      {
+        "count": 700,
+        "reward_set_id": 30026
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 2000,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 3000,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 4000,
+        "reward_set_id": 30030
+      },
+      {
+        "count": 5000,
+        "reward_set_id": 30031
+      },
+      {
+        "count": 6000,
+        "reward_set_id": 30032
+      },
+      {
+        "count": 7000,
+        "reward_set_id": 30033
+      },
+      {
+        "count": 8000,
+        "reward_set_id": 30034
+      },
+      {
+        "count": 9000,
+        "reward_set_id": 30035
+      },
+      {
+        "count": 10000,
+        "reward_set_id": 30044
+      }
+    ],
+    "total_task_condition_id": 51,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300061,
+    "name": "Synthesize {} battle item(s)",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 2300,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30019
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 70,
+        "reward_set_id": 30021
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 200,
+        "reward_set_id": 30023
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30025
+      },
+      {
+        "count": 700,
+        "reward_set_id": 30026
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 2000,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 3000,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 4000,
+        "reward_set_id": 30030
+      },
+      {
+        "count": 5000,
+        "reward_set_id": 30031
+      },
+      {
+        "count": 6000,
+        "reward_set_id": 30032
+      },
+      {
+        "count": 7000,
+        "reward_set_id": 30033
+      },
+      {
+        "count": 8000,
+        "reward_set_id": 30034
+      },
+      {
+        "count": 9000,
+        "reward_set_id": 30035
+      },
+      {
+        "count": 10000,
+        "reward_set_id": 30044
+      }
+    ],
+    "total_task_condition_id": 53,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300062,
+    "name": "Synthesize {} equipment item(s)",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 2200,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30019
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 70,
+        "reward_set_id": 30021
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 200,
+        "reward_set_id": 30023
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30025
+      },
+      {
+        "count": 700,
+        "reward_set_id": 30026
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 2000,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 3000,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 4000,
+        "reward_set_id": 30030
+      },
+      {
+        "count": 5000,
+        "reward_set_id": 30031
+      },
+      {
+        "count": 6000,
+        "reward_set_id": 30032
+      },
+      {
+        "count": 7000,
+        "reward_set_id": 30033
+      },
+      {
+        "count": 8000,
+        "reward_set_id": 30034
+      },
+      {
+        "count": 9000,
+        "reward_set_id": 30035
+      },
+      {
+        "count": 10000,
+        "reward_set_id": 30044
+      }
+    ],
+    "total_task_condition_id": 52,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300063,
+    "name": "Synthesize {} (Recovery) battle item(s)",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 1800,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 70,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 200,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30030
+      },
+      {
+        "count": 700,
+        "reward_set_id": 30031
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30032
+      }
+    ],
+    "total_task_condition_id": 120,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300064,
+    "name": "Synthesize {} (Attack) battle item(s)",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 2100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 70,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 200,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30030
+      },
+      {
+        "count": 700,
+        "reward_set_id": 30031
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30032
+      }
+    ],
+    "total_task_condition_id": 121,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300065,
+    "name": "Synthesize {} (Boost) battle item(s)",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 2000,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 70,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 200,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30030
+      },
+      {
+        "count": 700,
+        "reward_set_id": 30031
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30032
+      }
+    ],
+    "total_task_condition_id": 122,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300066,
+    "name": "Synthesize {} (Weaken) battle item(s)",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 1900,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 70,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 200,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30030
+      },
+      {
+        "count": 700,
+        "reward_set_id": 30031
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30032
+      }
+    ],
+    "total_task_condition_id": 123,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300067,
+    "name": "Synthesize {} accessory(ies)",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 1500,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 70,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 200,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30030
+      },
+      {
+        "count": 700,
+        "reward_set_id": 30031
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30032
+      }
+    ],
+    "total_task_condition_id": 124,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300068,
+    "name": "Synthesize {} weapon(s)",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 1700,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 70,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 200,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30030
+      },
+      {
+        "count": 700,
+        "reward_set_id": 30031
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30032
+      }
+    ],
+    "total_task_condition_id": 125,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300069,
+    "name": "Synthesize {} piece(s) of armor",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 1600,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 70,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 200,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30030
+      },
+      {
+        "count": 700,
+        "reward_set_id": 30031
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30032
+      }
+    ],
+    "total_task_condition_id": 126,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300070,
+    "name": "Synthesize {} SSR items",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 1400,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 3,
+        "reward_set_id": 30021
+      },
+      {
+        "count": 5,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 10,
+        "reward_set_id": 30023
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30025
+      },
+      {
+        "count": 70,
+        "reward_set_id": 30026
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 200,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30030
+      },
+      {
+        "count": 700,
+        "reward_set_id": 30031
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30032
+      }
+    ],
+    "total_task_condition_id": 127,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300071,
+    "name": "Synthesize {} battle item(s) with a total trait level of 6 or more",
+    "name_when_count_one": "Synthesize a battle item with a total trait level of 6 or more",
+    "navigation_task_url_id": null,
+    "priority": 1300,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30018
+      }
+    ],
+    "total_task_condition_id": 128,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300072,
+    "name": "Synthesize {} battle item(s) with a total trait level of 9 or more",
+    "name_when_count_one": "Synthesize a battle item with a total trait level of 9 or more",
+    "navigation_task_url_id": null,
+    "priority": 1200,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 3,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 5,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 10,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 20,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 70,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 200,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 400,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30017
+      }
+    ],
+    "total_task_condition_id": 129,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300073,
+    "name": "Synthesize {} battle item(s) with a total trait level of 12 or more",
+    "name_when_count_one": "Synthesize a battle item with a total trait level of 12 or more",
+    "navigation_task_url_id": null,
+    "priority": 1100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30015
+      }
+    ],
+    "total_task_condition_id": 130,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300074,
+    "name": "Synthesize {} piece(s) of equipment with a total trait level of 4 or more",
+    "name_when_count_one": "Synthesize a piece of equipment with a total trait level of 4 or more",
+    "navigation_task_url_id": null,
+    "priority": 1000,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30018
+      }
+    ],
+    "total_task_condition_id": 131,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300075,
+    "name": "Synthesize {} piece(s) of equipment with a total trait level of 6 or more",
+    "name_when_count_one": "Synthesize a piece of equipment with a total trait level of 6 or more",
+    "navigation_task_url_id": null,
+    "priority": 900,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 3,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 5,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 10,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 20,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 70,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 200,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 400,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30017
+      }
+    ],
+    "total_task_condition_id": 132,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300076,
+    "name": "Synthesize {} piece(s) of equipment with a total trait level of 8 or more",
+    "name_when_count_one": "Synthesize a piece of equipment with a total trait level of 8 or more",
+    "navigation_task_url_id": null,
+    "priority": 800,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30015
+      }
+    ],
+    "total_task_condition_id": 133,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300077,
+    "name": "Develop recipes {} time(s)",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 700,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 10,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 15,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 20,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 25,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 35,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 40,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 45,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 55,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 60,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 65,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 70,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 75,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 80,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 85,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 90,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 95,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 105,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 110,
+        "reward_set_id": 30017
+      }
+    ],
+    "total_task_condition_id": 134,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300078,
+    "name": "Convert {} items",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 600,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30019
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 70,
+        "reward_set_id": 30021
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 200,
+        "reward_set_id": 30023
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30025
+      },
+      {
+        "count": 700,
+        "reward_set_id": 30026
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 2000,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 3000,
+        "reward_set_id": 30029
+      },
+      {
+        "count": 4000,
+        "reward_set_id": 30030
+      },
+      {
+        "count": 5000,
+        "reward_set_id": 30031
+      },
+      {
+        "count": 6000,
+        "reward_set_id": 30032
+      },
+      {
+        "count": 7000,
+        "reward_set_id": 30033
+      },
+      {
+        "count": 8000,
+        "reward_set_id": 30034
+      },
+      {
+        "count": 9000,
+        "reward_set_id": 30035
+      },
+      {
+        "count": 10000,
+        "reward_set_id": 30044
+      }
+    ],
+    "total_task_condition_id": 135,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300079,
+    "name": "Complete Combat Research Lv. {}",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 500,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 20,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 40,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 60,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 70,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 80,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 90,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30017
+      }
+    ],
+    "total_task_condition_id": 185,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300080,
+    "name": "Complete Alchemy Research Lv. {}",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 400,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 20,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 40,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 60,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 70,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 80,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 90,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30017
+      }
+    ],
+    "total_task_condition_id": 141,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300081,
+    "name": "Log in for {} days",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 300,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30015
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30015
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30015
+      },
+      {
+        "count": 200,
+        "reward_set_id": 30015
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30015
+      },
+      {
+        "count": 365,
+        "reward_set_id": 30045
+      },
+      {
+        "count": 400,
+        "reward_set_id": 30015
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30015
+      }
+    ],
+    "total_task_condition_id": 136,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300082,
+    "name": "Make a wish {} time(s)",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 200,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30055
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30056
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30057
+      },
+      {
+        "count": 200,
+        "reward_set_id": 30039
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30039
+      },
+      {
+        "count": 400,
+        "reward_set_id": 30039
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30039
+      }
+    ],
+    "total_task_condition_id": 137,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300083,
+    "name": "Exchange at the Shop {} time(s)",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30018
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30020
+      },
+      {
+        "count": 100,
+        "reward_set_id": 30022
+      },
+      {
+        "count": 200,
+        "reward_set_id": 30024
+      },
+      {
+        "count": 300,
+        "reward_set_id": 30027
+      },
+      {
+        "count": 400,
+        "reward_set_id": 30028
+      },
+      {
+        "count": 500,
+        "reward_set_id": 30029
+      }
+    ],
+    "total_task_condition_id": 138,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300085,
+    "name": "Join the official Discord server",
+    "name_when_count_one": "",
+    "navigation_task_url_id": 1000000001,
+    "priority": 100000,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30054
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300086,
+    "name": "Follow the official Twitter account",
+    "name_when_count_one": "",
+    "navigation_task_url_id": 1000000002,
+    "priority": 99999,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30054
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300087,
+    "name": "Subscribe to the official YouTube channel",
+    "name_when_count_one": "",
+    "navigation_task_url_id": 1000000003,
+    "priority": 99998,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30054
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300089,
+    "name": "Clear Chapter 4-58 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7298,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.0000000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 315,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300090,
+    "name": "Raise ★1 Valeria \"Dreamer of the Past\" to Lv. {}",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7700,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.0000000Z",
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30064
+      },
+      {
+        "count": 20,
+        "reward_set_id": 30065
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30066
+      },
+      {
+        "count": 40,
+        "reward_set_id": 30067
+      },
+      {
+        "count": 45,
+        "reward_set_id": 30067
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30067
+      },
+      {
+        "count": 55,
+        "reward_set_id": 30068
+      },
+      {
+        "count": 60,
+        "reward_set_id": 30068
+      }
+    ],
+    "total_task_condition_id": 384,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300091,
+    "name": "Clear Chapter 5-61 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7297,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.0000000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 395,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300092,
+    "name": "Level-up ★1 Regina [Excavation Expert] to level {}",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7701,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.0000000Z",
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30069
+      },
+      {
+        "count": 20,
+        "reward_set_id": 30070
+      },
+      {
+        "count": 30,
+        "reward_set_id": 30071
+      },
+      {
+        "count": 40,
+        "reward_set_id": 30072
+      },
+      {
+        "count": 45,
+        "reward_set_id": 30072
+      },
+      {
+        "count": 50,
+        "reward_set_id": 30072
+      },
+      {
+        "count": 55,
+        "reward_set_id": 30073
+      },
+      {
+        "count": 60,
+        "reward_set_id": 30073
+      }
+    ],
+    "total_task_condition_id": 449,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300093,
+    "name": "Clear Tower of Slash {}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 10000,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.0000000Z",
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 30016
+      },
+      {
+        "count": 5,
+        "reward_set_id": 30016
+      },
+      {
+        "count": 7,
+        "reward_set_id": 30016
+      },
+      {
+        "count": 9,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 450,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300094,
+    "name": "Clear Tower of Strike {}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 10001,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.0000000Z",
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 30016
+      },
+      {
+        "count": 5,
+        "reward_set_id": 30016
+      },
+      {
+        "count": 7,
+        "reward_set_id": 30016
+      },
+      {
+        "count": 9,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 451,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300095,
+    "name": "Clear Tower of Stab {}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 10002,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.0000000Z",
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 30016
+      },
+      {
+        "count": 5,
+        "reward_set_id": 30016
+      },
+      {
+        "count": 7,
+        "reward_set_id": 30016
+      },
+      {
+        "count": 9,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 452,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300096,
+    "name": "Clear Tower of Fire {}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 10003,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.0000000Z",
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 30016
+      },
+      {
+        "count": 5,
+        "reward_set_id": 30016
+      },
+      {
+        "count": 7,
+        "reward_set_id": 30016
+      },
+      {
+        "count": 9,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 453,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300097,
+    "name": "Clear Tower of Ice {}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 10004,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.0000000Z",
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 30016
+      },
+      {
+        "count": 5,
+        "reward_set_id": 30016
+      },
+      {
+        "count": 7,
+        "reward_set_id": 30016
+      },
+      {
+        "count": 9,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 454,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300098,
+    "name": "Clear Tower of Bolt {}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 10005,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.0000000Z",
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 30016
+      },
+      {
+        "count": 5,
+        "reward_set_id": 30016
+      },
+      {
+        "count": 7,
+        "reward_set_id": 30016
+      },
+      {
+        "count": 9,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 455,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300099,
+    "name": "Clear Tower of Air {}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 10006,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.0000000Z",
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 30016
+      },
+      {
+        "count": 5,
+        "reward_set_id": 30016
+      },
+      {
+        "count": 7,
+        "reward_set_id": 30016
+      },
+      {
+        "count": 9,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 456,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300111,
+    "name": "Clear Chapter 6-52 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7296,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.0000000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 506,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300113,
+    "name": "Level {} characters to Lv. 70",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 6440,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.0000000Z",
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30017
+      }
+    ],
+    "total_task_condition_id": 386,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1,
+    "guide_mission_step_id": null,
+    "id": 4000001,
+    "name": "Obtain Challenge Coin × 10",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 300001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1,
+    "guide_mission_step_id": null,
+    "id": 4000002,
+    "name": "Obtain Challenge Coin × 30",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 30,
+        "reward_set_id": 300001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1,
+    "guide_mission_step_id": null,
+    "id": 4000003,
+    "name": "Obtain Challenge Coin × 50",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 50,
+        "reward_set_id": 300001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1,
+    "guide_mission_step_id": null,
+    "id": 4000004,
+    "name": "Obtain Challenge Coin × 100",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 300001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1,
+    "guide_mission_step_id": null,
+    "id": 4000005,
+    "name": "Obtain Challenge Coin × 200",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 200,
+        "reward_set_id": 300001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1,
+    "guide_mission_step_id": null,
+    "id": 4000006,
+    "name": "Obtain Challenge Coin × 300",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300,
+        "reward_set_id": 300001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1,
+    "guide_mission_step_id": null,
+    "id": 4000007,
+    "name": "Obtain Challenge Coin × 500",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 500,
+        "reward_set_id": 300001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1,
+    "guide_mission_step_id": null,
+    "id": 4000008,
+    "name": "Obtain Challenge Coin × 700",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 700,
+        "reward_set_id": 300001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1,
+    "guide_mission_step_id": null,
+    "id": 4000009,
+    "name": "Obtain Challenge Coin × 1,000",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1000,
+        "reward_set_id": 300001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1,
+    "guide_mission_step_id": null,
+    "id": 4000010,
+    "name": "Obtain Challenge Coin × 1,500",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1500,
+        "reward_set_id": 300001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1,
+    "guide_mission_step_id": null,
+    "id": 4000011,
+    "name": "Obtain Challenge Coin × 2,000",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 90,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 2000,
+        "reward_set_id": 300001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1,
+    "guide_mission_step_id": null,
+    "id": 4000012,
+    "name": "Obtain Challenge Coin × 3,000",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 89,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 3000,
+        "reward_set_id": 300001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1,
+    "guide_mission_step_id": null,
+    "id": 4000013,
+    "name": "Obtain Challenge Coin × 4,000",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 88,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 4000,
+        "reward_set_id": 300001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1,
+    "guide_mission_step_id": null,
+    "id": 4000014,
+    "name": "Obtain Challenge Coin × 5,000",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 87,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5000,
+        "reward_set_id": 300001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1,
+    "guide_mission_step_id": null,
+    "id": 4000015,
+    "name": "Obtain Challenge Coin × 7,000",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 86,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 7000,
+        "reward_set_id": 300001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1,
+    "guide_mission_step_id": null,
+    "id": 4000016,
+    "name": "Obtain Challenge Coin × 10,000",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 85,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10000,
+        "reward_set_id": 300001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1,
+    "guide_mission_step_id": null,
+    "id": 4000017,
+    "name": "Obtain Challenge Coin × 15,000",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 84,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 15000,
+        "reward_set_id": 300001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1,
+    "guide_mission_step_id": null,
+    "id": 4000018,
+    "name": "Obtain Challenge Coin × 20,000",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 83,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 20000,
+        "reward_set_id": 300001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1,
+    "guide_mission_step_id": null,
+    "id": 4000019,
+    "name": "Obtain Challenge Coin × 25,000",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 82,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 25000,
+        "reward_set_id": 300001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1,
+    "guide_mission_step_id": null,
+    "id": 4000020,
+    "name": "Obtain Challenge Coin × 30,000",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 81,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 30000,
+        "reward_set_id": 300001
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000021,
+    "name": "Clear Chapter 1-17 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300064
+      }
+    ],
+    "total_task_condition_id": 6,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000022,
+    "name": "Clear Chapter 1-28 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300065
+      }
+    ],
+    "total_task_condition_id": 346,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000023,
+    "name": "Clear Chapter 1-35 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300066
+      }
+    ],
+    "total_task_condition_id": 12,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000024,
+    "name": "Clear Chapter 1-52 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300067
+      }
+    ],
+    "total_task_condition_id": 16,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000025,
+    "name": "Clear Chapter 1-63 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300068
+      }
+    ],
+    "total_task_condition_id": 347,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000026,
+    "name": "Clear Chapter 1-69 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300069
+      }
+    ],
+    "total_task_condition_id": 82,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000027,
+    "name": "Clear Chapter 2-4 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300064
+      }
+    ],
+    "total_task_condition_id": 17,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000028,
+    "name": "Clear Chapter 2-10 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300071
+      }
+    ],
+    "total_task_condition_id": 18,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000029,
+    "name": "Clear Chapter 2-14 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300065
+      }
+    ],
+    "total_task_condition_id": 20,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000030,
+    "name": "Clear Chapter 2-21 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300072
+      }
+    ],
+    "total_task_condition_id": 362,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000031,
+    "name": "Clear Chapter 2-29 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 90,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300066
+      }
+    ],
+    "total_task_condition_id": 23,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000032,
+    "name": "Clear Chapter 2-44 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 89,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300073
+      }
+    ],
+    "total_task_condition_id": 25,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000033,
+    "name": "Clear Chapter 2-48 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 88,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300067
+      }
+    ],
+    "total_task_condition_id": 27,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000034,
+    "name": "Clear Chapter 2-51 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 87,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300074
+      }
+    ],
+    "total_task_condition_id": 29,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000035,
+    "name": "Clear Chapter 2-59 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 86,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300068
+      }
+    ],
+    "total_task_condition_id": 348,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000036,
+    "name": "Clear Chapter 2-63 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 85,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300075
+      }
+    ],
+    "total_task_condition_id": 372,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000037,
+    "name": "Clear Chapter 2-74 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 84,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300076
+      }
+    ],
+    "total_task_condition_id": 83,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000038,
+    "name": "Clear Chapter 3-4 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 83,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300077
+      }
+    ],
+    "total_task_condition_id": 353,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000039,
+    "name": "Clear Chapter 3-7 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 82,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300078
+      }
+    ],
+    "total_task_condition_id": 350,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000040,
+    "name": "Clear Chapter 3-11 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 81,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300079
+      }
+    ],
+    "total_task_condition_id": 354,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000041,
+    "name": "Clear Chapter 3-18 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 80,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300080
+      }
+    ],
+    "total_task_condition_id": 351,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000042,
+    "name": "Clear Chapter 3-19 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 79,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300081
+      }
+    ],
+    "total_task_condition_id": 356,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000043,
+    "name": "Clear Chapter 3-27 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 78,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300082
+      }
+    ],
+    "total_task_condition_id": 357,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000044,
+    "name": "Clear Chapter 3-32 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 77,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300083
+      }
+    ],
+    "total_task_condition_id": 358,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000045,
+    "name": "Clear Chapter 3-35 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 76,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300084
+      }
+    ],
+    "total_task_condition_id": 142,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000046,
+    "name": "Clear Chapter 3-45 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 75,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300085
+      }
+    ],
+    "total_task_condition_id": 352,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000047,
+    "name": "Clear Chapter 3-46 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 74,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300086
+      }
+    ],
+    "total_task_condition_id": 361,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 3,
+    "guide_mission_step_id": null,
+    "id": 4000048,
+    "name": "Clear Chapter 3-55 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 73,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300088
+      }
+    ],
+    "total_task_condition_id": 84,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 4,
+    "guide_mission_step_id": null,
+    "id": 4000049,
+    "name": "Clear Chapter 1-25 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300089
+      }
+    ],
+    "total_task_condition_id": 346,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 4,
+    "guide_mission_step_id": null,
+    "id": 4000050,
+    "name": "Clear Chapter 1-40 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300090
+      }
+    ],
+    "total_task_condition_id": 347,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 4,
+    "guide_mission_step_id": null,
+    "id": 4000051,
+    "name": "Clear Chapter 1-69 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300091
+      }
+    ],
+    "total_task_condition_id": 82,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 4,
+    "guide_mission_step_id": null,
+    "id": 4000052,
+    "name": "Clear Chapter 2-10 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300092
+      }
+    ],
+    "total_task_condition_id": 18,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 4,
+    "guide_mission_step_id": null,
+    "id": 4000053,
+    "name": "Clear Chapter 2-29 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300093
+      }
+    ],
+    "total_task_condition_id": 23,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 4,
+    "guide_mission_step_id": null,
+    "id": 4000054,
+    "name": "Clear Chapter 2-44 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300094
+      }
+    ],
+    "total_task_condition_id": 25,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 4,
+    "guide_mission_step_id": null,
+    "id": 4000055,
+    "name": "Clear Chapter 2-59 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300095
+      }
+    ],
+    "total_task_condition_id": 348,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 4,
+    "guide_mission_step_id": null,
+    "id": 4000056,
+    "name": "Clear Chapter 2-74 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300096
+      }
+    ],
+    "total_task_condition_id": 83,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 4,
+    "guide_mission_step_id": null,
+    "id": 4000057,
+    "name": "Clear Chapter 3-4 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300097
+      }
+    ],
+    "total_task_condition_id": 353,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 4,
+    "guide_mission_step_id": null,
+    "id": 4000058,
+    "name": "Clear Chapter 3-19 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300098
+      }
+    ],
+    "total_task_condition_id": 356,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 4,
+    "guide_mission_step_id": null,
+    "id": 4000059,
+    "name": "Clear Chapter 3-35 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 90,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300099
+      }
+    ],
+    "total_task_condition_id": 142,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 4,
+    "guide_mission_step_id": null,
+    "id": 4000060,
+    "name": "Clear Chapter 3-42 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 89,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300100
+      }
+    ],
+    "total_task_condition_id": 352,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 4,
+    "guide_mission_step_id": null,
+    "id": 4000061,
+    "name": "Clear Chapter 3-55 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 88,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300101
+      }
+    ],
+    "total_task_condition_id": 84,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 4,
+    "guide_mission_step_id": null,
+    "id": 4000062,
+    "name": "Clear Chapter 4-7 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 87,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300102
+      }
+    ],
+    "total_task_condition_id": 423,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 4,
+    "guide_mission_step_id": null,
+    "id": 4000063,
+    "name": "Clear Chapter 4-20 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 86,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300103
+      }
+    ],
+    "total_task_condition_id": 424,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 4,
+    "guide_mission_step_id": null,
+    "id": 4000064,
+    "name": "Clear Chapter 4-44 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 85,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300104
+      }
+    ],
+    "total_task_condition_id": 425,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 4,
+    "guide_mission_step_id": null,
+    "id": 4000065,
+    "name": "Clear Chapter 4-50 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 84,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300105
+      }
+    ],
+    "total_task_condition_id": 426,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 4,
+    "guide_mission_step_id": null,
+    "id": 4000066,
+    "name": "Clear Chapter 4-58 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 83,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300106
+      }
+    ],
+    "total_task_condition_id": 315,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 5,
+    "guide_mission_step_id": null,
+    "id": 4000067,
+    "name": "Clear Chapter 1-20 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300107
+      }
+    ],
+    "total_task_condition_id": 7,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 5,
+    "guide_mission_step_id": null,
+    "id": 4000068,
+    "name": "Clear Chapter 1-36 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300108
+      }
+    ],
+    "total_task_condition_id": 508,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 5,
+    "guide_mission_step_id": null,
+    "id": 4000069,
+    "name": "Clear Chapter 1-52 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300109
+      }
+    ],
+    "total_task_condition_id": 16,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 5,
+    "guide_mission_step_id": null,
+    "id": 4000070,
+    "name": "Clear Chapter 2-1 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300110
+      }
+    ],
+    "total_task_condition_id": 510,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 5,
+    "guide_mission_step_id": null,
+    "id": 4000071,
+    "name": "Clear Chapter 2-14 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300112
+      }
+    ],
+    "total_task_condition_id": 20,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 5,
+    "guide_mission_step_id": null,
+    "id": 4000072,
+    "name": "Clear Chapter 2-25 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300113
+      }
+    ],
+    "total_task_condition_id": 530,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 5,
+    "guide_mission_step_id": null,
+    "id": 4000073,
+    "name": "Clear Chapter 2-31 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300112
+      }
+    ],
+    "total_task_condition_id": 512,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 5,
+    "guide_mission_step_id": null,
+    "id": 4000074,
+    "name": "Clear Chapter 3-1 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300110
+      }
+    ],
+    "total_task_condition_id": 513,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 5,
+    "guide_mission_step_id": null,
+    "id": 4000075,
+    "name": "Clear Chapter 3-19 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300114
+      }
+    ],
+    "total_task_condition_id": 356,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 5,
+    "guide_mission_step_id": null,
+    "id": 4000076,
+    "name": "Clear Chapter 3-35 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300114
+      }
+    ],
+    "total_task_condition_id": 142,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 5,
+    "guide_mission_step_id": null,
+    "id": 4000077,
+    "name": "Clear Chapter 4-1 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 90,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300110
+      }
+    ],
+    "total_task_condition_id": 514,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 5,
+    "guide_mission_step_id": null,
+    "id": 4000078,
+    "name": "Clear Chapter 4-5 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 89,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300115
+      }
+    ],
+    "total_task_condition_id": 515,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 5,
+    "guide_mission_step_id": null,
+    "id": 4000079,
+    "name": "Clear Chapter 4-10 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 88,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300115
+      }
+    ],
+    "total_task_condition_id": 516,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 5,
+    "guide_mission_step_id": null,
+    "id": 4000080,
+    "name": "Clear Chapter 5-1 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 87,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300110
+      }
+    ],
+    "total_task_condition_id": 517,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 5,
+    "guide_mission_step_id": null,
+    "id": 4000081,
+    "name": "Clear Chapter 5-47 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 86,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300116
+      }
+    ],
+    "total_task_condition_id": 518,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 5,
+    "guide_mission_step_id": null,
+    "id": 4000082,
+    "name": "Clear Chapter 6-1 of the main story",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 85,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300111
+      }
+    ],
+    "total_task_condition_id": 519,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 1000300088,
+    "name": "Like the official Facebook Page",
+    "name_when_count_one": "",
+    "navigation_task_url_id": 1000000005,
+    "priority": 99996,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30054
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": null
+  }
+]

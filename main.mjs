@@ -1,4 +1,4 @@
-import fuzzysort from 'fuzzysort';
+import uFuzzy from '@leeoniya/ufuzzy';
 import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 

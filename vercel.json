@@ -1,0 +1,12 @@
+{
+	"headers": [
+		{
+			"source": "/apitest/*",
+			"headers": [
+				{ "key": "Cache-Control", "value": "s-maxage=604800" },
+				{ "key": "Access-Control-Allow-Origin", "value": "*" },
+				{ "key": "Access-Control-Allow-Methods", "value": "GET" }
+			]
+		}
+	]
+}

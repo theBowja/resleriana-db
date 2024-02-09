@@ -20,7 +20,7 @@ This repository stores Atelier Resleriana data in four languages and hosts an AP
 
 ## API
 
-
+The web API is hosted on Vercel serverless functions which may or may not be supported in your region. If it isn't supported in your region, then it is very easy to set up your own API because the routes below map directly to functions within the `main.js` script.
 
 ### Basic data retrieval
 
@@ -35,13 +35,13 @@ retrieves the data object that matches the same name case-insensitive
 
 ### Search API
 
-#### [dataset]/search?languages=[languages]&files=[files]&properties=[properties]&query=[query]
+#### [dataset]/search?languages=[languages]&files=[files]&keys=[keys]&query=[query]
 search multiple folders and languages
 
-#### [dataset]/[language]/search?files=[files]&properties=[properties]&query=[query]
+<!-- #### [dataset]/[language]/search?files=[files]&keys=[keys]&query=[query]
 searchs multiple folders
 
-#### [dataset]/[language]/[file]/search?properties=[properties]&query=[query]
+#### [dataset]/[language]/[file]/search?keys=[keys]&query=[query] -->
 
 Options
 - topResultOnly: default true. 

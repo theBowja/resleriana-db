@@ -54,7 +54,7 @@ https://resleriana-db.vercel.app/api/master/en/character/id?value=43101
 
 ### Search API
 
-Searching functionality uses the [uFuzzy](https://github.com/leeoniya/uFuzzy) fuzzy search library which provides functionality like auto-complete.
+Searching functionality uses fuzzy search from the [uFuzzy](https://github.com/leeoniya/uFuzzy) library which provides functionality like auto-complete.
 
 #### GET: /api/{dataset}/search
 Searches through multiple languages, files, and keys to find the best match for the search query. If **topResultOnly** is *true*, then returns the ??? object or *undefined* for no result. If **topResultOnly** is *false*, then returns ??? array of ??? objects or empty array for no result.

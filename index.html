@@ -1,0 +1,21 @@
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/KrauseFx/markdown-to-html-github-style/style.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
+    <script>
+        async function buildMd(src) {
+            const converter = new showdown.Converter();
+            const resp = await fetch(src)
+            if (resp.ok) {
+                const md = await resp.text();
+                const html = converter.makeHtml(md);
+                document.getElementById('content').innerHTML = html;
+            }
+        }
+        buildMd('https://raw.githubusercontent.com/theBowja/resleriana-db/main/README.md');
+    </script>
+</head>
+
+<body>
+    <div id="content"></div>
+</body>

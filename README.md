@@ -10,42 +10,66 @@ This repository stores Atelier Resleriana data in four languages and hosts an AP
 - [Contributing](#contributing)
 
 ## Repository structure
-- /api - Contains the 
-- /data - 
+- /api - Contains the API.
+- /data - TODO
+- /dist - TODO
 - /import - Contains the scripts needed to parse out data from masterdata into a slightly more human-readable data format.
-- main.js - Contains the main searching functions used by the API.
-
+- /types - TODO
+- main.mjs - Contains the main data retrieval and searching functions.
 
 ## Data
 
+Data is stored in the `/data` folder and divided into two formats, four languages, and multiple files.  
+Formats: master, parsed.  
+Languages: en, jp, cn-zh, cn-tw
+
+### master
+
+This dataset contains the original data directly from the game.
+
+### parsed
+
+This dataset contains files and data properties curated from the master data.
+
 ## API
 
-The web API is hosted on Vercel serverless functions which may or may not be supported in your region. If it isn't supported in your region, then it is very easy to set up your own API because the routes below map directly to functions within the `main.js` script.
+The web API is hosted on Vercel serverless functions. If access to Vercel servers are not supported in your region, then it is very easy to set up your own API because the routes in `/api` folder map directly to functions exported in the `main.mjs` script.
 
 ### Basic data retrieval
 
-#### /[dataset]/[language]/[file]/all
+#### GET: /api/{dataset}/{language}/{file}
+Retrieves the JSON file for the given dataset, language, and filename.
 
-https://resleriana-db.vercel.app/api/master/en/base_character/all
+Examples:  
+https://resleriana-db.vercel.app/api/master/en/base_character
 
-#### /[dataset]/[language]/[file]/[key]?value=[value]
-retrieves the *first* data object that matches the same key and value
+#### GET: /api/{dataset}/{language}/{file}/{key}
+Retrieves the *first* data object that matches the same key and value.
 
+Query parameters:  
+**value** *{string}* - Description.
+
+Examples:  
 https://resleriana-db.vercel.app/api/master/en/character/id?value=43101
 
 ### Search API
 
-#### [dataset]/search?languages=[languages]&files=[files]&keys=[keys]&query=[query]
+Searching functionality uses the [uFuzzy](https://github.com/leeoniya/uFuzzy) fuzzy search library which provides functionality like auto-complete.
+
+#### GET: /api/{dataset}/search
 search multiple folders and languages
 
-<!-- #### [dataset]/[language]/search?files=[files]&keys=[keys]&query=[query]
-searchs multiple folders
+Query parameters:  
+**languages** *{string}* - Description.  
+**files** *{string}* - Description.  
+**keys** *{string}* - Description.  
+**query** *{string}* - Description.  
 
-#### [dataset]/[language]/[file]/search?keys=[keys]&query=[query] -->
+**topResultOnly** *{boolean?}* - default true.  
+**numberOfResults** *{number?}* - default 3. If topResultOnly is set to false, then this API will return an 
 
-Options
-- topResultOnly: default true. 
-- numberOfResults: default 3. If topResultOnly is set to false, then this API will return an 
+Examples:  
+https://resleriana-db.vercel.app/api/master/en/character/id?value=43101
 
 ## Contributing
 

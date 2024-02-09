@@ -26,12 +26,12 @@ The web API is hosted on Vercel serverless functions which may or may not be sup
 
 #### /[dataset]/[language]/[file]/all
 
-#### /[dataset]/[language]/[file]/id/[id]
-retrieves the data object that matches the same id
+https://resleriana-db.vercel.app/api/master/en/base_character/all
 
-#### /[dataset]/[language]/[file]/name/[name]
-retrieves the data object that matches the same name case-insensitive
+#### /[dataset]/[language]/[file]/[key]?value=[value]
+retrieves the *first* data object that matches the same key and value
 
+https://resleriana-db.vercel.app/api/master/en/character/id?value=43101
 
 ### Search API
 

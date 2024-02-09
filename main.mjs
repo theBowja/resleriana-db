@@ -51,20 +51,10 @@ export function getFile(dataset, language, file) {
 	return loadJSON(dataset, language, file);
 }
 
-/**
- * 
- * @param {string} dataset 
- * @param {string} language 
- * @param {string} file 
- * @param {string} id 
- * @returns 
- */
-export function getDataById(dataset, language, file, id) {
-	const dataFile = getFile(dataset, language, file);
-	if (!dataFile) return undefined;
-	const dataObj = dataFile.find(obj => obj.id === id);
-	if (!dataObj) return undefined;
-	return dataObj;
+function safeToString(x) {
+	if (typeof x === 'string') return x;
+	else if (x instanceof String) return x.toString();
+	else return JSON.stringify(x);
 }
 
 /**
@@ -72,13 +62,14 @@ export function getDataById(dataset, language, file, id) {
  * @param {string} dataset 
  * @param {string} language 
  * @param {string} file 
- * @param {string} name 
+ * @param {string} key
+ * @param {string} value 
  * @returns 
  */
-export function getDataByName(dataset, language, file, name) {
+export function getDataByKey(dataset, language, file, key, value) {
 	const dataFile = getFile(dataset, language, file);
 	if (!dataFile) return undefined;
-	const dataObj = dataFile.find(obj => obj.name.toLowerCase() === name.toLowerCase());
+	const dataObj = dataFile.find(obj => safeToString(obj[key]).toLowerCase() === safeToString(value).toLowerCase());
 	if (!dataObj) return undefined;
 	return dataObj;
 }
@@ -96,7 +87,7 @@ export function searchData(dataset, languages, files, keys, query, options={}) {
 
 	const targets = [];
 
-	// build the list of targets for fuzzysort
+	// build the list of targets for fuzzy search
 	for (const language of languages) {
 		for (const file of files) {
 			const dataFile = getFile(dataset, language, file);

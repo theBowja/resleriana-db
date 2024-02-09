@@ -1,7 +1,7 @@
 {
 	"headers": [
 		{
-			"source": "/api/parsed/*",
+			"source": "/api/parsed/**",
 			"headers": [
 				{ "key": "Cache-Control", "value": "s-maxage=604800" },
 				{ "key": "Access-Control-Allow-Origin", "value": "*" },

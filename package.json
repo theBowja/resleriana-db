@@ -2,9 +2,9 @@
   "name": "resleriana-db",
   "version": "0.0.0",
   "description": "Stores Atelier Resleriana data and hosts an API for it",
-  "main": "main.js",
+  "main": "main.mjs",
   "scripts": {
-    "import": "node import.js -- en"
+    "import": "cd import && node import.js"
   },
   "author": "theBowja",
   "license": "MIT",

@@ -3,24 +3,25 @@
     "id": 10101,
     "name": "Marie",
     "title": "Lovely Bomber",
-    "fullName": "Marlone",
-    "baseCharacter": "Marie",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Marlone",
+    "base_character": "Marie",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "FIRE",
     "role": "BREAKER",
-    "initialRarity": 3,
-    "acquisitionText": "Anything is possible through alchemy.\nShall we find out what we can accomplish together?",
+    "initial_rarity": 3,
+    "acquisition_text": "Anything is possible through alchemy.\nShall we find out what we can accomplish together?",
     "profile": {
-      "voiceActor": "Haruna Ikezawa",
-      "voiceText": "I'm Marlone from Salburg Academy. I hope my alchemy can be of some assistance.",
+      "voice_actor": "Haruna Ikezawa",
+      "voice_text": "I'm Marlone from Salburg Academy. I hope my alchemy can be of some assistance.",
       "description": "An energetic, tomboyish alchemist who studied alchemy at the academy in a certain town. She now travels across the regions of Lantarna in search of the truth of alchemy. While she is bright and friendly, she can be lazy and a little careless at times. Her tendency to solve problems with bombs has also earned her a reputation as a bomb enthusiast.",
-      "originGame": "Atelier Marie: The Alchemist of Salburg"
+      "origin_game": "Atelier Marie: The Alchemist of Salburg"
     },
-    "giftColor": { "received": "GREEN", "given": "PURPLE" },
+    "gift_color": { "received": "GREEN", "given": "PURPLE" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 5,
           "name": "Magic Blessing",
           "category": "ATTACK",
           "description": "Boosts magic attack damage by {0}%.",
@@ -33,6 +34,7 @@
           ]
         },
         {
+          "id": 13,
           "name": "Mighty Curse",
           "category": "WEAKENING",
           "description": "Boosts physical damage target receives by {0}% for 1 attack.",
@@ -47,6 +49,7 @@
       ],
       "equipment": [
         {
+          "id": 13,
           "name": "Stun Damage Boost",
           "category": "ATTACK",
           "description": "Boosts stun damage by {0}%.",
@@ -169,24 +172,25 @@
     "id": 10301,
     "name": "Mu",
     "title": "The Southern Adventurer",
-    "fullName": "Mu Seqstanse",
-    "baseCharacter": "Mu",
-    "isAlchemist": false,
-    "gender": "FEMALE",
+    "full_name": "Mu Seqstanse",
+    "base_character": "Mu",
+    "is_alchemist": false,
+    "gender": "Female",
     "attribute": "STAB",
     "role": "ATTACKER",
-    "initialRarity": 3,
-    "acquisitionText": "Sounds like fun.\nHeheh. Mind if I come along?",
+    "initial_rarity": 3,
+    "acquisition_text": "Sounds like fun.\nHeheh. Mind if I come along?",
     "profile": {
-      "voiceActor": "Madoka Asahina",
-      "voiceText": "I'm Mu. I came from the same world as Marie. Nice to meet you.",
+      "voice_actor": "Madoka Asahina",
+      "voice_text": "I'm Mu. I came from the same world as Marie. Nice to meet you.",
       "description": "A free-spirited adventurer who wanders the land looking for fun and interesting things to do. Though she can seem reckless and hard to pin down, she will see any task given to her through to the end. She dislikes cold places, probably because she was born in a warm climate.",
-      "originGame": "Atelier Marie: The Alchemist of Salburg"
+      "origin_game": "Atelier Marie: The Alchemist of Salburg"
     },
-    "giftColor": { "received": "YELLOW", "given": "RED" },
+    "gift_color": { "received": "YELLOW", "given": "RED" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 50,
           "name": "Critical Finish",
           "category": "ENHANCE",
           "description": "Boosts critical rate by {0}% for 1 turn.",
@@ -199,6 +203,7 @@
           ]
         },
         {
+          "id": 7,
           "name": "Ice Blessing",
           "category": "ATTACK",
           "description": "Boosts Ice damage by {0}%.",
@@ -213,6 +218,7 @@
       ],
       "equipment": [
         {
+          "id": 5,
           "name": "Stab Damage Boost",
           "category": "ATTACK",
           "description": "Boosts Stab skill damage by {0}%.",
@@ -343,24 +349,25 @@
     "id": 10701,
     "name": "Ruven",
     "title": "Hot-Blooded Adventurer",
-    "fullName": "Ruven Filnir",
-    "baseCharacter": "Ruven",
-    "isAlchemist": false,
-    "gender": "MALE",
+    "full_name": "Ruven Filnir",
+    "base_character": "Ruven",
+    "is_alchemist": false,
+    "gender": "Male",
     "attribute": "SLASH",
     "role": "ATTACKER",
-    "initialRarity": 2,
-    "acquisitionText": "Looking for a bodyguard?\nYou can count on me!",
+    "initial_rarity": 2,
+    "acquisition_text": "Looking for a bodyguard?\nYou can count on me!",
     "profile": {
-      "voiceActor": "Jurota Kosugi",
-      "voiceText": "I'm Ruven, a run-of-the-mill adventurer. My fee may be cheap, but I work hard for that cole!",
+      "voice_actor": "Jurota Kosugi",
+      "voice_text": "I'm Ruven, a run-of-the-mill adventurer. My fee may be cheap, but I work hard for that cole!",
       "description": "A spirited young adventurer who makes his living in the capital by fulfilling all kinds of requests. He is energetic and optimistic. Though he suffered many setbacks at first, he has grown through his experiences.",
-      "originGame": "Atelier Marie: The Alchemist of Salburg"
+      "origin_game": "Atelier Marie: The Alchemist of Salburg"
     },
-    "giftColor": { "received": "RED", "given": "YELLOW" },
+    "gift_color": { "received": "RED", "given": "YELLOW" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 2,
           "name": "Slash Blessing",
           "category": "ATTACK",
           "description": "Boosts Slash damage by {0}%.",
@@ -373,6 +380,7 @@
           ]
         },
         {
+          "id": 16,
           "name": "Stab Curse",
           "category": "WEAKENING",
           "description": "Reduces target's Stab resistance by {0}% for 1 attack.",
@@ -387,6 +395,7 @@
       ],
       "equipment": [
         {
+          "id": 2,
           "name": "Skill Power Up",
           "category": "ATTACK",
           "description": "Boosts skill power by {0}%.",
@@ -511,24 +520,25 @@
     "id": 12001,
     "name": "Elie",
     "title": "Cheesecake Connoisseur",
-    "fullName": "Elfir Traum",
-    "baseCharacter": "Elie",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Elfir Traum",
+    "base_character": "Elie",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "AIR",
     "role": "SUPPORTER",
-    "initialRarity": 3,
-    "acquisitionText": "I want to become a wonderful alchemist, just like that person. That's my dream.",
+    "initial_rarity": 3,
+    "acquisition_text": "I want to become a wonderful alchemist, just like that person. That's my dream.",
     "profile": {
-      "voiceActor": "Miki Nagasawa",
-      "voiceText": "My name is Elfir. I adore sweets. Especially cheesecake!",
+      "voice_actor": "Miki Nagasawa",
+      "voice_text": "My name is Elfir. I adore sweets. Especially cheesecake!",
       "description": "A sweet-toothed alchemist. Having been cured of illness as a child through alchemy, she has since devoted herself to its study. While she is serious and precise, she can also get rather flustered at times. A lover of desserts, cheesecakes are a particular weakness of hers.",
-      "originGame": "Atelier Elie: The Alchemist of Salburg 2"
+      "origin_game": "Atelier Elie: The Alchemist of Salburg 2"
     },
-    "giftColor": { "received": "RED", "given": "GREEN" },
+    "gift_color": { "received": "RED", "given": "GREEN" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 15,
           "name": "Strike Curse",
           "category": "WEAKENING",
           "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
@@ -541,6 +551,7 @@
           ]
         },
         {
+          "id": 46,
           "name": "All Recovery Bonus",
           "category": "RECOVERY",
           "description": "Boosts HP recovery given to all allies by {0}%.",
@@ -555,6 +566,7 @@
       ],
       "equipment": [
         {
+          "id": 39,
           "name": "Recovery Boost",
           "category": "RECOVERY",
           "description": "Boosts recovery given by {0}%.",
@@ -673,24 +685,25 @@
     "id": 13401,
     "name": "Lilie",
     "title": "Birth of The Legend",
-    "fullName": "Lilie",
-    "baseCharacter": "Lilie",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Lilie",
+    "base_character": "Lilie",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "BOLT",
     "role": "BREAKER",
-    "initialRarity": 3,
-    "acquisitionText": "Is everyone ready? Well then, let's start the lesson!",
+    "initial_rarity": 3,
+    "acquisition_text": "Is everyone ready? Well then, let's start the lesson!",
     "profile": {
-      "voiceActor": "Megumi Nasu",
-      "voiceText": "I still have so much to learn about the alchemy of this world, so teach me whatever you can!",
+      "voice_actor": "Megumi Nasu",
+      "voice_text": "I still have so much to learn about the alchemy of this world, so teach me whatever you can!",
       "description": "An optimistic, tomboyish alchemist who was once involved in the establishment of a school for alchemy in a certain area, but is currently on a journey to rebuild her skills from the ground up. While she is quick to get fired up about things, that personality trait is also her downfall. She loves any and all sweet treats.",
-      "originGame": "Atelier Lilie: The Alchemist of Salburg 3"
+      "origin_game": "Atelier Lilie: The Alchemist of Salburg 3"
     },
-    "giftColor": { "received": "YELLOW", "given": "BLUE" },
+    "gift_color": { "received": "YELLOW", "given": "BLUE" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 8,
           "name": "Air Blessing",
           "category": "ATTACK",
           "description": "Boosts Air damage by {0}%.",
@@ -703,6 +716,7 @@
           ]
         },
         {
+          "id": 49,
           "name": "Chaser Charge",
           "category": "ATTACK",
           "description": "Boosts damage to stunned enemies by {0}%.",
@@ -717,6 +731,7 @@
       ],
       "equipment": [
         {
+          "id": 8,
           "name": "Air Damage Boost",
           "category": "ATTACK",
           "description": "Boosts Air skill damage by {0}%.",
@@ -833,24 +848,25 @@
     "id": 15101,
     "name": "Judie",
     "title": "Hero of Tempest",
-    "fullName": "Judith Volltone",
-    "baseCharacter": "Judie",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Judith Volltone",
+    "base_character": "Judie",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "FIRE",
     "role": "DEFENDER",
-    "initialRarity": 3,
-    "acquisitionText": "It must be fate that we've met here!\nTake me with you, too!",
+    "initial_rarity": 3,
+    "acquisition_text": "It must be fate that we've met here!\nTake me with you, too!",
     "profile": {
-      "voiceActor": "Rie Kanda",
-      "voiceText": "I failed at synthesis once and got blasted 200 years into the future.",
+      "voice_actor": "Rie Kanda",
+      "voice_text": "I failed at synthesis once and got blasted 200 years into the future.",
       "description": "A carefree alchemist.\nShe travels the world researching ways to create a special item called the Dragon's Hourglass, but has a hard time finding the funds to do so.\nShe's decisive and doesn't let adversity drag her down. However, her tendency to act without thinking can also land her in trouble.",
-      "originGame": "Atelier Judie: The Alchemist of Gramnad"
+      "origin_game": "Atelier Judie: The Alchemist of Gramnad"
     },
-    "giftColor": { "received": "PURPLE", "given": "BLUE" },
+    "gift_color": { "received": "PURPLE", "given": "BLUE" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 46,
           "name": "All Recovery Bonus",
           "category": "RECOVERY",
           "description": "Boosts HP recovery given to all allies by {0}%.",
@@ -863,6 +879,7 @@
           ]
         },
         {
+          "id": 20,
           "name": "Air Curse",
           "category": "WEAKENING",
           "description": "Reduces target's Air resistance by {0}% for 1 attack.",
@@ -877,6 +894,7 @@
       ],
       "equipment": [
         {
+          "id": 26,
           "name": "Magic Resistance Up",
           "category": "ENHANCE",
           "description": "Reduces damage received from magic attacks by {0}%.",
@@ -1004,24 +1022,25 @@
     "id": 16501,
     "name": "Viorate",
     "title": "Carrot-Lover from Karotte",
-    "fullName": "Viorate Platane",
-    "baseCharacter": "Viorate",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Viorate Platane",
+    "base_character": "Viorate",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "ICE",
     "role": "ATTACKER",
-    "initialRarity": 2,
-    "acquisitionText": "One carrot, two carrots...\nOh, hello! You found me!",
+    "initial_rarity": 2,
+    "acquisition_text": "One carrot, two carrots...\nOh, hello! You found me!",
     "profile": {
-      "voiceActor": "Noriko Shitaya",
-      "voiceText": "I just love carrots. I make sure to eat them with every meal!",
+      "voice_actor": "Noriko Shitaya",
+      "voice_text": "I just love carrots. I make sure to eat them with every meal!",
       "description": "An alchemist from Karotte Village who loves carrots, her hometown's specialty. She grows carrots herself and is always trying to get people to eat more of them. She is very opinionated when it comes to carrots, insisting that one cannot live without them.",
-      "originGame": "Atelier Viorate: The Alchemist of Gramnad 2"
+      "origin_game": "Atelier Viorate: The Alchemist of Gramnad 2"
     },
-    "giftColor": { "received": "PURPLE", "given": "YELLOW" },
+    "gift_color": { "received": "PURPLE", "given": "YELLOW" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 9,
           "name": "Bolt Blessing",
           "category": "ATTACK",
           "description": "Boosts Bolt damage by {0}%.",
@@ -1034,6 +1053,7 @@
           ]
         },
         {
+          "id": 18,
           "name": "Fire Curse",
           "category": "WEAKENING",
           "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
@@ -1048,6 +1068,7 @@
       ],
       "equipment": [
         {
+          "id": 9,
           "name": "Bolt Damage Boost",
           "category": "ATTACK",
           "description": "Boosts Bolt skill damage by {0}%.",
@@ -1187,24 +1208,25 @@
     "id": 22001,
     "name": "Vayne",
     "title": "The Power to Grant Wishes",
-    "fullName": "Vayne Aurelius",
-    "baseCharacter": "Vayne",
-    "isAlchemist": true,
-    "gender": "MALE",
+    "full_name": "Vayne Aurelius",
+    "base_character": "Vayne",
+    "is_alchemist": true,
+    "gender": "Male",
     "attribute": "BOLT",
     "role": "ATTACKER",
-    "initialRarity": 2,
-    "acquisitionText": "If I can be of use...\nNo, I'm sure I can pull my weight.",
+    "initial_rarity": 2,
+    "acquisition_text": "If I can be of use...\nNo, I'm sure I can pull my weight.",
     "profile": {
-      "voiceActor": "Akira Ishida",
-      "voiceText": "I'm still not sure what I want to accomplish as an alchemist. But I know I want to help people out.",
+      "voice_actor": "Akira Ishida",
+      "voice_text": "I'm still not sure what I want to accomplish as an alchemist. But I know I want to help people out.",
       "description": "A student of the alchemy Academy.\nThrough his time at the Academy, he has reevaluated himself and is now on a journey to find what he wants to do.\nQuiet and perhaps a bit too kind-hearted, he sometimes gets caught up in the problems of others. He used to be shy around people but was able to open up with the help of his schoolmates.",
-      "originGame": "Mana Khemia: Alchemists of Al-Revis"
+      "origin_game": "Mana Khemia: Alchemists of Al-Revis"
     },
-    "giftColor": { "received": "GREEN", "given": "BLUE" },
+    "gift_color": { "received": "GREEN", "given": "BLUE" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 9,
           "name": "Bolt Blessing",
           "category": "ATTACK",
           "description": "Boosts Bolt damage by {0}%.",
@@ -1217,6 +1239,7 @@
           ]
         },
         {
+          "id": 28,
           "name": "Bolt Shield",
           "category": "ENHANCE",
           "description": "Boosts target's Bolt resistance by {0}% for 1 attack.",
@@ -1231,6 +1254,7 @@
       ],
       "equipment": [
         {
+          "id": 22,
           "name": "Ice Resistance Up",
           "category": "ENHANCE",
           "description": "Boosts Ice resistance by {0}%.",
@@ -1354,24 +1378,25 @@
     "id": 23501,
     "name": "Raze",
     "title": "Sword of Light",
-    "fullName": "Razeluxe Meitzen",
-    "baseCharacter": "Raze",
-    "isAlchemist": true,
-    "gender": "MALE",
+    "full_name": "Razeluxe Meitzen",
+    "base_character": "Raze",
+    "is_alchemist": true,
+    "gender": "Male",
     "attribute": "SLASH",
     "role": "BREAKER",
-    "initialRarity": 3,
-    "acquisitionText": "Sheesh, things aren't lookin' up for me again.\nSorry, but I'm going to need to tag along.",
+    "initial_rarity": 3,
+    "acquisition_text": "Sheesh, things aren't lookin' up for me again.\nSorry, but I'm going to need to tag along.",
     "profile": {
-      "voiceActor": "Daisuke Ono",
-      "voiceText": "In my world, I made my living as the servant of a mansion. So, what can I get up to here?",
+      "voice_actor": "Daisuke Ono",
+      "voice_text": "In my world, I made my living as the servant of a mansion. So, what can I get up to here?",
       "description": "A reserved and direct alchemist.\nHe used to serve a young lady of a prominent family, but now that he is free, he is on a journey for self-discovery.\nDespite seeming unfriendly, he is surprisingly good at taking care of others. He is a capable fighter thanks to the sword skills his grandfather drilled into him at an early age.",
-      "originGame": "Mana Khemia 2: Fall of Alchemy"
+      "origin_game": "Mana Khemia 2: Fall of Alchemy"
     },
-    "giftColor": { "received": "YELLOW", "given": "RED" },
+    "gift_color": { "received": "YELLOW", "given": "RED" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 13,
           "name": "Mighty Curse",
           "category": "WEAKENING",
           "description": "Boosts physical damage target receives by {0}% for 1 attack.",
@@ -1384,6 +1409,7 @@
           ]
         },
         {
+          "id": 11,
           "name": "Magic Defense Blessing",
           "category": "ENHANCE",
           "description": "Boosts M. DEF by {0}% for 1 attack.",
@@ -1398,6 +1424,7 @@
       ],
       "equipment": [
         {
+          "id": 14,
           "name": "Physical Stun Damage Boost",
           "category": "ATTACK",
           "description": "Boosts physical stun damage by {0}%.",
@@ -1521,24 +1548,25 @@
     "id": 25501,
     "name": "Rorona",
     "title": "5-Star Pie Meister",
-    "fullName": "Rorolina Frixell",
-    "baseCharacter": "Rorona",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Rorolina Frixell",
+    "base_character": "Rorona",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "ICE",
     "role": "ATTACKER",
-    "initialRarity": 3,
-    "acquisitionText": "I might be able to make a new assortment of pies for you!\nPlease take me along with you!",
+    "initial_rarity": 3,
+    "acquisition_text": "I might be able to make a new assortment of pies for you!\nPlease take me along with you!",
     "profile": {
-      "voiceActor": "Mai Kadowaki",
-      "voiceText": "Heehee, I love making pies every day. Working at this cafe was the right choice!",
+      "voice_actor": "Mai Kadowaki",
+      "voice_text": "Heehee, I love making pies every day. Working at this cafe was the right choice!",
       "description": "A bright and energetic alchemist.\nShe has an extraordinary passion for making pies, and is constantly working on her skills so that she can delight people with her pies.\nShe's a bit clumsy and can be air-headed, but she has a positive outlook and works hard.",
-      "originGame": "Atelier Rorona ~The Alchemist of Arland~"
+      "origin_game": "Atelier Rorona ~The Alchemist of Arland~"
     },
-    "giftColor": { "received": "GREEN", "given": "RED" },
+    "gift_color": { "received": "GREEN", "given": "RED" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 17,
           "name": "Magic Curse",
           "category": "WEAKENING",
           "description": "Boosts magic damage target receives by {0}% for 1 attack.",
@@ -1551,6 +1579,7 @@
           ]
         },
         {
+          "id": 49,
           "name": "Chaser Charge",
           "category": "ATTACK",
           "description": "Boosts damage to stunned enemies by {0}%.",
@@ -1565,6 +1594,7 @@
       ],
       "equipment": [
         {
+          "id": 7,
           "name": "Ice Damage Boost",
           "category": "ATTACK",
           "description": "Boosts Ice skill damage by {0}%.",
@@ -1687,24 +1717,25 @@
     "id": 25601,
     "name": "Cordelia",
     "title": "Noblewoman",
-    "fullName": "Cordelia von Feuerbach",
-    "baseCharacter": "Cordelia",
-    "isAlchemist": false,
-    "gender": "FEMALE",
+    "full_name": "Cordelia von Feuerbach",
+    "base_character": "Cordelia",
+    "is_alchemist": false,
+    "gender": "Female",
     "attribute": "STAB",
     "role": "ATTACKER",
-    "initialRarity": 1,
-    "acquisitionText": "You're startin' to cheese me off.\nFine, I'll come along if you're that anxious.",
+    "initial_rarity": 1,
+    "acquisition_text": "You're startin' to cheese me off.\nFine, I'll come along if you're that anxious.",
     "profile": {
-      "voiceActor": "Mei Shibata",
-      "voiceText": "My name is Cordelia. Looks like I'll have to stay strong here too.",
+      "voice_actor": "Mei Shibata",
+      "voice_text": "My name is Cordelia. Looks like I'll have to stay strong here too.",
       "description": "A noblewoman who finds it hard to talk about her feelings. She often worries about her childhood friend, the alchemist Rorona, and tries to take care of her. Though short-tempered, her brusque demeanor belies a loving heart. She is self-conscious about her small size and hates discussing her height.",
-      "originGame": "Atelier Rorona ~The Alchemist of Arland~"
+      "origin_game": "Atelier Rorona ~The Alchemist of Arland~"
     },
-    "giftColor": { "received": "PURPLE", "given": "BLUE" },
+    "gift_color": { "received": "PURPLE", "given": "BLUE" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 15,
           "name": "Strike Curse",
           "category": "WEAKENING",
           "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
@@ -1717,6 +1748,7 @@
           ]
         },
         {
+          "id": 26,
           "name": "Ice Shield",
           "category": "ENHANCE",
           "description": "Boosts target's Ice resistance by {0}% for 1 attack.",
@@ -1731,6 +1763,7 @@
       ],
       "equipment": [
         {
+          "id": 1,
           "name": "Dealt Damage Boost",
           "category": "ATTACK",
           "description": "Boosts skill damage by {0}%.",
@@ -1853,24 +1886,25 @@
     "id": 25801,
     "name": "Iksel",
     "title": "Fighting Chef",
-    "fullName": "Iksel Jahnn",
-    "baseCharacter": "Iksel",
-    "isAlchemist": false,
-    "gender": "MALE",
+    "full_name": "Iksel Jahnn",
+    "base_character": "Iksel",
+    "is_alchemist": false,
+    "gender": "Male",
     "attribute": "FIRE",
     "role": "SUPPORTER",
-    "initialRarity": 3,
-    "acquisitionText": "The best ingredients are the ones you seek out yourself.\nOnward to good eats!",
+    "initial_rarity": 3,
+    "acquisition_text": "The best ingredients are the ones you seek out yourself.\nOnward to good eats!",
     "profile": {
-      "voiceActor": "Shinnosuke Tachibana",
-      "voiceText": "I used to do a lot of cooking in my own world, too. So I think helping at the cafe could be a really worthwhile experience.",
+      "voice_actor": "Shinnosuke Tachibana",
+      "voice_text": "I used to do a lot of cooking in my own world, too. So I think helping at the cafe could be a really worthwhile experience.",
       "description": "A passionate chef.\nHe is in charge of the kitchen at a cafe in the royal capital. His favorite frying pan, which he uses for cooking, at times doubles as a weapon against monsters.\nHe often accompanied his childhood friend, the alchemist Rorona, on her gathering expeditions, helping her out whenever she messed things up. He has a mature disposition but hates to lose and can become heated in competitions.",
-      "originGame": "Atelier Rorona ~The Alchemist of Arland~"
+      "origin_game": "Atelier Rorona ~The Alchemist of Arland~"
     },
-    "giftColor": { "received": "PURPLE", "given": "YELLOW" },
+    "gift_color": { "received": "PURPLE", "given": "YELLOW" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 11,
           "name": "Magic Defense Blessing",
           "category": "ENHANCE",
           "description": "Boosts M. DEF by {0}% for 1 attack.",
@@ -1883,6 +1917,7 @@
           ]
         },
         {
+          "id": 19,
           "name": "Ice Curse",
           "category": "WEAKENING",
           "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
@@ -1897,6 +1932,7 @@
       ],
       "equipment": [
         {
+          "id": 20,
           "name": "Stab Resistance Up",
           "category": "ENHANCE",
           "description": "Boosts Stab resistance by {0}%.",
@@ -2025,24 +2061,25 @@
     "id": 26501,
     "name": "Esty",
     "title": "Reliable Receptionist",
-    "fullName": "Esty Dee",
-    "baseCharacter": "Esty",
-    "isAlchemist": false,
-    "gender": "FEMALE",
+    "full_name": "Esty Dee",
+    "base_character": "Esty",
+    "is_alchemist": false,
+    "gender": "Female",
     "attribute": "SLASH",
     "role": "ATTACKER",
-    "initialRarity": 2,
-    "acquisitionText": "Looking for a companion on your journey?\nJust leave it to me!",
+    "initial_rarity": 2,
+    "acquisition_text": "Looking for a companion on your journey?\nJust leave it to me!",
     "profile": {
-      "voiceActor": "Rina Sato",
-      "voiceText": "My name is Esty. In my world, I worked as a palace receptionist. It's nice to meet you!",
+      "voice_actor": "Rina Sato",
+      "voice_text": "My name is Esty. In my world, I worked as a palace receptionist. It's nice to meet you!",
       "description": "A receptionist who worked in the royal palace of a certain kingdom.\nShe has experience in covert operations and uses her skills to conduct various investigations.\nShe is talkative, cheerful, and good-natured but worries that she has no life outside her work.",
-      "originGame": "Atelier Rorona ~The Alchemist of Arland~"
+      "origin_game": "Atelier Rorona ~The Alchemist of Arland~"
     },
-    "giftColor": { "received": "BLUE", "given": "PURPLE" },
+    "gift_color": { "received": "BLUE", "given": "PURPLE" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 14,
           "name": "Slash Curse",
           "category": "WEAKENING",
           "description": "Reduces target's Slash resistance by {0}% for 1 attack.",
@@ -2055,6 +2092,7 @@
           ]
         },
         {
+          "id": 25,
           "name": "Fire Shield",
           "category": "ENHANCE",
           "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
@@ -2069,6 +2107,7 @@
       ],
       "equipment": [
         {
+          "id": 25,
           "name": "Physical Resistance Up",
           "category": "ENHANCE",
           "description": "Reduces damage received from physical attacks by {0}%.",
@@ -2197,24 +2236,25 @@
     "id": 26901,
     "name": "Totori",
     "title": "Daughter of a Powerful Lady",
-    "fullName": "Totooria Helmold",
-    "baseCharacter": "Totori",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Totooria Helmold",
+    "base_character": "Totori",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "ICE",
     "role": "SUPPORTER",
-    "initialRarity": 2,
-    "acquisitionText": "There's somewhere I need to go.\nPlease—you've GOT to take me along!",
+    "initial_rarity": 2,
+    "acquisition_text": "There's somewhere I need to go.\nPlease—you've GOT to take me along!",
     "profile": {
-      "voiceActor": "Kaori Nazuka",
-      "voiceText": "I used to be an adventurer back in my world. I'll try to make myself useful around here.",
+      "voice_actor": "Kaori Nazuka",
+      "voice_text": "I used to be an adventurer back in my world. I'll try to make myself useful around here.",
       "description": "An alchemist from a fishing village.\nWith the goal of traveling outside the continent, she currently works in the bay area of the royal capital. \nAlthough she is usually quite gentle, she may sometimes unintentionally demoralize others by speaking her mind without thinking.",
-      "originGame": "Atelier Totori ~The Adventurer of Arland~"
+      "origin_game": "Atelier Totori ~The Adventurer of Arland~"
     },
-    "giftColor": { "received": "GREEN", "given": "PURPLE" },
+    "gift_color": { "received": "GREEN", "given": "PURPLE" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 44,
           "name": "Ample Healing",
           "category": "RECOVERY",
           "description": "Boosts HP recovery given by {0}%.",
@@ -2227,6 +2267,7 @@
           ]
         },
         {
+          "id": 11,
           "name": "Magic Defense Blessing",
           "category": "ENHANCE",
           "description": "Boosts M. DEF by {0}% for 1 attack.",
@@ -2241,6 +2282,7 @@
       ],
       "equipment": [
         {
+          "id": 39,
           "name": "Recovery Boost",
           "category": "RECOVERY",
           "description": "Boosts recovery given by {0}%.",
@@ -2375,24 +2417,25 @@
     "id": 28401,
     "name": "Meruru",
     "title": "Powerful Princess",
-    "fullName": "Merurulince Rede Arls",
-    "baseCharacter": "Meruru",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Merurulince Rede Arls",
+    "base_character": "Meruru",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "AIR",
     "role": "SUPPORTER",
-    "initialRarity": 2,
-    "acquisitionText": "You don't need to call for me to come running!\nMeruru the alchemist, at your service!",
+    "initial_rarity": 2,
+    "acquisition_text": "You don't need to call for me to come running!\nMeruru the alchemist, at your service!",
     "profile": {
-      "voiceActor": "Satomi Akesaka",
-      "voiceText": "Everyone calls me Meruru. Nice to meet you.",
+      "voice_actor": "Satomi Akesaka",
+      "voice_text": "Everyone calls me Meruru. Nice to meet you.",
       "description": "A princess turned alchemist. Though she was once next in line to the throne of a certain country, she now travels the land freely. Her dream is to accomplish something great with her alchemy. She is cheerful and proactive to a fault, and often ends up acting without thinking things through.",
-      "originGame": "Atelier Meruru ~The Apprentice of Arland~"
+      "origin_game": "Atelier Meruru ~The Apprentice of Arland~"
     },
-    "giftColor": { "received": "RED", "given": "GREEN" },
+    "gift_color": { "received": "RED", "given": "GREEN" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 4,
           "name": "Stab Blessing",
           "category": "ATTACK",
           "description": "Boosts Stab damage by {0}%.",
@@ -2405,6 +2448,7 @@
           ]
         },
         {
+          "id": 27,
           "name": "Air Shield",
           "category": "ENHANCE",
           "description": "Boosts target's Air resistance by {0}% for 1 attack.",
@@ -2419,6 +2463,7 @@
       ],
       "equipment": [
         {
+          "id": 11,
           "name": "Magic Damage Boost",
           "category": "ATTACK",
           "description": "Boosts magic skill damage by {0}%.",
@@ -2534,24 +2579,25 @@
     "id": 28402,
     "name": "Meruru",
     "title": "Damsel in Distress",
-    "fullName": "Merurulince Rede Arls",
-    "baseCharacter": "Meruru",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Merurulince Rede Arls",
+    "base_character": "Meruru",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "ICE",
     "role": "ATTACKER",
-    "initialRarity": 3,
-    "acquisitionText": "It's almost time for the party! Come on, let's go!",
+    "initial_rarity": 3,
+    "acquisition_text": "It's almost time for the party! Come on, let's go!",
     "profile": {
-      "voiceActor": "Satomi Akesaka",
-      "voiceText": "I may not be a princess anymore, but I haven't forgotten my manners!",
+      "voice_actor": "Satomi Akesaka",
+      "voice_text": "I may not be a princess anymore, but I haven't forgotten my manners!",
       "description": "A princess-turned-alchemist. She turned her back on everything she knew, setting out on a grand adventure, to accomplish something even greater with alchemy. As a former royal, she is no stranger to fashionable clothing, but her energetic nature means that she'll rush headlong into her tasks without a care for how dirty her dress gets.",
-      "originGame": "Atelier Meruru ~The Apprentice of Arland~"
+      "origin_game": "Atelier Meruru ~The Apprentice of Arland~"
     },
-    "giftColor": { "received": "YELLOW", "given": "GREEN" },
+    "gift_color": { "received": "YELLOW", "given": "GREEN" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 19,
           "name": "Ice Curse",
           "category": "WEAKENING",
           "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
@@ -2564,6 +2610,7 @@
           ]
         },
         {
+          "id": 10,
           "name": "Guardian's Blessing",
           "category": "ENHANCE",
           "description": "Boosts P. DEF by {0}% and M. DEF by {1}% for 1 attack.",
@@ -2583,6 +2630,7 @@
       ],
       "equipment": [
         {
+          "id": 27,
           "name": "Single Attack Power Up",
           "category": "ATTACK",
           "description": "Boosts single-target skill power by {0}%.",
@@ -2699,24 +2747,25 @@
     "id": 29201,
     "name": "Ayesha",
     "title": "MARIA of Dusk",
-    "fullName": "Ayesha Altugle",
-    "baseCharacter": "Ayesha",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Ayesha Altugle",
+    "base_character": "Ayesha",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "AIR",
     "role": "SUPPORTER",
-    "initialRarity": 3,
-    "acquisitionText": "Your pain, your suffering...\nI'll heal it all away!",
+    "initial_rarity": 3,
+    "acquisition_text": "Your pain, your suffering...\nI'll heal it all away!",
     "profile": {
-      "voiceActor": "Marina Inoue",
-      "voiceText": "I used to work as an apothecary, so leave the medicine to me.",
+      "voice_actor": "Marina Inoue",
+      "voice_text": "I used to work as an apothecary, so leave the medicine to me.",
       "description": "A soft-hearted, compassionate alchemist.\nShe makes medicines for residents suffering from injuries and illnesses, and takes care of Valeria, who is often covered in wounds.\nShe is friendly and has a gentle nature, but can be a bit of an airhead. She is very curious and is quick to act when something interests her.",
-      "originGame": "Atelier Ayesha ~The Alchemist of Dusk~"
+      "origin_game": "Atelier Ayesha ~The Alchemist of Dusk~"
     },
-    "giftColor": { "received": "YELLOW", "given": "BLUE" },
+    "gift_color": { "received": "YELLOW", "given": "BLUE" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 44,
           "name": "Ample Healing",
           "category": "RECOVERY",
           "description": "Boosts HP recovery given by {0}%.",
@@ -2729,6 +2778,7 @@
           ]
         },
         {
+          "id": 50,
           "name": "Critical Finish",
           "category": "ENHANCE",
           "description": "Boosts critical rate by {0}% for 1 turn.",
@@ -2743,6 +2793,7 @@
       ],
       "equipment": [
         {
+          "id": 39,
           "name": "Recovery Boost",
           "category": "RECOVERY",
           "description": "Boosts recovery given by {0}%.",
@@ -2869,24 +2920,25 @@
     "id": 29301,
     "name": "Wilbell",
     "title": "Magical Trick Star",
-    "fullName": "Wilbell Voll-Ersleid",
-    "baseCharacter": "Wilbell",
-    "isAlchemist": false,
-    "gender": "FEMALE",
+    "full_name": "Wilbell Voll-Ersleid",
+    "base_character": "Wilbell",
+    "is_alchemist": false,
+    "gender": "Female",
     "attribute": "FIRE",
     "role": "ATTACKER",
-    "initialRarity": 3,
-    "acquisitionText": "You seek my power? Very well!\nEntrust your needs to the Great Magician, Wilbell!",
+    "initial_rarity": 3,
+    "acquisition_text": "You seek my power? Very well!\nEntrust your needs to the Great Magician, Wilbell!",
     "profile": {
-      "voiceActor": "Asami Seto",
-      "voiceText": "Oh! Make sure not to tell anyone I can use magic!",
+      "voice_actor": "Asami Seto",
+      "voice_text": "Oh! Make sure not to tell anyone I can use magic!",
       "description": "A young magician girl. She journeys far and wide for her training, aiming to one day become a powerful magician just like her revered great-great grandmother. Full of vigor and zest, she can sometimes be a little childish, and other times she takes on an air of grandeur.",
-      "originGame": "Atelier Ayesha ~The Alchemist of Dusk~"
+      "origin_game": "Atelier Ayesha ~The Alchemist of Dusk~"
     },
-    "giftColor": { "received": "PURPLE", "given": "RED" },
+    "gift_color": { "received": "PURPLE", "given": "RED" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 6,
           "name": "Fire Blessing",
           "category": "ATTACK",
           "description": "Boosts Fire damage by {0}%.",
@@ -2899,6 +2951,7 @@
           ]
         },
         {
+          "id": 15,
           "name": "Strike Curse",
           "category": "WEAKENING",
           "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
@@ -2913,6 +2966,7 @@
       ],
       "equipment": [
         {
+          "id": 11,
           "name": "Magic Damage Boost",
           "category": "ATTACK",
           "description": "Boosts magic skill damage by {0}%.",
@@ -3026,24 +3080,25 @@
     "id": 29401,
     "name": "Regina",
     "title": "Excavation Expert",
-    "fullName": "Regina Kurtis",
-    "baseCharacter": "Regina",
-    "isAlchemist": false,
-    "gender": "FEMALE",
+    "full_name": "Regina Kurtis",
+    "base_character": "Regina",
+    "is_alchemist": false,
+    "gender": "Female",
     "attribute": "FIRE",
     "role": "DEFENDER",
-    "initialRarity": 1,
-    "acquisitionText": "Just leave it to me!\nI'll uncover an incredible treasure, just you watch!",
+    "initial_rarity": 1,
+    "acquisition_text": "Just leave it to me!\nI'll uncover an incredible treasure, just you watch!",
     "profile": {
-      "voiceActor": "Fumie Mizusawa",
-      "voiceText": "Regina the Prospector is here for all your treasure-hunting needs! Hehe.",
+      "voice_actor": "Fumie Mizusawa",
+      "voice_text": "Regina the Prospector is here for all your treasure-hunting needs! Hehe.",
       "description": "A skilled excavation expert. An old acquaintance of Ayesha and the Nio sisters, she acts as a sort of guardian to them, often accompanying them on their adventures. She is caring and dependable. While skilled in manual labor, she also has a homier side, excelling at cooking and sewing.",
-      "originGame": "Atelier Ayesha ~The Alchemist of Dusk~"
+      "origin_game": "Atelier Ayesha ~The Alchemist of Dusk~"
     },
-    "giftColor": { "received": "RED", "given": "GREEN" },
+    "gift_color": { "received": "RED", "given": "GREEN" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 3,
           "name": "Strike Blessing",
           "category": "ATTACK",
           "description": "Boosts Strike damage by {0}%.",
@@ -3056,6 +3111,7 @@
           ]
         },
         {
+          "id": 28,
           "name": "Bolt Shield",
           "category": "ENHANCE",
           "description": "Boosts target's Bolt resistance by {0}% for 1 attack.",
@@ -3070,6 +3126,7 @@
       ],
       "equipment": [
         {
+          "id": 21,
           "name": "Fire Resistance Up",
           "category": "ENHANCE",
           "description": "Boosts Fire resistance by {0}%.",
@@ -3186,24 +3243,25 @@
     "id": 29501,
     "name": "Linca",
     "title": "Assistant Squad Leader",
-    "fullName": "Linca",
-    "baseCharacter": "Linca",
-    "isAlchemist": false,
-    "gender": "FEMALE",
+    "full_name": "Linca",
+    "base_character": "Linca",
+    "is_alchemist": false,
+    "gender": "Female",
     "attribute": "SLASH",
     "role": "DEFENDER",
-    "initialRarity": 1,
-    "acquisitionText": "If you're looking for a bodyguard, look no further.\nI won't let the enemy lay a finger on you.",
+    "initial_rarity": 1,
+    "acquisition_text": "If you're looking for a bodyguard, look no further.\nI won't let the enemy lay a finger on you.",
     "profile": {
-      "voiceActor": "Ami Koshimizu",
-      "voiceText": "I'm pretty confident in my sword skills. And I'm even stronger after a good meal.",
+      "voice_actor": "Ami Koshimizu",
+      "voice_text": "I'm pretty confident in my sword skills. And I'm even stronger after a good meal.",
       "description": "A simple and honest swordswoman. She is an accomplished warrior and has been trained in the art of combat since childhood. She puts her training to good use by working as a bodyguard. While her sword skills are impressive, she lacks common sense and basic survival skills, often causing concern for those around her.",
-      "originGame": "Atelier Ayesha ~The Alchemist of Dusk~"
+      "origin_game": "Atelier Ayesha ~The Alchemist of Dusk~"
     },
-    "giftColor": { "received": "YELLOW", "given": "GREEN" },
+    "gift_color": { "received": "YELLOW", "given": "GREEN" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 6,
           "name": "Fire Blessing",
           "category": "ATTACK",
           "description": "Boosts Fire damage by {0}%.",
@@ -3216,6 +3274,7 @@
           ]
         },
         {
+          "id": 12,
           "name": "Physical Defense Blessing",
           "category": "ENHANCE",
           "description": "Boosts P. DEF by {0}% for 1 attack.",
@@ -3230,6 +3289,7 @@
       ],
       "equipment": [
         {
+          "id": 26,
           "name": "Magic Resistance Up",
           "category": "ENHANCE",
           "description": "Reduces damage received from magic attacks by {0}%.",
@@ -3366,24 +3426,25 @@
     "id": 29601,
     "name": "Nio",
     "title": "Charming Sister",
-    "fullName": "Nio Altugle",
-    "baseCharacter": "Nio",
-    "isAlchemist": false,
-    "gender": "FEMALE",
+    "full_name": "Nio Altugle",
+    "base_character": "Nio",
+    "is_alchemist": false,
+    "gender": "Female",
     "attribute": "STRIKE",
     "role": "DEFENDER",
-    "initialRarity": 3,
-    "acquisitionText": "I want to be useful to everyone...\nJust like my big sis!",
+    "initial_rarity": 3,
+    "acquisition_text": "I want to be useful to everyone...\nJust like my big sis!",
     "profile": {
-      "voiceActor": "Mariya Ise",
-      "voiceText": "I'm Nio, Ayesha Altugle's little sister! We're both happy to be here.",
+      "voice_actor": "Mariya Ise",
+      "voice_text": "I'm Nio, Ayesha Altugle's little sister! We're both happy to be here.",
       "description": "An apprentice herbalist. She is the younger sister of the alchemist Ayesha. She often spends her time helping her sister or heading out to investigate ruins. Unlike her light-hearted sister, Nio has a much more serious personality. This often leads her to work too hard and worry those around her.",
-      "originGame": "Atelier Ayesha ~The Alchemist of Dusk~"
+      "origin_game": "Atelier Ayesha ~The Alchemist of Dusk~"
     },
-    "giftColor": { "received": "GREEN", "given": "YELLOW" },
+    "gift_color": { "received": "GREEN", "given": "YELLOW" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 25,
           "name": "Fire Shield",
           "category": "ENHANCE",
           "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
@@ -3396,6 +3457,7 @@
           ]
         },
         {
+          "id": 49,
           "name": "Chaser Charge",
           "category": "ATTACK",
           "description": "Boosts damage to stunned enemies by {0}%.",
@@ -3410,6 +3472,7 @@
       ],
       "equipment": [
         {
+          "id": 44,
           "name": "Enhanced P./M. Resistance Up [D]",
           "category": "ENHANCE",
           "description": "Boosts potency of Received Physical Damage Down and Received Magic Damage Down given to Defenders by {0}%.",
@@ -3530,24 +3593,25 @@
     "id": 29701,
     "name": "Marion",
     "title": "Leader of the Development Squad",
-    "fullName": "Marion Quinn",
-    "baseCharacter": "Marion",
-    "isAlchemist": false,
-    "gender": "FEMALE",
+    "full_name": "Marion Quinn",
+    "base_character": "Marion",
+    "is_alchemist": false,
+    "gender": "Female",
     "attribute": "STAB",
     "role": "BREAKER",
-    "initialRarity": 1,
-    "acquisitionText": "Another new job?\nFine... Just leave it to me!",
+    "initial_rarity": 1,
+    "acquisition_text": "Another new job?\nFine... Just leave it to me!",
     "profile": {
-      "voiceActor": "Kana Ueda",
-      "voiceText": "My name is Marion Quinn. I spend most of my time on investigative missions.",
+      "voice_actor": "Kana Ueda",
+      "voice_text": "My name is Marion Quinn. I spend most of my time on investigative missions.",
       "description": "A talented investigator and a dedicated worker.\nShe is interested in the phenomenon of \"wanderers\" appearing in this world, and is currently investigating it. She often complains about her work, but she is a diligent worker who always completes her tasks.\nHer strong will helps her overcome any and all adversity.",
-      "originGame": "Atelier Ayesha ~The Alchemist of Dusk~"
+      "origin_game": "Atelier Ayesha ~The Alchemist of Dusk~"
     },
-    "giftColor": { "received": "RED", "given": "PURPLE" },
+    "gift_color": { "received": "RED", "given": "PURPLE" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 12,
           "name": "Physical Defense Blessing",
           "category": "ENHANCE",
           "description": "Boosts P. DEF by {0}% for 1 attack.",
@@ -3560,6 +3624,7 @@
           ]
         },
         {
+          "id": 6,
           "name": "Fire Blessing",
           "category": "ATTACK",
           "description": "Boosts Fire damage by {0}%.",
@@ -3574,6 +3639,7 @@
       ],
       "equipment": [
         {
+          "id": 24,
           "name": "Bolt Resistance Up",
           "category": "ENHANCE",
           "description": "Boosts Bolt resistance by {0}%.",
@@ -3693,24 +3759,25 @@
     "id": 29801,
     "name": "Odelia",
     "title": "Ancient Machina Doll",
-    "fullName": "Odelia",
-    "baseCharacter": "Odelia",
-    "isAlchemist": false,
-    "gender": "FEMALE",
+    "full_name": "Odelia",
+    "base_character": "Odelia",
+    "is_alchemist": false,
+    "gender": "Female",
     "attribute": "BOLT",
     "role": "ATTACKER",
-    "initialRarity": 3,
-    "acquisitionText": "Do let me know if I can be of any assistance.\nI'm a top-of-the-line automata, after all.",
+    "initial_rarity": 3,
+    "acquisition_text": "Do let me know if I can be of any assistance.\nI'm a top-of-the-line automata, after all.",
     "profile": {
-      "voiceActor": "Kaori Sadohara",
-      "voiceText": "I am Odelia, a high-performance automaton created in the distant past.",
+      "voice_actor": "Kaori Sadohara",
+      "voice_text": "I am Odelia, a high-performance automaton created in the distant past.",
       "description": "A high-performance automaton created in ancient times. She once worked as an assistant to a certain alchemist, but now travels on her own. She may not display much emotion, but she loves sweets and can show a strong attachment to them.",
-      "originGame": "Atelier Ayesha ~The Alchemist of Dusk~"
+      "origin_game": "Atelier Ayesha ~The Alchemist of Dusk~"
     },
-    "giftColor": { "received": "GREEN", "given": "BLUE" },
+    "gift_color": { "received": "GREEN", "given": "BLUE" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 5,
           "name": "Magic Blessing",
           "category": "ATTACK",
           "description": "Boosts magic attack damage by {0}%.",
@@ -3723,6 +3790,7 @@
           ]
         },
         {
+          "id": 13,
           "name": "Mighty Curse",
           "category": "WEAKENING",
           "description": "Boosts physical damage target receives by {0}% for 1 attack.",
@@ -3737,6 +3805,7 @@
       ],
       "equipment": [
         {
+          "id": 11,
           "name": "Magic Damage Boost",
           "category": "ATTACK",
           "description": "Boosts magic skill damage by {0}%.",
@@ -3856,24 +3925,25 @@
     "id": 29901,
     "name": "Keithgriff",
     "title": "Seeker of Knowledge",
-    "fullName": "Keithgriff Hazeldine",
-    "baseCharacter": "Keithgriff",
-    "isAlchemist": true,
-    "gender": "MALE",
+    "full_name": "Keithgriff Hazeldine",
+    "base_character": "Keithgriff",
+    "is_alchemist": true,
+    "gender": "Male",
     "attribute": "FIRE",
     "role": "BREAKER",
-    "initialRarity": 3,
-    "acquisitionText": "Come along, or don't—it makes no difference to me.\nI've got my own business that needs handling.",
+    "initial_rarity": 3,
+    "acquisition_text": "Come along, or don't—it makes no difference to me.\nI've got my own business that needs handling.",
     "profile": {
-      "voiceActor": "Jouji Nakata",
-      "voiceText": "This world is so intriguing. Maybe I can find what I've been searching for here.",
+      "voice_actor": "Jouji Nakata",
+      "voice_text": "This world is so intriguing. Maybe I can find what I've been searching for here.",
       "description": "An alchemist in pursuit of truth.\nHe is interested in the history of alchemy on the continent of Lantarna and is conducting research in various regions. He is a skilled alchemist, but his techniques are a little rough.\nHe prefers people who seek answers on their own and has no time for those who look for easy solutions.",
-      "originGame": "Atelier Ayesha ~The Alchemist of Dusk~"
+      "origin_game": "Atelier Ayesha ~The Alchemist of Dusk~"
     },
-    "giftColor": { "received": "RED", "given": "PURPLE" },
+    "gift_color": { "received": "RED", "given": "PURPLE" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 50,
           "name": "Critical Finish",
           "category": "ENHANCE",
           "description": "Boosts critical rate by {0}% for 1 turn.",
@@ -3886,6 +3956,7 @@
           ]
         },
         {
+          "id": 17,
           "name": "Magic Curse",
           "category": "WEAKENING",
           "description": "Boosts magic damage target receives by {0}% for 1 attack.",
@@ -3900,6 +3971,7 @@
       ],
       "equipment": [
         {
+          "id": 23,
           "name": "Air Resistance Up",
           "category": "ENHANCE",
           "description": "Boosts Air resistance by {0}%.",
@@ -4025,24 +4097,25 @@
     "id": 30901,
     "name": "Escha",
     "title": "Endless Tarts",
-    "fullName": "Escha Malier",
-    "baseCharacter": "Escha",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Escha Malier",
+    "base_character": "Escha",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "AIR",
     "role": "BREAKER",
-    "initialRarity": 2,
-    "acquisitionText": "If you think my abilities can be of any help,\nplease take me along with you!",
+    "initial_rarity": 2,
+    "acquisition_text": "If you think my abilities can be of any help,\nplease take me along with you!",
     "profile": {
-      "voiceActor": "Rie Murakawa",
-      "voiceText": "I used to work for the government back home. I think my experience will come in handy!",
+      "voice_actor": "Rie Murakawa",
+      "voice_text": "I used to work for the government back home. I think my experience will come in handy!",
       "description": "A bright and earnest alchemist.\nShe used to work as a government official, conducting research projects in undeveloped areas. Currently, she travels around the continent with her former colleagues.\nShe is polite and diligent in everything she does. Her dream is to make people happy using alchemy.",
-      "originGame": "Atelier Escha & Logy ~Alchemists of the Dusk Sky~"
+      "origin_game": "Atelier Escha & Logy ~Alchemists of the Dusk Sky~"
     },
-    "giftColor": { "received": "YELLOW", "given": "RED" },
+    "gift_color": { "received": "YELLOW", "given": "RED" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 22,
           "name": "Slash Shield",
           "category": "ENHANCE",
           "description": "Boosts target's Slash resistance by {0}% for 1 attack.",
@@ -4055,6 +4128,7 @@
           ]
         },
         {
+          "id": 3,
           "name": "Strike Blessing",
           "category": "ATTACK",
           "description": "Boosts Strike damage by {0}%.",
@@ -4069,6 +4143,7 @@
       ],
       "equipment": [
         {
+          "id": 19,
           "name": "Strike Resistance Up",
           "category": "ENHANCE",
           "description": "Boosts Strike resistance by {0}%.",
@@ -4201,24 +4276,25 @@
     "id": 31001,
     "name": "Logy",
     "title": "Alchemist of Dusk",
-    "fullName": "Logix Ficsario",
-    "baseCharacter": "Logy",
-    "isAlchemist": false,
-    "gender": "MALE",
+    "full_name": "Logix Ficsario",
+    "base_character": "Logy",
+    "is_alchemist": false,
+    "gender": "Male",
     "attribute": "SLASH",
     "role": "ATTACKER",
-    "initialRarity": 3,
-    "acquisitionText": "Our meeting here must be destiny.\nLet me help you in achieving your dreams.",
+    "initial_rarity": 3,
+    "acquisition_text": "Our meeting here must be destiny.\nLet me help you in achieving your dreams.",
     "profile": {
-      "voiceActor": "Kaito Ishikawa",
-      "voiceText": "I'm Logy. I worked for the government in development back in my world.",
+      "voice_actor": "Kaito Ishikawa",
+      "voice_text": "I'm Logy. I worked for the government in development back in my world.",
       "description": "A kind and caring alchemist.\nHe is a user of the \"Alchemic Sword\", which is a combination of swordsmanship and alchemy. He travels the world, interested in all unexplored regions.\nHe may come across as aloof, but a passionate dream burns inside his heart.",
-      "originGame": "Atelier Escha & Logy ~Alchemists of the Dusk Sky~"
+      "origin_game": "Atelier Escha & Logy ~Alchemists of the Dusk Sky~"
     },
-    "giftColor": { "received": "BLUE", "given": "YELLOW" },
+    "gift_color": { "received": "BLUE", "given": "YELLOW" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 50,
           "name": "Critical Finish",
           "category": "ENHANCE",
           "description": "Boosts critical rate by {0}% for 1 turn.",
@@ -4231,6 +4307,7 @@
           ]
         },
         {
+          "id": 12,
           "name": "Physical Defense Blessing",
           "category": "ENHANCE",
           "description": "Boosts P. DEF by {0}% for 1 attack.",
@@ -4245,6 +4322,7 @@
       ],
       "equipment": [
         {
+          "id": 3,
           "name": "Slash Damage Boost",
           "category": "ATTACK",
           "description": "Boosts Slash skill damage by {0}%.",
@@ -4367,24 +4445,25 @@
     "id": 32201,
     "name": "Shallistera",
     "title": "Chief's Daughter",
-    "fullName": "Shallistera",
-    "baseCharacter": "Shallistera",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Shallistera",
+    "base_character": "Shallistera",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "AIR",
     "role": "BREAKER",
-    "initialRarity": 2,
-    "acquisitionText": "Your dreams...\nLet me help you make them all come true!",
+    "initial_rarity": 2,
+    "acquisition_text": "Your dreams...\nLet me help you make them all come true!",
     "profile": {
-      "voiceActor": "Kotori Koiwai",
-      "voiceText": "I have to do whatever it takes to save my hometown.",
+      "voice_actor": "Kotori Koiwai",
+      "voice_text": "I have to do whatever it takes to save my hometown.",
       "description": "An alchemist on a mission for her family.\nThe mana shortage on this continent seems to be similar to the situation in her hometown, which is experiencing a water shortage, and she is traveling to find clues that will save her hometown.\nShe is responsible, courageous, and hard-working, though she can sometimes be a bit stubborn.",
-      "originGame": "Atelier Shallie: Alchemists of the Dusk Sea"
+      "origin_game": "Atelier Shallie: Alchemists of the Dusk Sea"
     },
-    "giftColor": { "received": "YELLOW", "given": "BLUE" },
+    "gift_color": { "received": "YELLOW", "given": "BLUE" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 10,
           "name": "Guardian's Blessing",
           "category": "ENHANCE",
           "description": "Boosts P. DEF by {0}% and M. DEF by {1}% for 1 attack.",
@@ -4402,6 +4481,7 @@
           ]
         },
         {
+          "id": 17,
           "name": "Magic Curse",
           "category": "WEAKENING",
           "description": "Boosts magic damage target receives by {0}% for 1 attack.",
@@ -4416,6 +4496,7 @@
       ],
       "equipment": [
         {
+          "id": 15,
           "name": "Magic Stun Damage Boost",
           "category": "ATTACK",
           "description": "Boosts magic stun damage by {0}%.",
@@ -4538,24 +4619,25 @@
     "id": 33401,
     "name": "Sophie",
     "title": "Profuse Phronesis",
-    "fullName": "Sophie Neuenmuller",
-    "baseCharacter": "Sophie",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Sophie Neuenmuller",
+    "base_character": "Sophie",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "BOLT",
     "role": "DEFENDER",
-    "initialRarity": 3,
-    "acquisitionText": "Tell me what your wildest dreams are!",
+    "initial_rarity": 3,
+    "acquisition_text": "Tell me what your wildest dreams are!",
     "profile": {
-      "voiceActor": "Yuuka Aisaka",
-      "voiceText": "Our alchemy works by listening to the voices of the materials and granting their wishes.",
+      "voice_actor": "Yuuka Aisaka",
+      "voice_text": "Our alchemy works by listening to the voices of the materials and granting their wishes.",
       "description": "A somewhat childish alchemist. Determined to help others through alchemy, she journeys far and wide, assisting those she comes across. Her sunny disposition puts people around her at ease, but she is rather sloppy when it comes to her own personal space. If she can turn a blind eye to whatever cleaning needs to be done, she will.",
-      "originGame": "Atelier Sophie ~The Alchemist of the Mysterious Book~"
+      "origin_game": "Atelier Sophie ~The Alchemist of the Mysterious Book~"
     },
-    "giftColor": { "received": "BLUE", "given": "GREEN" },
+    "gift_color": { "received": "BLUE", "given": "GREEN" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 17,
           "name": "Magic Curse",
           "category": "WEAKENING",
           "description": "Boosts magic damage target receives by {0}% for 1 attack.",
@@ -4568,6 +4650,7 @@
           ]
         },
         {
+          "id": 5,
           "name": "Magic Blessing",
           "category": "ATTACK",
           "description": "Boosts magic attack damage by {0}%.",
@@ -4582,6 +4665,7 @@
       ],
       "equipment": [
         {
+          "id": 43,
           "name": "Physical Resistance Up [D]",
           "category": "ENHANCE",
           "description": "Reduces physical damage to Defenders by {0}%.",
@@ -4699,24 +4783,25 @@
     "id": 33501,
     "name": "Plachta",
     "title": "Mysterious Doll",
-    "fullName": "Plachta",
-    "baseCharacter": "Plachta",
-    "isAlchemist": false,
-    "gender": "FEMALE",
+    "full_name": "Plachta",
+    "base_character": "Plachta",
+    "is_alchemist": false,
+    "gender": "Female",
     "attribute": "STRIKE",
     "role": "BREAKER",
-    "initialRarity": 3,
-    "acquisitionText": "The road to becoming an alchemist isn't traveled in a day. So, you should come with me!",
+    "initial_rarity": 3,
+    "acquisition_text": "The road to becoming an alchemist isn't traveled in a day. So, you should come with me!",
     "profile": {
-      "voiceActor": "Yuka Iguchi",
-      "voiceText": "I've lost so much. The only reason I'm able to be here at all is thanks to Sophie.",
+      "voice_actor": "Yuka Iguchi",
+      "voice_text": "I've lost so much. The only reason I'm able to be here at all is thanks to Sophie.",
       "description": "An alchemist with a doll's body. While she was human, certain circumstances required her to migrate her soul into another vessel. Sophie, a fellow alchemist, is both her pupil and her best friend. Her personality is generally a combination of sedate and serious, but she has a surprisingly excitable side.",
-      "originGame": "Atelier Sophie ~The Alchemist of the Mysterious Book~"
+      "origin_game": "Atelier Sophie ~The Alchemist of the Mysterious Book~"
     },
-    "giftColor": { "received": "PURPLE", "given": "YELLOW" },
+    "gift_color": { "received": "PURPLE", "given": "YELLOW" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 15,
           "name": "Strike Curse",
           "category": "WEAKENING",
           "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
@@ -4729,6 +4814,7 @@
           ]
         },
         {
+          "id": 23,
           "name": "Strike Shield",
           "category": "ENHANCE",
           "description": "Boosts target's Strike resistance by {0}% for 1 attack.",
@@ -4743,6 +4829,7 @@
       ],
       "equipment": [
         {
+          "id": 4,
           "name": "Strike Damage Boost",
           "category": "ATTACK",
           "description": "Boosts Strike skill damage by {0}%.",
@@ -4862,24 +4949,25 @@
     "id": 33601,
     "name": "Monika",
     "title": "Monika On Stage",
-    "fullName": "Monika Ellmenreich",
-    "baseCharacter": "Monika",
-    "isAlchemist": false,
-    "gender": "FEMALE",
+    "full_name": "Monika Ellmenreich",
+    "base_character": "Monika",
+    "is_alchemist": false,
+    "gender": "Female",
     "attribute": "STAB",
     "role": "DEFENDER",
-    "initialRarity": 2,
-    "acquisitionText": "If you have any troubles, let me know.\nI'll do what I can to help.",
+    "initial_rarity": 2,
+    "acquisition_text": "If you have any troubles, let me know.\nI'll do what I can to help.",
     "profile": {
-      "voiceActor": "Aya Suzaki",
-      "voiceText": "I'm Monika. I usually help out at a church and take care of the kids.",
+      "voice_actor": "Aya Suzaki",
+      "voice_text": "I'm Monika. I usually help out at a church and take care of the kids.",
       "description": "A talented young woman who is skilled in both the literary and military arts.\nShe used to be a very reserved and self-disciplined person, but with the encouragement of her friend Sophie, she is now traveling the world to do all the things she wants to do.\nShe is a diligent, methodical person who can't see a dirty room without wanting to tidy it.",
-      "originGame": "Atelier Sophie ~The Alchemist of the Mysterious Book~"
+      "origin_game": "Atelier Sophie ~The Alchemist of the Mysterious Book~"
     },
-    "giftColor": { "received": "BLUE", "given": "RED" },
+    "gift_color": { "received": "BLUE", "given": "RED" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 4,
           "name": "Stab Blessing",
           "category": "ATTACK",
           "description": "Boosts Stab damage by {0}%.",
@@ -4892,6 +4980,7 @@
           ]
         },
         {
+          "id": 12,
           "name": "Physical Defense Blessing",
           "category": "ENHANCE",
           "description": "Boosts P. DEF by {0}% for 1 attack.",
@@ -4906,6 +4995,7 @@
       ],
       "equipment": [
         {
+          "id": 42,
           "name": "Magic Resistance Up [D]",
           "category": "ENHANCE",
           "description": "Reduces magic damage to Defenders by {0}%.",
@@ -5039,24 +5129,25 @@
     "id": 33701,
     "name": "Corneria",
     "title": "No Milk No Life",
-    "fullName": "Corneria",
-    "baseCharacter": "Corneria",
-    "isAlchemist": false,
-    "gender": "FEMALE",
+    "full_name": "Corneria",
+    "base_character": "Corneria",
+    "is_alchemist": false,
+    "gender": "Female",
     "attribute": "STRIKE",
     "role": "BREAKER",
-    "initialRarity": 3,
-    "acquisitionText": "Expect our store to keep getting better for you all. Come visit!",
+    "initial_rarity": 3,
+    "acquisition_text": "Expect our store to keep getting better for you all. Come visit!",
     "profile": {
-      "voiceActor": "Yui Kondo",
-      "voiceText": "I'm Corneria. I sell plenty of goods and I can even replicate tools.",
+      "voice_actor": "Yui Kondo",
+      "voice_text": "I'm Corneria. I sell plenty of goods and I can even replicate tools.",
       "description": "A young alchemist and merchant who excels at using alchemy to copy items, which helps her run her wholesale store. Corneria devotes her days to forging new connections with other merchants, hoping to further expand her market. She is close friends with another merchant named Flocke. Although she is laid-back and takes things at her own pace, she has good business sense and takes her work very seriously.",
-      "originGame": "Atelier Sophie ~The Alchemist of the Mysterious Book~"
+      "origin_game": "Atelier Sophie ~The Alchemist of the Mysterious Book~"
     },
-    "giftColor": { "received": "BLUE", "given": "GREEN" },
+    "gift_color": { "received": "BLUE", "given": "GREEN" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 13,
           "name": "Mighty Curse",
           "category": "WEAKENING",
           "description": "Boosts physical damage target receives by {0}% for 1 attack.",
@@ -5069,6 +5160,7 @@
           ]
         },
         {
+          "id": 51,
           "name": "Destructive Power Boost",
           "category": "ATTACK",
           "description": "Boosts damage of battle items by {0}%.",
@@ -5083,6 +5175,7 @@
       ],
       "equipment": [
         {
+          "id": 2,
           "name": "Skill Power Up",
           "category": "ATTACK",
           "description": "Boosts skill power by {0}%.",
@@ -5202,24 +5295,25 @@
     "id": 33801,
     "name": "Oskar",
     "title": "Friend to Plants",
-    "fullName": "Oskar Behlmer",
-    "baseCharacter": "Oskar",
-    "isAlchemist": false,
-    "gender": "MALE",
+    "full_name": "Oskar Behlmer",
+    "base_character": "Oskar",
+    "is_alchemist": false,
+    "gender": "Male",
     "attribute": "STRIKE",
     "role": "DEFENDER",
-    "initialRarity": 3,
-    "acquisitionText": "When it comes to plants, you can rely on me! As for fighting... I'll do what I can.",
+    "initial_rarity": 3,
+    "acquisition_text": "When it comes to plants, you can rely on me! As for fighting... I'll do what I can.",
     "profile": {
-      "voiceActor": "Seiichiro Yamashita",
-      "voiceText": "I want to become friends with plants all over the world someday!",
+      "voice_actor": "Seiichiro Yamashita",
+      "voice_text": "I want to become friends with plants all over the world someday!",
       "description": "A young man with the peculiar ability to hear the voices of plants. He travels across the land in an effort to speak with every plant he comes across. He keeps careful notes on everything the plants tell him. With an easy-going personality, he doesn't like to worry about the little details, but does get very excited when it comes to plants.",
-      "originGame": "Atelier Sophie ~The Alchemist of the Mysterious Book~"
+      "origin_game": "Atelier Sophie ~The Alchemist of the Mysterious Book~"
     },
-    "giftColor": { "received": "BLUE", "given": "PURPLE" },
+    "gift_color": { "received": "BLUE", "given": "PURPLE" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 10,
           "name": "Guardian's Blessing",
           "category": "ENHANCE",
           "description": "Boosts P. DEF by {0}% and M. DEF by {1}% for 1 attack.",
@@ -5237,6 +5331,7 @@
           ]
         },
         {
+          "id": 7,
           "name": "Ice Blessing",
           "category": "ATTACK",
           "description": "Boosts Ice damage by {0}%.",
@@ -5251,6 +5346,7 @@
       ],
       "equipment": [
         {
+          "id": 43,
           "name": "Physical Resistance Up [D]",
           "category": "ENHANCE",
           "description": "Reduces physical damage to Defenders by {0}%.",
@@ -5372,24 +5468,25 @@
     "id": 33901,
     "name": "Tess",
     "title": "Rabbit-Eared Troublemaker",
-    "fullName": "Tess Heitzmann",
-    "baseCharacter": "Tess",
-    "isAlchemist": false,
-    "gender": "FEMALE",
+    "full_name": "Tess Heitzmann",
+    "base_character": "Tess",
+    "is_alchemist": false,
+    "gender": "Female",
     "attribute": "STAB",
     "role": "SUPPORTER",
-    "initialRarity": 1,
-    "acquisitionText": "Heehee! Not to worry, just let\nTess take care of the rest!",
+    "initial_rarity": 1,
+    "acquisition_text": "Heehee! Not to worry, just let\nTess take care of the rest!",
     "profile": {
-      "voiceActor": "Sayaka Nakaya",
-      "voiceText": "Hello, my name is Tess Heitzmann. Just call me Tess. I work at the cafe.",
+      "voice_actor": "Sayaka Nakaya",
+      "voice_text": "Hello, my name is Tess Heitzmann. Just call me Tess. I work at the cafe.",
       "description": "A bright and cheerful woman who wears a distinctive bunny ears hair accessory. She currently works at a cafe in the capital and sees the other cafes in the town square as rivals. She spends much of her time running around trying to attract customers. She has a pure and optimistic heart, but can sometimes be careless and cause unintentional chaos.",
-      "originGame": "Atelier Sophie ~The Alchemist of the Mysterious Book~"
+      "origin_game": "Atelier Sophie ~The Alchemist of the Mysterious Book~"
     },
-    "giftColor": { "received": "YELLOW", "given": "RED" },
+    "gift_color": { "received": "YELLOW", "given": "RED" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 24,
           "name": "Stab Shield",
           "category": "ENHANCE",
           "description": "Boosts target's Stab resistance by {0}% for 1 attack.",
@@ -5402,6 +5499,7 @@
           ]
         },
         {
+          "id": 44,
           "name": "Ample Healing",
           "category": "RECOVERY",
           "description": "Boosts HP recovery given by {0}%.",
@@ -5416,6 +5514,7 @@
       ],
       "equipment": [
         {
+          "id": 40,
           "name": "Single Recovery Boost",
           "category": "RECOVERY",
           "description": "Boosts HP recovery given to a single ally by {0}%.",
@@ -5549,24 +5648,25 @@
     "id": 35001,
     "name": "Firis",
     "title": "Crystal Master",
-    "fullName": "Firis Mistlud",
-    "baseCharacter": "Firis",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Firis Mistlud",
+    "base_character": "Firis",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "AIR",
     "role": "ATTACKER",
-    "initialRarity": 3,
-    "acquisitionText": "New places and new faces...\nThat's what makes the journey worth it!",
+    "initial_rarity": 3,
+    "acquisition_text": "New places and new faces...\nThat's what makes the journey worth it!",
     "profile": {
-      "voiceActor": "Kaede Hondo",
-      "voiceText": "There are so many things I want to do... So I decided I'll do them all!",
+      "voice_actor": "Kaede Hondo",
+      "voice_text": "There are so many things I want to do... So I decided I'll do them all!",
       "description": "An alchemist who loves to travel.\nFrom a very young age, she has longed to see the world outside, and even now she is excited by the prospect of adventures in the unknown. She has a friendly and energetic personality.  She has a strong spirit that does not bend to adversity.",
-      "originGame": "Atelier Firis ~The Alchemist and the Mysterious Journey~"
+      "origin_game": "Atelier Firis ~The Alchemist and the Mysterious Journey~"
     },
-    "giftColor": { "received": "RED", "given": "YELLOW" },
+    "gift_color": { "received": "RED", "given": "YELLOW" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 17,
           "name": "Magic Curse",
           "category": "WEAKENING",
           "description": "Boosts magic damage target receives by {0}% for 1 attack.",
@@ -5579,6 +5679,7 @@
           ]
         },
         {
+          "id": 4,
           "name": "Stab Blessing",
           "category": "ATTACK",
           "description": "Boosts Stab damage by {0}%.",
@@ -5593,6 +5694,7 @@
       ],
       "equipment": [
         {
+          "id": 21,
           "name": "Fire Resistance Up",
           "category": "ENHANCE",
           "description": "Boosts Fire resistance by {0}%.",
@@ -5709,24 +5811,25 @@
     "id": 37401,
     "name": "Lydie",
     "title": "Rainbow Canvas",
-    "fullName": "Lydie Malen",
-    "baseCharacter": "Lydie",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Lydie Malen",
+    "base_character": "Lydie",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "BOLT",
     "role": "SUPPORTER",
-    "initialRarity": 3,
-    "acquisitionText": "\"Act first, worry later!\"\nLet's go in search of our dreams together.",
+    "initial_rarity": 3,
+    "acquisition_text": "\"Act first, worry later!\"\nLet's go in search of our dreams together.",
     "profile": {
-      "voiceActor": "Maria Naganawa",
-      "voiceText": "I'm Lydie. I'm not good at physical exercise... Oh! But you can leave the research to me!",
+      "voice_actor": "Maria Naganawa",
+      "voice_text": "I'm Lydie. I'm not good at physical exercise... Oh! But you can leave the research to me!",
       "description": "The older of the Twin Alchemists. She travels together with her sister, Suelle, striving to become an alchemist that everyone can turn to. She tries to help her sister as an older sister should, but often ends up being dragged along by her instead. She's laid-back and takes things at her own pace. She likes to study and has a good understanding of the world around her, but her artistic sensibilities are questionable at best.",
-      "originGame": "Atelier Lydie & Suelle ~The Alchemists and the Mysterious Paintings~"
+      "origin_game": "Atelier Lydie & Suelle ~The Alchemists and the Mysterious Paintings~"
     },
-    "giftColor": { "received": "BLUE", "given": "PURPLE" },
+    "gift_color": { "received": "BLUE", "given": "PURPLE" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 21,
           "name": "Bolt Curse",
           "category": "WEAKENING",
           "description": "Reduces target's Bolt resistance by {0}% for 1 attack.",
@@ -5739,6 +5842,7 @@
           ]
         },
         {
+          "id": 47,
           "name": "Enhanced Last Recovery",
           "category": "RECOVERY",
           "description": "Boosts HP recovery by {0}% on final use.",
@@ -5753,6 +5857,7 @@
       ],
       "equipment": [
         {
+          "id": 41,
           "name": "All Recovery Boost",
           "category": "RECOVERY",
           "description": "Boosts HP recovery given to all allies by {0}%.",
@@ -5866,24 +5971,25 @@
     "id": 37501,
     "name": "Suelle",
     "title": "Ambition Painting",
-    "fullName": "Suelle Malen",
-    "baseCharacter": "Suelle",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Suelle Malen",
+    "base_character": "Suelle",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "STRIKE",
     "role": "ATTACKER",
-    "initialRarity": 3,
-    "acquisitionText": "\"Don't give up before you try!\"\nLet's go in search of a new ambition together.",
+    "initial_rarity": 3,
+    "acquisition_text": "\"Don't give up before you try!\"\nLet's go in search of a new ambition together.",
     "profile": {
-      "voiceActor": "Hikaru Akao",
-      "voiceText": "Got a problem? Just leave it to Suelle the genius! I can solve any problem!",
+      "voice_actor": "Hikaru Akao",
+      "voice_text": "Got a problem? Just leave it to Suelle the genius! I can solve any problem!",
       "description": "The younger of the Twin Alchemists. She travels together with her sister, Lydie, striving to become an alchemist that everyone can turn to. She cherishes a promise she made with her mother when she was young. She's mischievous and boisterous, but a genius with diverse abilities. She also can't stand insects or ghosts.",
-      "originGame": "Atelier Lydie & Suelle ~The Alchemists and the Mysterious Paintings~"
+      "origin_game": "Atelier Lydie & Suelle ~The Alchemists and the Mysterious Paintings~"
     },
-    "giftColor": { "received": "GREEN", "given": "YELLOW" },
+    "gift_color": { "received": "GREEN", "given": "YELLOW" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 24,
           "name": "Stab Shield",
           "category": "ENHANCE",
           "description": "Boosts target's Stab resistance by {0}% for 1 attack.",
@@ -5896,6 +6002,7 @@
           ]
         },
         {
+          "id": 51,
           "name": "Destructive Power Boost",
           "category": "ATTACK",
           "description": "Boosts damage of battle items by {0}%.",
@@ -5910,6 +6017,7 @@
       ],
       "equipment": [
         {
+          "id": 31,
           "name": "Physical Damage Boost [Full]",
           "category": "ATTACK",
           "description": "Boosts physical damage by {0}% when at full HP.",
@@ -6032,24 +6140,25 @@
     "id": 39901,
     "name": "Ryza",
     "title": "One Summer Story",
-    "fullName": "Reisalin Stout",
-    "baseCharacter": "Ryza",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Reisalin Stout",
+    "base_character": "Ryza",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "FIRE",
     "role": "ATTACKER",
-    "initialRarity": 3,
-    "acquisitionText": "I'm so excited!\nOnward, to a new adventure!",
+    "initial_rarity": 3,
+    "acquisition_text": "I'm so excited!\nOnward, to a new adventure!",
     "profile": {
-      "voiceActor": "Yuri Noguchi",
-      "voiceText": "It's so much fun working at the cafe! I get to hear all sorts of interesting things!",
+      "voice_actor": "Yuri Noguchi",
+      "voice_text": "It's so much fun working at the cafe! I get to hear all sorts of interesting things!",
       "description": "An alchemist who loves adventure.\nAfter she rescued Resna from a monster attack, they often go on adventures together. She has a free-spirited personality and usually acts before worrying. She has a strong sense of justice that does not bend easily.",
-      "originGame": "Atelier Ryza: Ever Darkness & the Secret Hideout"
+      "origin_game": "Atelier Ryza: Ever Darkness & the Secret Hideout"
     },
-    "giftColor": { "received": "RED", "given": "GREEN" },
+    "gift_color": { "received": "RED", "given": "GREEN" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 11,
           "name": "Magic Defense Blessing",
           "category": "ENHANCE",
           "description": "Boosts M. DEF by {0}% for 1 attack.",
@@ -6062,6 +6171,7 @@
           ]
         },
         {
+          "id": 8,
           "name": "Air Blessing",
           "category": "ATTACK",
           "description": "Boosts Air damage by {0}%.",
@@ -6076,6 +6186,7 @@
       ],
       "equipment": [
         {
+          "id": 6,
           "name": "Fire Damage Boost",
           "category": "ATTACK",
           "description": "Boosts Fire skill damage by {0}%.",
@@ -6204,24 +6315,25 @@
     "id": 39902,
     "name": "Ryza",
     "title": "Master's Right-Hand",
-    "fullName": "Reisalin Stout",
-    "baseCharacter": "Ryza",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Reisalin Stout",
+    "base_character": "Ryza",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "SLASH",
     "role": "BREAKER",
-    "initialRarity": 3,
-    "acquisitionText": "世界にはまだ知らないことがたくさん――<br>ワクワクが止まらないよ！",
+    "initial_rarity": 3,
+    "acquisition_text": "世界にはまだ知らないことがたくさん――<br>ワクワクが止まらないよ！",
     "profile": {
-      "voiceActor": "Yuri Noguchi",
-      "voiceText": "この服の見た目はねー、あたしの先生のを\n参考にしてるんだ！　どう、似合うかな？",
+      "voice_actor": "Yuri Noguchi",
+      "voice_text": "この服の見た目はねー、あたしの先生のを\n参考にしてるんだ！　どう、似合うかな？",
       "description": "冒険好きな錬金術士。 \nこの衣装は彼女に錬金術の教えを授けた恩師、 \nアンペル愛用の品に似せたもの。ライザはいつか彼に並び、 \nそして超えていくことを目指し、錬金術の修行を続けている。 \nこれを着ていると無性に甘いものが食べたくなる……らしい。",
-      "originGame": "Atelier Ryza: Ever Darkness & the Secret Hideout"
+      "origin_game": "Atelier Ryza: Ever Darkness & the Secret Hideout"
     },
-    "giftColor": { "received": "BLUE", "given": "YELLOW" },
+    "gift_color": { "received": "BLUE", "given": "YELLOW" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 1,
           "name": "Mighty Blessing",
           "category": "ATTACK",
           "description": "Boosts physical attack damage by {0}%.",
@@ -6234,6 +6346,7 @@
           ]
         },
         {
+          "id": 22,
           "name": "Slash Shield",
           "category": "ENHANCE",
           "description": "Boosts target's Slash resistance by {0}% for 1 attack.",
@@ -6248,6 +6361,7 @@
       ],
       "equipment": [
         {
+          "id": 14,
           "name": "Physical Stun Damage Boost",
           "category": "ATTACK",
           "description": "Boosts physical stun damage by {0}%.",
@@ -6357,24 +6471,25 @@
     "id": 40001,
     "name": "Klaudia",
     "title": "One Summer Melody",
-    "fullName": "Klaudia Valentz",
-    "baseCharacter": "Klaudia",
-    "isAlchemist": false,
-    "gender": "FEMALE",
+    "full_name": "Klaudia Valentz",
+    "base_character": "Klaudia",
+    "is_alchemist": false,
+    "gender": "Female",
     "attribute": "ICE",
     "role": "SUPPORTER",
-    "initialRarity": 3,
-    "acquisitionText": "I would very much like to go on another adventure with everyone. Please, let me join you!",
+    "initial_rarity": 3,
+    "acquisition_text": "I would very much like to go on another adventure with everyone. Please, let me join you!",
     "profile": {
-      "voiceActor": "Hitomi Ohwada",
-      "voiceText": "I'm only just getting started as a merchant, but I'll work hard to be of use to everyone.",
+      "voice_actor": "Hitomi Ohwada",
+      "voice_text": "I'm only just getting started as a merchant, but I'll work hard to be of use to everyone.",
       "description": "The young lady of a merchant household, she helps the peddlers and caravans around the capital go about their business. Her childhood friend, Ryza, works at the cafe. For as gentle-natured as she is, Klaudia is both stubborn and courageous. One of her hobbies is playing the flute, which she excels at.",
-      "originGame": "Atelier Ryza: Ever Darkness & the Secret Hideout"
+      "origin_game": "Atelier Ryza: Ever Darkness & the Secret Hideout"
     },
-    "giftColor": { "received": "RED", "given": "PURPLE" },
+    "gift_color": { "received": "RED", "given": "PURPLE" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 19,
           "name": "Ice Curse",
           "category": "WEAKENING",
           "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
@@ -6387,6 +6502,7 @@
           ]
         },
         {
+          "id": 26,
           "name": "Ice Shield",
           "category": "ENHANCE",
           "description": "Boosts target's Ice resistance by {0}% for 1 attack.",
@@ -6401,6 +6517,7 @@
       ],
       "equipment": [
         {
+          "id": 7,
           "name": "Ice Damage Boost",
           "category": "ATTACK",
           "description": "Boosts Ice skill damage by {0}%.",
@@ -6523,24 +6640,25 @@
     "id": 40101,
     "name": "Lila",
     "title": "[Jet Black Bodyguard]",
-    "fullName": "Lila Decyrus",
-    "baseCharacter": "Lila",
-    "isAlchemist": false,
-    "gender": "FEMALE",
+    "full_name": "Lila Decyrus",
+    "base_character": "Lila",
+    "is_alchemist": false,
+    "gender": "Female",
     "attribute": "ICE",
     "role": "BREAKER",
-    "initialRarity": 3,
-    "acquisitionText": "強くなりたいのか？　いいだろう、<br>お前にも戦士の心得を叩き込んでやる――！",
+    "initial_rarity": 3,
+    "acquisition_text": "強くなりたいのか？　いいだろう、<br>お前にも戦士の心得を叩き込んでやる――！",
     "profile": {
-      "voiceActor": "Haruka Terui",
-      "voiceText": "私は白牙氏族のリラ・ディザイアス。\nオーレン族の戦士だ",
+      "voice_actor": "Haruka Terui",
+      "voice_text": "私は白牙氏族のリラ・ディザイアス。\nオーレン族の戦士だ",
       "description": "謎めいた雰囲気を持つ旅の戦士。\nその優れた戦闘能力を活かし、護衛などの仕事をこなしている。\n錬金術士のアンペルとは長く旅を共にしていた仲。\n冷静沈着で不愛想な性格だが、意外に面倒見の良い一面も。",
-      "originGame": "Atelier Ryza: Ever Darkness & the Secret Hideout"
+      "origin_game": "Atelier Ryza: Ever Darkness & the Secret Hideout"
     },
-    "giftColor": { "received": "YELLOW", "given": "RED" },
+    "gift_color": { "received": "YELLOW", "given": "RED" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 10,
           "name": "Guardian's Blessing",
           "category": "ENHANCE",
           "description": "Boosts P. DEF by {0}% and M. DEF by {1}% for 1 attack.",
@@ -6558,6 +6676,7 @@
           ]
         },
         {
+          "id": 19,
           "name": "Ice Curse",
           "category": "WEAKENING",
           "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
@@ -6572,6 +6691,7 @@
       ],
       "equipment": [
         {
+          "id": 15,
           "name": "Magic Stun Damage Boost",
           "category": "ATTACK",
           "description": "Boosts magic stun damage by {0}%.",
@@ -6694,24 +6814,25 @@
     "id": 40201,
     "name": "Lent",
     "title": "Powerful Warrior",
-    "fullName": "Lent Marslink",
-    "baseCharacter": "Lent",
-    "isAlchemist": false,
-    "gender": "MALE",
+    "full_name": "Lent Marslink",
+    "base_character": "Lent",
+    "is_alchemist": false,
+    "gender": "Male",
     "attribute": "STRIKE",
     "role": "DEFENDER",
-    "initialRarity": 2,
-    "acquisitionText": "I'm here to help if it's needed.\nLet me show you what I can do!",
+    "initial_rarity": 2,
+    "acquisition_text": "I'm here to help if it's needed.\nLet me show you what I can do!",
     "profile": {
-      "voiceActor": "Takuma Terashima",
-      "voiceText": "I don't know much about alchemy, so my job is to get stronger and protect everyone!",
+      "voice_actor": "Takuma Terashima",
+      "voice_text": "I don't know much about alchemy, so my job is to get stronger and protect everyone!",
       "description": "An adventurer who fights with a massive sword. He spends most of his days training and fighting, and hopes to one day make a name for himself as a warrior. His stern exterior belies a warm, friendly heart, and he provides a level head to the often chaotic Ryza.",
-      "originGame": "Atelier Ryza: Ever Darkness & the Secret Hideout"
+      "origin_game": "Atelier Ryza: Ever Darkness & the Secret Hideout"
     },
-    "giftColor": { "received": "PURPLE", "given": "GREEN" },
+    "gift_color": { "received": "PURPLE", "given": "GREEN" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 23,
           "name": "Strike Shield",
           "category": "ENHANCE",
           "description": "Boosts target's Strike resistance by {0}% for 1 attack.",
@@ -6724,6 +6845,7 @@
           ]
         },
         {
+          "id": 9,
           "name": "Bolt Blessing",
           "category": "ATTACK",
           "description": "Boosts Bolt damage by {0}%.",
@@ -6738,6 +6860,7 @@
       ],
       "equipment": [
         {
+          "id": 25,
           "name": "Physical Resistance Up",
           "category": "ENHANCE",
           "description": "Reduces damage received from physical attacks by {0}%.",
@@ -6871,24 +6994,25 @@
     "id": 40301,
     "name": "Tao",
     "title": "Future Scholar",
-    "fullName": "Tao Mongarten",
-    "baseCharacter": "Tao",
-    "isAlchemist": false,
-    "gender": "MALE",
+    "full_name": "Tao Mongarten",
+    "base_character": "Tao",
+    "is_alchemist": false,
+    "gender": "Male",
     "attribute": "STRIKE",
     "role": "ATTACKER",
-    "initialRarity": 1,
-    "acquisitionText": "I've never heard or seen of anything like this!\nWhat an incredible place!",
+    "initial_rarity": 1,
+    "acquisition_text": "I've never heard or seen of anything like this!\nWhat an incredible place!",
     "profile": {
-      "voiceActor": "Yui Kondo",
-      "voiceText": "My name is Tao. Tao Mongarten. Nice to meet you.",
+      "voice_actor": "Yui Kondo",
+      "voice_text": "My name is Tao. Tao Mongarten. Nice to meet you.",
       "description": "A book-loving boy. His interest in the history of Lantarna and its ruins leads him to spend most of his time in the capital's library, reading up on obscure knowledge. He is quiet and shy, often reluctant to interact with people. His intellectual curiosity and powers of concentration are a cut above the rest.",
-      "originGame": "Atelier Ryza: Ever Darkness & the Secret Hideout"
+      "origin_game": "Atelier Ryza: Ever Darkness & the Secret Hideout"
     },
-    "giftColor": { "received": "BLUE", "given": "YELLOW" },
+    "gift_color": { "received": "BLUE", "given": "YELLOW" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 3,
           "name": "Strike Blessing",
           "category": "ATTACK",
           "description": "Boosts Strike damage by {0}%.",
@@ -6901,6 +7025,7 @@
           ]
         },
         {
+          "id": 46,
           "name": "All Recovery Bonus",
           "category": "RECOVERY",
           "description": "Boosts HP recovery given to all allies by {0}%.",
@@ -6915,6 +7040,7 @@
       ],
       "equipment": [
         {
+          "id": 10,
           "name": "Physical Damage Boost",
           "category": "ATTACK",
           "description": "Boosts physical skill damage by {0}%.",
@@ -7031,24 +7157,25 @@
     "id": 40401,
     "name": "Empel",
     "title": "[The Gate Closer]",
-    "fullName": "Empel Vollmer",
-    "baseCharacter": "Empel",
-    "isAlchemist": true,
-    "gender": "MALE",
+    "full_name": "Empel Vollmer",
+    "base_character": "Empel",
+    "is_alchemist": true,
+    "gender": "Male",
     "attribute": "STRIKE",
     "role": "SUPPORTER",
-    "initialRarity": 3,
-    "acquisitionText": "背中を押すのは大人の務めだ。<br>お前たちは存分にやるといい――！",
+    "initial_rarity": 3,
+    "acquisition_text": "背中を押すのは大人の務めだ。<br>お前たちは存分にやるといい――！",
     "profile": {
-      "voiceActor": "Hirofumi Nojima",
-      "voiceText": "錬金術による悪事……その真偽や目的は、\n慎重に見極めなくてはならないだろうな",
+      "voice_actor": "Hirofumi Nojima",
+      "voice_text": "錬金術による悪事……その真偽や目的は、\n慎重に見極めなくてはならないだろうな",
       "description": "流浪の錬金術士。 \nある目的のため、各地の遺跡などを調査している。 \nかつて、調査のために訪れた島でライザたちと出会い、 \nしばしば行動を共にしていた。 \n見た目は若いが言動や所作が成熟しており、不思議な貫禄がある。 \n甘いものに目がないという一面も。",
-      "originGame": "Atelier Ryza: Ever Darkness & the Secret Hideout"
+      "origin_game": "Atelier Ryza: Ever Darkness & the Secret Hideout"
     },
-    "giftColor": { "received": "PURPLE", "given": "RED" },
+    "gift_color": { "received": "PURPLE", "given": "RED" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 23,
           "name": "Strike Shield",
           "category": "ENHANCE",
           "description": "Boosts target's Strike resistance by {0}% for 1 attack.",
@@ -7061,6 +7188,7 @@
           ]
         },
         {
+          "id": 9,
           "name": "Bolt Blessing",
           "category": "ATTACK",
           "description": "Boosts Bolt damage by {0}%.",
@@ -7075,6 +7203,7 @@
       ],
       "equipment": [
         {
+          "id": 31,
           "name": "Physical Damage Boost [Full]",
           "category": "ATTACK",
           "description": "Boosts physical damage by {0}% when at full HP.",
@@ -7198,24 +7327,25 @@
     "id": 43101,
     "name": "Resna",
     "title": "Dreamer of the Future",
-    "fullName": "Resna Sternenlicht",
-    "baseCharacter": "Resna",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Resna Sternenlicht",
+    "base_character": "Resna",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "FIRE",
     "role": "ATTACKER",
-    "initialRarity": 1,
-    "acquisitionText": "To the ends of the world or bust! Let's head out!",
+    "initial_rarity": 1,
+    "acquisition_text": "To the ends of the world or bust! Let's head out!",
     "profile": {
-      "voiceActor": "Saho Shirasu",
-      "voiceText": "I'm Resna. I'm working really hard to catch up to the other alchemists!",
+      "voice_actor": "Saho Shirasu",
+      "voice_text": "I'm Resna. I'm working really hard to catch up to the other alchemists!",
       "description": "A fledgling alchemist. She is very passionate about alchemy and has an unparalleled love and knowledge of the subject, which is evident in her tendency to get excited and talk very fast.\nHer dream is to revive the neglected art of alchemy and use it to enrich people's lives.",
-      "originGame": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
+      "origin_game": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
     },
-    "giftColor": { "received": "GREEN", "given": "YELLOW" },
+    "gift_color": { "received": "GREEN", "given": "YELLOW" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 5,
           "name": "Magic Blessing",
           "category": "ATTACK",
           "description": "Boosts magic attack damage by {0}%.",
@@ -7228,6 +7358,7 @@
           ]
         },
         {
+          "id": 45,
           "name": "Single Recovery Bonus",
           "category": "RECOVERY",
           "description": "Boosts HP recovery given to a single ally by {0}%.",
@@ -7242,6 +7373,7 @@
       ],
       "equipment": [
         {
+          "id": 11,
           "name": "Magic Damage Boost",
           "category": "ATTACK",
           "description": "Boosts magic skill damage by {0}%.",
@@ -7358,24 +7490,25 @@
     "id": 43102,
     "name": "Resna",
     "title": "Innocent Dreamer",
-    "fullName": "Resna Sternenlicht",
-    "baseCharacter": "Resna",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Resna Sternenlicht",
+    "base_character": "Resna",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "BOLT",
     "role": "SUPPORTER",
-    "initialRarity": 3,
-    "acquisitionText": "I'll overcome anything to make my dream\ncome true—no matter the obstacle!",
+    "initial_rarity": 3,
+    "acquisition_text": "I'll overcome anything to make my dream\ncome true—no matter the obstacle!",
     "profile": {
-      "voiceActor": "Saho Shirasu",
-      "voiceText": "I'm going to find the World's End and revive alchemy. That's my goal!",
+      "voice_actor": "Saho Shirasu",
+      "voice_text": "I'm going to find the World's End and revive alchemy. That's my goal!",
       "description": "A fledgling alchemist. Following the instructions of her teacher, Saskia, she usually wears a jacket and arm covers to protect her from harm while harvesting. But from time to time she takes them off so that she can travel unencumbered over the fields and mountains on her way to fulfill her dream—to reach the World's End.",
-      "originGame": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
+      "origin_game": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
     },
-    "giftColor": { "received": "PURPLE", "given": "GREEN" },
+    "gift_color": { "received": "PURPLE", "given": "GREEN" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 50,
           "name": "Critical Finish",
           "category": "ENHANCE",
           "description": "Boosts critical rate by {0}% for 1 turn.",
@@ -7388,6 +7521,7 @@
           ]
         },
         {
+          "id": 21,
           "name": "Bolt Curse",
           "category": "WEAKENING",
           "description": "Reduces target's Bolt resistance by {0}% for 1 attack.",
@@ -7402,6 +7536,7 @@
       ],
       "equipment": [
         {
+          "id": 18,
           "name": "Slash Resistance Up",
           "category": "ENHANCE",
           "description": "Boosts Slash resistance by {0}%.",
@@ -7530,24 +7665,25 @@
     "id": 43201,
     "name": "Valeria",
     "title": "Dreamer of the Past",
-    "fullName": "Valeria",
-    "baseCharacter": "Valeria",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Valeria",
+    "base_character": "Valeria",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "STAB",
     "role": "ATTACKER",
-    "initialRarity": 1,
-    "acquisitionText": "Leave the fighting to me.\nI'm confident in what I can do.",
+    "initial_rarity": 1,
+    "acquisition_text": "Leave the fighting to me.\nI'm confident in what I can do.",
     "profile": {
-      "voiceActor": "Manami Numakura",
-      "voiceText": "I'm Valeria. I don't remember my past... But that doesn't stop me from enjoying myself.",
+      "voice_actor": "Manami Numakura",
+      "voice_text": "I'm Valeria. I don't remember my past... But that doesn't stop me from enjoying myself.",
       "description": "A warrior with amnesia. Relying on her excellent fighting skills, she and Heidi tend to take on a variety of rough jobs. With no memory of her past, she spends her days trying to figure out who she really is.\nShe has a strong and outspoken personality, but is surprisingly weak when pressured by others.",
-      "originGame": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
+      "origin_game": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
     },
-    "giftColor": { "received": "BLUE", "given": "RED" },
+    "gift_color": { "received": "BLUE", "given": "RED" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 1,
           "name": "Mighty Blessing",
           "category": "ATTACK",
           "description": "Boosts physical attack damage by {0}%.",
@@ -7560,6 +7696,7 @@
           ]
         },
         {
+          "id": 18,
           "name": "Fire Curse",
           "category": "WEAKENING",
           "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
@@ -7574,6 +7711,7 @@
       ],
       "equipment": [
         {
+          "id": 1,
           "name": "Dealt Damage Boost",
           "category": "ATTACK",
           "description": "Boosts skill damage by {0}%.",
@@ -7704,24 +7842,25 @@
     "id": 43202,
     "name": "Valeria",
     "title": "Secret Amnesia",
-    "fullName": "Valeria",
-    "baseCharacter": "Valeria",
-    "isAlchemist": true,
-    "gender": "FEMALE",
+    "full_name": "Valeria",
+    "base_character": "Valeria",
+    "is_alchemist": true,
+    "gender": "Female",
     "attribute": "SLASH",
     "role": "ATTACKER",
-    "initialRarity": 3,
-    "acquisitionText": "I'm still not sure who I am...\nbut I'm starting to understand what I need to do!",
+    "initial_rarity": 3,
+    "acquisition_text": "I'm still not sure who I am...\nbut I'm starting to understand what I need to do!",
     "profile": {
-      "voiceActor": "Manami Numakura",
-      "voiceText": "I'm Valeria. I don't like delicate work, but leave the monsters to me.",
+      "voice_actor": "Manami Numakura",
+      "voice_text": "I'm Valeria. I don't like delicate work, but leave the monsters to me.",
       "description": "A warrior who is as strong as she is beautiful. She loves nothing more than being right in the thick of battle. Her clothing takes most of the beating, but her roommate Flocke always patches it up for her. If Valeria takes her jacket off, though, she means business. While that increases her odds of being injured, she believes in wrapping fights up before that happens.",
-      "originGame": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
+      "origin_game": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
     },
-    "giftColor": { "received": "GREEN", "given": "BLUE" },
+    "gift_color": { "received": "GREEN", "given": "BLUE" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 2,
           "name": "Slash Blessing",
           "category": "ATTACK",
           "description": "Boosts Slash damage by {0}%.",
@@ -7734,6 +7873,7 @@
           ]
         },
         {
+          "id": 14,
           "name": "Slash Curse",
           "category": "WEAKENING",
           "description": "Reduces target's Slash resistance by {0}% for 1 attack.",
@@ -7748,6 +7888,7 @@
       ],
       "equipment": [
         {
+          "id": 3,
           "name": "Slash Damage Boost",
           "category": "ATTACK",
           "description": "Boosts Slash skill damage by {0}%.",
@@ -7896,24 +8037,25 @@
     "id": 43801,
     "name": "Izana",
     "title": "Return of the Knight",
-    "fullName": "Izana Kokoschka",
-    "baseCharacter": "Izana",
-    "isAlchemist": false,
-    "gender": "FEMALE",
+    "full_name": "Izana Kokoschka",
+    "base_character": "Izana",
+    "is_alchemist": false,
+    "gender": "Female",
     "attribute": "BOLT",
     "role": "ATTACKER",
-    "initialRarity": 3,
-    "acquisitionText": "アタシは最強の騎士になる――<br>流れ星に誓って！",
+    "initial_rarity": 3,
+    "acquisition_text": "アタシは最強の騎士になる――<br>流れ星に誓って！",
     "profile": {
-      "voiceActor": "Minami Tanaka",
-      "voiceText": "アタシの夢は最強の騎士になること！\nこのハンマーでみんなを守ってみせる！",
+      "voice_actor": "Minami Tanaka",
+      "voice_text": "アタシの夢は最強の騎士になること！\nこのハンマーでみんなを守ってみせる！",
       "description": "A taciturn and blunt individual.\nShe favors the young lady of the household that helped her, and lives as a servant—or retainer, rather—in her employ.\nShe is quite skilled with a blade, but has little to no interest in alchemy. She actually seems to dislike it.\nMu wears a coat in the pixel and promo art, but for some reason has shed her coat in game.",
-      "originGame": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
+      "origin_game": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
     },
-    "giftColor": { "received": "PURPLE", "given": "GREEN" },
+    "gift_color": { "received": "PURPLE", "given": "GREEN" },
     "traits": {
-      "battleItem": [
+      "battle_item": [
         {
+          "id": 1,
           "name": "Mighty Blessing",
           "category": "ATTACK",
           "description": "Boosts physical attack damage by {0}%.",
@@ -7926,6 +8068,7 @@
           ]
         },
         {
+          "id": 45,
           "name": "Single Recovery Bonus",
           "category": "RECOVERY",
           "description": "Boosts HP recovery given to a single ally by {0}%.",
@@ -7940,6 +8083,7 @@
       ],
       "equipment": [
         {
+          "id": 9,
           "name": "Bolt Damage Boost",
           "category": "ATTACK",
           "description": "Boosts Bolt skill damage by {0}%.",

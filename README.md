@@ -67,9 +67,10 @@ Query parameters:
 
 **topResultOnly** *{boolean?}* - Default true.  
 **numberOfResults** *{number?}* - Default 3. If topResultOnly is set to false, then this API will return an 
+**multiKeyResult** *{string?}* - Default "AND".
 
 Examples:  
-https://resleriana-db.vercel.app/api/master/search?value=43101
+https://resleriana-db.vercel.app/api/master/search?language=en&file=character&key=name&query=resna
 
 ## Contributing
 

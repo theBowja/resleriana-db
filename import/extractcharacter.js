@@ -11,6 +11,7 @@ const xabilityMap = helper.loadJSONMap('ability');
 const xbattletrait = helper.loadJSONMap('battle_tool_trait');
 const xequiptrait = helper.loadJSONMap('equipment_tool_trait');
 const xstatMap = helper.loadJSONMap('character_growth');
+const xgenderMap = helper.loadJSONMap('gender');
 
 function extract() {
 	return xchar.reduce((accum, charObj) => {
@@ -20,36 +21,36 @@ function extract() {
 		data.name = charObj.name;
 		data.title = charObj.another_name;
 
-		data.fullName = charObj.fullname;
-		data.baseCharacter = xbasecharMap[charObj.base_character_id].name;
+		data.full_name = charObj.fullname;
+		data.base_character = xbasecharMap[charObj.base_character_id].name;
 		// data.overlayName = charObj.overlay_name;
 		if (charObj.overlay_name !== charObj.fullname) console.log(`char ${data.name} has a different overlay_name`);
 
-		data.isAlchemist = charObj.is_alchemist;
-		data.gender = manualmap.genderMap[xbasecharMap[charObj.base_character_id].gender_id];
+		data.is_alchemist = charObj.is_alchemist;
+		data.gender = xgenderMap[xbasecharMap[charObj.base_character_id].gender_id].name;
 
 		data.attribute = manualmap.attributeMap[charObj.attack_attributes[0]];
 		if (charObj.attack_attributes.length > 1) console.log(`character ${data.name} has more than one attribute`);
 		data.role = manualmap.roleMap[charObj.role];
 		if (!data.role) console.log(`character ${data.name} is missing a role`);
-		data.initialRarity = charObj.initial_rarity;
+		data.initial_rarity = charObj.initial_rarity;
 
-		data.acquisitionText = charObj.acquisition_text;
+		data.acquisition_text = charObj.acquisition_text;
 
 		data.profile = {};
-		data.profile.voiceActor = xvoice.find(v => v.id === charObj.voice_actor_id).name;
-		data.profile.voiceText = charObj.profile_voice_text;
+		data.profile.voice_actor = xvoice.find(v => v.id === charObj.voice_actor_id).name;
+		data.profile.voice_text = charObj.profile_voice_text;
 		data.profile.description = charObj.description;
-		data.profile.originGame = xtitle.find(t => t.id === charObj.original_title_id).name;
+		data.profile.origin_game = xtitle.find(t => t.id === charObj.original_title_id).name;
 		// series_id
 
-		data.giftColor = {
+		data.gift_color = {
 			received: manualmap.colorMap[charObj.support_color_id],
 			given: manualmap.colorMap[charObj.trait_color_id]
 		};
 
 		data.traits = {
-			battleItem: charObj.battle_tool_trait_ids.map(t => extractBattleItemTrait(t)),
+			battle_item: charObj.battle_tool_trait_ids.map(t => extractBattleItemTrait(t)),
 			equipment: charObj.equipment_tool_trait_ids.map(t => extractEquipmentTrait(t))
 		};
 
@@ -98,7 +99,7 @@ function extract() {
 function extractBattleItemTrait(traitId) {
 	const data = {};
 
-	// data.id = traitId;
+	data.id = traitId;
 	data.name = xbattletrait[traitId].name;
 	data.category = manualmap.categoryMap[xbattletrait[traitId].category_id];
 
@@ -116,7 +117,7 @@ function extractBattleItemTrait(traitId) {
 function extractEquipmentTrait(traitId) {
 	const data = {};
 
-	// data.id = traitId;
+	data.id = traitId;
 	data.name = xequiptrait[traitId].name;
 	data.category = manualmap.categoryMap[xequiptrait[traitId].category_id];
 

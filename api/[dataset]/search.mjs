@@ -60,7 +60,7 @@ function parseQuery(query) {
 }
 
 export default function handler(request, response) {
-    const { languages, files, keys, query, options } = parseQuery(query);
+    const { languages, files, keys, query, options } = parseQuery(request.query);
 
     return response.json(searchData(dataset, languages, files, keys, query, options));
 }

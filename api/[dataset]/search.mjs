@@ -57,6 +57,8 @@ function parseQuery(query) {
                 break;
         }
     }
+    
+    return result;
 }
 
 export default function handler(request, response) {

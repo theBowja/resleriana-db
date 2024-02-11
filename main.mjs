@@ -123,38 +123,62 @@ function parseKeys(keyString) {
 }
 
 /**
+ * Parse through search options and initializes defaults.
+ * @param {*} options 
+ */
+function parseSearchOptions(options) {
+	const searchOpts = {};
+	searchOpts.multiKeyLogic = 'AND';
+
+	return searchOpts;
+}
+
+/**
  * 
  * @param {string} dataset 
  * @param {string[]} languages 
  * @param {string[]} files 
  * @param {string[]} keys array of keys
+ * @param {string[]} query
  * @param {*} options 
  */
 export function searchData(dataset, languages, files, keys, query, options={}) {
+	const funT0 = performance.now();
+
 	if (!validateDataset(dataset)) return undefined;
 	languages = languages.filter(l => validateLanguage(l));
 	files = files.filter(f => validateFile(f));
+	if (query.length === 0) return undefined;
+	options = parseSearchOptions(options);
 
 	/**
-	 * {
-	 *   {dataset}/{file}: {
-	 * 	   {keyString}: {
-	 *       targets: list of targets
-	 *       matches:
+	 * [
+	 *  {
+	 *     keyString: string,
+	 *     matchedFiles: {
+	 *       [file]: {
+	 *         language: string,
+	 *         matchedData: {
+	 *           [id]: [
+	 *             {
+	 *               key: string,
+	 *               value: string
+	 *             },
+	 *             ...
+	 *           ]
+	 *         }
+	 *       }
 	 *     }
 	 *   },
-	 * //  OR (results are combined)
-	 *   {dataset}/{file}: {
-	 * 
-	 *   }
-	 * }
+	 *   ...
+	 * ]
 	 */
-	const resultMap = {};
-
+	const resultMap = [];
 	
-	let t0 = performance.now();
+	const searchT0 = performance.now();
 	
 	for (const [keyIndex, keyString] of keys.entries()) {
+		resultMap[keyIndex] = { keyString: keyString, matchedFiles: {} };
 		const keyParse = parseKeys(keyString);
 
 		for (const file of keyParse.files.length !== 0 ? keyParse.files : files) {
@@ -162,28 +186,87 @@ export function searchData(dataset, languages, files, keys, query, options={}) {
 				const dataFile = getFile(dataset, language, file);
 				if (!dataFile) continue;
 
-				const targets = dataFile.flatMap(dataObj => getNestedValues({
-					dataset: dataset,
-					language: language,
-					file: file,
-					data: dataObj,
-				}, dataObj, keyParse.keys));
+				const targets = dataFile.flatMap(dataObj => getNestedValues({ dataId: dataObj.id }, dataObj, keyParse.keys));
+				if (targets.length === 0) continue;
+
+				const needle = query[keyIndex] || query.at(-1);
 
 				// do ufuzzy search
+				const ufOpts = {};
+				// const ufOpts = { intraIns: Infinity, intraChars: "[a-z\d' ]" };
+				const uf = new uFuzzy(ufOpts);
+				const fuzzyResult = uf.search(targets.map(t => t.value), needle);
 
-				// let opts = { intraIns: Infinity, intraChars: "[a-z\d' ]" };
+				if (fuzzyResult[0].length === 0) continue; // no result
 
-				// if there is a result. save the list of ids and break the language loop
+				// save the sorted list of matched targets
+				const matchedTargets = fuzzyResult[2].map(ordered => targets[fuzzyResult[0][ordered]]);
+				resultMap[keyIndex].matchedFiles[file] = { language: language, matchedData: {} };
+				for (const matchedTarget of matchedTargets) {
+					(resultMap[keyIndex].matchedFiles[file].matchedData[matchedTarget.dataId] ||= []).push({
+						key: matchedTarget.key,
+						value: matchedTarget.value
+					});
+				}
+
+				break; // skip the rest of the languages of this file
 			}
 		}
 	}
 
-	let t1 = performance.now();
-	console.log(`${t1-t0} milliseconds`);
+	const searchT1 = performance.now();
+	console.log(`search ${searchT1-searchT0} milliseconds`);
+	
+				// return only the first result if asked for
+				// if (option.firstResultOnly)
+
 
 	// compile the search results and figure out what to send back
+	const result = [];
 
+	// const matchedFiles = Object.keys(resultMap);
+	// if (matchedFiles.length === 0) return undefined;
+
+	if (options.multiKeyLogic === 'AND') {
+		if (resultMap[0].matchedFiles.length === 0) return undefined; // no result
+
+		const doneFiles = {};
+		for (const keyResult of resultMap) {
+			for (const file of Object.keys(keyResult.matchedFiles)) {
+				if (doneFiles[file]) continue;
+				doneFiles[file] = true;
+				if (!resultMap.every(r => r.matchedFiles[file])) continue; // AND
+
+				for (const id of Object.keys(keyResult.matchedFiles[file].matchedData)) {
+					if (!resultMap.every(r => r.matchedFiles[file].matchedData[id])) continue; // AND
+
+					const language = options.resultLanguage || keyResult.matchedFiles[file].language;
+					const dataObj = getDataByKey(dataset, language, file, 'id', id);
+
+					result.push({
+						dataset: dataset,
+						language: language,
+						file: file,
+						id: id,
+						keys: a,
+						data: dataObj
+					});
+				}
+			}
+		}
+
+	} else if (options.multiKeyLogic === 'OR') {
+
+	}
+
+	const funT1 = performance.now();
+	console.log(`function ${funT1-funT0} milliseconds`);
+	return result;
 }
+
+// const result = searchData('parsed', ['en'], ['character'], ['name', 'attribute'], ['Resna', 'fire'], { multiKeyLogic: 'AND' });
+// console.log(result);
+// console.log(result.length);
 
 // "/character.traits.battle_item.category", "ATTACK"
 // Retrieve a list of characters that have attack category battle item traits,
@@ -224,9 +307,6 @@ function getNestedValues(init, dataObj, keys, level=0, currentKey=undefined) {
 
 	} else {
 		return {
-			dataset: init.dataset,
-			language: init.language,
-			file: init.file,
 			dataId: init.dataId,
 			key: (currentKey ? currentKey+'.' : '')+key, 
 			value: safeToString(subData) 

@@ -54,7 +54,8 @@ function extract() {
 			equipment: charObj.equipment_tool_trait_ids.map(t => extractEquipmentTrait(t))
 		};
 
-		data.baseStats = {
+		data.stats = {};
+		data.stats.base = {
 			hp: charObj.initial_status.hp,
 			spd: charObj.initial_status.speed,
 			patk: charObj.initial_status.attack,
@@ -62,7 +63,7 @@ function extract() {
 			pdef: charObj.initial_status.defense,
 			mdef: charObj.initial_status.mental,			
 		};
-		data.statGrowth = {
+		data.stats.growth = {
 			hp: xstatMap[charObj.character_growth_id].level_coefficients.hp,
 			spd: xstatMap[charObj.character_growth_id].level_coefficients.speed,
 			patk: xstatMap[charObj.character_growth_id].level_coefficients.attack,
@@ -70,7 +71,7 @@ function extract() {
 			pdef: xstatMap[charObj.character_growth_id].level_coefficients.defense,
 			mdef: xstatMap[charObj.character_growth_id].level_coefficients.mental,
 		};
-		data.resistance = {
+		data.stats.resistance = {
 			fire: charObj.resistance.fire,
 			ice: charObj.resistance.ice,
 			bolt: charObj.resistance.lightning,
@@ -79,15 +80,14 @@ function extract() {
 			strike: charObj.resistance.impact,
 			stab: charObj.resistance.piercing,
 		};
-		// stat growth
 
-		data.skill1 = extractSkill(charObj.normal1_skill_ids);
-		data.skill2 = extractSkill(charObj.normal2_skill_ids);
+		data.skill_1 = extractSkill(charObj.normal1_skill_ids);
+		data.skill_2 = extractSkill(charObj.normal2_skill_ids);
 		data.burst = extractSkill(charObj.burst_skill_ids);
 
-		data.passive1 = extractPassive(charObj.ability_ids[0]);
+		data.passive_1 = extractPassive(charObj.ability_ids[0]);
 		if (!charObj.ability_ids[1]) console.log(`character ${data.name} is missing a passive)`);
-		data.passive2 = extractPassive(charObj.ability_ids[1]);
+		data.passive_2 = extractPassive(charObj.ability_ids[1]);
 		if (charObj.ability_ids[2]) console.log(`character ${data.name} has extra passive)`);
 		// data.passive1 = extractPassive(charObj.ability_ids[0]);
 
@@ -151,7 +151,7 @@ function extractSkill(skillIds) {
 	data.name = skillObj.name;
 	data.description = skillObj.description;
 	data.summary = skillObj.summary;
-	data.maxLevel = skillIds.length;
+	data.max_level = skillIds.length;
 
 	if (skillObj.limit_count !== null) console.log(`skill "${data.name}" has a non-null limit_count`);
 
@@ -174,16 +174,16 @@ function extractSkill(skillIds) {
 	if (!data.range) console.log(`skill "${data.name} unmapped range ${skillObj.skill_target_type}`);
 
 	// Damage
-	data.hasDamage = skillObj.skill_power_type === 2;
-	if (data.hasDamage) data.damageValues = skillIds.map(id => xskillMap[id].power);
+	data.has_damage = skillObj.skill_power_type === 2;
+	if (data.has_damage) data.damage_values = skillIds.map(id => xskillMap[id].power);
 
 	// Stun
-	data.hasStun = skillObj.break_power_type === 2;
-	if (data.hasStun) data.stunValues = skillIds.map(id => xskillMap[id].break_power);
+	data.has_stun = skillObj.break_power_type === 2;
+	if (data.has_stun) data.stun_values = skillIds.map(id => xskillMap[id].break_power);
 
 	// Recover
-	data.hasRecovery = skillObj.skill_effect_type === 2;
-	if (data.hasRecovery) data.recoveryValues = skillIds.map(id => xskillMap[id].power);
+	data.has_recovery = skillObj.skill_effect_type === 2;
+	if (data.has_recovery) data.recovery_values = skillIds.map(id => xskillMap[id].power);
 
 	// Wait
 	data.wait = skillObj.wait + 200;

@@ -57,12 +57,12 @@ function parseQuery(query) {
                 break;
         }
     }
-    
+
     return result;
 }
 
 export default function handler(request, response) {
     const { languages, files, keys, query, options } = parseQuery(request.query);
 
-    return response.json(searchData(dataset, languages, files, keys, query, options));
+    return response.json(searchData(request.query.dataset, languages, files, keys, query, options));
 }

@@ -128,8 +128,20 @@ function parseKeys(keyString) {
  * @param {*} options 
  */
 function parseSearchOptions(options) {
-	const searchOpts = {};
-	searchOpts.multiKeyLogic = 'AND';
+	const searchOpts = {
+		firstResultOnly: true,
+		multiKeyLogic: 'AND',
+		resultLanguage: undefined
+	};
+
+	if (typeof options.firstResultOnly === 'boolean')
+		searchOpts.firstResultOnly = options.firstResultOnly;
+	if (options.multiKeyLogic && options.multiKeyLogic.toLowerCase() === 'and')
+		searchOpts.multiKeyLogic = 'AND';
+	else if (options.multiKeyLogic && options.multiKeyLogic.toLowerCase() === 'or')
+		searchOpts.multiKeyLogic = 'OR';
+	if (validateLanguage(options.resultLanguage))
+		searchOpts.resultLanguage = options.resultLanguage;
 
 	return searchOpts;
 }

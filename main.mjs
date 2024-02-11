@@ -129,7 +129,7 @@ function parseKeys(keyString) {
  */
 function parseSearchOptions(options) {
 	const searchOpts = {
-		firstResultOnly: true,
+		firstResultOnly: false,
 		multiKeyLogic: 'AND',
 		resultLanguage: undefined
 	};
@@ -263,6 +263,9 @@ export function searchData(dataset, languages, files, keys, query, options={}) {
 }
 
 // const result = searchData('parsed', ['en'], ['character'], ['name', 'attribute'], ['Resna', 'fire'], { multiKeyLogic: 'AND' });
+// const result = searchData('parsed', ['en'], ['character'], ['initial_rarity'], ['3'], { multiKeyLogic: 'AND' });
+// const result = searchData('master', ['en'], ['character'], ['attack_attributes'], ['5'], { multiKeyLogic: 'AND' });
+// const result = searchData('master', ['en'], ['character'], ['attack_attributes', 'name'], ['5', 'resna'], { multiKeyLogic: 'AND' });
 // console.log(result);
 // console.log(result.length);
 
@@ -291,23 +294,29 @@ export function searchData(dataset, languages, files, keys, query, options={}) {
  * @typdef {{ dataId: number, key: string, value: string }} DataProperty
  * @returns {DataProperty|DataProperty[]} Object or array depending on if there are multiple results. If there are no results, then empty array.
  */
-function getNestedValues(init, dataObj, keys, level=0, currentKey=undefined) {
-	const key = keys[level];
+function getNestedValues(init, dataObj, keys, level=0, currentKey=undefined, arrayIndex=undefined) {
+	const key = arrayIndex !== undefined ? arrayIndex : keys[level];
 	if (key === undefined) return [];
 
 	const subData = dataObj[key];
-	if (!subData) return [];
+
+	// update currentKey
+	if (arrayIndex !== undefined) {
+		currentKey = currentKey+'['+key+']';
+	} else {
+		currentKey = (currentKey ? currentKey+'.' : '')+key;
+	}
 
 	if (Array.isArray(subData)) {
-		return subData.flatMap((d, i) => getNestedValues(init, d, keys, level+1, currentKey+'.'+key+'['+i+']'));
+		return subData.flatMap((_d, i) => getNestedValues(init, subData, keys, level+1, currentKey, i));
 
-	} else if (typeof subData === 'object') { // we already checked for null and array above
-		return getNestedValues(init, subData, keys, level+1, (currentKey ? currentKey+'.' : '')+key);
+	} else if (typeof subData === 'object' && subData !== null) {
+		return getNestedValues(init, subData, keys, level+1, currentKey);
 
 	} else {
 		return {
 			dataId: init.dataId,
-			key: (currentKey ? currentKey+'.' : '')+key, 
+			key: currentKey, 
 			value: safeToString(subData) 
 		};
 	}

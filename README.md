@@ -65,10 +65,10 @@ Query parameters:
 **key** *{string}* - Comma-separated list of keys to search in.  
 **query** *{string}* - The search query.  
 
-**topResultOnly** *{boolean?}* - Default true.  
+**firstResultOnly** *{boolean?}* - Default true.  
 **numberOfResults** *{number?}* - Default -1. If topResultOnly is set to false, then this API will return an 
 **multiKeyLogic** *{string?}* - Default "AND".
-**resultLanguage** *{string?}* - 
+**resultLanguage** *{string?}* - Default undefined.
 
 Examples:  
 https://resleriana-db.vercel.app/api/master/search?language=en&file=character&key=name&query=resna

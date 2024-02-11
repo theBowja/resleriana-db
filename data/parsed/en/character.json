@@ -95,8 +95,9 @@
       "description": "After attacking, reduces target's Fire resistance by {0}% for 5 attacks.",
       "summary": "After attack, reduces target's Fire resistance.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000911, "description": "", "value": 1000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ENEMY",
       "range": "ONE",
@@ -112,6 +113,7 @@
       "description": "After attacking, boosts own stun damage by {0}% for 1 turn.",
       "summary": "After attack, boosts own stun damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000985,
@@ -119,7 +121,7 @@
           "value": 6000
         }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ENEMY",
       "range": "ALL",
@@ -135,8 +137,9 @@
       "description": "After attacking, boosts stun damage the target receives by {0}% for 3 attacks.",
       "summary": "After attack, boosts target's stun damage received.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91000912, "description": "", "value": 5000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ENEMY",
       "range": "ONE",
@@ -266,11 +269,12 @@
       "description": "Boosts damage by 10-20% depending on number of enemies. (The more enemies the higher the boost, up to 4 enemies.)",
       "summary": "Boosts damage with more enemies.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         { "id": 91000949, "description": "", "value": 1000 },
         { "id": 91000927, "description": "", "value": 1000 }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STAB",
       "target": "ENEMY",
       "range": "ONE",
@@ -286,6 +290,7 @@
       "description": "Boosts damage by 10–30% depending on number of enemies. (Higher boost for more enemies, up to 4 enemies)<br>After attacking, boosts own skill damage by {0}% for 1 turn.",
       "summary": "Boosts damage with more enemies. After attack, boosts own skill damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         { "id": 91000949, "description": "", "value": 2000 },
         {
@@ -295,7 +300,7 @@
         },
         { "id": 91000927, "description": "", "value": 1000 }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STAB",
       "target": "ENEMY",
       "range": "ALL",
@@ -311,11 +316,12 @@
       "description": "Boosts damage by 30–70% depending on number of enemies. (Higher boost for more enemies, up to 4 enemies)",
       "summary": "Boosts damage with more enemies.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         { "id": 91000949, "description": "", "value": 4000 },
         { "id": 91000927, "description": "", "value": 3000 }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STAB",
       "target": "ENEMY",
       "range": "ONE",
@@ -445,8 +451,9 @@
       "description": "Boosts damage by {0}% when there is only 1 enemy.",
       "summary": "Boosts damage when there is only 1 enemy.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000929, "description": "", "value": 1000 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "SLASH",
       "target": "ENEMY",
       "range": "ONE",
@@ -462,6 +469,7 @@
       "description": "Boosts damage by 5–25% depending on number of enemies. (Higher boost for fewer enemies, range: 1–4 enemies)<br>After attacking, boosts own skill damage by {0}% for 1 turn.",
       "summary": "Boosts damage with fewer enemies. After attack, boosts own skill damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000980,
@@ -471,7 +479,7 @@
         { "id": 91000950, "description": "", "value": 2000 },
         { "id": 91000927, "description": "", "value": 500 }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "SLASH",
       "target": "ENEMY",
       "range": "ONE",
@@ -487,8 +495,9 @@
       "description": "Boosts damage by {0}% when there is only 1 enemy.",
       "summary": "Boosts damage when there is only 1 enemy.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91000929, "description": "", "value": 4000 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "SLASH",
       "target": "ENEMY",
       "range": "ONE",
@@ -618,8 +627,9 @@
       "description": "After attacking, boosts all allies' stun damage by 2–10%, depending on the number of enemies for 1 turn. (Higher boost for more enemies, up to 4 enemies)",
       "summary": "After attacking, boosts all allies' stun damage. (Higher boost for more enemies)",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91001023, "description": "", "value": 1000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "AIR",
       "target": "ENEMY",
       "range": "ONE",
@@ -635,12 +645,13 @@
       "description": "Boosts all allies' M. ATK by {0}% for 2 turns, boosts the target's M. DEF by {1}% for 2 attacks, and restores {2}% of target's HP.",
       "summary": "Boosts all allies' M. ATK and M. DEF, and restores their HP.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         { "id": 91001008, "description": "", "value": 800 },
         { "id": 91001009, "description": "", "value": 800 },
         { "id": 91000925, "description": "", "value": 500 }
       ],
-      "attributeType": "NONE",
+      "attribute_type": "NONE",
       "attribute": "AIR",
       "target": "ALLY",
       "range": "ALL",
@@ -654,8 +665,9 @@
       "description": "After attacking, restores {0}% of the item gauge.",
       "summary": "After attacking, restores the item gauge.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91002004, "description": "", "value": 5000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "AIR",
       "target": "ENEMY",
       "range": "ONE",
@@ -785,8 +797,9 @@
       "description": "After attacking, boosts own stun damage by {0}% for 1 turn.",
       "summary": "After attacking, boosts own stun damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000908, "description": "", "value": 4000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "BOLT",
       "target": "ENEMY",
       "range": "ONE",
@@ -802,8 +815,9 @@
       "description": "After attacking, boosts target's damage received by {0}%. (MAX 15%)",
       "summary": "After attacking, boosts target's damage received.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91001024, "description": "", "value": 500 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "BOLT",
       "target": "ENEMY",
       "range": "ALL",
@@ -819,8 +833,9 @@
       "description": "After attacking, there is a very high chance of inflicting the target with Paralysis at the start of their turn for 2 turns.",
       "summary": "After attacking, there is a very high chance of inflicting the target with Paralysis.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91000931, "description": "", "value": 2000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "BOLT",
       "target": "ENEMY",
       "range": "ALL",
@@ -950,8 +965,9 @@
       "description": "After attacking, reduces target's damage by {0}% for 2 turns.",
       "summary": "After attack, reduces target's damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000916, "description": "", "value": 1000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ENEMY",
       "range": "ONE",
@@ -967,6 +983,7 @@
       "description": "After attacking, gain Evasion ({0}% chance) for 1 attack.",
       "summary": "After attack, gain Evasion.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000918,
@@ -974,7 +991,7 @@
           "value": 10000
         }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ENEMY",
       "range": "ALL",
@@ -990,8 +1007,9 @@
       "description": "After attacking, reduces target's damage by {0}% for 1 turn.",
       "summary": "After attack, reduces target's damage.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91000914, "description": "", "value": 5000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ENEMY",
       "range": "ALL",
@@ -1126,6 +1144,7 @@
       "description": "Boosts damage by {0}% when target's HP is 50% or lower.",
       "summary": "Boosts damage when target's HP is 50% or lower.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000975,
@@ -1133,7 +1152,7 @@
           "value": 2000
         }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "ICE",
       "target": "ENEMY",
       "range": "ONE",
@@ -1149,6 +1168,7 @@
       "description": "After attacking, boosts own skill damage by {0}% for 1 turn. Boosts all allies' skill damage by {1}% for 1 turn.",
       "summary": "After attack, boosts own skill damage and boosts all allies' skill damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000979,
@@ -1161,7 +1181,7 @@
           "value": 500
         }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "ICE",
       "target": "ENEMY",
       "range": "ONE",
@@ -1177,6 +1197,7 @@
       "description": "Boosts damage by {0}% when target's HP is 50% or lower.",
       "summary": "Boosts damage when target's HP is 50% or lower.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         {
           "id": 91000975,
@@ -1184,7 +1205,7 @@
           "value": 5000
         }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "ICE",
       "target": "ENEMY",
       "range": "ONE",
@@ -1314,8 +1335,9 @@
       "description": "On attacking a weakness, boosts damage by {0}%.",
       "summary": "On attacking a weakness, boosts damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000903, "description": "", "value": 1500 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "BOLT",
       "target": "ENEMY",
       "range": "ONE",
@@ -1331,12 +1353,13 @@
       "description": "Boosts damage by 5–25% depending on own HP. (Higher boost for lower HP, range: 20–100% HP) Before attacking, boosts own skill damage by {0}%. (MAX 50%)",
       "summary": "Boosts damage with lower HP. Before attack, boosts own skill damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         { "id": 91001000, "description": "", "value": 500 },
         { "id": 91000943, "description": "", "value": 2000 },
         { "id": 91000927, "description": "", "value": 500 }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "BOLT",
       "target": "ENEMY",
       "range": "ONE",
@@ -1352,11 +1375,12 @@
       "description": "Boosts damage by 20–70% depending on own HP. (Higher boost for lower HP, range: 20–100% HP)",
       "summary": "Boosts own damage with lower HP.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         { "id": 91000943, "description": "", "value": 5000 },
         { "id": 91000927, "description": "", "value": 2000 }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "BOLT",
       "target": "ENEMY",
       "range": "ONE",
@@ -1486,8 +1510,9 @@
       "description": "After attacking, boosts physical damage target receives by {0}% for 5 attacks.",
       "summary": "After attack, boosts target's physical damage received.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000932, "description": "", "value": 500 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "SLASH",
       "target": "ENEMY",
       "range": "ONE",
@@ -1503,6 +1528,7 @@
       "description": "Before attacking, boosts own stun damage by {0}%. (MAX 50%) After attacking, reduces target's Slash resistance by {1}% for 2 attacks.",
       "summary": "Before attacking, boosts own stun damage.<br>After attacking, reduces target's Slash resistance.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000954,
@@ -1511,7 +1537,7 @@
         },
         { "id": 91000955, "description": "", "value": 1000 }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "SLASH",
       "target": "ENEMY",
       "range": "ONE",
@@ -1527,8 +1553,9 @@
       "description": "After attacking, reduces target's Slash resistance by {0}% for 5 attacks.",
       "summary": "After attack, reduces target's Slash resistance.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91000964, "description": "", "value": 3000 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "SLASH",
       "target": "ENEMY",
       "range": "ONE",
@@ -1658,11 +1685,12 @@
       "description": "After attacking, boosts damage target receives by {0}% for 2 turns. Boosts damage target receives by {0}% for 2 attacks.",
       "summary": "After attack, boosts target's damage received.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         { "id": 91000966, "description": "", "value": 1000 },
         { "id": 91001091, "description": "", "value": 1000 }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "ICE",
       "target": "ENEMY",
       "range": "ONE",
@@ -1678,8 +1706,9 @@
       "description": "Boosts damage by {0}% when own HP is 70% or higher.",
       "summary": "Boosts damage when own HP is 70% or higher.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000947, "description": "", "value": 4000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "ICE",
       "target": "ENEMY",
       "range": "ONE",
@@ -1695,11 +1724,12 @@
       "description": "Boosts damage by {0}% when target is affected by Received Dmg Up. After attacking, restores own HP by {1}%.",
       "summary": "Boosts damage if target affected by Received Damage Up. After attack, restores own HP.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         { "id": 91000902, "description": "", "value": 4000 },
         { "id": 91000926, "description": "", "value": 4000 }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "ICE",
       "target": "ENEMY",
       "range": "ONE",
@@ -1829,6 +1859,7 @@
       "description": "After attacking, boosts own skill damage by {0}% for 1 turn.",
       "summary": "After attack, boosts own skill damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000981,
@@ -1836,7 +1867,7 @@
           "value": 1000
         }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STAB",
       "target": "ENEMY",
       "range": "ONE",
@@ -1852,8 +1883,9 @@
       "description": "After attacking, there is a very high chance to inflict the target with Poison at the start of their turn for 2 turns.",
       "summary": "After attack, very high chance to inflict Poison.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000951, "description": "", "value": 200 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STAB",
       "target": "ENEMY",
       "range": "ONE",
@@ -1869,8 +1901,9 @@
       "description": "Boosts damage by {0}% when target is poisoned.",
       "summary": "Boosts damage when target is poisoned.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91000952, "description": "", "value": 4000 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STAB",
       "target": "ENEMY",
       "range": "ONE",
@@ -2000,8 +2033,9 @@
       "description": "After attacking, there is a moderate chance of inflicting the target with Burns.",
       "summary": "After attack, moderate chance to inflict Burns.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000972, "description": "", "value": 100 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ENEMY",
       "range": "ONE",
@@ -2017,6 +2051,7 @@
       "description": "After recovery, boosts target's Fire damage by {0}% for 2 turns.",
       "summary": "After recovery, boosts target's Fire damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000963,
@@ -2024,7 +2059,7 @@
           "value": 2000
         }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ALLY",
       "range": "ONE",
@@ -2039,6 +2074,7 @@
       "description": "After attacking, there is a very high chance to inflict the target with Burns.<br>Boosts own magic attack by {1}% for 3 turns.",
       "summary": "After attack, very high chance to inflict Burns. Boosts own magic attack.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         { "id": 91000941, "description": "", "value": 100 },
         {
@@ -2047,7 +2083,7 @@
           "value": 1500
         }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ENEMY",
       "range": "ONE",
@@ -2177,6 +2213,7 @@
       "description": "Before attacking, boosts own skill damage by {0}%. (MAX 30%)",
       "summary": "Boosts own skill damage before attacking.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000977,
@@ -2184,7 +2221,7 @@
           "value": 300
         }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "SLASH",
       "target": "ENEMY",
       "range": "ONE",
@@ -2200,6 +2237,7 @@
       "description": "Before attacking, boosts own skill damage by {0}%. (MAX 150%)",
       "summary": "Boosts own skill damage before attacking.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000978,
@@ -2207,7 +2245,7 @@
           "value": 1500
         }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "SLASH",
       "target": "ENEMY",
       "range": "ONE",
@@ -2223,8 +2261,9 @@
       "description": "On attacking a weakness, boosts damage by {0}%.",
       "summary": "On attacking a weakness, boosts damage.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91000903, "description": "", "value": 4000 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "SLASH",
       "target": "ENEMY",
       "range": "ONE",
@@ -2354,6 +2393,7 @@
       "description": "After attacking, reduces own physical damage received by {0}% for 2 attacks.",
       "summary": "After attack, reduces own physical damage received.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000991,
@@ -2361,7 +2401,7 @@
           "value": 1500
         }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "ICE",
       "target": "ENEMY",
       "range": "ONE",
@@ -2377,6 +2417,7 @@
       "description": "After recovery, removes target's status effects. Also reduces target's physical damage received by {0}% for 2 attacks.",
       "summary": "After recovery, removes target's status effects and reduces physical damage received.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000992,
@@ -2385,7 +2426,7 @@
         },
         { "id": 91000939, "description": "", "value": 10000 }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "ICE",
       "target": "ALLY",
       "range": "ONE",
@@ -2400,6 +2441,7 @@
       "description": "After attacking, reduces all allies' physical damage received by {0}% for 1 attack.",
       "summary": "After attack, reduces all allies' physical damage received.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         {
           "id": 91000993,
@@ -2407,7 +2449,7 @@
           "value": 5000
         }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "ICE",
       "target": "ENEMY",
       "range": "ALL",
@@ -2537,8 +2579,9 @@
       "description": "After attacking, boosts damage target receives by {0}% for 2 attacks.",
       "summary": "After attack, boosts target's damage received.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000966, "description": "", "value": 1000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "AIR",
       "target": "ENEMY",
       "range": "ONE",
@@ -2554,8 +2597,9 @@
       "description": "After recovery, reduces own damage received by {0}% for 2 attacks.",
       "summary": "After recovery, reduces own received damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000919, "description": "", "value": 2000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "AIR",
       "target": "ALLY",
       "range": "ALL",
@@ -2570,8 +2614,9 @@
       "description": "After attacking, boosts damage target receives by {0}% for 2 attacks.",
       "summary": "After attack, boosts target's damage received.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91000966, "description": "", "value": 3000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "AIR",
       "target": "ENEMY",
       "range": "ALL",
@@ -2706,8 +2751,9 @@
       "description": "After attacking, boosts Freeze Breeze damage by {0}%. (MAX 50%)",
       "summary": "After attacking, boosts Freeze Breeze damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91001031, "description": "", "value": 1000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "ICE",
       "target": "ENEMY",
       "range": "ONE",
@@ -2723,8 +2769,9 @@
       "description": "After attacking, boosts own skill damage by {0}% for 2 turns.",
       "summary": "After attacking, boosts own skill damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91002020, "description": "", "value": 3000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "ICE",
       "target": "ENEMY",
       "range": "ONE",
@@ -2740,11 +2787,12 @@
       "description": "After attacking, boosts own Speed by {0}% for 1 turn, and own skill damage by {1}% for 3 turns.",
       "summary": "After attacking, boosts own Speed and skill damage.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         { "id": 91001030, "description": "", "value": 5000 },
         { "id": 91001032, "description": "", "value": 1500 }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "ICE",
       "target": "ENEMY",
       "range": "ONE",
@@ -2871,8 +2919,9 @@
       "description": "After attacking, restores {0}% of own HP.",
       "summary": "After attack, restores own HP.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000948, "description": "", "value": 2000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "AIR",
       "target": "ENEMY",
       "range": "ONE",
@@ -2888,6 +2937,7 @@
       "description": "Before recovery, boosts target's max HP by {0}%. (MAX 25%)",
       "summary": "Before recovery, boosts target's max HP.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000961,
@@ -2895,7 +2945,7 @@
           "value": 500
         }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "AIR",
       "target": "ALLY",
       "range": "ONE",
@@ -2910,6 +2960,7 @@
       "description": "After recovery, reduces target's damage received by {0}% for 1 attack.",
       "summary": "After recovery, reduces target's damage received.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         {
           "id": 91000946,
@@ -2917,7 +2968,7 @@
           "value": 3000
         }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "AIR",
       "target": "ALLY",
       "range": "ALL",
@@ -3046,8 +3097,9 @@
       "description": "After attacking, reduces target's Fire resistance by {0}% for 2 attacks.",
       "summary": "After attacking, reduces target's Fire resistance.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91001050, "description": "", "value": 2000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ENEMY",
       "range": "ONE",
@@ -3063,8 +3115,9 @@
       "description": "After attacking, boosts own skill damage by 10–30% depending on number of enemies for 3 turns. (Higher boost for more enemies, up to 3 enemies)",
       "summary": "After attacking, boosts own skill damage. (Higher boost for more enemies)",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91001051, "description": "", "value": 3000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ENEMY",
       "range": "ALL",
@@ -3080,11 +3133,12 @@
       "description": "Boosts damage by 40–100% depending on the number of enemies. (Higher boost for more enemies, up to 3 enemies)",
       "summary": "Boosts damage when there are more enemies.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         { "id": 91001066, "description": "", "value": 6000 },
         { "id": 91000927, "description": "", "value": 4000 }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ENEMY",
       "range": "ALL",
@@ -3208,8 +3262,9 @@
       "description": "No additional effects.",
       "summary": "No additional effects.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [  ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ENEMY",
       "range": "ONE",
@@ -3225,8 +3280,9 @@
       "description": "After attacking, restores own HP by {0}%.",
       "summary": "After attacking, restores own HP.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000926, "description": "", "value": 2000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ENEMY",
       "range": "ONE",
@@ -3242,11 +3298,12 @@
       "description": "Boosts damage by {0}% when own HP is 50% or higher. After attacking, restores own HP by {1}% when own HP is 50% or lower.",
       "summary": "Boosts damage when own HP is 50% or higher. After attacking, restores HP when HP is 50% or lower.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         { "id": 91001067, "description": "", "value": 3000 },
         { "id": 91001068, "description": "", "value": 3000 }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ENEMY",
       "range": "ONE",
@@ -3373,6 +3430,7 @@
       "description": "After attacking, reduces own magic damage received by {0}% for 2 attacks.",
       "summary": "After attack, reduces own magic damage received.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000987,
@@ -3380,7 +3438,7 @@
           "value": 1500
         }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "SLASH",
       "target": "ENEMY",
       "range": "ONE",
@@ -3396,6 +3454,7 @@
       "description": "After attacking, reduces all allies' magic damage received by {0}% for 1 attack.",
       "summary": "After attack, reduces all allies' magic damage received.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000988,
@@ -3403,7 +3462,7 @@
           "value": 1500
         }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "SLASH",
       "target": "ENEMY",
       "range": "ONE",
@@ -3419,11 +3478,12 @@
       "description": "After attacking, reduces target's damage by {0}% and reduces their magic damage by {1}% for 1 turn.",
       "summary": "After attack, reduces target's damage and magic damage.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         { "id": 91000914, "description": "", "value": 2000 },
         { "id": 91000923, "description": "", "value": 3000 }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "SLASH",
       "target": "ENEMY",
       "range": "ALL",
@@ -3558,11 +3618,12 @@
       "description": "After attacking, reduces own damage received by {0}% for 3 attacks and grants Protection to self for 3 turns.",
       "summary": "After attacking, reduces own damage received and grants Protection to self.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         { "id": 91001070, "description": "", "value": 500 },
         { "id": 91001071, "description": "", "value": 0 }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STRIKE",
       "target": "ENEMY",
       "range": "ONE",
@@ -3578,8 +3639,9 @@
       "description": "Reduces all allies' damage received by {0}% for 1 attack.",
       "summary": "Reduces target's damage received.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91001069, "description": "", "value": 2000 } ],
-      "attributeType": "NONE",
+      "attribute_type": "NONE",
       "attribute": "STRIKE",
       "target": "ALLY",
       "range": "ALL",
@@ -3593,8 +3655,9 @@
       "description": "Boosts all allies' HP recovery at the start of the turn by {0}% for 5 turns.",
       "summary": "Grants Regen to the target.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91001035, "description": "", "value": 1000 } ],
-      "attributeType": "NONE",
+      "attribute_type": "NONE",
       "attribute": "STRIKE",
       "target": "ALLY",
       "range": "ALL",
@@ -3727,8 +3790,9 @@
       "description": "After attacking, reduces target's Stab resistance by {0}% for 5 attacks.",
       "summary": "After attack, reduces target's Stab resistance.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000970, "description": "", "value": 1000 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STAB",
       "target": "ENEMY",
       "range": "ONE",
@@ -3744,8 +3808,9 @@
       "description": "No additional effects.",
       "summary": "No additional effects.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [  ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STAB",
       "target": "ENEMY",
       "range": "ONE",
@@ -3761,11 +3826,12 @@
       "description": "Boosts stun damage by {0}% when attacking a weakness. After attacking, reduces target's Stab resistance by {1}% for 3 attacks.",
       "summary": "Boosts stun damage when hitting weakness. After attack, reduces target's Stab resistance.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         { "id": 91000934, "description": "", "value": 2000 },
         { "id": 91000907, "description": "", "value": 5000 }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STAB",
       "target": "ENEMY",
       "range": "ONE",
@@ -3895,8 +3961,9 @@
       "description": "After attacking, boosts damage the target receives by {0}% for 1 attack.",
       "summary": "After attack, boosts target's damage received.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000901, "description": "", "value": 1500 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "BOLT",
       "target": "ENEMY",
       "range": "ONE",
@@ -3912,11 +3979,12 @@
       "description": "Boosts damage by {0}% when target has status effects. After attacking, there is a very high chance to inflict the target with Paralysis at the start of their turn for 2 turns.",
       "summary": "Boosts damage if target has status effects. After attack, very high chance to inflict Paralysis.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         { "id": 91000931, "description": "", "value": 2000 },
         { "id": 91000942, "description": "", "value": 2000 }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "BOLT",
       "target": "ENEMY",
       "range": "ONE",
@@ -3932,8 +4000,9 @@
       "description": "Boosts damage by {0}% while target is paralyzed.",
       "summary": "Boosts damage while target is paralyzed.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91000930, "description": "", "value": 4000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "BOLT",
       "target": "ENEMY",
       "range": "ALL",
@@ -4063,11 +4132,12 @@
       "description": "After attacking, reduces target's Fire & Ice resistances by {0}% for 5 attacks.",
       "summary": "After attack, reduces target's Fire & Ice resistance.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         { "id": 91000971, "description": "", "value": 500 },
         { "id": 91000936, "description": "", "value": 500 }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "ICE",
       "target": "ENEMY",
       "range": "ONE",
@@ -4083,11 +4153,12 @@
       "description": "Boosts stun damage by {0}% when attacking a weakness. After attacking, reduces target's Ice resistance by {1}% for 2 attacks.",
       "summary": "Boosts stun damage when hitting weakness. After attack, reduces target's Ice resistance.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         { "id": 91000907, "description": "", "value": 4000 },
         { "id": 91000935, "description": "", "value": 2000 }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "ICE",
       "target": "ENEMY",
       "range": "ONE",
@@ -4103,11 +4174,12 @@
       "description": "After attacking, reduces target's Fire & Ice resistances by {0}% for 5 attacks.",
       "summary": "After attack, reduces target's Fire & Ice resistance.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         { "id": 91000971, "description": "", "value": 1500 },
         { "id": 91000936, "description": "", "value": 1500 }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ENEMY",
       "range": "ONE",
@@ -4237,8 +4309,9 @@
       "description": "No additional effects.",
       "summary": "No additional effects.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [  ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "AIR",
       "target": "ENEMY",
       "range": "ONE",
@@ -4254,6 +4327,7 @@
       "description": "After attacking, reduces target's Air & Slash resistances by {0}% for 2 attacks. Boosts all allies' Air & Slash stun damage by {1}% for 2 turns.",
       "summary": "After attack, reduces target's Air & Slash resistance. Boosts allies' Air & Slash stun damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         { "id": 91000933, "description": "", "value": 1500 },
         { "id": 91000937, "description": "", "value": 1500 },
@@ -4268,7 +4342,7 @@
           "value": 1500
         }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "AIR",
       "target": "ENEMY",
       "range": "ONE",
@@ -4284,11 +4358,12 @@
       "description": "After attacking, reduces target's Air & Slash resistance by {0}% for 5 attacks.",
       "summary": "After attack, reduces target's Air & Slash resistance.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         { "id": 91000968, "description": "", "value": 1500 },
         { "id": 91000969, "description": "", "value": 1500 }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "AIR",
       "target": "ENEMY",
       "range": "ONE",
@@ -4418,6 +4493,7 @@
       "description": "After attacking, boosts own skill damage by {0}% for 1 turn.",
       "summary": "After attack, boosts own skill damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000982,
@@ -4425,7 +4501,7 @@
           "value": 1500
         }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "SLASH",
       "target": "ENEMY",
       "range": "ONE",
@@ -4441,8 +4517,9 @@
       "description": "Boosts damage by {0}% while target is stunned.",
       "summary": "Boosts damage while target is stunned.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000906, "description": "", "value": 4000 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "SLASH",
       "target": "ENEMY",
       "range": "ONE",
@@ -4458,8 +4535,9 @@
       "description": "Boosts damage by {0}% while target is stunned.",
       "summary": "Boosts damage while target is stunned.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91000906, "description": "", "value": 5000 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "SLASH",
       "target": "ENEMY",
       "range": "ALL",
@@ -4594,6 +4672,7 @@
       "description": "After attacking, boosts own stun damage by {0}% for 1 turn.",
       "summary": "After attack, boosts own stun damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000984,
@@ -4601,7 +4680,7 @@
           "value": 2000
         }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "AIR",
       "target": "ENEMY",
       "range": "ONE",
@@ -4617,8 +4696,9 @@
       "description": "No additional effects.",
       "summary": "No additional effects.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [  ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "AIR",
       "target": "ENEMY",
       "range": "ALL",
@@ -4634,8 +4714,9 @@
       "description": "When stunning a target, boosts damage target receives by {0}% for 3 attacks.",
       "summary": "When stunning a target, boosts damage target receives.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91000967, "description": "", "value": 2000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "AIR",
       "target": "ENEMY",
       "range": "ONE",
@@ -4765,8 +4846,9 @@
       "description": "After attacking, restores 0–30% of own HP, depending on own HP. (Higher boost for lower HP, range: 25–100% HP)",
       "summary": "After attacking, restores a percentage of own HP, depending on current HP.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91001027, "description": "", "value": 3000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "BOLT",
       "target": "ENEMY",
       "range": "ONE",
@@ -4782,8 +4864,9 @@
       "description": "After attacking, reduces all of the target's resistances by {0}% for 2 attacks.",
       "summary": "After attacking, reduces all of the target's resistances.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91001014, "description": "", "value": 3000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "BOLT",
       "target": "ENEMY",
       "range": "ONE",
@@ -4799,8 +4882,9 @@
       "description": "After attacking, reduces all of the target's resistances by {0}% for 2 attacks.",
       "summary": "After attacking, reduces all of the target's resistances.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91001014, "description": "", "value": 5000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "BOLT",
       "target": "ENEMY",
       "range": "ONE",
@@ -4931,8 +5015,9 @@
       "description": "No additional effects.",
       "summary": "No additional effects.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [  ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STRIKE",
       "target": "ENEMY",
       "range": "ONE",
@@ -4948,8 +5033,9 @@
       "description": "After attacking a weakness, boosts all allies' stun damage by {0}% for 1 turn.",
       "summary": "After attacking a weakness, boosts all allies' stun damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91001015, "description": "", "value": 2000 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STRIKE",
       "target": "ENEMY",
       "range": "ALL",
@@ -4965,11 +5051,12 @@
       "description": "Boosts stun damage by {0}% when attacking a weakness. If target is stunned, restores own HP by {1}%.",
       "summary": "Boosts stun damage when attacking a weakness. If target is stunned, restores own HP.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         { "id": 91000907, "description": "", "value": 5000 },
         { "id": 91001016, "description": "", "value": 3000 }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STRIKE",
       "target": "ENEMY",
       "range": "ONE",
@@ -5099,8 +5186,9 @@
       "description": "No additional effects.",
       "summary": "No additional effects.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [  ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STAB",
       "target": "ENEMY",
       "range": "ONE",
@@ -5116,6 +5204,7 @@
       "description": "After attacking, gain Evasion ({0}% chance) for 2 attacks.",
       "summary": "After attack, gain Evasion.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000959,
@@ -5123,7 +5212,7 @@
           "value": 2500
         }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STAB",
       "target": "ENEMY",
       "range": "ONE",
@@ -5139,6 +5228,7 @@
       "description": "After attacking, gain Evasion ({0}% chance) for 1 attack.",
       "summary": "After attack, gain Evasion.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         {
           "id": 91000976,
@@ -5146,7 +5236,7 @@
           "value": 10000
         }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STAB",
       "target": "ENEMY",
       "range": "ONE",
@@ -5281,8 +5371,9 @@
       "description": "After attacking, boosts own stun damage by {0}% for 1 turn.",
       "summary": "After attack, boosts own stun damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000908, "description": "", "value": 4000 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STRIKE",
       "target": "ENEMY",
       "range": "ONE",
@@ -5298,11 +5389,12 @@
       "description": "After attacking, reduces target's Strike resistance by {0}% and boosts stun damage the target receives by {1}% for 2 attacks.",
       "summary": "After attack, reduces target's Strike resistance and boosts stun damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         { "id": 91000938, "description": "", "value": 2000 },
         { "id": 91000973, "description": "", "value": 2000 }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STRIKE",
       "target": "ENEMY",
       "range": "ONE",
@@ -5318,8 +5410,9 @@
       "description": "After attacking, reduces target's Strike resistance by {0}% for 3 attacks.",
       "summary": "After attack, reduces target's Strike resistance.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91000965, "description": "", "value": 3000 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STRIKE",
       "target": "ENEMY",
       "range": "ALL",
@@ -5454,8 +5547,9 @@
       "description": "After attacking, restores {0}% of own HP.",
       "summary": "After attack, restores own HP.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000926, "description": "", "value": 1500 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STRIKE",
       "target": "ENEMY",
       "range": "ONE",
@@ -5471,8 +5565,9 @@
       "description": "After attacking, recovers own status effects.",
       "summary": "After attacking, recovers own status effects.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000940, "description": "", "value": 10000 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STRIKE",
       "target": "ENEMY",
       "range": "ONE",
@@ -5488,8 +5583,9 @@
       "description": "After attacking, restores {0}% of own HP.",
       "summary": "After attack, restores own HP.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91000926, "description": "", "value": 5000 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STRIKE",
       "target": "ENEMY",
       "range": "ALL",
@@ -5624,6 +5720,7 @@
       "description": "After attacking, reduces own magic damage received by {0}% for 2 attacks.",
       "summary": "After attack, reduces own magic damage received.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000994,
@@ -5631,7 +5728,7 @@
           "value": 1500
         }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STAB",
       "target": "ENEMY",
       "range": "ONE",
@@ -5647,6 +5744,7 @@
       "description": "After recovery, reduces target's magic damage received by {0}% for 2 attacks.",
       "summary": "After recovery, reduces target's magic damage received.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000995,
@@ -5654,7 +5752,7 @@
           "value": 1500
         }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STAB",
       "target": "ALLY",
       "range": "ONE",
@@ -5669,6 +5767,7 @@
       "description": "After attacking, reduces all allies' magic damage received by {0}% for 1 attack.",
       "summary": "After attack, reduces all allies' magic damage received.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         {
           "id": 91000996,
@@ -5676,7 +5775,7 @@
           "value": 5000
         }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STAB",
       "target": "ENEMY",
       "range": "ONE",
@@ -5806,8 +5905,9 @@
       "description": "On attacking a weakness, boosts damage by {0}%.",
       "summary": "On attacking a weakness, boosts damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000903, "description": "", "value": 2000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "AIR",
       "target": "ENEMY",
       "range": "ONE",
@@ -5823,8 +5923,9 @@
       "description": "Delays turn by {0} when target's HP is 50% or higher.",
       "summary": "Delays target's turn when their HP is 50% or higher.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91001005, "description": "", "value": 100 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "AIR",
       "target": "ENEMY",
       "range": "ONE",
@@ -5840,8 +5941,9 @@
       "description": "After attacking, delays target's turn by {0}.",
       "summary": "After attack, delays target's turn.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91000953, "description": "", "value": 200 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "AIR",
       "target": "ENEMY",
       "range": "ONE",
@@ -5971,11 +6073,12 @@
       "description": "Boosts the skill damage of an ally by {0}% (MAX 10%) and boosts target's HP recovery at the start of the turn by {1}% for 2 turns.",
       "summary": "Boosts the skill damage of an ally and grants Regen to the target.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         { "id": 91001040, "description": "", "value": 500 },
         { "id": 91001093, "description": "", "value": 500 }
       ],
-      "attributeType": "NONE",
+      "attribute_type": "NONE",
       "attribute": "BOLT",
       "target": "ALLY",
       "range": "ONE",
@@ -5989,8 +6092,9 @@
       "description": "After recovery, boosts target's skill damage by {0}% for 1 turn.",
       "summary": "After recovery, boosts target's skill damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91001041, "description": "", "value": 2000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "BOLT",
       "target": "ALLY",
       "range": "ALL",
@@ -6005,11 +6109,12 @@
       "description": "After attacking, boosts the skill damage of the next ally in turn order at the time of skill use by {0}% for 1 turn. Reduces all attribute resistances of the target by {1}% for 1 turn.",
       "summary": "After attacking, boosts the skill damage of the next ally in turn order and reduces all resistances of the target.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         { "id": 91001042, "description": "", "value": 10000 },
         { "id": 91001012, "description": "", "value": 2500 }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "BOLT",
       "target": "ENEMY",
       "range": "ALL",
@@ -6133,11 +6238,12 @@
       "description": "Boosts damage by 5–25% depending on own HP. (Higher boost for higher HP, range: 20–100% HP)",
       "summary": "Boosts own damage with higher HP.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         { "id": 91001076, "description": "", "value": 2000 },
         { "id": 91000927, "description": "", "value": 500 }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STRIKE",
       "target": "ENEMY",
       "range": "ONE",
@@ -6153,11 +6259,12 @@
       "description": "Boosts damage by {0}% when own HP is 50% or higher and by a further {1}% when at full HP.",
       "summary": "Boosts damage when HP is 50% or higher. Further boosts damage when at full HP.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         { "id": 91001043, "description": "", "value": 2000 },
         { "id": 91001044, "description": "", "value": 3000 }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STRIKE",
       "target": "ENEMY",
       "range": "ONE",
@@ -6173,8 +6280,9 @@
       "description": "Boosts damage by {0}% when own HP is full.",
       "summary": "Boosts damage when own HP is full.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91001044, "description": "", "value": 8000 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STRIKE",
       "target": "ENEMY",
       "range": "ONE",
@@ -6304,6 +6412,7 @@
       "description": "After attacking, boosts own burst skill damage by {0}%. (MAX 100%)",
       "summary": "After attack, boosts own burst skill damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000958,
@@ -6311,7 +6420,7 @@
           "value": 2000
         }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ENEMY",
       "range": "ONE",
@@ -6327,8 +6436,9 @@
       "description": "No additional effects.",
       "summary": "No additional effects.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [  ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ENEMY",
       "range": "ONE",
@@ -6344,6 +6454,7 @@
       "description": "After attacking, boosts own skill damage by {0}%. (MAX 50%)",
       "summary": "After attack, boosts own skill damage.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         {
           "id": 91000974,
@@ -6351,7 +6462,7 @@
           "value": 2500
         }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ENEMY",
       "range": "ONE",
@@ -6481,8 +6592,9 @@
       "description": "After attacking, boosts target's damage received by {0}% for 3 attacks.",
       "summary": "After attacking, boosts target's damage received.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91001092, "description": "", "value": 1500 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "SLASH",
       "target": "ENEMY",
       "range": "ONE",
@@ -6498,11 +6610,12 @@
       "description": "Before attacking, reduces target's Slash resistance by {0}% for 2 attacks.<br>After attacking, boosts target's damage received by {1}% for 1 attack.",
       "summary": "Before attacking, reduces target's Slash resistance.<br>After attacking, boosts target's damage received.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         { "id": 91000933, "description": "", "value": 2500 },
         { "id": 91001094, "description": "", "value": 3000 }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "SLASH",
       "target": "ENEMY",
       "range": "ALL",
@@ -6518,11 +6631,12 @@
       "description": "After attacking, force stuns the target and boosts target's damage received by {0}%. (MAX 40%)",
       "summary": "After attacking, force stuns the target.<br>Boosts target's damage received.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         { "id": 91001095, "description": "", "value": 2000 },
         { "id": 91001058, "description": "", "value": 0 }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "SLASH",
       "target": "ENEMY",
       "range": "ONE",
@@ -6639,8 +6753,9 @@
       "description": "After attacking, boosts target's damage received by {0}% for 2 attacks.",
       "summary": "After attacking, boosts target's damage received.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000966, "description": "", "value": 1000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "ICE",
       "target": "ENEMY",
       "range": "ONE",
@@ -6656,11 +6771,12 @@
       "description": "After attacking, reduces target's Ice resistance by {0}% for 3 attacks, and boosts all allies' Ice damage by {1}% for 1 turn.",
       "summary": "After attacking, reduces target's Ice resistance, and boosts all allies' Ice damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         { "id": 91001028, "description": "", "value": 2500 },
         { "id": 91001029, "description": "", "value": 2500 }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "ICE",
       "target": "ENEMY",
       "range": "ONE",
@@ -6676,11 +6792,12 @@
       "description": "Before attacking, reduces target's Ice resistance by {0}% for 3 attacks. After attacking, boosts target's damage received by {1}% for 2 attacks.",
       "summary": "Before attacking, reduces target's Ice resistance. After attacking, boosts target's damage received.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         { "id": 91001028, "description": "", "value": 5000 },
         { "id": 91000966, "description": "", "value": 2000 }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "ICE",
       "target": "ENEMY",
       "range": "ONE",
@@ -6815,8 +6932,9 @@
       "description": "After attacking, boosts own stun damage by {0}%. (MAX 30%)",
       "summary": "After attacking, boosts own stun damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91001065, "description": "", "value": 1000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "ICE",
       "target": "ENEMY",
       "range": "ONE",
@@ -6832,11 +6950,12 @@
       "description": "Boosts stun damage by {0}% when attacking a weakness.<br>Before attacking, reduces target's Ice resistance by {1}% for 3 attacks.",
       "summary": "Boosts stun damage when attacking a weakness.<br>Before attacking, reduces target's Ice resistance.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         { "id": 91000907, "description": "", "value": 2000 },
         { "id": 91001028, "description": "", "value": 2500 }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "ICE",
       "target": "ENEMY",
       "range": "ONE",
@@ -6852,11 +6971,12 @@
       "description": "Boosts stun damage by {0}% when attacking a weakness.<br>After attacking, reduces target's Ice resistance by {1}% for 5 attacks.",
       "summary": "Boosts stun damage when attacking a weakness.<br>After attacking, reduces target's Ice resistance.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         { "id": 91000907, "description": "", "value": 3000 },
         { "id": 91000971, "description": "", "value": 2500 }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "ICE",
       "target": "ENEMY",
       "range": "ONE",
@@ -6986,6 +7106,7 @@
       "description": "After attacking, reduces own physical damage received by {0}% for 2 attacks.",
       "summary": "After attack, reduces own physical damage received.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000989,
@@ -6993,7 +7114,7 @@
           "value": 1500
         }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STRIKE",
       "target": "ENEMY",
       "range": "ONE",
@@ -7009,6 +7130,7 @@
       "description": "After attacking, reduces all allies' physical damage received by {0}% for 1 attack.",
       "summary": "After attack, reduces all allies' physical damage received.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000990,
@@ -7016,7 +7138,7 @@
           "value": 1500
         }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STRIKE",
       "target": "ENEMY",
       "range": "ONE",
@@ -7032,8 +7154,9 @@
       "description": "After attacking, reduces target's physical damage by {0}% for 1 turn.",
       "summary": "After attack, reduces target's physical damage.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91000921, "description": "", "value": 5000 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STRIKE",
       "target": "ENEMY",
       "range": "ALL",
@@ -7168,8 +7291,9 @@
       "description": "Boosts damage by {0}% when target has status effects.",
       "summary": "Boosts damage when target has status effects.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000942, "description": "", "value": 1000 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STRIKE",
       "target": "ENEMY",
       "range": "ONE",
@@ -7185,8 +7309,9 @@
       "description": "After attacking, reduces target's status effect resistance by {0}% for 2 turns.",
       "summary": "After attack, reduces target's status effect resistance.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000944, "description": "", "value": 2000 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STRIKE",
       "target": "ENEMY",
       "range": "ONE",
@@ -7202,8 +7327,9 @@
       "description": "Boosts damage by {0}% when target has status effects.",
       "summary": "Boosts damage when target has status effects.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91000942, "description": "", "value": 4000 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STRIKE",
       "target": "ENEMY",
       "range": "ONE",
@@ -7333,8 +7459,9 @@
       "description": "After attacking, boosts physical attack damage of the ally with the highest P. ATK before this skill was used by {0}%. (MAX 30%)",
       "summary": "After attacking, boosts physical attack damage of the ally with the highest P. ATK.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91001103, "description": "", "value": 1000 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STRIKE",
       "target": "ENEMY",
       "range": "ONE",
@@ -7350,6 +7477,7 @@
       "description": "Boosts an ally's P. ATK by {0}% for 2 turns.",
       "summary": "Boosts an ally's P. ATK.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91001104,
@@ -7357,7 +7485,7 @@
           "value": 2500
         }
       ],
-      "attributeType": "NONE",
+      "attribute_type": "NONE",
       "attribute": "STRIKE",
       "target": "ALLY",
       "range": "ONE",
@@ -7371,11 +7499,12 @@
       "description": "After attacking, boosts target's damage received by {0}% for 1 attack,<br>then boosts physical attack damage of the ally with the highest P. ATK before using this skill by {1}% for 1 turn.",
       "summary": "After attacking, boosts target's damage received.<br>Boosts physical attack damage of the ally with the highest P. ATK.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         { "id": 91001060, "description": "", "value": 5000 },
         { "id": 91001102, "description": "", "value": 3000 }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STRIKE",
       "target": "ENEMY",
       "range": "ALL",
@@ -7505,8 +7634,9 @@
       "description": "After attacking, boosts own skill damage by {0}% for 2 turns.",
       "summary": "After attack, boosts own skill damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91001006, "description": "", "value": 1000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ENEMY",
       "range": "ONE",
@@ -7522,8 +7652,9 @@
       "description": "No additional effects.",
       "summary": "No additional effects.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [  ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ENEMY",
       "range": "ONE",
@@ -7539,8 +7670,9 @@
       "description": "On attacking a weakness, boosts damage by {0}%.",
       "summary": "On attacking a weakness, boosts damage.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91000903, "description": "", "value": 4000 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "FIRE",
       "target": "ENEMY",
       "range": "ALL",
@@ -7670,8 +7802,9 @@
       "description": "After attacking, restores {0}% HP to all allies.",
       "summary": "After attacking, restores HP to all allies.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000925, "description": "", "value": 500 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "BOLT",
       "target": "ENEMY",
       "range": "ONE",
@@ -7687,6 +7820,7 @@
       "description": "After attacking, boosts all allies' critical rates by {0}%. (MAX 100%)",
       "summary": "After attack, boosts all allies' critical rate.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000924,
@@ -7694,7 +7828,7 @@
           "value": 2500
         }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "BOLT",
       "target": "ENEMY",
       "range": "ALL",
@@ -7710,6 +7844,7 @@
       "description": "Boosts this attack's critical rate by 100%. After attacking, boosts all allies' critical damage by {0}% for 2 turns.",
       "summary": "Boosts this attack's critical rate. After attack, boosts all allies' critical damage.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         {
           "id": 91000945,
@@ -7717,7 +7852,7 @@
           "value": 3000
         }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "BOLT",
       "target": "ENEMY",
       "range": "ALL",
@@ -7847,8 +7982,9 @@
       "description": "On critical attack, boosts critical damage by {0}%.",
       "summary": "CRIT Damage Up",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91000904, "description": "", "value": 2000 } ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STAB",
       "target": "ENEMY",
       "range": "ONE",
@@ -7864,6 +8000,7 @@
       "description": "Boosts critical rate by {0}%. On critical attack, boosts damage by {1}%.",
       "summary": "Boosts critical rate.<br>Boosts critical damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91000983,
@@ -7872,7 +8009,7 @@
         },
         { "id": 91000904, "description": "", "value": 2000 }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STAB",
       "target": "ENEMY",
       "range": "ONE",
@@ -7888,6 +8025,7 @@
       "description": "Boosts critical rate by {0}%. On critical attack, boosts damage by {1}%.",
       "summary": "Boosts critical rate and critical damage.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         {
           "id": 91000983,
@@ -7896,7 +8034,7 @@
         },
         { "id": 91000904, "description": "", "value": 3000 }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "STAB",
       "target": "ENEMY",
       "range": "ONE",
@@ -8026,11 +8164,12 @@
       "description": "Before attacking, removes own negative effects. After attacking, grants Negative Effects Immunity to self for 1 turn.",
       "summary": "Before attacking, removes own negative effects. After attacking, grants Negative Effects Immunity.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         { "id": 91001007, "description": "", "value": 10000 },
         { "id": 91001022, "description": "", "value": 10000 }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "SLASH",
       "target": "ENEMY",
       "range": "ONE",
@@ -8046,6 +8185,7 @@
       "description": "After attacking, boosts P. ATK, M. ATK, and Speed by {0}% for 1 turn, and boosts P. DEF and M. DEF by {1}% for 1 attack.",
       "summary": "After attacking, boosts own stats.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91001018,
@@ -8073,7 +8213,7 @@
           "value": 1000
         }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "SLASH",
       "target": "ENEMY",
       "range": "ONE",
@@ -8089,11 +8229,12 @@
       "description": "Boosts damage by 10–120%, in proportion to own buff effects applied. Does not include unlimited buff effects activated at the start of battle. (More damage per buff, up to a maximum of 20)",
       "summary": "Boosts damage in proportion to own buff effects applied. (More damage per buff)",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [
         { "id": 91001026, "description": "", "value": 11000 },
         { "id": 91001055, "description": "", "value": 1000 }
       ],
-      "attributeType": "PHYSICAL",
+      "attribute_type": "PHYSICAL",
       "attribute": "SLASH",
       "target": "ENEMY",
       "range": "ONE",
@@ -8223,8 +8364,9 @@
       "description": "After attacking, boosts own critical rate by {0}%. (MAX 100%)",
       "summary": "After attacking, boosts own critical rate.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [ { "id": 91001062, "description": "", "value": 2500 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "BOLT",
       "target": "ENEMY",
       "range": "ONE",
@@ -8240,6 +8382,7 @@
       "description": "After attacking, boosts own critical damage by {0}%. (MAX 100%)",
       "summary": "After attacking, boosts own critical damage.",
       "max_level": 5,
+      "skill_type": "SKILL",
       "effects": [
         {
           "id": 91001110,
@@ -8247,7 +8390,7 @@
           "value": 5000
         }
       ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "BOLT",
       "target": "ENEMY",
       "range": "ALL",
@@ -8263,8 +8406,9 @@
       "description": "Boosts this attack's critical rate by 100%.<br>After attacking, there is a very high chance to inflict Daze on the target for 1 turn.",
       "summary": "Boosts this attack's critical rate.<br>After attacking, high chance to inflict Daze on the target.",
       "max_level": 7,
+      "skill_type": "BURST",
       "effects": [ { "id": 91001064, "description": "", "value": 0 } ],
-      "attributeType": "MAGIC",
+      "attribute_type": "MAGIC",
       "attribute": "BOLT",
       "target": "ENEMY",
       "range": "ONE",

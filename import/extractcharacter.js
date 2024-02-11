@@ -81,9 +81,9 @@ function extract() {
 			stab: charObj.resistance.piercing,
 		};
 
-		data.skill_1 = extractSkill(charObj.normal1_skill_ids);
-		data.skill_2 = extractSkill(charObj.normal2_skill_ids);
-		data.burst = extractSkill(charObj.burst_skill_ids);
+		data.skill_1 = extractSkill(charObj.normal1_skill_ids, false);
+		data.skill_2 = extractSkill(charObj.normal2_skill_ids, false);
+		data.burst = extractSkill(charObj.burst_skill_ids, true);
 
 		data.passive_1 = extractPassive(charObj.ability_ids[0]);
 		if (!charObj.ability_ids[1]) console.log(`character ${data.name} is missing a passive)`);
@@ -144,7 +144,7 @@ function extractEquipmentTrait(traitId) {
 	return data;
 }
 
-function extractSkill(skillIds) {
+function extractSkill(skillIds, isBurst) {
 	const skillObj = xskillMap[skillIds[0]];
 
 	const data = {};
@@ -152,7 +152,8 @@ function extractSkill(skillIds) {
 	data.description = skillObj.description;
 	data.summary = skillObj.summary;
 	data.max_level = skillIds.length;
-
+	data.skill_type = isBurst ? "BURST" : "SKILL";
+	
 	if (skillObj.limit_count !== null) console.log(`skill "${data.name}" has a non-null limit_count`);
 
 	const checkuniqueeffects = new Set(skillIds.map(id => JSON.stringify(xskillMap[id].effects)));
@@ -161,8 +162,8 @@ function extractSkill(skillIds) {
 	data.effects = extractEffects(skillObj.effects);
 
 	// Attribute
-	data.attributeType = manualmap.attributeTypeMap[skillObj.attack_attribute_category];
-	if (!data.attributeType) console.log(`skill "${data.name}" unmapped attributeType ${skillObj.attack_attribute_category}`);
+	data.attribute_type = manualmap.attributeTypeMap[skillObj.attack_attribute_category];
+	if (!data.attribute_type) console.log(`skill "${data.name}" unmapped attributeType ${skillObj.attack_attribute_category}`);
 	data.attribute = manualmap.attributeMap[skillObj.attack_attributes[0]];
 	if (skillObj.attack_attributes.length > 1) console.log(`skill ${data.name} has more than one attribute`);
 	if (!data.attribute) console.log(`skill "${data.name}" unmapped attribute ${skillObj.attack_attributes[0]}`);

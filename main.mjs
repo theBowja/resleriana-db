@@ -1,11 +1,12 @@
 import uFuzzy from '@leeoniya/ufuzzy';
 import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
+const files = require('./data/files.json');
 
 /**
  * 
  * @param {string} dataset 
- * @returns 
+ * @returns boolean
  */
 export function validateDataset(dataset) {
 	return dataset === 'master' || dataset === 'parsed';
@@ -14,10 +15,10 @@ export function validateDataset(dataset) {
 /**
  * 
  * @param {string} language 
- * @returns 
+ * @returns boolean
  */
 export function validateLanguage(language) {
-	return language === 'jp' || language === 'en' || language === 'zh_cn' || language === 'zh_tw';
+	return language === 'en' || language === 'jp' || language === 'zh_cn' || language === 'zh_tw';
 }
 
 /**
@@ -25,10 +26,10 @@ export function validateLanguage(language) {
  * @param {string} dataset 
  * @param {string} language 
  * @param {string} file 
- * @returns 
+ * @returns boolean
  */
 export function validateFile(dataset, language, file) {
-	return true; // unimplemented
+	return files[dataset][language].includes(file);
 }
 
 function loadJSON(dataset, language, file) {
@@ -47,7 +48,7 @@ function loadJSON(dataset, language, file) {
  * @returns 
  */
 export function getFile(dataset, language, file) {
-	if (!validateDataset(dataset) || !validateLanguage(language) || !validateFile(file)) return undefined;
+	if (!validateDataset(dataset) || !validateLanguage(language) || !validateFile(dataset, language, file)) return undefined;
 	return loadJSON(dataset, language, file);
 }
 
@@ -136,49 +137,44 @@ function parseSearchOptions(options) {
 /**
  * 
  * @param {string} dataset 
- * @param {string[]} languages 
- * @param {string[]} files 
- * @param {string[]} keys array of keys
- * @param {string[]} query
+ * @param {string|string[]} languages 
+ * @param {string|string[]} files 
+ * @param {string|string[]} keys array of keys
+ * @param {string|string[]} query
  * @param {*} options 
  */
 export function searchData(dataset, languages, files, keys, query, options={}) {
-	const funT0 = performance.now();
-
+	// input validation
 	if (!validateDataset(dataset)) return undefined;
+	if (!Array.isArray(languages)) languages = [languages];
 	languages = languages.filter(l => validateLanguage(l));
-	files = files.filter(f => validateFile(f));
+	if (!Array.isArray(files)) files = [files];
+	if (!Array.isArray(keys)) keys = [keys];
+	if (!Array.isArray(query)) query = [query];
+	query = query.filter(q => q && q !== '');
 	if (query.length === 0) return undefined;
 	options = parseSearchOptions(options);
 
 	/**
-	 * [
-	 *  {
-	 *     keyString: string,
-	 *     matchedFiles: {
-	 *       [file]: {
-	 *         language: string,
-	 *         matchedData: {
-	 *           [id]: [
-	 *             {
-	 *               key: string,
-	 *               value: string
-	 *             },
-	 *             ...
-	 *           ]
-	 *         }
-	 *       }
-	 *     }
+	 * @type {{
+	 *   keyString: string,
+	 *   matchedFiles: {
+	 *     [file: string]: {
+	 *       language: string,
+	 *       matchedData: {
+	 *         [id: string]: {
+	 *           key: string,
+	 *           value: string
+	 *         }[]
+	 *       },
+	 *     },
 	 *   },
-	 *   ...
-	 * ]
+	 * }[]}
 	 */
-	const resultMap = [];
-	
-	const searchT0 = performance.now();
-	
+	const searchResults = [];
+		
 	for (const [keyIndex, keyString] of keys.entries()) {
-		resultMap[keyIndex] = { keyString: keyString, matchedFiles: {} };
+		searchResults[keyIndex] = { keyString: keyString, matchedFiles: {} };
 		const keyParse = parseKeys(keyString);
 
 		for (const file of keyParse.files.length !== 0 ? keyParse.files : files) {
@@ -201,9 +197,9 @@ export function searchData(dataset, languages, files, keys, query, options={}) {
 
 				// save the sorted list of matched targets
 				const matchedTargets = fuzzyResult[2].map(ordered => targets[fuzzyResult[0][ordered]]);
-				resultMap[keyIndex].matchedFiles[file] = { language: language, matchedData: {} };
+				searchResults[keyIndex].matchedFiles[file] = { language: language, matchedData: {} };
 				for (const matchedTarget of matchedTargets) {
-					(resultMap[keyIndex].matchedFiles[file].matchedData[matchedTarget.dataId] ||= []).push({
+					(searchResults[keyIndex].matchedFiles[file].matchedData[matchedTarget.dataId] ||= []).push({
 						key: matchedTarget.key,
 						value: matchedTarget.value
 					});
@@ -214,31 +210,21 @@ export function searchData(dataset, languages, files, keys, query, options={}) {
 		}
 	}
 
-	const searchT1 = performance.now();
-	console.log(`search ${searchT1-searchT0} milliseconds`);
-	
-				// return only the first result if asked for
-				// if (option.firstResultOnly)
-
-
 	// compile the search results and figure out what to send back
 	const result = [];
 
-	// const matchedFiles = Object.keys(resultMap);
-	// if (matchedFiles.length === 0) return undefined;
-
 	if (options.multiKeyLogic === 'AND') {
-		if (resultMap[0].matchedFiles.length === 0) return undefined; // no result
+		if (searchResults[0].matchedFiles.length === 0) return undefined; // no result
 
 		const doneFiles = {};
-		for (const keyResult of resultMap) {
+		for (const keyResult of searchResults) {
 			for (const file of Object.keys(keyResult.matchedFiles)) {
 				if (doneFiles[file]) continue;
 				doneFiles[file] = true;
-				if (!resultMap.every(r => r.matchedFiles[file])) continue; // AND
+				if (!searchResults.every(r => r.matchedFiles[file])) continue; // AND
 
 				for (const id of Object.keys(keyResult.matchedFiles[file].matchedData)) {
-					if (!resultMap.every(r => r.matchedFiles[file].matchedData[id])) continue; // AND
+					if (!searchResults.every(r => r.matchedFiles[file].matchedData[id])) continue; // AND
 
 					const language = options.resultLanguage || keyResult.matchedFiles[file].language;
 					const dataObj = getDataByKey(dataset, language, file, 'id', id);
@@ -248,7 +234,7 @@ export function searchData(dataset, languages, files, keys, query, options={}) {
 						language: language,
 						file: file,
 						id: id,
-						keys: a,
+						properties: searchResults.flatMap(kr => kr.matchedFiles[file].matchedData[id]),
 						data: dataObj
 					});
 				}
@@ -259,8 +245,8 @@ export function searchData(dataset, languages, files, keys, query, options={}) {
 
 	}
 
-	const funT1 = performance.now();
-	console.log(`function ${funT1-funT0} milliseconds`);
+	if (result.length === 0) return undefined;
+	if (options.firstResultOnly) return result[0];
 	return result;
 }
 
@@ -290,7 +276,8 @@ export function searchData(dataset, languages, files, keys, query, options={}) {
  * @param {string[]} keys array of keys of which we'll iterate through the nested object dataObj.
  * @param {number?} level number to keep track of which depth of keys we are at.
  * @param {string?} currentKey string that is built to keep track of the current key. example: traits.battle_item[1].name
- * @returns {object|object[]} Object or array depending on if there are multiple results. If there are no results, then empty array.
+ * @typdef {{ dataId: number, key: string, value: string }} DataProperty
+ * @returns {DataProperty|DataProperty[]} Object or array depending on if there are multiple results. If there are no results, then empty array.
  */
 function getNestedValues(init, dataObj, keys, level=0, currentKey=undefined) {
 	const key = keys[level];

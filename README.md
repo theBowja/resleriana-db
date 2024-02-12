@@ -46,7 +46,7 @@ https://resleriana-db.vercel.app/api/master/en/base_character
 #### GET: /api/{dataset}/{language}/{file}/{key}
 Retrieves the *first* data object that contains the same key and value. Returns *undefined* if there is no result.
 
-Query parameters:  
+Required query parameters:  
 **value** *{string}* - Description.
 
 Examples:  
@@ -59,12 +59,13 @@ Searching functionality uses fuzzy search from the [uFuzzy](https://github.com/l
 #### GET: /api/{dataset}/search
 Searches through multiple languages, files, and keys to find the best match for the search query. If **topResultOnly** is *true*, then returns the ??? object or *undefined* for no result. If **topResultOnly** is *false*, then returns ??? array of ??? objects or empty array for no result.
 
-Query parameters:  
+Required query parameters:  
 **language** *{string}* - Comma-separated list of languages to search in.  
 **file** *{string}* - Comma-separated list of files to search in. Do not include `.json`.  
 **key** *{string}* - Comma-separated list of keys to search in.  
 **query** *{string}* - The search query.  
 
+Optional query parameters:
 **firstResultOnly** *{boolean?}* - Default true.  
 **numberOfResults** *{number?}* - Default -1. If topResultOnly is set to false, then this API will return an 
 **multiKeyLogic** *{string?}* - Default "AND".

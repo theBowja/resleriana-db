@@ -203,7 +203,7 @@ export function searchData(dataset, languages, files, keys, query, options={}) {
 				const ufOpts = {};
 				// const ufOpts = { intraIns: Infinity, intraChars: "[a-z\d' ]" };
 				const uf = new uFuzzy(ufOpts);
-				const fuzzyResult = uf.search(targets.map(t => t.value), needle);
+				const fuzzyResult = uf.search(targets.map(t => safeToString(t.value)), needle);
 
 				if (fuzzyResult[0].length === 0) continue; // no result
 
@@ -223,16 +223,52 @@ export function searchData(dataset, languages, files, keys, query, options={}) {
 	}
 
 	// compile the search results and figure out what to send back
+	const result = compileSearchResults(dataset, searchResults, options);
+
+	if (result.length === 0) return undefined;
+	if (options.firstResultOnly) return result[0];
+	return result;
+}
+
+/**
+ * Compile the search results and figure out what to send back
+ * @param {{
+ *   keyString: string,
+ *   matchedFiles: {
+ *     [file: string]: {
+ *       language: string,
+ *       matchedData: {
+ *         [id: string]: {
+ *           key: string,
+ *           value: string
+ *         }[]
+ *       },
+ *     },
+ *   },
+ * }[]} searchResults 
+ * @param {object} options 
+ * @returns {{
+ *   dataset: string,
+ *   language: string,
+ *   file: string,
+ *   id: number,
+ *   properties: { key: string, value: string }[],
+ *   data: object
+ * }[]}
+ */
+function compileSearchResults(dataset, searchResults, options) {
 	const result = [];
 
-	if (options.multiKeyLogic === 'AND') {
+	const doneFiles = {};
+	const doneFileData = {}; // for 'OR' logic later
+	if (options.multiKeyLogic === 'AND' || options.multiKeyLogic === 'OR') {
 		if (searchResults[0].matchedFiles.length === 0) return undefined; // no result
 
-		const doneFiles = {};
 		for (const keyResult of searchResults) {
 			for (const file of Object.keys(keyResult.matchedFiles)) {
 				if (doneFiles[file]) continue;
 				doneFiles[file] = true;
+				doneFileData[file] = {};
 				if (!searchResults.every(r => r.matchedFiles[file])) continue; // AND
 
 				for (const id of Object.keys(keyResult.matchedFiles[file].matchedData)) {
@@ -241,6 +277,7 @@ export function searchData(dataset, languages, files, keys, query, options={}) {
 					const language = options.resultLanguage || keyResult.matchedFiles[file].language;
 					const dataObj = getDataByKey(dataset, language, file, 'id', id);
 
+					doneFileData[file][id] = true;
 					result.push({
 						dataset: dataset,
 						language: language,
@@ -252,22 +289,47 @@ export function searchData(dataset, languages, files, keys, query, options={}) {
 				}
 			}
 		}
+	}
+	
+	if (options.multiKeyLogic === 'OR') {
+		for (const keyResult of searchResults) {
+			for (const file of Object.keys(keyResult.matchedFiles)) {
+				if (!doneFileData[file]) doneFileData[file] = {};
+				for (const id of Object.keys(keyResult.matchedFiles[file].matchedData)) {
+					if (doneFileData[file][id]) continue;
+					doneFileData[file][id] = true;
 
-	} else if (options.multiKeyLogic === 'OR') {
+					const language = options.resultLanguage || keyResult.matchedFiles[file].language;
+					const dataObj = getDataByKey(dataset, language, file, 'id', id);
 
+					result.push({
+						dataset: dataset,
+						language: language,
+						file: file,
+						id: id,
+						properties: searchResults.flatMap(kr => {
+							if (kr.matchedFiles[file] && kr.matchedFiles[file].matchedData[id])
+								return kr.matchedFiles[file].matchedData[id];
+							else
+								return [];
+						}),
+						data: dataObj
+					});
+				}
+			}
+		}
 	}
 
-	if (result.length === 0) return undefined;
-	if (options.firstResultOnly) return result[0];
 	return result;
 }
 
 // const result = searchData('parsed', ['en'], ['character'], ['name', 'attribute'], ['Resna', 'fire'], { multiKeyLogic: 'AND' });
 // const result = searchData('parsed', ['en'], ['character'], ['initial_rarity'], ['3'], { multiKeyLogic: 'AND' });
 // const result = searchData('master', ['en'], ['character'], ['attack_attributes'], ['5'], { multiKeyLogic: 'AND' });
-// const result = searchData('master', ['en'], ['character'], ['attack_attributes', 'name'], ['5', 'resna'], { multiKeyLogic: 'AND' });
-// console.log(result);
-// console.log(result.length);
+// const result = searchData('master', ['en'], ['character'], ['attack_attributes', 'name'], ['5', 'resna'], { multiKeyLogic: 'OR' });
+// const result = searchData('master', ['en'], ['character'], ['name', 'attack_attributes'], ['resna', '5'], { multiKeyLogic: 'OR' });
+// console.log(result[1]);
+// console.log((result || []).length);
 
 // "/character.traits.battle_item.category", "ATTACK"
 // Retrieve a list of characters that have attack category battle item traits,
@@ -317,7 +379,7 @@ function getNestedValues(init, dataObj, keys, level=0, currentKey=undefined, arr
 		return {
 			dataId: init.dataId,
 			key: currentKey, 
-			value: safeToString(subData) 
+			value: subData 
 		};
 	}
 }

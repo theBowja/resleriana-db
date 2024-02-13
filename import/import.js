@@ -5,11 +5,27 @@ helper.setVersion('1.0.0', '170', 'en');
 extractReslerianaData();
 
 function extractReslerianaData() {
+	for (const lang of ['en', 'jp', 'zh-cn', 'zh-tw']) {
+		helper.setLang(lang);
 
-	helper.writeData(require('./extractcharacter.js')(), 'parsed', 'character');
+		runExtractor('./extractcharacter.js', 'parsed', 'character');
+	}
 
-	// // // helper.writeData(helper.extractAndReplace('character'), 'parsed', 'character');
 	updateFileList();
+}
+
+function runExtractor(extractor, dataset, file) {
+	try {
+		const extract = require(extractor);
+		delete require.cache[require.resolve(extractor)];
+		helper.writeData(extract(), dataset, file);
+	} catch (e) {
+		if (e instanceof helper.DataNotFoundError) {
+			console.log(e.message);
+		} else {
+			console.log(e);
+		}
+	}
 }
 
 function updateFileList() {

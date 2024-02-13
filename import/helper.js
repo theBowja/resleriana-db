@@ -2,9 +2,11 @@ const fs = require('fs');
 const stringify = require('@aitodotai/json-stringify-pretty-compact');
 const manualmap = require('./manualmap.js');
 
-let version = '1.0.0';
-let patch = '170';
-let lang = 'en';
+const meta = {
+	version: '1.0.2',
+	patch: '999',
+	lang: 'en'
+}
 
 /**
  * @param v {string} version
@@ -12,15 +14,28 @@ let lang = 'en';
  * @param l {string} lang - one of 'en', 'zh-cn', 'zh-tw', 'jp'
  */
 function setVersion(v, p, l) {
-	version = v;
-	patch = p;
-	lang = l;
+	meta.version = v;
+	meta.patch = p;
+	meta.lang = l;
+}
+
+function setLang(l) {
+	meta.lang = l;
+}
+
+class DataNotFoundError extends Error {
+	constructor(message) {
+		super(message);
+		this.name = 'DataNotFoundError';
+	}
 }
 
 function loadJSON(file) {
-	// try {
-		return require(`../data/master/${lang}/${file}.json`);
-	// } catch (e) { console.log(`failed to loadJSON for ${file}`) }
+	try {
+		return require(`../data/master/${meta.lang}/${file}.json`);
+	} catch (e) {
+		throw new DataNotFoundError(`failed to loadJSON for /data/master/${meta.lang}/${file}.json`)
+	}
 }
 
 function loadJSONMap(file, id='id') {
@@ -36,8 +51,8 @@ function loadJSONMap(file, id='id') {
  * @param folder {string} name of file to write
  */
 function writeData(data, dataset, folder) {
-	fs.mkdirSync(`../data/${dataset}/${lang}`, { recursive: true });
-	fs.writeFileSync(`../data/${dataset}/${lang}/${folder}.json`, stringify(data, { margins: true }));
+	fs.mkdirSync(`../data/${dataset}/${meta.lang}`, { recursive: true });
+	fs.writeFileSync(`../data/${dataset}/${meta.lang}/${folder}.json`, stringify(data, { margins: true }));
 }
 
 /**
@@ -108,7 +123,9 @@ function isObject(obj) {
 }
 
 module.exports = {
+	DataNotFoundError: DataNotFoundError,
 	setVersion: setVersion,
+	setLang: setLang,
 	loadJSON: loadJSON,
 	loadJSONMap: loadJSONMap,
 	writeData: writeData,

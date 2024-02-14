@@ -4,27 +4,23 @@
     "end_at": null,
     "id": 1,
     "rewards": [
-      {
-        "id": 1,
-        "quantity": 100,
-        "resource_params": null,
-        "type": 10
-      }
+      { "id": 1, "quantity": 100, "resource_params": null, "type": 10 }
     ],
     "start_at": null
   },
   {
     "character_id": 6,
-    "end_at": "2024-02-06T03:00:00.0000000Z",
+    "end_at": {
+      "buffer": { "type": "Buffer", "data": [ 101, 193, 160, 176 ] },
+      "type": 255
+    },
     "id": 1000000002,
     "rewards": [
-      {
-        "id": 1,
-        "quantity": 200,
-        "resource_params": null,
-        "type": 10
-      }
+      { "id": 1, "quantity": 200, "resource_params": null, "type": 10 }
     ],
-    "start_at": "2024-02-01T03:00:00.0000000Z"
+    "start_at": {
+      "buffer": { "type": "Buffer", "data": [ 101, 187, 9, 48 ] },
+      "type": 255
+    }
   }
 ]

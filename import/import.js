@@ -1,17 +1,28 @@
 const fs = require('fs');
+const masterdata = require('./masterdata.js');
+
 const helper = require('./helper.js');
 helper.setVersion('1.0.0', '170', 'en');
 
 extractReslerianaData();
 
-function extractReslerianaData() {
-	for (const lang of ['en', 'jp', 'zh-cn', 'zh-tw']) {
+async function extractReslerianaData() {
+	await masterdata.extractMasterData('en');
+	await masterdata.extractMasterData('jp');
+	await masterdata.extractMasterData('zh_cn');
+	await masterdata.extractMasterData('zh_tw');
+
+	// parseMaster();
+
+	// updateFileList();
+}
+
+function parseMaster() {
+	for (const lang of ['en', 'jp', 'zh_cn', 'zh_tw']) {
 		helper.setLang(lang);
 
 		runExtractor('./extractcharacter.js', 'parsed', 'character');
 	}
-
-	updateFileList();
 }
 
 function runExtractor(extractor, dataset, file) {

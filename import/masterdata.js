@@ -140,5 +140,19 @@ function lz4Unpack(buffer) {
 	const input = buffer.subarray(1+sizeOffset, buffer.length);
 	const decompressed = Buffer.alloc(size);
 	lz4.decodeBlock(input, decompressed)
-	return msgpack.decode(decompressed);
+
+    const timecodec = msgpack.createCodec();
+	timecodec.addExtUnpacker(255, timeUnpack);
+
+	return msgpack.decode(decompressed, { codec: timecodec });
+}
+
+function timeUnpack(buffer) {
+    if (buffer.length === 4) {
+        const time = buffer.readUInt32BE();
+        const date = new Date(time*1000);
+        return date.toISOString();
+    } else {
+        return console.error(`unknown time format for messagepack`);
+    }
 }

@@ -1,5 +1,6 @@
 const fs = require('fs');
 const masterdata = require('./masterdata.js');
+const config = require('./config.json');
 
 const helper = require('./helper.js');
 helper.setVersion('1.0.0', '170', 'en');
@@ -7,18 +8,16 @@ helper.setVersion('1.0.0', '170', 'en');
 extractReslerianaData();
 
 async function extractReslerianaData() {
-	await masterdata.extractMasterData('en');
-	await masterdata.extractMasterData('jp');
-	await masterdata.extractMasterData('zh_cn');
-	await masterdata.extractMasterData('zh_tw');
+	// await masterdata.extractMasterDataGl();
+	// await masterdata.extractMasterDataJp();
 
-	// parseMaster();
+	// parseMasterData();
 
 	// updateFileList();
 }
 
-function parseMaster() {
-	for (const lang of ['en', 'jp', 'zh_cn', 'zh_tw']) {
+function parseMasterData() {
+	for (const lang of config.languages) {
 		helper.setLang(lang);
 
 		runExtractor('./extractcharacter.js', 'parsed', 'character');
@@ -43,7 +42,7 @@ function updateFileList() {
 	const files = {};
 	for (const dataset of ['master', 'parsed']) {
 		files[dataset] = {};
-		for (const language of ['en', 'jp', 'zh-cn', 'zh-tw']) {
+		for (const language of config.languages) {
 			if (fs.existsSync(`../data/${dataset}/${language}`)) {
 				files[dataset][language] = fs.readdirSync(`../data/${dataset}/${language}`, { withFileTypes: true })
 					.filter(item => !item.isDirectory())

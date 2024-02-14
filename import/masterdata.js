@@ -94,7 +94,7 @@ function decryptMasterData(masterdata, version) {
  * @param {Buffer} md 
  */
 function unpackMasterData(md, lang) {
-    fs.mkdirSync(`../data/master/`, { recursive: true });
+    fs.mkdirSync(`../data/master/${lang}`, { recursive: true });
 
 	// hack to get the length of the catalog messagepack read from buffer
     const options = { codec: msgpack.createCodec() };

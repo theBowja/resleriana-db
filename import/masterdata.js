@@ -96,20 +96,25 @@ function decryptMasterData(masterdata, version) {
  */
 function unpackMasterData(md, lang) {
     fs.mkdirSync(`../data/master/${lang}`, { recursive: true });
-	const msgpack = new msgpackr.Unpackr({sequential: true })
+
+	const msgpack = new msgpackr.Unpackr({ useRecords: false, mapsAsObjects: true })
 	msgpackr.addExtension({
 		type: 99,
 		unpack: lz4Unpack
 	});
 
-	const data = msgpack.unpackMultiple(md);
-
-	// catalog is stored at data[0] and is an array with each element in the format: [filename, [offset, size]]
-	const catalog = [...data[0]].sort((a, b) => a[1][0]-b[1][0]).map(e => e[0]); // sort catalog by offset location and map by filename
-	if (catalog.length !== data.length-1) console.log('???????????????????');
-
-	catalog.forEach((filename, i) => {
-        fs.writeFileSync(`../data/master/${lang}/${filename}.json`, stringify(data[i+1], { margins: true }));
+	// let catalog;
+	// let catalogOffset;
+	let filenames;
+	msgpack.unpackMultiple(md, (data, start, end) => {
+		if (filenames === undefined) {
+			// catalog = data;
+			// catalogOffset = end;
+			filenames = Object.entries(data).sort((a, b) => b[1][0]-a[1][0]).map(e => e[0]); // sort catalog by offset location in reverse and map by filename
+		} else {
+			const filename = filenames.pop();
+			fs.writeFileSync(`../data/master/${lang}/${filename}.json`, stringify(data, { margins: true }));
+		}
 	});
 }
 

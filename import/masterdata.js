@@ -1,10 +1,11 @@
 const fs = require('fs');
 const https = require('https');
-const msgpack = require('msgpack-lite');
+const msgpackr = require('msgpackr');
 const lz4 = require('lz4');
 const crypto = require('crypto');
 const config = require('./config.json');
 const stringify = require('@aitodotai/json-stringify-pretty-compact');
+BigInt.prototype.toJSON = function() { return this.toString(); }
 
 module.exports = { extractMasterDataGl, extractMasterDataJp, extractMasterData };
 
@@ -95,30 +96,21 @@ function decryptMasterData(masterdata, version) {
  */
 function unpackMasterData(md, lang) {
     fs.mkdirSync(`../data/master/${lang}`, { recursive: true });
+	const msgpack = new msgpackr.Unpackr({sequential: true })
+	msgpackr.addExtension({
+		type: 99,
+		unpack: lz4Unpack
+	});
 
-	// hack to get the length of the catalog messagepack read from buffer
-    const options = { codec: msgpack.createCodec() };
-	options.codec.decode = (old => function(decoder){
-		options.decoder = decoder;
-		return old.apply(this, arguments);
-	})(options.codec.decode);
+	const data = msgpack.unpackMultiple(md);
 
-	const catalog = msgpack.decode(md, options);
-    const catalogOffset = options.decoder.offset;
+	// catalog is stored at data[0] and is an array with each element in the format: [filename, [offset, size]]
+	const catalog = [...data[0]].sort((a, b) => a[1][0]-b[1][0]).map(e => e[0]); // sort catalog by offset location and map by filename
+	if (catalog.length !== data.length-1) console.log('???????????????????');
 
-    // codec to help deserialize LZ4-block compressed data to JSON object
-	const lz4codec = msgpack.createCodec();
-	lz4codec.addExtUnpacker(99, lz4Unpack);
-
-    for (const [filename, [offset, size]] of Object.entries(catalog)) {
-        const tableSlice = md.subarray(catalogOffset+offset, catalogOffset+offset + size);
-        const tableJson = msgpack.decode(tableSlice, { codec: lz4codec });      
-
-        // const tableJsonString = JSON.stringify(tableJson, null, '\t');
-        const tableJsonString = stringify(tableJson, { margins: true });
-
-        fs.writeFileSync(`../data/master/${lang}/${filename}.json`, tableJsonString);
-    }
+	catalog.forEach((filename, i) => {
+        fs.writeFileSync(`../data/master/${lang}/${filename}.json`, stringify(data[i+1], { margins: true }));
+	});
 }
 
 /**
@@ -129,7 +121,8 @@ function unpackMasterData(md, lang) {
 function lz4Unpack(buffer) {
 	let size;
 	let sizeOffset;
-	if (buffer[0] === 0xd2) {
+	if (buffer[0] === 0xd2) { // 210
+		if (!(buffer instanceof Buffer)) buffer = Buffer.from(buffer);
 		size = buffer.readInt32BE(1);
 		sizeOffset = 4;
 	} else {
@@ -141,18 +134,5 @@ function lz4Unpack(buffer) {
 	const decompressed = Buffer.alloc(size);
 	lz4.decodeBlock(input, decompressed)
 
-    const timecodec = msgpack.createCodec();
-	timecodec.addExtUnpacker(255, timeUnpack);
-
-	return msgpack.decode(decompressed, { codec: timecodec });
-}
-
-function timeUnpack(buffer) {
-    if (buffer.length === 4) {
-        const time = buffer.readUInt32BE();
-        const date = new Date(time*1000);
-        return date.toISOString();
-    } else {
-        return console.error(`unknown time format for messagepack`);
-    }
+	return msgpackr.decode(decompressed);
 }

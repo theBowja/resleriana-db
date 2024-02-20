@@ -1,5 +1,6 @@
 const fs = require('fs');
 const stringify = require('@aitodotai/json-stringify-pretty-compact');
+const perfectJson = require('./perfectJson');
 const manualmap = require('./manualmap.js');
 
 const meta = {
@@ -52,7 +53,15 @@ function loadJSONMap(file, id='id') {
  */
 function writeData(data, dataset, folder) {
 	fs.mkdirSync(`../data/${dataset}/${meta.lang}`, { recursive: true });
-	fs.writeFileSync(`../data/${dataset}/${meta.lang}/${folder}.json`, stringify(data, { margins: true }));
+
+	const output = perfectJson(data, { singleLine: ({ value }) => Array.isArray(value) && typeof value[0] === 'number', compact: false })
+
+	// sanity check. disable later for (minor) performance
+	if (JSON.stringify(data) !== JSON.stringify(JSON.parse(output))) {
+		console.log(`perfectJson is not perfectly converting data`);
+	}
+
+	fs.writeFileSync(`../data/${dataset}/${meta.lang}/${folder}.json`, output);
 }
 
 /**

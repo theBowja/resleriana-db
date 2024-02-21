@@ -31,14 +31,6 @@ module.exports = {
 		5: 'ALL', // enemy
 	},
 
-	colorMap: {
-		1: 'BLUE',
-		2: 'PURPLE',
-		3: 'YELLOW',
-		4: 'RED',
-		5: 'GREEN',
-	},
-
 	categoryMap: {
 		1: 'ATTACK',
 		2: 'ENHANCE',
@@ -124,15 +116,7 @@ module.exports = {
 		4: 'ALL', // ally
 		5: 'ALL', // enemy
 	},
-
-	color: {
-		1: 'BLUE',
-		2: 'PURPLE',
-		3: 'YELLOW',
-		4: 'RED',
-		5: 'GREEN',
-	},
-
+	
 	category: {
 		1: 'ATTACK',
 		2: 'ENHANCE',

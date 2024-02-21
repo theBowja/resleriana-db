@@ -70,6 +70,7 @@ Optional query parameters:
 **numberOfResults** *{number?}* - Default -1. If topResultOnly is set to false, then this API will return an 
 **multiKeyLogic** *{string?}* - Default "AND".
 **resultLanguage** *{string?}* - Default undefined.
+**activeOnly** *{boolean?}* - Default true. Whether or not to include data where the current time is not between the `start_at` or `end_at` properties.
 
 Examples:  
 https://resleriana-db.vercel.app/api/master/search?language=en&file=character&key=name&query=resna

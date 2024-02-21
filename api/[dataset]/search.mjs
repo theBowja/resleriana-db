@@ -55,6 +55,10 @@ function parseQuery(query) {
             case 'returnlanguage':
                 result.options.resultLanguage = value;
                 break;
+            case 'activeonly':
+            case 'activetimeonly':
+                result.options.activeOnly = parseBoolean(value);
+                break;
         }
     }
 

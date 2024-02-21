@@ -131,7 +131,8 @@ function parseSearchOptions(options) {
 	const searchOpts = {
 		firstResultOnly: false,
 		multiKeyLogic: 'AND',
-		resultLanguage: undefined
+		resultLanguage: undefined,
+		activeOnly: true
 	};
 
 	if (typeof options.firstResultOnly === 'boolean')
@@ -142,8 +143,22 @@ function parseSearchOptions(options) {
 		searchOpts.multiKeyLogic = 'OR';
 	if (validateLanguage(options.resultLanguage))
 		searchOpts.resultLanguage = options.resultLanguage;
+	if (typeof options.activeOnly === 'boolean')
+		searchOpts.activeOnly = options.activeOnly;
 
 	return searchOpts;
+}
+
+/**
+ * Checks start_at and end_at to see if the current time is within the time range
+ * @param {object} data 
+ * @returns {boolean}
+ */
+function isActiveData(data) {
+	if (data.start_at && new Date() < new Date(data.start_at) ||
+		data.end_at && new Date(data.end_at) < new Date())
+		return false;
+	return true;
 }
 
 /**
@@ -194,7 +209,10 @@ export function searchData(dataset, languages, files, keys, query, options={}) {
 				const dataFile = getFile(dataset, language, file);
 				if (!dataFile) continue;
 
-				const targets = dataFile.flatMap(dataObj => getNestedValues({ dataId: dataObj.id }, dataObj, keyParse.keys));
+				const targets = dataFile.flatMap(dataObj => {
+					if (options.activeOnly && !isActiveData(dataObj)) return [];
+					return getNestedValues({ dataId: dataObj.id }, dataObj, keyParse.keys)
+				});
 				if (targets.length === 0) continue;
 
 				const needle = query[keyIndex] || query.at(-1);

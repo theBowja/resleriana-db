@@ -8,6 +8,7 @@ helper.setVersion('1.0.0', '170', 'en');
 extractReslerianaData();
 
 async function extractReslerianaData() {
+	// await masterdata.extractMasterData('en');
 	// await masterdata.extractMasterDataGl();
 	// await masterdata.extractMasterDataJp();
 

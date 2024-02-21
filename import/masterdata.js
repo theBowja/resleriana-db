@@ -4,7 +4,7 @@ const msgpackr = require('msgpackr');
 const lz4 = require('lz4');
 const crypto = require('crypto');
 const config = require('./config.json');
-const stringify = require('@aitodotai/json-stringify-pretty-compact');
+const perfectJson = require('./perfectJson');
 BigInt.prototype.toJSON = function() { return this.toString(); }
 
 module.exports = { extractMasterDataGl, extractMasterDataJp, extractMasterData };
@@ -103,7 +103,7 @@ function unpackMasterData(md, lang) {
 		unpack: lz4Unpack
 	});
 
-	// let catalog;
+	// let catalog; // catalog is stored as a map of filenames => [offset, size]
 	// let catalogOffset;
 	let filenames;
 	msgpack.unpackMultiple(md, (data, start, end) => {
@@ -113,7 +113,14 @@ function unpackMasterData(md, lang) {
 			filenames = Object.entries(data).sort((a, b) => b[1][0]-a[1][0]).map(e => e[0]); // sort catalog by offset location in reverse and map by filename
 		} else {
 			const filename = filenames.pop();
-			fs.writeFileSync(`../data/master/${lang}/${filename}.json`, stringify(data, { margins: true }));
+			const output = perfectJson(data, { singleLine: ({ value }) => Array.isArray(value) && typeof value[0] === 'number', compact: false })
+
+			// sanity check. disable later for (minor) performance
+			// if (JSON.stringify(data) !== JSON.stringify(JSON.parse(output))) {
+			// 	console.log(`perfectJson is not perfectly converting data`);
+			// }
+
+			fs.writeFileSync(`../data/master/${lang}/${filename}.json`, output);
 		}
 	});
 }

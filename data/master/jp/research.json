@@ -1,665 +1,988 @@
 [
   {
-    "cost": { "id": 1, "quantity": 1000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 1000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 1,
     "level": 1,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究1",
-    "requirements": [  ],
-    "research_effect_ids": [ 1 ],
+    "requirements": [],
+    "research_effect_ids": [1],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 2000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 2000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 2,
     "level": 2,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究1",
-    "requirements": [  ],
-    "research_effect_ids": [ 3 ],
+    "requirements": [],
+    "research_effect_ids": [3],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 4000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 4000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 3,
     "level": 3,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究1",
-    "requirements": [  ],
-    "research_effect_ids": [ 5 ],
+    "requirements": [],
+    "research_effect_ids": [5],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 7000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 7000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 4,
     "level": 4,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究1",
-    "requirements": [  ],
-    "research_effect_ids": [ 7 ],
+    "requirements": [],
+    "research_effect_ids": [7],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 11000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 11000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 5,
     "level": 5,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究2",
-    "requirements": [  ],
-    "research_effect_ids": [ 2 ],
+    "requirements": [],
+    "research_effect_ids": [2],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 16000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 16000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 6,
     "level": 6,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究2",
-    "requirements": [  ],
-    "research_effect_ids": [ 4 ],
+    "requirements": [],
+    "research_effect_ids": [4],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 23000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 23000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 7,
     "level": 7,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究2",
-    "requirements": [  ],
-    "research_effect_ids": [ 6 ],
+    "requirements": [],
+    "research_effect_ids": [6],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 30000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 30000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 8,
     "level": 8,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究2",
-    "requirements": [  ],
-    "research_effect_ids": [ 8 ],
+    "requirements": [],
+    "research_effect_ids": [8],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 40000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 40000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 9,
     "level": 9,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究3",
     "requirements": [
-      { "condition_id": 141, "count": 9, "name": "錬金研究Lv.9を実行しよう" }
+      {
+        "condition_id": 141,
+        "count": 9,
+        "name": "錬金研究Lv.9を実行しよう"
+      }
     ],
-    "research_effect_ids": [ 1 ],
+    "research_effect_ids": [1],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 50000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 50000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 10,
     "level": 10,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究3",
-    "requirements": [  ],
-    "research_effect_ids": [ 3 ],
+    "requirements": [],
+    "research_effect_ids": [3],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 60000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 60000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 11,
     "level": 11,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究3",
-    "requirements": [  ],
-    "research_effect_ids": [ 5 ],
+    "requirements": [],
+    "research_effect_ids": [5],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 70000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 70000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 12,
     "level": 12,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究3",
-    "requirements": [  ],
-    "research_effect_ids": [ 7 ],
+    "requirements": [],
+    "research_effect_ids": [7],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 80000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 80000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 13,
     "level": 13,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究4",
-    "requirements": [  ],
-    "research_effect_ids": [ 2 ],
+    "requirements": [],
+    "research_effect_ids": [2],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 90000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 90000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 14,
     "level": 14,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究4",
-    "requirements": [  ],
-    "research_effect_ids": [ 4 ],
+    "requirements": [],
+    "research_effect_ids": [4],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 100000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 100000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 15,
     "level": 15,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究4",
-    "requirements": [  ],
-    "research_effect_ids": [ 6 ],
+    "requirements": [],
+    "research_effect_ids": [6],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 120000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 120000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 16,
     "level": 16,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究4",
-    "requirements": [  ],
-    "research_effect_ids": [ 8 ],
+    "requirements": [],
+    "research_effect_ids": [8],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 140000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 140000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 17,
     "level": 17,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究5",
     "requirements": [
-      { "condition_id": 141, "count": 17, "name": "錬金研究Lv.17を実行しよう" }
+      {
+        "condition_id": 141,
+        "count": 17,
+        "name": "錬金研究Lv.17を実行しよう"
+      }
     ],
-    "research_effect_ids": [ 1 ],
+    "research_effect_ids": [1],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 160000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 160000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 18,
     "level": 18,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究5",
-    "requirements": [  ],
-    "research_effect_ids": [ 3 ],
+    "requirements": [],
+    "research_effect_ids": [3],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 180000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 180000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 19,
     "level": 19,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究5",
-    "requirements": [  ],
-    "research_effect_ids": [ 5 ],
+    "requirements": [],
+    "research_effect_ids": [5],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 200000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 200000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 20,
     "level": 20,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究5",
-    "requirements": [  ],
-    "research_effect_ids": [ 7 ],
+    "requirements": [],
+    "research_effect_ids": [7],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 220000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 220000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 21,
     "level": 21,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究6",
-    "requirements": [  ],
-    "research_effect_ids": [ 2 ],
+    "requirements": [],
+    "research_effect_ids": [2],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 240000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 240000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 22,
     "level": 22,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究6",
-    "requirements": [  ],
-    "research_effect_ids": [ 4 ],
+    "requirements": [],
+    "research_effect_ids": [4],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 260000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 260000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 23,
     "level": 23,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究6",
-    "requirements": [  ],
-    "research_effect_ids": [ 6 ],
+    "requirements": [],
+    "research_effect_ids": [6],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 280000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 280000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 24,
     "level": 24,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究6",
-    "requirements": [  ],
-    "research_effect_ids": [ 8 ],
+    "requirements": [],
+    "research_effect_ids": [8],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 300000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 300000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 25,
     "level": 25,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究7",
     "requirements": [
-      { "condition_id": 141, "count": 25, "name": "錬金研究Lv.25を実行しよう" }
+      {
+        "condition_id": 141,
+        "count": 25,
+        "name": "錬金研究Lv.25を実行しよう"
+      }
     ],
-    "research_effect_ids": [ 1 ],
+    "research_effect_ids": [1],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 320000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 320000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 26,
     "level": 26,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究7",
-    "requirements": [  ],
-    "research_effect_ids": [ 3 ],
+    "requirements": [],
+    "research_effect_ids": [3],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 340000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 340000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 27,
     "level": 27,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究7",
-    "requirements": [  ],
-    "research_effect_ids": [ 5 ],
+    "requirements": [],
+    "research_effect_ids": [5],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 360000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 360000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 28,
     "level": 28,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究7",
-    "requirements": [  ],
-    "research_effect_ids": [ 7 ],
+    "requirements": [],
+    "research_effect_ids": [7],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 380000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 380000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 29,
     "level": 29,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究8",
-    "requirements": [  ],
-    "research_effect_ids": [ 2 ],
+    "requirements": [],
+    "research_effect_ids": [2],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 400000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 400000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 30,
     "level": 30,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究8",
-    "requirements": [  ],
-    "research_effect_ids": [ 4 ],
+    "requirements": [],
+    "research_effect_ids": [4],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 420000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 420000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 31,
     "level": 31,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究8",
-    "requirements": [  ],
-    "research_effect_ids": [ 6 ],
+    "requirements": [],
+    "research_effect_ids": [6],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 440000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 440000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 32,
     "level": 32,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究8",
-    "requirements": [  ],
-    "research_effect_ids": [ 8 ],
+    "requirements": [],
+    "research_effect_ids": [8],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 460000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 460000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 33,
     "level": 33,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究9",
     "requirements": [
-      { "condition_id": 141, "count": 33, "name": "錬金研究Lv.33を実行しよう" }
+      {
+        "condition_id": 141,
+        "count": 33,
+        "name": "錬金研究Lv.33を実行しよう"
+      }
     ],
-    "research_effect_ids": [ 1 ],
+    "research_effect_ids": [1],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 480000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 480000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 34,
     "level": 34,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究9",
-    "requirements": [  ],
-    "research_effect_ids": [ 3 ],
+    "requirements": [],
+    "research_effect_ids": [3],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 500000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 500000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 35,
     "level": 35,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究9",
-    "requirements": [  ],
-    "research_effect_ids": [ 5 ],
+    "requirements": [],
+    "research_effect_ids": [5],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 520000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 520000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 36,
     "level": 36,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究9",
-    "requirements": [  ],
-    "research_effect_ids": [ 7 ],
+    "requirements": [],
+    "research_effect_ids": [7],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 540000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 540000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 37,
     "level": 37,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究10",
-    "requirements": [  ],
-    "research_effect_ids": [ 2 ],
+    "requirements": [],
+    "research_effect_ids": [2],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 560000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 560000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 38,
     "level": 38,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究10",
-    "requirements": [  ],
-    "research_effect_ids": [ 4 ],
+    "requirements": [],
+    "research_effect_ids": [4],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 580000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 580000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 39,
     "level": 39,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究10",
-    "requirements": [  ],
-    "research_effect_ids": [ 6 ],
+    "requirements": [],
+    "research_effect_ids": [6],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 600000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 600000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 40,
     "level": 40,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究10",
-    "requirements": [  ],
-    "research_effect_ids": [ 8 ],
+    "requirements": [],
+    "research_effect_ids": [8],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 620000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 620000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 41,
     "level": 41,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究11",
     "requirements": [
-      { "condition_id": 141, "count": 41, "name": "錬金研究Lv.41を実行しよう" }
+      {
+        "condition_id": 141,
+        "count": 41,
+        "name": "錬金研究Lv.41を実行しよう"
+      }
     ],
-    "research_effect_ids": [ 1 ],
+    "research_effect_ids": [1],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 640000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 640000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 42,
     "level": 42,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究11",
-    "requirements": [  ],
-    "research_effect_ids": [ 3 ],
+    "requirements": [],
+    "research_effect_ids": [3],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 660000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 660000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 43,
     "level": 43,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究11",
-    "requirements": [  ],
-    "research_effect_ids": [ 5 ],
+    "requirements": [],
+    "research_effect_ids": [5],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 680000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 680000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 44,
     "level": 44,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究11",
-    "requirements": [  ],
-    "research_effect_ids": [ 7 ],
+    "requirements": [],
+    "research_effect_ids": [7],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 700000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 700000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 45,
     "level": 45,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究12",
-    "requirements": [  ],
-    "research_effect_ids": [ 2 ],
+    "requirements": [],
+    "research_effect_ids": [2],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 720000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 720000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 46,
     "level": 46,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究12",
-    "requirements": [  ],
-    "research_effect_ids": [ 4 ],
+    "requirements": [],
+    "research_effect_ids": [4],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 740000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 740000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 47,
     "level": 47,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究12",
-    "requirements": [  ],
-    "research_effect_ids": [ 6 ],
+    "requirements": [],
+    "research_effect_ids": [6],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 760000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 760000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 48,
     "level": 48,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究12",
-    "requirements": [  ],
-    "research_effect_ids": [ 8 ],
+    "requirements": [],
+    "research_effect_ids": [8],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 780000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 780000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 49,
     "level": 49,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究13",
     "requirements": [
-      { "condition_id": 141, "count": 49, "name": "錬金研究Lv.49を実行しよう" }
+      {
+        "condition_id": 141,
+        "count": 49,
+        "name": "錬金研究Lv.49を実行しよう"
+      }
     ],
-    "research_effect_ids": [ 1 ],
+    "research_effect_ids": [1],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 800000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 800000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 50,
     "level": 50,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究13",
-    "requirements": [  ],
-    "research_effect_ids": [ 3 ],
+    "requirements": [],
+    "research_effect_ids": [3],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 820000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 820000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 51,
     "level": 51,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究13",
-    "requirements": [  ],
-    "research_effect_ids": [ 5 ],
+    "requirements": [],
+    "research_effect_ids": [5],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 840000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 840000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 52,
     "level": 52,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究13",
-    "requirements": [  ],
-    "research_effect_ids": [ 7 ],
+    "requirements": [],
+    "research_effect_ids": [7],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 860000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 860000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 53,
     "level": 53,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究14",
-    "requirements": [  ],
-    "research_effect_ids": [ 2 ],
+    "requirements": [],
+    "research_effect_ids": [2],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 880000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 880000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 54,
     "level": 54,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究14",
-    "requirements": [  ],
-    "research_effect_ids": [ 4 ],
+    "requirements": [],
+    "research_effect_ids": [4],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 900000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 900000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 55,
     "level": 55,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究14",
-    "requirements": [  ],
-    "research_effect_ids": [ 6 ],
+    "requirements": [],
+    "research_effect_ids": [6],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 920000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 920000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 56,
     "level": 56,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究14",
-    "requirements": [  ],
-    "research_effect_ids": [ 8 ],
+    "requirements": [],
+    "research_effect_ids": [8],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 940000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 940000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 57,
     "level": 57,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究15",
     "requirements": [
-      { "condition_id": 141, "count": 57, "name": "錬金研究Lv.57を実行しよう" }
+      {
+        "condition_id": 141,
+        "count": 57,
+        "name": "錬金研究Lv.57を実行しよう"
+      }
     ],
-    "research_effect_ids": [ 1 ],
+    "research_effect_ids": [1],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 960000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 960000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 58,
     "level": 58,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究15",
-    "requirements": [  ],
-    "research_effect_ids": [ 3 ],
+    "requirements": [],
+    "research_effect_ids": [3],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 980000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 980000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 1,
     "id": 59,
     "level": 59,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究15",
-    "requirements": [  ],
-    "research_effect_ids": [ 5 ],
+    "requirements": [],
+    "research_effect_ids": [5],
     "start_at": null
   },
   {
@@ -674,8 +997,8 @@
     "level": 60,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究15",
-    "requirements": [  ],
-    "research_effect_ids": [ 7 ],
+    "requirements": [],
+    "research_effect_ids": [7],
     "start_at": null
   },
   {
@@ -690,8 +1013,8 @@
     "level": 61,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究16",
-    "requirements": [  ],
-    "research_effect_ids": [ 2 ],
+    "requirements": [],
+    "research_effect_ids": [2],
     "start_at": null
   },
   {
@@ -706,8 +1029,8 @@
     "level": 62,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究16",
-    "requirements": [  ],
-    "research_effect_ids": [ 4 ],
+    "requirements": [],
+    "research_effect_ids": [4],
     "start_at": null
   },
   {
@@ -722,8 +1045,8 @@
     "level": 63,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究16",
-    "requirements": [  ],
-    "research_effect_ids": [ 6 ],
+    "requirements": [],
+    "research_effect_ids": [6],
     "start_at": null
   },
   {
@@ -738,8 +1061,8 @@
     "level": 64,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究16",
-    "requirements": [  ],
-    "research_effect_ids": [ 8 ],
+    "requirements": [],
+    "research_effect_ids": [8],
     "start_at": null
   },
   {
@@ -754,8 +1077,8 @@
     "level": 65,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究17",
-    "requirements": [  ],
-    "research_effect_ids": [ 1 ],
+    "requirements": [],
+    "research_effect_ids": [1],
     "start_at": null
   },
   {
@@ -770,8 +1093,8 @@
     "level": 66,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究17",
-    "requirements": [  ],
-    "research_effect_ids": [ 3 ],
+    "requirements": [],
+    "research_effect_ids": [3],
     "start_at": null
   },
   {
@@ -786,8 +1109,8 @@
     "level": 67,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究17",
-    "requirements": [  ],
-    "research_effect_ids": [ 5 ],
+    "requirements": [],
+    "research_effect_ids": [5],
     "start_at": null
   },
   {
@@ -802,8 +1125,8 @@
     "level": 68,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究17",
-    "requirements": [  ],
-    "research_effect_ids": [ 7 ],
+    "requirements": [],
+    "research_effect_ids": [7],
     "start_at": null
   },
   {
@@ -818,8 +1141,8 @@
     "level": 69,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究18",
-    "requirements": [  ],
-    "research_effect_ids": [ 2 ],
+    "requirements": [],
+    "research_effect_ids": [2],
     "start_at": null
   },
   {
@@ -834,8 +1157,8 @@
     "level": 70,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究18",
-    "requirements": [  ],
-    "research_effect_ids": [ 4 ],
+    "requirements": [],
+    "research_effect_ids": [4],
     "start_at": null
   },
   {
@@ -850,8 +1173,8 @@
     "level": 71,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究18",
-    "requirements": [  ],
-    "research_effect_ids": [ 6 ],
+    "requirements": [],
+    "research_effect_ids": [6],
     "start_at": null
   },
   {
@@ -866,8 +1189,8 @@
     "level": 72,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究18",
-    "requirements": [  ],
-    "research_effect_ids": [ 8 ],
+    "requirements": [],
+    "research_effect_ids": [8],
     "start_at": null
   },
   {
@@ -882,8 +1205,8 @@
     "level": 73,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究19",
-    "requirements": [  ],
-    "research_effect_ids": [ 1 ],
+    "requirements": [],
+    "research_effect_ids": [1],
     "start_at": null
   },
   {
@@ -898,8 +1221,8 @@
     "level": 74,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究19",
-    "requirements": [  ],
-    "research_effect_ids": [ 3 ],
+    "requirements": [],
+    "research_effect_ids": [3],
     "start_at": null
   },
   {
@@ -914,8 +1237,8 @@
     "level": 75,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究19",
-    "requirements": [  ],
-    "research_effect_ids": [ 5 ],
+    "requirements": [],
+    "research_effect_ids": [5],
     "start_at": null
   },
   {
@@ -930,8 +1253,8 @@
     "level": 76,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究19",
-    "requirements": [  ],
-    "research_effect_ids": [ 7 ],
+    "requirements": [],
+    "research_effect_ids": [7],
     "start_at": null
   },
   {
@@ -946,8 +1269,8 @@
     "level": 77,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究20",
-    "requirements": [  ],
-    "research_effect_ids": [ 2 ],
+    "requirements": [],
+    "research_effect_ids": [2],
     "start_at": null
   },
   {
@@ -962,8 +1285,8 @@
     "level": 78,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究20",
-    "requirements": [  ],
-    "research_effect_ids": [ 4 ],
+    "requirements": [],
+    "research_effect_ids": [4],
     "start_at": null
   },
   {
@@ -978,8 +1301,8 @@
     "level": 79,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究20",
-    "requirements": [  ],
-    "research_effect_ids": [ 6 ],
+    "requirements": [],
+    "research_effect_ids": [6],
     "start_at": null
   },
   {
@@ -994,8 +1317,8 @@
     "level": 80,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究20",
-    "requirements": [  ],
-    "research_effect_ids": [ 8 ],
+    "requirements": [],
+    "research_effect_ids": [8],
     "start_at": null
   },
   {
@@ -1010,8 +1333,8 @@
     "level": 81,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究21",
-    "requirements": [  ],
-    "research_effect_ids": [ 1 ],
+    "requirements": [],
+    "research_effect_ids": [1],
     "start_at": null
   },
   {
@@ -1026,8 +1349,8 @@
     "level": 82,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究21",
-    "requirements": [  ],
-    "research_effect_ids": [ 3 ],
+    "requirements": [],
+    "research_effect_ids": [3],
     "start_at": null
   },
   {
@@ -1042,8 +1365,8 @@
     "level": 83,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究21",
-    "requirements": [  ],
-    "research_effect_ids": [ 5 ],
+    "requirements": [],
+    "research_effect_ids": [5],
     "start_at": null
   },
   {
@@ -1058,8 +1381,8 @@
     "level": 84,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究21",
-    "requirements": [  ],
-    "research_effect_ids": [ 7 ],
+    "requirements": [],
+    "research_effect_ids": [7],
     "start_at": null
   },
   {
@@ -1074,8 +1397,8 @@
     "level": 85,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究22",
-    "requirements": [  ],
-    "research_effect_ids": [ 2 ],
+    "requirements": [],
+    "research_effect_ids": [2],
     "start_at": null
   },
   {
@@ -1090,8 +1413,8 @@
     "level": 86,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究22",
-    "requirements": [  ],
-    "research_effect_ids": [ 4 ],
+    "requirements": [],
+    "research_effect_ids": [4],
     "start_at": null
   },
   {
@@ -1106,8 +1429,8 @@
     "level": 87,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究22",
-    "requirements": [  ],
-    "research_effect_ids": [ 6 ],
+    "requirements": [],
+    "research_effect_ids": [6],
     "start_at": null
   },
   {
@@ -1122,8 +1445,8 @@
     "level": 88,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究22",
-    "requirements": [  ],
-    "research_effect_ids": [ 8 ],
+    "requirements": [],
+    "research_effect_ids": [8],
     "start_at": null
   },
   {
@@ -1138,8 +1461,8 @@
     "level": 89,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究23",
-    "requirements": [  ],
-    "research_effect_ids": [ 1 ],
+    "requirements": [],
+    "research_effect_ids": [1],
     "start_at": null
   },
   {
@@ -1154,8 +1477,8 @@
     "level": 90,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究23",
-    "requirements": [  ],
-    "research_effect_ids": [ 3 ],
+    "requirements": [],
+    "research_effect_ids": [3],
     "start_at": null
   },
   {
@@ -1170,8 +1493,8 @@
     "level": 91,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究23",
-    "requirements": [  ],
-    "research_effect_ids": [ 5 ],
+    "requirements": [],
+    "research_effect_ids": [5],
     "start_at": null
   },
   {
@@ -1186,8 +1509,8 @@
     "level": 92,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究23",
-    "requirements": [  ],
-    "research_effect_ids": [ 7 ],
+    "requirements": [],
+    "research_effect_ids": [7],
     "start_at": null
   },
   {
@@ -1202,8 +1525,8 @@
     "level": 93,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究24",
-    "requirements": [  ],
-    "research_effect_ids": [ 2 ],
+    "requirements": [],
+    "research_effect_ids": [2],
     "start_at": null
   },
   {
@@ -1218,8 +1541,8 @@
     "level": 94,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究24",
-    "requirements": [  ],
-    "research_effect_ids": [ 4 ],
+    "requirements": [],
+    "research_effect_ids": [4],
     "start_at": null
   },
   {
@@ -1234,8 +1557,8 @@
     "level": 95,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究24",
-    "requirements": [  ],
-    "research_effect_ids": [ 6 ],
+    "requirements": [],
+    "research_effect_ids": [6],
     "start_at": null
   },
   {
@@ -1250,8 +1573,8 @@
     "level": 96,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究24",
-    "requirements": [  ],
-    "research_effect_ids": [ 8 ],
+    "requirements": [],
+    "research_effect_ids": [8],
     "start_at": null
   },
   {
@@ -1266,8 +1589,8 @@
     "level": 97,
     "minimum_character_level": null,
     "name": "アタッカー戦闘研究25",
-    "requirements": [  ],
-    "research_effect_ids": [ 1 ],
+    "requirements": [],
+    "research_effect_ids": [1],
     "start_at": null
   },
   {
@@ -1282,8 +1605,8 @@
     "level": 98,
     "minimum_character_level": null,
     "name": "ブレイカー戦闘研究25",
-    "requirements": [  ],
-    "research_effect_ids": [ 3 ],
+    "requirements": [],
+    "research_effect_ids": [3],
     "start_at": null
   },
   {
@@ -1298,8 +1621,8 @@
     "level": 99,
     "minimum_character_level": null,
     "name": "ディフェンダー戦闘研究25",
-    "requirements": [  ],
-    "research_effect_ids": [ 5 ],
+    "requirements": [],
+    "research_effect_ids": [5],
     "start_at": null
   },
   {
@@ -1314,673 +1637,1000 @@
     "level": 100,
     "minimum_character_level": null,
     "name": "サポーター戦闘研究25",
-    "requirements": [  ],
-    "research_effect_ids": [ 7 ],
+    "requirements": [],
+    "research_effect_ids": [7],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 1000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 1000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1001,
     "level": 1,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究1",
-    "requirements": [  ],
-    "research_effect_ids": [ 9 ],
+    "requirements": [],
+    "research_effect_ids": [9],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 2000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 2000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1002,
     "level": 2,
     "minimum_character_level": null,
     "name": "装備アイテム研究1",
-    "requirements": [  ],
-    "research_effect_ids": [ 13 ],
+    "requirements": [],
+    "research_effect_ids": [13],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 4000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 4000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1003,
     "level": 3,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究2",
-    "requirements": [  ],
-    "research_effect_ids": [ 10 ],
+    "requirements": [],
+    "research_effect_ids": [10],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 7000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 7000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1004,
     "level": 4,
     "minimum_character_level": null,
     "name": "装備アイテム研究2",
-    "requirements": [  ],
-    "research_effect_ids": [ 15 ],
+    "requirements": [],
+    "research_effect_ids": [15],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 11000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 11000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1005,
     "level": 5,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究3",
-    "requirements": [  ],
-    "research_effect_ids": [ 11 ],
+    "requirements": [],
+    "research_effect_ids": [11],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 16000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 16000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1006,
     "level": 6,
     "minimum_character_level": null,
     "name": "装備アイテム研究3",
-    "requirements": [  ],
-    "research_effect_ids": [ 17 ],
+    "requirements": [],
+    "research_effect_ids": [17],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 23000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 23000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1007,
     "level": 7,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究4",
-    "requirements": [  ],
-    "research_effect_ids": [ 12 ],
+    "requirements": [],
+    "research_effect_ids": [12],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 30000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 30000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1008,
     "level": 8,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究5",
     "requirements": [
-      { "condition_id": 27, "count": 1, "name": "メインストーリー2-48をクリアしよう" }
+      {
+        "condition_id": 27,
+        "count": 1,
+        "name": "メインストーリー2-48をクリアしよう"
+      }
     ],
-    "research_effect_ids": [ 9 ],
+    "research_effect_ids": [9],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 40000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 40000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1009,
     "level": 9,
     "minimum_character_level": null,
     "name": "装備アイテム研究4",
-    "requirements": [  ],
-    "research_effect_ids": [ 14 ],
+    "requirements": [],
+    "research_effect_ids": [14],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 50000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 50000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1010,
     "level": 10,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究6",
-    "requirements": [  ],
-    "research_effect_ids": [ 10 ],
+    "requirements": [],
+    "research_effect_ids": [10],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 60000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 60000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1011,
     "level": 11,
     "minimum_character_level": null,
     "name": "装備アイテム研究5",
-    "requirements": [  ],
-    "research_effect_ids": [ 16 ],
+    "requirements": [],
+    "research_effect_ids": [16],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 70000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 70000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1012,
     "level": 12,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究7",
-    "requirements": [  ],
-    "research_effect_ids": [ 11 ],
+    "requirements": [],
+    "research_effect_ids": [11],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 80000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 80000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1013,
     "level": 13,
     "minimum_character_level": null,
     "name": "装備アイテム研究6",
-    "requirements": [  ],
-    "research_effect_ids": [ 18 ],
+    "requirements": [],
+    "research_effect_ids": [18],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 90000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 90000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1014,
     "level": 14,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究8",
-    "requirements": [  ],
-    "research_effect_ids": [ 12 ],
+    "requirements": [],
+    "research_effect_ids": [12],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 100000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 100000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1015,
     "level": 15,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究9",
     "requirements": [
-      { "condition_id": 142, "count": 1, "name": "メインストーリー3-35をクリアしよう" }
+      {
+        "condition_id": 142,
+        "count": 1,
+        "name": "メインストーリー3-35をクリアしよう"
+      }
     ],
-    "research_effect_ids": [ 9 ],
+    "research_effect_ids": [9],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 120000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 120000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1016,
     "level": 16,
     "minimum_character_level": null,
     "name": "装備アイテム研究7",
-    "requirements": [  ],
-    "research_effect_ids": [ 13 ],
+    "requirements": [],
+    "research_effect_ids": [13],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 140000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 140000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1017,
     "level": 17,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究10",
-    "requirements": [  ],
-    "research_effect_ids": [ 10 ],
+    "requirements": [],
+    "research_effect_ids": [10],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 160000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 160000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1018,
     "level": 18,
     "minimum_character_level": null,
     "name": "装備アイテム研究8",
-    "requirements": [  ],
-    "research_effect_ids": [ 15 ],
+    "requirements": [],
+    "research_effect_ids": [15],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 180000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 180000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1019,
     "level": 19,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究11",
-    "requirements": [  ],
-    "research_effect_ids": [ 11 ],
+    "requirements": [],
+    "research_effect_ids": [11],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 200000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 200000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1020,
     "level": 20,
     "minimum_character_level": null,
     "name": "装備アイテム研究9",
-    "requirements": [  ],
-    "research_effect_ids": [ 17 ],
+    "requirements": [],
+    "research_effect_ids": [17],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 220000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 220000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1021,
     "level": 21,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究12",
-    "requirements": [  ],
-    "research_effect_ids": [ 12 ],
+    "requirements": [],
+    "research_effect_ids": [12],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 240000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 240000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1022,
     "level": 22,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究13",
     "requirements": [
-      { "condition_id": 143, "count": 1, "name": "スコアバトル3-1Hardをクリアしよう" }
+      {
+        "condition_id": 143,
+        "count": 1,
+        "name": "スコアバトル3-1Hardをクリアしよう"
+      }
     ],
-    "research_effect_ids": [ 9 ],
+    "research_effect_ids": [9],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 260000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 260000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1023,
     "level": 23,
     "minimum_character_level": null,
     "name": "装備アイテム研究10",
-    "requirements": [  ],
-    "research_effect_ids": [ 14 ],
+    "requirements": [],
+    "research_effect_ids": [14],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 280000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 280000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1024,
     "level": 24,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究14",
-    "requirements": [  ],
-    "research_effect_ids": [ 10 ],
+    "requirements": [],
+    "research_effect_ids": [10],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 300000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 300000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1025,
     "level": 25,
     "minimum_character_level": null,
     "name": "装備アイテム研究11",
-    "requirements": [  ],
-    "research_effect_ids": [ 16 ],
+    "requirements": [],
+    "research_effect_ids": [16],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 320000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 320000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1026,
     "level": 26,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究15",
-    "requirements": [  ],
-    "research_effect_ids": [ 11 ],
+    "requirements": [],
+    "research_effect_ids": [11],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 340000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 340000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1027,
     "level": 27,
     "minimum_character_level": null,
     "name": "装備アイテム研究12",
-    "requirements": [  ],
-    "research_effect_ids": [ 18 ],
+    "requirements": [],
+    "research_effect_ids": [18],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 360000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 360000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1028,
     "level": 28,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究16",
-    "requirements": [  ],
-    "research_effect_ids": [ 12 ],
+    "requirements": [],
+    "research_effect_ids": [12],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 380000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 380000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1029,
     "level": 29,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究17",
     "requirements": [
-      { "condition_id": 144, "count": 1, "name": "スコアバトル3-3Hardをクリアしよう" }
+      {
+        "condition_id": 144,
+        "count": 1,
+        "name": "スコアバトル3-3Hardをクリアしよう"
+      }
     ],
-    "research_effect_ids": [ 9 ],
+    "research_effect_ids": [9],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 400000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 400000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1030,
     "level": 30,
     "minimum_character_level": null,
     "name": "装備アイテム研究13",
-    "requirements": [  ],
-    "research_effect_ids": [ 13 ],
+    "requirements": [],
+    "research_effect_ids": [13],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 420000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 420000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1031,
     "level": 31,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究18",
-    "requirements": [  ],
-    "research_effect_ids": [ 10 ],
+    "requirements": [],
+    "research_effect_ids": [10],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 440000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 440000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1032,
     "level": 32,
     "minimum_character_level": null,
     "name": "装備アイテム研究14",
-    "requirements": [  ],
-    "research_effect_ids": [ 15 ],
+    "requirements": [],
+    "research_effect_ids": [15],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 460000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 460000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1033,
     "level": 33,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究19",
-    "requirements": [  ],
-    "research_effect_ids": [ 11 ],
+    "requirements": [],
+    "research_effect_ids": [11],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 480000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 480000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1034,
     "level": 34,
     "minimum_character_level": null,
     "name": "装備アイテム研究15",
-    "requirements": [  ],
-    "research_effect_ids": [ 17 ],
+    "requirements": [],
+    "research_effect_ids": [17],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 500000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 500000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1035,
     "level": 35,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究20",
-    "requirements": [  ],
-    "research_effect_ids": [ 12 ],
+    "requirements": [],
+    "research_effect_ids": [12],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 520000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 520000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1036,
     "level": 36,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究21",
     "requirements": [
-      { "condition_id": 145, "count": 1, "name": "スコアバトル3-1Very Hardをクリアしよう" }
+      {
+        "condition_id": 145,
+        "count": 1,
+        "name": "スコアバトル3-1Very Hardをクリアしよう"
+      }
     ],
-    "research_effect_ids": [ 9 ],
+    "research_effect_ids": [9],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 540000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 540000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1037,
     "level": 37,
     "minimum_character_level": null,
     "name": "装備アイテム研究16",
-    "requirements": [  ],
-    "research_effect_ids": [ 14 ],
+    "requirements": [],
+    "research_effect_ids": [14],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 560000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 560000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1038,
     "level": 38,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究22",
-    "requirements": [  ],
-    "research_effect_ids": [ 10 ],
+    "requirements": [],
+    "research_effect_ids": [10],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 580000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 580000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1039,
     "level": 39,
     "minimum_character_level": null,
     "name": "装備アイテム研究17",
-    "requirements": [  ],
-    "research_effect_ids": [ 16 ],
+    "requirements": [],
+    "research_effect_ids": [16],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 600000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 600000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1040,
     "level": 40,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究23",
-    "requirements": [  ],
-    "research_effect_ids": [ 11 ],
+    "requirements": [],
+    "research_effect_ids": [11],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 620000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 620000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1041,
     "level": 41,
     "minimum_character_level": null,
     "name": "装備アイテム研究18",
-    "requirements": [  ],
-    "research_effect_ids": [ 18 ],
+    "requirements": [],
+    "research_effect_ids": [18],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 640000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 640000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1042,
     "level": 42,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究24",
-    "requirements": [  ],
-    "research_effect_ids": [ 12 ],
+    "requirements": [],
+    "research_effect_ids": [12],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 660000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 660000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1043,
     "level": 43,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究25",
     "requirements": [
-      { "condition_id": 146, "count": 1, "name": "スコアバトル3-2Very Hardをクリアしよう" }
+      {
+        "condition_id": 146,
+        "count": 1,
+        "name": "スコアバトル3-2Very Hardをクリアしよう"
+      }
     ],
-    "research_effect_ids": [ 9 ],
+    "research_effect_ids": [9],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 680000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 680000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1044,
     "level": 44,
     "minimum_character_level": null,
     "name": "装備アイテム研究19",
-    "requirements": [  ],
-    "research_effect_ids": [ 13 ],
+    "requirements": [],
+    "research_effect_ids": [13],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 700000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 700000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1045,
     "level": 45,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究26",
-    "requirements": [  ],
-    "research_effect_ids": [ 10 ],
+    "requirements": [],
+    "research_effect_ids": [10],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 720000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 720000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1046,
     "level": 46,
     "minimum_character_level": null,
     "name": "装備アイテム研究20",
-    "requirements": [  ],
-    "research_effect_ids": [ 15 ],
+    "requirements": [],
+    "research_effect_ids": [15],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 740000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 740000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1047,
     "level": 47,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究27",
-    "requirements": [  ],
-    "research_effect_ids": [ 11 ],
+    "requirements": [],
+    "research_effect_ids": [11],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 760000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 760000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1048,
     "level": 48,
     "minimum_character_level": null,
     "name": "装備アイテム研究21",
-    "requirements": [  ],
-    "research_effect_ids": [ 17 ],
+    "requirements": [],
+    "research_effect_ids": [17],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 780000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 780000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1049,
     "level": 49,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究28",
-    "requirements": [  ],
-    "research_effect_ids": [ 12 ],
+    "requirements": [],
+    "research_effect_ids": [12],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 800000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 800000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1050,
     "level": 50,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究29",
     "requirements": [
-      { "condition_id": 147, "count": 1, "name": "スコアバトル3-3Very Hardをクリアしよう" }
+      {
+        "condition_id": 147,
+        "count": 1,
+        "name": "スコアバトル3-3Very Hardをクリアしよう"
+      }
     ],
-    "research_effect_ids": [ 9 ],
+    "research_effect_ids": [9],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 820000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 820000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1051,
     "level": 51,
     "minimum_character_level": null,
     "name": "装備アイテム研究22",
-    "requirements": [  ],
-    "research_effect_ids": [ 14 ],
+    "requirements": [],
+    "research_effect_ids": [14],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 840000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 840000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1052,
     "level": 52,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究30",
-    "requirements": [  ],
-    "research_effect_ids": [ 10 ],
+    "requirements": [],
+    "research_effect_ids": [10],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 860000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 860000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1053,
     "level": 53,
     "minimum_character_level": null,
     "name": "装備アイテム研究23",
-    "requirements": [  ],
-    "research_effect_ids": [ 16 ],
+    "requirements": [],
+    "research_effect_ids": [16],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 880000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 880000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1054,
     "level": 54,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究31",
-    "requirements": [  ],
-    "research_effect_ids": [ 11 ],
+    "requirements": [],
+    "research_effect_ids": [11],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 900000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 900000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1055,
     "level": 55,
     "minimum_character_level": null,
     "name": "装備アイテム研究24",
-    "requirements": [  ],
-    "research_effect_ids": [ 18 ],
+    "requirements": [],
+    "research_effect_ids": [18],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 920000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 920000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1056,
     "level": 56,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究32",
-    "requirements": [  ],
-    "research_effect_ids": [ 12 ],
+    "requirements": [],
+    "research_effect_ids": [12],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 940000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 940000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1057,
     "level": 57,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究33",
     "requirements": [
-      { "condition_id": 149, "count": 1, "name": "スコアバトル3-4Very Hardをクリアしよう" }
+      {
+        "condition_id": 149,
+        "count": 1,
+        "name": "スコアバトル3-4Very Hardをクリアしよう"
+      }
     ],
-    "research_effect_ids": [ 9 ],
+    "research_effect_ids": [9],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 960000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 960000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1058,
     "level": 58,
     "minimum_character_level": null,
     "name": "装備アイテム研究25",
-    "requirements": [  ],
-    "research_effect_ids": [ 13 ],
+    "requirements": [],
+    "research_effect_ids": [13],
     "start_at": null
   },
   {
-    "cost": { "id": 1, "quantity": 980000, "resource_params": null, "type": 3 },
+    "cost": {
+      "id": 1,
+      "quantity": 980000,
+      "resource_params": null,
+      "type": 3
+    },
     "group_id": 2,
     "id": 1059,
     "level": 59,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究34",
-    "requirements": [  ],
-    "research_effect_ids": [ 10 ],
+    "requirements": [],
+    "research_effect_ids": [10],
     "start_at": null
   },
   {
@@ -1995,8 +2645,8 @@
     "level": 60,
     "minimum_character_level": null,
     "name": "装備アイテム研究26",
-    "requirements": [  ],
-    "research_effect_ids": [ 15 ],
+    "requirements": [],
+    "research_effect_ids": [15],
     "start_at": null
   },
   {
@@ -2011,8 +2661,8 @@
     "level": 61,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究35",
-    "requirements": [  ],
-    "research_effect_ids": [ 11 ],
+    "requirements": [],
+    "research_effect_ids": [11],
     "start_at": null
   },
   {
@@ -2027,8 +2677,8 @@
     "level": 62,
     "minimum_character_level": null,
     "name": "装備アイテム研究27",
-    "requirements": [  ],
-    "research_effect_ids": [ 17 ],
+    "requirements": [],
+    "research_effect_ids": [17],
     "start_at": null
   },
   {
@@ -2043,8 +2693,8 @@
     "level": 63,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究36",
-    "requirements": [  ],
-    "research_effect_ids": [ 12 ],
+    "requirements": [],
+    "research_effect_ids": [12],
     "start_at": null
   },
   {
@@ -2059,8 +2709,8 @@
     "level": 64,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究37",
-    "requirements": [  ],
-    "research_effect_ids": [ 9 ],
+    "requirements": [],
+    "research_effect_ids": [9],
     "start_at": null
   },
   {
@@ -2075,8 +2725,8 @@
     "level": 65,
     "minimum_character_level": null,
     "name": "装備アイテム研究28",
-    "requirements": [  ],
-    "research_effect_ids": [ 14 ],
+    "requirements": [],
+    "research_effect_ids": [14],
     "start_at": null
   },
   {
@@ -2091,8 +2741,8 @@
     "level": 66,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究38",
-    "requirements": [  ],
-    "research_effect_ids": [ 10 ],
+    "requirements": [],
+    "research_effect_ids": [10],
     "start_at": null
   },
   {
@@ -2107,8 +2757,8 @@
     "level": 67,
     "minimum_character_level": null,
     "name": "装備アイテム研究29",
-    "requirements": [  ],
-    "research_effect_ids": [ 16 ],
+    "requirements": [],
+    "research_effect_ids": [16],
     "start_at": null
   },
   {
@@ -2123,8 +2773,8 @@
     "level": 68,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究39",
-    "requirements": [  ],
-    "research_effect_ids": [ 11 ],
+    "requirements": [],
+    "research_effect_ids": [11],
     "start_at": null
   },
   {
@@ -2139,8 +2789,8 @@
     "level": 69,
     "minimum_character_level": null,
     "name": "装備アイテム研究30",
-    "requirements": [  ],
-    "research_effect_ids": [ 18 ],
+    "requirements": [],
+    "research_effect_ids": [18],
     "start_at": null
   },
   {
@@ -2155,8 +2805,8 @@
     "level": 70,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究40",
-    "requirements": [  ],
-    "research_effect_ids": [ 12 ],
+    "requirements": [],
+    "research_effect_ids": [12],
     "start_at": null
   },
   {
@@ -2171,8 +2821,8 @@
     "level": 71,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究41",
-    "requirements": [  ],
-    "research_effect_ids": [ 9 ],
+    "requirements": [],
+    "research_effect_ids": [9],
     "start_at": null
   },
   {
@@ -2187,8 +2837,8 @@
     "level": 72,
     "minimum_character_level": null,
     "name": "装備アイテム研究31",
-    "requirements": [  ],
-    "research_effect_ids": [ 13 ],
+    "requirements": [],
+    "research_effect_ids": [13],
     "start_at": null
   },
   {
@@ -2203,8 +2853,8 @@
     "level": 73,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究42",
-    "requirements": [  ],
-    "research_effect_ids": [ 10 ],
+    "requirements": [],
+    "research_effect_ids": [10],
     "start_at": null
   },
   {
@@ -2219,8 +2869,8 @@
     "level": 74,
     "minimum_character_level": null,
     "name": "装備アイテム研究32",
-    "requirements": [  ],
-    "research_effect_ids": [ 15 ],
+    "requirements": [],
+    "research_effect_ids": [15],
     "start_at": null
   },
   {
@@ -2235,8 +2885,8 @@
     "level": 75,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究43",
-    "requirements": [  ],
-    "research_effect_ids": [ 11 ],
+    "requirements": [],
+    "research_effect_ids": [11],
     "start_at": null
   },
   {
@@ -2251,8 +2901,8 @@
     "level": 76,
     "minimum_character_level": null,
     "name": "装備アイテム研究33",
-    "requirements": [  ],
-    "research_effect_ids": [ 17 ],
+    "requirements": [],
+    "research_effect_ids": [17],
     "start_at": null
   },
   {
@@ -2267,8 +2917,8 @@
     "level": 77,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究44",
-    "requirements": [  ],
-    "research_effect_ids": [ 12 ],
+    "requirements": [],
+    "research_effect_ids": [12],
     "start_at": null
   },
   {
@@ -2283,8 +2933,8 @@
     "level": 78,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究45",
-    "requirements": [  ],
-    "research_effect_ids": [ 9 ],
+    "requirements": [],
+    "research_effect_ids": [9],
     "start_at": null
   },
   {
@@ -2299,8 +2949,8 @@
     "level": 79,
     "minimum_character_level": null,
     "name": "装備アイテム研究34",
-    "requirements": [  ],
-    "research_effect_ids": [ 14 ],
+    "requirements": [],
+    "research_effect_ids": [14],
     "start_at": null
   },
   {
@@ -2315,8 +2965,8 @@
     "level": 80,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究46",
-    "requirements": [  ],
-    "research_effect_ids": [ 10 ],
+    "requirements": [],
+    "research_effect_ids": [10],
     "start_at": null
   },
   {
@@ -2331,8 +2981,8 @@
     "level": 81,
     "minimum_character_level": null,
     "name": "装備アイテム研究35",
-    "requirements": [  ],
-    "research_effect_ids": [ 16 ],
+    "requirements": [],
+    "research_effect_ids": [16],
     "start_at": null
   },
   {
@@ -2347,8 +2997,8 @@
     "level": 82,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究47",
-    "requirements": [  ],
-    "research_effect_ids": [ 11 ],
+    "requirements": [],
+    "research_effect_ids": [11],
     "start_at": null
   },
   {
@@ -2363,8 +3013,8 @@
     "level": 83,
     "minimum_character_level": null,
     "name": "装備アイテム研究36",
-    "requirements": [  ],
-    "research_effect_ids": [ 18 ],
+    "requirements": [],
+    "research_effect_ids": [18],
     "start_at": null
   },
   {
@@ -2379,8 +3029,8 @@
     "level": 84,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究48",
-    "requirements": [  ],
-    "research_effect_ids": [ 12 ],
+    "requirements": [],
+    "research_effect_ids": [12],
     "start_at": null
   },
   {
@@ -2395,8 +3045,8 @@
     "level": 85,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究49",
-    "requirements": [  ],
-    "research_effect_ids": [ 9 ],
+    "requirements": [],
+    "research_effect_ids": [9],
     "start_at": null
   },
   {
@@ -2411,8 +3061,8 @@
     "level": 86,
     "minimum_character_level": null,
     "name": "装備アイテム研究37",
-    "requirements": [  ],
-    "research_effect_ids": [ 13 ],
+    "requirements": [],
+    "research_effect_ids": [13],
     "start_at": null
   },
   {
@@ -2427,8 +3077,8 @@
     "level": 87,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究50",
-    "requirements": [  ],
-    "research_effect_ids": [ 10 ],
+    "requirements": [],
+    "research_effect_ids": [10],
     "start_at": null
   },
   {
@@ -2443,8 +3093,8 @@
     "level": 88,
     "minimum_character_level": null,
     "name": "装備アイテム研究38",
-    "requirements": [  ],
-    "research_effect_ids": [ 15 ],
+    "requirements": [],
+    "research_effect_ids": [15],
     "start_at": null
   },
   {
@@ -2459,8 +3109,8 @@
     "level": 89,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究51",
-    "requirements": [  ],
-    "research_effect_ids": [ 11 ],
+    "requirements": [],
+    "research_effect_ids": [11],
     "start_at": null
   },
   {
@@ -2475,8 +3125,8 @@
     "level": 90,
     "minimum_character_level": null,
     "name": "装備アイテム研究39",
-    "requirements": [  ],
-    "research_effect_ids": [ 17 ],
+    "requirements": [],
+    "research_effect_ids": [17],
     "start_at": null
   },
   {
@@ -2491,8 +3141,8 @@
     "level": 91,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究52",
-    "requirements": [  ],
-    "research_effect_ids": [ 12 ],
+    "requirements": [],
+    "research_effect_ids": [12],
     "start_at": null
   },
   {
@@ -2507,8 +3157,8 @@
     "level": 92,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究53",
-    "requirements": [  ],
-    "research_effect_ids": [ 9 ],
+    "requirements": [],
+    "research_effect_ids": [9],
     "start_at": null
   },
   {
@@ -2523,8 +3173,8 @@
     "level": 93,
     "minimum_character_level": null,
     "name": "装備アイテム研究40",
-    "requirements": [  ],
-    "research_effect_ids": [ 14 ],
+    "requirements": [],
+    "research_effect_ids": [14],
     "start_at": null
   },
   {
@@ -2539,8 +3189,8 @@
     "level": 94,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究54",
-    "requirements": [  ],
-    "research_effect_ids": [ 10 ],
+    "requirements": [],
+    "research_effect_ids": [10],
     "start_at": null
   },
   {
@@ -2555,8 +3205,8 @@
     "level": 95,
     "minimum_character_level": null,
     "name": "装備アイテム研究41",
-    "requirements": [  ],
-    "research_effect_ids": [ 16 ],
+    "requirements": [],
+    "research_effect_ids": [16],
     "start_at": null
   },
   {
@@ -2571,8 +3221,8 @@
     "level": 96,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究55",
-    "requirements": [  ],
-    "research_effect_ids": [ 11 ],
+    "requirements": [],
+    "research_effect_ids": [11],
     "start_at": null
   },
   {
@@ -2587,8 +3237,8 @@
     "level": 97,
     "minimum_character_level": null,
     "name": "装備アイテム研究42",
-    "requirements": [  ],
-    "research_effect_ids": [ 18 ],
+    "requirements": [],
+    "research_effect_ids": [18],
     "start_at": null
   },
   {
@@ -2603,8 +3253,8 @@
     "level": 98,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究56",
-    "requirements": [  ],
-    "research_effect_ids": [ 12 ],
+    "requirements": [],
+    "research_effect_ids": [12],
     "start_at": null
   },
   {
@@ -2619,8 +3269,8 @@
     "level": 99,
     "minimum_character_level": null,
     "name": "戦闘アイテム研究57",
-    "requirements": [  ],
-    "research_effect_ids": [ 9 ],
+    "requirements": [],
+    "research_effect_ids": [9],
     "start_at": null
   },
   {
@@ -2635,340 +3285,494 @@
     "level": 100,
     "minimum_character_level": null,
     "name": "装備アイテム研究43",
-    "requirements": [  ],
-    "research_effect_ids": [ 13 ],
+    "requirements": [],
+    "research_effect_ids": [13],
     "start_at": null
   },
   {
-    "cost": { "id": 134, "quantity": 30, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 30,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2001,
     "level": 1,
     "minimum_character_level": 10,
     "name": "育成研究1",
     "requirements": [
-      { "condition_id": 84, "count": 1, "name": "メインストーリー3-55をクリア" }
+      {
+        "condition_id": 84,
+        "count": 1,
+        "name": "メインストーリー3-55をクリア"
+      }
     ],
-    "research_effect_ids": [  ],
+    "research_effect_ids": [],
     "start_at": "2023-12-22T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 50, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 50,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2002,
     "level": 2,
     "minimum_character_level": 20,
     "name": "育成研究2",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2023-12-22T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 75, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 75,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2003,
     "level": 3,
     "minimum_character_level": 25,
     "name": "育成研究3",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2023-12-22T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 100, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 100,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2004,
     "level": 4,
     "minimum_character_level": 30,
     "name": "育成研究4",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2023-12-22T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 125, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 125,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2005,
     "level": 5,
     "minimum_character_level": 35,
     "name": "育成研究5",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2023-12-22T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 150, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 150,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2006,
     "level": 6,
     "minimum_character_level": 40,
     "name": "育成研究6",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2023-12-22T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 175, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 175,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2007,
     "level": 7,
     "minimum_character_level": 45,
     "name": "育成研究7",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2023-12-22T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 200, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 200,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2008,
     "level": 8,
     "minimum_character_level": 50,
     "name": "育成研究8",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2023-12-22T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 225, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 225,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2009,
     "level": 9,
     "minimum_character_level": 55,
     "name": "育成研究9",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2023-12-22T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 250, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 250,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2010,
     "level": 10,
     "minimum_character_level": 60,
     "name": "育成研究10",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2023-12-22T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 300, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 300,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2011,
     "level": 11,
     "minimum_character_level": 61,
     "name": "育成研究11",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2023-12-22T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 350, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 350,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2012,
     "level": 12,
     "minimum_character_level": 62,
     "name": "育成研究12",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2023-12-22T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 400, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 400,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2013,
     "level": 13,
     "minimum_character_level": 63,
     "name": "育成研究13",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2023-12-22T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 450, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 450,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2014,
     "level": 14,
     "minimum_character_level": 64,
     "name": "育成研究14",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2023-12-22T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 500, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 500,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2015,
     "level": 15,
     "minimum_character_level": 65,
     "name": "育成研究15",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2023-12-22T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 550, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 550,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2016,
     "level": 16,
     "minimum_character_level": 66,
     "name": "育成研究16",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2023-12-22T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 600, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 600,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2017,
     "level": 17,
     "minimum_character_level": 67,
     "name": "育成研究17",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2023-12-22T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 650, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 650,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2018,
     "level": 18,
     "minimum_character_level": 68,
     "name": "育成研究18",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2023-12-22T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 700, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 700,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2019,
     "level": 19,
     "minimum_character_level": 69,
     "name": "育成研究19",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2023-12-22T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 750, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 750,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2020,
     "level": 20,
     "minimum_character_level": 70,
     "name": "育成研究20",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2023-12-22T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 800, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 800,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2021,
     "level": 21,
     "minimum_character_level": 71,
     "name": "育成研究21",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2024-01-31T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 850, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 850,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2022,
     "level": 22,
     "minimum_character_level": 72,
     "name": "育成研究22",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2024-01-31T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 900, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 900,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2023,
     "level": 23,
     "minimum_character_level": 73,
     "name": "育成研究23",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2024-01-31T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 950, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 950,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2024,
     "level": 24,
     "minimum_character_level": 74,
     "name": "育成研究24",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2024-01-31T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 1000, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 1000,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2025,
     "level": 25,
     "minimum_character_level": 75,
     "name": "育成研究25",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2024-01-31T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 1000, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 1000,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2026,
     "level": 26,
     "minimum_character_level": 76,
     "name": "育成研究26",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2024-01-31T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 1000, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 1000,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2027,
     "level": 27,
     "minimum_character_level": 77,
     "name": "育成研究27",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2024-01-31T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 1000, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 1000,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2028,
     "level": 28,
     "minimum_character_level": 78,
     "name": "育成研究28",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2024-01-31T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 1000, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 1000,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2029,
     "level": 29,
     "minimum_character_level": 79,
     "name": "育成研究29",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2024-01-31T03:00:00.000Z"
   },
   {
-    "cost": { "id": 134, "quantity": 1000, "resource_params": null, "type": 5 },
+    "cost": {
+      "id": 134,
+      "quantity": 1000,
+      "resource_params": null,
+      "type": 5
+    },
     "group_id": 3,
     "id": 2030,
     "level": 30,
     "minimum_character_level": 80,
     "name": "育成研究30",
-    "requirements": [  ],
-    "research_effect_ids": [  ],
+    "requirements": [],
+    "research_effect_ids": [],
     "start_at": "2024-01-31T03:00:00.000Z"
   }
 ]

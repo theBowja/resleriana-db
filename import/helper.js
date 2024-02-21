@@ -1,5 +1,4 @@
 const fs = require('fs');
-const stringify = require('@aitodotai/json-stringify-pretty-compact');
 const perfectJson = require('./perfectJson');
 const manualmap = require('./manualmap.js');
 

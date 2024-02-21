@@ -18,10 +18,16 @@ function perfectJson(item, options = {}, recursiveOptions = {}) {
       return 'null';
     }
     if (typeof item === 'string') {
-      return `${JSON.stringify(item)}`;
+      return JSON.stringify(item);
     }
     if (typeof item === 'boolean' || typeof item === 'number') {
       return `${item}`;
+    }
+    if (item instanceof Date) {
+      return JSON.stringify(item);
+    }
+    if (typeof item === 'bigint') {
+      return JSON.stringify(item);
     }
   
     const itemOpts = { key, value: item, path, items, depth, indent };

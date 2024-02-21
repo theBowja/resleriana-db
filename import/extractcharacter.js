@@ -12,6 +12,7 @@ const xbattletrait = helper.loadJSONMap('battle_tool_trait');
 const xequiptrait = helper.loadJSONMap('equipment_tool_trait');
 const xstatMap = helper.loadJSONMap('character_growth');
 const xgenderMap = helper.loadJSONMap('gender');
+const xcolorMap = helper.loadJSONMap('trait_color');
 
 function extract() {
 	return xchar.reduce((accum, charObj) => {
@@ -24,7 +25,7 @@ function extract() {
 		data.full_name = charObj.fullname;
 		data.base_character = xbasecharMap[charObj.base_character_id].name;
 		// data.overlayName = charObj.overlay_name;
-		if (charObj.overlay_name !== charObj.fullname) console.log(`char ${data.name} has a different overlay_name`);
+		// if (charObj.overlay_name !== charObj.fullname) console.log(`char ${data.name} has a different overlay_name`); // other languages have different overlay_name. idk what it's used for
 
 		data.is_alchemist = charObj.is_alchemist;
 		data.gender = xgenderMap[xbasecharMap[charObj.base_character_id].gender_id].name;
@@ -45,8 +46,8 @@ function extract() {
 		// series_id
 
 		data.gift_color = {
-			received: manualmap.colorMap[charObj.support_color_id],
-			given: manualmap.colorMap[charObj.trait_color_id]
+			received: xcolorMap[charObj.support_color_id].name,
+			given: xcolorMap[charObj.trait_color_id].name
 		};
 
 		data.traits = {
@@ -90,6 +91,8 @@ function extract() {
 		data.passive_2 = extractPassive(charObj.ability_ids[1]);
 		if (charObj.ability_ids[2]) console.log(`character ${data.name} has extra passive)`);
 		// data.passive1 = extractPassive(charObj.ability_ids[0]);
+
+		data.start_at = charObj.start_at;
 
 		accum.push(data);
 		return accum;

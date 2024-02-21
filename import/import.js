@@ -22,6 +22,7 @@ function parseMasterData() {
 		helper.setLang(lang);
 
 		runExtractor('./extractcharacter.js', 'parsed', 'character');
+		runExtractor('./extractmemoria.js', 'parsed', 'memoria');
 	}
 }
 

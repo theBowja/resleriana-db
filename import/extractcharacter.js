@@ -1,4 +1,5 @@
 const helper = require('./helper.js');
+const extracthelper = require('./extracthelper.js');
 const manualmap = require('./manualmap.js');
 
 const xchar = helper.loadJSON('character');
@@ -6,10 +7,7 @@ const xbasecharMap = helper.loadJSONMap('base_character')
 const xvoice = helper.loadJSON('voice_actor');
 const xtitle = helper.loadJSON('original_title');
 const xskillMap = helper.loadJSONMap('skill');
-const xeffectMap = helper.loadJSONMap('effect');
 const xabilityMap = helper.loadJSONMap('ability');
-const xbattletrait = helper.loadJSONMap('battle_tool_trait');
-const xequiptrait = helper.loadJSONMap('equipment_tool_trait');
 const xstatMap = helper.loadJSONMap('character_growth');
 const xgenderMap = helper.loadJSONMap('gender');
 const xcolorMap = helper.loadJSONMap('trait_color');
@@ -51,8 +49,8 @@ function extract() {
 		};
 
 		data.traits = {
-			battle_item: charObj.battle_tool_trait_ids.map(t => extractBattleItemTrait(t)),
-			equipment: charObj.equipment_tool_trait_ids.map(t => extractEquipmentTrait(t))
+			battle_item: charObj.battle_tool_trait_ids.map(t => extracthelper.extractBattleItemTrait(t)),
+			equipment: charObj.equipment_tool_trait_ids.map(t => extracthelper.extractEquipmentTrait(t))
 		};
 
 		data.stats = {};
@@ -99,54 +97,6 @@ function extract() {
 	}, []);
 }
 
-function extractBattleItemTrait(traitId) {
-	const data = {};
-
-	data.id = traitId;
-	data.name = xbattletrait[traitId].name;
-	data.category = manualmap.categoryMap[xbattletrait[traitId].category_id];
-
-	data.description = xbattletrait[traitId].description;
-	if (data.description === '') { // this means we only have one effect and should grab description from effect
-		if (xbattletrait[traitId].effects.length !== 1) console.log(`battle item trait ${data.name} has an unexpected amount of effects`);
-		data.description = xeffectMap[xbattletrait[traitId].effects[0].id].description;
-	}
-
-	data.effects = extractEffects(xbattletrait[traitId].effects);
-
-	return data;
-}
-
-function extractEquipmentTrait(traitId) {
-	const data = {};
-
-	data.id = traitId;
-	data.name = xequiptrait[traitId].name;
-	data.category = manualmap.categoryMap[xequiptrait[traitId].category_id];
-
-	const abilityObjs = xequiptrait[traitId].ability_ids.map(id => xabilityMap[id]);
-
-	data.description = abilityObjs[0].description;
-
-	const checkuniquedescription = new Set(abilityObjs.map(obj => obj.description));
-	if (checkuniquedescription.length > 1) console.log(`equipment trait ${data.name} has different ability description for different levels`);
-	const checkuniqueeffectid = new Set(abilityObjs.map(obj => JSON.stringify(obj.effects.map(e => e.id))));
-	if (checkuniqueeffectid.length > 1) console.log(`equipment trait ${data.name} has different effect ids for different levels`);
-
-	// combine the effect values into a single array to maintain consistency with battle item trait effect values
-	const effectData = abilityObjs[0].effects.map((e, i) => {
-		return {
-			id: e.id,
-			values: abilityObjs.map(a => a.effects[i].value)
-		}
-	});
-
-	data.effects = extractEffects(effectData);
-	if (data.effects.length > 1) console.log(data.effects);
-
-	return data;
-}
-
 function extractSkill(skillIds, isBurst) {
 	const skillObj = xskillMap[skillIds[0]];
 
@@ -162,7 +112,7 @@ function extractSkill(skillIds, isBurst) {
 	const checkuniqueeffects = new Set(skillIds.map(id => JSON.stringify(xskillMap[id].effects)));
 	if (checkuniqueeffects.length > 1) console.log(`skill ${data.name} has different skill effects for different levels`);
 
-	data.effects = extractEffects(skillObj.effects);
+	data.effects = extracthelper.extractEffects(skillObj.effects);
 
 	// Attribute
 	data.attribute_type = manualmap.attributeTypeMap[skillObj.attack_attribute_category];
@@ -197,22 +147,13 @@ function extractSkill(skillIds, isBurst) {
 	return data;
 }
 
-function extractEffects(effectData) {
-	return effectData.map(e => ({
-		id: e.id,
-		description: xeffectMap[e.id].description,
-		value: e.value,
-		values: e.values
-	}));
-}
-
 function extractPassive(abilityId) {
 	const data = {};
 
 	data.name = xabilityMap[abilityId].name;
 	data.description = xabilityMap[abilityId].description;
 
-	data.effects = extractEffects(xabilityMap[abilityId].effects);
+	data.effects = extracthelper.extractEffects(xabilityMap[abilityId].effects);
 
 	return data;
 }

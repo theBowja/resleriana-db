@@ -17,6 +17,25 @@ module.exports = {
 		8: 'AIR',
 	},
 
+	episodeMap: {
+		1: 'SCORE',
+		2: 'DUNGEON',
+		3: 'TOWER'
+	},
+
+	questTypeMap: {
+		1: 'BATTLE',
+		2: 'STORY',
+		3: 'DUNGEON',
+		4: 'EXPLORE'
+	},
+
+	difficultyMap: {
+		1: 'NORMAL',
+		2: 'HARD',
+		3: 'VERY_HARD'
+	},
+
 	targetMap: {
 		2: 'ALLY', // one
 		3: 'ENEMY', // one
@@ -36,11 +55,6 @@ module.exports = {
 		2: 'ENHANCE',
 		3: 'WEAKENING',
 		4: 'RECOVERY',
-	},
-
-	genderMap: {
-		1: 'MALE',
-		2: 'FEMALE',
 	},
 
 	roleMap: {
@@ -122,11 +136,6 @@ module.exports = {
 		2: 'ENHANCE',
 		3: 'WEAKENING',
 		4: 'RECOVERY',
-	},
-
-	genderMap: {
-		1: 'MALE',
-		2: 'FEMALE',
 	},
 
 	roleMap: {

@@ -346,7 +346,8 @@ function compileSearchResults(dataset, searchResults, options) {
 // const result = searchData('master', ['en'], ['character'], ['attack_attributes'], ['5'], { multiKeyLogic: 'AND' });
 // const result = searchData('master', ['en'], ['character'], ['attack_attributes', 'name'], ['5', 'resna'], { multiKeyLogic: 'OR' });
 // const result = searchData('master', ['en'], ['character'], ['name', 'attack_attributes'], ['resna', '5'], { multiKeyLogic: 'OR' });
-// console.log(result[1]);
+// const result = searchData('parsed', ['en'], ['character'], ['traits.equipment.name'], ['stun']);
+// console.log(result);
 // console.log((result || []).length);
 
 // "/character.traits.battle_item.category", "ATTACK"
@@ -385,13 +386,14 @@ function getNestedValues(init, dataObj, keys, level=0, currentKey=undefined, arr
 		currentKey = currentKey+'['+key+']';
 	} else {
 		currentKey = (currentKey ? currentKey+'.' : '')+key;
+		level++;
 	}
 
 	if (Array.isArray(subData)) {
-		return subData.flatMap((_d, i) => getNestedValues(init, subData, keys, level+1, currentKey, i));
+		return subData.flatMap((_d, i) => getNestedValues(init, subData, keys, level, currentKey, i));
 
 	} else if (typeof subData === 'object' && subData !== null) {
-		return getNestedValues(init, subData, keys, level+1, currentKey);
+		return getNestedValues(init, subData, keys, level, currentKey);
 
 	} else {
 		return {

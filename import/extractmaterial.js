@@ -31,9 +31,8 @@ function extract() {
         data.color = xcolorMap[obj.trait_color_id].name;
         data.description = obj.description;
 
-        data.traits = {};
-        data.traits.battle_item = obj.battle_tool_trait_ids.map(id => extracthelper.extractBattleItemTrait(id));
-        data.traits.equipment = obj.equipment_tool_trait_ids.map(id => extracthelper.extractEquipmentTrait(id));
+        data.battle_item_trait = obj.battle_tool_trait_ids.map(id => extracthelper.extractBattleItemTrait(id));
+        data.equipment_trait = obj.equipment_tool_trait_ids.map(id => extracthelper.extractEquipmentTrait(id));
 
         data.is_from_event = obj.event_id !== null;
         if (data.is_from_event) {
@@ -96,6 +95,9 @@ function extract() {
                 episode_name: xepisodeMap[qObj.episode_id].name
             }));
         }
+
+        data.image_small = `Ingredient_${data.id.toString().padStart(4, '0')}_S`;
+        data.image_medium = `Ingredient_${data.id.toString().padStart(4, '0')}_M`;
 
         data.start_at = obj.start_at;
         data.end_at = obj.end_at;

@@ -48,10 +48,8 @@ function extract() {
 			given: xcolorMap[charObj.trait_color_id].name
 		};
 
-		data.traits = {
-			battle_item: charObj.battle_tool_trait_ids.map(t => extracthelper.extractBattleItemTrait(t)),
-			equipment: charObj.equipment_tool_trait_ids.map(t => extracthelper.extractEquipmentTrait(t))
-		};
+		data.battle_item_trait = charObj.battle_tool_trait_ids.map(t => extracthelper.extractBattleItemTrait(t));
+		data.equipment_trait = charObj.equipment_tool_trait_ids.map(t => extracthelper.extractEquipmentTrait(t));
 
 		data.stats = {};
 		data.stats.base = {

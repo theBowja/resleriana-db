@@ -1,11 +1,15 @@
 const fs = require('fs');
-var JSONbig = require('json-bigint')({ storeAsString: true });
 
 const CATALOG_PATH = "C:/Program Files (x86)/Steam/steamapps/common/AtelierReslerianaGL/AtelierResleriana_Data/ABCache/content_catalogs/1708581545__gq4QN14Pa_CUofd_catalog.json";
 
 
 getImageResources(CATALOG_PATH, `./catalog_Resources.json`)
 
+/**
+ * Get the resource data of all Texture2D resources.
+ * @param {string} CATALOG_PATH 
+ * @param {string} outputPath 
+ */
 function getImageResources(CATALOG_PATH, outputPath) {
     const catalog = require(CATALOG_PATH);
 
@@ -158,7 +162,10 @@ function readObjectFromData(dataBuffer, offset) {
             const jsonText = dataBuffer.subarray(offset, offset+jsonLength).toString('utf16le');
             offset += jsonLength;
 
-            return { newOffset: offset, data: JSONbig.parse(jsonText) };
+            // if (JSON.stringify(JSON.parse(jsonText)) !== jsonText) {
+            //     console.log('bigint data detect. please use json-bigint package to parse json');
+            // }
+            return { newOffset: offset, data: JSON.parse(jsonText) };
         }
         default:
             console.log(`Unimplemented type ${type} for getKeys. Please see https://github.com/AssetRipper/AssetRipper/blob/master/Source/AssetRipper.Addressables/Serialization.cs ReadObjectFromData for implementation.`);

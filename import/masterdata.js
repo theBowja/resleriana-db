@@ -134,7 +134,7 @@ function unpackMasterData(md, lang, writePathHashes=false) {
 			if (writePathHashes) {
 				for (const obj of data) {
 					for (const [key, value] of Object.entries(obj)) {
-						if (key.endsWith('still_path_hash')) {
+						if (key.endsWith('still_path_hash') && value !== 0) {
 							pathHashes.add(value);
 						}
 					}

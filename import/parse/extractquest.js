@@ -1,5 +1,5 @@
-const helper = require('./helper.js');
-const manualmap = require('./manualmap.js');
+const helper = require('../helper.js');
+const manualmap = require('../manualmap.js');
 
 // const xchar = helper.loadJSON('character');
 const xquest = helper.loadJSON('quest');

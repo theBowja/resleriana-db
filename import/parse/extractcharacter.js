@@ -1,6 +1,6 @@
-const helper = require('./helper.js');
+const helper = require('../helper.js');
 const extracthelper = require('./extracthelper.js');
-const manualmap = require('./manualmap.js');
+const manualmap = require('../manualmap.js');
 
 const xchar = helper.loadJSON('character');
 const xbasecharMap = helper.loadJSONMap('base_character')

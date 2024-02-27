@@ -19,6 +19,15 @@ function getImageResources(CATALOG_PATH, outputPath) {
     const resources = getResources(catalog, keys, buckets, entries, ['Texture2D'], true, true);
     
     fs.writeFileSync(outputPath, JSON.stringify(resources, null, '\t'));
+
+    // generate list of bundle names
+    const bundleNames = new Set();
+    for (const resource of Object.values(resources)) {
+        for (const entry of resource) {
+            bundleNames.add(entry.filename);
+        }
+    }
+    fs.writeFileSync('./images/bundlenames_steam_all_texture2d.txt', Array.from(bundleNames).sort().join('\n'));
 }
 
 

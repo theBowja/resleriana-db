@@ -9,21 +9,29 @@ BigInt.prototype.toJSON = function() { return this.toString(); }
 
 module.exports = { extractMasterDataGl, extractMasterDataJp, extractMasterData };
 
-async function extractMasterDataGl() {
-    await extractMasterData('en');
-    await extractMasterData('zh_cn');
-    await extractMasterData('zh_tw');
+/**
+ * 
+ * @param {boolean} writePathHashes 
+ */
+async function extractMasterDataGl(writePathHashes=false) {
+    await extractMasterData('en', writePathHashes);
+    await extractMasterData('zh_cn', false);
+    await extractMasterData('zh_tw', false);
 }
 
-async function extractMasterDataJp() {
-    await extractMasterData('jp');
+/**
+ * 
+ * @param {boolean} writePathHashes 
+ */
+async function extractMasterDataJp(writePathHashes=false) {
+    await extractMasterData('jp', writePathHashes);
 }
 
-async function extractMasterData(lang) {
+async function extractMasterData(lang, writePathHashes=false) {
 	const masterdata = await downloadMasterData(lang);
     const decrypted = decryptMasterData(masterdata, await getMasterDataVersion(lang));
 
-	unpackMasterData(decrypted, lang);
+	unpackMasterData(decrypted, lang, writePathHashes);
 }
 
 
@@ -94,7 +102,7 @@ function decryptMasterData(masterdata, version) {
  * 
  * @param {Buffer} md 
  */
-function unpackMasterData(md, lang) {
+function unpackMasterData(md, lang, writePathHashes=false) {
     fs.mkdirSync(`../data/master/${lang}`, { recursive: true });
 
 	const msgpack = new msgpackr.Unpackr({ useRecords: false, mapsAsObjects: true })
@@ -106,6 +114,7 @@ function unpackMasterData(md, lang) {
 	// let catalog; // catalog is stored as a map of filenames => [offset, size]
 	// let catalogOffset;
 	let filenames;
+	let pathHashes = new Set();
 	msgpack.unpackMultiple(md, (data, start, end) => {
 		if (filenames === undefined) {
 			// catalog = data;
@@ -121,8 +130,23 @@ function unpackMasterData(md, lang) {
 			// }
 
 			fs.writeFileSync(`../data/master/${lang}/${filename}.json`, output);
+
+			if (writePathHashes) {
+				for (const obj of data) {
+					for (const [key, value] of Object.entries(obj)) {
+						if (key.endsWith('still_path_hash')) {
+							pathHashes.add(value);
+						}
+					}
+				}
+			}
 		}
 	});
+
+	if (writePathHashes) {
+		fs.mkdirSync(`./images`, { recursive: true });
+		fs.writeFileSync(`./images/still_path_hash_${lang}.txt`, Array.from(pathHashes).sort().join('\n'));
+	}
 }
 
 /**

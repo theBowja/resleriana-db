@@ -1,5 +1,5 @@
-const helper = require('./helper.js');
-const manualmap = require('./manualmap.js');
+const helper = require('../helper.js');
+const manualmap = require('../manualmap.js');
 
 const xeffectMap = helper.loadJSONMap('effect');
 const xbattletrait = helper.loadJSONMap('battle_tool_trait');

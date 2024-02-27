@@ -11,6 +11,8 @@ async function extractReslerianaData() {
 	// await masterdata.extractMasterData('en');
 	// await masterdata.extractMasterDataGl();
 	// await masterdata.extractMasterDataJp();
+	await masterdata.extractMasterDataGl(true);
+	await masterdata.extractMasterDataJp(true);
 
 	// parseMasterData();
 

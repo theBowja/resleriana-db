@@ -1,24 +1,42 @@
 const fs = require('fs');
+const https = require('https');
+const config = require('./config.json');
 
 const CATALOG_PATH = "C:/Program Files (x86)/Steam/steamapps/common/AtelierReslerianaGL/AtelierResleriana_Data/ABCache/content_catalogs/1708581545__gq4QN14Pa_CUofd_catalog.json";
 
 
-getImageResources(CATALOG_PATH, `./catalog_Resources.json`)
+// getImageResourcesSteam(CATALOG_PATH);
+getImageResourcesAndroid(config.fileassets_version.GL, `./images/still_path_hash_en.txt`);
+
+
+function getImageResourcesSteam(CATALOG_PATH) {
+    const catalogData = require(CATALOG_PATH);
+    getImageResources(catalogData, 'Steam', ['Texture2D']);
+}
+
+async function getImageResourcesAndroid(version, filterPath=undefined) {
+    const catalogJSON = await downloadCatalog(version, 'Android');
+    let filterLabels = undefined;
+    if (filterPath) filterLabels = fs.readFileSync(filterPath).toString().split('\n');
+
+    
+    getImageResources(catalogJSON, 'Android', ['Texture2D'], filterLabels);
+}
 
 /**
  * Get the resource data of all Texture2D resources.
- * @param {string} CATALOG_PATH 
- * @param {string} outputPath 
+ * @param {string} catalogJSON
+ * @param {string} platform 
+ * @param {string[]} filterResourceTypes array of unity resource types to filter on
+ * @param {string[]} filterLabels array of path hashes from the masterdata
  */
-function getImageResources(CATALOG_PATH, outputPath) {
-    const catalog = require(CATALOG_PATH);
-
-    const keys = getKeys(catalog);
-    const buckets = getBuckets(catalog);
-    const entries = getEntries(catalog, keys);
-    const resources = getResources(catalog, keys, buckets, entries, ['Texture2D'], true, true);
+function getImageResources(catalogJSON, platform='Steam', filterResourceTypes=['Texture2D'], filterLabels=undefined) {
+    const keys = getKeys(catalogJSON);
+    const buckets = getBuckets(catalogJSON);
+    const entries = getEntries(catalogJSON, keys);
+    const resources = getResources(catalogJSON, keys, buckets, entries, platform, filterResourceTypes, filterLabels, true, true);
     
-    fs.writeFileSync(outputPath, JSON.stringify(resources, null, '\t'));
+    // fs.writeFileSync(outputPath, JSON.stringify(resources, null, '\t'));
 
     // generate list of bundle names
     const bundleNames = new Set();
@@ -27,10 +45,52 @@ function getImageResources(CATALOG_PATH, outputPath) {
             bundleNames.add(entry.filename);
         }
     }
-    fs.writeFileSync('./images/bundlenames_steam_all_texture2d.txt', Array.from(bundleNames).sort().join('\n'));
+
+    const filterString = filterResourceTypes.map(s => s.toLowerCase()).sort().join();
+    const subset = filterLabels ? 'filtered' : 'all';
+    fs.writeFileSync(`./images/bundlenames_${platform.toLowerCase()}_${subset}_${filterString}.txt`, Array.from(bundleNames).sort().join('\n'));
+
+    if (filterLabels) {
+        const pathHashContainerMap = {};
+        for (const label of filterLabels) {
+            if (!resources[label]) {
+                console.log(`resources is missing ${label}`);
+                continue;
+            } else if (pathHashContainerMap[resources[label][0].container]) {
+                console.log(`path_hash has duplicated containers ${resources[label][0].container}`);
+                continue;
+            }
+
+            pathHashContainerMap[resources[label][0].container] = label;
+        }
+
+        fs.writeFileSync(`./images/container_to_path_hash.json`, JSON.stringify(pathHashContainerMap, null, '\t'));
+    }
 }
 
+async function downloadCatalog(version, platform) {
+    const url = `https://asset.resleriana.com/asset/${version}/${platform}/catalog.json`;
+    return JSON.parse(await sendHttpRequest(url));
+}
 
+function sendHttpRequest(url) {
+	return new Promise((resolve, reject) => {
+		https.get(url, (response) => {
+			if (response.statusCode !== 200) {
+				reject(new Error(`Error fetching data: ${url}`));
+				return;
+			}
+	
+			let data = [];
+			response.on('data', (chunk) => {
+				data.push(chunk);
+			});
+			response.on('end', () => {
+				resolve(Buffer.concat(data));
+			});
+	  	}).on('error', reject);
+	});
+}
 
 /**
  * Deserializes m_KeyDataString
@@ -193,8 +253,10 @@ function readObjectFromData(dataBuffer, offset) {
  * @param {boolean} addFileName adds the encrypted steam asset's file name to each resource data. it's just `_bundleName+'_'+_hash`.
  * @returns 
  */
-function getResources(catalog, keys, buckets, entries, filterResourceTypes=undefined, bundlesOnly=false, addFileName=false) {
+function getResources(catalog, keys, buckets, entries, platform='Steam', filterResourceTypes=undefined, filterLabels=undefined, bundlesOnly=false, addFileName=false) {
     const result = {};
+
+    if (filterLabels) filterLabels = new Set(filterLabels);
 
     // convert filterResourceTypes to index
     if (filterResourceTypes) {
@@ -220,11 +282,17 @@ function getResources(catalog, keys, buckets, entries, filterResourceTypes=undef
                     canAdd = false;
                 } else if (bundlesOnly && (!entry.dependencyKey || !pathBundleMap[entry.dependencyKey])) {
                     canAdd = false;
+                } else if (filterLabels && !filterLabels.has(entry.primary)) {
+                    canAdd = false;
                 }
 
                 if (canAdd) {
                     if (addFileName && pathBundleMap[entry.dependencyKey]) {
-                        entry.filename = `${pathBundleMap[entry.dependencyKey]._bundleName}_${pathBundleMap[entry.dependencyKey]._hash}`;
+                        if (platform === 'Steam') {
+                            entry.filename = `${pathBundleMap[entry.dependencyKey]._bundleName}_${pathBundleMap[entry.dependencyKey]._hash}`;
+                        } else if (platform === 'Android') {
+                            entry.filename = `${pathBundleMap[entry.dependencyKey]._relativePath}`;
+                        }
                     }
 
                     locations.push(entry);

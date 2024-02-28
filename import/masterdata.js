@@ -42,14 +42,14 @@ async function downloadMasterData(lang) {
 
 async function getMasterDataVersion(lang) {
     if (lang === 'jp') {
-        if (!config.version.jp) {
+        if (!config.masterdata_version.jp) {
             const response = await sendHttpRequest('https://gacha.lukefz.xyz/atelier/version');
             if (response) return JSON.parse(response).masterDataVersion;
             throw new Error('no masterdata version provided for jp');
         }
-        return config.version.jp;
+        return config.masterdata_version.jp;
     } else {
-        return config.version.GL;
+        return config.masterdata_version.GL;
     }
 }
 

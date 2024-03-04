@@ -9,8 +9,6 @@ extractReslerianaData();
 
 async function extractReslerianaData() {
 	// await masterdata.extractMasterData('en');
-	// await masterdata.extractMasterDataGl();
-	// await masterdata.extractMasterDataJp();
 	await masterdata.extractMasterDataGl(true);
 	await masterdata.extractMasterDataJp(true);
 
@@ -23,8 +21,10 @@ function parseMasterData() {
 	for (const lang of config.languages) {
 		helper.setLang(lang);
 
-		runExtractor('./extractcharacter.js', 'parsed', 'character');
-		runExtractor('./extractmemoria.js', 'parsed', 'memoria');
+		// runExtractor('./parse/extractcharacter.js', 'parsed', 'character');
+		// runExtractor('./parse/extractmemoria.js', 'parsed', 'memoria');
+		// runExtractor('./parse/extractquest.js', 'parsed', 'quest');
+		// runExtractor('./parse/extractmaterial.js', 'parsed', 'material');
 	}
 }
 

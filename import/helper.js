@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const perfectJson = require('./perfectJson');
 const manualmap = require('./manualmap.js');
 
@@ -51,7 +52,7 @@ function loadJSONMap(file, id='id') {
  * @param folder {string} name of file to write
  */
 function writeData(data, dataset, folder) {
-	fs.mkdirSync(`../data/${dataset}/${meta.lang}`, { recursive: true });
+	fs.mkdirSync(path.resolve(__dirname, `../data/${dataset}/${meta.lang}`), { recursive: true });
 
 	const output = perfectJson(data, { singleLine: ({ value }) => Array.isArray(value) && typeof value[0] === 'number', compact: false })
 
@@ -60,7 +61,7 @@ function writeData(data, dataset, folder) {
 		console.log(`perfectJson is not perfectly converting data`);
 	}
 
-	fs.writeFileSync(`../data/${dataset}/${meta.lang}/${folder}.json`, output);
+	fs.writeFileSync(path.resolve(__dirname, `../data/${dataset}/${meta.lang}/${folder}.json`), output);
 }
 
 /**

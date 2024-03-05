@@ -1,11 +1,6 @@
 const helper = require('../helper.js');
 const manualmap = require('../manualmap.js');
 
-const xeffectMap = helper.loadJSONMap('effect');
-const xbattletrait = helper.loadJSONMap('battle_tool_trait');
-const xequiptrait = helper.loadJSONMap('equipment_tool_trait');
-const xabilityMap = helper.loadJSONMap('ability');
-
 module.exports = {
     extractBattleItemTrait,
     extractEquipmentTrait,
@@ -13,6 +8,9 @@ module.exports = {
 }
 
 function extractBattleItemTrait(traitId) {
+	const xeffectMap = helper.loadJSONMap('effect');
+	const xbattletrait = helper.loadJSONMap('battle_tool_trait');
+
 	const data = {};
 
 	data.id = traitId;
@@ -31,6 +29,8 @@ function extractBattleItemTrait(traitId) {
 }
 
 function extractEffects(effectData) {
+	const xeffectMap = helper.loadJSONMap('effect');
+	
 	return effectData.map(e => ({
 		id: e.id,
 		description: xeffectMap[e.id].description,
@@ -40,6 +40,9 @@ function extractEffects(effectData) {
 }
 
 function extractEquipmentTrait(traitId) {
+	const xequiptrait = helper.loadJSONMap('equipment_tool_trait');
+	const xabilityMap = helper.loadJSONMap('ability');
+
 	const data = {};
 
 	data.id = traitId;

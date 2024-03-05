@@ -1,22 +1,15 @@
 const helper = require('../helper.js');
 // const manualmap = require('./manualmap.js');
 
-// const xchar = helper.loadJSON('character');
-const xmemoria = helper.loadJSON('memoria');
-const xmemoriaGrow = helper.loadJSONMap('memoria_buff_growth');
-// const xbasecharMap = helper.loadJSONMap('base_character')
-// const xvoice = helper.loadJSON('voice_actor');
-// const xtitle = helper.loadJSON('original_title');
-// const xskillMap = helper.loadJSONMap('skill');
-const xeffectMap = helper.loadJSONMap('effect');
-const xabilityMap = helper.loadJSONMap('ability');
-// const xbattletrait = helper.loadJSONMap('battle_tool_trait');
-// const xequiptrait = helper.loadJSONMap('equipment_tool_trait');
-// const xstatMap = helper.loadJSONMap('character_growth');
-// const xgenderMap = helper.loadJSONMap('gender');
+module.exports = extract;
 
 function extract() {
-	return xmemoria.reduce((accum, memObj) => {
+    const xmemoria = helper.loadJSON('memoria');
+    const xmemoriaGrow = helper.loadJSONMap('memoria_buff_growth');
+    const xeffectMap = helper.loadJSONMap('effect');
+    const xabilityMap = helper.loadJSONMap('ability');
+
+    return xmemoria.reduce((accum, memObj) => {
         const data = {};
 
         data.id = memObj.id;
@@ -45,6 +38,8 @@ function extract() {
 }
 
 function extractAbility(abilityIds, debugName) {
+    const xabilityMap = helper.loadJSONMap('ability');
+
     const data = {};
     data.id = abilityIds[0];
 
@@ -69,6 +64,8 @@ function extractAbility(abilityIds, debugName) {
 }
 
 function extractEffects(effectData) {
+    const xeffectMap = helper.loadJSONMap('effect');
+
 	return effectData.map(e => ({
 		id: e.id,
         name: xeffectMap[e.id].name,
@@ -77,5 +74,3 @@ function extractEffects(effectData) {
 		values: e.values
 	}));
 }
-
-module.exports = extract;

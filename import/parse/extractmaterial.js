@@ -2,24 +2,17 @@ const helper = require('../helper.js');
 const extracthelper = require('./extracthelper.js');
 const manualmap = require('../manualmap.js');
 
-// const xchar = helper.loadJSON('character');
-const xitem = helper.loadJSON('item');
-const xepisodeMap = helper.loadJSONMap('episode');
-// const xbasecharMap = helper.loadJSONMap('base_character')
-// const xvoice = helper.loadJSON('voice_actor');
-// const xtitle = helper.loadJSON('original_title');
-// const xskillMap = helper.loadJSONMap('skill');
-// const xbattletrait = helper.loadJSONMap('battle_tool_trait');
-// const xequiptrait = helper.loadJSONMap('equipment_tool_trait');
-// const xstatMap = helper.loadJSONMap('character_growth');
-// const xgenderMap = helper.loadJSONMap('gender');
-const xcolorMap = helper.loadJSONMap('trait_color');
-const xquest = helper.loadJSON('quest');
-const xeventMap = helper.loadJSONMap('event');
-const xrewardSetMap = helper.loadJSONMap('reward_set');
-const xdropRewardSetMap = helper.loadJSONMap('drop_reward_set');
+module.exports = extract;
 
 function extract() {
+    const xitem = helper.loadJSON('item');
+    const xepisodeMap = helper.loadJSONMap('episode');
+    const xcolorMap = helper.loadJSONMap('trait_color');
+    const xquest = helper.loadJSON('quest');
+    const xeventMap = helper.loadJSONMap('event');
+    const xrewardSetMap = helper.loadJSONMap('reward_set');
+    const xdropRewardSetMap = helper.loadJSONMap('drop_reward_set');
+
 	return xitem.reduce((accum, obj) => {
         if (obj.item_type !== 1) return accum;
 
@@ -113,5 +106,3 @@ function extract() {
         return accum;
     }, []);
 }
-
-module.exports = extract;

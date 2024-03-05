@@ -2,17 +2,17 @@ const helper = require('../helper.js');
 const extracthelper = require('./extracthelper.js');
 const manualmap = require('../manualmap.js');
 
-const xchar = helper.loadJSON('character');
-const xbasecharMap = helper.loadJSONMap('base_character')
-const xvoice = helper.loadJSON('voice_actor');
-const xtitle = helper.loadJSON('original_title');
-const xskillMap = helper.loadJSONMap('skill');
-const xabilityMap = helper.loadJSONMap('ability');
-const xstatMap = helper.loadJSONMap('character_growth');
-const xgenderMap = helper.loadJSONMap('gender');
-const xcolorMap = helper.loadJSONMap('trait_color');
+module.exports = extract;
 
 function extract() {
+	const xchar = helper.loadJSON('character');
+	const xbasecharMap = helper.loadJSONMap('base_character')
+	const xvoice = helper.loadJSON('voice_actor');
+	const xtitle = helper.loadJSON('original_title');
+	const xstatMap = helper.loadJSONMap('character_growth');
+	const xgenderMap = helper.loadJSONMap('gender');
+	const xcolorMap = helper.loadJSONMap('trait_color');
+
 	return xchar.reduce((accum, charObj) => {
 		const data = {};
 
@@ -96,6 +96,8 @@ function extract() {
 }
 
 function extractSkill(skillIds, isBurst) {
+	const xskillMap = helper.loadJSONMap('skill');
+
 	const skillObj = xskillMap[skillIds[0]];
 
 	const data = {};
@@ -146,6 +148,8 @@ function extractSkill(skillIds, isBurst) {
 }
 
 function extractPassive(abilityId) {
+	const xabilityMap = helper.loadJSONMap('ability');
+	
 	const data = {};
 
 	data.name = xabilityMap[abilityId].name;
@@ -155,5 +159,3 @@ function extractPassive(abilityId) {
 
 	return data;
 }
-
-module.exports = extract;

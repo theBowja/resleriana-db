@@ -51,18 +51,17 @@ function parseMasterData(languages=config.languages) {
 	for (const lang of languages) {
 		helper.setLang(lang);
 
-		runExtractor('./parse/extractcharacter.js', 'parsed', 'character');
-		runExtractor('./parse/extractmemoria.js', 'parsed', 'memoria');
+		runExtractor('./parse/extractcharacter.js', lang, 'parsed', 'character');
+		runExtractor('./parse/extractmemoria.js', lang, 'parsed', 'memoria');
 		// runExtractor('./parse/extractquest.js', 'parsed', 'quest');
-		runExtractor('./parse/extractmaterial.js', 'parsed', 'material');
+		runExtractor('./parse/extractmaterial.js', lang, 'parsed', 'material');
 	}
 }
 
-function runExtractor(extractor, dataset, file) {
+function runExtractor(extractor, language, dataset, file) {
 	try {
 		const extract = require(extractor);
-		delete require.cache[require.resolve(extractor)]; // delete the require cache because im dumb
-		helper.writeData(extract(), dataset, file);
+		helper.writeData(extract(language), dataset, file);
 	} catch (e) {
 		if (e instanceof helper.DataNotFoundError) {
 			console.log(e.message);

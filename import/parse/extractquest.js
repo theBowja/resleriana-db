@@ -1,21 +1,12 @@
 const helper = require('../helper.js');
 const manualmap = require('../manualmap.js');
 
-// const xchar = helper.loadJSON('character');
-const xquest = helper.loadJSON('quest');
-const xepisodeMap = helper.loadJSONMap('episode');
-// const xbasecharMap = helper.loadJSONMap('base_character')
-// const xvoice = helper.loadJSON('voice_actor');
-// const xtitle = helper.loadJSON('original_title');
-// const xskillMap = helper.loadJSONMap('skill');
-const xeffectMap = helper.loadJSONMap('effect');
-const xabilityMap = helper.loadJSONMap('ability');
-// const xbattletrait = helper.loadJSONMap('battle_tool_trait');
-// const xequiptrait = helper.loadJSONMap('equipment_tool_trait');
-// const xstatMap = helper.loadJSONMap('character_growth');
-// const xgenderMap = helper.loadJSONMap('gender');
+module.exports = extract;
 
 function extract() {
+    const xquest = helper.loadJSON('quest');
+    const xepisodeMap = helper.loadJSONMap('episode');
+
 	return xquest.reduce((accum, obj) => {
         const data = {};
 
@@ -50,5 +41,3 @@ function extract() {
         return accum;
     }, []);
 }
-
-module.exports = extract;

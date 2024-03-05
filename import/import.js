@@ -42,7 +42,12 @@ async function extractReslerianaDataAll() {
 	}
 }
 
-function parseMasterData(languages) {
+/**
+ * 
+ * @param {string|string[]} languages 
+ */
+function parseMasterData(languages=config.languages) {
+	if (!Array.isArray(languages)) languages = [languages];
 	for (const lang of languages) {
 		helper.setLang(lang);
 

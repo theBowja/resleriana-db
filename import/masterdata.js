@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const https = require('https');
 const msgpackr = require('msgpackr');
 const lz4 = require('lz4');
@@ -7,57 +8,55 @@ const config = require('./config.json');
 const perfectJson = require('./perfectJson');
 BigInt.prototype.toJSON = function() { return this.toString(); }
 
-module.exports = { extractMasterDataGl, extractMasterDataJp, extractMasterData };
+module.exports = { extractMasterData };
 
 /**
  * 
+ * @param {string} server 
+ * @param {string} lang 
  * @param {boolean} writePathHashes 
+ * @returns 
  */
-async function extractMasterDataGl(writePathHashes=false) {
-    await extractMasterData('en', writePathHashes);
-    await extractMasterData('zh_cn', false);
-    await extractMasterData('zh_tw', false);
+async function extractMasterData(server, language, writePathHashes=false) {
+    if (!config.servers.includes(server) || !config.languages.includes(language)) {
+        console.log(`Invalid server ${server} or language ${language} provided to extractMasterData().`);
+        return;
+    }
+
+	const masterdata = await downloadMasterData(language);
+    const decrypted = decryptMasterData(masterdata, getMasterDataVersion(language));
+
+	unpackMasterData(decrypted, server, language, writePathHashes);
 }
 
 /**
  * 
- * @param {boolean} writePathHashes 
+ * @param {string} lang 
+ * @returns {Buffer}
  */
-async function extractMasterDataJp(writePathHashes=false) {
-    await extractMasterData('jp', writePathHashes);
-}
-
-async function extractMasterData(lang, writePathHashes=false) {
-	const masterdata = await downloadMasterData(lang);
-    const decrypted = decryptMasterData(masterdata, await getMasterDataVersion(lang));
-
-	unpackMasterData(decrypted, lang, writePathHashes);
-}
-
-
 async function downloadMasterData(lang) {
-    const url = await getMasterDataUrl(lang);
+    const url = getMasterDataUrl(lang);
 	return await sendHttpRequest(url);
 }
 
-async function getMasterDataVersion(lang) {
+/**
+ * 
+ * @param {string} lang 
+ * @returns {string}
+ */
+function getMasterDataVersion(lang) {
     if (lang === 'jp') {
-        if (!config.masterdata_version.jp) {
-            const response = await sendHttpRequest('https://gacha.lukefz.xyz/atelier/version');
-            if (response) return JSON.parse(response).masterDataVersion;
-            throw new Error('no masterdata version provided for jp');
-        }
         return config.masterdata_version.jp;
     } else {
         return config.masterdata_version.GL;
     }
 }
 
-async function getMasterDataUrl(lang) {
+function getMasterDataUrl(lang) {
     if (lang === 'jp') {
-        return `https://asset.resleriana.jp/master_data/${await getMasterDataVersion(lang)}`;
+        return `https://asset.resleriana.jp/master_data/${getMasterDataVersion(lang)}`;
     } else {
-        return `https://asset.resleriana.com/master_data/${lang}/${await getMasterDataVersion(lang)}`;
+        return `https://asset.resleriana.com/master_data/${lang}/${getMasterDataVersion(lang)}`;
     }
 }
 
@@ -82,10 +81,10 @@ function sendHttpRequest(url) {
 }
 
 /**
- * 
- * @param {*} input 
- * @param {*} version 
- * @returns 
+ * Decrypts the masterdata file.
+ * @param {Buffer} masterdata 
+ * @param {string} version 
+ * @returns {Buffer}
  */
 function decryptMasterData(masterdata, version) {
 	const hash = crypto.createHash('sha256').update(`wTmkW6hwnA6HXnItdXjZp/BSOdPuh2L9QzdM3bx1e54=${version}`).digest();
@@ -99,11 +98,11 @@ function decryptMasterData(masterdata, version) {
 }
 
 /**
- * 
+ * Deserializes the decrypted masterdata into a JSON object and writes it to file.
  * @param {Buffer} md 
  */
-function unpackMasterData(md, lang, writePathHashes=false) {
-    fs.mkdirSync(`../data/master/${lang}`, { recursive: true });
+function unpackMasterData(md, server, lang, writePathHashes=false) {
+    fs.mkdirSync(path.resolve(__dirname, `../data/master/${lang}`), { recursive: true });
 
 	const msgpack = new msgpackr.Unpackr({ useRecords: false, mapsAsObjects: true })
 	msgpackr.addExtension({
@@ -129,7 +128,7 @@ function unpackMasterData(md, lang, writePathHashes=false) {
 			// 	console.log(`perfectJson is not perfectly converting data`);
 			// }
 
-			fs.writeFileSync(`../data/master/${lang}/${filename}.json`, output);
+			fs.writeFileSync(path.resolve(__dirname, `../data/master/${lang}/${filename}.json`), output);
 
 			if (writePathHashes) {
 				for (const obj of data) {
@@ -144,8 +143,8 @@ function unpackMasterData(md, lang, writePathHashes=false) {
 	});
 
 	if (writePathHashes) {
-		fs.mkdirSync(`./images`, { recursive: true });
-		fs.writeFileSync(`./images/still_path_hash_${lang}.txt`, Array.from(pathHashes).sort().join('\n'));
+		fs.mkdirSync(path.resolve(__dirname, `./images`), { recursive: true });
+		fs.writeFileSync(path.resolve(__dirname, `./images/still_path_hash_${server}.txt`), Array.from(pathHashes).sort().join('\n'));
 	}
 }
 

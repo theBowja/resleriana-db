@@ -8,25 +8,25 @@ const fs = require('fs');
 //   array: [ 'folders', 'languages' ],
 //   default: { folders: ['standard'], languages: ['all'], filename: 'genshindb.js', outdir: 'dist', libraryname: 'GenshinDb' }
 // });
+const importer = require('../import/import.js');
 
 const autoconfig = require('./config.json');
 const importconfig = require('../import/config.json');
 
-const serverEnum = {
-    GL: 'GL',
-    jp: 'jp'
-};
+main();
 
-checkMasterdata(serverEnum.GL);
-// checkMasterdata(serverEnum.jp);
-
-// checkFileassets(serverEnum.GL);
-// checkFileassets(serverEnum.jp);
+async function main() {
+    await checkMasterdata('GL');
+    await checkMasterdata('jp');
+    
+    await checkFileassets('GL');
+    await checkFileassets('jp');
+}
 
 // masterdata_version
-function checkMasterdata(server) {
-    if (!Object.values(serverEnum).includes(server)) {
-        console.log(`Invalid server ${server} provided to checkMasterdata(). Must be one of: ${Object.values(serverEnum).join(', ')}.`);
+async function checkMasterdata(server) {
+    if (!importconfig.servers.includes(server)) {
+        console.log(`Invalid server ${server} provided to checkMasterdata(). Must be one of: ${importconfig.servers.join(', ')}.`);
         return;
     }
 
@@ -35,7 +35,7 @@ function checkMasterdata(server) {
     }
 
     try {
-
+        await importer.extractReslerianaData(server);
 
         autoconfig.masterdata_version[server] = importconfig.masterdata_version[server];
         autoconfig.masterdata_version[`${server}_update_time`] = new Date().toUTCString();
@@ -45,9 +45,9 @@ function checkMasterdata(server) {
     }
 }
 
-function checkFileassets(server) {
-    if (!Object.values(serverEnum).includes(server)) {
-        console.log(`Invalid server ${server} provided to checkFileassets(). Must be one of: ${Object.values(serverEnum).join(', ')}.`);
+async function checkFileassets(server) {
+    if (!importconfig.servers.includes(server)) {
+        console.log(`Invalid server ${server} provided to checkFileassets(). Must be one of: ${importconfig.servers.join(', ')}.`);
         return;
     }
 

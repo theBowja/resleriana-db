@@ -72,10 +72,14 @@ function runExtractor(extractor, dataset, file) {
 	}
 }
 
+/**
+ * 
+ * @param {string[]} languages 
+ */
 function updateFileList(languages=config.languages) {
-	const files = {};
+	const files = require('../data/files.json');
 	for (const dataset of ['master', 'parsed']) {
-		files[dataset] = {};
+		if (!files[dataset]) files[dataset] = {};
 		for (const language of languages) {
 			if (fs.existsSync(path.resolve(__dirname, `../data/${dataset}/${language}`))) {
 				files[dataset][language] = fs.readdirSync(path.resolve(__dirname, `../data/${dataset}/${language}`), { withFileTypes: true })
@@ -85,6 +89,5 @@ function updateFileList(languages=config.languages) {
 		}
 	}
 
-	fs.mkdirSync(path.resolve(__dirname, `../data`), { recursive: true });
 	fs.writeFileSync(path.resolve(__dirname, `../data/files.json`), JSON.stringify(files, null, '\t'));
 }

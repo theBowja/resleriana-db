@@ -32,6 +32,7 @@ async function checkMasterdata(server) {
 
     if (autoconfig.masterdata_version[server] === importconfig.masterdata_version[server]) {
         console.log(`No update needed for masterdata_version ${server}`);
+        return;
     }
 
     try {
@@ -55,6 +56,7 @@ async function checkFileassets(server) {
 
     if (autoconfig.fileassets_version[server] === importconfig.fileassets_version[server]) {
         console.log(`No update needed for checkFileassets ${server}`);
+        return;
     }
 
     try {

@@ -16,11 +16,11 @@ const importconfig = require('../import/config.json');
 main();
 
 async function main() {
-    await checkMasterdata('GL');
-    await checkMasterdata('jp');
+    // await checkMasterdata('Global');
+    // await checkMasterdata('Japan');
     
-    await checkFileassets('GL');
-    await checkFileassets('jp');
+    await checkFileassets('Global');
+    // await checkFileassets('Japan');
 }
 
 // masterdata_version

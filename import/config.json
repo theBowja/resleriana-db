@@ -1,17 +1,19 @@
 {
-    "servers": [ "GL", "jp" ],
+    "servers": [ "Global", "Japan" ],
     "languages": [ "en", "jp", "zh_cn", "zh_tw" ],
-    "masterdata_version": {
-        "GL": "1708657200_pdQFCwAGXw0VvQAs",
-        "jp": "1709001682_27i5R9sx5vH9QL4j"
     "serverToLanguage": {
-        "GL": [ "en", "zh_cn", "zh_tw"],
-        "jp": [ "jp" ]
+        "Global": [ "en"],
+        "Japan": [ "jp" ]
     },
 
-    "platforms": ["Android", "iOS"],
+    "platforms": ["StandaloneWindows64", "Android", "iOS"],
+
+    "masterdata_version": {
+        "Global": "1708657200_pdQFCwAGXw0VvQAs",
+        "Japan": "1709001682_27i5R9sx5vH9QL4j"
+    },
     "fileassets_version": {
-        "GL": "1708581545__gq4QN14Pa_CUofd",
-        "jp": null
+        "Global": "1708581545__gq4QN14Pa_CUofd",
+        "Japan": null
     }
 }

@@ -46,9 +46,9 @@ async function downloadMasterData(lang) {
  */
 function getMasterDataVersion(lang) {
     if (lang === 'jp') {
-        return config.masterdata_version.jp;
+        return config.masterdata_version.Japan;
     } else {
-        return config.masterdata_version.GL;
+        return config.masterdata_version.Global;
     }
 }
 
@@ -100,6 +100,9 @@ function decryptMasterData(masterdata, version) {
 /**
  * Deserializes the decrypted masterdata into a JSON object and writes it to file.
  * @param {Buffer} md 
+ * @param {string} server
+ * @param {string} lang
+ * @param {boolean} writePathHashes
  */
 function unpackMasterData(md, server, lang, writePathHashes=false) {
     fs.mkdirSync(path.resolve(__dirname, `../data/master/${lang}`), { recursive: true });
@@ -144,7 +147,7 @@ function unpackMasterData(md, server, lang, writePathHashes=false) {
 
 	if (writePathHashes) {
 		fs.mkdirSync(path.resolve(__dirname, `./images`), { recursive: true });
-		fs.writeFileSync(path.resolve(__dirname, `./images/still_path_hash_${server}.txt`), Array.from(pathHashes).sort().join('\n'));
+		fs.writeFileSync(path.resolve(__dirname, `./images/still_path_hash_${server.toLowerCase()}.txt`), Array.from(pathHashes).sort().join('\n'));
 	}
 }
 

@@ -6,10 +6,10 @@ const config = require('./config.json');
 // const bundleNames = fs.readFileSync('./images/still_path_hash_en.txt').toString().split('\n').join(',');
 
 
-// const exePath = `./AtelierTool.exe download-bundles -o ./tmp ${config.fileassets_version.GL} -b ${bundleNames}`;
+// const exePath = `./AtelierTool.exe download-bundles -o ./tmp ${config.fileassets_version.Global} -b ${bundleNames}`;
 const exePath = `../tools/AtelierToolBundleDownload/AtelierTool.exe`;
 const args = [
-    'download-bundles', config.fileassets_version.GL,
+    'download-bundles', config.fileassets_version.Global,
     '--platform', 'StandaloneWindows64',
     '--server', 'Global',
     '--output', './tmp',

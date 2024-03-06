@@ -6,7 +6,7 @@ const CATALOG_PATH = "C:/Program Files (x86)/Steam/steamapps/common/AtelierResle
 
 
 // getImageResourcesSteam(CATALOG_PATH);
-getImageResourcesAndroid(config.fileassets_version.GL, `./images/still_path_hash_en.txt`);
+getImageResourcesAndroid(config.fileassets_version.Global, `./images/still_path_hash_global.txt`);
 
 
 function getImageResourcesSteam(CATALOG_PATH) {
@@ -30,7 +30,7 @@ async function getImageResourcesAndroid(version, filterPath=undefined) {
  * @param {string[]} filterResourceTypes array of unity resource types to filter on
  * @param {string[]} filterLabels array of path hashes from the masterdata
  */
-function getImageResources(catalogJSON, platform='Steam', filterResourceTypes=['Texture2D'], filterLabels=undefined) {
+function getImageResources(catalogJSON, platform='StandaloneWindows64', filterResourceTypes=['Texture2D'], filterLabels=undefined) {
     const keys = getKeys(catalogJSON);
     const buckets = getBuckets(catalogJSON);
     const entries = getEntries(catalogJSON, keys);

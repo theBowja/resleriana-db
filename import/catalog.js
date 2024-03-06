@@ -6,7 +6,7 @@ const config = require('./config.json');
 module.exports = { getCatalogResources, getCatalogResourcesLocal, getCatalogResourcesDownload };
 
 // const CATALOG_PATH = "C:/Program Files (x86)/Steam/steamapps/common/AtelierReslerianaGL/AtelierResleriana_Data/ABCache/content_catalogs";
-// const STILL_PATH_HASH_PATH = path.resolve(__dirname, './images/Global/still_path_hash.txt');
+// const STILL_PATH_HASH_PATH = path.resolve(__dirname, '../images/Global/still_path_hash.txt');
 // getCatalogResourcesDownload('Global', config.fileassets_version.Global, 'StandaloneWindows64', 'Texture2D', STILL_PATH_HASH_PATH);
 // getCatalogResourcesLocal('Global', CATALOG_PATH, 'StandaloneWindows64', 'Texture2D', STILL_PATH_HASH_PATH);
 
@@ -84,7 +84,7 @@ function getCatalogResources(server, catalogJSON, platform='StandaloneWindows64'
     const resources = getResources(catalogJSON, keys, buckets, entries, platform, filterResourceTypes, filterLabels, true, true);
     
     // fs.writeFileSync(path.resolve(__dirname, `./tmp/catalog_resources_${server}.json`), JSON.stringify(resources, null, '\t')); // debug
-    fs.mkdirSync(path.resolve(__dirname, `./images/${server}`), { recursive: true });
+    fs.mkdirSync(path.resolve(__dirname, `../images/${server}`), { recursive: true });
 
     // generate list of bundle names
     const bundleNames = new Set();
@@ -96,7 +96,7 @@ function getCatalogResources(server, catalogJSON, platform='StandaloneWindows64'
 
     const filterString = filterResourceTypes.map(s => s.toLowerCase()).sort().join();
     const subset = filterLabels ? 'filtered' : 'all';
-    fs.writeFileSync(path.resolve(__dirname, `./images/${server}/bundlenames_${platform.toLowerCase()}_${subset}_${filterString}.txt`),
+    fs.writeFileSync(path.resolve(__dirname, `../images/${server}/${platform}/bundlenames_${subset}_${filterString}.txt`),
                      Array.from(bundleNames).sort().join('\n'));
 
     if (filterLabels) {
@@ -113,7 +113,7 @@ function getCatalogResources(server, catalogJSON, platform='StandaloneWindows64'
             pathHashContainerMap[resources[label][0].container] = label;
         }
 
-        fs.writeFileSync(path.resolve(__dirname, `./images/${server}/container_to_path_hash.json`),
+        fs.writeFileSync(path.resolve(__dirname, `../images/${server}/container_to_path_hash.json`),
                          JSON.stringify(pathHashContainerMap, null, '\t'));
     }
 }
@@ -313,7 +313,7 @@ function readObjectFromData(dataBuffer, offset) {
  * @param {boolean} addFileName adds the encrypted steam asset's file name to each resource data. it's just `_bundleName+'_'+_hash`.
  * @returns 
  */
-function getResources(catalog, keys, buckets, entries, platform='Steam', filterResourceTypes=undefined, filterLabels=undefined, bundlesOnly=false, addFileName=false) {
+function getResources(catalog, keys, buckets, entries, platform='StandaloneWindows64', filterResourceTypes=undefined, filterLabels=undefined, bundlesOnly=false, addFileName=false) {
     const result = {};
 
     if (filterLabels) filterLabels = new Set(filterLabels);
@@ -349,8 +349,10 @@ function getResources(catalog, keys, buckets, entries, platform='Steam', filterR
                 if (canAdd) {
                     if (addFileName && pathBundleMap[entry.dependencyKey]) {
                         if (platform === 'StandaloneWindows64') {
-                            entry.filename = `${pathBundleMap[entry.dependencyKey]._bundleName}_${pathBundleMap[entry.dependencyKey]._hash}`;
-                        } else if (platform === 'Android' || platform === 'iOS') {
+                            entry.filename = `${pathBundleMap[entry.dependencyKey]._relativePath}`;
+                            // below is for local steam files
+                            // entry.filename = `${pathBundleMap[entry.dependencyKey]._bundleName}_${pathBundleMap[entry.dependencyKey]._hash}`;
+                        } else {
                             entry.filename = `${pathBundleMap[entry.dependencyKey]._relativePath}`;
                         }
                     }

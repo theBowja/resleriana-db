@@ -66,30 +66,29 @@ async function checkFileassets(server) {
         console.log(`No update needed for checkFileassets ${server}`);
         return;
     }
-// const STILL_PATH_HASH_PATH = path.resolve(__dirname, './images/Global/still_path_hash.txt');
 
     // Do update
     try {
-        const platform = 'StandaloneWindows64';
+        const platform = 'Android';
 
         console.log(`Updating catalog resources ${server}...`);
-        await catalog.getCatalogResourcesDownload(server, importconfig.fileassets_version[server], platform, 'Texture2D', path.resolve(__dirname, `../import/images/${server}/still_path_hash.txt`));
+        await catalog.getCatalogResourcesDownload(server, importconfig.fileassets_version[server], platform, 'Texture2D', path.resolve(__dirname, `../images/${server}/still_path_hash.txt`));
         
         // Download bundles using AtelierToolBundleDownload
         console.log(`Downloading fileassets ${server}...`);
         console.log(`This may take a while.`);
-        const outputDir = path.resolve(__dirname, `../import/images/${server}/bundles`);
-        const bundleNames = path.resolve(__dirname, `../import/images/${server}/bundlenames_${platform.toLowerCase()}_filtered_texture2d.txt`);
+        const outputDir = path.resolve(__dirname, `../images/${server}/${platform}/bundles`);
+        const bundleNames = path.resolve(__dirname, `../images/${server}/${platform}/bundlenames_filtered_texture2d.txt`);
         tools.executeAtelierToolBundleDownload(server, platform, importconfig.fileassets_version[server], outputDir, bundleNames);
 
         // Generate path_hash_to_name.txt using UnityPyScripts
         console.log(`Generating path_hash_to_name.txt ${server}`);
 
 
-        console.log(`Deleting downloaded bundles ${server}`);
-        for (const filename of fs.readdirSync(outputDir)) {
-            fs.unlinkSync(path.join(outputDir, filename));
-        }
+        // console.log(`Deleting downloaded bundles ${server}`);
+        // for (const filename of fs.readdirSync(outputDir)) {
+        //     fs.unlinkSync(path.join(outputDir, filename));
+        // }
 
         // Update config
         autoconfig.fileassets_version[server] = importconfig.fileassets_version[server];

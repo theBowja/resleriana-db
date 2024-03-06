@@ -5,9 +5,8 @@ const execSync = require('child_process').execFileSync;
 
 module.exports = { executeAtelierToolBundleDownload };
 
-
 /**
- * Executes the AtelierTool.exe which downloads and decrypts texture2d assets to the folder `import/images/[server]/bundles`.
+ * Executes the AtelierTool.exe which downloads and decrypts bundles to the output folder.
  * @param {string} server 
  * @param {string} platform 
  * @param {string} version 
@@ -28,4 +27,8 @@ function executeAtelierToolBundleDownload(server, platform, version, outputDirec
     }
     
     execSync(exePath, args, { stdio: 'inherit' });
+}
+
+function generateContainerToPathHash() {
+
 }

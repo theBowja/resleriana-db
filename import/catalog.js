@@ -3,39 +3,43 @@ const path = require('path');
 const https = require('https');
 const config = require('./config.json');
 
-const CATALOG_PATH = "C:/Program Files (x86)/Steam/steamapps/common/AtelierReslerianaGL/AtelierResleriana_Data/ABCache/content_catalogs";
-const STILL_PATH_HASHES = path.resolve(__dirname, './images/Global/still_path_hash.txt');
+module.exports = { getCatalogResources, getCatalogResourcesLocal, getCatalogResourcesDownload };
 
-module.exports = { getImageResources, getImageResourcesLocal, getImageResourcesDownload };
-
-getCatalogResourcesTexture2DLocal(CATALOG_PATH, 'StandaloneWindows64', STILL_PATH_HASHES);
-getCatalogResourcesDownload('Global', config.fileassets_version.Global, 'StandaloneWindows64', STILL_PATH_HASHES);
+// const CATALOG_PATH = "C:/Program Files (x86)/Steam/steamapps/common/AtelierReslerianaGL/AtelierResleriana_Data/ABCache/content_catalogs";
+// const STILL_PATH_HASH_PATH = path.resolve(__dirname, './images/Global/still_path_hash.txt');
+// getCatalogResourcesDownload('Global', config.fileassets_version.Global, 'StandaloneWindows64', 'Texture2D', STILL_PATH_HASH_PATH);
+// getCatalogResourcesLocal('Global', CATALOG_PATH, 'StandaloneWindows64', 'Texture2D', STILL_PATH_HASH_PATH);
 
 /**
  * Downloads the catalog (but does not save it).
  * @param {string} server 
  * @param {string} version 
  * @param {string} platform 
+ * @param {string|string[]} filterResourceTypes unity resource types to filter on
  * @param {string} filterPath if relative path, then it is relative to current working directory.
  */
-async function getImageResourcesDownload(server, version, platform='StandaloneWindows64', filterPath=undefined) {
+async function getCatalogResourcesDownload(server, version, platform='StandaloneWindows64', filterResourceTypes=undefined, filterPath=undefined) {
+    validateServer('getCatalogResourcesDownload', server);
     filterPath = path.resolve(process.cwd(), filterPath);
 
     const catalogJSON = await downloadCatalog(server, version, platform);
     let filterLabels = undefined;
     if (filterPath) filterLabels = fs.readFileSync(filterPath).toString().split('\n');
 
-    getImageResources(server, catalogJSON, platform, ['Texture2D'], filterLabels);
+    getCatalogResources(server, catalogJSON, platform, filterResourceTypes, filterLabels);
 }
 
 /**
  * Downloads the catalog (but does not save it).
+ * @param {string} server
  * @param {string} catalogFilePath path to a catalog file that ends with _catalog.json. or a directory that contains such a file.
  *                                 if relative path, then it is relative to current working directory.
  * @param {string} platform 
+ * @param {string|string[]} filterResourceTypes unity resource types to filter on
  * @param {string} filterPath if relative path, then it is relative to current working directory.
  */
-function getImageResourcesLocal(server, catalogFilePath, platform='StandaloneWindows64', filterPath=undefined) {
+function getCatalogResourcesLocal(server, catalogFilePath, platform='StandaloneWindows64', filterResourceTypes=undefined, filterPath=undefined) {
+    validateServer('getCatalogResourcesLocal', server);
     catalogFilePath = path.resolve(process.cwd(), catalogFilePath);
     filterPath = path.resolve(process.cwd(), filterPath);
 
@@ -58,7 +62,7 @@ function getImageResourcesLocal(server, catalogFilePath, platform='StandaloneWin
     let filterLabels = undefined;
     if (filterPath) filterLabels = fs.readFileSync(filterPath).toString().split('\n');
 
-    getImageResources(server, catalogData, platform, ['Texture2D'], filterLabels);
+    getCatalogResources(server, catalogData, platform, filterResourceTypes, filterLabels);
 }
 
 /**
@@ -67,11 +71,11 @@ function getImageResourcesLocal(server, catalogFilePath, platform='StandaloneWin
  * @param {string} server
  * @param {string} catalogJSON
  * @param {string} platform 
- * @param {string|string[]} filterResourceTypes array of unity resource types to filter on
+ * @param {string|string[]} filterResourceTypes unity resource types to filter on
  * @param {string[]} [filterLabels] array of path hashes from the masterdata
  */
-function getImageResources(server, catalogJSON, platform='StandaloneWindows64', filterResourceTypes=['Texture2D'], filterLabels=undefined) {
-    if (!config.servers.includes(server)) throw new Error(`getImageResources was not provided a valid server ${server}. It must be one of: ${config.servers.join(', ')}`);
+function getCatalogResources(server, catalogJSON, platform='StandaloneWindows64', filterResourceTypes=['Texture2D'], filterLabels=undefined) {
+    validateServer('getCatalogResources', server);
     if (filterResourceTypes && !Array.isArray(filterResourceTypes)) filterResourceTypes = [filterResourceTypes];
 
     const keys = getKeys(catalogJSON);
@@ -79,7 +83,7 @@ function getImageResources(server, catalogJSON, platform='StandaloneWindows64', 
     const entries = getEntries(catalogJSON, keys);
     const resources = getResources(catalogJSON, keys, buckets, entries, platform, filterResourceTypes, filterLabels, true, true);
     
-    // fs.writeFileSync(path.resolve(outputPath), JSON.stringify(resources, null, '\t'));
+    // fs.writeFileSync(path.resolve(__dirname, `./tmp/catalog_resources_${server}.json`), JSON.stringify(resources, null, '\t')); // debug
     fs.mkdirSync(path.resolve(__dirname, `./images/${server}`), { recursive: true });
 
     // generate list of bundle names
@@ -114,6 +118,15 @@ function getImageResources(server, catalogJSON, platform='StandaloneWindows64', 
     }
 }
 
+/**
+ * Check if the server is valid (found in config). Throws an error if invalid server.
+ * @param {string} callerName for error message
+ * @param {string} server 
+ */
+function validateServer(callerName, server) {
+    if (!config.servers.includes(server)) throw new Error(`${callerName} was not provided a valid server ${server}. It must be one of: ${config.servers.join(', ')}`);
+}
+
 async function downloadCatalog(server, version, platform) {
     const domain = server === 'Global' ? 'com' : 'jp';
     const url = `https://asset.resleriana.${domain}/asset/${version}/${platform}/catalog.json`;
@@ -121,22 +134,22 @@ async function downloadCatalog(server, version, platform) {
 }
 
 function sendHttpRequest(url) {
-	return new Promise((resolve, reject) => {
-		https.get(url, (response) => {
-			if (response.statusCode !== 200) {
-				reject(new Error(`Error fetching data: ${url}`));
-				return;
-			}
-	
-			let data = [];
-			response.on('data', (chunk) => {
-				data.push(chunk);
-			});
-			response.on('end', () => {
-				resolve(Buffer.concat(data));
-			});
-	  	}).on('error', reject);
-	});
+    return new Promise((resolve, reject) => {
+        https.get(url, (response) => {
+            if (response.statusCode !== 200) {
+                reject(new Error(`Error fetching data: ${url}`));
+                return;
+            }
+
+            let data = [];
+            response.on('data', (chunk) => {
+                data.push(chunk);
+            });
+            response.on('end', () => {
+                resolve(Buffer.concat(data));
+            });
+        }).on('error', reject);
+    });
 }
 
 /**

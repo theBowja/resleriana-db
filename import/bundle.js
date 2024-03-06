@@ -3,7 +3,7 @@ const execSync = require('child_process').execFileSync;
 const config = require('./config.json');
 
 
-// const bundleNames = fs.readFileSync('./images/still_path_hash_en.txt').toString().split('\n').join(',');
+// const bundleNames = fs.readFileSync('./images/Global/still_path_hash.txt').toString().split('\n').join(',');
 
 
 // const exePath = `./AtelierTool.exe download-bundles -o ./tmp ${config.fileassets_version.Global} -b ${bundleNames}`;

@@ -147,7 +147,7 @@ function unpackMasterData(md, server, lang, writePathHashes=false) {
 
 	if (writePathHashes) {
 		fs.mkdirSync(path.resolve(__dirname, `./images`), { recursive: true });
-		fs.writeFileSync(path.resolve(__dirname, `./images/still_path_hash_${server.toLowerCase()}.txt`), Array.from(pathHashes).sort().join('\n'));
+		fs.writeFileSync(path.resolve(__dirname, `./images/${server}/still_path_hash.txt`), Array.from(pathHashes).sort().join('\n'));
 	}
 }
 

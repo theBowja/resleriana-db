@@ -1,42 +1,86 @@
 const fs = require('fs');
+const path = require('path');
 const https = require('https');
 const config = require('./config.json');
 
-const CATALOG_PATH = "C:/Program Files (x86)/Steam/steamapps/common/AtelierReslerianaGL/AtelierResleriana_Data/ABCache/content_catalogs/1708581545__gq4QN14Pa_CUofd_catalog.json";
+const CATALOG_PATH = "C:/Program Files (x86)/Steam/steamapps/common/AtelierReslerianaGL/AtelierResleriana_Data/ABCache/content_catalogs";
+const STILL_PATH_HASHES = path.resolve(__dirname, './images/Global/still_path_hash.txt');
 
+module.exports = { getImageResources, getImageResourcesLocal, getImageResourcesDownload };
 
-// getImageResourcesSteam(CATALOG_PATH);
-getImageResourcesAndroid(config.fileassets_version.Global, `./images/still_path_hash_global.txt`);
+getCatalogResourcesTexture2DLocal(CATALOG_PATH, 'StandaloneWindows64', STILL_PATH_HASHES);
+getCatalogResourcesDownload('Global', config.fileassets_version.Global, 'StandaloneWindows64', STILL_PATH_HASHES);
 
+/**
+ * Downloads the catalog (but does not save it).
+ * @param {string} server 
+ * @param {string} version 
+ * @param {string} platform 
+ * @param {string} filterPath if relative path, then it is relative to current working directory.
+ */
+async function getImageResourcesDownload(server, version, platform='StandaloneWindows64', filterPath=undefined) {
+    filterPath = path.resolve(process.cwd(), filterPath);
 
-function getImageResourcesSteam(CATALOG_PATH) {
-    const catalogData = require(CATALOG_PATH);
-    getImageResources(catalogData, 'Steam', ['Texture2D']);
-}
-
-async function getImageResourcesAndroid(version, filterPath=undefined) {
-    const catalogJSON = await downloadCatalog(version, 'Android');
+    const catalogJSON = await downloadCatalog(server, version, platform);
     let filterLabels = undefined;
     if (filterPath) filterLabels = fs.readFileSync(filterPath).toString().split('\n');
 
-    
-    getImageResources(catalogJSON, 'Android', ['Texture2D'], filterLabels);
+    getImageResources(server, catalogJSON, platform, ['Texture2D'], filterLabels);
 }
 
 /**
- * Get the resource data of all Texture2D resources.
+ * Downloads the catalog (but does not save it).
+ * @param {string} catalogFilePath path to a catalog file that ends with _catalog.json. or a directory that contains such a file.
+ *                                 if relative path, then it is relative to current working directory.
+ * @param {string} platform 
+ * @param {string} filterPath if relative path, then it is relative to current working directory.
+ */
+function getImageResourcesLocal(server, catalogFilePath, platform='StandaloneWindows64', filterPath=undefined) {
+    catalogFilePath = path.resolve(process.cwd(), catalogFilePath);
+    filterPath = path.resolve(process.cwd(), filterPath);
+
+    let catalogData = undefined;
+    if (catalogFilePath.endsWith('_catalog.json')) {
+        catalogData = require(catalogFilePath);
+    } else if (fs.lstatSync(catalogFilePath).isDirectory()) {
+        const filenames = fs.readdirSync(catalogFilePath);
+        for (const filename of filenames) {
+            if (filename.endsWith('_catalog.json')) {
+                catalogData = require(path.join(catalogFilePath, filename));
+                break;
+            }
+        }
+    } 
+    if (catalogData === undefined) {
+        throw new Error('Invalid catalog file path provided');
+    }
+    
+    let filterLabels = undefined;
+    if (filterPath) filterLabels = fs.readFileSync(filterPath).toString().split('\n');
+
+    getImageResources(server, catalogData, platform, ['Texture2D'], filterLabels);
+}
+
+/**
+ * Get the resource data, save the list of bundle names that contain the filtered resource type,
+ * and save the container to path hash map.
+ * @param {string} server
  * @param {string} catalogJSON
  * @param {string} platform 
- * @param {string[]} filterResourceTypes array of unity resource types to filter on
- * @param {string[]} filterLabels array of path hashes from the masterdata
+ * @param {string|string[]} filterResourceTypes array of unity resource types to filter on
+ * @param {string[]} [filterLabels] array of path hashes from the masterdata
  */
-function getImageResources(catalogJSON, platform='StandaloneWindows64', filterResourceTypes=['Texture2D'], filterLabels=undefined) {
+function getImageResources(server, catalogJSON, platform='StandaloneWindows64', filterResourceTypes=['Texture2D'], filterLabels=undefined) {
+    if (!config.servers.includes(server)) throw new Error(`getImageResources was not provided a valid server ${server}. It must be one of: ${config.servers.join(', ')}`);
+    if (filterResourceTypes && !Array.isArray(filterResourceTypes)) filterResourceTypes = [filterResourceTypes];
+
     const keys = getKeys(catalogJSON);
     const buckets = getBuckets(catalogJSON);
     const entries = getEntries(catalogJSON, keys);
     const resources = getResources(catalogJSON, keys, buckets, entries, platform, filterResourceTypes, filterLabels, true, true);
     
-    // fs.writeFileSync(outputPath, JSON.stringify(resources, null, '\t'));
+    // fs.writeFileSync(path.resolve(outputPath), JSON.stringify(resources, null, '\t'));
+    fs.mkdirSync(path.resolve(__dirname, `./images/${server}`), { recursive: true });
 
     // generate list of bundle names
     const bundleNames = new Set();
@@ -48,7 +92,8 @@ function getImageResources(catalogJSON, platform='StandaloneWindows64', filterRe
 
     const filterString = filterResourceTypes.map(s => s.toLowerCase()).sort().join();
     const subset = filterLabels ? 'filtered' : 'all';
-    fs.writeFileSync(`./images/bundlenames_${platform.toLowerCase()}_${subset}_${filterString}.txt`, Array.from(bundleNames).sort().join('\n'));
+    fs.writeFileSync(path.resolve(__dirname, `./images/${server}/bundlenames_${platform.toLowerCase()}_${subset}_${filterString}.txt`),
+                     Array.from(bundleNames).sort().join('\n'));
 
     if (filterLabels) {
         const pathHashContainerMap = {};
@@ -64,12 +109,14 @@ function getImageResources(catalogJSON, platform='StandaloneWindows64', filterRe
             pathHashContainerMap[resources[label][0].container] = label;
         }
 
-        fs.writeFileSync(`./images/container_to_path_hash.json`, JSON.stringify(pathHashContainerMap, null, '\t'));
+        fs.writeFileSync(path.resolve(__dirname, `./images/${server}/container_to_path_hash.json`),
+                         JSON.stringify(pathHashContainerMap, null, '\t'));
     }
 }
 
-async function downloadCatalog(version, platform) {
-    const url = `https://asset.resleriana.com/asset/${version}/${platform}/catalog.json`;
+async function downloadCatalog(server, version, platform) {
+    const domain = server === 'Global' ? 'com' : 'jp';
+    const url = `https://asset.resleriana.${domain}/asset/${version}/${platform}/catalog.json`;
     return JSON.parse(await sendHttpRequest(url));
 }
 
@@ -288,9 +335,9 @@ function getResources(catalog, keys, buckets, entries, platform='Steam', filterR
 
                 if (canAdd) {
                     if (addFileName && pathBundleMap[entry.dependencyKey]) {
-                        if (platform === 'Steam') {
+                        if (platform === 'StandaloneWindows64') {
                             entry.filename = `${pathBundleMap[entry.dependencyKey]._bundleName}_${pathBundleMap[entry.dependencyKey]._hash}`;
-                        } else if (platform === 'Android') {
+                        } else if (platform === 'Android' || platform === 'iOS') {
                             entry.filename = `${pathBundleMap[entry.dependencyKey]._relativePath}`;
                         }
                     }

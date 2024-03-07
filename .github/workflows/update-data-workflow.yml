@@ -3,6 +3,9 @@ on:
     paths:
       - import/config.json
 
+permissions:
+  contents: write
+
 jobs:
     update-all-data:
       runs-on: ubuntu-latest

@@ -18,11 +18,11 @@ const importconfig = require('../import/config.json');
 main();
 
 async function main() {
-    // await checkMasterdata('Global');
-    // await checkMasterdata('Japan');
+    await checkMasterdata('Global');
+    await checkMasterdata('Japan');
     
     await checkFileassets('Global');
-    // await checkFileassets('Japan');
+    await checkFileassets('Japan');
 }
 
 // masterdata_version
@@ -48,7 +48,7 @@ async function checkMasterdata(server) {
         autoconfig.masterdata_version[server] = importconfig.masterdata_version[server];
         autoconfig.masterdata_version[`${server}_update_time`] = new Date().toUTCString();
         fs.writeFileSync(path.resolve(__dirname, './config.json'), JSON.stringify(autoconfig, null, '  '));
-        console.log(`Updated masterdata ${server} to the version ${autoconfig.masterdata_version[server]}`);
+        console.log(`Finished updating masterdata ${server} to the version ${autoconfig.masterdata_version[server]}`);
     } catch (e) {
         console.log(e);
     }
@@ -83,7 +83,9 @@ async function checkFileassets(server) {
 
         // Generate path_hash_to_name.txt using UnityPyScripts
         console.log(`Generating path_hash_to_name.txt ${server}`);
-
+        const container_to_path_hash = path.resolve(__dirname, `../images/${server}/container_to_path_hash.json`);
+        const path_hash_to_name = path.resolve(__dirname, `../images/${server}/path_hash_to_name.json`);
+        tools.generateContainerToPathHash(container_to_path_hash, outputDir, path_hash_to_name)
 
         // console.log(`Deleting downloaded bundles ${server}`);
         // for (const filename of fs.readdirSync(outputDir)) {
@@ -94,7 +96,7 @@ async function checkFileassets(server) {
         autoconfig.fileassets_version[server] = importconfig.fileassets_version[server];
         autoconfig.fileassets_version[`${server}_update_time`] = new Date().toUTCString();
         fs.writeFileSync(path.resolve(__dirname, './config.json'), JSON.stringify(autoconfig, null, '  '));
-        console.log(`Updated fileassets ${server} to the version ${autoconfig.fileassets_version[server]}`);
+        console.log(`Finished updating fileassets ${server} to the version ${autoconfig.fileassets_version[server]}`);
     } catch (e) {
         console.log(e);
     }

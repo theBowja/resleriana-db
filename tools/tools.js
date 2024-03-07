@@ -3,7 +3,7 @@
 const path = require('path');
 const execSync = require('child_process').execFileSync;
 
-module.exports = { executeAtelierToolBundleDownload };
+module.exports = { executeAtelierToolBundleDownload, generateContainerToPathHash };
 
 /**
  * Executes the AtelierTool.exe which downloads and decrypts bundles to the output folder.
@@ -29,6 +29,24 @@ function executeAtelierToolBundleDownload(server, platform, version, outputDirec
     execSync(exePath, args, { stdio: 'inherit' });
 }
 
-function generateContainerToPathHash() {
+/**
+ * 
+ * @param {string} container_json if relative path, then it is relative to current working directory.
+ * @param {string} bundle_folder if relative path, then it is relative to current working directory.
+ * @param {string} output_json if relative path, then it is relative to current working directory.
+ */
+function generateContainerToPathHash(container_json, bundle_folder, output_json) {
+    const exePath = path.resolve(__dirname, `./UnityPyScripts/mapContainerToPathHash.py`);
+    container_json = path.resolve(process.cwd(), container_json);
+    bundle_folder = path.resolve(process.cwd(), bundle_folder);
+    output_json = path.resolve(process.cwd(), output_json);
 
+    const args = [
+        exePath,
+        container_json,
+        bundle_folder,
+        output_json
+    ];
+
+    execSync(`python`, args, { stdio: 'inherit' });
 }

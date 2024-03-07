@@ -75,6 +75,19 @@ Optional query parameters:
 Examples:  
 https://resleriana-db.vercel.app/api/master/search?language=en&file=character&key=name&query=resna
 
+## Development
+
+Install Node v20+
+
+Use `npm install` to install all the JavaScript dependencies.
+
+Tools in the `/tools` folder require different frameworks and packages to be installed.
+
+`AtelierToolBundleDownload` requires net7.0 to be installed.
+
+`UnityPyScripts` require python 3.7+ and UnityPy 1.10.7+.
+- `pip install UnityPy=1.10.7`
+
 ## Contributing
 
 Either open an issue or make a pull request.

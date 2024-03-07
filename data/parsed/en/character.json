@@ -21,51 +21,49 @@
       "received": "Green",
       "given": "Purple"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 5,
-          "name": "Magic Blessing",
-          "category": "ATTACK",
-          "description": "Boosts magic attack damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000009,
-              "description": "Boosts magic attack damage by {0}%.",
-              "values": [300, 600, 900, 1800, 3000]
-            }
-          ]
-        },
-        {
-          "id": 13,
-          "name": "Mighty Curse",
-          "category": "WEAKENING",
-          "description": "Boosts physical damage target receives by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000047,
-              "description": "Boosts physical damage target receives by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 13,
-          "name": "Stun Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts stun damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000012,
-              "description": "Boosts stun damage by {0}%.",
-              "values": [200, 300, 500, 900, 1500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 5,
+        "name": "Magic Blessing",
+        "category": "ATTACK",
+        "description": "Boosts magic attack damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "Boosts magic attack damage by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Mighty Curse",
+        "category": "WEAKENING",
+        "description": "Boosts physical damage target receives by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000047,
+            "description": "Boosts physical damage target receives by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 13,
+        "name": "Stun Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts stun damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000012,
+            "description": "Boosts stun damage by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 158,
@@ -211,51 +209,49 @@
       "received": "Yellow",
       "given": "Red"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 50,
-          "name": "Critical Finish",
-          "category": "ENHANCE",
-          "description": "Boosts critical rate by {0}% for 1 turn.",
-          "effects": [
-            {
-              "id": 3000045,
-              "description": "Boosts critical rate by {0}% for 1 turn.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 7,
-          "name": "Ice Blessing",
-          "category": "ATTACK",
-          "description": "Boosts Ice damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000005,
-              "description": "Boosts Ice damage by {0}%.",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 5,
-          "name": "Stab Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts Stab skill damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000001,
-              "description": "Boosts Stab damage by {0}%.",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 50,
+        "name": "Critical Finish",
+        "category": "ENHANCE",
+        "description": "Boosts critical rate by {0}% for 1 turn.",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "Boosts critical rate by {0}% for 1 turn.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Ice Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Ice damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "Boosts Ice damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 5,
+        "name": "Stab Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Stab skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "Boosts Stab damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 140,
@@ -421,51 +417,49 @@
       "received": "Red",
       "given": "Yellow"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 2,
-          "name": "Slash Blessing",
-          "category": "ATTACK",
-          "description": "Boosts Slash damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000002,
-              "description": "Boosts Slash damage by {0}%.",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 16,
-          "name": "Stab Curse",
-          "category": "WEAKENING",
-          "description": "Reduces target's Stab resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000065,
-              "description": "Reduces target's Stab resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 2,
-          "name": "Skill Power Up",
-          "category": "ATTACK",
-          "description": "Boosts skill power by {0}%.",
-          "effects": [
-            {
-              "id": 3000010,
-              "description": "Boosts skill power by {0}%.",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 2,
+        "name": "Slash Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Slash damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000002,
+            "description": "Boosts Slash damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Stab Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Stab resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000065,
+            "description": "Reduces target's Stab resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "Skill Power Up",
+        "category": "ATTACK",
+        "description": "Boosts skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "Boosts skill power by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 141,
@@ -621,51 +615,49 @@
       "received": "Red",
       "given": "Green"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 15,
-          "name": "Strike Curse",
-          "category": "WEAKENING",
-          "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000064,
-              "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        },
-        {
-          "id": 46,
-          "name": "All Recovery Bonus",
-          "category": "RECOVERY",
-          "description": "Boosts HP recovery given to all allies by {0}%.",
-          "effects": [
-            {
-              "id": 3000074,
-              "description": "Boosts HP recovery given to all allies by {0}%.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 39,
-          "name": "Recovery Boost",
-          "category": "RECOVERY",
-          "description": "Boosts recovery given by {0}%.",
-          "effects": [
-            {
-              "id": 3000031,
-              "description": "Boosts recovery given by {0}%.",
-              "values": [200, 300, 500, 900, 1500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 15,
+        "name": "Strike Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000064,
+            "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "All Recovery Bonus",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "Boosts HP recovery given to all allies by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 39,
+        "name": "Recovery Boost",
+        "category": "RECOVERY",
+        "description": "Boosts recovery given by {0}%.",
+        "effects": [
+          {
+            "id": 3000031,
+            "description": "Boosts recovery given by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 134,
@@ -819,51 +811,49 @@
       "received": "Yellow",
       "given": "Blue"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 8,
-          "name": "Air Blessing",
-          "category": "ATTACK",
-          "description": "Boosts Air damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000007,
-              "description": "Boosts Air damage by {0}%.",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 49,
-          "name": "Chaser Charge",
-          "category": "ATTACK",
-          "description": "Boosts damage to stunned enemies by {0}%.",
-          "effects": [
-            {
-              "id": 3000077,
-              "description": "Boosts damage to stunned enemies by {0}%.",
-              "values": [600, 1100, 1700, 3300, 5400]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 8,
-          "name": "Air Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts Air skill damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000007,
-              "description": "Boosts Air damage by {0}%.",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 8,
+        "name": "Air Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Air damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "Boosts Air damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "Chaser Charge",
+        "category": "ATTACK",
+        "description": "Boosts damage to stunned enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "Boosts damage to stunned enemies by {0}%.",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 8,
+        "name": "Air Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Air skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "Boosts Air damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 141,
@@ -1009,51 +999,49 @@
       "received": "Purple",
       "given": "Blue"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 46,
-          "name": "All Recovery Bonus",
-          "category": "RECOVERY",
-          "description": "Boosts HP recovery given to all allies by {0}%.",
-          "effects": [
-            {
-              "id": 3000074,
-              "description": "Boosts HP recovery given to all allies by {0}%.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        },
-        {
-          "id": 20,
-          "name": "Air Curse",
-          "category": "WEAKENING",
-          "description": "Reduces target's Air resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000062,
-              "description": "Reduces target's Air resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 26,
-          "name": "Magic Resistance Up",
-          "category": "ENHANCE",
-          "description": "Reduces damage received from magic attacks by {0}%.",
-          "effects": [
-            {
-              "id": 3000027,
-              "description": "Boosts magic damage resistance by {0}%.",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 46,
+        "name": "All Recovery Bonus",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "Boosts HP recovery given to all allies by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Air Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Air resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000062,
+            "description": "Reduces target's Air resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 26,
+        "name": "Magic Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from magic attacks by {0}%.",
+        "effects": [
+          {
+            "id": 3000027,
+            "description": "Boosts magic damage resistance by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 204,
@@ -1204,51 +1192,49 @@
       "received": "Purple",
       "given": "Yellow"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 9,
-          "name": "Bolt Blessing",
-          "category": "ATTACK",
-          "description": "Boosts Bolt damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000006,
-              "description": "Boosts Bolt damage by {0}%.",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 18,
-          "name": "Fire Curse",
-          "category": "WEAKENING",
-          "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000059,
-              "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 9,
-          "name": "Bolt Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts Bolt skill damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000006,
-              "description": "Boosts Bolt damage by {0}%.",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 9,
+        "name": "Bolt Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Bolt damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "Boosts Bolt damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Fire Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 9,
+        "name": "Bolt Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Bolt skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "Boosts Bolt damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 149,
@@ -1399,51 +1385,49 @@
       "received": "Green",
       "given": "Blue"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 9,
-          "name": "Bolt Blessing",
-          "category": "ATTACK",
-          "description": "Boosts Bolt damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000006,
-              "description": "Boosts Bolt damage by {0}%.",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 28,
-          "name": "Bolt Shield",
-          "category": "ENHANCE",
-          "description": "Boosts target's Bolt resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000068,
-              "description": "Boosts target's Bolt resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 22,
-          "name": "Ice Resistance Up",
-          "category": "ENHANCE",
-          "description": "Boosts Ice resistance by {0}%.",
-          "effects": [
-            {
-              "id": 3000023,
-              "description": "Boosts Ice damage resistance by {0}%.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 9,
+        "name": "Bolt Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Bolt damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "Boosts Bolt damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Bolt Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Bolt resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000068,
+            "description": "Boosts target's Bolt resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 22,
+        "name": "Ice Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Ice resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000023,
+            "description": "Boosts Ice damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 138,
@@ -1604,51 +1588,49 @@
       "received": "Yellow",
       "given": "Red"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 13,
-          "name": "Mighty Curse",
-          "category": "WEAKENING",
-          "description": "Boosts physical damage target receives by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000047,
-              "description": "Boosts physical damage target receives by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 11,
-          "name": "M. DEF Blessing",
-          "category": "ENHANCE",
-          "description": "Boosts M. DEF by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000051,
-              "description": "Boosts M. DEF by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 14,
-          "name": "Physical Stun Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts physical stun damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000013,
-              "description": "Boosts physical stun damage by {0}%.",
-              "values": [200, 400, 600, 1200, 2000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 13,
+        "name": "Mighty Curse",
+        "category": "WEAKENING",
+        "description": "Boosts physical damage target receives by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000047,
+            "description": "Boosts physical damage target receives by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "M. DEF Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts M. DEF by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000051,
+            "description": "Boosts M. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 14,
+        "name": "Physical Stun Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts physical stun damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000013,
+            "description": "Boosts physical stun damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 134,
@@ -1799,51 +1781,49 @@
       "received": "Green",
       "given": "Red"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 17,
-          "name": "Magic Curse",
-          "category": "WEAKENING",
-          "description": "Boosts magic damage target receives by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000049,
-              "description": "Boosts magic damage target receives by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 49,
-          "name": "Chaser Charge",
-          "category": "ATTACK",
-          "description": "Boosts damage to stunned enemies by {0}%.",
-          "effects": [
-            {
-              "id": 3000077,
-              "description": "Boosts damage to stunned enemies by {0}%.",
-              "values": [600, 1100, 1700, 3300, 5400]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 7,
-          "name": "Ice Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts Ice skill damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000005,
-              "description": "Boosts Ice damage by {0}%.",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 17,
+        "name": "Magic Curse",
+        "category": "WEAKENING",
+        "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "Chaser Charge",
+        "category": "ATTACK",
+        "description": "Boosts damage to stunned enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "Boosts damage to stunned enemies by {0}%.",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 7,
+        "name": "Ice Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Ice skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "Boosts Ice damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 151,
@@ -1999,51 +1979,49 @@
       "received": "Purple",
       "given": "Blue"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 15,
-          "name": "Strike Curse",
-          "category": "WEAKENING",
-          "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000064,
-              "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        },
-        {
-          "id": 26,
-          "name": "Ice Shield",
-          "category": "ENHANCE",
-          "description": "Boosts target's Ice resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000067,
-              "description": "Boosts target's Ice resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 1,
-          "name": "Dealt Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts skill damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000011,
-              "description": "Boosts skill damage by {0}%.",
-              "values": [200, 300, 500, 900, 1500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 15,
+        "name": "Strike Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000064,
+            "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Ice Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Ice resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000067,
+            "description": "Boosts target's Ice resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 1,
+        "name": "Dealt Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000011,
+            "description": "Boosts skill damage by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 147,
@@ -2189,51 +2167,49 @@
       "received": "Purple",
       "given": "Yellow"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 11,
-          "name": "M. DEF Blessing",
-          "category": "ENHANCE",
-          "description": "Boosts M. DEF by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000051,
-              "description": "Boosts M. DEF by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 19,
-          "name": "Ice Curse",
-          "category": "WEAKENING",
-          "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000060,
-              "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 20,
-          "name": "Stab Resistance Up",
-          "category": "ENHANCE",
-          "description": "Boosts Stab resistance by {0}%.",
-          "effects": [
-            {
-              "id": 3000019,
-              "description": "Boosts Stab damage resistance by {0}%.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 11,
+        "name": "M. DEF Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts M. DEF by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000051,
+            "description": "Boosts M. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Ice Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000060,
+            "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 20,
+        "name": "Stab Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Stab resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000019,
+            "description": "Boosts Stab damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 150,
@@ -2383,51 +2359,49 @@
       "received": "Blue",
       "given": "Purple"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 14,
-          "name": "Slash Curse",
-          "category": "WEAKENING",
-          "description": "Reduces target's Slash resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000063,
-              "description": "Reduces target's Slash resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        },
-        {
-          "id": 25,
-          "name": "Fire Shield",
-          "category": "ENHANCE",
-          "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000066,
-              "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 25,
-          "name": "Physical Resistance Up",
-          "category": "ENHANCE",
-          "description": "Reduces damage received from physical attacks by {0}%.",
-          "effects": [
-            {
-              "id": 3000026,
-              "description": "Boosts physical damage resistance by {0}%.",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 14,
+        "name": "Slash Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Slash resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000063,
+            "description": "Reduces target's Slash resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Fire Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000066,
+            "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 25,
+        "name": "Physical Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from physical attacks by {0}%.",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "Boosts physical damage resistance by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 142,
@@ -2573,51 +2547,49 @@
       "received": "Green",
       "given": "Purple"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 44,
-          "name": "Ample Healing",
-          "category": "RECOVERY",
-          "description": "Boosts HP recovery given by {0}%.",
-          "effects": [
-            {
-              "id": 3000075,
-              "description": "Boosts HP recovery given by {0}%.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 11,
-          "name": "M. DEF Blessing",
-          "category": "ENHANCE",
-          "description": "Boosts M. DEF by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000051,
-              "description": "Boosts M. DEF by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 39,
-          "name": "Recovery Boost",
-          "category": "RECOVERY",
-          "description": "Boosts recovery given by {0}%.",
-          "effects": [
-            {
-              "id": 3000031,
-              "description": "Boosts recovery given by {0}%.",
-              "values": [200, 300, 500, 900, 1500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 44,
+        "name": "Ample Healing",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given by {0}%.",
+        "effects": [
+          {
+            "id": 3000075,
+            "description": "Boosts HP recovery given by {0}%.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "M. DEF Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts M. DEF by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000051,
+            "description": "Boosts M. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 39,
+        "name": "Recovery Boost",
+        "category": "RECOVERY",
+        "description": "Boosts recovery given by {0}%.",
+        "effects": [
+          {
+            "id": 3000031,
+            "description": "Boosts recovery given by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 119,
@@ -2767,51 +2739,49 @@
       "received": "Red",
       "given": "Green"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 4,
-          "name": "Stab Blessing",
-          "category": "ATTACK",
-          "description": "Boosts Stab damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000001,
-              "description": "Boosts Stab damage by {0}%.",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 27,
-          "name": "Air Shield",
-          "category": "ENHANCE",
-          "description": "Boosts target's Air resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000069,
-              "description": "Boosts target's Air resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 11,
-          "name": "Magic Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts magic skill damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000009,
-              "description": "Boosts magic attack damage by {0}%.",
-              "values": [200, 400, 600, 1200, 2000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 4,
+        "name": "Stab Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Stab damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "Boosts Stab damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Air Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Air resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000069,
+            "description": "Boosts target's Air resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 11,
+        "name": "Magic Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts magic skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "Boosts magic attack damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 136,
@@ -2949,63 +2919,61 @@
     "profile": {
       "voice_actor": "Satomi Akesaka",
       "voice_text": "I may not be a princess anymore, but I haven't forgotten my manners!",
-      "description": "A princess-turned-alchemist. She turned her back on everything she knew, setting out on a grand adventure, to accomplish something even greater with alchemy. As a former royal, she is no stranger to fashionable clothing, but her energetic nature means that she'll rush headlong into her tasks without a care for how dirty her dress gets.",
+      "description": "A princess turned alchemist. She turned her back on everything she knew, setting out on a grand adventure, to accomplish something even greater with alchemy. As a former royal, she is no stranger to fashionable clothing, but her energetic nature means that she'll rush headlong into her tasks without a care for how dirty her dress gets.",
       "origin_game": "Atelier Meruru ~The Apprentice of Arland~"
     },
     "gift_color": {
       "received": "Yellow",
       "given": "Green"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 19,
-          "name": "Ice Curse",
-          "category": "WEAKENING",
-          "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000060,
-              "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        },
-        {
-          "id": 10,
-          "name": "Guardian's Blessing",
-          "category": "ENHANCE",
-          "description": "Boosts P. DEF by {0}% and M. DEF by {1}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000050,
-              "description": "Boosts P. DEF by {0}% for 1 attack.",
-              "values": [100, 200, 300, 400, 500]
-            },
-            {
-              "id": 3000051,
-              "description": "Boosts M. DEF by {0}% for 1 attack.",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 27,
-          "name": "Single Attack Power Up",
-          "category": "ATTACK",
-          "description": "Boosts single-target skill power by {0}%.",
-          "effects": [
-            {
-              "id": 3000111,
-              "description": "Boosts skill power of single-target attacks by {0}%.",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 19,
+        "name": "Ice Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000060,
+            "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Guardian's Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts P. DEF by {0}% and M. DEF by {1}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "Boosts P. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "Boosts M. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 27,
+        "name": "Single Attack Power Up",
+        "category": "ATTACK",
+        "description": "Boosts single-target skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000111,
+            "description": "Boosts skill power of single-target attacks by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 159,
@@ -3137,7 +3105,7 @@
         }
       ]
     },
-    "start_at": "2049-12-31T16:00:00.000Z"
+    "start_at": "2024-02-26T03:00:00.000Z"
   },
   {
     "id": 29201,
@@ -3161,51 +3129,49 @@
       "received": "Yellow",
       "given": "Blue"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 44,
-          "name": "Ample Healing",
-          "category": "RECOVERY",
-          "description": "Boosts HP recovery given by {0}%.",
-          "effects": [
-            {
-              "id": 3000075,
-              "description": "Boosts HP recovery given by {0}%.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 50,
-          "name": "Critical Finish",
-          "category": "ENHANCE",
-          "description": "Boosts critical rate by {0}% for 1 turn.",
-          "effects": [
-            {
-              "id": 3000045,
-              "description": "Boosts critical rate by {0}% for 1 turn.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 39,
-          "name": "Recovery Boost",
-          "category": "RECOVERY",
-          "description": "Boosts recovery given by {0}%.",
-          "effects": [
-            {
-              "id": 3000031,
-              "description": "Boosts recovery given by {0}%.",
-              "values": [200, 300, 500, 900, 1500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 44,
+        "name": "Ample Healing",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given by {0}%.",
+        "effects": [
+          {
+            "id": 3000075,
+            "description": "Boosts HP recovery given by {0}%.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "Critical Finish",
+        "category": "ENHANCE",
+        "description": "Boosts critical rate by {0}% for 1 turn.",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "Boosts critical rate by {0}% for 1 turn.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 39,
+        "name": "Recovery Boost",
+        "category": "RECOVERY",
+        "description": "Boosts recovery given by {0}%.",
+        "effects": [
+          {
+            "id": 3000031,
+            "description": "Boosts recovery given by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 133,
@@ -3349,51 +3315,49 @@
       "received": "Purple",
       "given": "Red"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 6,
-          "name": "Fire Blessing",
-          "category": "ATTACK",
-          "description": "Boosts Fire damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000004,
-              "description": "Boosts Fire damage by {0}%.",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 15,
-          "name": "Strike Curse",
-          "category": "WEAKENING",
-          "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000064,
-              "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 11,
-          "name": "Magic Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts magic skill damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000009,
-              "description": "Boosts magic attack damage by {0}%.",
-              "values": [200, 400, 600, 1200, 2000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 6,
+        "name": "Fire Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Fire damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "Boosts Fire damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Strike Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000064,
+            "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 11,
+        "name": "Magic Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts magic skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "Boosts magic attack damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 149,
@@ -3544,51 +3508,49 @@
       "received": "Red",
       "given": "Green"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 3,
-          "name": "Strike Blessing",
-          "category": "ATTACK",
-          "description": "Boosts Strike damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000003,
-              "description": "Boosts Strike damage by {0}%.",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 28,
-          "name": "Bolt Shield",
-          "category": "ENHANCE",
-          "description": "Boosts target's Bolt resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000068,
-              "description": "Boosts target's Bolt resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 21,
-          "name": "Fire Resistance Up",
-          "category": "ENHANCE",
-          "description": "Boosts Fire resistance by {0}%.",
-          "effects": [
-            {
-              "id": 3000022,
-              "description": "Boosts Fire damage resistance by {0}%.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 3,
+        "name": "Strike Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Strike damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "Boosts Strike damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Bolt Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Bolt resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000068,
+            "description": "Boosts target's Bolt resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 21,
+        "name": "Fire Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Fire resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000022,
+            "description": "Boosts Fire damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 179,
@@ -3738,51 +3700,49 @@
       "received": "Yellow",
       "given": "Green"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 6,
-          "name": "Fire Blessing",
-          "category": "ATTACK",
-          "description": "Boosts Fire damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000004,
-              "description": "Boosts Fire damage by {0}%.",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 12,
-          "name": "P. DEF Blessing",
-          "category": "ENHANCE",
-          "description": "Boosts P. DEF by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000050,
-              "description": "Boosts P. DEF by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 26,
-          "name": "Magic Resistance Up",
-          "category": "ENHANCE",
-          "description": "Reduces damage received from magic attacks by {0}%.",
-          "effects": [
-            {
-              "id": 3000027,
-              "description": "Boosts magic damage resistance by {0}%.",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 6,
+        "name": "Fire Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Fire damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "Boosts Fire damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "P. DEF Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts P. DEF by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "Boosts P. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 26,
+        "name": "Magic Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from magic attacks by {0}%.",
+        "effects": [
+          {
+            "id": 3000027,
+            "description": "Boosts magic damage resistance by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 202,
@@ -3938,51 +3898,49 @@
       "received": "Green",
       "given": "Yellow"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 25,
-          "name": "Fire Shield",
-          "category": "ENHANCE",
-          "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000066,
-              "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 49,
-          "name": "Chaser Charge",
-          "category": "ATTACK",
-          "description": "Boosts damage to stunned enemies by {0}%.",
-          "effects": [
-            {
-              "id": 3000077,
-              "description": "Boosts damage to stunned enemies by {0}%.",
-              "values": [600, 1100, 1700, 3300, 5400]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 44,
-          "name": "Enhanced P./M. Resistance Up [D]",
-          "category": "ENHANCE",
-          "description": "Boosts potency of Received Physical Damage Down and Received Magic Damage Down given to Defenders by {0}%.",
-          "effects": [
-            {
-              "id": 3000029,
-              "description": "Boosts potency of Received Physical Damage Down and Received Magic Damage Down given to Defenders by {0}%.",
-              "values": [500, 1000, 1500, 3000, 5000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 25,
+        "name": "Fire Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000066,
+            "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "Chaser Charge",
+        "category": "ATTACK",
+        "description": "Boosts damage to stunned enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "Boosts damage to stunned enemies by {0}%.",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 44,
+        "name": "Enhanced P./M. Resistance Up [D]",
+        "category": "ENHANCE",
+        "description": "Boosts potency of Received Physical Damage Down and Received Magic Damage Down given to Defenders by {0}%.",
+        "effects": [
+          {
+            "id": 3000029,
+            "description": "Boosts potency of Received Physical Damage Down and Received Magic Damage Down given to Defenders by {0}%.",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 197,
@@ -4134,51 +4092,49 @@
       "received": "Red",
       "given": "Purple"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 12,
-          "name": "P. DEF Blessing",
-          "category": "ENHANCE",
-          "description": "Boosts P. DEF by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000050,
-              "description": "Boosts P. DEF by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 6,
-          "name": "Fire Blessing",
-          "category": "ATTACK",
-          "description": "Boosts Fire damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000004,
-              "description": "Boosts Fire damage by {0}%.",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 24,
-          "name": "Bolt Resistance Up",
-          "category": "ENHANCE",
-          "description": "Boosts Bolt resistance by {0}%.",
-          "effects": [
-            {
-              "id": 3000024,
-              "description": "Boosts Bolt damage resistance by {0}%.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 12,
+        "name": "P. DEF Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts P. DEF by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "Boosts P. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Fire Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Fire damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "Boosts Fire damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 24,
+        "name": "Bolt Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Bolt resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000024,
+            "description": "Boosts Bolt damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 142,
@@ -4323,51 +4279,49 @@
       "received": "Green",
       "given": "Blue"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 5,
-          "name": "Magic Blessing",
-          "category": "ATTACK",
-          "description": "Boosts magic attack damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000009,
-              "description": "Boosts magic attack damage by {0}%.",
-              "values": [300, 600, 900, 1800, 3000]
-            }
-          ]
-        },
-        {
-          "id": 13,
-          "name": "Mighty Curse",
-          "category": "WEAKENING",
-          "description": "Boosts physical damage target receives by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000047,
-              "description": "Boosts physical damage target receives by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 11,
-          "name": "Magic Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts magic skill damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000009,
-              "description": "Boosts magic attack damage by {0}%.",
-              "values": [200, 400, 600, 1200, 2000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 5,
+        "name": "Magic Blessing",
+        "category": "ATTACK",
+        "description": "Boosts magic attack damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "Boosts magic attack damage by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Mighty Curse",
+        "category": "WEAKENING",
+        "description": "Boosts physical damage target receives by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000047,
+            "description": "Boosts physical damage target receives by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 11,
+        "name": "Magic Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts magic skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "Boosts magic attack damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 143,
@@ -4518,51 +4472,49 @@
       "received": "Red",
       "given": "Purple"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 50,
-          "name": "Critical Finish",
-          "category": "ENHANCE",
-          "description": "Boosts critical rate by {0}% for 1 turn.",
-          "effects": [
-            {
-              "id": 3000045,
-              "description": "Boosts critical rate by {0}% for 1 turn.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 17,
-          "name": "Magic Curse",
-          "category": "WEAKENING",
-          "description": "Boosts magic damage target receives by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000049,
-              "description": "Boosts magic damage target receives by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 23,
-          "name": "Air Resistance Up",
-          "category": "ENHANCE",
-          "description": "Boosts Air resistance by {0}%.",
-          "effects": [
-            {
-              "id": 3000025,
-              "description": "Boosts Air damage resistance by {0}%.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 50,
+        "name": "Critical Finish",
+        "category": "ENHANCE",
+        "description": "Boosts critical rate by {0}% for 1 turn.",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "Boosts critical rate by {0}% for 1 turn.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Magic Curse",
+        "category": "WEAKENING",
+        "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 23,
+        "name": "Air Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Air resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000025,
+            "description": "Boosts Air damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 125,
@@ -4723,51 +4675,49 @@
       "received": "Yellow",
       "given": "Red"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 22,
-          "name": "Slash Shield",
-          "category": "ENHANCE",
-          "description": "Boosts target's Slash resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000070,
-              "description": "Boosts target's Slash resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "name": "Strike Blessing",
-          "category": "ATTACK",
-          "description": "Boosts Strike damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000003,
-              "description": "Boosts Strike damage by {0}%.",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 19,
-          "name": "Strike Resistance Up",
-          "category": "ENHANCE",
-          "description": "Boosts Strike resistance by {0}%.",
-          "effects": [
-            {
-              "id": 3000021,
-              "description": "Boosts Strike damage resistance by {0}%.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 22,
+        "name": "Slash Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Slash resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000070,
+            "description": "Boosts target's Slash resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Strike Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Strike damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "Boosts Strike damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 19,
+        "name": "Strike Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Strike resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000021,
+            "description": "Boosts Strike damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 155,
@@ -4927,51 +4877,49 @@
       "received": "Blue",
       "given": "Yellow"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 50,
-          "name": "Critical Finish",
-          "category": "ENHANCE",
-          "description": "Boosts critical rate by {0}% for 1 turn.",
-          "effects": [
-            {
-              "id": 3000045,
-              "description": "Boosts critical rate by {0}% for 1 turn.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 12,
-          "name": "P. DEF Blessing",
-          "category": "ENHANCE",
-          "description": "Boosts P. DEF by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000050,
-              "description": "Boosts P. DEF by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 3,
-          "name": "Slash Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts Slash skill damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000002,
-              "description": "Boosts Slash damage by {0}%.",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 50,
+        "name": "Critical Finish",
+        "category": "ENHANCE",
+        "description": "Boosts critical rate by {0}% for 1 turn.",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "Boosts critical rate by {0}% for 1 turn.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "P. DEF Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts P. DEF by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "Boosts P. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 3,
+        "name": "Slash Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Slash skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000002,
+            "description": "Boosts Slash damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 150,
@@ -5117,56 +5065,54 @@
       "received": "Yellow",
       "given": "Blue"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 10,
-          "name": "Guardian's Blessing",
-          "category": "ENHANCE",
-          "description": "Boosts P. DEF by {0}% and M. DEF by {1}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000050,
-              "description": "Boosts P. DEF by {0}% for 1 attack.",
-              "values": [100, 200, 300, 400, 500]
-            },
-            {
-              "id": 3000051,
-              "description": "Boosts M. DEF by {0}% for 1 attack.",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        },
-        {
-          "id": 17,
-          "name": "Magic Curse",
-          "category": "WEAKENING",
-          "description": "Boosts magic damage target receives by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000049,
-              "description": "Boosts magic damage target receives by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 15,
-          "name": "Magic Stun Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts magic stun damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000014,
-              "description": "Boosts magic stun damage by {0}%.",
-              "values": [200, 400, 600, 1200, 2000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 10,
+        "name": "Guardian's Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts P. DEF by {0}% and M. DEF by {1}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "Boosts P. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "Boosts M. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Magic Curse",
+        "category": "WEAKENING",
+        "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 15,
+        "name": "Magic Stun Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts magic stun damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000014,
+            "description": "Boosts magic stun damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 159,
@@ -5306,51 +5252,49 @@
       "received": "Blue",
       "given": "Green"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 17,
-          "name": "Magic Curse",
-          "category": "WEAKENING",
-          "description": "Boosts magic damage target receives by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000049,
-              "description": "Boosts magic damage target receives by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 5,
-          "name": "Magic Blessing",
-          "category": "ATTACK",
-          "description": "Boosts magic attack damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000009,
-              "description": "Boosts magic attack damage by {0}%.",
-              "values": [300, 600, 900, 1800, 3000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 43,
-          "name": "Physical Resistance Up [D]",
-          "category": "ENHANCE",
-          "description": "Reduces physical damage to Defenders by {0}%.",
-          "effects": [
-            {
-              "id": 3000033,
-              "description": "Boosts effects of physical damage resistance to Defenders by {0}%.",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 17,
+        "name": "Magic Curse",
+        "category": "WEAKENING",
+        "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Magic Blessing",
+        "category": "ATTACK",
+        "description": "Boosts magic attack damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "Boosts magic attack damage by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 43,
+        "name": "Physical Resistance Up [D]",
+        "category": "ENHANCE",
+        "description": "Reduces physical damage to Defenders by {0}%.",
+        "effects": [
+          {
+            "id": 3000033,
+            "description": "Boosts effects of physical damage resistance to Defenders by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 185,
@@ -5501,51 +5445,49 @@
       "received": "Purple",
       "given": "Yellow"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 15,
-          "name": "Strike Curse",
-          "category": "WEAKENING",
-          "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000064,
-              "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        },
-        {
-          "id": 23,
-          "name": "Strike Shield",
-          "category": "ENHANCE",
-          "description": "Boosts target's Strike resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000071,
-              "description": "Boosts target's Strike resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 4,
-          "name": "Strike Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts Strike skill damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000003,
-              "description": "Boosts Strike damage by {0}%.",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 15,
+        "name": "Strike Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000064,
+            "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Strike Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Strike resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000071,
+            "description": "Boosts target's Strike resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 4,
+        "name": "Strike Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Strike skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "Boosts Strike damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 159,
@@ -5690,51 +5632,49 @@
       "received": "Blue",
       "given": "Red"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 4,
-          "name": "Stab Blessing",
-          "category": "ATTACK",
-          "description": "Boosts Stab damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000001,
-              "description": "Boosts Stab damage by {0}%.",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 12,
-          "name": "P. DEF Blessing",
-          "category": "ENHANCE",
-          "description": "Boosts P. DEF by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000050,
-              "description": "Boosts P. DEF by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 42,
-          "name": "Magic Resistance Up [D]",
-          "category": "ENHANCE",
-          "description": "Reduces magic damage to Defenders by {0}%.",
-          "effects": [
-            {
-              "id": 3000034,
-              "description": "Boosts effects of magic damage resistance to Defenders by {0}%.",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 4,
+        "name": "Stab Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Stab damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "Boosts Stab damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "P. DEF Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts P. DEF by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "Boosts P. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 42,
+        "name": "Magic Resistance Up [D]",
+        "category": "ENHANCE",
+        "description": "Reduces magic damage to Defenders by {0}%.",
+        "effects": [
+          {
+            "id": 3000034,
+            "description": "Boosts effects of magic damage resistance to Defenders by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 186,
@@ -5879,51 +5819,49 @@
       "received": "Blue",
       "given": "Green"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 13,
-          "name": "Mighty Curse",
-          "category": "WEAKENING",
-          "description": "Boosts physical damage target receives by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000047,
-              "description": "Boosts physical damage target receives by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 51,
-          "name": "Destructive Power Boost",
-          "category": "ATTACK",
-          "description": "Boosts damage of battle items by {0}%.",
-          "effects": [
-            {
-              "id": 3000078,
-              "description": "Boosts damage of battle items by {0}%.",
-              "values": [600, 1100, 1700, 3300, 5400]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 2,
-          "name": "Skill Power Up",
-          "category": "ATTACK",
-          "description": "Boosts skill power by {0}%.",
-          "effects": [
-            {
-              "id": 3000010,
-              "description": "Boosts skill power by {0}%.",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 13,
+        "name": "Mighty Curse",
+        "category": "WEAKENING",
+        "description": "Boosts physical damage target receives by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000047,
+            "description": "Boosts physical damage target receives by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "name": "Destructive Power Boost",
+        "category": "ATTACK",
+        "description": "Boosts damage of battle items by {0}%.",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "Boosts damage of battle items by {0}%.",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "Skill Power Up",
+        "category": "ATTACK",
+        "description": "Boosts skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "Boosts skill power by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 125,
@@ -6074,56 +6012,54 @@
       "received": "Blue",
       "given": "Purple"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 10,
-          "name": "Guardian's Blessing",
-          "category": "ENHANCE",
-          "description": "Boosts P. DEF by {0}% and M. DEF by {1}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000050,
-              "description": "Boosts P. DEF by {0}% for 1 attack.",
-              "values": [100, 200, 300, 400, 500]
-            },
-            {
-              "id": 3000051,
-              "description": "Boosts M. DEF by {0}% for 1 attack.",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        },
-        {
-          "id": 7,
-          "name": "Ice Blessing",
-          "category": "ATTACK",
-          "description": "Boosts Ice damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000005,
-              "description": "Boosts Ice damage by {0}%.",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 43,
-          "name": "Physical Resistance Up [D]",
-          "category": "ENHANCE",
-          "description": "Reduces physical damage to Defenders by {0}%.",
-          "effects": [
-            {
-              "id": 3000033,
-              "description": "Boosts effects of physical damage resistance to Defenders by {0}%.",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 10,
+        "name": "Guardian's Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts P. DEF by {0}% and M. DEF by {1}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "Boosts P. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "Boosts M. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Ice Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Ice damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "Boosts Ice damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 43,
+        "name": "Physical Resistance Up [D]",
+        "category": "ENHANCE",
+        "description": "Reduces physical damage to Defenders by {0}%.",
+        "effects": [
+          {
+            "id": 3000033,
+            "description": "Boosts effects of physical damage resistance to Defenders by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 207,
@@ -6274,51 +6210,49 @@
       "received": "Yellow",
       "given": "Red"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 24,
-          "name": "Stab Shield",
-          "category": "ENHANCE",
-          "description": "Boosts target's Stab resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000072,
-              "description": "Boosts target's Stab resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 44,
-          "name": "Ample Healing",
-          "category": "RECOVERY",
-          "description": "Boosts HP recovery given by {0}%.",
-          "effects": [
-            {
-              "id": 3000075,
-              "description": "Boosts HP recovery given by {0}%.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 40,
-          "name": "Single Recovery Boost",
-          "category": "RECOVERY",
-          "description": "Boosts HP recovery given to a single ally by {0}%.",
-          "effects": [
-            {
-              "id": 3000032,
-              "description": "Boosts single recovery by {0}%.",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 24,
+        "name": "Stab Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Stab resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000072,
+            "description": "Boosts target's Stab resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "Ample Healing",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given by {0}%.",
+        "effects": [
+          {
+            "id": 3000075,
+            "description": "Boosts HP recovery given by {0}%.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 40,
+        "name": "Single Recovery Boost",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to a single ally by {0}%.",
+        "effects": [
+          {
+            "id": 3000032,
+            "description": "Boosts single recovery by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 135,
@@ -6463,51 +6397,49 @@
       "received": "Red",
       "given": "Yellow"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 17,
-          "name": "Magic Curse",
-          "category": "WEAKENING",
-          "description": "Boosts magic damage target receives by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000049,
-              "description": "Boosts magic damage target receives by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 4,
-          "name": "Stab Blessing",
-          "category": "ATTACK",
-          "description": "Boosts Stab damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000001,
-              "description": "Boosts Stab damage by {0}%.",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 21,
-          "name": "Fire Resistance Up",
-          "category": "ENHANCE",
-          "description": "Boosts Fire resistance by {0}%.",
-          "effects": [
-            {
-              "id": 3000022,
-              "description": "Boosts Fire damage resistance by {0}%.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 17,
+        "name": "Magic Curse",
+        "category": "WEAKENING",
+        "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Stab Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Stab damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "Boosts Stab damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 21,
+        "name": "Fire Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Fire resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000022,
+            "description": "Boosts Fire damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 154,
@@ -6653,51 +6585,49 @@
       "received": "Blue",
       "given": "Purple"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 21,
-          "name": "Bolt Curse",
-          "category": "WEAKENING",
-          "description": "Reduces target's Bolt resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000061,
-              "description": "Reduces target's Bolt resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        },
-        {
-          "id": 47,
-          "name": "Enhanced Last Recovery",
-          "category": "RECOVERY",
-          "description": "Boosts HP recovery by {0}% on final use.",
-          "effects": [
-            {
-              "id": 3000109,
-              "description": "Boosts HP recovery by {0}% on final use.",
-              "values": [200, 400, 600, 1100, 1800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 41,
-          "name": "All Recovery Boost",
-          "category": "RECOVERY",
-          "description": "Boosts HP recovery given to all allies by {0}%.",
-          "effects": [
-            {
-              "id": 3000074,
-              "description": "Boosts HP recovery given to all allies by {0}%.",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 21,
+        "name": "Bolt Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Bolt resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000061,
+            "description": "Reduces target's Bolt resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "Enhanced Last Recovery",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery by {0}% on final use.",
+        "effects": [
+          {
+            "id": 3000109,
+            "description": "Boosts HP recovery by {0}% on final use.",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 41,
+        "name": "All Recovery Boost",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "Boosts HP recovery given to all allies by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 135,
@@ -6850,51 +6780,49 @@
       "received": "Green",
       "given": "Yellow"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 24,
-          "name": "Stab Shield",
-          "category": "ENHANCE",
-          "description": "Boosts target's Stab resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000072,
-              "description": "Boosts target's Stab resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 51,
-          "name": "Destructive Power Boost",
-          "category": "ATTACK",
-          "description": "Boosts damage of battle items by {0}%.",
-          "effects": [
-            {
-              "id": 3000078,
-              "description": "Boosts damage of battle items by {0}%.",
-              "values": [600, 1100, 1700, 3300, 5400]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 31,
-          "name": "Physical Damage Boost [Full]",
-          "category": "ATTACK",
-          "description": "Boosts physical damage by {0}% when at full HP.",
-          "effects": [
-            {
-              "id": 3000102,
-              "description": "Boosts dealt physical damage by {0}% when at full HP.",
-              "values": [300, 600, 900, 1800, 3000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 24,
+        "name": "Stab Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Stab resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000072,
+            "description": "Boosts target's Stab resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "name": "Destructive Power Boost",
+        "category": "ATTACK",
+        "description": "Boosts damage of battle items by {0}%.",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "Boosts damage of battle items by {0}%.",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 31,
+        "name": "Physical Damage Boost [Full]",
+        "category": "ATTACK",
+        "description": "Boosts physical damage by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000102,
+            "description": "Boosts dealt physical damage by {0}% when at full HP.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 168,
@@ -7050,51 +6978,49 @@
       "received": "Red",
       "given": "Green"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 11,
-          "name": "M. DEF Blessing",
-          "category": "ENHANCE",
-          "description": "Boosts M. DEF by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000051,
-              "description": "Boosts M. DEF by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 8,
-          "name": "Air Blessing",
-          "category": "ATTACK",
-          "description": "Boosts Air damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000007,
-              "description": "Boosts Air damage by {0}%.",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 6,
-          "name": "Fire Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts Fire skill damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000004,
-              "description": "Boosts Fire damage by {0}%.",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 11,
+        "name": "M. DEF Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts M. DEF by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000051,
+            "description": "Boosts M. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Air Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Air damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "Boosts Air damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 6,
+        "name": "Fire Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Fire skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "Boosts Fire damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 149,
@@ -7234,51 +7160,49 @@
       "received": "Blue",
       "given": "Yellow"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 1,
-          "name": "Mighty Blessing",
-          "category": "ATTACK",
-          "description": "Boosts physical attack damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000008,
-              "description": "Boosts physical attack damage by {0}%.",
-              "values": [300, 600, 900, 1800, 3000]
-            }
-          ]
-        },
-        {
-          "id": 22,
-          "name": "Slash Shield",
-          "category": "ENHANCE",
-          "description": "Boosts target's Slash resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000070,
-              "description": "Boosts target's Slash resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 14,
-          "name": "Physical Stun Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts physical stun damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000013,
-              "description": "Boosts physical stun damage by {0}%.",
-              "values": [200, 400, 600, 1200, 2000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 1,
+        "name": "Mighty Blessing",
+        "category": "ATTACK",
+        "description": "Boosts physical attack damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000008,
+            "description": "Boosts physical attack damage by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Slash Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Slash resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000070,
+            "description": "Boosts target's Slash resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 14,
+        "name": "Physical Stun Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts physical stun damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000013,
+            "description": "Boosts physical stun damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 144,
@@ -7433,51 +7357,49 @@
       "received": "Red",
       "given": "Purple"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 19,
-          "name": "Ice Curse",
-          "category": "WEAKENING",
-          "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000060,
-              "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        },
-        {
-          "id": 26,
-          "name": "Ice Shield",
-          "category": "ENHANCE",
-          "description": "Boosts target's Ice resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000067,
-              "description": "Boosts target's Ice resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 7,
-          "name": "Ice Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts Ice skill damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000005,
-              "description": "Boosts Ice damage by {0}%.",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 19,
+        "name": "Ice Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000060,
+            "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Ice Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Ice resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000067,
+            "description": "Boosts target's Ice resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 7,
+        "name": "Ice Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Ice skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "Boosts Ice damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 128,
@@ -7622,7 +7544,7 @@
     "attribute": "ICE",
     "role": "BREAKER",
     "initial_rarity": 3,
-    "acquisition_text": "You want to become stronger? Very well,<br>I’ll drill the spirit of a warrior into you!",
+    "acquisition_text": "You want to become stronger? Very well,<br>I'll drill the spirit of a warrior into you!",
     "profile": {
       "voice_actor": "Haruka Terui",
       "voice_text": "I am Lila Decyrus of the Whitefang clan.\nA warrior of the Oren race.",
@@ -7633,56 +7555,54 @@
       "received": "Yellow",
       "given": "Red"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 10,
-          "name": "Guardian's Blessing",
-          "category": "ENHANCE",
-          "description": "Boosts P. DEF by {0}% and M. DEF by {1}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000050,
-              "description": "Boosts P. DEF by {0}% for 1 attack.",
-              "values": [100, 200, 300, 400, 500]
-            },
-            {
-              "id": 3000051,
-              "description": "Boosts M. DEF by {0}% for 1 attack.",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        },
-        {
-          "id": 19,
-          "name": "Ice Curse",
-          "category": "WEAKENING",
-          "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000060,
-              "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 15,
-          "name": "Magic Stun Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts magic stun damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000014,
-              "description": "Boosts magic stun damage by {0}%.",
-              "values": [200, 400, 600, 1200, 2000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 10,
+        "name": "Guardian's Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts P. DEF by {0}% and M. DEF by {1}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "Boosts P. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "Boosts M. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Ice Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000060,
+            "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 15,
+        "name": "Magic Stun Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts magic stun damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000014,
+            "description": "Boosts magic stun damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 152,
@@ -7838,51 +7758,49 @@
       "received": "Purple",
       "given": "Green"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 23,
-          "name": "Strike Shield",
-          "category": "ENHANCE",
-          "description": "Boosts target's Strike resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000071,
-              "description": "Boosts target's Strike resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 9,
-          "name": "Bolt Blessing",
-          "category": "ATTACK",
-          "description": "Boosts Bolt damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000006,
-              "description": "Boosts Bolt damage by {0}%.",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 25,
-          "name": "Physical Resistance Up",
-          "category": "ENHANCE",
-          "description": "Reduces damage received from physical attacks by {0}%.",
-          "effects": [
-            {
-              "id": 3000026,
-              "description": "Boosts physical damage resistance by {0}%.",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 23,
+        "name": "Strike Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Strike resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000071,
+            "description": "Boosts target's Strike resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Bolt Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Bolt damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "Boosts Bolt damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 25,
+        "name": "Physical Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from physical attacks by {0}%.",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "Boosts physical damage resistance by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 172,
@@ -8033,51 +7951,49 @@
       "received": "Blue",
       "given": "Yellow"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 3,
-          "name": "Strike Blessing",
-          "category": "ATTACK",
-          "description": "Boosts Strike damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000003,
-              "description": "Boosts Strike damage by {0}%.",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 46,
-          "name": "All Recovery Bonus",
-          "category": "RECOVERY",
-          "description": "Boosts HP recovery given to all allies by {0}%.",
-          "effects": [
-            {
-              "id": 3000074,
-              "description": "Boosts HP recovery given to all allies by {0}%.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 10,
-          "name": "Physical Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts physical skill damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000008,
-              "description": "Boosts physical attack damage by {0}%.",
-              "values": [200, 400, 600, 1200, 2000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 3,
+        "name": "Strike Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Strike damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "Boosts Strike damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "All Recovery Bonus",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "Boosts HP recovery given to all allies by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 10,
+        "name": "Physical Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts physical skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000008,
+            "description": "Boosts physical attack damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 152,
@@ -8223,51 +8139,49 @@
       "received": "Purple",
       "given": "Red"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 23,
-          "name": "Strike Shield",
-          "category": "ENHANCE",
-          "description": "Boosts target's Strike resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000071,
-              "description": "Boosts target's Strike resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 9,
-          "name": "Bolt Blessing",
-          "category": "ATTACK",
-          "description": "Boosts Bolt damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000006,
-              "description": "Boosts Bolt damage by {0}%.",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 31,
-          "name": "Physical Damage Boost [Full]",
-          "category": "ATTACK",
-          "description": "Boosts physical damage by {0}% when at full HP.",
-          "effects": [
-            {
-              "id": 3000102,
-              "description": "Boosts dealt physical damage by {0}% when at full HP.",
-              "values": [300, 600, 900, 1800, 3000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 23,
+        "name": "Strike Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Strike resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000071,
+            "description": "Boosts target's Strike resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Bolt Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Bolt damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "Boosts Bolt damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 31,
+        "name": "Physical Damage Boost [Full]",
+        "category": "ATTACK",
+        "description": "Boosts physical damage by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000102,
+            "description": "Boosts dealt physical damage by {0}% when at full HP.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 127,
@@ -8416,51 +8330,49 @@
       "received": "Green",
       "given": "Yellow"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 5,
-          "name": "Magic Blessing",
-          "category": "ATTACK",
-          "description": "Boosts magic attack damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000009,
-              "description": "Boosts magic attack damage by {0}%.",
-              "values": [300, 600, 900, 1800, 3000]
-            }
-          ]
-        },
-        {
-          "id": 45,
-          "name": "Single Recovery Bonus",
-          "category": "RECOVERY",
-          "description": "Boosts HP recovery given to a single ally by {0}%.",
-          "effects": [
-            {
-              "id": 3000073,
-              "description": "Boosts HP recovery given to a single ally by {0}%.",
-              "values": [200, 300, 500, 900, 1500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 11,
-          "name": "Magic Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts magic skill damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000009,
-              "description": "Boosts magic attack damage by {0}%.",
-              "values": [200, 400, 600, 1200, 2000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 5,
+        "name": "Magic Blessing",
+        "category": "ATTACK",
+        "description": "Boosts magic attack damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "Boosts magic attack damage by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "Single Recovery Bonus",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to a single ally by {0}%.",
+        "effects": [
+          {
+            "id": 3000073,
+            "description": "Boosts HP recovery given to a single ally by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 11,
+        "name": "Magic Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts magic skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "Boosts magic attack damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 142,
@@ -8600,51 +8512,49 @@
       "received": "Purple",
       "given": "Green"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 50,
-          "name": "Critical Finish",
-          "category": "ENHANCE",
-          "description": "Boosts critical rate by {0}% for 1 turn.",
-          "effects": [
-            {
-              "id": 3000045,
-              "description": "Boosts critical rate by {0}% for 1 turn.",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 21,
-          "name": "Bolt Curse",
-          "category": "WEAKENING",
-          "description": "Reduces target's Bolt resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000061,
-              "description": "Reduces target's Bolt resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 18,
-          "name": "Slash Resistance Up",
-          "category": "ENHANCE",
-          "description": "Boosts Slash resistance by {0}%.",
-          "effects": [
-            {
-              "id": 3000020,
-              "description": "Boosts Slash damage resistance by {0}%.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 50,
+        "name": "Critical Finish",
+        "category": "ENHANCE",
+        "description": "Boosts critical rate by {0}% for 1 turn.",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "Boosts critical rate by {0}% for 1 turn.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Bolt Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Bolt resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000061,
+            "description": "Reduces target's Bolt resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 18,
+        "name": "Slash Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Slash resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000020,
+            "description": "Boosts Slash damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 136,
@@ -8790,51 +8700,49 @@
       "received": "Blue",
       "given": "Red"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 1,
-          "name": "Mighty Blessing",
-          "category": "ATTACK",
-          "description": "Boosts physical attack damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000008,
-              "description": "Boosts physical attack damage by {0}%.",
-              "values": [300, 600, 900, 1800, 3000]
-            }
-          ]
-        },
-        {
-          "id": 18,
-          "name": "Fire Curse",
-          "category": "WEAKENING",
-          "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000059,
-              "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 1,
-          "name": "Dealt Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts skill damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000011,
-              "description": "Boosts skill damage by {0}%.",
-              "values": [200, 300, 500, 900, 1500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 1,
+        "name": "Mighty Blessing",
+        "category": "ATTACK",
+        "description": "Boosts physical attack damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000008,
+            "description": "Boosts physical attack damage by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Fire Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 1,
+        "name": "Dealt Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000011,
+            "description": "Boosts skill damage by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 135,
@@ -8888,7 +8796,7 @@
     },
     "skill_2": {
       "name": "Messer Vento",
-      "description": "Boosts critical rate by {0}%. On critical attack, boosts damage by {1}%.",
+      "description": "Boosts critical rate by {0}%. On critical attack, boosts critical damage by {1}%.",
       "summary": "Boosts critical rate.<br>Boosts critical damage.",
       "max_level": 5,
       "skill_type": "SKILL",
@@ -8917,7 +8825,7 @@
     },
     "burst": {
       "name": "Ende Finsternis",
-      "description": "Boosts critical rate by {0}%. On critical attack, boosts damage by {1}%.",
+      "description": "Boosts critical rate by {0}%. On critical attack, boosts critical damage by {1}%.",
       "summary": "Boosts critical rate and critical damage.",
       "max_level": 7,
       "skill_type": "BURST",
@@ -8990,51 +8898,49 @@
       "received": "Green",
       "given": "Blue"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 2,
-          "name": "Slash Blessing",
-          "category": "ATTACK",
-          "description": "Boosts Slash damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000002,
-              "description": "Boosts Slash damage by {0}%.",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 14,
-          "name": "Slash Curse",
-          "category": "WEAKENING",
-          "description": "Reduces target's Slash resistance by {0}% for 1 attack.",
-          "effects": [
-            {
-              "id": 3000063,
-              "description": "Reduces target's Slash resistance by {0}% for 1 attack.",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 3,
-          "name": "Slash Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts Slash skill damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000002,
-              "description": "Boosts Slash damage by {0}%.",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 2,
+        "name": "Slash Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Slash damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000002,
+            "description": "Boosts Slash damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Slash Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Slash resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000063,
+            "description": "Reduces target's Slash resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 3,
+        "name": "Slash Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Slash skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000002,
+            "description": "Boosts Slash damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 148,
@@ -9210,51 +9116,49 @@
       "received": "Purple",
       "given": "Green"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 1,
-          "name": "Mighty Blessing",
-          "category": "ATTACK",
-          "description": "Boosts physical attack damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000008,
-              "description": "Boosts physical attack damage by {0}%.",
-              "values": [300, 600, 900, 1800, 3000]
-            }
-          ]
-        },
-        {
-          "id": 45,
-          "name": "Single Recovery Bonus",
-          "category": "RECOVERY",
-          "description": "Boosts HP recovery given to a single ally by {0}%.",
-          "effects": [
-            {
-              "id": 3000073,
-              "description": "Boosts HP recovery given to a single ally by {0}%.",
-              "values": [200, 300, 500, 900, 1500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 9,
-          "name": "Bolt Damage Boost",
-          "category": "ATTACK",
-          "description": "Boosts Bolt skill damage by {0}%.",
-          "effects": [
-            {
-              "id": 3000006,
-              "description": "Boosts Bolt damage by {0}%.",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 1,
+        "name": "Mighty Blessing",
+        "category": "ATTACK",
+        "description": "Boosts physical attack damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000008,
+            "description": "Boosts physical attack damage by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "Single Recovery Bonus",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to a single ally by {0}%.",
+        "effects": [
+          {
+            "id": 3000073,
+            "description": "Boosts HP recovery given to a single ally by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 9,
+        "name": "Bolt Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Bolt skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "Boosts Bolt damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 150,

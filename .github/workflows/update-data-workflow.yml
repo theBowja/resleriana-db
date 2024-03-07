@@ -20,9 +20,10 @@ jobs:
         - uses: actions/setup-python@v5
           with:
             python-version: '3.9' 
-        - run: pip install UnityPy=1.10.7
+        - run: pip install UnityPy==1.10.7
 
-        - run: npm run updatealldata
+        - name: Run update script
+          run: npm run updatealldata
 
         - name: Commit changes if any
           run: |

@@ -48,6 +48,12 @@
     "still_path_hash": 0
   },
   {
+    "description": "Training Research has been unlocked.\nYou can access it from the Atelier's Research section.",
+    "id": 9,
+    "name": "Training Research Unlocked",
+    "still_path_hash": 0
+  },
+  {
     "description": "You can unlock new recipes when you meet certain conditions. Tap on the recipe icons to check the Idea Requirements for each recipe.",
     "id": 501,
     "name": "Recipes",
@@ -84,7 +90,7 @@
     "still_path_hash": "6496120304273395407"
   },
   {
-    "description": "You can swap between 6 different party setups for normal quests and dungeons. You can switch parties by tapping the tabs on the top right of the screen.",
+    "description": "You can swap between 10 different party setups for normal quests and dungeons. You can switch parties by tapping the tabs on the top right of the screen.",
     "id": 604,
     "name": "Swapping Parties",
     "still_path_hash": "6646242076385735120"
@@ -396,7 +402,7 @@
     "still_path_hash": "936919101663342474"
   },
   {
-    "description": "Pies will finish baking at 11:00 and 17:00 (UTC+8) every day. You can store up to 2 pies, but any stored pies unclaimed by 11:00 (UTC+8) the following day will disappear.",
+    "description": "Pies will finish baking at 11:00 and 17:00 (UTC+8) every day. You can store up to 2 pies, but any stored pies unclaimed by 10:59 (UTC+8) the following day will disappear.",
     "id": 2402,
     "name": "Obtaining Pies",
     "still_path_hash": "1623825476337823896"
@@ -528,7 +534,7 @@
     "still_path_hash": "4560896526010101977"
   },
   {
-    "description": "Research allows you to spend Cole to power up characters and items. There are two types: Combat Research and Alchemy Research.",
+    "description": "Here you can use Cole or Shiny Coins to strengthen your characters and items.\nThere are three types of research: Battle Research, Alchemy Research, and Training Research.",
     "id": 3401,
     "name": "Research",
     "still_path_hash": "7596463895258066804"
@@ -546,10 +552,16 @@
     "still_path_hash": "3371259424073601080"
   },
   {
-    "description": "Tap the Effect List to view all of the research effects that you've obtained.",
+    "description": "Training Research allows you to raise the minimum character level.\nExample) If the minimum character level is 50,\na level 10 character can be fielded as if they are level 50.",
     "id": 3404,
-    "name": "Checking Effects",
+    "name": "Training Research",
     "still_path_hash": "2941965043069792041"
+  },
+  {
+    "description": "Tap the Research Effects List button to\nview a list of all the research effects you have obtained.",
+    "id": 3405,
+    "name": "Check Obtained Effects",
+    "still_path_hash": "8430319582703423351"
   },
   {
     "description": "Ryza's Challenge is a cooperative mission experience in which players share progress and take on challenges together.",
@@ -564,7 +576,79 @@
     "still_path_hash": "6315458062516015318"
   },
   {
-    "description": "- Boosts stun damage when attacking a weakness.\n- Skill 2 reduces the Slash resistance of all enemies.\n*Trial battles are played with a max level, fully awakened character with a fully unlocked Growboard.",
+    "description": "- After attacking with skill 2, boosts own skill damage depending on the number of enemies!\n- Has an ability that boosts the skill damage of all allies with Fire affinity!\nNote: Trial battles are played with a max level, fully awakened party with\nfully unlocked Growboards.",
+    "id": 2930101,
+    "name": "Wilbell \"Magical Trick Star\" Fire | Attacker",
+    "still_path_hash": "384505271879349737"
+  },
+  {
+    "description": "Burst skill damage is boosted when there are more enemies!\n100% more damage when there are 3 or more enemies!",
+    "id": 2930102,
+    "name": "Wilbell \"Magical Trick Star\" Fire | Attacker",
+    "still_path_hash": "2224338266768911093"
+  },
+  {
+    "description": "- How to Fight -\n- Attack all enemies with skill 2 while also boosting your own skill damage!\n- Sweep enemies away with your burst skill, which becomes more powerful when\nthere are more enemies!",
+    "id": 2930103,
+    "name": "Wilbell \"Magical Trick Star\" Fire | Attacker",
+    "still_path_hash": "4824226831925611179"
+  },
+  {
+    "description": "- Skill 1 grants Protection to self! Receive single-target attacks in place of your allies.\n- Skill 2 reduces all allies' damage received!\nNote: Trial battles are played with a max level, fully awakened party with\nfully unlocked Growboards.",
+    "id": 2960101,
+    "name": "Nio \"Charming Sister\" Strike | Defender",
+    "still_path_hash": "8361176170494304382"
+  },
+  {
+    "description": "Burst skill grants Regen to all allies!\nRecover HP at the start of every turn for 5 turns.",
+    "id": 2960102,
+    "name": "Nio \"Charming Sister\" Strike | Defender",
+    "still_path_hash": "8034627562165878624"
+  },
+  {
+    "description": "- How to Fight -\n- Reduce damage received by all allies with Skill 2, then apply Regen with your burst skill!\n- Use Skill 1 to gain Protection and defend your allies from enemy's single-target attacks.",
+    "id": 2960103,
+    "name": "Nio \"Charming Sister\" Strike | Defender",
+    "still_path_hash": "3723857123267944254"
+  },
+  {
+    "description": "- Skill 2 recovers allies' HP while also boosting skill damage!\n- Has an ability that boosts the skill damage of all allies with Bolt affinity!\nNote: Trial battles are played with a max level, fully awakened party with\nfully unlocked Growboards.",
+    "id": 3740101,
+    "name": "Lydie \"Rainbow Canvas\" Bolt | Supporter",
+    "still_path_hash": "5139379786949681447"
+  },
+  {
+    "description": "Burst skill boosts the skill damage of the next ally in turn order and\nalso reduces all resistances of the attack target.",
+    "id": 3740102,
+    "name": "Lydie \"Rainbow Canvas\" Bolt | Supporter",
+    "still_path_hash": "6690898723549412923"
+  },
+  {
+    "description": "- How to Fight -\n- Recover allies' HP while also boosting their skill damage!\n- Use burst skill to power up the next ally's attack!",
+    "id": 3740103,
+    "name": "Lydie \"Rainbow Canvas\" Bolt | Supporter",
+    "still_path_hash": "69717353843318373"
+  },
+  {
+    "description": "- All skills have an effect that boosts damage depending on how high own HP is!\n- Has an ability that increases all allies' physical attack!\nNote: Trial battles are played with a max level, fully awakened party with\nfully unlocked Growboards.",
+    "id": 3750101,
+    "name": "Suelle \"Ambition Painting\"  Strike | Attacker",
+    "still_path_hash": "1492169185901479185"
+  },
+  {
+    "description": "Burst skill damage is boosted by 80% when own HP is full!",
+    "id": 3750102,
+    "name": "Suelle \"Ambition Painting\"  Strike | Attacker",
+    "still_path_hash": "1098132463676463629"
+  },
+  {
+    "description": "- How to Fight -\n- Keep HP high to consistently attack with high power!",
+    "id": 3750103,
+    "name": "Suelle \"Ambition Painting\"  Strike | Attacker",
+    "still_path_hash": "5985335343015443027"
+  },
+  {
+    "description": "- Boosts stun damage when attacking a weakness.\n- Skill 2 reduces the Slash resistance of all enemies.\nNote: Trial battles are played with a max level, fully awakened party with\nfully unlocked Growboards.",
     "id": 3990201,
     "name": "Ryza \"Master's Right-Hand\" Slash | Breaker",
     "still_path_hash": "7213307909998908030"
@@ -582,7 +666,7 @@
     "still_path_hash": "2575989082361933118"
   },
   {
-    "description": "- Boosts all allies' M. ATK with abilities.\n- Skill 2 reduces Ice resistance and deals more stun damage when attacking a weakness!\n*Trial battles are played with a max level, fully awakened character with a fully unlocked Growboard.",
+    "description": "- Boosts all allies' M. ATK with abilities.\n- Skill 2 reduces Ice resistance and deals more stun damage when attacking a weakness!\nNote: Trial battles are played with a max level, fully awakened party with\nfully unlocked Growboards.",
     "id": 4010101,
     "name": "Lila \"Jet Black Bodyguard\" Ice | Breaker",
     "still_path_hash": "4155172753240287083"
@@ -600,7 +684,7 @@
     "still_path_hash": "9083534658640238633"
   },
   {
-    "description": "- Boosts all allies' P. ATK with abilities.\n- Skill 2 increases one ally's P. ATK.\n*Trial battles are played with a max level, fully awakened character with a fully unlocked Growboard.",
+    "description": "- Boosts all allies' P. ATK with abilities.\n- Skill 2 increases one ally's P. ATK.\nNote: Trial battles are played with a max level, fully awakened party with\nfully unlocked Growboards.",
     "id": 4040101,
     "name": "Empel \"The Gate Closer\" Strike | Supporter",
     "still_path_hash": "5257098751949992704"
@@ -618,7 +702,7 @@
     "still_path_hash": "1103916587898326460"
   },
   {
-    "description": "- Skill 2 hits all enemies and boosts own critical damage.\n- Boosts critical damage even more each time an enemy is defeated.\n*Trial battles are played with a max level, fully awakened character with a fully unlocked Growboard.",
+    "description": "- Skill 2 hits all enemies and boosts own critical damage.\n- Boosts critical damage even more each time an enemy is defeated.\nNote: Trial battles are played with a max level, fully awakened party with\nfully unlocked Growboards.",
     "id": 4380101,
     "name": "Izana \"Return of the Knight\" Bolt | Attacker",
     "still_path_hash": "6405326280322379803"

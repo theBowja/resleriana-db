@@ -14,8 +14,8 @@ module.exports = { executeAtelierToolBundleDownload, generateContainerToPathHash
  * @param {string} [bundlePath] if relative path, then it is relative to current working directory.
  */
 function executeAtelierToolBundleDownload(server, platform, version, outputDirectory, bundlePath=undefined) {
-    const exePath = path.resolve(__dirname, `./AtelierToolBundleDownload/AtelierTool.exe`);
     const args = [
+        path.resolve(__dirname, `./AtelierToolBundleDownload/AtelierTool.dll`),
         'download-bundles', version,
         '--platform', platform,
         '--server', server,
@@ -26,7 +26,7 @@ function executeAtelierToolBundleDownload(server, platform, version, outputDirec
         args.push('--bundlepath', path.resolve(process.cwd(), bundlePath));
     }
     
-    execSync(exePath, args, { stdio: 'inherit' });
+    execSync('dotnet', args, { stdio: 'inherit' });
 }
 
 /**

@@ -25,13 +25,6 @@ jobs:
             python-version: '3.9' 
         - run: pip install UnityPy==1.10.7
 
-        - name: Give executable permissions
-          run: |
-            chmod +x ./tools/AtelierToolBundleDownload/AtelierTool.exe
-
-        - run: dotnet --list-runtimes
-        - run: dotnet ./tools/AtelierToolBundleDownload/AtelierTool.dll
-
         - name: Run update script
           run: npm run updatealldata
 

@@ -84,7 +84,7 @@ function getCatalogResources(server, catalogJSON, platform='StandaloneWindows64'
     const resources = getResources(catalogJSON, keys, buckets, entries, platform, filterResourceTypes, filterLabels, true, true);
     
     // fs.writeFileSync(path.resolve(__dirname, `./tmp/catalog_resources_${server}.json`), JSON.stringify(resources, null, '\t')); // debug
-    fs.mkdirSync(path.resolve(__dirname, `../images/${server}`), { recursive: true });
+    fs.mkdirSync(path.resolve(__dirname, `../images/${server}/${platform}`), { recursive: true });
 
     // generate list of bundle names
     const bundleNames = new Set();

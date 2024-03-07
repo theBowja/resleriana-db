@@ -1,0 +1,33 @@
+on:
+  push:
+    paths:
+      - import/config.json
+
+jobs:
+    update-all-data:
+      runs-on: ubuntu-latest
+      name: Update masterdata, parsed data, and fileassets.
+      steps:
+        - uses: actions/checkout@v3
+        - uses: actions/setup-node@v3
+          with:
+            node-version: 20
+        - run: npm ci
+
+        - uses: actions/setup-dotnet@v4
+          with:
+            dotnet-version: '7'
+        - uses: actions/setup-python@v5
+          with:
+            python-version: '3.9' 
+        - run: pip install UnityPy=1.10.7
+
+        - run: npm run updatealldata
+
+        - name: Commit changes if any
+          run: |
+            git config --global user.name 'theBowja'
+            git config --global user.email 'theBowja@users.noreply.github.com'
+            git add --all
+            git commit -am "Automated update for masterdata and fileassets"
+            git push

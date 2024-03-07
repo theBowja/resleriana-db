@@ -31,6 +31,7 @@ jobs:
 
         - run: dotnet --list-runtimes
         - run: ./tools/AtelierToolBundleDownload/AtelierTool.exe
+        - run: dotnet ./tools/AtelierToolBundleDownload/AtelierTool.dll
 
         - name: Run update script
           run: npm run updatealldata

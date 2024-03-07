@@ -30,6 +30,7 @@ jobs:
             chmod +x ./tools/AtelierToolBundleDownload/AtelierTool.exe
 
         - run: dotnet --list-runtimes
+        - run: ./tools/AtelierToolBundleDownload/AtelierTool.exe
 
         - name: Run update script
           run: npm run updatealldata

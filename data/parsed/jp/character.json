@@ -21,51 +21,49 @@
       "received": "緑",
       "given": "紫"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 5,
-          "name": "魔力の祝福",
-          "category": "ATTACK",
-          "description": "魔法攻撃のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000009,
-              "description": "魔法攻撃のダメージ{0}%アップ",
-              "values": [300, 600, 900, 1800, 3000]
-            }
-          ]
-        },
-        {
-          "id": 13,
-          "name": "剛力の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000047,
-              "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 13,
-          "name": "ブレイクダメージ上昇",
-          "category": "ATTACK",
-          "description": "ブレイクダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000012,
-              "description": "ブレイクダメージ{0}%アップ",
-              "values": [200, 300, 500, 900, 1500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 5,
+        "name": "魔力の祝福",
+        "category": "ATTACK",
+        "description": "魔法攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "剛力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000047,
+            "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 13,
+        "name": "ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "ブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000012,
+            "description": "ブレイクダメージ{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 158,
@@ -211,51 +209,49 @@
       "received": "緑",
       "given": "赤"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 5,
-          "name": "魔力の祝福",
-          "category": "ATTACK",
-          "description": "魔法攻撃のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000009,
-              "description": "魔法攻撃のダメージ{0}%アップ",
-              "values": [300, 600, 900, 1800, 3000]
-            }
-          ]
-        },
-        {
-          "id": 26,
-          "name": "氷の盾",
-          "category": "ENHANCE",
-          "description": "対象に「氷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000067,
-              "description": "対象に「氷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 33,
-          "name": "魔法ダメージ上昇【渾身】",
-          "category": "ATTACK",
-          "description": "HP満タン時、魔法攻撃のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000100,
-              "description": "HPが最大の時、与える魔法属性ダメージ{0}%アップ",
-              "values": [300, 600, 900, 1800, 3000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 5,
+        "name": "魔力の祝福",
+        "category": "ATTACK",
+        "description": "魔法攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "氷の盾",
+        "category": "ENHANCE",
+        "description": "対象に「氷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000067,
+            "description": "対象に「氷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 33,
+        "name": "魔法ダメージ上昇【渾身】",
+        "category": "ATTACK",
+        "description": "HP満タン時、魔法攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000100,
+            "description": "HPが最大の時、与える魔法属性ダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 150,
@@ -426,51 +422,49 @@
       "received": "黄",
       "given": "赤"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 50,
-          "name": "会心の出来",
-          "category": "ENHANCE",
-          "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
-          "effects": [
-            {
-              "id": 3000045,
-              "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 7,
-          "name": "氷の祝福",
-          "category": "ATTACK",
-          "description": "氷属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000005,
-              "description": "氷属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 5,
-          "name": "突ダメージ上昇",
-          "category": "ATTACK",
-          "description": "突属性のスキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000001,
-              "description": "突属性のダメージ{0}%アップ",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 50,
+        "name": "会心の出来",
+        "category": "ENHANCE",
+        "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "氷の祝福",
+        "category": "ATTACK",
+        "description": "氷属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "氷属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 5,
+        "name": "突ダメージ上昇",
+        "category": "ATTACK",
+        "description": "突属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "突属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 140,
@@ -636,51 +630,49 @@
       "received": "赤",
       "given": "黄"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 2,
-          "name": "斬の祝福",
-          "category": "ATTACK",
-          "description": "斬属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000002,
-              "description": "斬属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 16,
-          "name": "突の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000065,
-              "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 2,
-          "name": "スキル威力上昇",
-          "category": "ATTACK",
-          "description": "スキル威力{0}%アップ",
-          "effects": [
-            {
-              "id": 3000010,
-              "description": "スキル威力{0}%アップ",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 2,
+        "name": "斬の祝福",
+        "category": "ATTACK",
+        "description": "斬属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000002,
+            "description": "斬属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "突の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000065,
+            "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "スキル威力上昇",
+        "category": "ATTACK",
+        "description": "スキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "スキル威力{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 141,
@@ -836,51 +828,49 @@
       "received": "赤",
       "given": "緑"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 15,
-          "name": "打の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000064,
-              "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        },
-        {
-          "id": 46,
-          "name": "全体回復ボーナス",
-          "category": "RECOVERY",
-          "description": "全体回復が与えるHP回復量{0}%アップ",
-          "effects": [
-            {
-              "id": 3000074,
-              "description": "全体回復が与えるHP回復量{0}%アップ",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 39,
-          "name": "回復量上昇",
-          "category": "RECOVERY",
-          "description": "与えるHP回復量{0}%アップ",
-          "effects": [
-            {
-              "id": 3000031,
-              "description": "HP回復量{0}%アップ",
-              "values": [200, 300, 500, 900, 1500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 15,
+        "name": "打の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000064,
+            "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "全体回復ボーナス",
+        "category": "RECOVERY",
+        "description": "全体回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体回復が与えるHP回復量{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 39,
+        "name": "回復量上昇",
+        "category": "RECOVERY",
+        "description": "与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000031,
+            "description": "HP回復量{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 134,
@@ -1034,51 +1024,49 @@
       "received": "黄",
       "given": "青"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 8,
-          "name": "風の祝福",
-          "category": "ATTACK",
-          "description": "風属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000007,
-              "description": "風属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 49,
-          "name": "追い打ち強化",
-          "category": "ATTACK",
-          "description": "ブレイク中の敵へのダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000077,
-              "description": "ブレイク中の敵へのダメージ{0}%アップ",
-              "values": [600, 1100, 1700, 3300, 5400]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 8,
-          "name": "風ダメージ上昇",
-          "category": "ATTACK",
-          "description": "風属性のスキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000007,
-              "description": "風属性のダメージ{0}%アップ",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 8,
+        "name": "風の祝福",
+        "category": "ATTACK",
+        "description": "風属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "風属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "追い打ち強化",
+        "category": "ATTACK",
+        "description": "ブレイク中の敵へのダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "ブレイク中の敵へのダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 8,
+        "name": "風ダメージ上昇",
+        "category": "ATTACK",
+        "description": "風属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "風属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 141,
@@ -1224,51 +1212,49 @@
       "received": "紫",
       "given": "青"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 46,
-          "name": "全体回復ボーナス",
-          "category": "RECOVERY",
-          "description": "全体回復が与えるHP回復量{0}%アップ",
-          "effects": [
-            {
-              "id": 3000074,
-              "description": "全体回復が与えるHP回復量{0}%アップ",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        },
-        {
-          "id": 20,
-          "name": "風の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「風属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000062,
-              "description": "対象に「風属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 26,
-          "name": "魔法耐性上昇",
-          "category": "ENHANCE",
-          "description": "魔法攻撃から受けるダメージ{0}%ダウン",
-          "effects": [
-            {
-              "id": 3000027,
-              "description": "魔法属性ダメージ耐性{0}%アップ",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 46,
+        "name": "全体回復ボーナス",
+        "category": "RECOVERY",
+        "description": "全体回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体回復が与えるHP回復量{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "風の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「風属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000062,
+            "description": "対象に「風属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 26,
+        "name": "魔法耐性上昇",
+        "category": "ENHANCE",
+        "description": "魔法攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000027,
+            "description": "魔法属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 204,
@@ -1419,51 +1405,49 @@
       "received": "紫",
       "given": "黄"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 9,
-          "name": "雷の祝福",
-          "category": "ATTACK",
-          "description": "雷属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000006,
-              "description": "雷属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 18,
-          "name": "火の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000059,
-              "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 9,
-          "name": "雷ダメージ上昇",
-          "category": "ATTACK",
-          "description": "雷属性のスキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000006,
-              "description": "雷属性のダメージ{0}%アップ",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 9,
+        "name": "雷の祝福",
+        "category": "ATTACK",
+        "description": "雷属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "雷属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "火の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 9,
+        "name": "雷ダメージ上昇",
+        "category": "ATTACK",
+        "description": "雷属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "雷属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 149,
@@ -1614,51 +1598,49 @@
       "received": "緑",
       "given": "青"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 9,
-          "name": "雷の祝福",
-          "category": "ATTACK",
-          "description": "雷属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000006,
-              "description": "雷属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 28,
-          "name": "雷の盾",
-          "category": "ENHANCE",
-          "description": "対象に「雷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000068,
-              "description": "対象に「雷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 22,
-          "name": "氷耐性上昇",
-          "category": "ENHANCE",
-          "description": "氷属性耐性{0}%アップ",
-          "effects": [
-            {
-              "id": 3000023,
-              "description": "氷属性ダメージ耐性{0}%アップ",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 9,
+        "name": "雷の祝福",
+        "category": "ATTACK",
+        "description": "雷属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "雷属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "雷の盾",
+        "category": "ENHANCE",
+        "description": "対象に「雷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000068,
+            "description": "対象に「雷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 22,
+        "name": "氷耐性上昇",
+        "category": "ENHANCE",
+        "description": "氷属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000023,
+            "description": "氷属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 138,
@@ -1819,51 +1801,49 @@
       "received": "黄",
       "given": "赤"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 13,
-          "name": "剛力の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000047,
-              "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 11,
-          "name": "魔防の祝福",
-          "category": "ENHANCE",
-          "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
-          "effects": [
-            {
-              "id": 3000051,
-              "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 14,
-          "name": "物理ブレイクダメージ上昇",
-          "category": "ATTACK",
-          "description": "物理攻撃のブレイクダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000013,
-              "description": "物理属性攻撃のブレイクダメージ{0}%アップ",
-              "values": [200, 400, 600, 1200, 2000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 13,
+        "name": "剛力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000047,
+            "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "魔防の祝福",
+        "category": "ENHANCE",
+        "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 14,
+        "name": "物理ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "物理攻撃のブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000013,
+            "description": "物理属性攻撃のブレイクダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 134,
@@ -2014,51 +1994,49 @@
       "received": "緑",
       "given": "赤"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 17,
-          "name": "魔力の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000049,
-              "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 49,
-          "name": "追い打ち強化",
-          "category": "ATTACK",
-          "description": "ブレイク中の敵へのダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000077,
-              "description": "ブレイク中の敵へのダメージ{0}%アップ",
-              "values": [600, 1100, 1700, 3300, 5400]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 7,
-          "name": "氷ダメージ上昇",
-          "category": "ATTACK",
-          "description": "氷属性のスキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000005,
-              "description": "氷属性のダメージ{0}%アップ",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 17,
+        "name": "魔力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "追い打ち強化",
+        "category": "ATTACK",
+        "description": "ブレイク中の敵へのダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "ブレイク中の敵へのダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 7,
+        "name": "氷ダメージ上昇",
+        "category": "ATTACK",
+        "description": "氷属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "氷属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 151,
@@ -2193,6 +2171,200 @@
     "start_at": "2023-09-23T03:00:00.000Z"
   },
   {
+    "id": 25502,
+    "name": "ロロナ",
+    "title": "【フォーリンホワイト】",
+    "full_name": "ロロライナ・フリクセル",
+    "base_character": "ロロナ",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "SLASH",
+    "role": "SUPPORTER",
+    "initial_rarity": 3,
+    "acquisition_text": "えへへ、少し雰囲気を変えてみたんです。\nそれじゃ早速、行きましょう！",
+    "profile": {
+      "voice_actor": "門脇舞以",
+      "voice_text": "大人っぽくて落ち着いたわたし……\nち、ちゃんとそう見えてるよね？",
+      "description": "明るく元気な錬金術士。\n珍しく雪の積もった王都に出かけるため、いつもより暖かい服に身を包んだ。\n自分に似合うか不安に思いつつも、普段と違う雰囲気に心を躍らせている。特にふわふわの帽子がお気に入り。",
+      "origin_game": "ロロナのアトリエ ～アーランドの錬金術士～"
+    },
+    "gift_color": {
+      "received": "緑",
+      "given": "青"
+    },
+    "battle_item_trait": [
+      {
+        "id": 2,
+        "name": "斬の祝福",
+        "category": "ATTACK",
+        "description": "斬属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000002,
+            "description": "斬属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "火の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 41,
+        "name": "全体回復量上昇",
+        "category": "RECOVERY",
+        "description": "味方全員回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体回復が与えるHP回復量{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 130,
+        "spd": 249,
+        "patk": 52,
+        "matk": 50,
+        "pdef": 63,
+        "mdef": 56
+      },
+      "growth": {
+        "hp": 1300,
+        "spd": 0,
+        "patk": 520,
+        "matk": 500,
+        "pdef": 630,
+        "mdef": 560
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 5,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "サンライトインパクト",
+      "description": "攻撃後、味方全員のHPを{0}%回復",
+      "summary": "攻撃後、味方全員のHPを回復",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000925,
+          "description": "",
+          "value": 500
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [51, 54, 57, 60, 63],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "太陽のベール",
+      "description": "味方1人に「クリティカル確率+{0}%」を1回行動終了するまで付与し、<br>対象のHPを{1}%回復",
+      "summary": "味方1人のクリティカル確率アップ<br>対象のHPを回復",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001156,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001163,
+          "description": "",
+          "value": 500
+        }
+      ],
+      "attribute_type": "NONE",
+      "attribute": "SLASH",
+      "target": "ALLY",
+      "range": "ONE",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "ふわふわルミナース",
+      "description": "味方全員に「物攻+{0}%」を付与(上限30%)し、<br>対象のHPを{1}%回復",
+      "summary": "味方全員の物攻アップ<br>対象のHPを回復",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001157,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91000925,
+          "description": "",
+          "value": 2500
+        }
+      ],
+      "attribute_type": "NONE",
+      "attribute": "SLASH",
+      "target": "ALLY",
+      "range": "ALL",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "溢れ出る闘争の力Ⅱ",
+      "description": "味方全員のスキルダメージ+{0}%",
+      "effects": [
+        {
+          "id": 72000922,
+          "description": "",
+          "value": 2000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "レジストアップ麻痺",
+      "description": "麻痺耐性+{0}%",
+      "effects": [
+        {
+          "id": 72000905,
+          "description": "[自身/常時/麻痺耐性上昇]",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2024-02-20T03:00:00.000Z"
+  },
+  {
     "id": 25601,
     "name": "クーデリア",
     "title": "【貴族令嬢】",
@@ -2214,51 +2386,49 @@
       "received": "紫",
       "given": "青"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 15,
-          "name": "打の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000064,
-              "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        },
-        {
-          "id": 26,
-          "name": "氷の盾",
-          "category": "ENHANCE",
-          "description": "対象に「氷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000067,
-              "description": "対象に「氷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 1,
-          "name": "与ダメージ上昇",
-          "category": "ATTACK",
-          "description": "スキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000011,
-              "description": "スキルダメージ{0}%アップ",
-              "values": [200, 300, 500, 900, 1500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 15,
+        "name": "打の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000064,
+            "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "氷の盾",
+        "category": "ENHANCE",
+        "description": "対象に「氷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000067,
+            "description": "対象に「氷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 1,
+        "name": "与ダメージ上昇",
+        "category": "ATTACK",
+        "description": "スキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000011,
+            "description": "スキルダメージ{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 147,
@@ -2404,51 +2574,49 @@
       "received": "紫",
       "given": "黄"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 11,
-          "name": "魔防の祝福",
-          "category": "ENHANCE",
-          "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
-          "effects": [
-            {
-              "id": 3000051,
-              "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 19,
-          "name": "氷の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「氷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000060,
-              "description": "対象に「氷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 20,
-          "name": "突耐性上昇",
-          "category": "ENHANCE",
-          "description": "突属性耐性{0}%アップ",
-          "effects": [
-            {
-              "id": 3000019,
-              "description": "突属性ダメージ耐性{0}%アップ",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 11,
+        "name": "魔防の祝福",
+        "category": "ENHANCE",
+        "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "氷の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「氷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000060,
+            "description": "対象に「氷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 20,
+        "name": "突耐性上昇",
+        "category": "ENHANCE",
+        "description": "突属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000019,
+            "description": "突属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 150,
@@ -2577,6 +2745,198 @@
     "start_at": "2023-09-23T03:00:00.000Z"
   },
   {
+    "id": 25901,
+    "name": "ステルク",
+    "title": "【気高き剣士】",
+    "full_name": "ステルケンブルク・クラナッハ",
+    "base_character": "ステルク",
+    "is_alchemist": false,
+    "gender": "男性",
+    "attribute": "AIR",
+    "role": "BREAKER",
+    "initial_rarity": 1,
+    "acquisition_text": null,
+    "profile": {
+      "voice_actor": "小杉十郎太",
+      "voice_text": "元の世界で、騎士という身分はなくなった。\nだが、私が為すべきことは今も同じだ",
+      "description": "苦労人な元騎士。\nかつてはアーランドという国に仕えていた。騎士という身分ではなくなった今も、騎士らしくありたいという信念の元、護衛や魔物退治といった仕事をこなしている。\n真面目な性格だが、不器用で口数が少ないため怖い人だと思われがち。",
+      "origin_game": "ロロナのアトリエ ～アーランドの錬金術士～"
+    },
+    "gift_color": {
+      "received": "紫",
+      "given": "赤"
+    },
+    "battle_item_trait": [
+      {
+        "id": 49,
+        "name": "追い打ち強化",
+        "category": "ATTACK",
+        "description": "ブレイク中の敵へのダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "ブレイク中の敵へのダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "風の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「風属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000062,
+            "description": "対象に「風属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 17,
+        "name": "ブレイクダメージ上昇【渾身】",
+        "category": "ATTACK",
+        "description": "HP満タン時、ブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000016,
+            "description": "HPが最大の時、ブレイクダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 143,
+        "spd": 222,
+        "patk": 52,
+        "matk": 55,
+        "pdef": 44,
+        "mdef": 40
+      },
+      "growth": {
+        "hp": 1430,
+        "spd": 0,
+        "patk": 520,
+        "matk": 550,
+        "pdef": 440,
+        "mdef": 400
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 5,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "ヘビースラッシュ",
+      "description": "追加効果なし",
+      "summary": "追加効果なし",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [70, 74, 78, 82, 87],
+      "has_stun": true,
+      "stun_values": [19, 20, 21, 22, 23],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "インペリアルライド",
+      "description": "攻撃後、自身に「スキルダメージ+{0}%」を付与(上限80%)し、<br>自身に「ブレイクダメージ-{1}%」を付与(上限80%)",
+      "summary": "攻撃後、自身のスキルダメージアップ<br>自身のブレイクダメージダウン",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001168,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001169,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [182, 193, 204, 215, 227],
+      "has_stun": true,
+      "stun_values": [113, 120, 127, 134, 141],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "ブレイブウインド",
+      "description": "攻撃後、自身に「スキルダメージ+{0}%」を付与(上限40%)",
+      "summary": "攻撃後、自身のスキルダメージアップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001170,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [320, 320, 320, 330, 340, 350, 360],
+      "has_stun": true,
+      "stun_values": [270, 270, 270, 286, 303, 320, 337],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "みなぎる闘志",
+      "description": "HP回復を受けた時、自身に「ブレイクダメージ+{0}%」を付与(上限20%)<br>スキルで撃破時、自身に「ターン開始時、マイナス効果解除」を1回行動開始するまで付与",
+      "effects": [
+        {
+          "id": 72000962,
+          "description": "HP回復を受けた時、自身に「ブレイクダメージ+{0}%」を付与(上限20%)",
+          "value": 200
+        },
+        {
+          "id": 72000949,
+          "description": "撃破時、マイナス効果解除付与(1回)",
+          "value": 10000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "レジストアップ挑発",
+      "description": "挑発耐性+{0}%",
+      "effects": [
+        {
+          "id": 72000927,
+          "description": "[自身/常時/挑発耐性上昇]",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2024-02-20T03:00:00.000Z"
+  },
+  {
     "id": 26501,
     "name": "エスティ",
     "title": "【頼れる受付嬢】",
@@ -2598,51 +2958,49 @@
       "received": "青",
       "given": "紫"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 14,
-          "name": "斬の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「斬属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000063,
-              "description": "対象に「斬属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        },
-        {
-          "id": 25,
-          "name": "火の盾",
-          "category": "ENHANCE",
-          "description": "対象に「火属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000066,
-              "description": "対象に「火属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 25,
-          "name": "物理耐性上昇",
-          "category": "ENHANCE",
-          "description": "物理攻撃から受けるダメージ{0}%ダウン",
-          "effects": [
-            {
-              "id": 3000026,
-              "description": "物理属性ダメージ耐性{0}%アップ",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 14,
+        "name": "斬の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「斬属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000063,
+            "description": "対象に「斬属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "火の盾",
+        "category": "ENHANCE",
+        "description": "対象に「火属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000066,
+            "description": "対象に「火属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 25,
+        "name": "物理耐性上昇",
+        "category": "ENHANCE",
+        "description": "物理攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "物理属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 142,
@@ -2788,51 +3146,49 @@
       "received": "緑",
       "given": "紫"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 44,
-          "name": "大きな回復量",
-          "category": "RECOVERY",
-          "description": "与えるHP回復量{0}%アップ",
-          "effects": [
-            {
-              "id": 3000075,
-              "description": "与えるHP回復量{0}%アップ",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 11,
-          "name": "魔防の祝福",
-          "category": "ENHANCE",
-          "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
-          "effects": [
-            {
-              "id": 3000051,
-              "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 39,
-          "name": "回復量上昇",
-          "category": "RECOVERY",
-          "description": "与えるHP回復量{0}%アップ",
-          "effects": [
-            {
-              "id": 3000031,
-              "description": "HP回復量{0}%アップ",
-              "values": [200, 300, 500, 900, 1500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 44,
+        "name": "大きな回復量",
+        "category": "RECOVERY",
+        "description": "与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000075,
+            "description": "与えるHP回復量{0}%アップ",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "魔防の祝福",
+        "category": "ENHANCE",
+        "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 39,
+        "name": "回復量上昇",
+        "category": "RECOVERY",
+        "description": "与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000031,
+            "description": "HP回復量{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 119,
@@ -2961,6 +3317,207 @@
     "start_at": "2023-09-23T03:00:00.000Z"
   },
   {
+    "id": 26902,
+    "name": "トトリ",
+    "title": "【Snow Adventurer】",
+    "full_name": "トトゥーリア・ヘルモルト",
+    "base_character": "トトリ",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "AIR",
+    "role": "DEFENDER",
+    "initial_rarity": 3,
+    "acquisition_text": "いつもとは違う服を選んでみました。\n楽しいお出かけにしましょうね！",
+    "profile": {
+      "voice_actor": "名塚佳織",
+      "voice_text": "今のわたしって、どう見えてるのかな？\n子どもっぽくないといいんだけど……",
+      "description": "漁村出身の錬金術士。\n王都に珍しく雪が降ったという話を聞き、ロロナと一緒に普段よりも厚着をして出かけることに。\nいつもより落ち着いた、大人っぽい雰囲気を目指して選んだ服だったが、積もった雪を見てつい童心に返りはしゃいでしまった。",
+      "origin_game": "トトリのアトリエ ～アーランドの錬金術士２～"
+    },
+    "gift_color": {
+      "received": "紫",
+      "given": "赤"
+    },
+    "battle_item_trait": [
+      {
+        "id": 8,
+        "name": "風の祝福",
+        "category": "ATTACK",
+        "description": "風属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "風属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "突の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000065,
+            "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "スキル威力上昇",
+        "category": "ATTACK",
+        "description": "スキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "スキル威力{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 180,
+        "spd": 241,
+        "patk": 47,
+        "matk": 51,
+        "pdef": 67,
+        "mdef": 71
+      },
+      "growth": {
+        "hp": 1800,
+        "spd": 0,
+        "patk": 470,
+        "matk": 510,
+        "pdef": 670,
+        "mdef": 710
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 5,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "ウインドベーゼ",
+      "description": "攻撃後、自身のHPに応じ、自身のHPを0〜30%回復(HP25〜100%で少ないほど増加)",
+      "summary": "攻撃後、自身のHPが少ないほど自身のHPを回復",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001027,
+          "description": "",
+          "value": 3000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [59, 62, 66, 69, 73],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "セフュロスブレス",
+      "description": "味方全員に「魔法攻撃ダメージ+{0}%」を1回行動終了するまで付与し、<br>自身に「攻撃を受けた時、味方全員のHPを{1}%回復」を2回攻撃を受けるまで付与",
+      "summary": "味方全員の魔法攻撃ダメージアップ<br>自身に「攻撃を受けた時、味方全員のHP回復」を付与",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001155,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001165,
+          "description": "",
+          "value": 500
+        }
+      ],
+      "attribute_type": "NONE",
+      "attribute": "AIR",
+      "target": "ALLY",
+      "range": "ALL",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "トトリアシーパレード",
+      "description": "攻撃後、味方全員に「魔法攻撃ダメージ+{0}%」を1回行動終了するまで付与し、<br>自身に「ぬくもりデュプリケイト」を付与(重複不可)",
+      "summary": "攻撃後、味方全員の魔法攻撃ダメージアップ<br>自身に「ぬくもりデュプリケイト」を付与",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001155,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001166,
+          "description": "",
+          "value": 200
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "ゆるふわニットで視線くぎ付け！",
+      "description": "敵にとても狙われやすくなる<br>スキル発動後、自身のHPを{0}%回復",
+      "effects": [
+        {
+          "id": 72000950,
+          "description": "[自身/HP回復]",
+          "value": 500
+        },
+        {
+          "id": 72000914,
+          "description": "狙われやすさ+100％",
+          "value": 10000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "ぬくもりデュプリケイト",
+      "description": "HP回復を受けた時、自身に「受けるダメージ-{0}%」を付与(上限20%)",
+      "effects": [
+        {
+          "id": 72000960,
+          "description": "HP回復を受けた時、自身に「受けるダメージ-{0}%」を付与(上限20%)",
+          "value": 200
+        }
+      ]
+    },
+    "start_at": "2024-02-20T03:00:00.000Z"
+  },
+  {
     "id": 28401,
     "name": "メルル",
     "title": "【パワフルプリンセス】",
@@ -2982,51 +3539,49 @@
       "received": "赤",
       "given": "緑"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 4,
-          "name": "突の祝福",
-          "category": "ATTACK",
-          "description": "突属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000001,
-              "description": "突属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 27,
-          "name": "風の盾",
-          "category": "ENHANCE",
-          "description": "対象に「風属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000069,
-              "description": "対象に「風属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 11,
-          "name": "魔法ダメージ上昇",
-          "category": "ATTACK",
-          "description": "魔法攻撃のスキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000009,
-              "description": "魔法攻撃のダメージ{0}%アップ",
-              "values": [200, 400, 600, 1200, 2000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 4,
+        "name": "突の祝福",
+        "category": "ATTACK",
+        "description": "突属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "突属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "風の盾",
+        "category": "ENHANCE",
+        "description": "対象に「風属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000069,
+            "description": "対象に「風属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 11,
+        "name": "魔法ダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 136,
@@ -3171,56 +3726,54 @@
       "received": "黄",
       "given": "緑"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 19,
-          "name": "氷の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「氷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000060,
-              "description": "対象に「氷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        },
-        {
-          "id": 10,
-          "name": "守護の祝福",
-          "category": "ENHANCE",
-          "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
-          "effects": [
-            {
-              "id": 3000050,
-              "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
-              "values": [100, 200, 300, 400, 500]
-            },
-            {
-              "id": 3000051,
-              "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 27,
-          "name": "単体攻撃威力上昇",
-          "category": "ATTACK",
-          "description": "単体攻撃のスキル威力{0}%アップ",
-          "effects": [
-            {
-              "id": 3000111,
-              "description": "単体攻撃のスキル威力{0}％アップ",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 19,
+        "name": "氷の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「氷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000060,
+            "description": "対象に「氷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "守護の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 27,
+        "name": "単体攻撃威力上昇",
+        "category": "ATTACK",
+        "description": "単体攻撃のスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000111,
+            "description": "単体攻撃のスキル威力{0}％アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 159,
@@ -3376,51 +3929,49 @@
       "received": "黄",
       "given": "青"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 44,
-          "name": "大きな回復量",
-          "category": "RECOVERY",
-          "description": "与えるHP回復量{0}%アップ",
-          "effects": [
-            {
-              "id": 3000075,
-              "description": "与えるHP回復量{0}%アップ",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 50,
-          "name": "会心の出来",
-          "category": "ENHANCE",
-          "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
-          "effects": [
-            {
-              "id": 3000045,
-              "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 39,
-          "name": "回復量上昇",
-          "category": "RECOVERY",
-          "description": "与えるHP回復量{0}%アップ",
-          "effects": [
-            {
-              "id": 3000031,
-              "description": "HP回復量{0}%アップ",
-              "values": [200, 300, 500, 900, 1500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 44,
+        "name": "大きな回復量",
+        "category": "RECOVERY",
+        "description": "与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000075,
+            "description": "与えるHP回復量{0}%アップ",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "会心の出来",
+        "category": "ENHANCE",
+        "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 39,
+        "name": "回復量上昇",
+        "category": "RECOVERY",
+        "description": "与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000031,
+            "description": "HP回復量{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 133,
@@ -3564,56 +4115,54 @@
       "received": "青",
       "given": "紫"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 10,
-          "name": "守護の祝福",
-          "category": "ENHANCE",
-          "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
-          "effects": [
-            {
-              "id": 3000050,
-              "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
-              "values": [100, 200, 300, 400, 500]
-            },
-            {
-              "id": 3000051,
-              "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        },
-        {
-          "id": 21,
-          "name": "雷の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000061,
-              "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 9,
-          "name": "雷ダメージ上昇",
-          "category": "ATTACK",
-          "description": "雷属性のスキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000006,
-              "description": "雷属性のダメージ{0}%アップ",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 10,
+        "name": "守護の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "雷の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000061,
+            "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 9,
+        "name": "雷ダメージ上昇",
+        "category": "ATTACK",
+        "description": "雷属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "雷属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 199,
@@ -3767,51 +4316,49 @@
       "received": "紫",
       "given": "赤"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 6,
-          "name": "火の祝福",
-          "category": "ATTACK",
-          "description": "火属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000004,
-              "description": "火属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 15,
-          "name": "打の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000064,
-              "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 11,
-          "name": "魔法ダメージ上昇",
-          "category": "ATTACK",
-          "description": "魔法攻撃のスキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000009,
-              "description": "魔法攻撃のダメージ{0}%アップ",
-              "values": [200, 400, 600, 1200, 2000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 6,
+        "name": "火の祝福",
+        "category": "ATTACK",
+        "description": "火属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "火属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "打の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000064,
+            "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 11,
+        "name": "魔法ダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 149,
@@ -3962,51 +4509,49 @@
       "received": "赤",
       "given": "緑"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 3,
-          "name": "打の祝福",
-          "category": "ATTACK",
-          "description": "打属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000003,
-              "description": "打属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 28,
-          "name": "雷の盾",
-          "category": "ENHANCE",
-          "description": "対象に「雷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000068,
-              "description": "対象に「雷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 21,
-          "name": "火耐性上昇",
-          "category": "ENHANCE",
-          "description": "火属性耐性{0}%アップ",
-          "effects": [
-            {
-              "id": 3000022,
-              "description": "火属性ダメージ耐性{0}%アップ",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 3,
+        "name": "打の祝福",
+        "category": "ATTACK",
+        "description": "打属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "打属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "雷の盾",
+        "category": "ENHANCE",
+        "description": "対象に「雷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000068,
+            "description": "対象に「雷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 21,
+        "name": "火耐性上昇",
+        "category": "ENHANCE",
+        "description": "火属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000022,
+            "description": "火属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 179,
@@ -4156,51 +4701,49 @@
       "received": "黄",
       "given": "緑"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 6,
-          "name": "火の祝福",
-          "category": "ATTACK",
-          "description": "火属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000004,
-              "description": "火属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 12,
-          "name": "物防の祝福",
-          "category": "ENHANCE",
-          "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
-          "effects": [
-            {
-              "id": 3000050,
-              "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 26,
-          "name": "魔法耐性上昇",
-          "category": "ENHANCE",
-          "description": "魔法攻撃から受けるダメージ{0}%ダウン",
-          "effects": [
-            {
-              "id": 3000027,
-              "description": "魔法属性ダメージ耐性{0}%アップ",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 6,
+        "name": "火の祝福",
+        "category": "ATTACK",
+        "description": "火属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "火属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "物防の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 26,
+        "name": "魔法耐性上昇",
+        "category": "ENHANCE",
+        "description": "魔法攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000027,
+            "description": "魔法属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 202,
@@ -4356,51 +4899,49 @@
       "received": "緑",
       "given": "黄"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 25,
-          "name": "火の盾",
-          "category": "ENHANCE",
-          "description": "対象に「火属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000066,
-              "description": "対象に「火属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 49,
-          "name": "追い打ち強化",
-          "category": "ATTACK",
-          "description": "ブレイク中の敵へのダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000077,
-              "description": "ブレイク中の敵へのダメージ{0}%アップ",
-              "values": [600, 1100, 1700, 3300, 5400]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 44,
-          "name": "物理/魔法耐性アップ強化【D】",
-          "category": "ENHANCE",
-          "description": "対象がディフェンダーへ与える「物理被ダメージダウン」と「魔法被ダメージダウン」の効果量{0}%アップ",
-          "effects": [
-            {
-              "id": 3000029,
-              "description": "対象がディフェンダーへ与える「物理被ダメージダウン」と「魔法被ダメージダウン」の効果量{0}%アップ",
-              "values": [500, 1000, 1500, 3000, 5000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 25,
+        "name": "火の盾",
+        "category": "ENHANCE",
+        "description": "対象に「火属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000066,
+            "description": "対象に「火属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "追い打ち強化",
+        "category": "ATTACK",
+        "description": "ブレイク中の敵へのダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "ブレイク中の敵へのダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 44,
+        "name": "物理/魔法耐性アップ強化【D】",
+        "category": "ENHANCE",
+        "description": "対象がディフェンダーへ与える「物理被ダメージダウン」と「魔法被ダメージダウン」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000029,
+            "description": "対象がディフェンダーへ与える「物理被ダメージダウン」と「魔法被ダメージダウン」の効果量{0}%アップ",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 197,
@@ -4552,51 +5093,49 @@
       "received": "赤",
       "given": "紫"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 12,
-          "name": "物防の祝福",
-          "category": "ENHANCE",
-          "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
-          "effects": [
-            {
-              "id": 3000050,
-              "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 6,
-          "name": "火の祝福",
-          "category": "ATTACK",
-          "description": "火属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000004,
-              "description": "火属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 24,
-          "name": "雷耐性上昇",
-          "category": "ENHANCE",
-          "description": "雷属性耐性{0}%アップ",
-          "effects": [
-            {
-              "id": 3000024,
-              "description": "雷属性ダメージ耐性{0}%アップ",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 12,
+        "name": "物防の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "火の祝福",
+        "category": "ATTACK",
+        "description": "火属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "火属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 24,
+        "name": "雷耐性上昇",
+        "category": "ENHANCE",
+        "description": "雷属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000024,
+            "description": "雷属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 142,
@@ -4741,51 +5280,49 @@
       "received": "緑",
       "given": "青"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 5,
-          "name": "魔力の祝福",
-          "category": "ATTACK",
-          "description": "魔法攻撃のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000009,
-              "description": "魔法攻撃のダメージ{0}%アップ",
-              "values": [300, 600, 900, 1800, 3000]
-            }
-          ]
-        },
-        {
-          "id": 13,
-          "name": "剛力の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000047,
-              "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 11,
-          "name": "魔法ダメージ上昇",
-          "category": "ATTACK",
-          "description": "魔法攻撃のスキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000009,
-              "description": "魔法攻撃のダメージ{0}%アップ",
-              "values": [200, 400, 600, 1200, 2000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 5,
+        "name": "魔力の祝福",
+        "category": "ATTACK",
+        "description": "魔法攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "剛力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000047,
+            "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 11,
+        "name": "魔法ダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 143,
@@ -4936,51 +5473,49 @@
       "received": "赤",
       "given": "紫"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 50,
-          "name": "会心の出来",
-          "category": "ENHANCE",
-          "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
-          "effects": [
-            {
-              "id": 3000045,
-              "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 17,
-          "name": "魔力の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000049,
-              "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 23,
-          "name": "風耐性上昇",
-          "category": "ENHANCE",
-          "description": "風属性耐性{0}%アップ",
-          "effects": [
-            {
-              "id": 3000025,
-              "description": "風属性ダメージ耐性{0}%アップ",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 50,
+        "name": "会心の出来",
+        "category": "ENHANCE",
+        "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "魔力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 23,
+        "name": "風耐性上昇",
+        "category": "ENHANCE",
+        "description": "風属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000025,
+            "description": "風属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 125,
@@ -5141,51 +5676,49 @@
       "received": "黄",
       "given": "赤"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 22,
-          "name": "斬の盾",
-          "category": "ENHANCE",
-          "description": "対象に「斬属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000070,
-              "description": "対象に「斬属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "name": "打の祝福",
-          "category": "ATTACK",
-          "description": "打属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000003,
-              "description": "打属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 19,
-          "name": "打耐性上昇",
-          "category": "ENHANCE",
-          "description": "打属性耐性{0}%アップ",
-          "effects": [
-            {
-              "id": 3000021,
-              "description": "打属性ダメージ耐性{0}%アップ",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 22,
+        "name": "斬の盾",
+        "category": "ENHANCE",
+        "description": "対象に「斬属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000070,
+            "description": "対象に「斬属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "打の祝福",
+        "category": "ATTACK",
+        "description": "打属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "打属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 19,
+        "name": "打耐性上昇",
+        "category": "ENHANCE",
+        "description": "打属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000021,
+            "description": "打属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 155,
@@ -5324,6 +5857,204 @@
     "start_at": "2023-09-23T03:00:00.000Z"
   },
   {
+    "id": 30902,
+    "name": "エスカ",
+    "title": "【Sweet Monochrome】",
+    "full_name": "エスカ・メーリエ",
+    "base_character": "エスカ",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "STAB",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "おかえりなさいませ、ご主人様！\n……こ、こんな感じでしょうか",
+    "profile": {
+      "voice_actor": "村川梨衣",
+      "voice_text": "とってもかわいい衣装なんですけど、\nわたしに似合ってますかね？",
+      "description": "明るくひたむきな錬金術士。\nランターナ王国では毎年、大切な人にチョコレートを贈る「リンデ祭」という催しが行われている。エスカはお菓子作りの腕を買われ、その盛り上げ役に任命された。\nその役目にふさわしい衣装を身に纏い、リンデ祭に向けて彼女の奮闘が始まる。自分自身も大切な人にチョコを届けるために。",
+      "origin_game": "エスカ＆ロジーのアトリエ ～黄昏の空の錬金術士～"
+    },
+    "gift_color": {
+      "received": "赤",
+      "given": "青"
+    },
+    "battle_item_trait": [
+      {
+        "id": 4,
+        "name": "突の祝福",
+        "category": "ATTACK",
+        "description": "突属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "突属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "突の盾",
+        "category": "ENHANCE",
+        "description": "対象に「突属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000072,
+            "description": "対象に「突属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 14,
+        "name": "物理ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "物理攻撃のブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000013,
+            "description": "物理属性攻撃のブレイクダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 148,
+        "spd": 247,
+        "patk": 61,
+        "matk": 52,
+        "pdef": 45,
+        "mdef": 44
+      },
+      "growth": {
+        "hp": 1480,
+        "spd": 0,
+        "patk": 610,
+        "matk": 520,
+        "pdef": 450,
+        "mdef": 440
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 5
+      }
+    },
+    "skill_1": {
+      "name": "エーテルフォーク",
+      "description": "攻撃後、自身に「ブレイクダメージ+{0}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、自身のブレイクダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000908,
+          "description": "",
+          "value": 4000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [41, 43, 46, 48, 51],
+      "has_stun": true,
+      "stun_values": [16, 17, 18, 19, 20],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "ポッピングスタブ",
+      "description": "攻撃後、対象に「受ける物理攻撃ダメージ+{0}%」を2回攻撃を受けるまで付与<br>対象がブレイク時、さらに「受ける物理攻撃ダメージ+{1}%」を2回攻撃を受けるまで付与",
+      "summary": "攻撃後、対象の受ける物理攻撃ダメージアップ。対象がブレイク時、対象の受ける物理攻撃ダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001148,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001149,
+          "description": "",
+          "value": 3000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [151, 160, 169, 178, 188],
+      "has_stun": true,
+      "stun_values": [117, 124, 131, 138, 146],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "お手製アップルパイ",
+      "description": "攻撃後、対象に「受ける物理攻撃ダメージ+{0}%」を2回攻撃を受けるまで付与<br>対象がブレイク時、物攻が最も高い味方に「物攻+{1}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、対象の受ける物理攻撃ダメージアップ<br>対象がブレイク時、味方1人の超物攻アップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001148,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001162,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [320, 320, 320, 340, 360, 380, 400],
+      "has_stun": true,
+      "stun_values": [300, 300, 300, 318, 337, 356, 375],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "もうチョコっと頑張ります！",
+      "description": "攻撃対象がブレイクしなかった時、自身に「ブレイクダメージ+{0}%」を1回行動するまで付与",
+      "effects": [
+        {
+          "id": 72000957,
+          "description": "[自身/ブレイクしなかった時/1回/ブレイクダメージアップ]",
+          "value": 3000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "破壊の力",
+      "description": "ブレイクダメージ+{0}%",
+      "effects": [
+        {
+          "id": 72000959,
+          "description": "[自身/常時/ブレイクダメージアップ]",
+          "value": 1500
+        }
+      ]
+    },
+    "start_at": "2024-02-09T03:00:00.000Z"
+  },
+  {
     "id": 31001,
     "name": "ロジー",
     "title": "【黄昏の錬金剣】",
@@ -5345,51 +6076,49 @@
       "received": "青",
       "given": "黄"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 50,
-          "name": "会心の出来",
-          "category": "ENHANCE",
-          "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
-          "effects": [
-            {
-              "id": 3000045,
-              "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 12,
-          "name": "物防の祝福",
-          "category": "ENHANCE",
-          "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
-          "effects": [
-            {
-              "id": 3000050,
-              "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 3,
-          "name": "斬ダメージ上昇",
-          "category": "ATTACK",
-          "description": "斬属性のスキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000002,
-              "description": "斬属性のダメージ{0}%アップ",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 50,
+        "name": "会心の出来",
+        "category": "ENHANCE",
+        "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "物防の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 3,
+        "name": "斬ダメージ上昇",
+        "category": "ATTACK",
+        "description": "斬属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000002,
+            "description": "斬属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 150,
@@ -5535,51 +6264,49 @@
       "received": "緑",
       "given": "黄"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 49,
-          "name": "追い打ち強化",
-          "category": "ATTACK",
-          "description": "ブレイク中の敵へのダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000077,
-              "description": "ブレイク中の敵へのダメージ{0}%アップ",
-              "values": [600, 1100, 1700, 3300, 5400]
-            }
-          ]
-        },
-        {
-          "id": 21,
-          "name": "雷の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000061,
-              "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 15,
-          "name": "魔法ブレイクダメージ上昇",
-          "category": "ATTACK",
-          "description": "魔法攻撃のブレイクダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000014,
-              "description": "魔法属性攻撃のブレイクダメージ{0}%アップ",
-              "values": [200, 400, 600, 1200, 2000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 49,
+        "name": "追い打ち強化",
+        "category": "ATTACK",
+        "description": "ブレイク中の敵へのダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "ブレイク中の敵へのダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "雷の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000061,
+            "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 15,
+        "name": "魔法ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000014,
+            "description": "魔法属性攻撃のブレイクダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 142,
@@ -5730,56 +6457,54 @@
       "received": "黄",
       "given": "青"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 10,
-          "name": "守護の祝福",
-          "category": "ENHANCE",
-          "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
-          "effects": [
-            {
-              "id": 3000050,
-              "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
-              "values": [100, 200, 300, 400, 500]
-            },
-            {
-              "id": 3000051,
-              "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        },
-        {
-          "id": 17,
-          "name": "魔力の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000049,
-              "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 15,
-          "name": "魔法ブレイクダメージ上昇",
-          "category": "ATTACK",
-          "description": "魔法攻撃のブレイクダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000014,
-              "description": "魔法属性攻撃のブレイクダメージ{0}%アップ",
-              "values": [200, 400, 600, 1200, 2000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 10,
+        "name": "守護の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "魔力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 15,
+        "name": "魔法ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000014,
+            "description": "魔法属性攻撃のブレイクダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 159,
@@ -5919,51 +6644,49 @@
       "received": "青",
       "given": "赤"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 16,
-          "name": "突の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000065,
-              "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        },
-        {
-          "id": 11,
-          "name": "魔防の祝福",
-          "category": "ENHANCE",
-          "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
-          "effects": [
-            {
-              "id": 3000051,
-              "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 6,
-          "name": "火ダメージ上昇",
-          "category": "ATTACK",
-          "description": "火属性のスキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000004,
-              "description": "火属性のダメージ{0}%アップ",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 16,
+        "name": "突の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000065,
+            "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "魔防の祝福",
+        "category": "ENHANCE",
+        "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 6,
+        "name": "火ダメージ上昇",
+        "category": "ATTACK",
+        "description": "火属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "火属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 139,
@@ -6113,51 +6836,49 @@
       "received": "紫",
       "given": "黄"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 3,
-          "name": "打の祝福",
-          "category": "ATTACK",
-          "description": "打属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000003,
-              "description": "打属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 13,
-          "name": "剛力の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000047,
-              "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 12,
-          "name": "ブレイク中ダメージ上昇",
-          "category": "ATTACK",
-          "description": "ブレイク中の敵へのダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000077,
-              "description": "ブレイク中の敵へのダメージ{0}%アップ",
-              "values": [300, 600, 900, 1800, 3000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 3,
+        "name": "打の祝福",
+        "category": "ATTACK",
+        "description": "打属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "打属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "剛力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000047,
+            "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 12,
+        "name": "ブレイク中ダメージ上昇",
+        "category": "ATTACK",
+        "description": "ブレイク中の敵へのダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "ブレイク中の敵へのダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 142,
@@ -6308,51 +7029,49 @@
       "received": "紫",
       "given": "赤"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 46,
-          "name": "全体回復ボーナス",
-          "category": "RECOVERY",
-          "description": "全体回復が与えるHP回復量{0}%アップ",
-          "effects": [
-            {
-              "id": 3000074,
-              "description": "全体回復が与えるHP回復量{0}%アップ",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        },
-        {
-          "id": 27,
-          "name": "風の盾",
-          "category": "ENHANCE",
-          "description": "対象に「風属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000069,
-              "description": "対象に「風属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 39,
-          "name": "回復量上昇",
-          "category": "RECOVERY",
-          "description": "与えるHP回復量{0}%アップ",
-          "effects": [
-            {
-              "id": 3000031,
-              "description": "HP回復量{0}%アップ",
-              "values": [200, 300, 500, 900, 1500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 46,
+        "name": "全体回復ボーナス",
+        "category": "RECOVERY",
+        "description": "全体回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体回復が与えるHP回復量{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "風の盾",
+        "category": "ENHANCE",
+        "description": "対象に「風属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000069,
+            "description": "対象に「風属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 39,
+        "name": "回復量上昇",
+        "category": "RECOVERY",
+        "description": "与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000031,
+            "description": "HP回復量{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 132,
@@ -6505,51 +7224,49 @@
       "received": "青",
       "given": "緑"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 17,
-          "name": "魔力の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000049,
-              "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 5,
-          "name": "魔力の祝福",
-          "category": "ATTACK",
-          "description": "魔法攻撃のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000009,
-              "description": "魔法攻撃のダメージ{0}%アップ",
-              "values": [300, 600, 900, 1800, 3000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 43,
-          "name": "物理耐性上昇【D】",
-          "category": "ENHANCE",
-          "description": "ディフェンダーへの物理攻撃のダメージ{0}%ダウン",
-          "effects": [
-            {
-              "id": 3000033,
-              "description": "ディフェンダーの物理属性ダメージ耐性{0}%アップ",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 17,
+        "name": "魔力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "魔力の祝福",
+        "category": "ATTACK",
+        "description": "魔法攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 43,
+        "name": "物理耐性上昇【D】",
+        "category": "ENHANCE",
+        "description": "ディフェンダーへの物理攻撃のダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000033,
+            "description": "ディフェンダーの物理属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 185,
@@ -6700,51 +7417,49 @@
       "received": "紫",
       "given": "黄"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 15,
-          "name": "打の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000064,
-              "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        },
-        {
-          "id": 23,
-          "name": "打の盾",
-          "category": "ENHANCE",
-          "description": "対象に「打属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000071,
-              "description": "対象に「打属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 4,
-          "name": "打ダメージ上昇",
-          "category": "ATTACK",
-          "description": "打属性のスキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000003,
-              "description": "打属性のダメージ{0}%アップ",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 15,
+        "name": "打の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000064,
+            "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "打の盾",
+        "category": "ENHANCE",
+        "description": "対象に「打属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000071,
+            "description": "対象に「打属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 4,
+        "name": "打ダメージ上昇",
+        "category": "ATTACK",
+        "description": "打属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "打属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 159,
@@ -6889,51 +7604,49 @@
       "received": "青",
       "given": "赤"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 2,
-          "name": "斬の祝福",
-          "category": "ATTACK",
-          "description": "斬属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000002,
-              "description": "斬属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 45,
-          "name": "単体回復ボーナス",
-          "category": "RECOVERY",
-          "description": "単体回復が与えるHP回復量{0}%アップ",
-          "effects": [
-            {
-              "id": 3000073,
-              "description": "単体回復が与えるHP回復量{0}%アップ",
-              "values": [200, 300, 500, 900, 1500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 10,
-          "name": "物理ダメージ上昇",
-          "category": "ATTACK",
-          "description": "物理攻撃のスキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000008,
-              "description": "物理攻撃のダメージ{0}%アップ",
-              "values": [200, 400, 600, 1200, 2000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 2,
+        "name": "斬の祝福",
+        "category": "ATTACK",
+        "description": "斬属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000002,
+            "description": "斬属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "単体回復ボーナス",
+        "category": "RECOVERY",
+        "description": "単体回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000073,
+            "description": "単体回復が与えるHP回復量{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 10,
+        "name": "物理ダメージ上昇",
+        "category": "ATTACK",
+        "description": "物理攻撃のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000008,
+            "description": "物理攻撃のダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 133,
@@ -7077,51 +7790,49 @@
       "received": "青",
       "given": "赤"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 4,
-          "name": "突の祝福",
-          "category": "ATTACK",
-          "description": "突属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000001,
-              "description": "突属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 12,
-          "name": "物防の祝福",
-          "category": "ENHANCE",
-          "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
-          "effects": [
-            {
-              "id": 3000050,
-              "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 42,
-          "name": "魔法耐性上昇【D】",
-          "category": "ENHANCE",
-          "description": "ディフェンダーへの魔法攻撃のダメージ{0}%ダウン",
-          "effects": [
-            {
-              "id": 3000034,
-              "description": "ディフェンダーの魔法属性ダメージ耐性{0}%アップ",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 4,
+        "name": "突の祝福",
+        "category": "ATTACK",
+        "description": "突属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "突属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "物防の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 42,
+        "name": "魔法耐性上昇【D】",
+        "category": "ENHANCE",
+        "description": "ディフェンダーへの魔法攻撃のダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000034,
+            "description": "ディフェンダーの魔法属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 186,
@@ -7266,51 +7977,49 @@
       "received": "青",
       "given": "緑"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 13,
-          "name": "剛力の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000047,
-              "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 51,
-          "name": "破壊力上昇",
-          "category": "ATTACK",
-          "description": "戦闘アイテムが与えるダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000078,
-              "description": "戦闘アイテムが与えるダメージ{0}%アップ",
-              "values": [600, 1100, 1700, 3300, 5400]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 2,
-          "name": "スキル威力上昇",
-          "category": "ATTACK",
-          "description": "スキル威力{0}%アップ",
-          "effects": [
-            {
-              "id": 3000010,
-              "description": "スキル威力{0}%アップ",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 13,
+        "name": "剛力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000047,
+            "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "name": "破壊力上昇",
+        "category": "ATTACK",
+        "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "スキル威力上昇",
+        "category": "ATTACK",
+        "description": "スキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "スキル威力{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 125,
@@ -7461,56 +8170,54 @@
       "received": "青",
       "given": "紫"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 10,
-          "name": "守護の祝福",
-          "category": "ENHANCE",
-          "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
-          "effects": [
-            {
-              "id": 3000050,
-              "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
-              "values": [100, 200, 300, 400, 500]
-            },
-            {
-              "id": 3000051,
-              "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        },
-        {
-          "id": 7,
-          "name": "氷の祝福",
-          "category": "ATTACK",
-          "description": "氷属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000005,
-              "description": "氷属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 43,
-          "name": "物理耐性上昇【D】",
-          "category": "ENHANCE",
-          "description": "ディフェンダーへの物理攻撃のダメージ{0}%ダウン",
-          "effects": [
-            {
-              "id": 3000033,
-              "description": "ディフェンダーの物理属性ダメージ耐性{0}%アップ",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 10,
+        "name": "守護の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "氷の祝福",
+        "category": "ATTACK",
+        "description": "氷属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "氷属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 43,
+        "name": "物理耐性上昇【D】",
+        "category": "ENHANCE",
+        "description": "ディフェンダーへの物理攻撃のダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000033,
+            "description": "ディフェンダーの物理属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 207,
@@ -7661,51 +8368,49 @@
       "received": "黄",
       "given": "赤"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 24,
-          "name": "突の盾",
-          "category": "ENHANCE",
-          "description": "対象に「突属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000072,
-              "description": "対象に「突属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 44,
-          "name": "大きな回復量",
-          "category": "RECOVERY",
-          "description": "与えるHP回復量{0}%アップ",
-          "effects": [
-            {
-              "id": 3000075,
-              "description": "与えるHP回復量{0}%アップ",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 40,
-          "name": "単体回復量上昇",
-          "category": "RECOVERY",
-          "description": "味方単体回復が与えるHP回復量{0}%アップ",
-          "effects": [
-            {
-              "id": 3000032,
-              "description": "単体回復時の回復量{0}%アップ",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 24,
+        "name": "突の盾",
+        "category": "ENHANCE",
+        "description": "対象に「突属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000072,
+            "description": "対象に「突属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "大きな回復量",
+        "category": "RECOVERY",
+        "description": "与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000075,
+            "description": "与えるHP回復量{0}%アップ",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 40,
+        "name": "単体回復量上昇",
+        "category": "RECOVERY",
+        "description": "味方単体回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000032,
+            "description": "単体回復時の回復量{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 135,
@@ -7850,51 +8555,49 @@
       "received": "赤",
       "given": "黄"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 17,
-          "name": "魔力の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000049,
-              "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 4,
-          "name": "突の祝福",
-          "category": "ATTACK",
-          "description": "突属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000001,
-              "description": "突属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 21,
-          "name": "火耐性上昇",
-          "category": "ENHANCE",
-          "description": "火属性耐性{0}%アップ",
-          "effects": [
-            {
-              "id": 3000022,
-              "description": "火属性ダメージ耐性{0}%アップ",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 17,
+        "name": "魔力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "突の祝福",
+        "category": "ATTACK",
+        "description": "突属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "突属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 21,
+        "name": "火耐性上昇",
+        "category": "ENHANCE",
+        "description": "火属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000022,
+            "description": "火属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 154,
@@ -8040,51 +8743,49 @@
       "received": "青",
       "given": "紫"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 21,
-          "name": "雷の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000061,
-              "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        },
-        {
-          "id": 47,
-          "name": "使い切り回復強化",
-          "category": "RECOVERY",
-          "description": "使用回数が1回の時、HP回復量{0}%アップ",
-          "effects": [
-            {
-              "id": 3000109,
-              "description": "使用回数が1回の時、HP回復量{0}%アップ",
-              "values": [200, 400, 600, 1100, 1800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 41,
-          "name": "全体回復量上昇",
-          "category": "RECOVERY",
-          "description": "味方全員回復が与えるHP回復量{0}%アップ",
-          "effects": [
-            {
-              "id": 3000074,
-              "description": "全体回復が与えるHP回復量{0}%アップ",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 21,
+        "name": "雷の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000061,
+            "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "使い切り回復強化",
+        "category": "RECOVERY",
+        "description": "使用回数が1回の時、HP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000109,
+            "description": "使用回数が1回の時、HP回復量{0}%アップ",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 41,
+        "name": "全体回復量上昇",
+        "category": "RECOVERY",
+        "description": "味方全員回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体回復が与えるHP回復量{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 135,
@@ -8216,6 +8917,212 @@
     "start_at": "2023-11-21T03:00:00.000Z"
   },
   {
+    "id": 37402,
+    "name": "リディー",
+    "title": "【Witch of Rose】",
+    "full_name": "リディー・マーレン",
+    "base_character": "リディー",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "STRIKE",
+    "role": "DEFENDER",
+    "initial_rarity": 3,
+    "acquisition_text": "みんなと一緒だから大丈夫！\n私たちの手で、皆さんをお守りします！",
+    "profile": {
+      "voice_actor": "長縄まりあ",
+      "voice_text": "みんなで頂獣を倒すため、\n私たちにできることを精一杯、頑張ります！",
+      "description": "双子の錬金術士の姉。\n妹のスールと共に各地を旅している。「みんなのための錬金術士」を目指しており、頂獣討伐においてもその目標を全うすべく参戦する。\n妹に比べると慎重派で理論派。強大な敵が相手でも、これまでの経験を糧に敢然と立ち向かう。",
+      "origin_game": "リディー＆スールのアトリエ ～不思議な絵画の錬金術士～"
+    },
+    "gift_color": {
+      "received": "赤",
+      "given": "緑"
+    },
+    "battle_item_trait": [
+      {
+        "id": 47,
+        "name": "使い切り回復強化",
+        "category": "RECOVERY",
+        "description": "使用回数が1回の時、HP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000109,
+            "description": "使用回数が1回の時、HP回復量{0}%アップ",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "物防の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 47,
+        "name": "回復量上昇【D】",
+        "category": "RECOVERY",
+        "description": "ディフェンダーへ与える回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000076,
+            "description": "ディフェンダーへの回復量{0}%アップ",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 207,
+        "spd": 256,
+        "patk": 55,
+        "matk": 51,
+        "pdef": 55,
+        "mdef": 59
+      },
+      "growth": {
+        "hp": 2070,
+        "spd": 0,
+        "patk": 550,
+        "matk": 510,
+        "pdef": 550,
+        "mdef": 590
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 5,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "アメジストレイン",
+      "description": "攻撃後、アイテムゲージを{0}%回復し、<br>自身のHPを{1}%回復",
+      "summary": "攻撃後、アイテムゲージを回復<br>自身のHPを回復",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91002004,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91000926,
+          "description": "",
+          "value": 1500
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [45, 47, 50, 53, 56],
+      "has_stun": true,
+      "stun_values": [5, 5, 5, 5, 6],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "ステンドシールド",
+      "description": "味方1人に「受けるダメージ-{0}%」を2回攻撃を受けるまで付与し、<br>味方全員に「スキルダメージ+{1}%」を1回行動終了するまで付与",
+      "summary": "味方1人の受けるダメージダウン<br>味方全員のスキルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001201,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001041,
+          "description": "",
+          "value": 1500
+        }
+      ],
+      "attribute_type": "NONE",
+      "attribute": "STRIKE",
+      "target": "ALLY",
+      "range": "ONE",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "カレイドファーブラ",
+      "description": "攻撃後、自身に「受けるダメージ-{0}%」を1回攻撃を受けるまで付与し、<br>味方全員に「全体攻撃から受けるダメージ-{1}%」を1回攻撃を受けるまで付与",
+      "summary": "攻撃後、自身の受けるダメージダウン<br>味方全員の全体攻撃から受けるダメージダウン",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001038,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001203,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [400, 400, 400, 425, 450, 475, 500],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "痛いのはダメです！",
+      "description": "敵にとても狙われやすくなる<br>パーティの誰かが戦闘アイテム使用後、自身に「回避(確率{0}%)」を1回攻撃されるまで付与(発動上限3回)<br>※アイテムを複数同時に使用しても発動は1回",
+      "effects": [
+        {
+          "id": 72000971,
+          "description": "味方が戦闘アイテム使用後、自身に「回避(確率{0}%)」を1回攻撃されるまで付与(発動上限回数3回)<br>※アイテムを複数同時に使用しても発動は1回",
+          "value": 10000
+        },
+        {
+          "id": 72000914,
+          "description": "狙われやすさ+100％",
+          "value": 10000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "決戦装備シュヴァルツロゼ",
+      "description": "状態異常無効",
+      "effects": [
+        {
+          "id": 72000987,
+          "description": "[自身/常時/状態異常無効]",
+          "value": 10000
+        }
+      ]
+    },
+    "start_at": "2024-02-28T08:00:00.000Z"
+  },
+  {
     "id": 37501,
     "name": "スール",
     "title": "【Ambition Painting】",
@@ -8237,51 +9144,49 @@
       "received": "緑",
       "given": "黄"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 24,
-          "name": "突の盾",
-          "category": "ENHANCE",
-          "description": "対象に「突属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000072,
-              "description": "対象に「突属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 51,
-          "name": "破壊力上昇",
-          "category": "ATTACK",
-          "description": "戦闘アイテムが与えるダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000078,
-              "description": "戦闘アイテムが与えるダメージ{0}%アップ",
-              "values": [600, 1100, 1700, 3300, 5400]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 31,
-          "name": "物理ダメージ上昇【渾身】",
-          "category": "ATTACK",
-          "description": "HP満タン時、物理攻撃のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000102,
-              "description": "HPが最大の時、与える物理属性ダメージ{0}%アップ",
-              "values": [300, 600, 900, 1800, 3000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 24,
+        "name": "突の盾",
+        "category": "ENHANCE",
+        "description": "対象に「突属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000072,
+            "description": "対象に「突属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "name": "破壊力上昇",
+        "category": "ATTACK",
+        "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 31,
+        "name": "物理ダメージ上昇【渾身】",
+        "category": "ATTACK",
+        "description": "HP満タン時、物理攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000102,
+            "description": "HPが最大の時、与える物理属性ダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 168,
@@ -8437,51 +9342,49 @@
       "received": "赤",
       "given": "緑"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 11,
-          "name": "魔防の祝福",
-          "category": "ENHANCE",
-          "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
-          "effects": [
-            {
-              "id": 3000051,
-              "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 8,
-          "name": "風の祝福",
-          "category": "ATTACK",
-          "description": "風属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000007,
-              "description": "風属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 6,
-          "name": "火ダメージ上昇",
-          "category": "ATTACK",
-          "description": "火属性のスキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000004,
-              "description": "火属性のダメージ{0}%アップ",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 11,
+        "name": "魔防の祝福",
+        "category": "ENHANCE",
+        "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "風の祝福",
+        "category": "ATTACK",
+        "description": "風属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "風属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 6,
+        "name": "火ダメージ上昇",
+        "category": "ATTACK",
+        "description": "火属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "火属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 149,
@@ -8621,51 +9524,49 @@
       "received": "青",
       "given": "黄"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 1,
-          "name": "剛力の祝福",
-          "category": "ATTACK",
-          "description": "物理攻撃のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000008,
-              "description": "物理攻撃のダメージ{0}%アップ",
-              "values": [300, 600, 900, 1800, 3000]
-            }
-          ]
-        },
-        {
-          "id": 22,
-          "name": "斬の盾",
-          "category": "ENHANCE",
-          "description": "対象に「斬属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000070,
-              "description": "対象に「斬属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 14,
-          "name": "物理ブレイクダメージ上昇",
-          "category": "ATTACK",
-          "description": "物理攻撃のブレイクダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000013,
-              "description": "物理属性攻撃のブレイクダメージ{0}%アップ",
-              "values": [200, 400, 600, 1200, 2000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 1,
+        "name": "剛力の祝福",
+        "category": "ATTACK",
+        "description": "物理攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000008,
+            "description": "物理攻撃のダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "斬の盾",
+        "category": "ENHANCE",
+        "description": "対象に「斬属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000070,
+            "description": "対象に「斬属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 14,
+        "name": "物理ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "物理攻撃のブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000013,
+            "description": "物理属性攻撃のブレイクダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 144,
@@ -8820,51 +9721,49 @@
       "received": "赤",
       "given": "紫"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 19,
-          "name": "氷の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「氷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000060,
-              "description": "対象に「氷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        },
-        {
-          "id": 26,
-          "name": "氷の盾",
-          "category": "ENHANCE",
-          "description": "対象に「氷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000067,
-              "description": "対象に「氷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 7,
-          "name": "氷ダメージ上昇",
-          "category": "ATTACK",
-          "description": "氷属性のスキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000005,
-              "description": "氷属性のダメージ{0}%アップ",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 19,
+        "name": "氷の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「氷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000060,
+            "description": "対象に「氷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "氷の盾",
+        "category": "ENHANCE",
+        "description": "対象に「氷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000067,
+            "description": "対象に「氷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 7,
+        "name": "氷ダメージ上昇",
+        "category": "ATTACK",
+        "description": "氷属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "氷属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 128,
@@ -9020,56 +9919,54 @@
       "received": "黄",
       "given": "赤"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 10,
-          "name": "守護の祝福",
-          "category": "ENHANCE",
-          "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
-          "effects": [
-            {
-              "id": 3000050,
-              "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
-              "values": [100, 200, 300, 400, 500]
-            },
-            {
-              "id": 3000051,
-              "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        },
-        {
-          "id": 19,
-          "name": "氷の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「氷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000060,
-              "description": "対象に「氷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 15,
-          "name": "魔法ブレイクダメージ上昇",
-          "category": "ATTACK",
-          "description": "魔法攻撃のブレイクダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000014,
-              "description": "魔法属性攻撃のブレイクダメージ{0}%アップ",
-              "values": [200, 400, 600, 1200, 2000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 10,
+        "name": "守護の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "氷の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「氷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000060,
+            "description": "対象に「氷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 15,
+        "name": "魔法ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000014,
+            "description": "魔法属性攻撃のブレイクダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 152,
@@ -9225,51 +10122,49 @@
       "received": "紫",
       "given": "緑"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 23,
-          "name": "打の盾",
-          "category": "ENHANCE",
-          "description": "対象に「打属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000071,
-              "description": "対象に「打属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 9,
-          "name": "雷の祝福",
-          "category": "ATTACK",
-          "description": "雷属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000006,
-              "description": "雷属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 25,
-          "name": "物理耐性上昇",
-          "category": "ENHANCE",
-          "description": "物理攻撃から受けるダメージ{0}%ダウン",
-          "effects": [
-            {
-              "id": 3000026,
-              "description": "物理属性ダメージ耐性{0}%アップ",
-              "values": [100, 200, 300, 400, 500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 23,
+        "name": "打の盾",
+        "category": "ENHANCE",
+        "description": "対象に「打属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000071,
+            "description": "対象に「打属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "雷の祝福",
+        "category": "ATTACK",
+        "description": "雷属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "雷属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 25,
+        "name": "物理耐性上昇",
+        "category": "ENHANCE",
+        "description": "物理攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "物理属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 172,
@@ -9420,51 +10315,49 @@
       "received": "青",
       "given": "黄"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 3,
-          "name": "打の祝福",
-          "category": "ATTACK",
-          "description": "打属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000003,
-              "description": "打属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 46,
-          "name": "全体回復ボーナス",
-          "category": "RECOVERY",
-          "description": "全体回復が与えるHP回復量{0}%アップ",
-          "effects": [
-            {
-              "id": 3000074,
-              "description": "全体回復が与えるHP回復量{0}%アップ",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 10,
-          "name": "物理ダメージ上昇",
-          "category": "ATTACK",
-          "description": "物理攻撃のスキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000008,
-              "description": "物理攻撃のダメージ{0}%アップ",
-              "values": [200, 400, 600, 1200, 2000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 3,
+        "name": "打の祝福",
+        "category": "ATTACK",
+        "description": "打属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "打属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "全体回復ボーナス",
+        "category": "RECOVERY",
+        "description": "全体回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体回復が与えるHP回復量{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 10,
+        "name": "物理ダメージ上昇",
+        "category": "ATTACK",
+        "description": "物理攻撃のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000008,
+            "description": "物理攻撃のダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 152,
@@ -9610,51 +10503,49 @@
       "received": "紫",
       "given": "赤"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 23,
-          "name": "打の盾",
-          "category": "ENHANCE",
-          "description": "対象に「打属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000071,
-              "description": "対象に「打属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 9,
-          "name": "雷の祝福",
-          "category": "ATTACK",
-          "description": "雷属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000006,
-              "description": "雷属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 31,
-          "name": "物理ダメージ上昇【渾身】",
-          "category": "ATTACK",
-          "description": "HP満タン時、物理攻撃のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000102,
-              "description": "HPが最大の時、与える物理属性ダメージ{0}%アップ",
-              "values": [300, 600, 900, 1800, 3000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 23,
+        "name": "打の盾",
+        "category": "ENHANCE",
+        "description": "対象に「打属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000071,
+            "description": "対象に「打属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "雷の祝福",
+        "category": "ATTACK",
+        "description": "雷属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "雷属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 31,
+        "name": "物理ダメージ上昇【渾身】",
+        "category": "ATTACK",
+        "description": "HP満タン時、物理攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000102,
+            "description": "HPが最大の時、与える物理属性ダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 127,
@@ -9803,51 +10694,49 @@
       "received": "黄",
       "given": "青"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 12,
-          "name": "物防の祝福",
-          "category": "ENHANCE",
-          "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
-          "effects": [
-            {
-              "id": 3000050,
-              "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 45,
-          "name": "単体回復ボーナス",
-          "category": "RECOVERY",
-          "description": "単体回復が与えるHP回復量{0}%アップ",
-          "effects": [
-            {
-              "id": 3000073,
-              "description": "単体回復が与えるHP回復量{0}%アップ",
-              "values": [200, 300, 500, 900, 1500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 34,
-          "name": "全耐性上昇【背水】",
-          "category": "ENHANCE",
-          "description": "HPが50%以下の時、受けるダメージ{0}%ダウン",
-          "effects": [
-            {
-              "id": 3000103,
-              "description": "HPが50%以下の時、ダメージ耐性{0}%アップ",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 12,
+        "name": "物防の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "単体回復ボーナス",
+        "category": "RECOVERY",
+        "description": "単体回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000073,
+            "description": "単体回復が与えるHP回復量{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 34,
+        "name": "全耐性上昇【背水】",
+        "category": "ENHANCE",
+        "description": "HPが50%以下の時、受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000103,
+            "description": "HPが50%以下の時、ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 204,
@@ -10013,51 +10902,49 @@
       "received": "緑",
       "given": "黄"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 5,
-          "name": "魔力の祝福",
-          "category": "ATTACK",
-          "description": "魔法攻撃のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000009,
-              "description": "魔法攻撃のダメージ{0}%アップ",
-              "values": [300, 600, 900, 1800, 3000]
-            }
-          ]
-        },
-        {
-          "id": 45,
-          "name": "単体回復ボーナス",
-          "category": "RECOVERY",
-          "description": "単体回復が与えるHP回復量{0}%アップ",
-          "effects": [
-            {
-              "id": 3000073,
-              "description": "単体回復が与えるHP回復量{0}%アップ",
-              "values": [200, 300, 500, 900, 1500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 11,
-          "name": "魔法ダメージ上昇",
-          "category": "ATTACK",
-          "description": "魔法攻撃のスキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000009,
-              "description": "魔法攻撃のダメージ{0}%アップ",
-              "values": [200, 400, 600, 1200, 2000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 5,
+        "name": "魔力の祝福",
+        "category": "ATTACK",
+        "description": "魔法攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "単体回復ボーナス",
+        "category": "RECOVERY",
+        "description": "単体回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000073,
+            "description": "単体回復が与えるHP回復量{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 11,
+        "name": "魔法ダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 142,
@@ -10197,51 +11084,49 @@
       "received": "紫",
       "given": "緑"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 50,
-          "name": "会心の出来",
-          "category": "ENHANCE",
-          "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
-          "effects": [
-            {
-              "id": 3000045,
-              "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        },
-        {
-          "id": 21,
-          "name": "雷の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000061,
-              "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 18,
-          "name": "斬耐性上昇",
-          "category": "ENHANCE",
-          "description": "斬属性耐性{0}%アップ",
-          "effects": [
-            {
-              "id": 3000020,
-              "description": "斬属性ダメージ耐性{0}%アップ",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 50,
+        "name": "会心の出来",
+        "category": "ENHANCE",
+        "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "雷の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000061,
+            "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 18,
+        "name": "斬耐性上昇",
+        "category": "ENHANCE",
+        "description": "斬属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000020,
+            "description": "斬属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 136,
@@ -10387,51 +11272,49 @@
       "received": "赤",
       "given": "紫"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 51,
-          "name": "破壊力上昇",
-          "category": "ATTACK",
-          "description": "戦闘アイテムが与えるダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000078,
-              "description": "戦闘アイテムが与えるダメージ{0}%アップ",
-              "values": [600, 1100, 1700, 3300, 5400]
-            }
-          ]
-        },
-        {
-          "id": 22,
-          "name": "斬の盾",
-          "category": "ENHANCE",
-          "description": "対象に「斬属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000070,
-              "description": "対象に「斬属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 500, 800]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 2,
-          "name": "スキル威力上昇",
-          "category": "ATTACK",
-          "description": "スキル威力{0}%アップ",
-          "effects": [
-            {
-              "id": 3000010,
-              "description": "スキル威力{0}%アップ",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 51,
+        "name": "破壊力上昇",
+        "category": "ATTACK",
+        "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "斬の盾",
+        "category": "ENHANCE",
+        "description": "対象に「斬属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000070,
+            "description": "対象に「斬属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "スキル威力上昇",
+        "category": "ATTACK",
+        "description": "スキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "スキル威力{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 150,
@@ -10577,51 +11460,49 @@
       "received": "青",
       "given": "赤"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 1,
-          "name": "剛力の祝福",
-          "category": "ATTACK",
-          "description": "物理攻撃のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000008,
-              "description": "物理攻撃のダメージ{0}%アップ",
-              "values": [300, 600, 900, 1800, 3000]
-            }
-          ]
-        },
-        {
-          "id": 18,
-          "name": "火の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000059,
-              "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 1,
-          "name": "与ダメージ上昇",
-          "category": "ATTACK",
-          "description": "スキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000011,
-              "description": "スキルダメージ{0}%アップ",
-              "values": [200, 300, 500, 900, 1500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 1,
+        "name": "剛力の祝福",
+        "category": "ATTACK",
+        "description": "物理攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000008,
+            "description": "物理攻撃のダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "火の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 1,
+        "name": "与ダメージ上昇",
+        "category": "ATTACK",
+        "description": "スキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000011,
+            "description": "スキルダメージ{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 135,
@@ -10777,51 +11658,49 @@
       "received": "緑",
       "given": "青"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 2,
-          "name": "斬の祝福",
-          "category": "ATTACK",
-          "description": "斬属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000002,
-              "description": "斬属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 14,
-          "name": "斬の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「斬属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000063,
-              "description": "対象に「斬属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 3,
-          "name": "斬ダメージ上昇",
-          "category": "ATTACK",
-          "description": "斬属性のスキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000002,
-              "description": "斬属性のダメージ{0}%アップ",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 2,
+        "name": "斬の祝福",
+        "category": "ATTACK",
+        "description": "斬属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000002,
+            "description": "斬属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "斬の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「斬属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000063,
+            "description": "対象に「斬属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 3,
+        "name": "斬ダメージ上昇",
+        "category": "ATTACK",
+        "description": "斬属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000002,
+            "description": "斬属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 148,
@@ -10976,6 +11855,224 @@
     "start_at": "2023-10-10T03:00:00.000Z"
   },
   {
+    "id": 43203,
+    "name": "ヴァレリア",
+    "title": "【Warrior of Rose】",
+    "full_name": "ヴァレリア",
+    "base_character": "ヴァレリア",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "STRIKE",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "私は勝つわ！　誰が相手であろうとも！",
+    "profile": {
+      "voice_actor": "沼倉愛美",
+      "voice_text": "大事な家族とレスナたちが住むこの国を\n頂獣から絶対に護ってみせるわ",
+      "description": "謎多き戦士。\n過去の記憶を失っているが、相棒のハイディを始め、様々な出会いに恵まれ、充実した日々を過ごしている。今回の戦いでも、大切な仲間たちを護るべくその剛腕を振るう。\nこのような麗しい格好も似合うが、本人に自覚はなく、ただただ性能に満足している様子。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "紫",
+      "given": "黄"
+    },
+    "battle_item_trait": [
+      {
+        "id": 48,
+        "name": "使い切り攻撃強化",
+        "category": "ATTACK",
+        "description": "使用回数が1回の時、ダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000108,
+            "description": "使用回数が1回の時、ダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "打の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000064,
+            "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 27,
+        "name": "単体攻撃威力上昇",
+        "category": "ATTACK",
+        "description": "単体攻撃のスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000111,
+            "description": "単体攻撃のスキル威力{0}％アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 168,
+        "spd": 260,
+        "patk": 61,
+        "matk": 55,
+        "pdef": 43,
+        "mdef": 47
+      },
+      "growth": {
+        "hp": 1680,
+        "spd": 0,
+        "patk": 610,
+        "matk": 550,
+        "pdef": 430,
+        "mdef": 470
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 5,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "ツヴァイシュラーク",
+      "description": "攻撃前、自身のマイナス効果を解除し、<br>攻撃後、自身に「素早さ+{0}%」を1回行動終了するまで付与",
+      "summary": "攻撃前、自身のマイナス効果を解除<br>攻撃後、自身の素早さアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001017,
+          "description": "素早さアップ(1回)",
+          "value": 500
+        },
+        {
+          "id": 91001007,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [51, 54, 57, 60, 63],
+      "has_stun": true,
+      "stun_values": [4, 4, 4, 4, 5],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "カッツェシュヴァンツ",
+      "description": "この攻撃はクリティカル確率+100%<br>攻撃後、自身に「戦姫開花」が付与されていない時、「戦姫開花(Lv1)」を付与<br>既に付与されている時、「戦姫開花」のLv+1(上限Lv10)<br>※戦姫開花：「ブルームアクセル」を参照",
+      "summary": "この攻撃のクリティカル確率アップ<br>攻撃後、「戦姫開花」を付与またはLvアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001172,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [214, 227, 240, 253, 267],
+      "has_stun": true,
+      "stun_values": [23, 24, 25, 26, 28],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "ドルンシュトラーフェ",
+      "description": "この攻撃はクリティカル確率+100%<br>攻撃後、自身に「戦姫開花」が付与されていない時、「戦姫開花(Lv3)」を付与<br>既に付与されている時、「戦姫開花」のLv+3(上限Lv10)<br>エクストラターン(エクストラスキル：{hyperlink_id 7})を3ターン後ろに生成<br>※戦姫開花：「ブルームアクセル」を参照",
+      "summary": "この攻撃のクリティカル確率アップ。攻撃後、「戦姫開花」を付与またはLvアップしエクストラターンを生成",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001182,
+          "description": "",
+          "value": 0
+        },
+        {
+          "id": 91001174,
+          "description": "",
+          "value": 300
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [360, 360, 360, 382, 405, 427, 450],
+      "has_stun": true,
+      "stun_values": [65, 65, 65, 69, 73, 77, 81],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "ブルームアクセル",
+      "description": "スキルで撃破時、自身に「戦姫開花」が付与されていない時、「戦姫開花(Lv2)」を付与<br>既に付与されている時、「戦姫開花」のLv+2(上限Lv10)<br>「戦姫開花」のLvに応じて以下のボーナスをそれぞれ獲得する<br>1Lvにつきクリティカルダメージ+{0}%<br>Lv3以上：バーストスキルダメージ+{1}%<br>Lv5以上：バーストスキルダメージ+{2}%<br>Lv10：バーストスキルダメージ+{3}%",
+      "effects": [
+        {
+          "id": 72000976,
+          "description": "[自身/戦姫開花のLvに応じ/クリティカルダメージアップ]を付与",
+          "value": 1000
+        },
+        {
+          "id": 72000978,
+          "description": "Lv3以上：バーストスキルダメージ+{0}%",
+          "value": 5000
+        },
+        {
+          "id": 72000967,
+          "description": "Lv5以上：バーストスキルダメージ+{0}%",
+          "value": 5000
+        },
+        {
+          "id": 72000968,
+          "description": "Lv10以上：バーストスキルダメージ+{0}%",
+          "value": 10000
+        },
+        {
+          "id": 72000969,
+          "description": "スキルで撃破時、「戦姫開花」のLvを+2する",
+          "value": 0
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "決戦装備シュヴァルツロゼ",
+      "description": "状態異常無効",
+      "effects": [
+        {
+          "id": 72000987,
+          "description": "[自身/常時/状態異常無効]",
+          "value": 10000
+        }
+      ]
+    },
+    "start_at": "2024-02-28T08:00:00.000Z"
+  },
+  {
     "id": 43301,
     "name": "ロマン",
     "title": "【Romance Hearts】",
@@ -10997,51 +12094,49 @@
       "received": "赤",
       "given": "紫"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 8,
-          "name": "風の祝福",
-          "category": "ATTACK",
-          "description": "風属性のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000007,
-              "description": "風属性のダメージ{0}%アップ",
-              "values": [500, 900, 1400, 2700, 4500]
-            }
-          ]
-        },
-        {
-          "id": 20,
-          "name": "風の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「風属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000062,
-              "description": "対象に「風属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 8,
-          "name": "風ダメージ上昇",
-          "category": "ATTACK",
-          "description": "風属性のスキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000007,
-              "description": "風属性のダメージ{0}%アップ",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 8,
+        "name": "風の祝福",
+        "category": "ATTACK",
+        "description": "風属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "風属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "風の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「風属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000062,
+            "description": "対象に「風属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 8,
+        "name": "風ダメージ上昇",
+        "category": "ATTACK",
+        "description": "風属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "風属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 150,
@@ -11197,51 +12292,49 @@
       "received": "青",
       "given": "黄"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 16,
-          "name": "突の呪詛",
-          "category": "WEAKENING",
-          "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-          "effects": [
-            {
-              "id": 3000065,
-              "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
-              "values": [100, 200, 300, 600, 1000]
-            }
-          ]
-        },
-        {
-          "id": 51,
-          "name": "破壊力上昇",
-          "category": "ATTACK",
-          "description": "戦闘アイテムが与えるダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000078,
-              "description": "戦闘アイテムが与えるダメージ{0}%アップ",
-              "values": [600, 1100, 1700, 3300, 5400]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 5,
-          "name": "突ダメージ上昇",
-          "category": "ATTACK",
-          "description": "突属性のスキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000001,
-              "description": "突属性のダメージ{0}%アップ",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 16,
+        "name": "突の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000065,
+            "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "name": "破壊力上昇",
+        "category": "ATTACK",
+        "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 5,
+        "name": "突ダメージ上昇",
+        "category": "ATTACK",
+        "description": "突属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "突属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 150,
@@ -11402,51 +12495,49 @@
       "received": "紫",
       "given": "緑"
     },
-    "traits": {
-      "battle_item": [
-        {
-          "id": 1,
-          "name": "剛力の祝福",
-          "category": "ATTACK",
-          "description": "物理攻撃のダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000008,
-              "description": "物理攻撃のダメージ{0}%アップ",
-              "values": [300, 600, 900, 1800, 3000]
-            }
-          ]
-        },
-        {
-          "id": 45,
-          "name": "単体回復ボーナス",
-          "category": "RECOVERY",
-          "description": "単体回復が与えるHP回復量{0}%アップ",
-          "effects": [
-            {
-              "id": 3000073,
-              "description": "単体回復が与えるHP回復量{0}%アップ",
-              "values": [200, 300, 500, 900, 1500]
-            }
-          ]
-        }
-      ],
-      "equipment": [
-        {
-          "id": 9,
-          "name": "雷ダメージ上昇",
-          "category": "ATTACK",
-          "description": "雷属性のスキルダメージ{0}%アップ",
-          "effects": [
-            {
-              "id": 3000006,
-              "description": "雷属性のダメージ{0}%アップ",
-              "values": [300, 500, 800, 1500, 2500]
-            }
-          ]
-        }
-      ]
-    },
+    "battle_item_trait": [
+      {
+        "id": 1,
+        "name": "剛力の祝福",
+        "category": "ATTACK",
+        "description": "物理攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000008,
+            "description": "物理攻撃のダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "単体回復ボーナス",
+        "category": "RECOVERY",
+        "description": "単体回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000073,
+            "description": "単体回復が与えるHP回復量{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 9,
+        "name": "雷ダメージ上昇",
+        "category": "ATTACK",
+        "description": "雷属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "雷属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
     "stats": {
       "base": {
         "hp": 150,

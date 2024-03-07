@@ -1332,7 +1332,7 @@
     "usage_count": 3
   },
   {
-    "description": "最大HPが最も高い味方1人に「かばう」と「受けるダメージ-{1}%」を1回付与",
+    "description": "最大HPが最も高い味方1人に「かばう」と「受けるダメージ-{0}%」を1回付与",
     "id": 112,
     "large_still_path_hash": "154899299958576025",
     "name": "守護女神の盾",
@@ -1344,7 +1344,7 @@
     "usage_count": 2
   },
   {
-    "description": "最大HPが最も高い味方1人に「かばう」と「受けるダメージ-{1}%」を1回付与",
+    "description": "最大HPが最も高い味方1人に「かばう」と「受けるダメージ-{0}%」を1回付与",
     "id": 113,
     "large_still_path_hash": "154899299958576025",
     "name": "守護女神の盾",
@@ -1870,5 +1870,149 @@
     "still_path_hash": "1543490658890833608",
     "trait_filter_ids": [3],
     "usage_count": 2
+  },
+  {
+    "description": "味方全員に「アタッカーの時、スキルダメージ+{0}%」と「ブレイカーの時、ブレイクダメージ+{1}%」を2回付与",
+    "id": 157,
+    "large_still_path_hash": "4911486089964346896",
+    "name": "まごころチョコレート",
+    "rarity": 3,
+    "skill_id": 32004,
+    "small_still_path_hash": "8110240232952315465",
+    "still_path_hash": "7000949012308701832",
+    "trait_filter_ids": [2],
+    "usage_count": 2
+  },
+  {
+    "description": "味方全員に「アタッカーの時、スキルダメージ+{0}%」と「ブレイカーの時、ブレイクダメージ+{1}%」を2回付与",
+    "id": 158,
+    "large_still_path_hash": "4911486089964346896",
+    "name": "まごころチョコレート",
+    "rarity": 2,
+    "skill_id": 32005,
+    "small_still_path_hash": "8110240232952315465",
+    "still_path_hash": "7000949012308701832",
+    "trait_filter_ids": [2],
+    "usage_count": 2
+  },
+  {
+    "description": "現在HPが最も低い敵1体に打属性ダメージ",
+    "id": 159,
+    "large_still_path_hash": "6164937307580022835",
+    "name": "高火力錬金大砲",
+    "rarity": 3,
+    "skill_id": 32006,
+    "small_still_path_hash": "5696064149604020620",
+    "still_path_hash": "6821122367016680773",
+    "trait_filter_ids": [1],
+    "usage_count": 3
+  },
+  {
+    "description": "現在HPが最も低い敵1体に打属性ダメージ",
+    "id": 160,
+    "large_still_path_hash": "6164937307580022835",
+    "name": "高火力錬金大砲",
+    "rarity": 2,
+    "skill_id": 32007,
+    "small_still_path_hash": "5696064149604020620",
+    "still_path_hash": "6821122367016680773",
+    "trait_filter_ids": [1],
+    "usage_count": 3
+  },
+  {
+    "description": "敵全体に氷属性ダメージを与え、対象に「受けるブレイクダメージ+{0}%」を2回攻撃を受けるまで付与",
+    "id": 161,
+    "large_still_path_hash": "4478171854493263572",
+    "name": "凍結破壊爆弾",
+    "rarity": 3,
+    "skill_id": 32008,
+    "small_still_path_hash": "3674129424485659587",
+    "still_path_hash": "2546824844679003916",
+    "trait_filter_ids": [1],
+    "usage_count": 3
+  },
+  {
+    "description": "敵全体に氷属性ダメージを与え、対象に「受けるブレイクダメージ+{0}%」を2回攻撃を受けるまで付与",
+    "id": 162,
+    "large_still_path_hash": "4478171854493263572",
+    "name": "凍結破壊爆弾",
+    "rarity": 2,
+    "skill_id": 32009,
+    "small_still_path_hash": "3674129424485659587",
+    "still_path_hash": "2546824844679003916",
+    "trait_filter_ids": [1],
+    "usage_count": 3
+  },
+  {
+    "description": "物攻が最も高い味方1人に「クリティカルダメージ+{0}%」を2回行動終了するまで付与 ",
+    "id": 163,
+    "large_still_path_hash": "7064141152768558730",
+    "name": "力のトーテム",
+    "rarity": 3,
+    "skill_id": 32010,
+    "small_still_path_hash": "1158036879136675631",
+    "still_path_hash": "123619101238254560",
+    "trait_filter_ids": [2],
+    "usage_count": 2
+  },
+  {
+    "description": "物攻が最も高い味方1人に「クリティカルダメージ+{0}%」を2回行動終了するまで付与 ",
+    "id": 164,
+    "large_still_path_hash": "7064141152768558730",
+    "name": "力のトーテム",
+    "rarity": 2,
+    "skill_id": 32011,
+    "small_still_path_hash": "1158036879136675631",
+    "still_path_hash": "123619101238254560",
+    "trait_filter_ids": [2],
+    "usage_count": 2
+  },
+  {
+    "description": "最大HPが最も高い敵1体に、「受けるクリティカルダメージ+{0}%」を3回攻撃を受けるまで付与",
+    "id": 165,
+    "large_still_path_hash": "8755200728211823000",
+    "name": "凶兆水",
+    "rarity": 3,
+    "skill_id": 32012,
+    "small_still_path_hash": "8584770790077364763",
+    "still_path_hash": "7387654918255539924",
+    "trait_filter_ids": [3],
+    "usage_count": 2
+  },
+  {
+    "description": "最大HPが最も高い敵1体に、「受けるクリティカルダメージ+{0}%」を3回攻撃を受けるまで付与",
+    "id": 166,
+    "large_still_path_hash": "8755200728211823000",
+    "name": "凶兆水",
+    "rarity": 2,
+    "skill_id": 32013,
+    "small_still_path_hash": "8584770790077364763",
+    "still_path_hash": "7387654918255539924",
+    "trait_filter_ids": [3],
+    "usage_count": 2
+  },
+  {
+    "description": "味方全員のHPを10%回復し、「火傷状態」と「毒状態」を解除",
+    "id": 167,
+    "large_still_path_hash": "2715054629439846858",
+    "name": "ピロソティー",
+    "rarity": 3,
+    "skill_id": 32014,
+    "small_still_path_hash": "6182376679483940599",
+    "still_path_hash": "4929528821862928952",
+    "trait_filter_ids": [4],
+    "usage_count": 3
+  },
+  {
+    "description": "味方全員のHPを5%回復し、「火傷状態」と「毒状態」を解除",
+    "id": 168,
+    "large_still_path_hash": "2715054629439846858",
+    "name": "ピロソティー",
+    "rarity": 2,
+    "skill_id": 32015,
+    "small_still_path_hash": "6182376679483940599",
+    "still_path_hash": "4929528821862928952",
+    "trait_filter_ids": [4],
+    "usage_count": 3
   }
 ]

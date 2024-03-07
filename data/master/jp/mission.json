@@ -2426,6 +2426,14 @@
       {
         "count": 30,
         "reward_set_id": 30017
+      },
+      {
+        "count": 35,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 40,
+        "reward_set_id": 30017
       }
     ],
     "total_task_condition_id": 36,
@@ -2652,6 +2660,10 @@
       },
       {
         "count": 100,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 110,
         "reward_set_id": 30017
       }
     ],
@@ -4481,6 +4493,22 @@
       {
         "count": 210,
         "reward_set_id": 30017
+      },
+      {
+        "count": 215,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 220,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 225,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 230,
+        "reward_set_id": 30017
       }
     ],
     "total_task_condition_id": 134,
@@ -5628,6 +5656,27 @@
     "end_at": null,
     "event_tab_id": null,
     "guide_mission_step_id": null,
+    "id": 300114,
+    "name": "プレイヤー名を変更しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 100010,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30054
+      }
+    ],
+    "total_task_condition_id": 529,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
     "id": 300115,
     "name": "メインストーリー7-52をクリアしよう",
     "name_when_count_one": "",
@@ -5684,6 +5733,27 @@
       }
     ],
     "total_task_condition_id": 387,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300118,
+    "name": "メインストーリー9-60をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7293,
+    "reset_cycle": null,
+    "start_at": "2024-02-28T08:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 670,
     "transition": null
   },
   {
@@ -9036,6 +9106,431 @@
       "equipment_slot_type": null,
       "focused_on": 1,
       "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 15,
+    "guide_mission_step_id": null,
+    "id": 4000145,
+    "name": "調合を30回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 30,
+        "reward_set_id": 300148
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 15,
+    "guide_mission_step_id": null,
+    "id": 4000146,
+    "name": "調合を60回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 60,
+        "reward_set_id": 300148
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 15,
+    "guide_mission_step_id": null,
+    "id": 4000147,
+    "name": "調合を90回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 90,
+        "reward_set_id": 300148
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 15,
+    "guide_mission_step_id": null,
+    "id": 4000148,
+    "name": "調合を120回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 120,
+        "reward_set_id": 300148
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 15,
+    "guide_mission_step_id": null,
+    "id": 4000149,
+    "name": "調合を150回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 150,
+        "reward_set_id": 300148
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 15,
+    "guide_mission_step_id": null,
+    "id": 4000150,
+    "name": "調合を180回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 180,
+        "reward_set_id": 300148
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 15,
+    "guide_mission_step_id": null,
+    "id": 4000151,
+    "name": "調合を210回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 210,
+        "reward_set_id": 300148
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 15,
+    "guide_mission_step_id": null,
+    "id": 4000152,
+    "name": "調合を240回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 240,
+        "reward_set_id": 300148
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 15,
+    "guide_mission_step_id": null,
+    "id": 4000153,
+    "name": "調合を270回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 270,
+        "reward_set_id": 300148
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 15,
+    "guide_mission_step_id": null,
+    "id": 4000154,
+    "name": "調合を300回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300,
+        "reward_set_id": 300148
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 16,
+    "guide_mission_step_id": null,
+    "id": 4000155,
+    "name": "ダンジョンコインを1000個獲得しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1000,
+        "reward_set_id": 300149
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 14,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 16,
+    "guide_mission_step_id": null,
+    "id": 4000156,
+    "name": "ダンジョンコインを2000個獲得しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 6,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 2000,
+        "reward_set_id": 300150
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 14,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 16,
+    "guide_mission_step_id": null,
+    "id": 4000157,
+    "name": "ダンジョンコインを3000個獲得しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 5,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 3000,
+        "reward_set_id": 300151
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 14,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 16,
+    "guide_mission_step_id": null,
+    "id": 4000158,
+    "name": "ダンジョンコインを4000個獲得しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 4,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 4000,
+        "reward_set_id": 300152
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 14,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 16,
+    "guide_mission_step_id": null,
+    "id": 4000159,
+    "name": "ダンジョンコインを5000個獲得しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 3,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5000,
+        "reward_set_id": 300153
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 14,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 16,
+    "guide_mission_step_id": null,
+    "id": 4000160,
+    "name": "ダンジョンコインを6000個獲得しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 2,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 6000,
+        "reward_set_id": 300154
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 14,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 16,
+    "guide_mission_step_id": null,
+    "id": 4000161,
+    "name": "ダンジョンコインを7000個獲得しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 1,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 7000,
+        "reward_set_id": 300155
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 14,
+      "transition": 30
     }
   }
 ]

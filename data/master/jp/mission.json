@@ -4509,6 +4509,10 @@
       {
         "count": 230,
         "reward_set_id": 30017
+      },
+      {
+        "count": 235,
+        "reward_set_id": 30017
       }
     ],
     "total_task_condition_id": 134,
@@ -5754,6 +5758,27 @@
       }
     ],
     "total_task_condition_id": 670,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300119,
+    "name": "メインストーリー10-27をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7292,
+    "reset_cycle": null,
+    "start_at": "2024-03-12T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 704,
     "transition": null
   },
   {
@@ -9532,5 +9557,281 @@
       "focused_on": 14,
       "transition": 30
     }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 98,
+    "guide_mission_step_id": null,
+    "id": 4000162,
+    "name": "調合を1回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300157
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 98,
+    "guide_mission_step_id": null,
+    "id": 4000163,
+    "name": "調合を20回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 20,
+        "reward_set_id": 300156
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 98,
+    "guide_mission_step_id": null,
+    "id": 4000164,
+    "name": "調合を40回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 40,
+        "reward_set_id": 300156
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 98,
+    "guide_mission_step_id": null,
+    "id": 4000165,
+    "name": "調合を60回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 60,
+        "reward_set_id": 300156
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 98,
+    "guide_mission_step_id": null,
+    "id": 4000166,
+    "name": "調合を80回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 80,
+        "reward_set_id": 300156
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 98,
+    "guide_mission_step_id": null,
+    "id": 4000167,
+    "name": "調合を100回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 300156
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 98,
+    "guide_mission_step_id": null,
+    "id": 4000168,
+    "name": "1個のアイテムを変換しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300158
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 98,
+    "guide_mission_step_id": null,
+    "id": 4000169,
+    "name": "20個のアイテムを変換しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 20,
+        "reward_set_id": 300158
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 98,
+    "guide_mission_step_id": null,
+    "id": 4000170,
+    "name": "40個のアイテムを変換しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 40,
+        "reward_set_id": 300158
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 98,
+    "guide_mission_step_id": null,
+    "id": 4000171,
+    "name": "60個のアイテムを変換しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 60,
+        "reward_set_id": 300158
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 98,
+    "guide_mission_step_id": null,
+    "id": 4000172,
+    "name": "80個のアイテムを変換しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 90,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 80,
+        "reward_set_id": 300158
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 98,
+    "guide_mission_step_id": null,
+    "id": 4000173,
+    "name": "100個のアイテムを変換しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 89,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 300158
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": null
   }
 ]

@@ -8722,6 +8722,199 @@
     "start_at": "2023-09-23T03:00:00.000Z"
   },
   {
+    "id": 35002,
+    "name": "フィリス",
+    "title": "【Crystaler of Rose】",
+    "full_name": "フィリス・ミストルート",
+    "base_character": "フィリス",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "ICE",
+    "role": "SUPPORTER",
+    "initial_rarity": 3,
+    "acquisition_text": "さあ、ここから反撃開始だよ！\nわたしたちの全力、思いっきりぶつけよう！",
+    "profile": {
+      "voice_actor": "本渡楓",
+      "voice_text": "頂獣はすごく強い……\nでも、わたしたちなら勝てる気がするんだ！",
+      "description": "旅を愛する錬金術士。\nレスナ同様「錬金術でみんなを幸せにする」という願いを持ち、頂獣からみんなを守るために彼女たちに協力する。\nものに独特な名前を付けて呼ぶ癖があり、この装備にもどんな二つ名を付けるか検討中。",
+      "origin_game": "フィリスのアトリエ ～不思議な旅の錬金術士～"
+    },
+    "gift_color": {
+      "received": "赤",
+      "given": "紫"
+    },
+    "battle_item_trait": [
+      {
+        "id": 17,
+        "name": "魔力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "氷の祝福",
+        "category": "ATTACK",
+        "description": "氷属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "氷属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 35,
+        "name": "魔法耐性上昇【渾身】",
+        "category": "ENHANCE",
+        "description": "HP満タン時、受ける魔法攻撃のダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000104,
+            "description": "HPが最大の時、魔法属性ダメージ耐性{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 143,
+        "spd": 245,
+        "patk": 52,
+        "matk": 57,
+        "pdef": 49,
+        "mdef": 57
+      },
+      "growth": {
+        "hp": 1430,
+        "spd": 0,
+        "patk": 520,
+        "matk": 570,
+        "pdef": 490,
+        "mdef": 570
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 5,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "アメジストシュート",
+      "description": "攻撃後、味方全員に「スキルダメージ+{0}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、味方全員のスキルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001041,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [55, 58, 61, 64, 68],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "ロックアヴァランチ",
+      "description": "攻撃後、対象に「全属性耐性-{0}%」を1回攻撃を受けるまで付与",
+      "summary": "攻撃後、対象の全属性耐性ダウン",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001012,
+          "description": "",
+          "value": 3500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [116, 123, 130, 137, 145],
+      "has_stun": true,
+      "stun_values": [11, 11, 12, 12, 13],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "クリオライトブルーム",
+      "description": "攻撃後、対象に「ダメージ-{0}%」を2回行動終了するまで付与し、<br>対象に「全属性耐性-{1}%」を2回攻撃を受けるまで付与",
+      "summary": "攻撃後、対象のダメージダウン<br>対象の全属性耐性ダウン",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91000916,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001014,
+          "description": "",
+          "value": 3500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "隙だらけにしちゃうよ！",
+      "description": "パーティの誰かが戦闘アイテム使用後、自身に「攻撃後、対象にカチコチを1回攻撃を受けるまで超高確率で付与」を1回スキル発動するまで付与<br>※アイテムを複数同時に使用しても発動は1回",
+      "effects": [
+        {
+          "id": 72000985,
+          "description": "味方が戦闘アイテム使用後、自身に「攻撃後、対象にカチコチを1回攻撃を受けるまで超高確率で付与」を1回スキル発動するまで付与<br>※アイテムを複数同時に使用しても発動は1回",
+          "value": 0
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "決戦装備シュヴァルツロゼ",
+      "description": "状態異常無効",
+      "effects": [
+        {
+          "id": 72000987,
+          "description": "[自身/常時/状態異常無効]",
+          "value": 10000
+        }
+      ]
+    },
+    "start_at": "2024-03-12T03:00:00.000Z"
+  },
+  {
     "id": 37401,
     "name": "リディー",
     "title": "【Rainbow Canvas】",
@@ -12472,6 +12665,214 @@
       ]
     },
     "start_at": "2024-01-31T03:00:00.000Z"
+  },
+  {
+    "id": 43501,
+    "name": "ハイディ",
+    "title": "【Thief of Rose】",
+    "full_name": "ハイディ",
+    "base_character": "ハイディ",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "STRIKE",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "頼まれたからには、全力で戦うよ。\n――冒険者ハイディ、一世一代の大仕事だ！",
+    "profile": {
+      "voice_actor": "大空直美",
+      "voice_text": "この服は戦う覚悟の証。……なーんて、\nかっこつけてないと正直持たんって",
+      "description": "やり手の斥候。\n持前の気さくさと器用さを活かし、ヴァレリアを支えている。\n口が上手いが故に言動が軽く見えるが、ヴァレリアやフロッケたちのことは家族のように思っており、彼女たちの決めた道ならばと考えて頂獣討伐に参戦する。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "黄",
+      "given": "緑"
+    },
+    "battle_item_trait": [
+      {
+        "id": 49,
+        "name": "追い打ち強化",
+        "category": "ATTACK",
+        "description": "ブレイク中の敵へのダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "ブレイク中の敵へのダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "斬の盾",
+        "category": "ENHANCE",
+        "description": "対象に「斬属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000070,
+            "description": "対象に「斬属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 13,
+        "name": "ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "ブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000012,
+            "description": "ブレイクダメージ{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 159,
+        "spd": 263,
+        "patk": 60,
+        "matk": 55,
+        "pdef": 42,
+        "mdef": 42
+      },
+      "growth": {
+        "hp": 1590,
+        "spd": 0,
+        "patk": 600,
+        "matk": 550,
+        "pdef": 420,
+        "mdef": 420
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 5,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "アマシースタ",
+      "description": "攻撃後、自身に「WEAK攻撃時、ブレイクダメージ+{0}%」を1回行動終了するまで付与し、<br>アイテムゲージを{1}%回復",
+      "summary": "攻撃後、自身のWEAK攻撃時のブレイクダメージアップ<br>アイテムゲージを回復",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001202,
+          "description": "",
+          "value": 4000
+        },
+        {
+          "id": 91002004,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [27, 28, 30, 31, 33],
+      "has_stun": true,
+      "stun_values": [14, 14, 15, 16, 17],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "ローサクラーヴォ",
+      "description": "攻撃前、対象に「打属性耐性-{0}%」を3回攻撃を受けるまで付与<br>攻撃後、物攻が最も高い味方1人に「物攻+{1}%」を1回行動終了するまで付与",
+      "summary": "攻撃前、対象の打属性耐性ダウン<br>攻撃後、物攻が最も高い味方1人の物攻アップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000965,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001196,
+          "description": "",
+          "value": 1500
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [134, 142, 150, 158, 167],
+      "has_stun": true,
+      "stun_values": [113, 120, 127, 134, 141],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "ディスパローサ",
+      "description": "WEAK攻撃時、対象を「強制ブレイク」<br>攻撃後、物攻が最も高い味方1人に「物攻+{0}%」を1回行動終了するまで付与",
+      "summary": "WEAK攻撃時、対象を強制ブレイク<br>攻撃後、物攻が最も高い味方1人の物攻アップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001196,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001187,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [192, 192, 192, 204, 216, 228, 240],
+      "has_stun": true,
+      "stun_values": [120, 120, 120, 127, 135, 142, 150],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "さあ、追い打ちと行こうか！",
+      "description": "攻撃対象がブレイク時、アイテムゲージを{0}%回復し、<br>味方全員に「敵に与える戦闘アイテムダメージ+{1}%」を付与(上限200%)",
+      "effects": [
+        {
+          "id": 72000984,
+          "description": "攻撃対象がブレイク時、アイテムゲージ回復",
+          "value": 3000
+        },
+        {
+          "id": 72000983,
+          "description": "攻撃対象がブレイク時、味方全員に「敵に与える戦闘アイテムダメージ+{0}%」を付与(上限200%)",
+          "value": 10000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "決戦装備シュヴァルツロゼ",
+      "description": "状態異常無効",
+      "effects": [
+        {
+          "id": 72000987,
+          "description": "[自身/常時/状態異常無効]",
+          "value": 10000
+        }
+      ]
+    },
+    "start_at": "2024-03-12T03:00:00.000Z"
   },
   {
     "id": 43801,

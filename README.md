@@ -73,7 +73,8 @@ Optional query parameters:
 **activeOnly** *{boolean?}* - Default true. Whether or not to include data where the current time is not between the `start_at` or `end_at` properties.
 
 Examples:  
-https://resleriana-db.vercel.app/api/master/search?language=en&file=character&key=name&query=resna
+https://resleriana-db.vercel.app/api/master/search?language=en&file=character&key=name&query=resna  
+https://resleriana-db.vercel.app/api/parsed/search?language=en&file=material&key=equipment_trait.name,equipment_trait.name&query=physical%20res,%20magic%20res  
 
 ## Development
 

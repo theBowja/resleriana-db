@@ -20,7 +20,7 @@ module.exports = { getCatalogResources, getCatalogResourcesLocal, getCatalogReso
  */
 async function getCatalogResourcesDownload(server, version, platform='StandaloneWindows64', filterResourceTypes=undefined, filterPath=undefined) {
     validateServer('getCatalogResourcesDownload', server);
-    filterPath = path.resolve(process.cwd(), filterPath);
+    if (filterPath) filterPath = path.resolve(process.cwd(), filterPath);
 
     const catalogJSON = await downloadCatalog(server, version, platform);
     let filterLabels = undefined;

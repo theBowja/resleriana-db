@@ -11,7 +11,9 @@ helper.setVersion('1.0.0', '170', 'en');
 module.exports = {
 	extractReslerianaData,
 	extractReslerianaDataAll,
-	parseMasterData
+	parseMasterData,
+	runExtractor,
+	updateFileList
 }
 
 /**
@@ -77,7 +79,7 @@ function runExtractor(extractor, language, dataset, file) {
  */
 function updateFileList(languages=config.languages) {
 	const files = require('../data/files.json');
-	for (const dataset of ['master', 'parsed']) {
+	for (const dataset of ['master', 'parsed', 'TextAsset']) {
 		if (!files[dataset]) files[dataset] = {};
 		for (const language of languages) {
 			if (fs.existsSync(path.resolve(__dirname, `../data/${dataset}/${language}`))) {

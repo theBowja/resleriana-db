@@ -11,6 +11,7 @@ const path = require('path');
 const importer = require('../import/import.js');
 const catalog = require('../import/catalog.js');
 const tools = require('../tools/tools.js');
+const unpackTextAssets = require('../import/unpackTextAssets.js');
 
 const autoconfig = require('./config.json');
 const importconfig = require('../import/config.json');
@@ -41,11 +42,13 @@ async function checkMasterdata(server) {
 
     // Do update
     try {
+        const version = importconfig.masterdata_version[server];
+
         console.log(`Importing masterdata ${server}...`);
         await importer.extractReslerianaData(server);
 
         // Update config
-        autoconfig.masterdata_version[server] = importconfig.masterdata_version[server];
+        autoconfig.masterdata_version[server] = version;
         autoconfig.masterdata_version[`${server}_update_time`] = new Date().toUTCString();
         fs.writeFileSync(path.resolve(__dirname, './config.json'), JSON.stringify(autoconfig, null, '  '));
         console.log(`Finished updating masterdata ${server} to the version ${autoconfig.masterdata_version[server]}`);
@@ -70,30 +73,45 @@ async function checkFileassets(server) {
     // Do update
     try {
         const platform = 'Android';
+        const version = importconfig.fileassets_version[server];
 
+        // Update bundlenames list
         console.log(`Updating catalog resources ${server}...`);
-        await catalog.getCatalogResourcesDownload(server, importconfig.fileassets_version[server], platform, 'Texture2D', path.resolve(__dirname, `../images/${server}/still_path_hash.txt`));
-        
+        const catalogJSON = await catalog.getCatalogFromDownload(server, version, platform);
+        const filterLabels = catalog.getFilterLabels(path.resolve(__dirname, `../images/${server}/still_path_hash.txt`));
+        catalog.getCatalogResources(server, catalogJSON, platform, 'Texture2D', filterLabels);
+        catalog.getCatalogResources(server, catalogJSON, platform, 'TextAsset');
+
         // Download bundles using AtelierToolBundleDownload
         console.log(`Downloading fileassets ${server}...`);
         console.log(`This may take a while.`);
-        const outputDir = path.resolve(__dirname, `../images/${server}/${platform}/bundles`);
-        const bundleNames = path.resolve(__dirname, `../images/${server}/${platform}/bundlenames_filtered_texture2d.txt`);
-        tools.executeAtelierToolBundleDownload(server, platform, importconfig.fileassets_version[server], outputDir, bundleNames);
+        const bundleDir = path.resolve(__dirname, `../images/${server}/${platform}/bundles`);
+        const bundleNamesTexture2D = path.resolve(__dirname, `../images/${server}/${platform}/bundlenames_filtered_texture2d.txt`);
+        const bundleNamesTextAsset = path.resolve(__dirname, `../images/${server}/${platform}/bundlenames_all_textasset.txt`);
+        tools.executeAtelierToolBundleDownload(server, platform, version, bundleDir, bundleNamesTexture2D);
+        tools.executeAtelierToolBundleDownload(server, platform, version, bundleDir, bundleNamesTextAsset);
 
-        // Generate path_hash_to_name.txt using UnityPyScripts
+        // Generate path_hash_to_name.txt for images using UnityPyScripts
         console.log(`Generating path_hash_to_name.txt ${server}`);
         const container_to_path_hash = path.resolve(__dirname, `../images/${server}/container_to_path_hash.json`);
         const path_hash_to_name = path.resolve(__dirname, `../images/${server}/path_hash_to_name.json`);
-        tools.generateContainerToPathHash(container_to_path_hash, outputDir, path_hash_to_name)
+        tools.generateContainerToPathHash(container_to_path_hash, bundleDir, path_hash_to_name);
+
+        // Export TextAsset to data
+        const textAssetByteDir = path.resolve(__dirname, `../images/${server}/${platform}/TextAssetBytes`);
+        const textAssetDir = path.resolve(__dirname, `../data/TextAsset/${server}/${platform}`);
+        tools.exportAssets(bundleNamesTextAsset, bundleDir, 'TextAsset', textAssetByteDir);
+        unpackTextAssets.unpackFolder(textAssetByteDir, textAssetDir);
+        importer.updateFileList([server]);
+
 
         // console.log(`Deleting downloaded bundles ${server}`);
-        // for (const filename of fs.readdirSync(outputDir)) {
-        //     fs.unlinkSync(path.join(outputDir, filename));
+        // for (const filename of fs.readdirSync(bundleDir)) {
+        //     fs.unlinkSync(path.join(bundleDir, filename));
         // }
 
         // Update config
-        autoconfig.fileassets_version[server] = importconfig.fileassets_version[server];
+        autoconfig.fileassets_version[server] = version;
         autoconfig.fileassets_version[`${server}_update_time`] = new Date().toUTCString();
         fs.writeFileSync(path.resolve(__dirname, './config.json'), JSON.stringify(autoconfig, null, '  '));
         console.log(`Finished updating fileassets ${server} to the version ${autoconfig.fileassets_version[server]}`);

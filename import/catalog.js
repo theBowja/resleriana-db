@@ -3,50 +3,37 @@ const path = require('path');
 const https = require('https');
 const config = require('./config.json');
 
-module.exports = { getCatalogResources, getCatalogResourcesLocal, getCatalogResourcesDownload };
+module.exports = {
+    getCatalogFromDownload, getCatalogFromLocalFile,
+    getFilterLabels,
+    getCatalogResources
+};
 
 // const CATALOG_PATH = "C:/Program Files (x86)/Steam/steamapps/common/AtelierReslerianaGL/AtelierResleriana_Data/ABCache/content_catalogs";
 // const STILL_PATH_HASH_PATH = path.resolve(__dirname, '../images/Global/still_path_hash.txt');
-// getCatalogResourcesDownload('Global', config.fileassets_version.Global, 'StandaloneWindows64', 'Texture2D', STILL_PATH_HASH_PATH);
-// getCatalogResourcesLocal('Global', CATALOG_PATH, 'StandaloneWindows64', 'Texture2D', STILL_PATH_HASH_PATH);
 
 /**
- * Downloads the catalog (but does not save it).
+ * Helper function to retrieve catalog json from the internet.
  * @param {string} server 
  * @param {string} version 
  * @param {string} platform 
- * @param {string|string[]} filterResourceTypes unity resource types to filter on
- * @param {string} filterPath if relative path, then it is relative to current working directory.
+ * @returns {object} catalog json
  */
-async function getCatalogResourcesDownload(server, version, platform='StandaloneWindows64', filterResourceTypes=undefined, filterPath=undefined) {
-    validateServer('getCatalogResourcesDownload', server);
-    if (filterPath) filterPath = path.resolve(process.cwd(), filterPath);
-
-    const catalogJSON = await downloadCatalog(server, version, platform);
-    let filterLabels = undefined;
-    if (filterPath) filterLabels = fs.readFileSync(filterPath).toString().split('\n');
-
-    getCatalogResources(server, catalogJSON, platform, filterResourceTypes, filterLabels);
+async function getCatalogFromDownload(server, version, platform='StandaloneWindows64') {
+    return await downloadCatalog(server, version, platform);
 }
 
 /**
- * Downloads the catalog (but does not save it).
- * @param {string} server
- * @param {string} catalogFilePath path to a catalog file that ends with _catalog.json. or a directory that contains such a file.
- *                                 if relative path, then it is relative to current working directory.
- * @param {string} platform 
- * @param {string|string[]} filterResourceTypes unity resource types to filter on
- * @param {string} filterPath if relative path, then it is relative to current working directory.
+ * Helper function to retrieve catalog json from a local file. The file must end with '_catalog.json'
+ * @param {string} catalogFilePath 
+ * @returns {object} catalog json
  */
-function getCatalogResourcesLocal(server, catalogFilePath, platform='StandaloneWindows64', filterResourceTypes=undefined, filterPath=undefined) {
-    validateServer('getCatalogResourcesLocal', server);
+function getCatalogFromLocalFile(catalogFilePath) {
     catalogFilePath = path.resolve(process.cwd(), catalogFilePath);
-    filterPath = path.resolve(process.cwd(), filterPath);
-
     let catalogData = undefined;
     if (catalogFilePath.endsWith('_catalog.json')) {
         catalogData = require(catalogFilePath);
-    } else if (fs.lstatSync(catalogFilePath).isDirectory()) {
+    } else if (fs.lstatSync(catalogFilePath).isDirectory()) { // look for the catalog file
         const filenames = fs.readdirSync(catalogFilePath);
         for (const filename of filenames) {
             if (filename.endsWith('_catalog.json')) {
@@ -58,11 +45,17 @@ function getCatalogResourcesLocal(server, catalogFilePath, platform='StandaloneW
     if (catalogData === undefined) {
         throw new Error('Invalid catalog file path provided');
     }
-    
-    let filterLabels = undefined;
-    if (filterPath) filterLabels = fs.readFileSync(filterPath).toString().split('\n');
+    return catalogData;
+}
 
-    getCatalogResources(server, catalogData, platform, filterResourceTypes, filterLabels);
+/**
+ * Helper function to retrieve filter labels from a file.
+ * @param {string} filterPath if relative path, then it is relative to current working directory.
+ * @returns {string[]}
+ */
+function getFilterLabels(filterPath) {
+    filterPath = path.resolve(process.cwd(), filterPath);
+    return fs.readFileSync(filterPath).toString().split('\n');
 }
 
 /**
@@ -82,7 +75,7 @@ function getCatalogResources(server, catalogJSON, platform='StandaloneWindows64'
     const buckets = getBuckets(catalogJSON);
     const entries = getEntries(catalogJSON, keys);
     const resources = getResources(catalogJSON, keys, buckets, entries, platform, filterResourceTypes, filterLabels, true, true);
-    
+
     // fs.writeFileSync(path.resolve(__dirname, `./tmp/catalog_resources_${server}.json`), JSON.stringify(resources, null, '\t')); // debug
     fs.mkdirSync(path.resolve(__dirname, `../images/${server}/${platform}`), { recursive: true });
 

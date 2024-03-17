@@ -10,7 +10,7 @@ module.exports = {
 };
 
 // const CATALOG_PATH = "C:/Program Files (x86)/Steam/steamapps/common/AtelierReslerianaGL/AtelierResleriana_Data/ABCache/content_catalogs";
-// const STILL_PATH_HASH_PATH = path.resolve(__dirname, '../images/Global/still_path_hash.txt');
+// const STILL_PATH_HASH_PATH = path.resolve(__dirname, '../resources/Global/still_path_hash.txt');
 
 /**
  * Helper function to retrieve catalog json from the internet.
@@ -77,7 +77,7 @@ function getCatalogResources(server, catalogJSON, platform='StandaloneWindows64'
     const resources = getResources(catalogJSON, keys, buckets, entries, platform, filterResourceTypes, filterLabels, true, true);
 
     // fs.writeFileSync(path.resolve(__dirname, `./tmp/catalog_resources_${server}.json`), JSON.stringify(resources, null, '\t')); // debug
-    fs.mkdirSync(path.resolve(__dirname, `../images/${server}/${platform}`), { recursive: true });
+    fs.mkdirSync(path.resolve(__dirname, `../resources/${server}/${platform}`), { recursive: true });
 
     // generate list of bundle names
     const bundleNames = new Set();
@@ -89,7 +89,7 @@ function getCatalogResources(server, catalogJSON, platform='StandaloneWindows64'
 
     const filterString = filterResourceTypes.map(s => s.toLowerCase()).sort().join();
     const subset = filterLabels ? 'filtered' : 'all';
-    fs.writeFileSync(path.resolve(__dirname, `../images/${server}/${platform}/bundlenames_${subset}_${filterString}.txt`),
+    fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames_${subset}_${filterString}.txt`),
                      Array.from(bundleNames).sort().join('\n'));
 
     if (filterLabels) {
@@ -106,7 +106,7 @@ function getCatalogResources(server, catalogJSON, platform='StandaloneWindows64'
             pathHashContainerMap[resources[label][0].container] = label;
         }
 
-        fs.writeFileSync(path.resolve(__dirname, `../images/${server}/container_to_path_hash.json`),
+        fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/container_to_path_hash.json`),
                          JSON.stringify(pathHashContainerMap, null, '\t'));
     }
 }

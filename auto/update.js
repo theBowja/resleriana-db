@@ -78,27 +78,27 @@ async function checkFileassets(server) {
         // Update bundlenames list
         console.log(`Updating catalog resources ${server}...`);
         const catalogJSON = await catalog.getCatalogFromDownload(server, version, platform);
-        const filterLabels = catalog.getFilterLabels(path.resolve(__dirname, `../images/${server}/still_path_hash.txt`));
+        const filterLabels = catalog.getFilterLabels(path.resolve(__dirname, `../resources/${server}/still_path_hash.txt`));
         catalog.getCatalogResources(server, catalogJSON, platform, 'Texture2D', filterLabels);
         catalog.getCatalogResources(server, catalogJSON, platform, 'TextAsset');
 
         // Download bundles using AtelierToolBundleDownload
         console.log(`Downloading fileassets ${server}...`);
         console.log(`This may take a while.`);
-        const bundleDir = path.resolve(__dirname, `../images/${server}/${platform}/bundles`);
-        const bundleNamesTexture2D = path.resolve(__dirname, `../images/${server}/${platform}/bundlenames_filtered_texture2d.txt`);
-        const bundleNamesTextAsset = path.resolve(__dirname, `../images/${server}/${platform}/bundlenames_all_textasset.txt`);
+        const bundleDir = path.resolve(__dirname, `../resources/${server}/${platform}/bundles`);
+        const bundleNamesTexture2D = path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames_filtered_texture2d.txt`);
+        const bundleNamesTextAsset = path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames_all_textasset.txt`);
         tools.executeAtelierToolBundleDownload(server, platform, version, bundleDir, bundleNamesTexture2D);
         tools.executeAtelierToolBundleDownload(server, platform, version, bundleDir, bundleNamesTextAsset);
 
         // Generate path_hash_to_name.txt for images using UnityPyScripts
         console.log(`Generating path_hash_to_name.txt ${server}`);
-        const container_to_path_hash = path.resolve(__dirname, `../images/${server}/container_to_path_hash.json`);
-        const path_hash_to_name = path.resolve(__dirname, `../images/${server}/path_hash_to_name.json`);
+        const container_to_path_hash = path.resolve(__dirname, `../resources/${server}/container_to_path_hash.json`);
+        const path_hash_to_name = path.resolve(__dirname, `../resources/${server}/path_hash_to_name.json`);
         tools.generateContainerToPathHash(container_to_path_hash, bundleDir, path_hash_to_name);
 
         // Export TextAsset to data
-        const textAssetByteDir = path.resolve(__dirname, `../images/${server}/${platform}/TextAssetBytes`);
+        const textAssetByteDir = path.resolve(__dirname, `../resources/${server}/${platform}/TextAssetBytes`);
         const textAssetDir = path.resolve(__dirname, `../data/TextAsset/${server}/${platform}`);
         tools.exportAssets(bundleNamesTextAsset, bundleDir, 'TextAsset', textAssetByteDir);
         unpackTextAssets.unpackFolder(textAssetByteDir, textAssetDir);

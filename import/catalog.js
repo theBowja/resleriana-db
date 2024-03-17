@@ -55,7 +55,7 @@ function getCatalogFromLocalFile(catalogFilePath) {
  */
 function getFilterLabels(filterPath) {
     filterPath = path.resolve(process.cwd(), filterPath);
-    return fs.readFileSync(filterPath).toString().split('\n');
+    return fs.readFileSync(filterPath).toString().split(/\r\n|\n|\r/);
 }
 
 /**

@@ -24,6 +24,8 @@ async function main() {
     
     await checkFileassets('Global');
     await checkFileassets('Japan');
+
+    console.log('done');
 }
 
 // masterdata_version

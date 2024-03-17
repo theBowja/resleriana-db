@@ -57,6 +57,7 @@ function parseMasterData(languages=config.languages) {
 		runExtractor('./parse/extractmemoria.js', lang, 'parsed', 'memoria');
 		// runExtractor('./parse/extractquest.js', 'parsed', 'quest');
 		runExtractor('./parse/extractmaterial.js', lang, 'parsed', 'material');
+		runExtractor('./parse/parserecipe.js', lang, 'parsed', 'recipe');
 	}
 }
 

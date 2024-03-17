@@ -27,7 +27,7 @@ async function main() {
 }
 
 // masterdata_version
-async function checkMasterdata(server) {
+async function checkMasterdata(server, skipCheck=false) {
     // Validate input
     if (!importconfig.servers.includes(server)) {
         console.log(`Invalid server ${server} provided to checkMasterdata(). Must be one of: ${importconfig.servers.join(', ')}.`);
@@ -35,7 +35,7 @@ async function checkMasterdata(server) {
     }
 
     // Check if update needed
-    if (autoconfig.masterdata_version[server] === importconfig.masterdata_version[server]) {
+    if (!skipCheck && autoconfig.masterdata_version[server] === importconfig.masterdata_version[server]) {
         console.log(`No update needed for masterdata_version ${server}`);
         return;
     }
@@ -44,20 +44,21 @@ async function checkMasterdata(server) {
     try {
         const version = importconfig.masterdata_version[server];
 
-        console.log(`Importing masterdata ${server}...`);
+        console.log(`${server}: Importing masterdata...`);
         await importer.extractReslerianaData(server);
 
         // Update config
         autoconfig.masterdata_version[server] = version;
         autoconfig.masterdata_version[`${server}_update_time`] = new Date().toUTCString();
         fs.writeFileSync(path.resolve(__dirname, './config.json'), JSON.stringify(autoconfig, null, '  '));
-        console.log(`Finished updating masterdata ${server} to the version ${autoconfig.masterdata_version[server]}`);
+        console.log(`${server}: Finished updating masterdata to the version ${autoconfig.masterdata_version[server]}`);
+
     } catch (e) {
         console.log(e);
     }
 }
 
-async function checkFileassets(server) {
+async function checkFileassets(server, skipCheck=false) {
     // Validate input
     if (!importconfig.servers.includes(server)) {
         console.log(`Invalid server ${server} provided to checkFileassets(). Must be one of: ${importconfig.servers.join(', ')}.`);
@@ -65,7 +66,7 @@ async function checkFileassets(server) {
     }
 
     // Check if update needed
-    if (autoconfig.fileassets_version[server] === importconfig.fileassets_version[server]) {
+    if (!skipCheck && autoconfig.fileassets_version[server] === importconfig.fileassets_version[server]) {
         console.log(`No update needed for checkFileassets ${server}`);
         return;
     }
@@ -76,14 +77,15 @@ async function checkFileassets(server) {
         const version = importconfig.fileassets_version[server];
 
         // Update bundlenames list
-        console.log(`Updating catalog resources ${server}...`);
+        console.log(`${server}: Downloading catalog... `);
         const catalogJSON = await catalog.getCatalogFromDownload(server, version, platform);
         const filterLabels = catalog.getFilterLabels(path.resolve(__dirname, `../resources/${server}/still_path_hash.txt`));
+        console.log(`${server}: Updating catalog resources...`);
         catalog.getCatalogResources(server, catalogJSON, platform, 'Texture2D', filterLabels);
         catalog.getCatalogResources(server, catalogJSON, platform, 'TextAsset');
 
         // Download bundles using AtelierToolBundleDownload
-        console.log(`Downloading fileassets ${server}...`);
+        console.log(`${server}: Downloading fileassets...`);
         console.log(`This may take a while.`);
         const bundleDir = path.resolve(__dirname, `../resources/${server}/${platform}/bundles`);
         const bundleNamesTexture2D = path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames_filtered_texture2d.txt`);
@@ -92,18 +94,18 @@ async function checkFileassets(server) {
         tools.executeAtelierToolBundleDownload(server, platform, version, bundleDir, bundleNamesTextAsset);
 
         // Generate path_hash_to_name.txt for images using UnityPyScripts
-        console.log(`Generating path_hash_to_name.txt ${server}`);
+        console.log(`${server}: Generating path_hash_to_name.txt...`);
         const container_to_path_hash = path.resolve(__dirname, `../resources/${server}/container_to_path_hash.json`);
         const path_hash_to_name = path.resolve(__dirname, `../resources/${server}/path_hash_to_name.json`);
         tools.generateContainerToPathHash(container_to_path_hash, bundleDir, path_hash_to_name);
 
         // Export TextAsset to data
+        console.log(`${server}: Exporting TextAsset to data...`);
         const textAssetByteDir = path.resolve(__dirname, `../resources/${server}/${platform}/TextAssetBytes`);
-        const textAssetDir = path.resolve(__dirname, `../data/TextAsset/${server}/${platform}`);
+        const textAssetDir = path.resolve(__dirname, `../data/TextAsset/${server}`);
         tools.exportAssets(bundleNamesTextAsset, bundleDir, 'TextAsset', textAssetByteDir);
         unpackTextAssets.unpackFolder(textAssetByteDir, textAssetDir);
         importer.updateFileList([server]);
-
 
         // console.log(`Deleting downloaded bundles ${server}`);
         // for (const filename of fs.readdirSync(bundleDir)) {
@@ -114,7 +116,8 @@ async function checkFileassets(server) {
         autoconfig.fileassets_version[server] = version;
         autoconfig.fileassets_version[`${server}_update_time`] = new Date().toUTCString();
         fs.writeFileSync(path.resolve(__dirname, './config.json'), JSON.stringify(autoconfig, null, '  '));
-        console.log(`Finished updating fileassets ${server} to the version ${autoconfig.fileassets_version[server]}`);
+        console.log(`${server}: Finished updating fileassets to the version ${autoconfig.fileassets_version[server]}`);
+
     } catch (e) {
         console.log(e);
     }

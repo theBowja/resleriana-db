@@ -89,6 +89,13 @@ Tools in the `/tools` folder require different frameworks and packages to be ins
 `UnityPyScripts` require python 3.7+ and UnityPy 1.10.7+.
 - `pip install UnityPy=1.10.7`
 
+## Cloudinary
+
+Settings -> Account -> Product environment cloud name -> change this to whatever.
+
+If you are uploading images through their web interface, then consider disabling the following setting:  
+Settings -> Upload -> Upload presets -> ml_default -> Edit -> Unique filename -> off
+
 ## Contributing
 
 Either open an issue or make a pull request.

@@ -23,7 +23,7 @@ async function main() {
     await checkMasterdata('Global');
     await checkMasterdata('Japan');
     
-    await checkFileassets('Global');
+    await checkFileassets('Global', false, true);
     await checkFileassets('Japan');
 
     console.log('done');
@@ -61,7 +61,7 @@ async function checkMasterdata(server, skipCheck=false) {
     }
 }
 
-async function checkFileassets(server, skipCheck=false) {
+async function checkFileassets(server, skipCheck=false, uploadImages=false) {
     // Validate input
     if (!importconfig.servers.includes(server)) {
         console.log(`Invalid server ${server} provided to checkFileassets(). Must be one of: ${importconfig.servers.join(', ')}.`);
@@ -76,7 +76,7 @@ async function checkFileassets(server, skipCheck=false) {
 
     // Do update
     try {
-        const platform = 'Android';
+        const platform = 'Android'; // smaller bundles
         const version = importconfig.fileassets_version[server];
 
         // Update bundlenames list
@@ -111,7 +111,9 @@ async function checkFileassets(server, skipCheck=false) {
         importer.updateFileList([server]);
 
         // Update images for Cloudinary
-        updateImages(server, version, catalogJSON);
+        if (uploadImages) {
+            await updateImages(server, version, catalogJSON);
+        }
 
         // console.log(`Deleting downloaded bundles ${server}`);
         // for (const filename of fs.readdirSync(bundleDir)) {
@@ -134,8 +136,8 @@ async function checkFileassets(server, skipCheck=false) {
  * @param {string} server 
  * @param {object} catalogJSON 
  */
-function updateImages(server, version, catalogJSON) {
-    const platform = 'StandaloneWindows64';
+async function updateImages(server, version, catalogJSON) {
+    const platform = 'StandaloneWindows64'; // has better quality images
     fs.mkdirSync(path.resolve(__dirname, `../resources/${server}/${platform}`), { recursive: true });
 
     // Initialize all paths
@@ -143,8 +145,6 @@ function updateImages(server, version, catalogJSON) {
     const bundleNamesTexture2D = path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames_all_texture2d.txt`);
     const output_resources = path.resolve(__dirname, `../resources/${server}/${platform}/Texture2D`);
     const image_names_path = path.resolve(__dirname, `../resources/${server}/${platform}/filenames_all_texture2d.txt`);
-    const sizecachePath = path.resolve(__dirname, `../resources/${server}/${platform}/sizecache_all_texture2d.json`);
-    const cloudinaryCachePath = path.resolve(__dirname, `./sizecache_cloudinary.json`);
 
     // Get list of all bundle names with Texture2D
     catalog.getCatalogResources(server, catalogJSON, platform, 'Texture2D');
@@ -152,13 +152,65 @@ function updateImages(server, version, catalogJSON) {
     // Download all Texture2D bundles
     tools.executeAtelierToolBundleDownload(server, platform, version, bundleDir, bundleNamesTexture2D);
 
-    // Unpack images and lossy compress to webp
+    // Unpack images and lossy compress to webp. Write image names
     tools.exportAssets(bundleNamesTexture2D, bundleDir, 'Texture2D', output_resources, image_names_path);
 
-    // Generate sizecache_all_texture2d.json
-    // const sizecache = {};
+    const imageNames = getListFromFile(image_names_path);
+    const name_to_path_hash = objectSwap(require(`../resources/${server}/path_hash_to_name.json`));
+    const uploadFolder = `${server}/${platform}`;
 
-    // fs.writeFileSync(sizecachePath, JSON.stringify(sizecache, null, '\t'));
+    console.log('Uploading images to Cloudinary...');
+    console.log('This may take a very long time if there are a lot of new images...');
+    let count = 0;
+    for (const imageName of imageNames) {
+        const imagePath = path.join(output_resources, imageName+'.webp');
 
-    // // Upload to Cloudinary depending on what is missing in sizecache_cloudinary.json
+        count += await upload.uploadImageFromPath(imagePath, uploadFolder);
+        if (name_to_path_hash[imageName]) {
+            count+= await upload.uploadImageFromPath(imagePath, uploadFolder, name_to_path_hash[imageName]);
+        }
+
+        if (count % 100 === 0) {
+            process.stdout.write(`Progress: ${count} images\r`);
+            upload.saveSizeCache();
+        }
+    }
+
+    // Sort size cache so that it is alphabetical and that path_hashes come last.
+    upload.sortSizeCache(uploadFolder, (a, b) => {
+        const aIsPathHash = /^\d/.test(a[0]) && !a[0].includes('_');
+        const bIsPathHash = /^\d/.test(b[0]) && !b[0].includes('_');
+
+        if (aIsPathHash && !bIsPathHash) return 1;
+        else if (!aIsPathHash && bIsPathHash) return -1;
+        else if (a[0] < b[0]) return -1;
+        else if (a[0] > b[0]) return 1;
+        else return 0;
+    });
+    upload.saveSizeCache();
+
+    console.log(`Finished uploading ${count} images to Cloudinary`);
+}
+
+/**
+ * Helper function to retrieve a list of strings from a newline-delimited txt file.
+ * @param {string} filePath if relative path, then it is relative to current working directory.
+ * @returns {string[]}
+ */
+function getListFromFile(filePath) {
+    filePath = path.resolve(process.cwd(), filePath);
+    return fs.readFileSync(filePath).toString().split(/\r\n|\n|\r/);
+}
+
+/**
+ * Swaps an object's keys and values.
+ * @param {object} obj 
+ * @returns {object}
+ */
+function objectSwap(obj) {
+    const ret = {};
+    Object.keys(obj).forEach(key => {
+      ret[obj[key]] = key;
+    });
+    return ret;
 }

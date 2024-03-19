@@ -2444,7 +2444,7 @@
     "attack_attributes": [7],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "赋予敌方全体“雷属性耐性-{0}%”，受到3次攻击后失效，雷属性伤害。",
+    "description": "赋予敌方全体“雷属性耐性-{0}%”，受到3次攻击后失效，并造成雷属性伤害。",
     "effects": [
       {
         "id": 6000315,
@@ -2468,7 +2468,7 @@
     "attack_attributes": [7],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "赋予敌方全体“雷属性耐性-{0}%”，受到3次攻击后失效，雷属性伤害。",
+    "description": "赋予敌方全体“雷属性耐性-{0}%”，受到3次攻击后失效，并造成雷属性伤害。",
     "effects": [
       {
         "id": 6000315,
@@ -2705,7 +2705,7 @@
     ],
     "id": 31967,
     "limit_count": null,
-    "name": "闪耀新星之炎",
+    "name": "闪耀新星炎烧",
     "power": 100,
     "skill_effect_type": 1,
     "skill_power_type": 2,
@@ -2733,7 +2733,7 @@
     ],
     "id": 31968,
     "limit_count": null,
-    "name": "闪耀新星之炎",
+    "name": "闪耀新星炎烧",
     "power": 70,
     "skill_effect_type": 1,
     "skill_power_type": 2,
@@ -8432,13 +8432,13 @@
     ],
     "id": 11000701,
     "limit_count": null,
-    "name": "印章",
+    "name": "锤击",
     "power": 85,
     "skill_effect_type": 1,
     "skill_power_type": 2,
     "skill_target_type": 3,
     "still_path_hash": "6523615492000077891",
-    "summary": "攻击后，自身的暴击率提升。",
+    "summary": "攻击后，自身暴击率提升。",
     "timeline_hash": "3097169898821781691",
     "wait": -100
   },
@@ -8456,13 +8456,13 @@
     ],
     "id": 11000702,
     "limit_count": null,
-    "name": "印章",
+    "name": "锤击",
     "power": 90,
     "skill_effect_type": 1,
     "skill_power_type": 2,
     "skill_target_type": 3,
     "still_path_hash": "6523615492000077891",
-    "summary": "攻击后，自身的暴击率提升。",
+    "summary": "攻击后，自身暴击率提升。",
     "timeline_hash": "3097169898821781691",
     "wait": -100
   },
@@ -8480,13 +8480,13 @@
     ],
     "id": 11000703,
     "limit_count": null,
-    "name": "印章",
+    "name": "锤击",
     "power": 95,
     "skill_effect_type": 1,
     "skill_power_type": 2,
     "skill_target_type": 3,
     "still_path_hash": "6523615492000077891",
-    "summary": "攻击后，自身的暴击率提升。",
+    "summary": "攻击后，自身暴击率提升。",
     "timeline_hash": "3097169898821781691",
     "wait": -100
   },
@@ -8504,13 +8504,13 @@
     ],
     "id": 11000704,
     "limit_count": null,
-    "name": "印章",
+    "name": "锤击",
     "power": 100,
     "skill_effect_type": 1,
     "skill_power_type": 2,
     "skill_target_type": 3,
     "still_path_hash": "6523615492000077891",
-    "summary": "攻击后，自身的暴击率提升。",
+    "summary": "攻击后，自身暴击率提升。",
     "timeline_hash": "3097169898821781691",
     "wait": -100
   },
@@ -8528,13 +8528,13 @@
     ],
     "id": 11000705,
     "limit_count": null,
-    "name": "印章",
+    "name": "锤击",
     "power": 106,
     "skill_effect_type": 1,
     "skill_power_type": 2,
     "skill_target_type": 3,
     "still_path_hash": "6523615492000077891",
-    "summary": "攻击后，自身的暴击率提升。",
+    "summary": "攻击后，自身暴击率提升。",
     "timeline_hash": "3097169898821781691",
     "wait": -100
   },
@@ -8678,7 +8678,7 @@
     "skill_power_type": 2,
     "skill_target_type": 3,
     "still_path_hash": "787735710988328316",
-    "summary": "攻击后，赋予使用该技能前物攻最高的1名我方物理攻击伤害提升。",
+    "summary": "攻击后，物攻最高的1名我方物理攻击伤害提升。",
     "timeline_hash": "5956222488891111980",
     "wait": -100
   },
@@ -8702,7 +8702,7 @@
     "skill_power_type": 2,
     "skill_target_type": 3,
     "still_path_hash": "787735710988328316",
-    "summary": "攻击后，赋予使用该技能前物攻最高的1名我方物理攻击伤害提升。",
+    "summary": "攻击后，物攻最高的1名我方物理攻击伤害提升。",
     "timeline_hash": "5956222488891111980",
     "wait": -100
   },
@@ -8726,7 +8726,7 @@
     "skill_power_type": 2,
     "skill_target_type": 3,
     "still_path_hash": "787735710988328316",
-    "summary": "攻击后，赋予使用该技能前物攻最高的1名我方物理攻击伤害提升。",
+    "summary": "攻击后，物攻最高的1名我方物理攻击伤害提升。",
     "timeline_hash": "5956222488891111980",
     "wait": -100
   },
@@ -8750,7 +8750,7 @@
     "skill_power_type": 2,
     "skill_target_type": 3,
     "still_path_hash": "787735710988328316",
-    "summary": "攻击后，赋予使用该技能前物攻最高的1名我方物理攻击伤害提升。",
+    "summary": "攻击后，物攻最高的1名我方物理攻击伤害提升。",
     "timeline_hash": "5956222488891111980",
     "wait": -100
   },
@@ -8774,7 +8774,7 @@
     "skill_power_type": 2,
     "skill_target_type": 3,
     "still_path_hash": "787735710988328316",
-    "summary": "攻击后，赋予使用该技能前物攻最高的1名我方物理攻击伤害提升。",
+    "summary": "攻击后，物攻最高的1名我方物理攻击伤害提升。",
     "timeline_hash": "5956222488891111980",
     "wait": -100
   },
@@ -14962,7 +14962,7 @@
     "skill_power_type": 2,
     "skill_target_type": 3,
     "still_path_hash": "9019439288131687315",
-    "summary": "发动WEAK攻击时，破防伤害提升。<br>攻击前，赋予目标冰属性耐性下降。",
+    "summary": "发动WEAK攻击时，破防伤害提升。\n攻击前，目标冰属性耐性下降。",
     "timeline_hash": "4960212622296212485",
     "wait": 0
   },
@@ -14990,7 +14990,7 @@
     "skill_power_type": 2,
     "skill_target_type": 3,
     "still_path_hash": "9019439288131687315",
-    "summary": "发动WEAK攻击时，破防伤害提升。<br>攻击前，赋予目标冰属性耐性下降。",
+    "summary": "发动WEAK攻击时，破防伤害提升。\n攻击前，目标冰属性耐性下降。",
     "timeline_hash": "4960212622296212485",
     "wait": 0
   },
@@ -15018,7 +15018,7 @@
     "skill_power_type": 2,
     "skill_target_type": 3,
     "still_path_hash": "9019439288131687315",
-    "summary": "发动WEAK攻击时，破防伤害提升。<br>攻击前，赋予目标冰属性耐性下降。",
+    "summary": "发动WEAK攻击时，破防伤害提升。\n攻击前，目标冰属性耐性下降。",
     "timeline_hash": "4960212622296212485",
     "wait": 0
   },
@@ -15046,7 +15046,7 @@
     "skill_power_type": 2,
     "skill_target_type": 3,
     "still_path_hash": "9019439288131687315",
-    "summary": "发动WEAK攻击时，破防伤害提升。<br>攻击前，赋予目标冰属性耐性下降。",
+    "summary": "发动WEAK攻击时，破防伤害提升。\n攻击前，目标冰属性耐性下降。",
     "timeline_hash": "4960212622296212485",
     "wait": 0
   },
@@ -15074,7 +15074,7 @@
     "skill_power_type": 2,
     "skill_target_type": 3,
     "still_path_hash": "9019439288131687315",
-    "summary": "发动WEAK攻击时，破防伤害提升。<br>攻击前，赋予目标冰属性耐性下降。",
+    "summary": "发动WEAK攻击时，破防伤害提升。\n攻击前，目标冰属性耐性下降。",
     "timeline_hash": "4960212622296212485",
     "wait": 0
   },
@@ -33447,7 +33447,7 @@
     "attack_attributes": [8],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780009001,
@@ -33490,7 +33490,7 @@
     "attack_attributes": [8],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780009003,
@@ -36851,7 +36851,7 @@
     "attack_attributes": [3],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002082,
     "limit_count": null,
@@ -36870,7 +36870,7 @@
     "attack_attributes": [7],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002083,
     "limit_count": null,
@@ -36889,7 +36889,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780085002,
@@ -36941,7 +36941,7 @@
     "attack_attributes": [6],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002087,
     "limit_count": null,
@@ -36960,7 +36960,7 @@
     "attack_attributes": [8],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002088,
     "limit_count": null,
@@ -36979,7 +36979,7 @@
     "attack_attributes": [6],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002089,
     "limit_count": null,
@@ -36998,7 +36998,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780016001,
@@ -37026,7 +37026,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780016003,
@@ -37054,7 +37054,7 @@
     "attack_attributes": [3],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780040001,
@@ -37078,7 +37078,7 @@
     "attack_attributes": [3],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002093,
     "limit_count": null,
@@ -37097,7 +37097,7 @@
     "attack_attributes": [7],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002094,
     "limit_count": null,
@@ -37116,7 +37116,7 @@
     "attack_attributes": [7],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780040002,
@@ -37140,7 +37140,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780040003,
@@ -37164,7 +37164,7 @@
     "attack_attributes": [6],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002097,
     "limit_count": null,
@@ -37183,7 +37183,7 @@
     "attack_attributes": [8],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002098,
     "limit_count": null,
@@ -37202,7 +37202,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780016001,
@@ -37230,7 +37230,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780016003,
@@ -37258,7 +37258,7 @@
     "attack_attributes": [6],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002102,
     "limit_count": null,
@@ -37277,7 +37277,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780016001,
@@ -37305,7 +37305,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780016003,
@@ -37333,7 +37333,7 @@
     "attack_attributes": [6],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002107,
     "limit_count": null,
@@ -37352,7 +37352,7 @@
     "attack_attributes": [8],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002108,
     "limit_count": null,
@@ -37371,7 +37371,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780016001,
@@ -37399,7 +37399,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780016003,
@@ -37427,7 +37427,7 @@
     "attack_attributes": [2],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002112,
     "limit_count": null,
@@ -37446,7 +37446,7 @@
     "attack_attributes": [5],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002113,
     "limit_count": null,
@@ -37465,7 +37465,7 @@
     "attack_attributes": [3],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002114,
     "limit_count": null,
@@ -37503,7 +37503,7 @@
     "attack_attributes": [5],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002116,
     "limit_count": null,
@@ -37522,7 +37522,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780021001,
@@ -37550,7 +37550,7 @@
     "attack_attributes": [2],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002118,
     "limit_count": null,
@@ -37569,7 +37569,7 @@
     "attack_attributes": [5],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002119,
     "limit_count": null,
@@ -37588,7 +37588,7 @@
     "attack_attributes": [3],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002120,
     "limit_count": null,
@@ -37626,7 +37626,7 @@
     "attack_attributes": [5],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002122,
     "limit_count": null,
@@ -37645,7 +37645,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780021001,
@@ -37673,7 +37673,7 @@
     "attack_attributes": [2],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002124,
     "limit_count": null,
@@ -37692,7 +37692,7 @@
     "attack_attributes": [5],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002125,
     "limit_count": null,
@@ -37711,7 +37711,7 @@
     "attack_attributes": [3],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002126,
     "limit_count": null,
@@ -37730,7 +37730,7 @@
     "attack_attributes": [5],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002127,
     "limit_count": null,
@@ -37749,7 +37749,7 @@
     "attack_attributes": [1],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002128,
     "limit_count": null,
@@ -37768,7 +37768,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780054001,
@@ -37815,7 +37815,7 @@
     "attack_attributes": [7],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002131,
     "limit_count": null,
@@ -37853,7 +37853,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780018002,
@@ -37877,7 +37877,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780018001,
@@ -37901,7 +37901,7 @@
     "attack_attributes": [3],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780040001,
@@ -37925,7 +37925,7 @@
     "attack_attributes": [3],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002139,
     "limit_count": null,
@@ -37944,7 +37944,7 @@
     "attack_attributes": [7],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002140,
     "limit_count": null,
@@ -37963,7 +37963,7 @@
     "attack_attributes": [7],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780040002,
@@ -37987,7 +37987,7 @@
     "attack_attributes": [2],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002143,
     "limit_count": null,
@@ -38006,7 +38006,7 @@
     "attack_attributes": [2],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002144,
     "limit_count": null,
@@ -38025,7 +38025,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780020004,
@@ -38049,7 +38049,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780020023,
@@ -38073,7 +38073,7 @@
     "attack_attributes": [2],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002147,
     "limit_count": null,
@@ -38092,7 +38092,7 @@
     "attack_attributes": [5],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002148,
     "limit_count": null,
@@ -38111,7 +38111,7 @@
     "attack_attributes": [5],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780025017,
@@ -38135,7 +38135,7 @@
     "attack_attributes": [5],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002150,
     "limit_count": null,
@@ -38154,7 +38154,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780025026,
@@ -38178,7 +38178,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002152,
     "limit_count": null,
@@ -38197,7 +38197,7 @@
     "attack_attributes": [8],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780015005,
@@ -38245,7 +38245,7 @@
     "attack_attributes": [8],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002154,
     "limit_count": null,
@@ -38264,7 +38264,7 @@
     "attack_attributes": [2],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002155,
     "limit_count": null,
@@ -38283,7 +38283,7 @@
     "attack_attributes": [2],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780012033,
@@ -38307,7 +38307,7 @@
     "attack_attributes": [2],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780012012,
@@ -38335,7 +38335,7 @@
     "attack_attributes": [7],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780012034,
@@ -38359,7 +38359,7 @@
     "attack_attributes": [8],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002161,
     "limit_count": null,
@@ -38378,7 +38378,7 @@
     "attack_attributes": [8],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002162,
     "limit_count": null,
@@ -38397,7 +38397,7 @@
     "attack_attributes": [8],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002163,
     "limit_count": null,
@@ -38416,7 +38416,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780011021,
@@ -38502,7 +38502,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780022017,
@@ -38530,7 +38530,7 @@
     "attack_attributes": [3],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002174,
     "limit_count": null,
@@ -38549,7 +38549,7 @@
     "attack_attributes": [7],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002175,
     "limit_count": null,
@@ -38568,7 +38568,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780051022,
@@ -38596,7 +38596,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780051001,
@@ -38620,7 +38620,7 @@
     "attack_attributes": [7],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780051002,
@@ -38644,7 +38644,7 @@
     "attack_attributes": [2],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002239,
     "limit_count": null,
@@ -38663,7 +38663,7 @@
     "attack_attributes": [2],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002240,
     "limit_count": null,
@@ -38682,7 +38682,7 @@
     "attack_attributes": [6],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002241,
     "limit_count": null,
@@ -38701,7 +38701,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002242,
     "limit_count": null,
@@ -38720,7 +38720,7 @@
     "attack_attributes": [3],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002244,
     "limit_count": null,
@@ -38739,7 +38739,7 @@
     "attack_attributes": [3],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780008028,
@@ -38763,7 +38763,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780008001,
@@ -38791,7 +38791,7 @@
     "attack_attributes": [6],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002248,
     "limit_count": null,
@@ -38810,7 +38810,7 @@
     "attack_attributes": [1],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002250,
     "limit_count": null,
@@ -38829,7 +38829,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780009008,
@@ -38853,7 +38853,7 @@
     "attack_attributes": [8],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780035009,
@@ -38877,7 +38877,7 @@
     "attack_attributes": [8],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002253,
     "limit_count": null,
@@ -38896,7 +38896,7 @@
     "attack_attributes": [3],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002254,
     "limit_count": null,
@@ -38915,7 +38915,7 @@
     "attack_attributes": [3],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002255,
     "limit_count": null,
@@ -38934,7 +38934,7 @@
     "attack_attributes": [7],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780039006,
@@ -38958,7 +38958,7 @@
     "attack_attributes": [7],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002257,
     "limit_count": null,
@@ -38977,7 +38977,7 @@
     "attack_attributes": [3],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780040001,
@@ -39001,7 +39001,7 @@
     "attack_attributes": [3],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002262,
     "limit_count": null,
@@ -39020,7 +39020,7 @@
     "attack_attributes": [7],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002263,
     "limit_count": null,
@@ -39039,7 +39039,7 @@
     "attack_attributes": [7],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780040016,
@@ -39063,7 +39063,7 @@
     "attack_attributes": [5],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002266,
     "limit_count": null,
@@ -39082,7 +39082,7 @@
     "attack_attributes": [5],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780025017,
@@ -39106,7 +39106,7 @@
     "attack_attributes": [5],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002268,
     "limit_count": null,
@@ -39125,7 +39125,7 @@
     "attack_attributes": [],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780025026,
@@ -39149,7 +39149,7 @@
     "attack_attributes": [3],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780040001,
@@ -39173,7 +39173,7 @@
     "attack_attributes": [3],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002271,
     "limit_count": null,
@@ -39192,7 +39192,7 @@
     "attack_attributes": [7],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002272,
     "limit_count": null,
@@ -39211,7 +39211,7 @@
     "attack_attributes": [7],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780040016,
@@ -39235,7 +39235,7 @@
     "attack_attributes": [3],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002279,
     "limit_count": null,
@@ -39254,7 +39254,7 @@
     "attack_attributes": [3],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002280,
     "limit_count": null,
@@ -39273,7 +39273,7 @@
     "attack_attributes": [7],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780039006,
@@ -39297,7 +39297,7 @@
     "attack_attributes": [7],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002282,
     "limit_count": null,
@@ -39316,7 +39316,7 @@
     "attack_attributes": [7],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780039007,
@@ -39340,7 +39340,7 @@
     "attack_attributes": [1],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780006003,
@@ -39364,7 +39364,7 @@
     "attack_attributes": [1],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002287,
     "limit_count": null,
@@ -39383,7 +39383,7 @@
     "attack_attributes": [1],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780006023,
@@ -39407,7 +39407,7 @@
     "attack_attributes": [1],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [
       {
         "id": 780006001,
@@ -39435,7 +39435,7 @@
     "attack_attributes": [3],
     "break_power": 0,
     "break_power_type": 1,
-    "description": "テキストなし",
+    "description": "无文本",
     "effects": [],
     "id": 20002290,
     "limit_count": null,

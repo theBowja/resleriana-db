@@ -26,6 +26,8 @@ jobs:
         - run: pip install UnityPy==1.10.7
 
         - name: Run update script
+          env: 
+            CLOUDINARY_URL: ${{ secrets.CLOUDINARY_URL }}
           run: npm run updatealldata
 
         - name: Commit changes if any

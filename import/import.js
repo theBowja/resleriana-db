@@ -4,9 +4,7 @@ const masterdata = require('./masterdata.js');
 const config = require('./config.json');
 
 const helper = require('./helper.js');
-helper.setVersion('1.0.0', '170', 'en');
-
-// extractReslerianaData();
+helper.setVersion('1.0.0', '170', 'en'); // this isn't used for anything...
 
 module.exports = {
 	extractReslerianaData,
@@ -22,10 +20,10 @@ module.exports = {
  */
 async function extractReslerianaData(server) {
 	const languages = config.serverToLanguage[server];
-    if (!languages) {
-        console.log(`Invalid server ${server} provided to extractReslerianaData(). Must be one of: ${Object.keys(config.serverToLanguage).join(', ')}.`);
-        return;
-    }
+	if (!languages) {
+		console.log(`Invalid server ${server} provided to extractReslerianaData(). Must be one of: ${Object.keys(config.serverToLanguage).join(', ')}.`);
+		return;
+	}
 
 	let first = true;
 	for (const language of languages) {

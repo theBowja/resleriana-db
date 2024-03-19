@@ -8,6 +8,7 @@ const path = require('path');
 //   array: [ 'folders', 'languages' ],
 //   default: { folders: ['standard'], languages: ['all'], filename: 'genshindb.js', outdir: 'dist', libraryname: 'GenshinDb' }
 // });
+const upload = require('./upload.js');
 const importer = require('../import/import.js');
 const catalog = require('../import/catalog.js');
 const tools = require('../tools/tools.js');
@@ -109,6 +110,9 @@ async function checkFileassets(server, skipCheck=false) {
         unpackTextAssets.unpackFolder(textAssetByteDir, textAssetDir);
         importer.updateFileList([server]);
 
+        // Update images for Cloudinary
+        updateImages(server, version, catalogJSON);
+
         // console.log(`Deleting downloaded bundles ${server}`);
         // for (const filename of fs.readdirSync(bundleDir)) {
         //     fs.unlinkSync(path.join(bundleDir, filename));
@@ -123,4 +127,38 @@ async function checkFileassets(server, skipCheck=false) {
     } catch (e) {
         console.log(e);
     }
+}
+
+/**
+ * Update images and automatically upload them to Cloudinary.
+ * @param {string} server 
+ * @param {object} catalogJSON 
+ */
+function updateImages(server, version, catalogJSON) {
+    const platform = 'StandaloneWindows64';
+    fs.mkdirSync(path.resolve(__dirname, `../resources/${server}/${platform}`), { recursive: true });
+
+    // Initialize all paths
+    const bundleDir = path.resolve(__dirname, `../resources/${server}/${platform}/bundles`);
+    const bundleNamesTexture2D = path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames_all_texture2d.txt`);
+    const output_resources = path.resolve(__dirname, `../resources/${server}/${platform}/Texture2D`);
+    const image_names_path = path.resolve(__dirname, `../resources/${server}/${platform}/filenames_all_texture2d.txt`);
+    const sizecachePath = path.resolve(__dirname, `../resources/${server}/${platform}/sizecache_all_texture2d.json`);
+    const cloudinaryCachePath = path.resolve(__dirname, `./sizecache_cloudinary.json`);
+
+    // Get list of all bundle names with Texture2D
+    catalog.getCatalogResources(server, catalogJSON, platform, 'Texture2D');
+
+    // Download all Texture2D bundles
+    tools.executeAtelierToolBundleDownload(server, platform, version, bundleDir, bundleNamesTexture2D);
+
+    // Unpack images and lossy compress to webp
+    tools.exportAssets(bundleNamesTexture2D, bundleDir, 'Texture2D', output_resources, image_names_path);
+
+    // Generate sizecache_all_texture2d.json
+    // const sizecache = {};
+
+    // fs.writeFileSync(sizecachePath, JSON.stringify(sizecache, null, '\t'));
+
+    // // Upload to Cloudinary depending on what is missing in sizecache_cloudinary.json
 }

@@ -57,12 +57,14 @@ function generateContainerToPathHash(container_json, bundle_folder, output_json)
  * @param {string} bundle_folder if relative path, then it is relative to current working directory.
  * @param {string} asset_type listed in import/config.json under resources property.
  * @param {string} output_folder if relative path, then it is relative to current working directory.
+ * @param {string} filename_list if relative path, then it is relative to current working directory.
  */
-function exportAssets(bundle_names, bundle_folder, asset_type, output_folder) {
+function exportAssets(bundle_names, bundle_folder, asset_type, output_folder, filename_list=undefined) {
     const exePath = path.resolve(__dirname, `./UnityPyScripts/exportAssets.py`);
     bundle_names = path.resolve(process.cwd(), bundle_names);
     bundle_folder = path.resolve(process.cwd(), bundle_folder);
     output_folder = path.resolve(process.cwd(), output_folder);
+    if (filename_list) filename_list = path.resolve(process.cwd(), filename_list);
 
     const args = [
         exePath,
@@ -71,6 +73,7 @@ function exportAssets(bundle_names, bundle_folder, asset_type, output_folder) {
         asset_type,
         output_folder
     ];
+    if (filename_list) args.push('--filename_list', filename_list);
 
     execSync(`python`, args, { stdio: 'inherit' });
 }

@@ -11,11 +11,9 @@ parser.add_argument("bundle_folder", type=str, help="Path to the folder containi
 parser.add_argument("output_json", type=str, nargs="?", default="output.json", help="Path to the output JSON file.")
 args = parser.parse_args()
 
-container_map_path = args.container_json
-
 name_map = {}
 
-with open(container_map_path) as f:
+with open(args.container_json) as f:
     container_map = json.load(f)
 
 def unpack_all_assets(source_folder : str):

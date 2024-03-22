@@ -5100,6 +5100,78 @@
         "episode_name": "アイテム大戦 第2弾"
       },
       {
+        "quest_id": 220401,
+        "quest_name": "チャレンジバトル 鴉１",
+        "episode_id": 2204,
+        "episode_name": "チャレンジバトル 鴉"
+      },
+      {
+        "quest_id": 220402,
+        "quest_name": "チャレンジバトル 鴉２",
+        "episode_id": 2204,
+        "episode_name": "チャレンジバトル 鴉"
+      },
+      {
+        "quest_id": 220403,
+        "quest_name": "チャレンジバトル 鴉３",
+        "episode_id": 2204,
+        "episode_name": "チャレンジバトル 鴉"
+      },
+      {
+        "quest_id": 230401,
+        "quest_name": "アイテム大戦・Normal７",
+        "episode_id": 2304,
+        "episode_name": "アイテム大戦 第3弾"
+      },
+      {
+        "quest_id": 230402,
+        "quest_name": "アイテム大戦・Normal８",
+        "episode_id": 2304,
+        "episode_name": "アイテム大戦 第3弾"
+      },
+      {
+        "quest_id": 230403,
+        "quest_name": "アイテム大戦・Normal９",
+        "episode_id": 2304,
+        "episode_name": "アイテム大戦 第3弾"
+      },
+      {
+        "quest_id": 230404,
+        "quest_name": "アイテム大戦・Hard７",
+        "episode_id": 2304,
+        "episode_name": "アイテム大戦 第3弾"
+      },
+      {
+        "quest_id": 230405,
+        "quest_name": "アイテム大戦・Hard８",
+        "episode_id": 2304,
+        "episode_name": "アイテム大戦 第3弾"
+      },
+      {
+        "quest_id": 230406,
+        "quest_name": "アイテム大戦・Hard９",
+        "episode_id": 2304,
+        "episode_name": "アイテム大戦 第3弾"
+      },
+      {
+        "quest_id": 230407,
+        "quest_name": "アイテム大戦・Very Hard７",
+        "episode_id": 2304,
+        "episode_name": "アイテム大戦 第3弾"
+      },
+      {
+        "quest_id": 230408,
+        "quest_name": "アイテム大戦・Very Hard８",
+        "episode_id": 2304,
+        "episode_name": "アイテム大戦 第3弾"
+      },
+      {
+        "quest_id": 230409,
+        "quest_name": "アイテム大戦・Very Hard９",
+        "episode_id": 2304,
+        "episode_name": "アイテム大戦 第3弾"
+      },
+      {
         "quest_id": 204101001,
         "quest_name": "王都周辺にて",
         "difficulty": "NORMAL",
@@ -24405,6 +24477,14 @@
         "episode_id": 204110,
         "episode_name": "スコアバトル10章",
         "quantity": 4
+      },
+      {
+        "quest_id": 204111005,
+        "quest_name": "魔物の縄張り【青/黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204111,
+        "episode_name": "スコアバトル11章",
+        "quantity": 4
       }
     ],
     "image_small": "Ingredient_0448_S",
@@ -24461,6 +24541,18 @@
         "quest_name": "安らぎの庭園[危険度：II]",
         "episode_id": 204224,
         "episode_name": "安らぎの庭園"
+      },
+      {
+        "quest_id": 204225001,
+        "quest_name": "花香の通い路[危険度：I]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225002,
+        "quest_name": "花香の通い路[危険度：II]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
       }
     ],
     "image_small": "Ingredient_0449_S",
@@ -24517,6 +24609,18 @@
         "quest_name": "安らぎの庭園[危険度：II]",
         "episode_id": 204224,
         "episode_name": "安らぎの庭園"
+      },
+      {
+        "quest_id": 204225001,
+        "quest_name": "花香の通い路[危険度：I]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225002,
+        "quest_name": "花香の通い路[危険度：II]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
       }
     ],
     "image_small": "Ingredient_0450_S",
@@ -25262,6 +25366,1010 @@
     "image_small": "Ingredient_0460_S",
     "image_medium": "Ingredient_0460_M",
     "start_at": "2024-03-12T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 461,
+    "name": "土かぶり",
+    "rarity": 1,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 2,
+        "name": "斬の祝福",
+        "category": "ATTACK",
+        "description": "斬属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000002,
+            "description": "斬属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "突の盾",
+        "category": "ENHANCE",
+        "description": "対象に「突属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000072,
+            "description": "対象に「突属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204111001,
+        "quest_name": "魔物の縄張り",
+        "difficulty": "NORMAL",
+        "episode_id": 204111,
+        "episode_name": "スコアバトル11章",
+        "quantity": 5
+      },
+      {
+        "quest_id": 204111003,
+        "quest_name": "魔物の縄張り【青/黄】",
+        "difficulty": "HARD",
+        "episode_id": 204111,
+        "episode_name": "スコアバトル11章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204111005,
+        "quest_name": "魔物の縄張り【青/黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204111,
+        "episode_name": "スコアバトル11章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0461_S",
+    "image_medium": "Ingredient_0461_M",
+    "start_at": "2024-03-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 462,
+    "name": "きれいな貝殻",
+    "rarity": 1,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 10,
+        "name": "物理ダメージ上昇",
+        "category": "ATTACK",
+        "description": "物理攻撃のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000008,
+            "description": "物理攻撃のダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "name": "回復量上昇【背水】",
+        "category": "RECOVERY",
+        "description": "HPが50%以下の時、与える回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000107,
+            "description": "HPが50%以下の時、HP回復量{0}%アップ",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204111002,
+        "quest_name": "知恵と工夫と錬金術",
+        "difficulty": "NORMAL",
+        "episode_id": 204111,
+        "episode_name": "スコアバトル11章",
+        "quantity": 5
+      },
+      {
+        "quest_id": 204111004,
+        "quest_name": "知恵と工夫と錬金術【赤/青/緑/黄/紫】",
+        "difficulty": "HARD",
+        "episode_id": 204111,
+        "episode_name": "スコアバトル11章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204111006,
+        "quest_name": "知恵と工夫と錬金術【赤/青/緑/黄/紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204111,
+        "episode_name": "スコアバトル11章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0462_S",
+    "image_medium": "Ingredient_0462_M",
+    "start_at": "2024-03-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 463,
+    "name": "悲哀の叫び",
+    "rarity": 2,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 17,
+        "name": "ブレイクダメージ上昇【渾身】",
+        "category": "ATTACK",
+        "description": "HP満タン時、ブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000016,
+            "description": "HPが最大の時、ブレイクダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "ダメージバフ強化【B】",
+        "category": "ENHANCE",
+        "description": "ブレイカーへ与えるダメージ強化の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000018,
+            "description": "ブレイカーへのダメージバフ{0}%アップ",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204111003,
+        "quest_name": "魔物の縄張り【青/黄】",
+        "difficulty": "HARD",
+        "episode_id": 204111,
+        "episode_name": "スコアバトル11章",
+        "quantity": 4
+      },
+      {
+        "quest_id": 204111004,
+        "quest_name": "知恵と工夫と錬金術【赤/青/緑/黄/紫】",
+        "difficulty": "HARD",
+        "episode_id": 204111,
+        "episode_name": "スコアバトル11章",
+        "quantity": 4
+      },
+      {
+        "quest_id": 204111005,
+        "quest_name": "魔物の縄張り【青/黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204111,
+        "episode_name": "スコアバトル11章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204111006,
+        "quest_name": "知恵と工夫と錬金術【赤/青/緑/黄/紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204111,
+        "episode_name": "スコアバトル11章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0463_S",
+    "image_medium": "Ingredient_0463_M",
+    "start_at": "2024-03-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 464,
+    "name": "ペイントストーン",
+    "rarity": 3,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 60,
+        "name": "クリティカルダメージ上昇",
+        "category": "ATTACK",
+        "description": "クリティカルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 13000011,
+            "description": "クリティカルダメージアップ",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "打耐性上昇",
+        "category": "ENHANCE",
+        "description": "打属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000021,
+            "description": "打属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204111006,
+        "quest_name": "知恵と工夫と錬金術【赤/青/緑/黄/紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204111,
+        "episode_name": "スコアバトル11章",
+        "quantity": 4
+      }
+    ],
+    "image_small": "Ingredient_0464_S",
+    "image_medium": "Ingredient_0464_M",
+    "start_at": "2024-03-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 465,
+    "name": "クラルクリスタル",
+    "rarity": 1,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 11,
+        "name": "魔法ダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "氷耐性上昇",
+        "category": "ENHANCE",
+        "description": "氷属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000023,
+            "description": "氷属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204225001,
+        "quest_name": "花香の通い路[危険度：I]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225002,
+        "quest_name": "花香の通い路[危険度：II]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      }
+    ],
+    "image_small": "Ingredient_0465_S",
+    "image_medium": "Ingredient_0465_M",
+    "start_at": "2024-03-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 466,
+    "name": "蛍光花",
+    "rarity": 2,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 35,
+        "name": "精霊特防",
+        "category": "ENHANCE",
+        "description": "対象に「精霊種族から受けるダメージ{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000092,
+            "description": "対象に「精霊種族から受けるダメージ{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "大きな回復量",
+        "category": "RECOVERY",
+        "description": "与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000075,
+            "description": "与えるHP回復量{0}%アップ",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204225001,
+        "quest_name": "花香の通い路[危険度：I]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225002,
+        "quest_name": "花香の通い路[危険度：II]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225003,
+        "quest_name": "花香の通い路[危険度：III]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225004,
+        "quest_name": "花香の通い路[危険度：IV]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225005,
+        "quest_name": "花香の通い路[危険度：V]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225006,
+        "quest_name": "花香の通い路[危険度：VI]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      }
+    ],
+    "image_small": "Ingredient_0466_S",
+    "image_medium": "Ingredient_0466_M",
+    "start_at": "2024-03-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 467,
+    "name": "グラコフィッシュ",
+    "rarity": 2,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 3,
+        "name": "斬ダメージ上昇",
+        "category": "ATTACK",
+        "description": "斬属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000002,
+            "description": "斬属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "name": "回復量上昇【渾身】",
+        "category": "RECOVERY",
+        "description": "HP満タン時、与える回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000106,
+            "description": "HPが最大の時、HP回復量{0}%アップ",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204225001,
+        "quest_name": "花香の通い路[危険度：I]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225002,
+        "quest_name": "花香の通い路[危険度：II]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225003,
+        "quest_name": "花香の通い路[危険度：III]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225004,
+        "quest_name": "花香の通い路[危険度：IV]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225005,
+        "quest_name": "花香の通い路[危険度：V]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225006,
+        "quest_name": "花香の通い路[危険度：VI]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      }
+    ],
+    "image_small": "Ingredient_0467_S",
+    "image_medium": "Ingredient_0467_M",
+    "start_at": "2024-03-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 468,
+    "name": "畜輝石",
+    "rarity": 2,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 32,
+        "name": "魔法ダメージ上昇【背水】",
+        "category": "ATTACK",
+        "description": "HPが50%以下の時、魔法攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000099,
+            "description": "HPが50%以下の時、与える魔法属性ダメージ{0}%アップ",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "風耐性上昇",
+        "category": "ENHANCE",
+        "description": "風属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000025,
+            "description": "風属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204225001,
+        "quest_name": "花香の通い路[危険度：I]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225002,
+        "quest_name": "花香の通い路[危険度：II]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225003,
+        "quest_name": "花香の通い路[危険度：III]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225004,
+        "quest_name": "花香の通い路[危険度：IV]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225005,
+        "quest_name": "花香の通い路[危険度：V]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225006,
+        "quest_name": "花香の通い路[危険度：VI]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      }
+    ],
+    "image_small": "Ingredient_0468_S",
+    "image_medium": "Ingredient_0468_M",
+    "start_at": "2024-03-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 469,
+    "name": "アルドピルム",
+    "rarity": 3,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 27,
+        "name": "単体攻撃威力上昇",
+        "category": "ATTACK",
+        "description": "単体攻撃のスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000111,
+            "description": "単体攻撃のスキル威力{0}％アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "打耐性上昇",
+        "category": "ENHANCE",
+        "description": "打属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000021,
+            "description": "打属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204225003,
+        "quest_name": "花香の通い路[危険度：III]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225004,
+        "quest_name": "花香の通い路[危険度：IV]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225005,
+        "quest_name": "花香の通い路[危険度：V]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225006,
+        "quest_name": "花香の通い路[危険度：VI]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225007,
+        "quest_name": "花香の通い路[危険度：VII]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225008,
+        "quest_name": "花香の通い路[危険度：VIII]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225009,
+        "quest_name": "花香の通い路[危険度：IX]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      }
+    ],
+    "image_small": "Ingredient_0469_S",
+    "image_medium": "Ingredient_0469_M",
+    "start_at": "2024-03-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 470,
+    "name": "チクチク",
+    "rarity": 3,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 15,
+        "name": "打の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000064,
+            "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "会心の出来",
+        "category": "ENHANCE",
+        "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204225003,
+        "quest_name": "花香の通い路[危険度：III]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225004,
+        "quest_name": "花香の通い路[危険度：IV]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225005,
+        "quest_name": "花香の通い路[危険度：V]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225006,
+        "quest_name": "花香の通い路[危険度：VI]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225007,
+        "quest_name": "花香の通い路[危険度：VII]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225008,
+        "quest_name": "花香の通い路[危険度：VIII]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225009,
+        "quest_name": "花香の通い路[危険度：IX]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      }
+    ],
+    "image_small": "Ingredient_0470_S",
+    "image_medium": "Ingredient_0470_M",
+    "start_at": "2024-03-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 471,
+    "name": "球棘岩",
+    "rarity": 3,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 5,
+        "name": "突ダメージ上昇",
+        "category": "ATTACK",
+        "description": "突属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "突属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "name": "水棲ダメージ軽減",
+        "category": "ENHANCE",
+        "description": "水棲種族から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000088,
+            "description": "対象に水棲種族から受けるダメージ{0}%ダウンを付与(1回)",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204225003,
+        "quest_name": "花香の通い路[危険度：III]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225004,
+        "quest_name": "花香の通い路[危険度：IV]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225005,
+        "quest_name": "花香の通い路[危険度：V]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225006,
+        "quest_name": "花香の通い路[危険度：VI]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225007,
+        "quest_name": "花香の通い路[危険度：VII]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225008,
+        "quest_name": "花香の通い路[危険度：VIII]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225009,
+        "quest_name": "花香の通い路[危険度：IX]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      }
+    ],
+    "image_small": "Ingredient_0471_S",
+    "image_medium": "Ingredient_0471_M",
+    "start_at": "2024-03-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 472,
+    "name": "デザートステラ",
+    "rarity": 3,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 28,
+        "name": "全体攻撃威力上昇",
+        "category": "ATTACK",
+        "description": "全体攻撃のスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000110,
+            "description": "全体攻撃のスキル威力{0}％アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "name": "被回復量上昇",
+        "category": "RECOVERY",
+        "description": "受けるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 13000002,
+            "description": "被回復量上昇",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204225007,
+        "quest_name": "花香の通い路[危険度：VII]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225008,
+        "quest_name": "花香の通い路[危険度：VIII]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225009,
+        "quest_name": "花香の通い路[危険度：IX]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      }
+    ],
+    "image_small": "Ingredient_0472_S",
+    "image_medium": "Ingredient_0472_M",
+    "start_at": "2024-03-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 473,
+    "name": "なまけぬし",
+    "rarity": 3,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 61,
+        "name": "バーストスキル威力上昇",
+        "category": "ATTACK",
+        "description": "バーストスキルのスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000165,
+            "description": "バーストスキル威力{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "物理/魔法耐性アップ強化【D】",
+        "category": "ENHANCE",
+        "description": "対象がディフェンダーへ与える「物理被ダメージダウン」と「魔法被ダメージダウン」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000029,
+            "description": "対象がディフェンダーへ与える「物理被ダメージダウン」と「魔法被ダメージダウン」の効果量{0}%アップ",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204225007,
+        "quest_name": "花香の通い路[危険度：VII]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225008,
+        "quest_name": "花香の通い路[危険度：VIII]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225009,
+        "quest_name": "花香の通い路[危険度：IX]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      }
+    ],
+    "image_small": "Ingredient_0473_S",
+    "image_medium": "Ingredient_0473_M",
+    "start_at": "2024-03-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 474,
+    "name": "擬花石",
+    "rarity": 3,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 63,
+        "name": "スキル2威力上昇",
+        "category": "ATTACK",
+        "description": "スキル2のスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000168,
+            "description": "スキル2威力{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "name": "全体攻撃耐性上昇",
+        "category": "ENHANCE",
+        "description": "全体攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000112,
+            "description": "全体攻撃で受けるダメージ{0}％ダウン",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204225007,
+        "quest_name": "花香の通い路[危険度：VII]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225008,
+        "quest_name": "花香の通い路[危険度：VIII]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      },
+      {
+        "quest_id": 204225009,
+        "quest_name": "花香の通い路[危険度：IX]",
+        "episode_id": 204225,
+        "episode_name": "花香の通い路"
+      }
+    ],
+    "image_small": "Ingredient_0474_S",
+    "image_medium": "Ingredient_0474_M",
+    "start_at": "2024-03-22T03:00:00.000Z",
     "end_at": null
   }
 ]

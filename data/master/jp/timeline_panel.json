@@ -12,7 +12,7 @@
   {
     "description": "スキルダメージ+40%",
     "grade": 1,
-    "group_id": null,
+    "group_id": 1,
     "id": 12,
     "name": "強化パネル",
     "override_vfx_path_hash": 0,
@@ -22,7 +22,7 @@
   {
     "description": "スキルダメージ-40%",
     "grade": 1,
-    "group_id": null,
+    "group_id": 2,
     "id": 13,
     "name": "弱体パネル",
     "override_vfx_path_hash": 0,
@@ -32,7 +32,7 @@
   {
     "description": "バーストスキル発動可能",
     "grade": 1,
-    "group_id": null,
+    "group_id": 3,
     "id": 14,
     "name": "バーストパネル",
     "override_vfx_path_hash": 0,
@@ -42,7 +42,7 @@
   {
     "description": "超高確率で麻痺を付与",
     "grade": 1,
-    "group_id": null,
+    "group_id": 9,
     "id": 15,
     "name": "麻痺パネル",
     "override_vfx_path_hash": 0,
@@ -52,7 +52,7 @@
   {
     "description": "超高確率で暗闇を付与",
     "grade": 1,
-    "group_id": null,
+    "group_id": 10,
     "id": 16,
     "name": "暗闇パネル",
     "override_vfx_path_hash": 0,
@@ -132,7 +132,7 @@
   {
     "description": "確定クリティカル",
     "grade": 1,
-    "group_id": null,
+    "group_id": 4,
     "id": 30,
     "name": "クリティカルパネル",
     "override_vfx_path_hash": "1186856317070894303",
@@ -142,7 +142,7 @@
   {
     "description": "味方全員の受けるダメージ-40%(1回)",
     "grade": 1,
-    "group_id": null,
+    "group_id": 6,
     "id": 33,
     "name": "加護強化パネル",
     "override_vfx_path_hash": 0,
@@ -152,7 +152,7 @@
   {
     "description": "味方全員の受けるダメージ+40%(1回)",
     "grade": 1,
-    "group_id": null,
+    "group_id": 7,
     "id": 36,
     "name": "加護弱化パネル",
     "override_vfx_path_hash": 0,
@@ -162,7 +162,7 @@
   {
     "description": "ブレイクダメージ+40%",
     "grade": 1,
-    "group_id": null,
+    "group_id": 5,
     "id": 39,
     "name": "ブレイク強化パネル",
     "override_vfx_path_hash": "1341054180982809700",
@@ -172,11 +172,21 @@
   {
     "description": "味方全員のHPを回復(25%)",
     "grade": 1,
-    "group_id": null,
+    "group_id": 8,
     "id": 42,
     "name": "HP回復パネル",
     "override_vfx_path_hash": 0,
     "still_path_hash": "3496650973552066916",
     "type": 2
+  },
+  {
+    "description": "超高確率で火傷を付与",
+    "grade": 1,
+    "group_id": 11,
+    "id": 45,
+    "name": "火傷パネル",
+    "override_vfx_path_hash": 0,
+    "still_path_hash": "6472887331685589688",
+    "type": 3
   }
 ]

@@ -9514,6 +9514,209 @@
     "start_at": "2023-11-21T03:00:00.000Z"
   },
   {
+    "id": 37502,
+    "name": "スール",
+    "title": "【Ranger of Rose】",
+    "full_name": "スール・マーレン",
+    "base_character": "スール",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "STAB",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "これなら負ける気がしないね！ \nどんな敵でも、あたしたちで倒しちゃおう！",
+    "profile": {
+      "voice_actor": "赤尾ひかる",
+      "voice_text": "今のあたしは勝利をもたらす女神…… \n頂獣が来たって、敵じゃないね！",
+      "description": "双子の錬金術士の妹。\n姉のリディーと共に各地を旅している。旅の最中に頂獣出現の知らせを聞きつけ、姉妹揃って真っ先に招集に応じてやって来た。\n姉に比べるとおてんばで感覚派。\n頂獣討伐においても、彼女ならではの調子と思い切りの良さで力になろうとしている。",
+      "origin_game": "リディー＆スールのアトリエ ～不思議な絵画の錬金術士～"
+    },
+    "gift_color": {
+      "received": "赤",
+      "given": "青"
+    },
+    "battle_item_trait": [
+      {
+        "id": 48,
+        "name": "使い切り攻撃強化",
+        "category": "ATTACK",
+        "description": "使用回数が1回の時、ダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000108,
+            "description": "使用回数が1回の時、ダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "突の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000065,
+            "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 31,
+        "name": "物理ダメージ上昇【渾身】",
+        "category": "ATTACK",
+        "description": "HP満タン時、物理攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000102,
+            "description": "HPが最大の時、与える物理属性ダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 134,
+        "spd": 233,
+        "patk": 71,
+        "matk": 54,
+        "pdef": 52,
+        "mdef": 52
+      },
+      "growth": {
+        "hp": 1340,
+        "spd": 0,
+        "patk": 710,
+        "matk": 540,
+        "pdef": 520,
+        "mdef": 520
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 5
+      }
+    },
+    "skill_1": {
+      "name": "アメジストスパイク",
+      "description": "攻撃後、アイテムゲージを{0}%回復し、<br>自身に「物攻+{1}%」を付与(上限30%)",
+      "summary": "攻撃後、アイテムゲージを回復<br>自身の物攻アップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91002004,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91001208,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [79, 83, 88, 93, 98],
+      "has_stun": true,
+      "stun_values": [7, 7, 7, 7, 8],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "ファルコンフォール",
+      "description": "攻撃後、自身に「回避(確率{0}%)」を1回攻撃されるまで付与",
+      "summary": "攻撃後、自身に回避を付与",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001209,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [300, 318, 337, 356, 375],
+      "has_stun": true,
+      "stun_values": [32, 34, 36, 38, 40],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "エフェメラルエッジ",
+      "description": "自身のHPに応じ、ダメージ+10〜100%(HP10〜100%で多いほど増加)<br>攻撃前、自身に「スキルダメージ+{0}%」を付与(上限100%)",
+      "summary": "自身のHPが多いほどダメージアップ<br>攻撃前、自身のスキルダメージアップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001210,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001211,
+          "description": "",
+          "value": 9000
+        },
+        {
+          "id": 91000927,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [400, 400, 400, 425, 450, 475, 500],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "腰抜かしちゃえ！",
+      "description": "パーティの誰かが戦闘アイテム使用後、自身に「攻撃後、対象のターンを1ターン遅らせる」を1回スキル発動するまで付与(発動上限3回)<br>※アイテムを複数同時に使用しても発動は1回",
+      "effects": [
+        {
+          "id": 72001037,
+          "description": "味方が戦闘アイテム使用後、自身に「攻撃後、対象のターンを{0}ターン遅らせる」を1回スキル発動するまで付与(発動上限回数 3回）<br>※アイテムを複数同時に使用しても発動は1回",
+          "value": 100
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "決戦装備シュヴァルツロゼ",
+      "description": "状態異常無効",
+      "effects": [
+        {
+          "id": 72000987,
+          "description": "[自身/常時/状態異常無効]",
+          "value": 10000
+        }
+      ]
+    },
+    "start_at": "2024-03-22T03:00:00.000Z"
+  },
+  {
     "id": 39901,
     "name": "ライザ",
     "title": "【One Summer Story】",
@@ -12873,6 +13076,218 @@
       ]
     },
     "start_at": "2024-03-12T03:00:00.000Z"
+  },
+  {
+    "id": 43601,
+    "name": "フロッケ",
+    "title": "【Angel of Rose】",
+    "full_name": "フロッケ・チェルハ",
+    "base_character": "フロッケ",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "STRIKE",
+    "role": "SUPPORTER",
+    "initial_rarity": 3,
+    "acquisition_text": "フロッケだって戦えます！ \nだから――連れていってください！",
+    "profile": {
+      "voice_actor": "大野柚布子",
+      "voice_text": "街や人々を守るため…… \nフロッケは戦うと決めました！",
+      "description": "働き者の行商人。\nヴァレリアたちの生活を支えることに徹していたが、街を守るために頂獣に挑む仲間たちの背中を見て、居ても立っても居られず参戦することに。\n普段は控え目な性格だが、一度決めたことは最後までやり通す強さを持つ。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "紫",
+      "given": "黄"
+    },
+    "battle_item_trait": [
+      {
+        "id": 46,
+        "name": "全体回復ボーナス",
+        "category": "RECOVERY",
+        "description": "全体回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体回復が与えるHP回復量{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "守護の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 41,
+        "name": "全体回復量上昇",
+        "category": "RECOVERY",
+        "description": "味方全員回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体回復が与えるHP回復量{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 143,
+        "spd": 251,
+        "patk": 57,
+        "matk": 52,
+        "pdef": 57,
+        "mdef": 49
+      },
+      "growth": {
+        "hp": 1430,
+        "spd": 0,
+        "patk": 570,
+        "matk": 520,
+        "pdef": 570,
+        "mdef": 490
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 5,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "くるふわノック",
+      "description": "攻撃後、味方全員に「クリティカル確率+{0}%」を付与(上限100%)",
+      "summary": "攻撃後、味方全員のクリティカル確率アップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001204,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [49, 52, 55, 58, 61],
+      "has_stun": true,
+      "stun_values": [5, 5, 5, 5, 6],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "祝福のアプローズ",
+      "description": "対象のHPが70%未満の時、HP回復量+{0}%<br>回復後、対象に「クリティカルダメージ+{1}%」を付与(上限50%)",
+      "summary": "対象のHPが70%未満の時、HP回復量アップ<br>回復後、対象のクリティカルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001206,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001205,
+          "description": "",
+          "value": 2500
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ALLY",
+      "range": "ALL",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": true,
+      "recovery_values": [85, 87, 89, 91, 93],
+      "wait": 200
+    },
+    "burst": {
+      "name": "ブーケコメット",
+      "description": "この攻撃のクリティカル確率+100%<br>攻撃前、対象に「受けるクリティカルダメージ+{0}%」を付与(上限60%)",
+      "summary": "この攻撃のクリティカル確率アップ<br>攻撃前、対象の受けるクリティカルダメージアップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001207,
+          "description": "",
+          "value": 3000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "天使の抱擁",
+      "description": "味方全員の物攻・魔攻・物防・魔防+{0}%",
+      "effects": [
+        {
+          "id": 72000907,
+          "description": "[味方全体/常時/物攻上昇]",
+          "value": 1000
+        },
+        {
+          "id": 72000908,
+          "description": "[味方全体/常時/魔攻上昇]",
+          "value": 1000
+        },
+        {
+          "id": 72000909,
+          "description": "[味方全体/常時/物防上昇]",
+          "value": 1000
+        },
+        {
+          "id": 72000910,
+          "description": "[味方全体/常時/魔防上昇]",
+          "value": 1000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "決戦装備シュヴァルツロゼ",
+      "description": "状態異常無効",
+      "effects": [
+        {
+          "id": 72000987,
+          "description": "[自身/常時/状態異常無効]",
+          "value": 10000
+        }
+      ]
+    },
+    "start_at": "2024-03-22T03:00:00.000Z"
   },
   {
     "id": 43801,

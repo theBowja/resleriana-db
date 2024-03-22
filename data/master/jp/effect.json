@@ -3220,6 +3220,81 @@
     "id": 6000537
   },
   {
+    "description": "得意属性が打属性かつサポーターの時、味方全員に「物攻アップ」を1回行動終了するまで付与",
+    "effect_motion_id": null,
+    "id": 6000538
+  },
+  {
+    "description": "得意属性が打属性かつサポーターの時、受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000539
+  },
+  {
+    "description": "得意属性が打属性かつサポーターの時、味方全員のクリティカルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000540
+  },
+  {
+    "description": "得意属性が突属性かつアタッカーの時、自身のHPに応じ、スキルダメージアップ(HP10〜100%で多いほど増加)",
+    "effect_motion_id": null,
+    "id": 6000541
+  },
+  {
+    "description": "得意属性が突属性かつアタッカーの時、味方が戦闘アイテム使用後、自身に「スキルダメージアップ」を1回行動終了するまで付与<br>※アイテムを複数同時に使用しても発動は1回",
+    "effect_motion_id": null,
+    "id": 6000542
+  },
+  {
+    "description": "得意属性が突属性かつアタッカーの時、単体攻撃のスキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000543
+  },
+  {
+    "description": "味方全員に「クリティカルダメージアップ」を1回付与",
+    "effect_motion_id": null,
+    "id": 6000547
+  },
+  {
+    "description": "敵全体に「斬属性耐性ダウン」を3回攻撃を受けるまで付与",
+    "effect_motion_id": null,
+    "id": 6000548
+  },
+  {
+    "description": "味方全員に「クリティカル攻撃時、ブレイクダメージアップ」を1回付与",
+    "effect_motion_id": null,
+    "id": 6000549
+  },
+  {
+    "description": "得意属性が突属性かつアタッカーの時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000550
+  },
+  {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "id": 6000551
+  },
+  {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "id": 6000552
+  },
+  {
+    "description": "自身がアタッカーの時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000562
+  },
+  {
+    "description": "自身がブレイカーの時、ブレイクダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000563
+  },
+  {
+    "description": "自身がディフェンダーの時、受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000564
+  },
+  {
     "description": "与回復量上昇",
     "effect_motion_id": null,
     "id": 13000001
@@ -3368,6 +3443,11 @@
     "description": "与えるブレイクダメージを減少させる",
     "effect_motion_id": null,
     "id": 13000030
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 13000031
   },
   {
     "description": "与ダメージダウン",
@@ -3583,6 +3663,51 @@
     "description": "",
     "effect_motion_id": null,
     "id": 13000163
+  },
+  {
+    "description": "WEAK攻撃時、スキルダメージ+{0}%",
+    "effect_motion_id": null,
+    "id": 13000164
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 13000171
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 13000173
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 13000174
+  },
+  {
+    "description": "WEAK攻撃時、ブレイクダメージ+{0}%",
+    "effect_motion_id": null,
+    "id": 13000175
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 13000176
+  },
+  {
+    "description": "攻撃対象が状態異常の時、ブレイクダメージ+{0}%",
+    "effect_motion_id": null,
+    "id": 13000177
+  },
+  {
+    "description": "全体攻撃のスキルダメージ{0}％アップ",
+    "effect_motion_id": null,
+    "id": 13000180
+  },
+  {
+    "description": "単体攻撃のスキルダメージ{0}％アップ",
+    "effect_motion_id": null,
+    "id": 13000181
   },
   {
     "description": "[自身/常時/ダメージバフ]",
@@ -3908,6 +4033,211 @@
     "description": "自身に「回避(確率{0}%)」を1回攻撃されるまで付与",
     "effect_motion_id": null,
     "id": 72001008
+  },
+  {
+    "description": "自身に「攻撃後、対象のターンを{0}ターン遅らせる」を1回スキル発動するまで付与",
+    "effect_motion_id": null,
+    "id": 72001036
+  },
+  {
+    "description": "味方が戦闘アイテム使用後、自身に「攻撃後、対象のターンを{0}ターン遅らせる」を1回スキル発動するまで付与(発動上限回数 3回）<br>※アイテムを複数同時に使用しても発動は1回",
+    "effect_motion_id": null,
+    "id": 72001037
+  },
+  {
+    "description": "[自身/常時/物攻上昇]",
+    "effect_motion_id": null,
+    "id": 72500002
+  },
+  {
+    "description": "[自身/常時/魔攻上昇]",
+    "effect_motion_id": null,
+    "id": 72500003
+  },
+  {
+    "description": "[自身/常時/物防上昇]",
+    "effect_motion_id": null,
+    "id": 72500004
+  },
+  {
+    "description": "[自身/常時/魔防上昇]",
+    "effect_motion_id": null,
+    "id": 72500005
+  },
+  {
+    "description": "[自身/攻撃対象が麻痺状態の時与ダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72500006
+  },
+  {
+    "description": "[自身/攻撃後高確率麻痺1回付与]",
+    "effect_motion_id": null,
+    "id": 72500007
+  },
+  {
+    "description": "[自身/常時/クリティカルダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72500008
+  },
+  {
+    "description": "[自身/再生]",
+    "effect_motion_id": null,
+    "id": 72500025
+  },
+  {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "id": 72500030
+  },
+  {
+    "description": "[自身/商人が多いほど/物攻上昇]",
+    "effect_motion_id": null,
+    "id": 72500033
+  },
+  {
+    "description": "[自身/商人が多いほど/魔攻上昇]",
+    "effect_motion_id": null,
+    "id": 72500034
+  },
+  {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "id": 72500037
+  },
+  {
+    "description": "[自身/敵1体の時スキルダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72500038
+  },
+  {
+    "description": "[自身/アーランドが多いほど戦闘アイテムダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72500045
+  },
+  {
+    "description": "[自身/対象が毒の時スキルダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72500048
+  },
+  {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "id": 72500049
+  },
+  {
+    "description": "[自身/攻撃後高確率毒1回付与]",
+    "effect_motion_id": null,
+    "id": 72500050
+  },
+  {
+    "description": "[自身/スキルダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72500051
+  },
+  {
+    "description": "[自身/ブレイクダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72500052
+  },
+  {
+    "description": "[自身/バーストスキルダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72500054
+  },
+  {
+    "description": "[自身/スキル対象が麻痺時スキルダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72500073
+  },
+  {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "id": 72500074
+  },
+  {
+    "description": "[自身/真面目が多いほどスキルダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72500075
+  },
+  {
+    "description": "[自身/真面目が多いほどブレイクダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72500076
+  },
+  {
+    "description": "[真面目が多いほど/スキルダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72500077
+  },
+  {
+    "description": "[真面目が多いほど/ブレイクダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72500078
+  },
+  {
+    "description": "[自身/先駆け]",
+    "effect_motion_id": null,
+    "id": 72500099
+  },
+  {
+    "description": "[自身/約束と協力が多いほどクリティカルダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72500102
+  },
+  {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "id": 72500103
+  },
+  {
+    "description": "[自身/被弾時HP回復]",
+    "effect_motion_id": null,
+    "id": 72500116
+  },
+  {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "id": 72500121
+  },
+  {
+    "description": "[自身/攻撃対象がブレイク中/与ダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72500122
+  },
+  {
+    "description": "[自身/1回/回避]",
+    "effect_motion_id": null,
+    "id": 72500123
+  },
+  {
+    "description": "[自身/戦闘アイテムダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72500125
+  },
+  {
+    "description": "[自身/スキル発動後回復]",
+    "effect_motion_id": null,
+    "id": 72500129
+  },
+  {
+    "description": "[自身/世話焼きが多いほど/物攻上昇]",
+    "effect_motion_id": null,
+    "id": 72500131
+  },
+  {
+    "description": "[自身/冒険が多いほど/物攻上昇]",
+    "effect_motion_id": null,
+    "id": 72500132
+  },
+  {
+    "description": "[自身/冒険が多いほど/魔攻上昇]",
+    "effect_motion_id": null,
+    "id": 72500133
+  },
+  {
+    "description": "[自身/おてんばが多いほど戦闘アイテムダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72500134
   },
   {
     "description": "",
@@ -5087,6 +5417,46 @@
   {
     "description": "",
     "effect_motion_id": null,
+    "id": 91001204
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001205
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001206
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001207
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001208
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001209
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001210
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001211
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
     "id": 91002004
   },
   {
@@ -5638,6 +6008,11 @@
     "description": "スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000097
+  },
+  {
+    "description": "自身がサポーターの時、味方全員のクリティカルダメージアップ",
+    "effect_motion_id": null,
+    "id": 95000098
   },
   {
     "description": "バトル開始時、アイテムゲージ回復",
@@ -6990,6 +7365,26 @@
     "id": 120000289
   },
   {
+    "description": "アイテムゲージ回復",
+    "effect_motion_id": null,
+    "id": 120000290
+  },
+  {
+    "description": "バフ効果量UP",
+    "effect_motion_id": null,
+    "id": 120000291
+  },
+  {
+    "description": "アイテムゲージ回復",
+    "effect_motion_id": null,
+    "id": 120000292
+  },
+  {
+    "description": "バフ効果量UP",
+    "effect_motion_id": null,
+    "id": 120000293
+  },
+  {
     "description": "アイテム使用後、クリティカルダメージUP1回",
     "effect_motion_id": null,
     "id": 120000294
@@ -7028,6 +7423,106 @@
     "description": "バーストスキルダメージUP",
     "effect_motion_id": null,
     "id": 120000301
+  },
+  {
+    "description": "突属性の与ダメージUP",
+    "effect_motion_id": null,
+    "id": 120000302
+  },
+  {
+    "description": "全体攻撃の与ダメージUP",
+    "effect_motion_id": null,
+    "id": 120000303
+  },
+  {
+    "description": "WEAK攻撃時の全体攻撃の与ダメージUP",
+    "effect_motion_id": null,
+    "id": 120000304
+  },
+  {
+    "description": "味方全体の全体攻撃与ダメージUP(1回)を付与",
+    "effect_motion_id": null,
+    "id": 120000305
+  },
+  {
+    "description": "味方全体のWEAK攻撃時の全体攻撃与ダメージUP(1回)を付与",
+    "effect_motion_id": null,
+    "id": 120000306
+  },
+  {
+    "description": "自身に「戦闘アイテムの突属性ダメージUP」を付与",
+    "effect_motion_id": null,
+    "id": 120000307
+  },
+  {
+    "description": "自身に「戦闘アイテム使用後、味方全体の全体攻撃与ダメージUP(2回)を付与」を付与",
+    "effect_motion_id": null,
+    "id": 120000308
+  },
+  {
+    "description": "自身に「戦闘アイテム使用後、味方全体のWEAK攻撃時の全体攻撃与ダメージUP(2回)を付与」を付与",
+    "effect_motion_id": null,
+    "id": 120000309
+  },
+  {
+    "description": "突属性の打ダメージUP",
+    "effect_motion_id": null,
+    "id": 120000310
+  },
+  {
+    "description": "自身に「戦闘アイテムの打属性ダメージUP」を付与",
+    "effect_motion_id": null,
+    "id": 120000312
+  },
+  {
+    "description": "自身に「戦闘アイテム使用後、味方全体の全体攻撃与ダメージUP(2回)を付与」を付与",
+    "effect_motion_id": null,
+    "id": 120000313
+  },
+  {
+    "description": "自身に「戦闘アイテム使用後、味方全体のWEAK攻撃時の全体攻撃与ダメージUP(2回)を付与」を付与",
+    "effect_motion_id": null,
+    "id": 120000314
+  },
+  {
+    "description": "斬属性の与ダメージUP",
+    "effect_motion_id": null,
+    "id": 120000315
+  },
+  {
+    "description": "ブレイクダメージUP",
+    "effect_motion_id": null,
+    "id": 120000316
+  },
+  {
+    "description": "WEAK攻撃時のブレイクダメージUP",
+    "effect_motion_id": null,
+    "id": 120000317
+  },
+  {
+    "description": "味方全体のブレイクダメージUP(1回)を付与",
+    "effect_motion_id": null,
+    "id": 120000318
+  },
+  {
+    "description": "味方全体のWEAK攻撃時ブレイクダメージUP(1回)を付与",
+    "effect_motion_id": null,
+    "id": 120000319
+  },
+  {
+    "description": "自身に「戦闘アイテムの斬属性ダメージUP」を付与",
+    "effect_motion_id": null,
+    "id": 120000320
+  },
+  {
+    "description": "自身に「戦闘アイテム使用後、味方全体のブレイクダメージUP(1回)を付与」を付与",
+    "effect_motion_id": null,
+    "id": 120000321
+  },
+  {
+    "description": "自身に「戦闘アイテム使用後、味方全体のWEAK攻撃時ブレイクダメージUP(2回)を付与」を付与",
+    "effect_motion_id": null,
+    "id": 120000322
   },
   {
     "description": "weak攻撃時に与えるダメージアップ",
@@ -9850,6 +10345,21 @@
     "id": 780048006
   },
   {
+    "description": "味方対象に物攻UP2回",
+    "effect_motion_id": null,
+    "id": 780048007
+  },
+  {
+    "description": "味方対象に物防UP2回",
+    "effect_motion_id": null,
+    "id": 780048008
+  },
+  {
+    "description": "味方対象に素早さUP2回",
+    "effect_motion_id": null,
+    "id": 780048009
+  },
+  {
     "description": "強化無効1回付与",
     "effect_motion_id": null,
     "id": 780049001
@@ -9890,6 +10400,16 @@
     "id": 780050000
   },
   {
+    "description": "HP70％以下の時、自身のHP回復",
+    "effect_motion_id": 1004,
+    "id": 780050001
+  },
+  {
+    "description": "HP70％以下の時、自身のデバフを解除",
+    "effect_motion_id": null,
+    "id": 780050002
+  },
+  {
     "description": "",
     "effect_motion_id": null,
     "id": 780050005
@@ -9898,6 +10418,21 @@
     "description": "",
     "effect_motion_id": null,
     "id": 780050006
+  },
+  {
+    "description": "HP70％以下の時、自身の与ダメージUP",
+    "effect_motion_id": null,
+    "id": 780050007
+  },
+  {
+    "description": "HP70％以下の時、自身の物攻UP",
+    "effect_motion_id": null,
+    "id": 780050008
+  },
+  {
+    "description": "HP70％以下の時、自身の物防UP",
+    "effect_motion_id": null,
+    "id": 780050009
   },
   {
     "description": "",
@@ -9938,6 +10473,16 @@
     "description": "被ダメージUP付与2回",
     "effect_motion_id": null,
     "id": 780050018
+  },
+  {
+    "description": "素早さUP5回",
+    "effect_motion_id": null,
+    "id": 780050019
+  },
+  {
+    "description": "自身がブレイクした時、自身のバフを解除",
+    "effect_motion_id": null,
+    "id": 780050020
   },
   {
     "description": "",
@@ -9998,6 +10543,16 @@
     "description": "毒状態の敵対象に与えるダメージ上昇",
     "effect_motion_id": null,
     "id": 780051012
+  },
+  {
+    "description": "味方対象に物攻UP2回",
+    "effect_motion_id": null,
+    "id": 780051013
+  },
+  {
+    "description": "味方対象に素早さUP2回",
+    "effect_motion_id": null,
+    "id": 780051014
   },
   {
     "description": "",
@@ -10218,6 +10773,11 @@
     "description": "攻撃対象に毒(4回)付与",
     "effect_motion_id": null,
     "id": 780056015
+  },
+  {
+    "description": "50%でカウンター",
+    "effect_motion_id": null,
+    "id": 780056016
   },
   {
     "description": "",
@@ -11685,6 +12245,11 @@
     "id": 780112004
   },
   {
+    "description": "先駆け",
+    "effect_motion_id": null,
+    "id": 780113009
+  },
+  {
     "description": "対象に毒(3回)付与",
     "effect_motion_id": null,
     "id": 780114001
@@ -12148,6 +12713,31 @@
     "description": "自身に被ブレイクダメージUP(3回)を付与",
     "effect_motion_id": null,
     "id": 780133009
+  },
+  {
+    "description": "対象に素早さDOWN(1回)を付与する",
+    "effect_motion_id": null,
+    "id": 780135001
+  },
+  {
+    "description": "対象の頭上の空白パネルを火傷パネルに変換する",
+    "effect_motion_id": null,
+    "id": 780135002
+  },
+  {
+    "description": "対象の頭上の弱体パネルを火傷パネルに変換する",
+    "effect_motion_id": null,
+    "id": 780135003
+  },
+  {
+    "description": "対象の頭上の空白パネルを弱体パネルに変換する",
+    "effect_motion_id": null,
+    "id": 780136002
+  },
+  {
+    "description": "対象の頭上の火傷パネルを弱体パネルに変換する",
+    "effect_motion_id": null,
+    "id": 780136003
   },
   {
     "description": "攻撃対象にデバフ1つ以上ついている場合付与率80で毒3回付与",
@@ -15055,6 +15645,11 @@
     "id": 880092018
   },
   {
+    "description": "魔法攻撃を被弾時、自身に被ダメージ上昇(上限150%)付与",
+    "effect_motion_id": null,
+    "id": 880093000
+  },
+  {
     "description": "自身の最大HP10%以上のダメージを受けた際、自身に被ダメージ上昇を付与",
     "effect_motion_id": null,
     "id": 880093002
@@ -15183,6 +15778,11 @@
     "description": "残り１体以下になった時、被弾時、素早さUP(永続)",
     "effect_motion_id": null,
     "id": 880103046
+  },
+  {
+    "description": "自身の強化効果が付与されている時パネル変化(弱体パネル→ブレイク強化パネル)",
+    "effect_motion_id": 1035,
+    "id": 880104000
   },
   {
     "description": "自身の強化効果が付与されている時パネル変化(-→+)",
@@ -15468,6 +16068,61 @@
     "description": "自身がブレイク中、被ダメージUP",
     "effect_motion_id": null,
     "id": 880133008
+  },
+  {
+    "description": "自身が非ブレイク中かつ「被ダメージDOWN(ウェルテックス)」を所持していない場合、自身に「被ダメージDOWN(ウェルテックス)」(回数無制限)を付与",
+    "effect_motion_id": 1052,
+    "id": 880134001
+  },
+  {
+    "description": "ウェルテックス第二形態Bが非ブレイク中かつ自身が「与ダメージDOWN(ウェルテックス(ブレイク時))」を所持している場合、「与ダメージDOWN(ウェルテックス(ブレイク時))」を解除",
+    "effect_motion_id": 1056,
+    "id": 880134004
+  },
+  {
+    "description": "ウェルテックス第二形態Cが非ブレイク中かつ自身が「被ブレイクダメージUP(ウェルテックス(ブレイク時))」を所持している場合、「被ブレイクダメージUP(ウェルテックス(ブレイク時))」を解除",
+    "effect_motion_id": 1057,
+    "id": 880134005
+  },
+  {
+    "description": "自身がブレイク中かつ「被ダメージDOWN(ウェルテックス)」を所持している場合、「被ダメージDOWN(ウェルテックス)」を解除",
+    "effect_motion_id": 1055,
+    "id": 880134006
+  },
+  {
+    "description": "自身の行動予定を再抽選する",
+    "effect_motion_id": null,
+    "id": 880134008
+  },
+  {
+    "description": "自身がブレイク時かつウェルテックス第二形態Aが「与ダメージDOWN(ウェルテックス(ブレイク時))」を所持していない場合、ウェルテックス第二形態Aに「与ダメージDOWN(ウェルテックス(ブレイク時))」(回数無制限)を付与",
+    "effect_motion_id": 1053,
+    "id": 880135001
+  },
+  {
+    "description": "自身が戦闘不能時、ウェルテックス第二形態Aに「与ダメージDOWN(ウェルテックス(戦闘不能時))」(回数無制限)を付与",
+    "effect_motion_id": 1058,
+    "id": 880135002
+  },
+  {
+    "description": "自身が戦闘不能時かつウェルテックス第二形態Aが「与ダメージDOWN(ウェルテックス(ブレイク時))」を所持している場合、ウェルテックス第二形態Aの「与ダメージDOWN(ウェルテックス(ブレイク時))」を解除",
+    "effect_motion_id": null,
+    "id": 880135003
+  },
+  {
+    "description": "自身がブレイク時かつウェルテックス第二形態Aが「被ブレイクダメージUP(ウェルテックス(ブレイク時))」を所持していない場合、ウェルテックス第二形態Aに「被ブレイクダメージUP(ウェルテックス(ブレイク時))」(回数無制限)を付与",
+    "effect_motion_id": 1054,
+    "id": 880136001
+  },
+  {
+    "description": "自身が戦闘不能時、ウェルテックス第二形態Aに「被ブレイクダメージUP(ウェルテックス(戦闘不能時))」(回数無制限)を付与。",
+    "effect_motion_id": 1059,
+    "id": 880136002
+  },
+  {
+    "description": "自身が戦闘不能時かつウェルテックス第二形態Aが「被ブレイクダメージUP(ウェルテックス(ブレイク時))」を所持している場合、ウェルテックス第二形態Aの「被ブレイクダメージUP(ウェルテックス(ブレイク時))」を解除",
+    "effect_motion_id": null,
+    "id": 880136003
   },
   {
     "description": "マイナス効果が5個以上自身にかかっている時、状態異常付与率を上昇",

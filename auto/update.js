@@ -24,7 +24,7 @@ async function main() {
     await checkMasterdata('Japan');
     
     await checkFileassets('Global', false, true);
-    await checkFileassets('Japan');
+    await checkFileassets('Japan', false, true);
 
     console.log('done');
 }

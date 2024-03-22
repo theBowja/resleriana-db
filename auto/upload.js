@@ -8,7 +8,7 @@ const sizeCache = fs.existsSync(sizeCachePath) ? require(sizeCachePath) : {};
 if (!process.env.CLOUDINARY_URL) {
     const secret = require('./secret.json');
     cloudinary.config({
-        cloud_name: 'resleriana-db',
+        cloud_name: secret.cloud_name,
         api_key: secret.api_key,
         api_secret: secret.api_secret
     });

@@ -19,11 +19,11 @@ Provided from Cloudinary CDN:
 ## Table of Contents
 - [Local development](#local-development)
 - [Respository structure](#repository-structure)
-  - [Data format](#data-format)
-- [Accessing game data](#accessing-game-data)
+- [Get data](#get-data)
   - [from repository](#from-repository)
   - [from npm package](#from-npm-package)
   - [from web API](#from-web-api)
+- [Extract resources](#extract-resources)
 - [Contributing](#contributing)
 
 ## Local Development
@@ -74,19 +74,14 @@ pip install UnityPy=1.10.7
 ```
 
 ## Repository structure
-- `/api` - Contains the API.
-- `/data` - TODO
+- `/api` - Contains the code for Vercel API.
+- `/auto` - Contains code used by Github Actions to auto-update data and auto-upload assets to Cloudinary CDN.
+- `/data` - Contains the masterdata, parsed, and TextAsset JSON organized by language or server.
 - `/dist` - TODO
 - `/import` - Contains the scripts needed to parse out data from masterdata into a slightly more human-readable data format.
+- `/resources` - 
 - `/types` - TODO
-- `main.mjs` - Contains the main data retrieval and searching functions.
-
-### Data format
-
-Data is stored in the `/data` folder and divided into two formats, four languages, and multiple files.  
-Formats: master, parsed.  
-Languages: en, jp, zh-cn, zh-tw.
-
+- `main.mjs` - Script contains the data retrieval and data searching functions.
 
 ### master
 
@@ -96,17 +91,27 @@ This dataset contains the original data directly used in the game.
 
 This dataset contains files and data properties curated from the master data.
 
-## Accessing game data
+## Get data
 
-uhh
+
 
 ### From repository
 
+JSON data is stored in the `/data` folder and divided into datasets, languages, and servers.  
+
+Formats: master, parsed.  
+Languages: en, jp, zh-cn, zh-tw.  
+
+Formats: TextAsset.  
+Servers: Global, Japan.   
+
 ### From npm package
+
+TODO
 
 ### From web API
 
-The web API is hosted on Vercel serverless functions. If access to Vercel servers is not supported in your region, then it is very easy to set up your own API because the routes in `/api` folder map directly to functions exported in the `main.mjs` script. The APIs are split into two different types: retrieval and searching.
+The web API is hosted on Vercel serverless functions. If access to Vercel servers is not supported in your region, then it is very easy to set up your own API because the routes in `/api` folder map directly to functions exported in the `main.mjs` script. The APIs are split into two different types: [retrieval](#data-retrieval-api) and [searching](#data-searching-api).
 
 ### Data retrieval API
 
@@ -149,6 +154,13 @@ Examples:
 https://resleriana-db.vercel.app/api/master/search?language=en&file=character&key=name&query=resna  
 https://resleriana-db.vercel.app/api/parsed/search?language=en&file=material&key=equipment_trait.name,equipment_trait.name&query=physical%20res,%20magic%20res  
 
+## Extract resources
+
+### Extract Texture2D
+
+### Extract AudioClip
+
+### Extract VideoClip
 
 ## Cloudinary
 

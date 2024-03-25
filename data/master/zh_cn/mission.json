@@ -8,7 +8,7 @@
     "name": "登录游戏吧",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
-    "priority": 10,
+    "priority": 13,
     "reset_cycle": 1,
     "start_at": null,
     "steps": [
@@ -33,7 +33,7 @@
     "name": "进行调合吧",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
-    "priority": 9,
+    "priority": 12,
     "reset_cycle": 1,
     "start_at": null,
     "steps": [
@@ -58,7 +58,7 @@
     "name": "消耗50点体力吧",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
-    "priority": 8,
+    "priority": 10,
     "reset_cycle": 1,
     "start_at": null,
     "steps": [
@@ -83,7 +83,7 @@
     "name": "去完成经验值挑战吧",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
-    "priority": 7,
+    "priority": 8,
     "reset_cycle": 1,
     "start_at": null,
     "steps": [
@@ -108,7 +108,7 @@
     "name": "去完成克尔挑战吧",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
-    "priority": 6,
+    "priority": 7,
     "reset_cycle": 1,
     "start_at": null,
     "steps": [
@@ -133,7 +133,7 @@
     "name": "去完成光玉挑战吧",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
-    "priority": 5,
+    "priority": 6,
     "reset_cycle": 1,
     "start_at": null,
     "steps": [
@@ -158,7 +158,7 @@
     "name": "去完成强化之露挑战吧",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
-    "priority": 4,
+    "priority": 5,
     "reset_cycle": 1,
     "start_at": null,
     "steps": [
@@ -183,7 +183,7 @@
     "name": "去通关迷宫吧",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
-    "priority": 3,
+    "priority": 4,
     "reset_cycle": 1,
     "start_at": null,
     "steps": [
@@ -208,7 +208,7 @@
     "name": "去通关积分战斗吧",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
-    "priority": 2,
+    "priority": 3,
     "reset_cycle": 1,
     "start_at": null,
     "steps": [
@@ -233,7 +233,7 @@
     "name": "去许下星愿吧",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
-    "priority": 1,
+    "priority": 2,
     "reset_cycle": 1,
     "start_at": null,
     "steps": [
@@ -247,6 +247,81 @@
       "equipment_slot_type": null,
       "focused_on": 1,
       "transition": 4
+    }
+  },
+  {
+    "category": 1,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 10011,
+    "name": "进行3次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 11,
+    "reset_cycle": 1,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 30004
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 1,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 10012,
+    "name": "消耗100点体力吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 9,
+    "reset_cycle": 1,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 30004
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 3
+    }
+  },
+  {
+    "category": 1,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 10013,
+    "name": "领取1次订单吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 1,
+    "reset_cycle": 1,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30004
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 26
     }
   },
   {
@@ -5105,6 +5180,216 @@
       }
     ],
     "total_task_condition_id": 456,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300100,
+    "name": "通关馨风水岸[危险度：X]吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7200,
+    "reset_cycle": null,
+    "start_at": "2024-03-25T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 457,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300101,
+    "name": "通关浮花之园[危险度：X]吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7199,
+    "reset_cycle": null,
+    "start_at": "2024-03-25T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 458,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300102,
+    "name": "通关璀璨裂隙[危险度：X]吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7198,
+    "reset_cycle": null,
+    "start_at": "2024-03-25T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 459,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300103,
+    "name": "通关深渊花园[危险度：X]吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7197,
+    "reset_cycle": null,
+    "start_at": "2024-03-25T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 460,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300104,
+    "name": "通关繁花海滩[危险度：X]吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7196,
+    "reset_cycle": null,
+    "start_at": "2024-03-25T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 461,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300105,
+    "name": "通关小瀑布岩滩[危险度：X]吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7195,
+    "reset_cycle": null,
+    "start_at": "2024-03-25T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 462,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300106,
+    "name": "通关回廊[危险度：X]吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7194,
+    "reset_cycle": null,
+    "start_at": "2024-03-25T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 463,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300107,
+    "name": "通关追忆之间[危险度：X]吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7193,
+    "reset_cycle": null,
+    "start_at": "2024-03-25T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 464,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300108,
+    "name": "通关灰色的衣摆[危险度：X]吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7192,
+    "reset_cycle": null,
+    "start_at": "2024-03-25T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 465,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300109,
+    "name": "通关龙鸣山峰[危险度：X]吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7191,
+    "reset_cycle": null,
+    "start_at": "2024-03-25T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 466,
     "transition": null
   },
   {

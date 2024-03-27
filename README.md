@@ -164,7 +164,7 @@ Prerequisite: #Local development
 You can use the `extractImages` run-script to extract all images with the default options. TODO describe what it does. it downloads
 
 ```
-npm run extractImages --% -- imagesOutputFolder "../MyReslerApp/images" --regex "(^STL_P_.*)|(^equipment_.*)|(^battle_tool.*)"
+npm run extractImages --% -- --imagesOutputFolder "../MyReslerApp/images" --regex "(^STL_P_.*)|(^equipment_.*)|(^battle_tool.*)"
 ```
 
 Optional arguments are explained below:

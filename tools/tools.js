@@ -58,8 +58,10 @@ function generateContainerToPathHash(container_json, bundle_folder, output_json)
  * @param {string} asset_type listed in import/config.json under resources property.
  * @param {string} output_folder if relative path, then it is relative to current working directory.
  * @param {string} filename_list if relative path, then it is relative to current working directory.
+ * @param {string} image_format format of images to output in. either png or webp. defaults to webp
+ * @param {string} regex regex to filter on file names.
  */
-function exportAssets(bundle_names, bundle_folder, asset_type, output_folder, filename_list=undefined) {
+function exportAssets(bundle_names, bundle_folder, asset_type, output_folder, filename_list=undefined, image_format=undefined, regex=undefined) {
     const exePath = path.resolve(__dirname, `./UnityPyScripts/exportAssets.py`);
     bundle_names = path.resolve(process.cwd(), bundle_names);
     bundle_folder = path.resolve(process.cwd(), bundle_folder);
@@ -74,6 +76,8 @@ function exportAssets(bundle_names, bundle_folder, asset_type, output_folder, fi
         output_folder
     ];
     if (filename_list) args.push('--filename_list', filename_list);
+    if (image_format) args.push('--image_format', image_format);
+    if (regex) args.push('--regex', regex);
 
     execSync(`python`, args, { stdio: 'inherit' });
 }

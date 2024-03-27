@@ -5,7 +5,8 @@
   "main": "main.mjs",
   "scripts": {
     "import": "cd import && node import.js",
-    "updatealldata": "node auto/update.js"
+    "updatealldata": "node auto/update.js",
+    "extractImages": "node auto/scripts.js --script extractImages"
   },
   "author": "theBowja",
   "license": "MIT",

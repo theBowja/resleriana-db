@@ -7396,6 +7396,208 @@
     "start_at": "2023-10-02T03:00:00.000Z"
   },
   {
+    "id": 33402,
+    "name": "ソフィー",
+    "title": "【Mighty Boss】",
+    "full_name": "ソフィー・ノイエンミュラー",
+    "base_character": "ソフィー",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "STAB",
+    "role": "SUPPORTER",
+    "initial_rarity": 3,
+    "acquisition_text": "錬金術を教えてほしい、って？ \nあたしの特訓は厳しいよ、ついてこられる？",
+    "profile": {
+      "voice_actor": "相坂優歌",
+      "voice_text": "あたしはソフィー。みんなから番長、なんて\n呼ばれてるけど、あまり怖がらないでね？",
+      "description": "ランターナ学園、錬金術科の２年生。\n祖母から受け継いだ「日影の会」という場所を管理しており、はぐれ者たちの面倒を見ている。\n彼らからは「番長」と呼ばれ慕われているが、本人は腑に落ちていないらしい。\n特異な服装もあって怖く見られがちだが、実際は優しく仲間思い。",
+      "origin_game": "ソフィーのアトリエ ～不思議な本の錬金術士～"
+    },
+    "gift_color": {
+      "received": "黄",
+      "given": "青"
+    },
+    "battle_item_trait": [
+      {
+        "id": 51,
+        "name": "破壊力上昇",
+        "category": "ATTACK",
+        "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "突の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000065,
+            "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "スキル威力上昇",
+        "category": "ATTACK",
+        "description": "スキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "スキル威力{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 128,
+        "spd": 256,
+        "patk": 57,
+        "matk": 52,
+        "pdef": 61,
+        "mdef": 55
+      },
+      "growth": {
+        "hp": 1280,
+        "spd": 0,
+        "patk": 570,
+        "matk": 520,
+        "pdef": 610,
+        "mdef": 550
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 5
+      }
+    },
+    "skill_1": {
+      "name": "入魂武慮憂",
+      "description": "攻撃後、対象に「パネル無効」を1回行動終了するまで付与<br>※パネル無効はバーストパネル以外のパネルの発動を無効化",
+      "summary": "攻撃後、対象にパネル無効を付与",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001256,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [45, 47, 50, 53, 56],
+      "has_stun": true,
+      "stun_values": [5, 5, 5, 5, 6],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "あたし流めんち切り",
+      "description": "回復後、味方の強化系パネルとバーストパネルを除いたパネル全てを強化パネルに変換(空パネルの時は生成)",
+      "summary": "回復後、味方の強化系パネルとバーストパネルを除いたパネル全てを強化パネルに変換",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001215,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ALLY",
+      "range": "ALL",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": true,
+      "recovery_values": [85, 87, 89, 91, 93],
+      "wait": 200
+    },
+    "burst": {
+      "name": "直伝昇竜賦羅霧",
+      "description": "攻撃後、このスキル使用前にタイムラインに並んでいる、次の敵のパネル全てを加護弱化パネルに変換(空パネルの時は生成)し、<br>自身に「与えるHP回復量+{0}%」を付与(上限100%)",
+      "summary": "攻撃後、タイムラインに並んでいる次の敵のパネル全てを加護弱化パネルに変換。自身のHP回復量アップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001249,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001230,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [300, 300, 300, 318, 337, 356, 375],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "スパルタ激励",
+      "description": "味方全員のスキルダメージ・ブレイクダメージ+{0}%",
+      "effects": [
+        {
+          "id": 72000922,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 72001040,
+          "description": "[味方全員/ブレイクダメージアップ]",
+          "value": 1500
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "ねこさんチーム",
+      "description": "マイナスパネル無効<br>プラスパネルから受ける効果量+{0}%",
+      "effects": [
+        {
+          "id": 72001045,
+          "description": "state_change用",
+          "value": 1000
+        },
+        {
+          "id": 72001041,
+          "description": "[自身/マイナスパネル無効]",
+          "value": 0
+        }
+      ]
+    },
+    "start_at": "2024-04-01T12:00:00.000Z"
+  },
+  {
     "id": 33501,
     "name": "プラフタ",
     "title": "【ミステリアスドール】",
@@ -11833,6 +12035,214 @@
       ]
     },
     "start_at": "2023-12-22T03:00:00.000Z"
+  },
+  {
+    "id": 43104,
+    "name": "レスナ",
+    "title": "【Loved Rookie】",
+    "full_name": "レスナ・シュテルネンリヒト",
+    "base_character": "レスナ",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "AIR",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "憧れの学園生活――！\n私、絶対に一人前の錬金術士になります！",
+    "profile": {
+      "voice_actor": "白砂沙帆",
+      "voice_text": "ランターナ学園錬金術科レスナです。\nはあ、この学園に入学できたなんて夢みたい",
+      "description": "ランターナ学園、錬金術科の新入生。\n独学で何度も調合に挑戦してきたが、一度も成功したことがなかった。\nしかし、錬金術への熱意は本物で、他の生徒たちを凌駕する知識量を誇る。\nいつか父親のような立派な錬金術士になるのが夢。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "紫",
+      "given": "緑"
+    },
+    "battle_item_trait": [
+      {
+        "id": 20,
+        "name": "風の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「風属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000062,
+            "description": "対象に「風属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "打の祝福",
+        "category": "ATTACK",
+        "description": "打属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "打属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 8,
+        "name": "風ダメージ上昇",
+        "category": "ATTACK",
+        "description": "風属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "風属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 166,
+        "spd": 245,
+        "patk": 55,
+        "matk": 67,
+        "pdef": 44,
+        "mdef": 40
+      },
+      "growth": {
+        "hp": 1660,
+        "spd": 0,
+        "patk": 550,
+        "matk": 670,
+        "pdef": 440,
+        "mdef": 400
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 5,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "お手製ブーメラン",
+      "description": "攻撃後、自身の次のパネルが強化系パネルでもバーストパネルでもない時、強化パネルに変換(空パネルの時は生成)",
+      "summary": "攻撃後、自身の次のパネルが強化系パネルでもバーストパネルでもない時、強化パネルに変換",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001273,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [67, 71, 75, 79, 83],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "スピニングウィール",
+      "description": "強化系パネル獲得時、この攻撃のクリティカル確率+{0}%<br>攻撃後、対象に「受けるクリティカルダメージ+{1}%」を付与(上限50%)",
+      "summary": "強化系パネル獲得時、この攻撃のクリティカル確率アップ。攻撃後、対象の受けるクリティカルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001247,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001248,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [140, 148, 157, 166, 175],
+      "has_stun": true,
+      "stun_values": [11, 11, 12, 12, 13],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "トライミックスピア",
+      "description": "自身のHPが70%以上の時、ダメージ+{0}%<br>攻撃後、自身に「クリティカルダメージ+{1}%」を付与(上限100%)し、<br>自身の次のパネルがバーストパネルでない時、強化+パネルに変換(空パネルの時は生成)",
+      "summary": "HPが70%以上の時、ダメージアップ。攻撃後、クリティカルダメージアップ。強化+パネルに変換",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001255,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001250,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001253,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "一球入魂",
+      "description": "強化系パネル獲得時、自身に「スキルダメージ+{0}%」を1回行動終了するまで付与(重複不可)",
+      "effects": [
+        {
+          "id": 72001039,
+          "description": "強化パネル獲得時、自身に「スキルダメージ+{0}%」を1回行動終了するまで付与(重複不可)",
+          "value": 5000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "ねこさんチーム",
+      "description": "マイナスパネル無効<br>プラスパネルから受ける効果量+{0}%",
+      "effects": [
+        {
+          "id": 72001045,
+          "description": "state_change用",
+          "value": 1000
+        },
+        {
+          "id": 72001041,
+          "description": "[自身/マイナスパネル無効]",
+          "value": 0
+        }
+      ]
+    },
+    "start_at": "2024-04-01T12:00:00.000Z"
   },
   {
     "id": 43201,

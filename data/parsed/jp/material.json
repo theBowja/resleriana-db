@@ -26371,5 +26371,442 @@
     "image_medium": "Ingredient_0474_M",
     "start_at": "2024-03-22T03:00:00.000Z",
     "end_at": null
+  },
+  {
+    "id": 480,
+    "name": "鎖グモの巣",
+    "rarity": 2,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 10,
+        "name": "守護の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "火の盾",
+        "category": "ENHANCE",
+        "description": "対象に「火属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000066,
+            "description": "対象に「火属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 26,
+      "name": "レスレリ学園 ～退学！？　いきなり大ピンチ～"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 260401,
+        "quest_name": "レスレリ学園 第1弾・１",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      },
+      {
+        "quest_id": 260404,
+        "quest_name": "レスレリ学園 第1弾・４",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      },
+      {
+        "quest_id": 260405,
+        "quest_name": "レスレリ学園 第1弾・５",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      },
+      {
+        "quest_id": 260408,
+        "quest_name": "レスレリ学園 第1弾・８",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      },
+      {
+        "quest_id": 260409,
+        "quest_name": "レスレリ学園 第1弾・９",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      },
+      {
+        "quest_id": 260412,
+        "quest_name": "レスレリ学園 第1弾・１２",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      }
+    ],
+    "image_small": "Ingredient_0480_S",
+    "image_medium": "Ingredient_0480_M",
+    "start_at": "2024-04-01T12:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 481,
+    "name": "魔導書の切れ端",
+    "rarity": 2,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 40,
+        "name": "精霊弱点サーチ",
+        "category": "WEAKENING",
+        "description": "対象に「精霊種族が受けるダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000097,
+            "description": "対象に「精霊種族が受けるダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "斬の盾",
+        "category": "ENHANCE",
+        "description": "対象に「斬属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000070,
+            "description": "対象に「斬属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 26,
+      "name": "レスレリ学園 ～退学！？　いきなり大ピンチ～"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 260402,
+        "quest_name": "レスレリ学園 第1弾・２",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      },
+      {
+        "quest_id": 260404,
+        "quest_name": "レスレリ学園 第1弾・４",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      },
+      {
+        "quest_id": 260406,
+        "quest_name": "レスレリ学園 第1弾・６",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      },
+      {
+        "quest_id": 260408,
+        "quest_name": "レスレリ学園 第1弾・８",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      },
+      {
+        "quest_id": 260410,
+        "quest_name": "レスレリ学園 第1弾・１０",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      },
+      {
+        "quest_id": 260412,
+        "quest_name": "レスレリ学園 第1弾・１２",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      }
+    ],
+    "image_small": "Ingredient_0481_S",
+    "image_medium": "Ingredient_0481_M",
+    "start_at": "2024-04-01T12:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 482,
+    "name": "サワーアップル",
+    "rarity": 2,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 47,
+        "name": "使い切り回復強化",
+        "category": "RECOVERY",
+        "description": "使用回数が1回の時、HP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000109,
+            "description": "使用回数が1回の時、HP回復量{0}%アップ",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "火の祝福",
+        "category": "ATTACK",
+        "description": "火属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "火属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 26,
+      "name": "レスレリ学園 ～退学！？　いきなり大ピンチ～"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 260403,
+        "quest_name": "レスレリ学園 第1弾・３",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      },
+      {
+        "quest_id": 260404,
+        "quest_name": "レスレリ学園 第1弾・４",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      },
+      {
+        "quest_id": 260407,
+        "quest_name": "レスレリ学園 第1弾・７",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      },
+      {
+        "quest_id": 260408,
+        "quest_name": "レスレリ学園 第1弾・８",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      },
+      {
+        "quest_id": 260411,
+        "quest_name": "レスレリ学園 第1弾・１１",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      },
+      {
+        "quest_id": 260412,
+        "quest_name": "レスレリ学園 第1弾・１２",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      }
+    ],
+    "image_small": "Ingredient_0482_S",
+    "image_medium": "Ingredient_0482_M",
+    "start_at": "2024-04-01T12:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 483,
+    "name": "学園うに",
+    "rarity": 3,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "スキル威力上昇",
+        "category": "ATTACK",
+        "description": "スキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "スキル威力{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 60,
+        "name": "クリティカルダメージ上昇",
+        "category": "ATTACK",
+        "description": "クリティカルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 13000011,
+            "description": "クリティカルダメージアップ",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 26,
+      "name": "レスレリ学園 ～退学！？　いきなり大ピンチ～"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 260409,
+        "quest_name": "レスレリ学園 第1弾・９",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      },
+      {
+        "quest_id": 260412,
+        "quest_name": "レスレリ学園 第1弾・１２",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      }
+    ],
+    "image_small": "Ingredient_0483_S",
+    "image_medium": "Ingredient_0483_M",
+    "start_at": "2024-04-01T12:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 484,
+    "name": "学園トーン",
+    "rarity": 3,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 63,
+        "name": "スキル2威力上昇",
+        "category": "ATTACK",
+        "description": "スキル2のスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000168,
+            "description": "スキル2威力{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "name": "回復量上昇",
+        "category": "RECOVERY",
+        "description": "与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000031,
+            "description": "HP回復量{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 26,
+      "name": "レスレリ学園 ～退学！？　いきなり大ピンチ～"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 260410,
+        "quest_name": "レスレリ学園 第1弾・１０",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      },
+      {
+        "quest_id": 260412,
+        "quest_name": "レスレリ学園 第1弾・１２",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      }
+    ],
+    "image_small": "Ingredient_0484_S",
+    "image_medium": "Ingredient_0484_M",
+    "start_at": "2024-04-01T12:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 485,
+    "name": "学園の伝承花",
+    "rarity": 3,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 35,
+        "name": "魔法耐性上昇【渾身】",
+        "category": "ENHANCE",
+        "description": "HP満タン時、受ける魔法攻撃のダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000104,
+            "description": "HPが最大の時、魔法属性ダメージ耐性{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "風ダメージ上昇",
+        "category": "ATTACK",
+        "description": "風属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "風属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 26,
+      "name": "レスレリ学園 ～退学！？　いきなり大ピンチ～"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 260411,
+        "quest_name": "レスレリ学園 第1弾・１１",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      },
+      {
+        "quest_id": 260412,
+        "quest_name": "レスレリ学園 第1弾・１２",
+        "episode_id": 2603,
+        "episode_name": "レスレリ学園 第1弾"
+      }
+    ],
+    "image_small": "Ingredient_0485_S",
+    "image_medium": "Ingredient_0485_M",
+    "start_at": "2024-04-01T12:00:00.000Z",
+    "end_at": null
   }
 ]

@@ -3295,6 +3295,56 @@
     "id": 6000564
   },
   {
+    "description": "得意属性が風属性の時、強化系パネル獲得時、自身に「クリティカルダメージアップ」を1回行動終了するまで付与",
+    "effect_motion_id": null,
+    "id": 6000565
+  },
+  {
+    "description": "得意属性が風属性かつアタッカーの時、全体攻撃のスキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000566
+  },
+  {
+    "description": "得意属性が風属性の時、強化系パネル獲得時、自身のHPを回復",
+    "effect_motion_id": null,
+    "id": 6000567
+  },
+  {
+    "description": "得意属性が突属性かつサポーターの時、与えるHP回復量アップ",
+    "effect_motion_id": null,
+    "id": 6000568
+  },
+  {
+    "description": "得意属性が突属性の時、強化系パネル獲得時、自身に「受けるダメージダウン」を1回攻撃を受けるまで付与",
+    "effect_motion_id": null,
+    "id": 6000569
+  },
+  {
+    "description": "得意属性が突属性かつサポーターの時、スキル発動後、味方全員に「自身のHPが70%以上の時、スキルダメージアップ」を1回行動終了するまで付与",
+    "effect_motion_id": null,
+    "id": 6000570
+  },
+  {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "id": 6000571
+  },
+  {
+    "description": "セット効果用state_changeを付与",
+    "effect_motion_id": null,
+    "id": 6000576
+  },
+  {
+    "description": "セット効果用state_changeを付与",
+    "effect_motion_id": null,
+    "id": 6000577
+  },
+  {
+    "description": "奮励努力の防具と奮励努力のスパイクを装備している時、パネルから受ける強化効果量アップ",
+    "effect_motion_id": null,
+    "id": 6000578
+  },
+  {
     "description": "与回復量上昇",
     "effect_motion_id": null,
     "id": 13000001
@@ -3463,26 +3513,6 @@
     "description": "物理攻撃のダメージ-{}%",
     "effect_motion_id": null,
     "id": 13000037
-  },
-  {
-    "description": "",
-    "effect_motion_id": null,
-    "id": 13000039
-  },
-  {
-    "description": "",
-    "effect_motion_id": null,
-    "id": 13000040
-  },
-  {
-    "description": "",
-    "effect_motion_id": null,
-    "id": 13000041
-  },
-  {
-    "description": "",
-    "effect_motion_id": null,
-    "id": 13000042
   },
   {
     "description": "突属性被弾時回避",
@@ -3700,6 +3730,11 @@
     "id": 13000177
   },
   {
+    "description": "1回攻撃するまで、スキルダメージ+{}%",
+    "effect_motion_id": null,
+    "id": 13000178
+  },
+  {
     "description": "全体攻撃のスキルダメージ{0}％アップ",
     "effect_motion_id": null,
     "id": 13000180
@@ -3708,6 +3743,11 @@
     "description": "単体攻撃のスキルダメージ{0}％アップ",
     "effect_motion_id": null,
     "id": 13000181
+  },
+  {
+    "description": "自身が風属性の時、スキルダメージ+{}%",
+    "effect_motion_id": null,
+    "id": 13000183
   },
   {
     "description": "[自身/常時/ダメージバフ]",
@@ -4045,6 +4085,26 @@
     "id": 72001037
   },
   {
+    "description": "強化パネル獲得時、自身に「スキルダメージ+{0}%」を1回行動終了するまで付与(重複不可)",
+    "effect_motion_id": null,
+    "id": 72001039
+  },
+  {
+    "description": "[味方全員/ブレイクダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72001040
+  },
+  {
+    "description": "[自身/マイナスパネル無効]",
+    "effect_motion_id": null,
+    "id": 72001041
+  },
+  {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "id": 72001045
+  },
+  {
     "description": "[自身/常時/物攻上昇]",
     "effect_motion_id": null,
     "id": 72500002
@@ -4238,6 +4298,16 @@
     "description": "[自身/おてんばが多いほど戦闘アイテムダメージアップ]",
     "effect_motion_id": null,
     "id": 72500134
+  },
+  {
+    "description": "[自身/キルヘン・ベルが多いほど/物攻上昇]",
+    "effect_motion_id": null,
+    "id": 72500135
+  },
+  {
+    "description": "[自身/キルヘン・ベルが多いほど/魔攻上昇]",
+    "effect_motion_id": null,
+    "id": 72500136
   },
   {
     "description": "",
@@ -5457,6 +5527,56 @@
   {
     "description": "",
     "effect_motion_id": null,
+    "id": 91001215
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001230
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001247
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001248
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001249
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001250
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001253
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001255
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001256
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001273
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
     "id": 91002004
   },
   {
@@ -6018,6 +6138,21 @@
     "description": "バトル開始時、アイテムゲージ回復",
     "effect_motion_id": null,
     "id": 95000099
+  },
+  {
+    "description": "得意属性が風属性の時、クリティカルダメージアップ",
+    "effect_motion_id": null,
+    "id": 95000100
+  },
+  {
+    "description": "味方全員のバーストスキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 95000101
+  },
+  {
+    "description": "攻撃対象がぷに種族の時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 95000102
   },
   {
     "description": "",
@@ -10605,6 +10740,16 @@
     "id": 780052008
   },
   {
+    "description": "被パネル効果量UP",
+    "effect_motion_id": null,
+    "id": 780052014
+  },
+  {
+    "description": "被パネル効果量UP",
+    "effect_motion_id": null,
+    "id": 780052015
+  },
+  {
     "description": "",
     "effect_motion_id": null,
     "id": 780053001
@@ -12370,6 +12515,21 @@
     "id": 780119006
   },
   {
+    "description": "対象の与ダメージUP",
+    "effect_motion_id": null,
+    "id": 780119007
+  },
+  {
+    "description": "対象の物理攻撃被ダメージDOWN",
+    "effect_motion_id": null,
+    "id": 780119008
+  },
+  {
+    "description": "物理攻撃被ダメージDOWN(state_change用)",
+    "effect_motion_id": null,
+    "id": 780119009
+  },
+  {
     "description": "",
     "effect_motion_id": null,
     "id": 780120001
@@ -12673,6 +12833,11 @@
     "description": "味方全体に攻撃対象がデバフ効果状態の場合、与ダメージUPを2回付与",
     "effect_motion_id": null,
     "id": 780132012
+  },
+  {
+    "description": "攻撃対象がマイナス効果の時、与ダメージUP",
+    "effect_motion_id": null,
+    "id": 780132013
   },
   {
     "description": "対象に物防DOWN(2回)を付与",
@@ -13058,6 +13223,16 @@
     "description": "自身のHP70%以上の時、魔法攻撃を回避",
     "effect_motion_id": null,
     "id": 880009007
+  },
+  {
+    "description": "ブレイク時、自身の与ダメージUP",
+    "effect_motion_id": null,
+    "id": 880009008
+  },
+  {
+    "description": "ブレイク時、自身の被ダメージUP",
+    "effect_motion_id": null,
+    "id": 880009009
   },
   {
     "description": "",
@@ -15375,6 +15550,11 @@
     "id": 880085006
   },
   {
+    "description": "味方不在時、自身の被ダメージUP",
+    "effect_motion_id": null,
+    "id": 880085007
+  },
+  {
     "description": "行動者にプラス効果が3つ以上ついている場合、対象のプラス効果を全て解除",
     "effect_motion_id": null,
     "id": 880086001
@@ -15645,6 +15825,16 @@
     "id": 880092018
   },
   {
+    "description": "HP60%以下で被弾時、自身の被ダメージDOWN",
+    "effect_motion_id": 1008,
+    "id": 880092019
+  },
+  {
+    "description": "ブレイク時自身に被ダメージUP2回付与",
+    "effect_motion_id": null,
+    "id": 880092020
+  },
+  {
     "description": "魔法攻撃を被弾時、自身に被ダメージ上昇(上限150%)付与",
     "effect_motion_id": null,
     "id": 880093000
@@ -15740,6 +15930,11 @@
     "id": 880101002
   },
   {
+    "description": "自身が状態異常付与されている時、攻撃を受けると自身を強制ブレイクする",
+    "effect_motion_id": null,
+    "id": 880102001
+  },
+  {
     "description": "氷属性攻撃被弾時、自身に被ダメージUPを付与(永続)",
     "effect_motion_id": null,
     "id": 880103023
@@ -15803,6 +15998,26 @@
     "description": "非ブレイク時、魔法攻撃から受けるダメージ軽減",
     "effect_motion_id": null,
     "id": 880105003
+  },
+  {
+    "description": "HP100%以上の相手からの被ダメージUP",
+    "effect_motion_id": null,
+    "id": 880105004
+  },
+  {
+    "description": "HP70%以上の相手からの被ダメージUP",
+    "effect_motion_id": null,
+    "id": 880105005
+  },
+  {
+    "description": "HP50%以上の相手からの被ダメージUP",
+    "effect_motion_id": null,
+    "id": 880105006
+  },
+  {
+    "description": "HP30%以上の相手からの被ダメージUP",
+    "effect_motion_id": null,
+    "id": 880105007
   },
   {
     "description": "ブレイク時、再生を敵全体に付与",

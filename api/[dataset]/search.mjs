@@ -9,7 +9,7 @@ function parseBoolean(str) {
 
 function parseQuery(query) {
     const result = {
-        languages: [],
+        locales: [],
         files: [],
         keys: [],
         query: [],
@@ -20,7 +20,11 @@ function parseQuery(query) {
         switch (key.toLowerCase()) {
             case 'language':
             case 'languages':
-                result.languages.push(...value.split(','));
+            case 'server':
+            case 'servers':
+            case 'locale':
+            case 'locales':
+                result.locales.push(...value.split(','));
                 break;
             case 'file':
             case 'files':
@@ -53,7 +57,9 @@ function parseQuery(query) {
             case 'resultlanguage':
             case 'returnlang':
             case 'returnlanguage':
-                result.options.resultLanguage = value;
+            case 'resultlocale':
+            case 'returnlocale':
+                result.options.resultLocale = value;
                 break;
             case 'activeonly':
             case 'activetimeonly':
@@ -66,7 +72,7 @@ function parseQuery(query) {
 }
 
 export default function handler(request, response) {
-    const { languages, files, keys, query, options } = parseQuery(request.query);
+    const { locales, files, keys, query, options } = parseQuery(request.query);
 
-    return response.json(searchData(request.query.dataset, languages, files, keys, query, options));
+    return response.json(searchData(request.query.dataset, locales, files, keys, query, options));
 }

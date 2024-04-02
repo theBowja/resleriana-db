@@ -11,6 +11,7 @@ Provided from repository:
 - built-in scripts to extract your own images, voiceclips, and videos
 - mapping for converting `_still_path_hash` in masterdata to extracted image names
 - upload images directly to Cloudinary CDN
+- preview newly added images
 
 Provided from Cloudinary CDN:
 - all images for Global version
@@ -24,6 +25,10 @@ Provided from Cloudinary CDN:
   - [from npm package](#from-npm-package)
   - [from web API](#from-web-api)
 - [Extract resources](#extract-resources)
+  - [Texture2D](#extract-texture2d)
+  - [AudioClip](#extract-audioclip)
+  - [VideoClip](#extract-videoclip)
+- [Preview](#preview)
 - [Contributing](#contributing)
 
 ## Local Development
@@ -76,9 +81,9 @@ pip install UnityPy=1.10.7
 ## Repository structure
 - `/api` - Contains the code for Vercel API.
 - `/auto` - Contains code used by Github Actions to auto-update data and auto-upload assets to Cloudinary CDN.
-- `/data` - Contains the masterdata, parsed, and TextAsset JSON organized by language or server.
-- `/dist` - TODO
-- `/import` - Contains the scripts needed to parse out data from masterdata into a slightly more human-readable data format.
+- `/data` - Contains the masterdata, parsed, and TextAsset JSON organized by locales.
+- `/dist` - TODO for npm publishing.
+- `/import` - Contains the helper scripts used to download catalog, extract resource metadata, extract and parse masterdata, and deserialize TextAssets.
 - `/resources` - 
 - `/types` - TODO
 - `main.mjs` - Script contains the data retrieval and data searching functions.
@@ -93,77 +98,123 @@ This dataset contains files and data properties curated from the master data.
 
 ## Get data
 
+JSON data is divided into datasets and locale.  
 
+Datasets: master, parsed  
+Locales: en, jp, zh-cn, zh-tw  
+
+Datasets: TextAsset  
+Locales: Global, Japan   
+
+Note: master data contains some properties that end in `_still_path_hash`. These can be mapped to actual image names using the JSON map at [/resources/Global/path_hash_to_name.json](./resources/Global/path_hash_to_name.json).
 
 ### From repository
 
-JSON data is stored in the `/data` folder and divided into datasets, languages, and servers.  
+JSON data is stored in the `/data/[dataset]/[locale]` folder and can be 
 
-Formats: master, parsed.  
-Languages: en, jp, zh-cn, zh-tw.  
+Alternatively, you can import the following functions from the main.mjs file:
+- getFile(dataset, locale, file)
+- getDataByKey(dataset, locale, file, key, value)
+- searchData(dataset, locale, files, keys, query, options={})
 
-Formats: TextAsset.  
-Servers: Global, Japan.   
+Documentation for these functions can be found in the [next section](#from-npm-package).
 
 ### From npm package
+
+JSON data for master, parsed, and TextAsset can be downloaded as an npm package for your JavaScript project. The size of the JSONs combined is 70MB+ or 5MB+ compressed. Please refrain from loading the entire package directly into your HTML because that will directly ruin your loading times.
+
+```
+npm install resleriana-db
+```
+
+You can directly load JSONs from your node_modules folder using the following path: `/node_modules/resleriana-db/data/[dataset]/[locale]/[file].json`.
+
+However it is recommended you import the `resleriana-db` module in order to access the JSON data.
+
+```js
+const reslerianaDb = require('resleriana-db');
+```
+
+The module exports the following helper functions:
+
+- [getFile(dataset, locale, file)](#getfile)
+- [getDataByKey(dataset, locale, file, key, value)]()
+- [searchData(dataset, locales, files, keys, query, options={})]()
+
+#### getFile
+
+TODO
+
+#### getDataByKey
+
+TODO
+
+#### searchData
 
 TODO
 
 ### From web API
 
-The web API is hosted on Vercel serverless functions. If access to Vercel servers is not supported in your region, then it is very easy to set up your own API because the routes in `/api` folder map directly to functions exported in the `main.mjs` script. The APIs are split into two different types: [retrieval](#data-retrieval-api) and [searching](#data-searching-api).
+The web API is hosted on Vercel serverless functions. Access to Vercel servers may not be supported in non-US regions, but it is very easy to set up your own API. The routes in `/api` folder map directly to functions exported in the `main.mjs` script.
+
+The APIs are split into two different types: [retrieval](#data-retrieval-api) and [searching](#data-searching-api).
 
 ### Data retrieval API
 
-#### GET: /api/{dataset}/{language}/{file}
-Retrieves the JSON file for the given dataset, language, and filename. Returns *undefined* if there is no result.
+#### GET: /api/{dataset}/{locale}/{file}
+Returns the JSON data file for the given dataset, locale, and filename. Returns *undefined* if there is no result.
 
 Examples:  
-https://resleriana-db.vercel.app/api/master/en/base_character
+- https://resleriana-db.vercel.app/api/master/en/base_character
 
-#### GET: /api/{dataset}/{language}/{file}/{key}
-Retrieves the *first* data object that contains the same key and value. Returns *undefined* if there is no result.
+#### GET: /api/{dataset}/{locale}/{file}/{key}
+Returns the *first* subdata object that matches the same key and value. Returns *undefined* if there is no result.
 
 Required query parameters:  
-**value** *{string}* - Description.
+- **value** *{string}* - Value to match.
 
 Examples:  
-https://resleriana-db.vercel.app/api/master/en/character/id?value=43101
+- https://resleriana-db.vercel.app/api/master/en/character/id?value=43101
 
 ### Data searching API
 
-Searching functionality uses fuzzy search from the [uFuzzy](https://github.com/leeoniya/uFuzzy) library which provides functionality like auto-complete.
+Searching functionality uses fuzzy search from the [uFuzzy](https://github.com/leeoniya/uFuzzy) library which provides auto-complete functionality.
 
 #### GET: /api/{dataset}/search
-Searches through multiple languages, files, and keys to find the best match for the search query. If **topResultOnly** is *true*, then returns the ??? object or *undefined* for no result. If **topResultOnly** is *false*, then returns ??? array of ??? objects or empty array for no result.
+Searches through multiple locales, files, and keys to find the best match for the search query. If **topResultOnly** is *true*, then returns the search object or *undefined* for no result. If **topResultOnly** is *false*, then returns ??? array of search objects or empty array for no result.
 
 Required query parameters:  
-**language** *{string}* - Comma-separated list of languages to search in.  
-**file** *{string}* - Comma-separated list of files to search in. Do not include `.json`.  
-**key** *{string}* - Comma-separated list of keys to search in.  
-**query** *{string}* - The search query.  
+- **locale** *{string}* - Comma-separated list of locales to search in.  
+- **file** *{string}* - Comma-separated list of files to search in. Do not include `.json`.  
+- **key** *{string}* - Comma-separated list of keys to search in.  
+- **query** *{string}* - The search query.  
 
 Optional query parameters:
-**firstResultOnly** *{boolean?}* - Default true.  
-**numberOfResults** *{number?}* - Default -1. If topResultOnly is set to false, then this API will return an 
-**multiKeyLogic** *{string?}* - Default "AND".
-**resultLanguage** *{string?}* - Default undefined.
-**activeOnly** *{boolean?}* - Default true. Whether or not to include data where the current time is not between the `start_at` or `end_at` properties.
+- **firstResultOnly** *{boolean?}* - Default true.  
+- **numberOfResults** *{number?}* - Default -1. If topResultOnly is set to false, then this API will return an  
+- **multiKeyLogic** *{string?}* - Default "AND".  
+- **resultLocale** *{string?}* - Default undefined.  
+- **activeOnly** *{boolean?}* - Default true. Whether or not to include data where the current time is not between the `start_at` or `end_at` properties.
+
+Returned search object:
+- a
 
 Examples:  
-https://resleriana-db.vercel.app/api/master/search?language=en&file=character&key=name&query=resna  
-https://resleriana-db.vercel.app/api/parsed/search?language=en&file=material&key=equipment_trait.name,equipment_trait.name&query=physical%20res,%20magic%20res  
+- https://resleriana-db.vercel.app/api/master/search?locale=en&file=character&key=name&query=resna  
+- https://resleriana-db.vercel.app/api/parsed/search?locale=en&file=material&key=equipment_trait.name,equipment_trait.name&query=physical%20res,%20magic%20res  
 
 ## Extract resources
 
-Description.
+This repository provides npm run-scripts for extracting the following UnityAssets: Texture2D, Sprite, AudioClip, VideoClip.
 
 ### Extract Texture2D
 
-Prerequisite: [set up local environment](#local-development).  
-You can use the `extractImages` run-script to extract all images with the default options. TODO describe what it does. it downloads
+Prerequisite: [Set up local environment](#local-development).  
 
-```
+You can use the `extractImages` npm run-script to extract all images. TODO describe what it does. it downloads. This run-script can be configured with various options.
+
+Example:
+```powershell
 npm run extractImages --% -- --imagesOutputFolder "../MyReslerApp/images" --regex "(^STL_P_.*)|(^equipment_.*)|(^battle_tool.*)"
 ```
 
@@ -182,7 +233,8 @@ Which server to download Unity bundles for.
 Options: "Global" and "Japan"  
 Default: "Global"
 
-```
+Example:
+```powershell
 npm run extractImages --% -- --server "Japan"
 ```
 
@@ -195,7 +247,7 @@ Default: "StandaloneWindows64"
 
 The images from "StandaloneWindows64" will be of noticeable higher quality than images from the mobile platforms.
 
-```
+```powershell
 npm run extractImages --% -- --platform "Android"
 ```
 
@@ -207,7 +259,7 @@ Default: "./resources/[server]/[platform]/Texture2D"
 
  If it is a relative path, then it will be relative to the current working directory.
 
-```
+```powershell
 npm run extractImages --% -- --imagesOutputFolder "./path/to/wherever"
 ```
 
@@ -222,7 +274,7 @@ Assets inside Unity bundles are in a compressed format like BC7. They are decomp
 
 Currently, png images are double the size of webp images. Webp images will go through lossy conversion. You can change the quality of the conversion by modifying the python script at `./tools/UnityPyScripts/exportAssets.py`.
 
-```
+```powershell
 npm run extractImages --% -- --imageFormat "png"
 ```
 
@@ -232,9 +284,9 @@ Whether or not to skip downloading the catalog and bundles.
 
 Default: false
 
-This may be useful for saving time if you've already downloaded the catalog and bundles from running the command previously and know that the game has not been updated since. The script downloads the catalog in order to create a list of Unity bundles that contain Texture2D assets. This is list is saved in the file: `./resources/[server]/[platform]/bundlenames_all_texture2d.txt`. The bundles are then downloaded into the folder: `./resources/[server]/[platform]/bundles`.
+This is useful for saving time if you've already downloaded the catalog and bundles from running the command previously and know that the game has not been updated since. The script downloads the catalog in order to create a list of Unity bundles that contain Texture2D assets. This is list is saved in the file: `./resources/[server]/[platform]/bundlenames_all_texture2d.txt`. The bundles are then downloaded into the folder: `./resources/[server]/[platform]/bundles`.
 
-```
+```powershell
 npm run extractImages --% -- --skipDownloads
 ```
 
@@ -253,7 +305,7 @@ Sample regex:
 - `^STL_P_.*_mini` - Chibi images from the Ryza's Challenge event.
 - TODO: please help contribute
 
-```
+```powershell
 npm run extractImages --% -- --regex "(^STL_P_.*)|(^equipment_.*)|(^battle_tool.*)"
 ```
 
@@ -264,6 +316,10 @@ TODO
 ### Extract VideoClip
 
 TODO
+
+## Preview
+
+TODO idk
 
 ## Cloudinary
 

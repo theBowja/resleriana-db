@@ -14,27 +14,28 @@ export function validateDataset(dataset) {
 
 /**
  * 
- * @param {string} language 
+ * @param {string} locale 
  * @returns boolean
  */
-export function validateLanguage(language) {
-	return language === 'en' || language === 'jp' || language === 'zh_cn' || language === 'zh_tw';
+export function validateLocale(locale) {
+	return locale === 'en' || locale === 'jp' || locale === 'zh_cn' || locale === 'zh_tw' ||
+		locale === 'Global' || locale === 'Japan';
 }
 
 /**
- * Checks if a file exists for the dataset/language. Assumes the dataset and language are already valid.
+ * Checks if a file exists for the dataset/locale. Assumes the dataset and locale are already valid.
  * @param {string} dataset 
- * @param {string} language 
+ * @param {string} locale 
  * @param {string} file 
  * @returns boolean
  */
-export function validateFile(dataset, language, file) {
-	return files[dataset][language].includes(file);
+export function validateFile(dataset, locale, file) {
+	return files[dataset][locale].includes(file);
 }
 
-function loadJSON(dataset, language, file) {
+function loadJSON(dataset, locale, file) {
 	try {
-		return require(`./data/${dataset}/${language}/${file}.json`);
+		return require(`./data/${dataset}/${locale}/${file}.json`);
 	} catch(e) {
 		return undefined;
 	}
@@ -43,13 +44,13 @@ function loadJSON(dataset, language, file) {
 /**
  * 
  * @param {string} dataset 
- * @param {string} language 
+ * @param {string} locale 
  * @param {string} file 
  * @returns 
  */
-export function getFile(dataset, language, file) {
-	if (!validateDataset(dataset) || !validateLanguage(language) || !validateFile(dataset, language, file)) return undefined;
-	return loadJSON(dataset, language, file);
+export function getFile(dataset, locale, file) {
+	if (!validateDataset(dataset) || !validateLocale(locale) || !validateFile(dataset, locale, file)) return undefined;
+	return loadJSON(dataset, locale, file);
 }
 
 function safeToString(x) {
@@ -61,14 +62,14 @@ function safeToString(x) {
 /**
  * 
  * @param {string} dataset 
- * @param {string} language 
+ * @param {string} locale 
  * @param {string} file 
  * @param {string} key
  * @param {string} value 
  * @returns 
  */
-export function getDataByKey(dataset, language, file, key, value) {
-	const dataFile = getFile(dataset, language, file);
+export function getDataByKey(dataset, locale, file, key, value) {
+	const dataFile = getFile(dataset, locale, file);
 	if (!dataFile) return undefined;
 	const dataObj = dataFile.find(obj => safeToString(obj[key]).toLowerCase() === safeToString(value).toLowerCase());
 	if (!dataObj) return undefined;
@@ -76,16 +77,16 @@ export function getDataByKey(dataset, language, file, key, value) {
 }
 
 /**
- * Parses through a string for languages, files, and keys, all of which are validated and cleaned.
+ * Parses through a string for locales, files, and keys, all of which are validated and cleaned.
  * @param {string} keyString input string
  * @example Example inputs
  * "/character.traits.battle_item.category"
  * "@en/character.names"
  * "traits.battle_item.names"
- * @returns {{languages: string[], files: string[], keys: string[]}}
+ * @returns {{locales: string[], files: string[], keys: string[]}}
  */
 function parseKeys(keyString) {
-	const result = { languages: [], files: [], keys: [] };
+	const result = { locales: [], files: [], keys: [] };
 	if (!keyString) return result;
 
 	const keyArr = keyString.split(/([@\/\\.])/);
@@ -110,7 +111,7 @@ function parseKeys(keyString) {
 		
 		switch (currentPropType) {
 			case 0:
-				if (validateLanguage(key)) result.languages.push(key);
+				if (validateLocale(key)) result.locales.push(key);
 				continue;
 			case 1:
 				if (validateFile(key)) result.files.push(key);
@@ -131,7 +132,7 @@ function parseSearchOptions(options) {
 	const searchOpts = {
 		firstResultOnly: false,
 		multiKeyLogic: 'AND',
-		resultLanguage: undefined,
+		resultLocale: undefined,
 		activeOnly: true
 	};
 
@@ -141,8 +142,8 @@ function parseSearchOptions(options) {
 		searchOpts.multiKeyLogic = 'AND';
 	else if (options.multiKeyLogic && options.multiKeyLogic.toLowerCase() === 'or')
 		searchOpts.multiKeyLogic = 'OR';
-	if (validateLanguage(options.resultLanguage))
-		searchOpts.resultLanguage = options.resultLanguage;
+	if (validateLocale(options.resultLocale))
+		searchOpts.resultLocale = options.resultLocale;
 	if (typeof options.activeOnly === 'boolean')
 		searchOpts.activeOnly = options.activeOnly;
 
@@ -164,17 +165,17 @@ function isActiveData(data) {
 /**
  * 
  * @param {string} dataset 
- * @param {string|string[]} languages 
+ * @param {string|string[]} locales 
  * @param {string|string[]} files 
  * @param {string|string[]} keys array of keys
  * @param {string|string[]} query
  * @param {*} options 
  */
-export function searchData(dataset, languages, files, keys, query, options={}) {
+export function searchData(dataset, locales, files, keys, query, options={}) {
 	// input validation
 	if (!validateDataset(dataset)) return undefined;
-	if (!Array.isArray(languages)) languages = [languages];
-	languages = languages.filter(l => validateLanguage(l));
+	if (!Array.isArray(locales)) locales = [locales];
+	locales = locales.filter(l => validateLocale(l));
 	if (!Array.isArray(files)) files = [files];
 	if (!Array.isArray(keys)) keys = [keys];
 	if (!Array.isArray(query)) query = [query];
@@ -187,7 +188,7 @@ export function searchData(dataset, languages, files, keys, query, options={}) {
 	 *   keyString: string,
 	 *   matchedFiles: {
 	 *     [file: string]: {
-	 *       language: string,
+	 *       locale: string,
 	 *       matchedData: {
 	 *         [id: string]: {
 	 *           key: string,
@@ -205,8 +206,8 @@ export function searchData(dataset, languages, files, keys, query, options={}) {
 		const keyParse = parseKeys(keyString);
 
 		for (const file of keyParse.files.length !== 0 ? keyParse.files : files) {
-			for (const language of keyParse.languages.length !== 0 ? keyParse.languages : languages) {
-				const dataFile = getFile(dataset, language, file);
+			for (const locale of keyParse.locales.length !== 0 ? keyParse.locales : locales) {
+				const dataFile = getFile(dataset, locale, file);
 				if (!dataFile) continue;
 
 				const targets = dataFile.flatMap(dataObj => {
@@ -227,7 +228,7 @@ export function searchData(dataset, languages, files, keys, query, options={}) {
 
 				// save the sorted list of matched targets
 				const matchedTargets = fuzzyResult[2].map(ordered => targets[fuzzyResult[0][ordered]]);
-				searchResults[keyIndex].matchedFiles[file] = { language: language, matchedData: {} };
+				searchResults[keyIndex].matchedFiles[file] = { locale: locale, matchedData: {} };
 				for (const matchedTarget of matchedTargets) {
 					(searchResults[keyIndex].matchedFiles[file].matchedData[matchedTarget.dataId] ||= []).push({
 						key: matchedTarget.key,
@@ -235,7 +236,7 @@ export function searchData(dataset, languages, files, keys, query, options={}) {
 					});
 				}
 
-				break; // skip the rest of the languages of this file
+				break; // skip the rest of the locales of this file
 			}
 		}
 	}
@@ -254,7 +255,7 @@ export function searchData(dataset, languages, files, keys, query, options={}) {
  *   keyString: string,
  *   matchedFiles: {
  *     [file: string]: {
- *       language: string,
+ *       locale: string,
  *       matchedData: {
  *         [id: string]: {
  *           key: string,
@@ -267,7 +268,7 @@ export function searchData(dataset, languages, files, keys, query, options={}) {
  * @param {object} options 
  * @returns {{
  *   dataset: string,
- *   language: string,
+ *   locale: string,
  *   file: string,
  *   id: number,
  *   properties: { key: string, value: string }[],
@@ -292,13 +293,13 @@ function compileSearchResults(dataset, searchResults, options) {
 				for (const id of Object.keys(keyResult.matchedFiles[file].matchedData)) {
 					if (!searchResults.every(r => r.matchedFiles[file].matchedData[id])) continue; // AND
 
-					const language = options.resultLanguage || keyResult.matchedFiles[file].language;
-					const dataObj = getDataByKey(dataset, language, file, 'id', id);
+					const locale = options.resultLocale || keyResult.matchedFiles[file].locale;
+					const dataObj = getDataByKey(dataset, locale, file, 'id', id);
 
 					doneFileData[file][id] = true;
 					result.push({
 						dataset: dataset,
-						language: language,
+						locale: locale,
 						file: file,
 						id: id,
 						properties: searchResults.flatMap(kr => kr.matchedFiles[file].matchedData[id]),
@@ -317,12 +318,12 @@ function compileSearchResults(dataset, searchResults, options) {
 					if (doneFileData[file][id]) continue;
 					doneFileData[file][id] = true;
 
-					const language = options.resultLanguage || keyResult.matchedFiles[file].language;
-					const dataObj = getDataByKey(dataset, language, file, 'id', id);
+					const locale = options.resultLocale || keyResult.matchedFiles[file].locale;
+					const dataObj = getDataByKey(dataset, locale, file, 'id', id);
 
 					result.push({
 						dataset: dataset,
-						language: language,
+						locale: locale,
 						file: file,
 						id: id,
 						properties: searchResults.flatMap(kr => {

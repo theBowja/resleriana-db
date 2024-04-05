@@ -74,10 +74,15 @@ function getCatalogResources(server, catalogJSON, platform='StandaloneWindows64'
     const keys = getKeys(catalogJSON);
     const buckets = getBuckets(catalogJSON);
     const entries = getEntries(catalogJSON, keys);
-    const resources = getResources(catalogJSON, keys, buckets, entries, platform, filterResourceTypes, filterLabels, true, true);
+    const resources = getResources(catalogJSON, keys, buckets, entries, platform, filterResourceTypes, filterLabels, false, true);
 
-    // fs.writeFileSync(path.resolve(__dirname, `./tmp/catalog_resources_${server}.json`), JSON.stringify(resources, null, '\t')); // debug
-    fs.mkdirSync(path.resolve(__dirname, `../resources/${server}/${platform}`), { recursive: true });
+    // DEBUG
+    // fs.mkdirSync(path.resolve(__dirname, `../resources/${server}/${platform}/catalog`), { recursive: true }); // debug
+    // fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/${platform}/catalog/keys.json`), JSON.stringify(keys, null, '\t')); // debug
+    // fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/${platform}/catalog/buckets.json`), JSON.stringify(buckets, null, '\t')); // debug
+    // fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/${platform}/catalog/entries.json`), JSON.stringify(entries, null, '\t')); // debug
+    // fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/${platform}/catalog/resources.json`), JSON.stringify(resources, null, '\t')); // debug
+    // fs.mkdirSync(path.resolve(__dirname, `../resources/${server}/${platform}`), { recursive: true });
 
     // generate list of bundle names
     const bundleNames = new Set();
@@ -229,10 +234,10 @@ function getEntries(catalog, keys) {
         const resourceType = catalog.m_resourceTypes[resourceTypeIndex].m_ClassName;
         offset += 28;
         if (dataIndex < 0) {
-            entries.push({ container, dependencyKey, primary, resourceTypeIndex, resourceType });
+            entries.push({ container, dependencyKey, depHash, primary, resourceTypeIndex, resourceType });
         } else {
             const { newOffset, data } = readObjectFromData(extrasBuffer, dataIndex);
-            entries.push({ container, dependencyKey, primary, resourceTypeIndex, resourceType, data });
+            entries.push({ container, dependencyKey, depHash, primary, resourceTypeIndex, resourceType, data });
         }
     }
 

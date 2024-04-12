@@ -7873,7 +7873,7 @@
   },
   {
     "ability_ids": [300418],
-    "attack_attributes": [6],
+    "attack_attributes": [3],
     "description": "得意属性が突属性の時、単体攻撃のブレイクダメージ+{0}%",
     "easy_synthesis_trait_lottery_id": 7,
     "id": 328,
@@ -7894,7 +7894,7 @@
   },
   {
     "ability_ids": [300419],
-    "attack_attributes": [6],
+    "attack_attributes": [3],
     "description": "得意属性が突属性の時、単体攻撃のブレイクダメージ+{0}%",
     "easy_synthesis_trait_lottery_id": 7,
     "id": 329,
@@ -8083,7 +8083,7 @@
   },
   {
     "ability_ids": [300428],
-    "attack_attributes": [3],
+    "attack_attributes": [6],
     "description": "得意属性が氷属性かつブレイカーの時、単体攻撃のブレイクダメージ+{0}%",
     "easy_synthesis_trait_lottery_id": 12,
     "id": 338,
@@ -8104,7 +8104,7 @@
   },
   {
     "ability_ids": [300429],
-    "attack_attributes": [3],
+    "attack_attributes": [6],
     "description": "得意属性が氷属性かつブレイカーの時、単体攻撃のブレイクダメージ+{0}%",
     "easy_synthesis_trait_lottery_id": 12,
     "id": 339,
@@ -13968,5 +13968,413 @@
       }
     ],
     "still_path_hash": "8518225909560242560"
+  },
+  {
+    "ability_ids": [300676],
+    "attack_attributes": [3],
+    "description": "得意属性が突属性かつディフェンダーの時、スキル発動後、味方全員に「受けるダメージ-{0}%」を1回攻撃を受けるまで付与",
+    "easy_synthesis_trait_lottery_id": 10,
+    "id": 586,
+    "large_still_path_hash": "840940534367891046",
+    "name": "令嬢の槍",
+    "rarity": 3,
+    "roles": [3],
+    "slot_type": 1,
+    "small_still_path_hash": "7729865685215778065",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 3,
+        "value": 95
+      }
+    ],
+    "still_path_hash": "4819282958253592831"
+  },
+  {
+    "ability_ids": [300677],
+    "attack_attributes": [3],
+    "description": "得意属性が突属性かつディフェンダーの時、スキル発動後、味方全員に「受けるダメージ-{0}%」を1回攻撃を受けるまで付与",
+    "easy_synthesis_trait_lottery_id": 10,
+    "id": 587,
+    "large_still_path_hash": "840940534367891046",
+    "name": "令嬢の槍",
+    "rarity": 2,
+    "roles": [3],
+    "slot_type": 1,
+    "small_still_path_hash": "7729865685215778065",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 3,
+        "value": 50
+      }
+    ],
+    "still_path_hash": "4819282958253592831"
+  },
+  {
+    "ability_ids": [300678],
+    "attack_attributes": [3],
+    "description": "得意属性が突属性かつディフェンダーの時、受けるHP回復量+{0}%",
+    "easy_synthesis_trait_lottery_id": 10,
+    "id": 588,
+    "large_still_path_hash": "6306985157962075708",
+    "name": "令嬢の制服",
+    "rarity": 3,
+    "roles": [3],
+    "slot_type": 2,
+    "small_still_path_hash": "5308321999745839613",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 5,
+        "value": 95
+      }
+    ],
+    "still_path_hash": "6921615947429442579"
+  },
+  {
+    "ability_ids": [300679],
+    "attack_attributes": [3],
+    "description": "得意属性が突属性かつディフェンダーの時、受けるHP回復量+{0}%",
+    "easy_synthesis_trait_lottery_id": 10,
+    "id": 589,
+    "large_still_path_hash": "6306985157962075708",
+    "name": "令嬢の制服",
+    "rarity": 2,
+    "roles": [3],
+    "slot_type": 2,
+    "small_still_path_hash": "5308321999745839613",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 5,
+        "value": 50
+      }
+    ],
+    "still_path_hash": "6921615947429442579"
+  },
+  {
+    "ability_ids": [300680],
+    "attack_attributes": [3],
+    "description": "得意属性が突属性かつディフェンダーの時、単体攻撃のスキルダメージ+{0}%",
+    "easy_synthesis_trait_lottery_id": 10,
+    "id": 590,
+    "large_still_path_hash": "548956346739609692",
+    "name": "令嬢のソックス",
+    "rarity": 3,
+    "roles": [3],
+    "slot_type": 3,
+    "small_still_path_hash": "2343866141716706974",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 285
+      }
+    ],
+    "still_path_hash": "658478159345152884"
+  },
+  {
+    "ability_ids": [300681],
+    "attack_attributes": [3],
+    "description": "得意属性が突属性かつディフェンダーの時、単体攻撃のスキルダメージ+{0}%",
+    "easy_synthesis_trait_lottery_id": 10,
+    "id": 591,
+    "large_still_path_hash": "548956346739609692",
+    "name": "令嬢のソックス",
+    "rarity": 2,
+    "roles": [3],
+    "slot_type": 3,
+    "small_still_path_hash": "2343866141716706974",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 150
+      }
+    ],
+    "still_path_hash": "658478159345152884"
+  },
+  {
+    "ability_ids": [300682],
+    "attack_attributes": [8],
+    "description": "得意属性が風属性かつブレイカーの時、WEAK攻撃時、ブレイクダメージ+{0}%",
+    "easy_synthesis_trait_lottery_id": 12,
+    "id": 592,
+    "large_still_path_hash": "6607694913366159366",
+    "name": "ギャルの杖",
+    "rarity": 3,
+    "roles": [2],
+    "slot_type": 1,
+    "small_still_path_hash": "173415589705912946",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 4,
+        "value": 95
+      }
+    ],
+    "still_path_hash": "3156019744933910432"
+  },
+  {
+    "ability_ids": [300683],
+    "attack_attributes": [8],
+    "description": "得意属性が風属性かつブレイカーの時、WEAK攻撃時、ブレイクダメージ+{0}%",
+    "easy_synthesis_trait_lottery_id": 12,
+    "id": 593,
+    "large_still_path_hash": "6607694913366159366",
+    "name": "ギャルの杖",
+    "rarity": 2,
+    "roles": [2],
+    "slot_type": 1,
+    "small_still_path_hash": "173415589705912946",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 4,
+        "value": 50
+      }
+    ],
+    "still_path_hash": "3156019744933910432"
+  },
+  {
+    "ability_ids": [300684],
+    "attack_attributes": [8],
+    "description": "得意属性が風属性かつブレイカーの時、与えるマイナス効果量+{0}%",
+    "easy_synthesis_trait_lottery_id": 12,
+    "id": 594,
+    "large_still_path_hash": "3465757139635345123",
+    "name": "ギャルの制服",
+    "rarity": 3,
+    "roles": [2],
+    "slot_type": 2,
+    "small_still_path_hash": "9194456649049608249",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 6,
+        "value": 95
+      }
+    ],
+    "still_path_hash": "6214178209888245207"
+  },
+  {
+    "ability_ids": [300685],
+    "attack_attributes": [8],
+    "description": "得意属性が風属性かつブレイカーの時、与えるマイナス効果量+{0}%",
+    "easy_synthesis_trait_lottery_id": 12,
+    "id": 595,
+    "large_still_path_hash": "3465757139635345123",
+    "name": "ギャルの制服",
+    "rarity": 2,
+    "roles": [2],
+    "slot_type": 2,
+    "small_still_path_hash": "9194456649049608249",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 6,
+        "value": 50
+      }
+    ],
+    "still_path_hash": "6214178209888245207"
+  },
+  {
+    "ability_ids": [300686],
+    "attack_attributes": [8],
+    "description": "得意属性が風属性かつ攻撃対象がブレイク時、対象に「受けるダメージ+{0}%」を2回攻撃を受けるまで付与",
+    "easy_synthesis_trait_lottery_id": 12,
+    "id": 596,
+    "large_still_path_hash": "7797314945937913533",
+    "name": "ギャルのバングル",
+    "rarity": 3,
+    "roles": [2],
+    "slot_type": 3,
+    "small_still_path_hash": "6734650293284107477",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 12
+      }
+    ],
+    "still_path_hash": "8417860409543225659"
+  },
+  {
+    "ability_ids": [300687],
+    "attack_attributes": [8],
+    "description": "得意属性が風属性かつ攻撃対象がブレイク時、対象に「受けるダメージ+{0}%」を2回攻撃を受けるまで付与",
+    "easy_synthesis_trait_lottery_id": 12,
+    "id": 597,
+    "large_still_path_hash": "7797314945937913533",
+    "name": "ギャルのバングル",
+    "rarity": 2,
+    "roles": [2],
+    "slot_type": 3,
+    "small_still_path_hash": "6734650293284107477",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 10
+      }
+    ],
+    "still_path_hash": "8417860409543225659"
+  },
+  {
+    "ability_ids": [300688],
+    "attack_attributes": [],
+    "description": "一意専心の学ランと一意専心の消しゴムを装備している時、WAVE開始時、自身に「ブレイクダメージ+{0}%」を1回行動終了するまで付与",
+    "easy_synthesis_trait_lottery_id": 3,
+    "id": 598,
+    "large_still_path_hash": "5480475896388129062",
+    "name": "一意専心の巨大鉛筆",
+    "rarity": 3,
+    "roles": [2],
+    "slot_type": 1,
+    "small_still_path_hash": "3358530081868111049",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 3,
+        "value": 45
+      },
+      {
+        "change_method": 1,
+        "status_type": 4,
+        "value": 45
+      }
+    ],
+    "still_path_hash": "522297587454073127"
+  },
+  {
+    "ability_ids": [300689],
+    "attack_attributes": [],
+    "description": "一意専心の学ランと一意専心の消しゴムを装備している時、WAVE開始時、自身に「ブレイクダメージ+{0}%」を1回行動終了するまで付与",
+    "easy_synthesis_trait_lottery_id": 3,
+    "id": 599,
+    "large_still_path_hash": "5480475896388129062",
+    "name": "一意専心の巨大鉛筆",
+    "rarity": 2,
+    "roles": [2],
+    "slot_type": 1,
+    "small_still_path_hash": "3358530081868111049",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 3,
+        "value": 25
+      },
+      {
+        "change_method": 1,
+        "status_type": 4,
+        "value": 25
+      }
+    ],
+    "still_path_hash": "522297587454073127"
+  },
+  {
+    "ability_ids": [300690],
+    "attack_attributes": [],
+    "description": "追加効果なし",
+    "easy_synthesis_trait_lottery_id": 3,
+    "id": 600,
+    "large_still_path_hash": "3139204233414216191",
+    "name": "一意専心の学ラン",
+    "rarity": 3,
+    "roles": [2],
+    "slot_type": 2,
+    "small_still_path_hash": "1776760698154466573",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 5,
+        "value": 45
+      },
+      {
+        "change_method": 1,
+        "status_type": 6,
+        "value": 45
+      }
+    ],
+    "still_path_hash": "3534241328073750755"
+  },
+  {
+    "ability_ids": [300691],
+    "attack_attributes": [],
+    "description": "追加効果なし",
+    "easy_synthesis_trait_lottery_id": 3,
+    "id": 601,
+    "large_still_path_hash": "3139204233414216191",
+    "name": "一意専心の学ラン",
+    "rarity": 2,
+    "roles": [2],
+    "slot_type": 2,
+    "small_still_path_hash": "1776760698154466573",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 5,
+        "value": 25
+      },
+      {
+        "change_method": 1,
+        "status_type": 6,
+        "value": 25
+      }
+    ],
+    "still_path_hash": "3534241328073750755"
+  },
+  {
+    "ability_ids": [300692],
+    "attack_attributes": [],
+    "description": "追加効果なし",
+    "easy_synthesis_trait_lottery_id": 3,
+    "id": 602,
+    "large_still_path_hash": "3084762199269572117",
+    "name": "一意専心の消しゴム",
+    "rarity": 3,
+    "roles": [2],
+    "slot_type": 3,
+    "small_still_path_hash": "4081300360291834202",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 135
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 8
+      }
+    ],
+    "still_path_hash": "1227167943143873716"
+  },
+  {
+    "ability_ids": [300693],
+    "attack_attributes": [],
+    "description": "追加効果なし",
+    "easy_synthesis_trait_lottery_id": 3,
+    "id": 603,
+    "large_still_path_hash": "3084762199269572117",
+    "name": "一意専心の消しゴム",
+    "rarity": 2,
+    "roles": [2],
+    "slot_type": 3,
+    "small_still_path_hash": "4081300360291834202",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 75
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 6
+      }
+    ],
+    "still_path_hash": "1227167943143873716"
   }
 ]

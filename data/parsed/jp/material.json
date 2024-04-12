@@ -26682,6 +26682,24 @@
         "quest_name": "レスレリ学園 第1弾・１２",
         "episode_id": 2603,
         "episode_name": "レスレリ学園 第1弾"
+      },
+      {
+        "quest_id": 2910401,
+        "quest_name": "アイテム大戦 〜学園錬金祭編〜１",
+        "episode_id": 2904,
+        "episode_name": "アイテム大戦 〜学園錬金祭編〜"
+      },
+      {
+        "quest_id": 2910402,
+        "quest_name": "アイテム大戦 〜学園錬金祭編〜２",
+        "episode_id": 2904,
+        "episode_name": "アイテム大戦 〜学園錬金祭編〜"
+      },
+      {
+        "quest_id": 2910403,
+        "quest_name": "アイテム大戦 〜学園錬金祭編〜３",
+        "episode_id": 2904,
+        "episode_name": "アイテム大戦 〜学園錬金祭編〜"
       }
     ],
     "image_small": "Ingredient_0483_S",
@@ -26807,6 +26825,438 @@
     "image_small": "Ingredient_0485_S",
     "image_medium": "Ingredient_0485_M",
     "start_at": "2024-04-01T12:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 490,
+    "name": "夢見る王冠",
+    "rarity": 2,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 12,
+        "name": "物防の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "突の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000065,
+            "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 34,
+      "name": "レスレリ学園 ～激闘の錬金祭！～"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 340301,
+        "quest_name": "レスレリ学園 第2弾・１",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      },
+      {
+        "quest_id": 340304,
+        "quest_name": "レスレリ学園 第2弾・４",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      },
+      {
+        "quest_id": 340305,
+        "quest_name": "レスレリ学園 第2弾・５",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      },
+      {
+        "quest_id": 340308,
+        "quest_name": "レスレリ学園 第2弾・８",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      },
+      {
+        "quest_id": 340309,
+        "quest_name": "レスレリ学園 第2弾・９",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      },
+      {
+        "quest_id": 340312,
+        "quest_name": "レスレリ学園 第2弾・１２",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      }
+    ],
+    "image_small": "Ingredient_0490_S",
+    "image_medium": "Ingredient_0490_M",
+    "start_at": "2024-04-12T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 491,
+    "name": "土忍び",
+    "rarity": 2,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 39,
+        "name": "回復量上昇",
+        "category": "RECOVERY",
+        "description": "与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000031,
+            "description": "HP回復量{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "name": "物理/魔法耐性ダウン強化",
+        "category": "WEAKENING",
+        "description": "対象が与える「物理被ダメージアップ」と「魔法被ダメージアップ」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000030,
+            "description": "対象が与える「物理被ダメージアップ」と「魔法被ダメージアップ」の効果量{0}%アップ",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 34,
+      "name": "レスレリ学園 ～激闘の錬金祭！～"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 340302,
+        "quest_name": "レスレリ学園 第2弾・２",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      },
+      {
+        "quest_id": 340304,
+        "quest_name": "レスレリ学園 第2弾・４",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      },
+      {
+        "quest_id": 340306,
+        "quest_name": "レスレリ学園 第2弾・６",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      },
+      {
+        "quest_id": 340308,
+        "quest_name": "レスレリ学園 第2弾・８",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      },
+      {
+        "quest_id": 340310,
+        "quest_name": "レスレリ学園 第2弾・１０",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      },
+      {
+        "quest_id": 340312,
+        "quest_name": "レスレリ学園 第2弾・１２",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      }
+    ],
+    "image_small": "Ingredient_0491_S",
+    "image_medium": "Ingredient_0491_M",
+    "start_at": "2024-04-12T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 492,
+    "name": "風船の実",
+    "rarity": 2,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 28,
+        "name": "雷の盾",
+        "category": "ENHANCE",
+        "description": "対象に「雷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000068,
+            "description": "対象に「雷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "name": "鳥弱点サーチ",
+        "category": "WEAKENING",
+        "description": "対象に「鳥種族が受けるダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000096,
+            "description": "対象に「鳥種族が受けるダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 34,
+      "name": "レスレリ学園 ～激闘の錬金祭！～"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 340303,
+        "quest_name": "レスレリ学園 第2弾・３",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      },
+      {
+        "quest_id": 340304,
+        "quest_name": "レスレリ学園 第2弾・４",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      },
+      {
+        "quest_id": 340307,
+        "quest_name": "レスレリ学園 第2弾・７",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      },
+      {
+        "quest_id": 340308,
+        "quest_name": "レスレリ学園 第2弾・８",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      },
+      {
+        "quest_id": 340311,
+        "quest_name": "レスレリ学園 第2弾・１１",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      },
+      {
+        "quest_id": 340312,
+        "quest_name": "レスレリ学園 第2弾・１２",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      }
+    ],
+    "image_small": "Ingredient_0492_S",
+    "image_medium": "Ingredient_0492_M",
+    "start_at": "2024-04-12T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 493,
+    "name": "学園きのこ",
+    "rarity": 3,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 15,
+        "name": "魔法ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000014,
+            "description": "魔法属性攻撃のブレイクダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "ブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000012,
+            "description": "ブレイクダメージ{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 34,
+      "name": "レスレリ学園 ～激闘の錬金祭！～"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 340309,
+        "quest_name": "レスレリ学園 第2弾・９",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      },
+      {
+        "quest_id": 340312,
+        "quest_name": "レスレリ学園 第2弾・１２",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      }
+    ],
+    "image_small": "Ingredient_0493_S",
+    "image_medium": "Ingredient_0493_M",
+    "start_at": "2024-04-12T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 494,
+    "name": "学園小魚",
+    "rarity": 3,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 4,
+        "name": "突の祝福",
+        "category": "ATTACK",
+        "description": "突属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "突属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "name": "破壊力上昇",
+        "category": "ATTACK",
+        "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 34,
+      "name": "レスレリ学園 ～激闘の錬金祭！～"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 340310,
+        "quest_name": "レスレリ学園 第2弾・１０",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      },
+      {
+        "quest_id": 340312,
+        "quest_name": "レスレリ学園 第2弾・１２",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      }
+    ],
+    "image_small": "Ingredient_0494_S",
+    "image_medium": "Ingredient_0494_M",
+    "start_at": "2024-04-12T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 495,
+    "name": "学園のシンボルリーフ",
+    "rarity": 3,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 29,
+        "name": "全体攻撃耐性上昇",
+        "category": "ENHANCE",
+        "description": "全体攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000112,
+            "description": "全体攻撃で受けるダメージ{0}％ダウン",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 61,
+        "name": "バーストスキル威力上昇",
+        "category": "ATTACK",
+        "description": "バーストスキルのスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000165,
+            "description": "バーストスキル威力{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 34,
+      "name": "レスレリ学園 ～激闘の錬金祭！～"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 340311,
+        "quest_name": "レスレリ学園 第2弾・１１",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      },
+      {
+        "quest_id": 340312,
+        "quest_name": "レスレリ学園 第2弾・１２",
+        "episode_id": 3403,
+        "episode_name": "レスレリ学園 第2弾"
+      }
+    ],
+    "image_small": "Ingredient_0495_S",
+    "image_medium": "Ingredient_0495_M",
+    "start_at": "2024-04-12T03:00:00.000Z",
     "end_at": null
   }
 ]

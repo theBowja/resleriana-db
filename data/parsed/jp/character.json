@@ -3518,6 +3518,219 @@
     "start_at": "2024-02-20T03:00:00.000Z"
   },
   {
+    "id": 27001,
+    "name": "ミミ",
+    "title": "【Lonely Glory】",
+    "full_name": "ミミ・ウリエ・フォン・シュヴァルツラング",
+    "base_character": "ミミ",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "STAB",
+    "role": "DEFENDER",
+    "initial_rarity": 3,
+    "acquisition_text": "このランターナ学園で\n私は私自身の価値を証明してみせる――！",
+    "profile": {
+      "voice_actor": "井口裕香",
+      "voice_text": "私はミミ。学園の生徒として恥じない\n成果を挙げてみせるわ",
+      "description": "ランターナ学園、錬金術科の新入生。\n名家の令嬢だが家の力は借りず、独力で入試を突破し、錬金術科に入学した。\n努力家で、錬金術だけでなく他の科目も成績優秀。\n先輩にも同期のレスナにも丁寧に接する、非の打ち所がない優等生。",
+      "origin_game": "メルルのアトリエ ～アーランドの錬金術士３～"
+    },
+    "gift_color": {
+      "received": "青",
+      "given": "赤"
+    },
+    "battle_item_trait": [
+      {
+        "id": 50,
+        "name": "会心の出来",
+        "category": "ENHANCE",
+        "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "大きな回復量",
+        "category": "RECOVERY",
+        "description": "与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000075,
+            "description": "与えるHP回復量{0}%アップ",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 36,
+        "name": "物理耐性上昇【渾身】",
+        "category": "ENHANCE",
+        "description": "HP満タン時、受ける物理攻撃のダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000105,
+            "description": "HPが最大の時、物理属性ダメージ耐性{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 172,
+        "spd": 240,
+        "patk": 57,
+        "matk": 49,
+        "pdef": 69,
+        "mdef": 65
+      },
+      "growth": {
+        "hp": 1720,
+        "spd": 0,
+        "patk": 570,
+        "matk": 490,
+        "pdef": 690,
+        "mdef": 650
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 5
+      }
+    },
+    "skill_1": {
+      "name": "エレガノシュトース",
+      "description": "攻撃後、自身のHPに応じ、自身のHPを0〜{0}%回復(HP25〜100%で少ないほど増加)",
+      "summary": "攻撃後、自身のHPが少ないほど自身のHPを回復",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001258,
+          "description": "",
+          "value": 3000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [60, 63, 67, 71, 75],
+      "has_stun": true,
+      "stun_values": [7, 7, 7, 7, 8],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "ツルクシュラッヘン",
+      "description": "攻撃後、味方全員に「受けるダメージ-{0}%」を1回攻撃を受けるまで付与",
+      "summary": "攻撃後、味方全員の受けるダメージダウン",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001069,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [250, 265, 281, 296, 312],
+      "has_stun": true,
+      "stun_values": [37, 39, 41, 43, 46],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "シュペアシャルティア",
+      "description": "攻撃前、自身のマイナス効果と状態異常を解除し、<br>攻撃後、対象に「全属性耐性-{0}%」を2回攻撃を受けるまで付与し、<br>自身のHPを{1}%回復",
+      "summary": "攻撃前、自身のマイナス効果と状態異常を解除。攻撃後、対象の全属性耐性ダウンし、自身のHPを回復",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001014,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91000926,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001107,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001007,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [400, 400, 400, 425, 450, 475, 500],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "勝つのは私よ！",
+      "description": "敵にとても狙われやすくなる<br>自身のHPが最大でない状態で攻撃を受けた時、自身のバーストパネルを除いたパネル全てをHP回復パネルに変換(空パネルの時は生成)",
+      "effects": [
+        {
+          "id": 72000914,
+          "description": "狙われやすさ+100％",
+          "value": 10000
+        },
+        {
+          "id": 72001055,
+          "description": "[自身/被弾時/自身のHPが100%未満/バーストパネル以外を回復パネルに変換or生成]",
+          "value": 1000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "ねこさんチーム",
+      "description": "マイナスパネル無効<br>プラスパネルから受ける効果量+{0}%",
+      "effects": [
+        {
+          "id": 72001045,
+          "description": "state_change用",
+          "value": 1000
+        },
+        {
+          "id": 72001041,
+          "description": "[自身/マイナスパネル無効]",
+          "value": 0
+        }
+      ]
+    },
+    "start_at": "2024-04-12T03:00:00.000Z"
+  },
+  {
     "id": 28401,
     "name": "メルル",
     "title": "【パワフルプリンセス】",
@@ -10296,6 +10509,214 @@
       ]
     },
     "start_at": "2023-11-29T23:00:00.000Z"
+  },
+  {
+    "id": 39903,
+    "name": "ライザ",
+    "title": "【Blooming Energy】",
+    "full_name": "ライザリン・シュタウト",
+    "base_character": "ライザ",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "AIR",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "同じ毎日なんてつまんない。\n面白いこと、一緒に探しに行こう！",
+    "profile": {
+      "voice_actor": "のぐちゆり",
+      "voice_text": "この胸のワクワク……今日は、\n何かが起こりそうな予感がする！",
+      "description": "ランターナ学園、錬金術科の２年生。\n飾らない性格で、誰とでもすぐに仲良くなれる。\n新入生とも垣根なく接しつつ、先輩として温かく見守っている。\n実家が農家で、いつも消費に困るほどの大量の野菜が送られてくるため、何かにつけて野菜料理を振る舞おうとする。",
+      "origin_game": "ライザのアトリエ ～常闇の女王と秘密の隠れ家～"
+    },
+    "gift_color": {
+      "received": "青",
+      "given": "緑"
+    },
+    "battle_item_trait": [
+      {
+        "id": 8,
+        "name": "風の祝福",
+        "category": "ATTACK",
+        "description": "風属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "風属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "魔力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 15,
+        "name": "魔法ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000014,
+            "description": "魔法属性攻撃のブレイクダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 135,
+        "spd": 257,
+        "patk": 53,
+        "matk": 62,
+        "pdef": 45,
+        "mdef": 55
+      },
+      "growth": {
+        "hp": 1350,
+        "spd": 0,
+        "patk": 530,
+        "matk": 620,
+        "pdef": 450,
+        "mdef": 550
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 5,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "ウインドスライサー",
+      "description": "攻撃後、対象に「パネル無効」を1回行動終了するまで付与<br>※パネル無効はバーストパネル以外のパネルの発動を無効化",
+      "summary": "攻撃後、対象にパネル無効を付与",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001256,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [32, 34, 36, 38, 40],
+      "has_stun": true,
+      "stun_values": [15, 15, 16, 17, 18],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "スナップシュート",
+      "description": "攻撃前、対象に「風属性耐性-{0}%」を2回攻撃を受けるまで付与し、<br>攻撃後、対象に「受ける魔法攻撃ダメージ+{1}%」を1回攻撃を受けるまで付与",
+      "summary": "攻撃前、対象の風属性耐性ダウン<br>攻撃後、対象の受ける魔法攻撃ダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001261,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001145,
+          "description": "",
+          "value": 3500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [84, 89, 94, 99, 105],
+      "has_stun": true,
+      "stun_values": [46, 48, 51, 54, 57],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "ダズリングビビッド",
+      "description": "攻撃後、対象に「受ける魔法攻撃ダメージ+{0}%」を2回攻撃を受けるまで付与<br>対象がブレイク時、魔攻が最も高い味方1人に「魔攻+{1}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、対象の受ける魔法攻撃ダメージアップ<br>対象がブレイク時、味方1人の魔攻アップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001263,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001264,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [320, 320, 320, 340, 360, 380, 400],
+      "has_stun": true,
+      "stun_values": [300, 300, 300, 318, 337, 356, 375],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "野菜のチ・カ・ラ",
+      "description": "味方全員、攻撃対象がブレイク状態の時、スキルダメージ+{0}%<br>攻撃対象がブレイク時、味方の強化パネル全てを1段階強化",
+      "effects": [
+        {
+          "id": 72001043,
+          "description": "[味方全員/ブレイク中ダメージアップ]",
+          "value": 3000
+        },
+        {
+          "id": 72001049,
+          "description": "[味方全員/ブレイク時/強化パネルを強化+パネルに変換]",
+          "value": 1000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "ねこさんチーム",
+      "description": "マイナスパネル無効<br>プラスパネルから受ける効果量+{0}%",
+      "effects": [
+        {
+          "id": 72001045,
+          "description": "state_change用",
+          "value": 1000
+        },
+        {
+          "id": 72001041,
+          "description": "[自身/マイナスパネル無効]",
+          "value": 0
+        }
+      ]
+    },
+    "start_at": "2024-04-12T03:00:00.000Z"
   },
   {
     "id": 40001,

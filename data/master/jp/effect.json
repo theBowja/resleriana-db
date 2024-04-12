@@ -3345,6 +3345,76 @@
     "id": 6000578
   },
   {
+    "description": "得意属性が突属性かつディフェンダーの時、スキル発動後、味方全員に「受けるダメージ-{0}%」を1回攻撃を受けるまで付与",
+    "effect_motion_id": null,
+    "id": 6000579
+  },
+  {
+    "description": "得意属性が突属性かつディフェンダーの時、受けるHP回復量+{0}%",
+    "effect_motion_id": null,
+    "id": 6000580
+  },
+  {
+    "description": "得意属性が突属性かつディフェンダーの時、単体攻撃のスキルダメージ+{0}%",
+    "effect_motion_id": null,
+    "id": 6000581
+  },
+  {
+    "description": "得意属性が風属性かつブレイカーの時、WEAK攻撃時、ブレイクダメージ+{0}%",
+    "effect_motion_id": null,
+    "id": 6000582
+  },
+  {
+    "description": "得意属性が風属性かつブレイカーの時、与えるマイナス効果量+{0}%",
+    "effect_motion_id": null,
+    "id": 6000583
+  },
+  {
+    "description": "得意属性が風属性かつ攻撃対象がブレイク時、対象に「受けるダメージ+{0}%」を2回攻撃を受けるまで付与",
+    "effect_motion_id": null,
+    "id": 6000584
+  },
+  {
+    "description": "一意専心の学ランと一意専心の消しゴムを装備している時、WAVE開始時、自身に「ブレイクダメージ+{0}%」を1回行動終了するまで付与",
+    "effect_motion_id": null,
+    "id": 6000585
+  },
+  {
+    "description": "セット効果用state_changeを付与",
+    "effect_motion_id": null,
+    "id": 6000586
+  },
+  {
+    "description": "セット効果用state_changeを付与",
+    "effect_motion_id": null,
+    "id": 6000587
+  },
+  {
+    "description": "次の{0}パネルを強化パネルに変換(空パネルの時は生成)",
+    "effect_motion_id": null,
+    "id": 6000601
+  },
+  {
+    "description": "「スキルダメージ+{0}%」を1回行動終了するまで付与",
+    "effect_motion_id": null,
+    "id": 6000602
+  },
+  {
+    "description": "敵全体に「暗闇」を1回行動終了するまで超高確率で付与",
+    "effect_motion_id": null,
+    "id": 6000603
+  },
+  {
+    "description": "敵全体に「暗闇」を1回行動終了するまで高確率で付与",
+    "effect_motion_id": null,
+    "id": 6000604
+  },
+  {
+    "description": "味方全員に「スキルダメージ+{0}%」を1回行動終了するまで付与",
+    "effect_motion_id": null,
+    "id": 6000635
+  },
+  {
     "description": "与回復量上昇",
     "effect_motion_id": null,
     "id": 13000001
@@ -3750,6 +3820,11 @@
     "id": 13000183
   },
   {
+    "description": "自身が風属性の時、ブレイクダメージ+{}%",
+    "effect_motion_id": null,
+    "id": 13000184
+  },
+  {
     "description": "[自身/常時/ダメージバフ]",
     "effect_motion_id": null,
     "id": 72000901
@@ -4100,9 +4175,24 @@
     "id": 72001041
   },
   {
+    "description": "[味方全員/ブレイク中ダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72001043
+  },
+  {
     "description": "state_change用",
     "effect_motion_id": null,
     "id": 72001045
+  },
+  {
+    "description": "[味方全員/ブレイク時/強化パネルを強化+パネルに変換]",
+    "effect_motion_id": null,
+    "id": 72001049
+  },
+  {
+    "description": "[自身/被弾時/自身のHPが100%未満/バーストパネル以外を回復パネルに変換or生成]",
+    "effect_motion_id": null,
+    "id": 72001055
   },
   {
     "description": "[自身/常時/物攻上昇]",
@@ -5572,6 +5662,26 @@
   {
     "description": "",
     "effect_motion_id": null,
+    "id": 91001258
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001261
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001263
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001264
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
     "id": 91001273
   },
   {
@@ -6153,6 +6263,11 @@
     "description": "攻撃対象がぷに種族の時、スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000102
+  },
+  {
+    "description": "得意属性が風属性の時、ブレイクダメージアップ",
+    "effect_motion_id": null,
+    "id": 95000103
   },
   {
     "description": "",
@@ -9670,6 +9785,21 @@
     "id": 780017005
   },
   {
+    "description": "与える回復量DOWN",
+    "effect_motion_id": null,
+    "id": 780017006
+  },
+  {
+    "description": "敵対象に与える回復量DOWN3回付与",
+    "effect_motion_id": null,
+    "id": 780017007
+  },
+  {
+    "description": "敵対象に被回復量DOWN3回付与",
+    "effect_motion_id": null,
+    "id": 780017008
+  },
+  {
     "description": "対象に被ダメージUP(3回)を付与",
     "effect_motion_id": null,
     "id": 780018001
@@ -10983,6 +11113,36 @@
     "description": "",
     "effect_motion_id": null,
     "id": 780065001
+  },
+  {
+    "description": "敵スキル対象に与ダメージDOWNを付与",
+    "effect_motion_id": null,
+    "id": 780065002
+  },
+  {
+    "description": "敵スキル対象に被ダメージUPを付与",
+    "effect_motion_id": null,
+    "id": 780065003
+  },
+  {
+    "description": "敵スキル対象に物攻DOWNを付与",
+    "effect_motion_id": null,
+    "id": 780065004
+  },
+  {
+    "description": "敵スキル対象に魔攻DOWNを付与",
+    "effect_motion_id": null,
+    "id": 780065005
+  },
+  {
+    "description": "敵スキル対象に物防DOWNを付与",
+    "effect_motion_id": null,
+    "id": 780065006
+  },
+  {
+    "description": "敵スキル対象に魔防DOWNを付与",
+    "effect_motion_id": null,
+    "id": 780065007
   },
   {
     "description": "",
@@ -13310,6 +13470,16 @@
     "id": 880011009
   },
   {
+    "description": "素早さDOWNを付与",
+    "effect_motion_id": null,
+    "id": 880011010
+  },
+  {
+    "description": "味方全体に素早さUPを付与",
+    "effect_motion_id": null,
+    "id": 880011011
+  },
+  {
     "description": "",
     "effect_motion_id": null,
     "id": 880012002
@@ -13395,6 +13565,11 @@
     "id": 880015031
   },
   {
+    "description": "50%でカウンター",
+    "effect_motion_id": null,
+    "id": 880017001
+  },
+  {
     "description": "",
     "effect_motion_id": null,
     "id": 880017006
@@ -13433,6 +13608,21 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880020006
+  },
+  {
+    "description": "ブレイク時自身に魔法被ダメージUPを累積付与",
+    "effect_motion_id": null,
+    "id": 880020009
+  },
+  {
+    "description": "自身に強化パネル獲得時追加効果(アトリエ学園2)を付与",
+    "effect_motion_id": null,
+    "id": 880020010
+  },
+  {
+    "description": "自身に弱体パネル獲得時追加効果(アトリエ学園2)を付与",
+    "effect_motion_id": null,
+    "id": 880020011
   },
   {
     "description": "氷属性攻撃被弾時、自身に被ダメージUPを付与(永続)",
@@ -15365,6 +15555,11 @@
     "id": 880079004
   },
   {
+    "description": "HPが70%以下の対象から受けるダメージDOWN",
+    "effect_motion_id": null,
+    "id": 880080001
+  },
+  {
     "description": "",
     "effect_motion_id": null,
     "id": 880080002
@@ -15375,6 +15570,11 @@
     "id": 880080003
   },
   {
+    "description": "HPが40%以下の対象から受けるダメージDOWN",
+    "effect_motion_id": null,
+    "id": 880080004
+  },
+  {
     "description": "",
     "effect_motion_id": null,
     "id": 880080007
@@ -15383,6 +15583,16 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880080008
+  },
+  {
+    "description": "HPが70%以下の対象から受けるブレイクダメージDOWN",
+    "effect_motion_id": null,
+    "id": 880080009
+  },
+  {
+    "description": "HPが40%以下の対象から受けるブレイクダメージDOWN",
+    "effect_motion_id": null,
+    "id": 880080010
   },
   {
     "description": "",
@@ -16025,6 +16235,11 @@
     "id": 880106001
   },
   {
+    "description": "強化パネル獲得時に追加で与ダメージUP付与",
+    "effect_motion_id": null,
+    "id": 880106002
+  },
+  {
     "description": "受ける強化効果量UP",
     "effect_motion_id": null,
     "id": 880106003
@@ -16033,6 +16248,21 @@
     "description": "ブレイク時、プレイヤー陣営全体に受ける強化効果量UP付与",
     "effect_motion_id": 1039,
     "id": 880106004
+  },
+  {
+    "description": "弱体パネル獲得時に追加で与ダメージDOWN付与",
+    "effect_motion_id": null,
+    "id": 880106005
+  },
+  {
+    "description": "ブレイク時敵全体に強化パネル獲得時追加効果付与",
+    "effect_motion_id": 1060,
+    "id": 880106006
+  },
+  {
+    "description": "ブレイク時敵全体に弱体パネル獲得時追加効果付与",
+    "effect_motion_id": 1060,
+    "id": 880106007
   },
   {
     "description": "HP50%以下の時、被弾時与ダメージUPを付与(1回)",
@@ -16193,6 +16423,11 @@
     "description": "非ブレイク時、物理攻撃から受けるダメージ軽減",
     "effect_motion_id": null,
     "id": 880118003
+  },
+  {
+    "description": "ブレイク中のWEAK攻撃からの被ダメージUP",
+    "effect_motion_id": null,
+    "id": 880118007
   },
   {
     "description": "クリティカル攻撃被弾時、空白パネルを強化パネルに書き換える。",

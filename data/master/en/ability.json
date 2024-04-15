@@ -3218,7 +3218,7 @@
       }
     ],
     "id": 300398,
-    "name": "Zaschtellen"
+    "name": "Zerstören"
   },
   {
     "description": "While equipped to an Attacker with Strike affinity and full HP, boosts skill damage by {0}%.",
@@ -3229,7 +3229,7 @@
       }
     ],
     "id": 300399,
-    "name": "Zaschtellen"
+    "name": "Zerstören"
   },
   {
     "description": "While equipped to an Attacker with Stab affinity, boosts critical damage by {0}%.",
@@ -3240,7 +3240,7 @@
       }
     ],
     "id": 300400,
-    "name": "Dohidringen"
+    "name": "Durchdringen"
   },
   {
     "description": "While equipped to an Attacker with Stab affinity, boosts critical damage by {0}%.",
@@ -3251,7 +3251,7 @@
       }
     ],
     "id": 300401,
-    "name": "Dohidringen"
+    "name": "Durchdringen"
   },
   {
     "description": "While equipped to a Supporter, after using a skill, boosts all allies' Fire damage by {0}% for 1 turn.",
@@ -4030,6 +4030,1284 @@
     ],
     "id": 300471,
     "name": "Phantom Armor Träumerei"
+  },
+  {
+    "description": "Boosts skill damage by {0}% when attack target has status effects.",
+    "effects": [
+      {
+        "id": 6000416,
+        "value": 1600
+      }
+    ],
+    "id": 300472,
+    "name": "Holy Torrent"
+  },
+  {
+    "description": "Boosts skill damage by {0}% when attack target has status effects.",
+    "effects": [
+      {
+        "id": 6000416,
+        "value": 1100
+      }
+    ],
+    "id": 300473,
+    "name": "Holy Torrent"
+  },
+  {
+    "description": "At the start of wave, boosts own stun damage by {0}% for 2 turns.",
+    "effects": [
+      {
+        "id": 6000417,
+        "value": 1800
+      }
+    ],
+    "id": 300474,
+    "name": "Bell of Disruption"
+  },
+  {
+    "description": "At the start of wave, boosts own stun damage by {0}% for 2 turns.",
+    "effects": [
+      {
+        "id": 6000417,
+        "value": 1300
+      }
+    ],
+    "id": 300475,
+    "name": "Bell of Disruption"
+  },
+  {
+    "description": "At the start of wave, restores own HP by {0}%.",
+    "effects": [
+      {
+        "id": 6000418,
+        "value": 2000
+      }
+    ],
+    "id": 300476,
+    "name": "Exotic Armor"
+  },
+  {
+    "description": "At the start of wave, restores own HP by {0}%.",
+    "effects": [
+      {
+        "id": 6000418,
+        "value": 1400
+      }
+    ],
+    "id": 300477,
+    "name": "Exotic Armor"
+  },
+  {
+    "description": "While equipped to a character with Ice affinity, boosts critical damage by {0}%.",
+    "effects": [
+      {
+        "id": 6000419,
+        "value": 2000
+      }
+    ],
+    "id": 300478,
+    "name": "Passionate Envoy's Cane"
+  },
+  {
+    "description": "While equipped to a character with Ice affinity, boosts critical damage by {0}%.",
+    "effects": [
+      {
+        "id": 6000419,
+        "value": 1400
+      }
+    ],
+    "id": 300479,
+    "name": "Passionate Envoy's Cane"
+  },
+  {
+    "description": "While equipped to a character with Ice affinity, boosts skill damage by {0}% and burst skill damage by {1}%.",
+    "effects": [
+      {
+        "id": 6000420,
+        "value": 500
+      },
+      {
+        "id": 6000421,
+        "value": 800
+      }
+    ],
+    "id": 300480,
+    "name": "Passionate Envoy's Coat"
+  },
+  {
+    "description": "While equipped to a character with Ice affinity, boosts skill damage by {0}% and burst skill damage by {1}%.",
+    "effects": [
+      {
+        "id": 6000420,
+        "value": 400
+      },
+      {
+        "id": 6000421,
+        "value": 600
+      }
+    ],
+    "id": 300481,
+    "name": "Passionate Envoy's Coat"
+  },
+  {
+    "description": "While equipped to a character with Ice affinity, after making a critical attack, reduces own damage received by {0}% for 2 attacks.",
+    "effects": [
+      {
+        "id": 6000422,
+        "value": 500
+      }
+    ],
+    "id": 300482,
+    "name": "Passionate Envoy's Boots"
+  },
+  {
+    "description": "While equipped to a character with Ice affinity, after making a critical attack, reduces own damage received by {0}% for 2 attacks.",
+    "effects": [
+      {
+        "id": 6000422,
+        "value": 400
+      }
+    ],
+    "id": 300483,
+    "name": "Passionate Envoy's Boots"
+  },
+  {
+    "description": "While equipped to a Defender, reduces damage received from single-target attacks by {0}%.",
+    "effects": [
+      {
+        "id": 6000423,
+        "value": 700
+      }
+    ],
+    "id": 300484,
+    "name": "Serene Envoy's Blade"
+  },
+  {
+    "description": "While equipped to a Defender, reduces damage received from single-target attacks by {0}%.",
+    "effects": [
+      {
+        "id": 6000423,
+        "value": 500
+      }
+    ],
+    "id": 300485,
+    "name": "Serene Envoy's Blade"
+  },
+  {
+    "description": "While equipped to a Defender, at the start of battle, restores own HP at the start of the turn by {0}% for 5 turns.",
+    "effects": [
+      {
+        "id": 6000424,
+        "value": 500
+      }
+    ],
+    "id": 300486,
+    "name": "Serene Envoy's Coat"
+  },
+  {
+    "description": "While equipped to a Defender, at the start of battle, restores own HP at the start of the turn by {0}% for 5 turns.",
+    "effects": [
+      {
+        "id": 6000424,
+        "value": 400
+      }
+    ],
+    "id": 300487,
+    "name": "Serene Envoy's Coat"
+  },
+  {
+    "description": "While equipped to a character with Slash affinity, after attacking, reduces target's damage by {0}% for 1 turn.",
+    "effects": [
+      {
+        "id": 6000425,
+        "value": 400
+      }
+    ],
+    "id": 300488,
+    "name": "Serene Envoy's Boots"
+  },
+  {
+    "description": "While equipped to a character with Slash affinity, after attacking, reduces target's damage by {0}% for 1 turn.",
+    "effects": [
+      {
+        "id": 6000425,
+        "value": 300
+      }
+    ],
+    "id": 300489,
+    "name": "Serene Envoy's Boots"
+  },
+  {
+    "description": "After making a critical attack, reduces own damage received by {0}%. (MAX 15%)",
+    "effects": [
+      {
+        "id": 6000427,
+        "value": 300
+      }
+    ],
+    "id": 300490,
+    "name": "Longevity Mallet"
+  },
+  {
+    "description": "After making a critical attack, reduces own damage received by {0}%. (MAX 10%)",
+    "effects": [
+      {
+        "id": 6000428,
+        "value": 200
+      }
+    ],
+    "id": 300491,
+    "name": "Longevity Mallet"
+  },
+  {
+    "description": "After making a critical attack, boosts own skill damage by {0}%. (MAX 25%)",
+    "effects": [
+      {
+        "id": 6000429,
+        "value": 500
+      }
+    ],
+    "id": 300492,
+    "name": "Longevity Haori"
+  },
+  {
+    "description": "After making a critical attack, boosts own skill damage by {0}%. (MAX 20%)",
+    "effects": [
+      {
+        "id": 6000430,
+        "value": 400
+      }
+    ],
+    "id": 300493,
+    "name": "Longevity Haori"
+  },
+  {
+    "description": "After making a critical attack, boosts own stun damage by {0}%. (MAX 25%)",
+    "effects": [
+      {
+        "id": 6000431,
+        "value": 500
+      }
+    ],
+    "id": 300494,
+    "name": "Longevity Envelope"
+  },
+  {
+    "description": "After making a critical attack, boosts own stun damage by {0}%. (MAX 20%)",
+    "effects": [
+      {
+        "id": 6000432,
+        "value": 400
+      }
+    ],
+    "id": 300495,
+    "name": "Longevity Envelope"
+  },
+  {
+    "description": "While equipped to an Attacker, boosts critical damage of single-target attacks by {0}%.",
+    "effects": [
+      {
+        "id": 6000433,
+        "value": 2400
+      }
+    ],
+    "id": 300496,
+    "name": "Fortune Staff"
+  },
+  {
+    "description": "While equipped to an Attacker, boosts critical damage of single-target attacks by {0}%.",
+    "effects": [
+      {
+        "id": 6000433,
+        "value": 1700
+      }
+    ],
+    "id": 300497,
+    "name": "Fortune Staff"
+  },
+  {
+    "description": "While equipped to a character with Ice affinity, boosts Skill 2 damage by {0}%.",
+    "effects": [
+      {
+        "id": 6000434,
+        "value": 1300
+      }
+    ],
+    "id": 300498,
+    "name": "Fortune Kimono"
+  },
+  {
+    "description": "While equipped to a character with Ice affinity, boosts Skill 2 damage by {0}%.",
+    "effects": [
+      {
+        "id": 6000434,
+        "value": 900
+      }
+    ],
+    "id": 300499,
+    "name": "Fortune Kimono"
+  },
+  {
+    "description": "While equipped to an Attacker, after using Skill 1, restores own HP by {0}%.",
+    "effects": [
+      {
+        "id": 6000435,
+        "value": 500
+      }
+    ],
+    "id": 300500,
+    "name": "Fortune Shimenawa"
+  },
+  {
+    "description": "While equipped to an Attacker, after using Skill 1, restores own HP by {0}%.",
+    "effects": [
+      {
+        "id": 6000435,
+        "value": 400
+      }
+    ],
+    "id": 300501,
+    "name": "Fortune Shimenawa"
+  },
+  {
+    "description": "While equipped to an Attacker, at the start of battle, restores own HP at the start of the turn by {0}% for 5 turns.",
+    "effects": [
+      {
+        "id": 6000442,
+        "value": 500
+      }
+    ],
+    "id": 300502,
+    "name": "Tourbillon"
+  },
+  {
+    "description": "While equipped to an Attacker, at the start of battle, restores own HP at the start of the turn by {0}% for 5 turns.",
+    "effects": [
+      {
+        "id": 6000442,
+        "value": 400
+      }
+    ],
+    "id": 300503,
+    "name": "Tourbillon"
+  },
+  {
+    "description": "While equipped to an Attacker with Air affinity, boosts potency of buff effects received by {0}%.",
+    "effects": [
+      {
+        "id": 6000443,
+        "value": 2300
+      }
+    ],
+    "id": 300504,
+    "name": "Colorless Robe"
+  },
+  {
+    "description": "While equipped to an Attacker with Air affinity, boosts potency of buff effects received by {0}%.",
+    "effects": [
+      {
+        "id": 6000443,
+        "value": 1600
+      }
+    ],
+    "id": 300505,
+    "name": "Colorless Robe"
+  },
+  {
+    "description": "While equipped to a character with Air affinity, boosts own skill damage by {0}% when own HP is 70% or higher.",
+    "effects": [
+      {
+        "id": 6000445,
+        "value": 1800
+      }
+    ],
+    "id": 300506,
+    "name": "Blue Puni Charm"
+  },
+  {
+    "description": "While equipped to a character with Air affinity, boosts own skill damage by {0}% when own HP is 70% or higher.",
+    "effects": [
+      {
+        "id": 6000445,
+        "value": 1300
+      }
+    ],
+    "id": 300507,
+    "name": "Blue Puni Charm"
+  },
+  {
+    "description": "While equipped to a Defender with Bolt affinity, after using a skill, reduces all allies' damage received from attacks that target all allies by {0}% for 1 attack.",
+    "effects": [
+      {
+        "id": 6000446,
+        "value": 400
+      }
+    ],
+    "id": 300508,
+    "name": "Fragrant Staff"
+  },
+  {
+    "description": "While equipped to a Defender with Bolt affinity, after using a skill, reduces all allies' damage received from attacks that target all allies by {0}% for 1 attack.",
+    "effects": [
+      {
+        "id": 6000446,
+        "value": 300
+      }
+    ],
+    "id": 300509,
+    "name": "Fragrant Staff"
+  },
+  {
+    "description": "While equipped to a character with Bolt affinity, at the start of battle, boosts own max HP by {0}%.",
+    "effects": [
+      {
+        "id": 6000447,
+        "value": 500
+      }
+    ],
+    "id": 300510,
+    "name": "Magic Plate"
+  },
+  {
+    "description": "While equipped to a character with Bolt affinity, at the start of battle, boosts own max HP by {0}%.",
+    "effects": [
+      {
+        "id": 6000447,
+        "value": 400
+      }
+    ],
+    "id": 300511,
+    "name": "Magic Plate"
+  },
+  {
+    "description": "While equipped to a Defender with Bolt affinity, at the start of battle, reduces all allies' damage received by {0}% for 3 attacks.",
+    "effects": [
+      {
+        "id": 6000448,
+        "value": 300
+      }
+    ],
+    "id": 300512,
+    "name": "Medical Earring"
+  },
+  {
+    "description": "While equipped to a Defender with Bolt affinity, at the start of battle, reduces all allies' damage received by {0}% for 3 attacks.",
+    "effects": [
+      {
+        "id": 6000448,
+        "value": 200
+      }
+    ],
+    "id": 300513,
+    "name": "Medical Earring"
+  },
+  {
+    "description": "While equipped to an Attacker with Ice affinity, after using Skill 1, boosts own skill damage by {0}% for 1 turn.",
+    "effects": [
+      {
+        "id": 6000449,
+        "value": 1700
+      }
+    ],
+    "id": 300514,
+    "name": "Ice Thorn Broom"
+  },
+  {
+    "description": "While equipped to an Attacker with Ice affinity, after using Skill 1, boosts own skill damage by {0}% for 1 turn.",
+    "effects": [
+      {
+        "id": 6000449,
+        "value": 1200
+      }
+    ],
+    "id": 300515,
+    "name": "Ice Thorn Broom"
+  },
+  {
+    "description": "While equipped to an Attacker with Ice affinity, after using a skill, boosts target's critical damage received by {0}% for 2 attacks.",
+    "effects": [
+      {
+        "id": 6000450,
+        "value": 900
+      }
+    ],
+    "id": 300516,
+    "name": "Ice Mirror Bow"
+  },
+  {
+    "description": "While equipped to an Attacker with Ice affinity, after using a skill, boosts target's critical damage received by {0}% for 2 attacks.",
+    "effects": [
+      {
+        "id": 6000450,
+        "value": 600
+      }
+    ],
+    "id": 300517,
+    "name": "Ice Mirror Bow"
+  },
+  {
+    "description": "While equipped to a Defender, after using a skill, boosts own P. DEF by {0}% for 2 attacks.",
+    "effects": [
+      {
+        "id": 6000451,
+        "value": 400
+      }
+    ],
+    "id": 300518,
+    "name": "Gale Dagger"
+  },
+  {
+    "description": "While equipped to a Defender, after using a skill, boosts own P. DEF by {0}% for 2 attacks.",
+    "effects": [
+      {
+        "id": 6000451,
+        "value": 300
+      }
+    ],
+    "id": 300519,
+    "name": "Gale Dagger"
+  },
+  {
+    "description": "While equipped to a Defender with Slash affinity, boosts HP recovery received by {0}%.",
+    "effects": [
+      {
+        "id": 6000452,
+        "value": 800
+      }
+    ],
+    "id": 300520,
+    "name": "Gold Thread Armor"
+  },
+  {
+    "description": "While equipped to a Defender with Slash affinity, boosts HP recovery received by {0}%.",
+    "effects": [
+      {
+        "id": 6000452,
+        "value": 600
+      }
+    ],
+    "id": 300521,
+    "name": "Gold Thread Armor"
+  },
+  {
+    "description": "While equipped to an Attacker, after using Skill 1, boosts own skill damage by {0}% for 1 turn.",
+    "effects": [
+      {
+        "id": 6000453,
+        "value": 1100
+      }
+    ],
+    "id": 300522,
+    "name": "Stabilisto"
+  },
+  {
+    "description": "While equipped to an Attacker, after using Skill 1, boosts own skill damage by {0}% for 1 turn.",
+    "effects": [
+      {
+        "id": 6000453,
+        "value": 800
+      }
+    ],
+    "id": 300523,
+    "name": "Stabilisto"
+  },
+  {
+    "description": "While equipped to an Attacker with Ice affinity, boosts skill damage by {0}% and critical damage by {1}%.",
+    "effects": [
+      {
+        "id": 6000454,
+        "value": 600
+      },
+      {
+        "id": 6000455,
+        "value": 1200
+      }
+    ],
+    "id": 300524,
+    "name": "Strife Shirt"
+  },
+  {
+    "description": "While equipped to an Attacker with Ice affinity, boosts skill damage by {0}% and critical damage by {1}%.",
+    "effects": [
+      {
+        "id": 6000454,
+        "value": 500
+      },
+      {
+        "id": 6000455,
+        "value": 900
+      }
+    ],
+    "id": 300525,
+    "name": "Strife Shirt"
+  },
+  {
+    "description": "While equipped to an Attacker with Stab affinity, boosts skill damage by {0}%.",
+    "effects": [
+      {
+        "id": 6000456,
+        "value": 1200
+      }
+    ],
+    "id": 300526,
+    "name": "Eldritch Ring: Stab"
+  },
+  {
+    "description": "While equipped to an Attacker with Stab affinity, boosts skill damage by {0}%.",
+    "effects": [
+      {
+        "id": 6000456,
+        "value": 900
+      }
+    ],
+    "id": 300527,
+    "name": "Eldritch Ring: Stab"
+  },
+  {
+    "description": "While equipped to an Attacker with Slash affinity, boosts skill damage by {0}%.",
+    "effects": [
+      {
+        "id": 6000457,
+        "value": 1200
+      }
+    ],
+    "id": 300528,
+    "name": "Eldritch Ring: Slash"
+  },
+  {
+    "description": "While equipped to an Attacker with Slash affinity, boosts skill damage by {0}%.",
+    "effects": [
+      {
+        "id": 6000457,
+        "value": 900
+      }
+    ],
+    "id": 300529,
+    "name": "Eldritch Ring: Slash"
+  },
+  {
+    "description": "While equipped to a Breaker with Strike affinity, boosts stun damage by {0}%.",
+    "effects": [
+      {
+        "id": 6000458,
+        "value": 1200
+      }
+    ],
+    "id": 300530,
+    "name": "Eldritch Ring: Strike"
+  },
+  {
+    "description": "While equipped to a Breaker with Strike affinity, boosts stun damage by {0}%.",
+    "effects": [
+      {
+        "id": 6000458,
+        "value": 900
+      }
+    ],
+    "id": 300531,
+    "name": "Eldritch Ring: Strike"
+  },
+  {
+    "description": "While equipped to a character with Fire affinity, boosts HP recovery given by {0}%.",
+    "effects": [
+      {
+        "id": 6000459,
+        "value": 500
+      }
+    ],
+    "id": 300532,
+    "name": "Resonance Chime"
+  },
+  {
+    "description": "While equipped to a character with Fire affinity, boosts HP recovery given by {0}%.",
+    "effects": [
+      {
+        "id": 6000459,
+        "value": 400
+      }
+    ],
+    "id": 300533,
+    "name": "Resonance Chime"
+  },
+  {
+    "description": "While equipped to a character with Fire affinity, reduces damage received by {0}%.",
+    "effects": [
+      {
+        "id": 6000460,
+        "value": 500
+      }
+    ],
+    "id": 300534,
+    "name": "Windbreaker"
+  },
+  {
+    "description": "While equipped to a character with Fire affinity, reduces damage received by {0}%.",
+    "effects": [
+      {
+        "id": 6000460,
+        "value": 400
+      }
+    ],
+    "id": 300535,
+    "name": "Windbreaker"
+  },
+  {
+    "description": "While equipped to a Supporter with Fire affinity, reduces all allies' damage received by {0}%.",
+    "effects": [
+      {
+        "id": 6000461,
+        "value": 200
+      }
+    ],
+    "id": 300536,
+    "name": "Glass Tiara"
+  },
+  {
+    "description": "While equipped to a Supporter with Fire affinity, reduces all allies' damage received by {0}%.",
+    "effects": [
+      {
+        "id": 6000461,
+        "value": 100
+      }
+    ],
+    "id": 300537,
+    "name": "Glass Tiara"
+  },
+  {
+    "description": "When attack target is stunned, boosts own skill damage by {0}% for 2 turns.",
+    "effects": [
+      {
+        "id": 6000462,
+        "value": 700
+      }
+    ],
+    "id": 300538,
+    "name": "Convenient Broom"
+  },
+  {
+    "description": "When attack target is stunned, boosts own skill damage by {0}% for 2 turns.",
+    "effects": [
+      {
+        "id": 6000462,
+        "value": 500
+      }
+    ],
+    "id": 300539,
+    "name": "Convenient Broom"
+  },
+  {
+    "description": "While equipped to a character with Strike affinity, after attacking a weakness, boosts own stun damage by {0}%. (MAX 25%)",
+    "effects": [
+      {
+        "id": 6000463,
+        "value": 500
+      }
+    ],
+    "id": 300540,
+    "name": "Meteorite Armor"
+  },
+  {
+    "description": "While equipped to a character with Strike affinity, after attacking a weakness, boosts own stun damage by {0}%. (MAX 20%)",
+    "effects": [
+      {
+        "id": 6000464,
+        "value": 400
+      }
+    ],
+    "id": 300541,
+    "name": "Meteorite Armor"
+  },
+  {
+    "description": "While equipped to a Breaker with Strike affinity, after using a skill, boosts own P. ATK by {0}% for 2 turns.",
+    "effects": [
+      {
+        "id": 6000465,
+        "value": 600
+      }
+    ],
+    "id": 300542,
+    "name": "Metal Boots"
+  },
+  {
+    "description": "While equipped to a Breaker with Strike affinity, after using a skill, boosts own P. ATK by {0}% for 2 turns.",
+    "effects": [
+      {
+        "id": 6000465,
+        "value": 500
+      }
+    ],
+    "id": 300543,
+    "name": "Metal Boots"
+  },
+  {
+    "description": "Boosts Ice resistance by {0}%.",
+    "effects": [
+      {
+        "id": 6000473,
+        "value": 800
+      }
+    ],
+    "id": 300544,
+    "name": "Snow Boots"
+  },
+  {
+    "description": "Boosts Ice resistance by {0}%.",
+    "effects": [
+      {
+        "id": 6000473,
+        "value": 600
+      }
+    ],
+    "id": 300545,
+    "name": "Snow Boots"
+  },
+  {
+    "description": "While equipped to an Attacker with Stab affinity, boosts skill damage by {0}% when attack target is stunned.",
+    "effects": [
+      {
+        "id": 6000474,
+        "value": 1900
+      }
+    ],
+    "id": 300546,
+    "name": "Tomost Riaina"
+  },
+  {
+    "description": "While equipped to an Attacker with Stab affinity, boosts skill damage by {0}% when attack target is stunned.",
+    "effects": [
+      {
+        "id": 6000474,
+        "value": 1300
+      }
+    ],
+    "id": 300547,
+    "name": "Tomost Riaina"
+  },
+  {
+    "description": "While equipped to an Attacker with Stab affinity, after attacking, boosts own skill damage by {0}% when attack target's HP is 50% or higher. (MAX 35%)",
+    "effects": [
+      {
+        "id": 6000475,
+        "value": 700
+      }
+    ],
+    "id": 300548,
+    "name": "Unblemished Armor"
+  },
+  {
+    "description": "While equipped to an Attacker with Stab affinity, after attacking, boosts own skill damage by {0}% when attack target's HP is 50% or higher. (MAX 25%)",
+    "effects": [
+      {
+        "id": 6000476,
+        "value": 500
+      }
+    ],
+    "id": 300549,
+    "name": "Unblemished Armor"
+  },
+  {
+    "description": "While equipped to an Attacker with Stab affinity, when attack target's HP is below 50%, boosts skill damage by {0}%.",
+    "effects": [
+      {
+        "id": 6000477,
+        "value": 2000
+      }
+    ],
+    "id": 300550,
+    "name": "Brave Mask"
+  },
+  {
+    "description": "While equipped to an Attacker with Stab affinity, when attack target's HP is below 50%, boosts skill damage by {0}%.",
+    "effects": [
+      {
+        "id": 6000477,
+        "value": 1400
+      }
+    ],
+    "id": 300551,
+    "name": "Brave Mask"
+  },
+  {
+    "description": "While equipped to a character with Bolt affinity, when attack target's stun gauge is 50% or higher, boosts stun damage by {0}%.",
+    "effects": [
+      {
+        "id": 6000478,
+        "value": 1500
+      }
+    ],
+    "id": 300552,
+    "name": "Arbidel Torne"
+  },
+  {
+    "description": "While equipped to a character with Bolt affinity, when attack target's stun gauge is 50% or higher, boosts stun damage by {0}%.",
+    "effects": [
+      {
+        "id": 6000478,
+        "value": 1100
+      }
+    ],
+    "id": 300553,
+    "name": "Arbidel Torne"
+  },
+  {
+    "description": "While equipped to a character with Bolt affinity, when attack target is stunned, boosts target's damage received by {0}% for 2 attacks.",
+    "effects": [
+      {
+        "id": 6000479,
+        "value": 800
+      }
+    ],
+    "id": 300554,
+    "name": "Anendtos"
+  },
+  {
+    "description": "While equipped to a character with Bolt affinity, when attack target is stunned, boosts target's damage received by {0}% for 2 attacks.",
+    "effects": [
+      {
+        "id": 6000479,
+        "value": 600
+      }
+    ],
+    "id": 300555,
+    "name": "Anendtos"
+  },
+  {
+    "description": "While equipped to a character with Bolt affinity, when attack target is stunned, boosts all allies' M. ATK by {0}% for 1 turn.",
+    "effects": [
+      {
+        "id": 6000480,
+        "value": 500
+      }
+    ],
+    "id": 300556,
+    "name": "Thundercall Crown"
+  },
+  {
+    "description": "While equipped to a character with Bolt affinity, when attack target is stunned, boosts all allies' M. ATK by {0}% for 1 turn.",
+    "effects": [
+      {
+        "id": 6000480,
+        "value": 400
+      }
+    ],
+    "id": 300557,
+    "name": "Thundercall Crown"
+  },
+  {
+    "description": "While equipped to a Supporter with Fire affinity, reduces all allies' physical attack damage received by {0}%.",
+    "effects": [
+      {
+        "id": 6000481,
+        "value": 300
+      }
+    ],
+    "id": 300558,
+    "name": "Signal Fire Bow"
+  },
+  {
+    "description": "While equipped to a Supporter with Fire affinity, reduces all allies' physical attack damage received by {0}%.",
+    "effects": [
+      {
+        "id": 6000481,
+        "value": 200
+      }
+    ],
+    "id": 300559,
+    "name": "Signal Fire Bow"
+  },
+  {
+    "description": "While equipped to a Supporter with Fire affinity, reduces all allies' magic attack damage received by {0}%.",
+    "effects": [
+      {
+        "id": 6000482,
+        "value": 300
+      }
+    ],
+    "id": 300560,
+    "name": "Sapience Coat"
+  },
+  {
+    "description": "While equipped to a Supporter with Fire affinity, reduces all allies' magic attack damage received by {0}%.",
+    "effects": [
+      {
+        "id": 6000482,
+        "value": 200
+      }
+    ],
+    "id": 300561,
+    "name": "Sapience Coat"
+  },
+  {
+    "description": "While equipped to a Supporter with Fire affinity, boosts HP recovery given by {0}% and reduces damage received by {1}%.",
+    "effects": [
+      {
+        "id": 6000483,
+        "value": 300
+      },
+      {
+        "id": 6000484,
+        "value": 300
+      }
+    ],
+    "id": 300562,
+    "name": "Lucky Coin"
+  },
+  {
+    "description": "While equipped to a Supporter with Fire affinity, boosts HP recovery given by {0}% and reduces damage received by {1}%.",
+    "effects": [
+      {
+        "id": 6000483,
+        "value": 200
+      },
+      {
+        "id": 6000484,
+        "value": 200
+      }
+    ],
+    "id": 300563,
+    "name": "Lucky Coin"
+  },
+  {
+    "description": "While equipped to a Breaker with Strike affinity, after attacking, boosts target's damage received by {0}% for 1 attack.",
+    "effects": [
+      {
+        "id": 6000485,
+        "value": 1200
+      }
+    ],
+    "id": 300564,
+    "name": "Force Macht Power"
+  },
+  {
+    "description": "While equipped to a Breaker with Strike affinity, after attacking, boosts target's damage received by {0}% for 1 attack.",
+    "effects": [
+      {
+        "id": 6000485,
+        "value": 900
+      }
+    ],
+    "id": 300565,
+    "name": "Force Macht Power"
+  },
+  {
+    "description": "While equipped to a character with Strike affinity, boosts stun damage of attacks that target all enemies by {0}%.",
+    "effects": [
+      {
+        "id": 6000486,
+        "value": 1500
+      }
+    ],
+    "id": 300566,
+    "name": "Bone Plate"
+  },
+  {
+    "description": "While equipped to a character with Strike affinity, boosts stun damage of attacks that target all enemies by {0}%.",
+    "effects": [
+      {
+        "id": 6000486,
+        "value": 1100
+      }
+    ],
+    "id": 300567,
+    "name": "Bone Plate"
+  },
+  {
+    "description": "When attack target is stunned, reduces target's Strike resistance by {0}% for 1 attack.",
+    "effects": [
+      {
+        "id": 6000487,
+        "value": 1400
+      }
+    ],
+    "id": 300568,
+    "name": "Gauntlets"
+  },
+  {
+    "description": "When attack target is stunned, reduces target's Strike resistance by {0}% for 1 attack.",
+    "effects": [
+      {
+        "id": 6000487,
+        "value": 1000
+      }
+    ],
+    "id": 300569,
+    "name": "Gauntlets"
+  },
+  {
+    "description": "While equipped to a Supporter, boosts all allies' HP recovery received by {0}%.",
+    "effects": [
+      {
+        "id": 6000488,
+        "value": 200
+      }
+    ],
+    "id": 300570,
+    "name": "Stylish Shirt"
+  },
+  {
+    "description": "While equipped to a Supporter, boosts all allies' HP recovery received by {0}%.",
+    "effects": [
+      {
+        "id": 6000488,
+        "value": 100
+      }
+    ],
+    "id": 300571,
+    "name": "Stylish Shirt"
+  },
+  {
+    "description": "While equipped to a character with Strike affinity, boosts HP recovery given by {0}%.",
+    "effects": [
+      {
+        "id": 6000489,
+        "value": 500
+      }
+    ],
+    "id": 300572,
+    "name": "Green Puni Charm"
+  },
+  {
+    "description": "While equipped to a character with Strike affinity, boosts HP recovery given by {0}%.",
+    "effects": [
+      {
+        "id": 6000489,
+        "value": 400
+      }
+    ],
+    "id": 300573,
+    "name": "Green Puni Charm"
+  },
+  {
+    "description": "While equipped to a character with Stab affinity, boosts single-target attack stun damage by {0}%.",
+    "effects": [
+      {
+        "id": 6000491,
+        "value": 1500
+      }
+    ],
+    "id": 300574,
+    "name": "Heartful Wand"
+  },
+  {
+    "description": "While equipped to a character with Stab affinity, boosts single-target attack stun damage by {0}%.",
+    "effects": [
+      {
+        "id": 6000491,
+        "value": 1100
+      }
+    ],
+    "id": 300575,
+    "name": "Heartful Wand"
+  },
+  {
+    "description": "While equipped to a character with Stab affinity, when target is stunned, boosts the skill damage of the ally with the highest P. ATK by {0}% for 1 turn.",
+    "effects": [
+      {
+        "id": 6000493,
+        "value": 1900
+      }
+    ],
+    "id": 300576,
+    "name": "Heartful Dress"
+  },
+  {
+    "description": "While equipped to a character with Stab affinity, when target is stunned, boosts the skill damage of the ally with the highest P. ATK by {0}% for 1 turn.",
+    "effects": [
+      {
+        "id": 6000493,
+        "value": 1300
+      }
+    ],
+    "id": 300577,
+    "name": "Heartful Dress"
+  },
+  {
+    "description": "While equipped to a character with Stab affinity, at the start of wave, boosts own stun damage by {0}% for 2 turns.",
+    "effects": [
+      {
+        "id": 6000494,
+        "value": 2000
+      }
+    ],
+    "id": 300578,
+    "name": "Heartful Earmuffs"
+  },
+  {
+    "description": "While equipped to a character with Stab affinity, at the start of wave, boosts own stun damage by {0}% for 2 turns.",
+    "effects": [
+      {
+        "id": 6000494,
+        "value": 1400
+      }
+    ],
+    "id": 300579,
+    "name": "Heartful Earmuffs"
+  },
+  {
+    "description": "While equipped to a Breaker, boosts stun damage by {0}% when attacking a weakness.",
+    "effects": [
+      {
+        "id": 6000495,
+        "value": 1100
+      }
+    ],
+    "id": 300580,
+    "name": "Beloved Sword"
+  },
+  {
+    "description": "While equipped to a Breaker, boosts stun damage by {0}% when attacking a weakness.",
+    "effects": [
+      {
+        "id": 6000495,
+        "value": 800
+      }
+    ],
+    "id": 300581,
+    "name": "Beloved Sword"
+  },
+  {
+    "description": "After attacking, boosts own physical attack skill damage by {0}%. (MAX 9%)",
+    "effects": [
+      {
+        "id": 6000496,
+        "value": 300
+      }
+    ],
+    "id": 300582,
+    "name": "Beloved Armor"
+  },
+  {
+    "description": "After attacking, boosts own physical attack skill damage by {0}%. (MAX 6%)",
+    "effects": [
+      {
+        "id": 6000497,
+        "value": 200
+      }
+    ],
+    "id": 300583,
+    "name": "Beloved Armor"
+  },
+  {
+    "description": "When attack target is stunned, boosts skill damage by {0}%.",
+    "effects": [
+      {
+        "id": 6000498,
+        "value": 1000
+      }
+    ],
+    "id": 300584,
+    "name": "Beloved Talisman"
+  },
+  {
+    "description": "When attack target is stunned, boosts skill damage by {0}%.",
+    "effects": [
+      {
+        "id": 6000498,
+        "value": 700
+      }
+    ],
+    "id": 300585,
+    "name": "Beloved Talisman"
   },
   {
     "description": "All allies gain P. ATK +{0}%.",
@@ -5122,6 +6400,260 @@
     ],
     "id": 1990131,
     "name": "Paralysis Resistance Up"
+  },
+  {
+    "description": "Boosts all allies' critical damage by {0}%.",
+    "effects": [
+      {
+        "id": 72000946,
+        "value": 2000
+      }
+    ],
+    "id": 1990132,
+    "name": "Critical Cascade II"
+  },
+  {
+    "description": "Boosts status effect resistance by {0}%.",
+    "effects": [
+      {
+        "id": 72000943,
+        "value": 2000
+      }
+    ],
+    "id": 1990133,
+    "name": "Status Effect Resistance Up"
+  },
+  {
+    "description": "Becomes targeted by enemies much more easily.\nOn successful counter, reduces own damage received by {0}%. (MAX 20%)",
+    "effects": [
+      {
+        "id": 72000939,
+        "value": 500
+      },
+      {
+        "id": 72000914,
+        "value": 10000
+      }
+    ],
+    "id": 1990134,
+    "name": "Envoy's Switch"
+  },
+  {
+    "description": "Boosts Blindness resistance by {0}%.",
+    "effects": [
+      {
+        "id": 72000906,
+        "value": 3000
+      }
+    ],
+    "id": 1990135,
+    "name": "Blindness Resistance Up"
+  },
+  {
+    "description": "When defeating an enemy with a skill, removes own negative effects at start of turn for 1 turn and boosts own critical rate by {0}% for 1 turn.",
+    "effects": [
+      {
+        "id": 72000944,
+        "value": 10000
+      },
+      {
+        "id": 72000949,
+        "value": 10000
+      }
+    ],
+    "id": 1990136,
+    "name": "Fortune's Favor!"
+  },
+  {
+    "description": "After making a critical attack, boosts own skill damage by {0}%. (MAX 30%)",
+    "effects": [
+      {
+        "id": 72000945,
+        "value": 1000
+      }
+    ],
+    "id": 1990137,
+    "name": "Fortune Follows Opportunity"
+  },
+  {
+    "description": "Boosts own skill damage by {0}% when receiving HP recovery. (MAX 120%)",
+    "effects": [
+      {
+        "id": 72000947,
+        "value": 500
+      }
+    ],
+    "id": 1990138,
+    "name": "This Is What I'm Made Of!"
+  },
+  {
+    "description": "Restores own HP by {0}% when defeating an enemy with a skill.",
+    "effects": [
+      {
+        "id": 72000948,
+        "value": 1500
+      }
+    ],
+    "id": 1990139,
+    "name": "Smash and Soothe I"
+  },
+  {
+    "description": "Becomes targeted by enemies much more easily.<br>When hit by an attack, restores own HP by {0}%.",
+    "effects": [
+      {
+        "id": 72000950,
+        "value": 1000
+      },
+      {
+        "id": 72000914,
+        "value": 10000
+      }
+    ],
+    "id": 1990140,
+    "name": "Royal Emergency Arts"
+  },
+  {
+    "description": "Boosts Paralysis resistance by {0}%.",
+    "effects": [
+      {
+        "id": 72000905,
+        "value": 3000
+      }
+    ],
+    "id": 1990141,
+    "name": "Paralysis Resistance Up"
+  },
+  {
+    "description": "Reduces all allies' damage received by {0}%.",
+    "effects": [
+      {
+        "id": 72000951,
+        "value": 500
+      }
+    ],
+    "id": 1990142,
+    "name": "Blessing Burst I"
+  },
+  {
+    "description": "Boosts Sleep resistance by {0}%.",
+    "effects": [
+      {
+        "id": 72000928,
+        "value": 3000
+      }
+    ],
+    "id": 1990143,
+    "name": "Sleep Resistance Up"
+  },
+  {
+    "description": "When attack target is stunned, boosts own P. ATK by {0}%. (MAX 30%)",
+    "effects": [
+      {
+        "id": 72000952,
+        "value": 1500
+      }
+    ],
+    "id": 1990144,
+    "name": "Leave It to Lotte!"
+  },
+  {
+    "description": "Boosts Blindness resistance by {0}%.",
+    "effects": [
+      {
+        "id": 72000906,
+        "value": 3000
+      }
+    ],
+    "id": 1990145,
+    "name": "Blindness Resistance Up"
+  },
+  {
+    "description": "Boosts own HP recovery received by {0}%.",
+    "effects": [
+      {
+        "id": 72000953,
+        "value": 1000
+      }
+    ],
+    "id": 1990146,
+    "name": "Strength of Vitality"
+  },
+  {
+    "description": "Boosts Burn resistance by {0}%.",
+    "effects": [
+      {
+        "id": 72000932,
+        "value": 3000
+      }
+    ],
+    "id": 1990147,
+    "name": "Burn Resistance Up"
+  },
+  {
+    "description": "When attack target is stunned, boosts skill damage by {0}%.",
+    "effects": [
+      {
+        "id": 72000954,
+        "value": 4000
+      }
+    ],
+    "id": 1990148,
+    "name": "Pursuit & Combat Strength III"
+  },
+  {
+    "description": "Boosts own P. ATK by {0}% when defeating an enemy with a skill. (MAX 30%)",
+    "effects": [
+      {
+        "id": 72000955,
+        "value": 1000
+      }
+    ],
+    "id": 1990149,
+    "name": "My Blade Was Not Forged in a Day"
+  },
+  {
+    "description": "Boosts stun damage by {0}% when attack target's stun gauge is 50% or higher.",
+    "effects": [
+      {
+        "id": 72000956,
+        "value": 3000
+      }
+    ],
+    "id": 1990150,
+    "name": "Eyes on the Battle"
+  },
+  {
+    "description": "Boosts stun damage by {0}%.",
+    "effects": [
+      {
+        "id": 72000959,
+        "value": 1500
+      }
+    ],
+    "id": 1990151,
+    "name": "Power of Destruction"
+  },
+  {
+    "description": "When attack target does not get stunned, boosts own stun damage by {0}% for 1 turn.",
+    "effects": [
+      {
+        "id": 72000957,
+        "value": 3000
+      }
+    ],
+    "id": 1990152,
+    "name": "Extra Sweet Effort"
+  },
+  {
+    "description": "Boosts stun damage by {0}%.",
+    "effects": [
+      {
+        "id": 72000959,
+        "value": 1500
+      }
+    ],
+    "id": 1990153,
+    "name": "Power of Destruction"
   },
   {
     "description": "Boosts skill damage by {0}% when attacking a weakness.",
@@ -8649,6 +10181,61 @@
     "name": "Attacker Magic Damage Up III"
   },
   {
+    "description": "While equipped to a character with Ice affinity, boosts skill damage by {0}%.",
+    "effects": [
+      {
+        "id": 95000078,
+        "value": 600
+      }
+    ],
+    "id": 4990353,
+    "name": "Ice Affinity Damage Up III"
+  },
+  {
+    "description": "While equipped to a character with Ice affinity, boosts skill damage by {0}%.",
+    "effects": [
+      {
+        "id": 95000078,
+        "value": 1800
+      }
+    ],
+    "id": 4990354,
+    "name": "Ice Affinity Damage Up III"
+  },
+  {
+    "description": "While equipped to a character with Ice affinity, boosts skill damage by {0}%.",
+    "effects": [
+      {
+        "id": 95000078,
+        "value": 2900
+      }
+    ],
+    "id": 4990355,
+    "name": "Ice Affinity Damage Up III"
+  },
+  {
+    "description": "While equipped to a character with Ice affinity, boosts skill damage by {0}%.",
+    "effects": [
+      {
+        "id": 95000078,
+        "value": 4100
+      }
+    ],
+    "id": 4990356,
+    "name": "Ice Affinity Damage Up III"
+  },
+  {
+    "description": "While equipped to a character with Ice affinity, boosts skill damage by {0}%.",
+    "effects": [
+      {
+        "id": 95000078,
+        "value": 5200
+      }
+    ],
+    "id": 4990357,
+    "name": "Ice Affinity Damage Up III"
+  },
+  {
     "description": "While equipped to an Attacker, boosts skill damage for all allies by {0}%.",
     "effects": [
       {
@@ -8812,6 +10399,466 @@
     ],
     "id": 4990372,
     "name": "Supporter P. ATK Up (All) III"
+  },
+  {
+    "description": "While equipped to a character with Ice affinity, boosts critical damage by {0}%.",
+    "effects": [
+      {
+        "id": 95000084,
+        "value": 1000
+      }
+    ],
+    "id": 4990373,
+    "name": "Ice Affinity Critical Damage Up III"
+  },
+  {
+    "description": "While equipped to a character with Ice affinity, boosts critical damage by {0}%.",
+    "effects": [
+      {
+        "id": 95000084,
+        "value": 2900
+      }
+    ],
+    "id": 4990374,
+    "name": "Ice Affinity Critical Damage Up III"
+  },
+  {
+    "description": "While equipped to a character with Ice affinity, boosts critical damage by {0}%.",
+    "effects": [
+      {
+        "id": 95000084,
+        "value": 4800
+      }
+    ],
+    "id": 4990375,
+    "name": "Ice Affinity Critical Damage Up III"
+  },
+  {
+    "description": "While equipped to a character with Ice affinity, boosts critical damage by {0}%.",
+    "effects": [
+      {
+        "id": 95000084,
+        "value": 6600
+      }
+    ],
+    "id": 4990376,
+    "name": "Ice Affinity Critical Damage Up III"
+  },
+  {
+    "description": "While equipped to a character with Ice affinity, boosts critical damage by {0}%.",
+    "effects": [
+      {
+        "id": 95000084,
+        "value": 8500
+      }
+    ],
+    "id": 4990377,
+    "name": "Ice Affinity Critical Damage Up III"
+  },
+  {
+    "description": "After making a critical attack, boosts own skill damage by {0}% for 2 turns.",
+    "effects": [
+      {
+        "id": 95000086,
+        "value": 400
+      }
+    ],
+    "id": 4990378,
+    "name": "Critical Attack Damage Up III"
+  },
+  {
+    "description": "After making a critical attack, boosts own skill damage by {0}% for 2 turns.",
+    "effects": [
+      {
+        "id": 95000086,
+        "value": 1200
+      }
+    ],
+    "id": 4990379,
+    "name": "Critical Attack Damage Up III"
+  },
+  {
+    "description": "After making a critical attack, boosts own skill damage by {0}% for 2 turns.",
+    "effects": [
+      {
+        "id": 95000086,
+        "value": 1900
+      }
+    ],
+    "id": 4990380,
+    "name": "Critical Attack Damage Up III"
+  },
+  {
+    "description": "After making a critical attack, boosts own skill damage by {0}% for 2 turns.",
+    "effects": [
+      {
+        "id": 95000086,
+        "value": 2700
+      }
+    ],
+    "id": 4990381,
+    "name": "Critical Attack Damage Up III"
+  },
+  {
+    "description": "After making a critical attack, boosts own skill damage by {0}% for 2 turns.",
+    "effects": [
+      {
+        "id": 95000086,
+        "value": 3400
+      }
+    ],
+    "id": 4990382,
+    "name": "Critical Attack Damage Up III"
+  },
+  {
+    "description": "Restores {0}% of item gauge at the start of the turn.",
+    "effects": [
+      {
+        "id": 95000087,
+        "value": 200
+      }
+    ],
+    "id": 4990383,
+    "name": "Item Charge Rhythm II"
+  },
+  {
+    "description": "Restores {0}% of item gauge at the start of turn.",
+    "effects": [
+      {
+        "id": 95000087,
+        "value": 400
+      }
+    ],
+    "id": 4990384,
+    "name": "Item Charge Rhythm II"
+  },
+  {
+    "description": "Restores {0}% of item gauge at the start of turn.",
+    "effects": [
+      {
+        "id": 95000087,
+        "value": 600
+      }
+    ],
+    "id": 4990385,
+    "name": "Item Charge Rhythm II"
+  },
+  {
+    "description": "Restores {0}% of item gauge at the start of turn.",
+    "effects": [
+      {
+        "id": 95000087,
+        "value": 800
+      }
+    ],
+    "id": 4990386,
+    "name": "Item Charge Rhythm II"
+  },
+  {
+    "description": "Restores {0}% of item gauge at the start of turn.",
+    "effects": [
+      {
+        "id": 95000087,
+        "value": 1000
+      }
+    ],
+    "id": 4990387,
+    "name": "Item Charge Rhythm II"
+  },
+  {
+    "description": "While equipped to an Attacker, after attacking, restores HP by {0}% 2 times.",
+    "effects": [
+      {
+        "id": 95000088,
+        "value": 100
+      },
+      {
+        "id": 95000088,
+        "value": 100
+      }
+    ],
+    "id": 4990388,
+    "name": "Attacker's Double Heal III"
+  },
+  {
+    "description": "While equipped to an Attacker, after attacking, restores HP by {0}% 2 times.",
+    "effects": [
+      {
+        "id": 95000088,
+        "value": 300
+      },
+      {
+        "id": 95000088,
+        "value": 300
+      }
+    ],
+    "id": 4990389,
+    "name": "Attacker's Double Heal III"
+  },
+  {
+    "description": "While equipped to an Attacker, after attacking, restores HP by {0}% 2 times.",
+    "effects": [
+      {
+        "id": 95000088,
+        "value": 500
+      },
+      {
+        "id": 95000088,
+        "value": 500
+      }
+    ],
+    "id": 4990390,
+    "name": "Attacker's Double Heal III"
+  },
+  {
+    "description": "While equipped to an Attacker, after attacking, restores HP by {0}% 2 times.",
+    "effects": [
+      {
+        "id": 95000088,
+        "value": 600
+      },
+      {
+        "id": 95000088,
+        "value": 600
+      }
+    ],
+    "id": 4990391,
+    "name": "Attacker's Double Heal III"
+  },
+  {
+    "description": "While equipped to an Attacker, after attacking, restores HP by {0}% 2 times.",
+    "effects": [
+      {
+        "id": 95000088,
+        "value": 800
+      },
+      {
+        "id": 95000088,
+        "value": 800
+      }
+    ],
+    "id": 4990392,
+    "name": "Attacker's Double Heal III"
+  },
+  {
+    "description": "While equipped to a character with Fire affinity, boosts HP recovery given by {0}%.",
+    "effects": [
+      {
+        "id": 95000089,
+        "value": 600
+      }
+    ],
+    "id": 4990393,
+    "name": "Fire Affinity Heal Up III"
+  },
+  {
+    "description": "While equipped to a character with Fire affinity, boosts HP recovery given by {0}%.",
+    "effects": [
+      {
+        "id": 95000089,
+        "value": 1800
+      }
+    ],
+    "id": 4990394,
+    "name": "Fire Affinity Heal Up III"
+  },
+  {
+    "description": "While equipped to a character with Fire affinity, boosts HP recovery given by {0}%.",
+    "effects": [
+      {
+        "id": 95000089,
+        "value": 2900
+      }
+    ],
+    "id": 4990395,
+    "name": "Fire Affinity Heal Up III"
+  },
+  {
+    "description": "While equipped to a character with Fire affinity, boosts HP recovery given by {0}%.",
+    "effects": [
+      {
+        "id": 95000089,
+        "value": 4100
+      }
+    ],
+    "id": 4990396,
+    "name": "Fire Affinity Heal Up III"
+  },
+  {
+    "description": "While equipped to a character with Fire affinity, boosts HP recovery given by {0}%.",
+    "effects": [
+      {
+        "id": 95000089,
+        "value": 5200
+      }
+    ],
+    "id": 4990397,
+    "name": "Fire Affinity Heal Up III"
+  },
+  {
+    "description": "When attack target is stunned, boosts single-target attack skill damage by {0}%.",
+    "effects": [
+      {
+        "id": 95000090,
+        "value": 800
+      }
+    ],
+    "id": 4990398,
+    "name": "Follow-up Single DMG Up III"
+  },
+  {
+    "description": "When attack target is stunned, boosts single-target attack skill damage by {0}%.",
+    "effects": [
+      {
+        "id": 95000090,
+        "value": 2300
+      }
+    ],
+    "id": 4990399,
+    "name": "Follow-up Single DMG Up III"
+  },
+  {
+    "description": "When attack target is stunned, boosts single-target attack skill damage by {0}%.",
+    "effects": [
+      {
+        "id": 95000090,
+        "value": 3900
+      }
+    ],
+    "id": 4990400,
+    "name": "Follow-up Single DMG Up III"
+  },
+  {
+    "description": "When attack target is stunned, boosts single-target attack skill damage by {0}%.",
+    "effects": [
+      {
+        "id": 95000090,
+        "value": 5400
+      }
+    ],
+    "id": 4990401,
+    "name": "Follow-up Single DMG Up III"
+  },
+  {
+    "description": "When attack target is stunned, boosts single-target attack skill damage by {0}%.",
+    "effects": [
+      {
+        "id": 95000090,
+        "value": 6900
+      }
+    ],
+    "id": 4990402,
+    "name": "Follow-up Single DMG Up III"
+  },
+  {
+    "description": "While equipped to a character with Stab affinity, boosts stun damage by {0}%.",
+    "effects": [
+      {
+        "id": 95000092,
+        "value": 600
+      }
+    ],
+    "id": 4990403,
+    "name": "Stab Stun Up III"
+  },
+  {
+    "description": "While equipped to a character with Stab affinity, boosts stun damage by {0}%.",
+    "effects": [
+      {
+        "id": 95000092,
+        "value": 1800
+      }
+    ],
+    "id": 4990404,
+    "name": "Stab Stun Up III"
+  },
+  {
+    "description": "While equipped to a character with Stab affinity, boosts stun damage by {0}%.",
+    "effects": [
+      {
+        "id": 95000092,
+        "value": 2900
+      }
+    ],
+    "id": 4990405,
+    "name": "Stab Stun Up III"
+  },
+  {
+    "description": "While equipped to a character with Stab affinity, boosts stun damage by {0}%.",
+    "effects": [
+      {
+        "id": 95000092,
+        "value": 4100
+      }
+    ],
+    "id": 4990406,
+    "name": "Stab Stun Up III"
+  },
+  {
+    "description": "While equipped to a character with Stab affinity, boosts stun damage by {0}%.",
+    "effects": [
+      {
+        "id": 95000092,
+        "value": 5200
+      }
+    ],
+    "id": 4990407,
+    "name": "Stab Stun Up III"
+  },
+  {
+    "description": "When using a physical attack, reduces target's Slash, Strike, and Stab resistance by {0}% for 2 attacks.",
+    "effects": [
+      {
+        "id": 95000093,
+        "value": 100
+      }
+    ],
+    "id": 4990408,
+    "name": "P. ATK Resist Down Physical III"
+  },
+  {
+    "description": "When using a physical attack, reduces target's Slash, Strike, and Stab resistance by {0}% for 2 attacks.",
+    "effects": [
+      {
+        "id": 95000093,
+        "value": 300
+      }
+    ],
+    "id": 4990409,
+    "name": "P. ATK Resist Down Physical III"
+  },
+  {
+    "description": "When using a physical attack, reduces target's Slash, Strike, and Stab resistance by {0}% for 2 attacks.",
+    "effects": [
+      {
+        "id": 95000093,
+        "value": 400
+      }
+    ],
+    "id": 4990410,
+    "name": "P. ATK Resist Down Physical III"
+  },
+  {
+    "description": "When using a physical attack, reduces target's Slash, Strike, and Stab resistance by {0}% for 2 attacks.",
+    "effects": [
+      {
+        "id": 95000093,
+        "value": 600
+      }
+    ],
+    "id": 4990411,
+    "name": "P. ATK Resist Down Physical III"
+  },
+  {
+    "description": "When using a physical attack, reduces target's Slash, Strike, and Stab resistance by {0}% for 2 attacks.",
+    "effects": [
+      {
+        "id": 95000093,
+        "value": 700
+      }
+    ],
+    "id": 4990412,
+    "name": "P. ATK Resist Down Physical III"
   },
   {
     "description": "Boosts Stab skill damage by {0}%.",
@@ -12972,6 +15019,221 @@
     "name": "Character Damage Received Down (13)"
   },
   {
+    "description": "When stunned, grants 10% Regen to all enemies for 2 turns.\nWhen hit by an attack while HP is 50% or lower, boosts damage dealt by 20% for 1 turn.",
+    "effects": [
+      {
+        "id": 80000001,
+        "value": 1000
+      },
+      {
+        "id": 80000014,
+        "value": 2000
+      }
+    ],
+    "id": 200000001,
+    "name": ""
+  },
+  {
+    "description": "When hit by an attack while the stun gauge is full, converts panels. (10 panels) (- to +) (+ to -)",
+    "effects": [
+      {
+        "id": 780108001,
+        "value": 1000
+      },
+      {
+        "id": 780108002,
+        "value": 1000
+      },
+      {
+        "id": 780108016,
+        "value": 1000
+      }
+    ],
+    "id": 200000002,
+    "name": ""
+  },
+  {
+    "description": "When hit by an attack while HP is 50% or lower, boosts own damage dealt by 10% for 1 turn.\nWhen stunned, grants 3% Regen to all enemies for 2 turns.",
+    "effects": [
+      {
+        "id": 880035008,
+        "value": 1000
+      },
+      {
+        "id": 880035001,
+        "value": 300
+      }
+    ],
+    "id": 200000003,
+    "name": ""
+  },
+  {
+    "description": "When buff effects are active on self, converts panels before the start of turn. (10 panels)",
+    "effects": [
+      {
+        "id": 880104003,
+        "value": 1000
+      }
+    ],
+    "id": 200000004,
+    "name": ""
+  },
+  {
+    "description": "When hit by an attack while the stun gauge is full, converts panels. (10 panels) (- to +) (+ to -)",
+    "effects": [
+      {
+        "id": 780108015,
+        "value": 1000
+      },
+      {
+        "id": 780108017,
+        "value": 1000
+      },
+      {
+        "id": 780108018,
+        "value": 1000
+      }
+    ],
+    "id": 200000005,
+    "name": ""
+  },
+  {
+    "description": "When stunned, grants 15% Regen to all enemies for 2 turns.\nWhen hit by an attack while HP is 50% or lower, boosts damage dealt by 30% for 1 turn.",
+    "effects": [
+      {
+        "id": 80000001,
+        "value": 1500
+      },
+      {
+        "id": 80000014,
+        "value": 3000
+      }
+    ],
+    "id": 200000006,
+    "name": ""
+  },
+  {
+    "description": "When hit by an attack while the stun gauge is full, converts panels. (10 panels) (- to +) (+ to -)",
+    "effects": [
+      {
+        "id": 780108001,
+        "value": 1000
+      },
+      {
+        "id": 780108002,
+        "value": 1000
+      },
+      {
+        "id": 780108016,
+        "value": 1000
+      }
+    ],
+    "id": 200000007,
+    "name": ""
+  },
+  {
+    "description": "When hit by an attack while HP is 50% or lower, boosts own damage dealt by 10% for 1 turn.\nWhen stunned, grants 3% Regen to all enemies for 2 turns.",
+    "effects": [
+      {
+        "id": 880035008,
+        "value": 1000
+      },
+      {
+        "id": 880035001,
+        "value": 300
+      }
+    ],
+    "id": 200000008,
+    "name": ""
+  },
+  {
+    "description": "When hit by an attack while the stun gauge is full, converts panels. (10 panels) (- to +) (+ to -)",
+    "effects": [
+      {
+        "id": 780108015,
+        "value": 1000
+      },
+      {
+        "id": 780108017,
+        "value": 1000
+      },
+      {
+        "id": 780108018,
+        "value": 1000
+      }
+    ],
+    "id": 200000010,
+    "name": ""
+  },
+  {
+    "description": "When stunned, grants 20% Regen to all enemies for 2 turns.\nWhen hit by an attack while HP is 50% or lower, boosts damage dealt by 40% for 1 turn.",
+    "effects": [
+      {
+        "id": 80000001,
+        "value": 2000
+      },
+      {
+        "id": 80000014,
+        "value": 4000
+      }
+    ],
+    "id": 200000011,
+    "name": ""
+  },
+  {
+    "description": "When hit by an attack while the stun gauge is full, converts panels. (10 panels) (- to +) (+ to -)",
+    "effects": [
+      {
+        "id": 780108001,
+        "value": 1000
+      },
+      {
+        "id": 780108002,
+        "value": 1000
+      },
+      {
+        "id": 780108016,
+        "value": 1000
+      }
+    ],
+    "id": 200000012,
+    "name": ""
+  },
+  {
+    "description": "When hit by an attack while HP is 50% or lower, boosts own damage dealt by 10% for 1 turn.\nWhen stunned, grants 3% Regen to all enemies for 2 turns.",
+    "effects": [
+      {
+        "id": 880035008,
+        "value": 1000
+      },
+      {
+        "id": 880035001,
+        "value": 300
+      }
+    ],
+    "id": 200000013,
+    "name": ""
+  },
+  {
+    "description": "When hit by an attack while the stun gauge is full, converts panels. (10 panels) (- to +) (+ to -)",
+    "effects": [
+      {
+        "id": 780108015,
+        "value": 1000
+      },
+      {
+        "id": 780108017,
+        "value": 1000
+      },
+      {
+        "id": 780108018,
+        "value": 1000
+      }
+    ],
+    "id": 200000015,
+    "name": ""
+  },
+  {
     "description": "Boosts Stab skill power by 20%.",
     "effects": [
       {
@@ -13196,6 +15458,17 @@
     "name": ""
   },
   {
+    "description": "Grants a 20% stackable boost to own damage received when hit by a critical attack. (MAX 100%)",
+    "effects": [
+      {
+        "id": 880007005,
+        "value": 2000
+      }
+    ],
+    "id": 280001002,
+    "name": ""
+  },
+  {
     "description": "",
     "effects": [
       {
@@ -13230,6 +15503,17 @@
       }
     ],
     "id": 280002002,
+    "name": ""
+  },
+  {
+    "description": "Grants a 20% stackable boost to own damage received when hit by a critical attack. (MAX 100%)",
+    "effects": [
+      {
+        "id": 880007005,
+        "value": 2000
+      }
+    ],
+    "id": 280002003,
     "name": ""
   },
   {
@@ -13321,6 +15605,17 @@
     "name": ""
   },
   {
+    "description": "Grants a 20% stackable boost to own damage received when hit by a critical attack. (MAX 100%)",
+    "effects": [
+      {
+        "id": 880007005,
+        "value": 2000
+      }
+    ],
+    "id": 280004001,
+    "name": ""
+  },
+  {
     "description": "",
     "effects": [
       {
@@ -13329,6 +15624,21 @@
       }
     ],
     "id": 280005001,
+    "name": ""
+  },
+  {
+    "description": "After turn, pulls self forward 1 panel.\nWhen stunned, inflicts a 25% stackable boost to damage received on self.",
+    "effects": [
+      {
+        "id": 880005034,
+        "value": 100
+      },
+      {
+        "id": 880055013,
+        "value": 2500
+      }
+    ],
+    "id": 280005002,
     "name": ""
   },
   {
@@ -13475,6 +15785,99 @@
     "name": ""
   },
   {
+    "description": "When hit by an attack while stunned, reduces damage dealt by 3%. (Stackable)\nWhen hit by an attack while stunned, boosts damage received by 3%. (Stackable)\nWhen hit by an attack while stunned, boosts critical damage received by 3%. (Stackable)\nBoosts stun damage received from physical attacks by 35%.\nBoosts stun damage received from single-target attacks by 35%.\nReduces damage received by 30%. (10 turns)",
+    "effects": [
+      {
+        "id": 880006017,
+        "value": 300
+      },
+      {
+        "id": 880006018,
+        "value": 300
+      },
+      {
+        "id": 880006019,
+        "value": 300
+      },
+      {
+        "id": 880006020,
+        "value": 3500
+      },
+      {
+        "id": 880006021,
+        "value": 3500
+      },
+      {
+        "id": 880006022,
+        "value": 3000
+      }
+    ],
+    "id": 280006009,
+    "name": ""
+  },
+  {
+    "description": "When hit by an attack while stunned, reduces damage dealt by 3%. (Stackable)\nWhen hit by an attack while stunned, boosts damage received by 3%. (Stackable)\nWhen hit by an attack while stunned, boosts critical damage received by 3%. (Stackable)\nBoosts stun damage received from physical attacks by 35%.\nBoosts stun damage received from single-target attacks by 35%.\nReduces damage received by 30%. (10 turns)",
+    "effects": [
+      {
+        "id": 880006017,
+        "value": 300
+      },
+      {
+        "id": 880006018,
+        "value": 300
+      },
+      {
+        "id": 880006019,
+        "value": 300
+      },
+      {
+        "id": 880006020,
+        "value": 3500
+      },
+      {
+        "id": 880006021,
+        "value": 3500
+      },
+      {
+        "id": 880006022,
+        "value": 3000
+      }
+    ],
+    "id": 280006010,
+    "name": ""
+  },
+  {
+    "description": "When hit by an attack while stunned, reduces damage dealt by 3%. (Stackable)\nWhen hit by an attack while stunned, boosts damage received by 3%. (Stackable)\nWhen hit by an attack while stunned, boosts critical damage received by 3%. (Stackable)\nBoosts stun damage received from physical attacks by 35%.\nBoosts stun damage received from single-target attacks by 35%.\nReduces damage received by 30%. (10 turns)",
+    "effects": [
+      {
+        "id": 880006017,
+        "value": 300
+      },
+      {
+        "id": 880006018,
+        "value": 300
+      },
+      {
+        "id": 880006019,
+        "value": 300
+      },
+      {
+        "id": 880006020,
+        "value": 3500
+      },
+      {
+        "id": 880006021,
+        "value": 3500
+      },
+      {
+        "id": 880006022,
+        "value": 3000
+      }
+    ],
+    "id": 280006011,
+    "name": ""
+  },
+  {
     "description": "",
     "effects": [
       {
@@ -13510,6 +15913,91 @@
       }
     ],
     "id": 280006093,
+    "name": ""
+  },
+  {
+    "description": "When 3 or more positive effects are active on self at the start of the turn, converts the frontmost panel to a Burst panel.\nWhen hit by a critical attack, removes all buffs from self.\nGrants a 20% stackable boost to own damage received when hit by a critical attack. (MAX 100%)",
+    "effects": [
+      {
+        "id": 880007001,
+        "value": 100
+      },
+      {
+        "id": 880007002,
+        "value": 100
+      },
+      {
+        "id": 880007003,
+        "value": 100
+      },
+      {
+        "id": 880007004,
+        "value": 10000
+      },
+      {
+        "id": 880007005,
+        "value": 2000
+      }
+    ],
+    "id": 280007001,
+    "name": ""
+  },
+  {
+    "description": "When 3 or more positive effects are active on self at the start of the turn, converts the frontmost panel to a Burst panel.\nWhen hit by a critical attack, removes all buffs from self.\nGrants a 30% stackable boost to own damage received when hit by a critical attack. (MAX 150%)",
+    "effects": [
+      {
+        "id": 880007001,
+        "value": 100
+      },
+      {
+        "id": 880007002,
+        "value": 100
+      },
+      {
+        "id": 880007003,
+        "value": 100
+      },
+      {
+        "id": 880007004,
+        "value": 10000
+      },
+      {
+        "id": 880007006,
+        "value": 3000
+      }
+    ],
+    "id": 280007002,
+    "name": ""
+  },
+  {
+    "description": "When 3 or more positive effects are active on self at the start of the turn, converts the frontmost panel to a Burst panel.\nWhen hit by a critical attack, removes all buffs from self.\nGrants a 30% stackable boost to own damage received when hit by a critical attack. (MAX 150%)\nInflicts attack target with Nullify Positive Effects for 1 turn.",
+    "effects": [
+      {
+        "id": 880007001,
+        "value": 100
+      },
+      {
+        "id": 880007002,
+        "value": 100
+      },
+      {
+        "id": 880007003,
+        "value": 100
+      },
+      {
+        "id": 880007004,
+        "value": 10000
+      },
+      {
+        "id": 880007006,
+        "value": 3000
+      },
+      {
+        "id": 880007007,
+        "value": 10000
+      }
+    ],
+    "id": 280007003,
     "name": ""
   },
   {
@@ -13622,6 +16110,59 @@
       }
     ],
     "id": 280010002,
+    "name": ""
+  },
+  {
+    "description": "Reduces damage received by 30% from opponents with 70% or lower HP.\nReduces damage received by 30% from opponents with 50% or lower HP.\nBoosts stun damage received from attacks that target all enemies by 50%.",
+    "effects": [
+      {
+        "id": 880047007,
+        "value": 3000
+      },
+      {
+        "id": 880047008,
+        "value": 3000
+      },
+      {
+        "id": 880105002,
+        "value": 5000
+      }
+    ],
+    "id": 280010003,
+    "name": ""
+  },
+  {
+    "description": "Reduces damage received by 30% from opponents with 70% or lower HP.\nReduces damage received by 30% from opponents with 50% or lower HP.\nReduces damage received by 80% from opponents with 30% or lower HP.\nBoosts stun damage received from attacks that target all enemies by 100%.",
+    "effects": [
+      {
+        "id": 880047007,
+        "value": 3000
+      },
+      {
+        "id": 880047008,
+        "value": 3000
+      },
+      {
+        "id": 880047009,
+        "value": 8000
+      },
+      {
+        "id": 880105002,
+        "value": 10000
+      }
+    ],
+    "id": 280010004,
+    "name": ""
+  },
+  {
+    "description": "While not stunned, evades single-target attacks.",
+    "effects": [
+      {
+        "id": 880011009,
+        "value": 10000
+      }
+    ],
+    "id": 280011001,
     "name": ""
   },
   {
@@ -13856,6 +16397,17 @@
     "name": ""
   },
   {
+    "description": "When KO'd, if not inflicted with a status effect, restores allies' HP by 50%.",
+    "effects": [
+      {
+        "id": 880018002,
+        "value": 5000
+      }
+    ],
+    "id": 280018001,
+    "name": ""
+  },
+  {
     "description": "",
     "effects": [
       {
@@ -13875,6 +16427,52 @@
       }
     ],
     "id": 280019001,
+    "name": ""
+  },
+  {
+    "description": "",
+    "effects": [
+      {
+        "id": 880020025,
+        "value": 300
+      },
+      {
+        "id": 880020026,
+        "value": 1000
+      },
+      {
+        "id": 880020029,
+        "value": 1000
+      },
+      {
+        "id": 880020030,
+        "value": 1000
+      }
+    ],
+    "id": 280020001,
+    "name": ""
+  },
+  {
+    "description": "",
+    "effects": [
+      {
+        "id": 880020027,
+        "value": 300
+      },
+      {
+        "id": 880020028,
+        "value": 1000
+      },
+      {
+        "id": 880020029,
+        "value": 1500
+      },
+      {
+        "id": 880020030,
+        "value": 1500
+      }
+    ],
+    "id": 280020002,
     "name": ""
   },
   {
@@ -14005,6 +16603,17 @@
     "name": ""
   },
   {
+    "description": "After turn, grants self Evasion to single-target attacks for 1 turn.",
+    "effects": [
+      {
+        "id": 880023002,
+        "value": 10000
+      }
+    ],
+    "id": 280023001,
+    "name": ""
+  },
+  {
     "description": "",
     "effects": [
       {
@@ -14028,6 +16637,25 @@
       }
     ],
     "id": 280026001,
+    "name": ""
+  },
+  {
+    "description": "(KO Effect) [Boosts all allies' damage dealt by 20% for 3 turns.]\n[\",Boosts all allies' damage received by 20% for 3 turns.]\nWhen stunned, inflicts a 25% stackable boost to damage received on self.",
+    "effects": [
+      {
+        "id": 880026001,
+        "value": 2000
+      },
+      {
+        "id": 880026002,
+        "value": 2000
+      },
+      {
+        "id": 880055013,
+        "value": 2500
+      }
+    ],
+    "id": 280026002,
     "name": ""
   },
   {
@@ -14134,6 +16762,44 @@
     "name": ""
   },
   {
+    "description": "When hit by a physical attack, reduces own damage received by 1%.\nWhen hit by an Air attack, boosts own damage received by 1%.\nBoosts damage dealt by 30% when own HP is 50% or lower.",
+    "effects": [
+      {
+        "id": 880030030,
+        "value": 100
+      },
+      {
+        "id": 880030031,
+        "value": 100
+      },
+      {
+        "id": 880030032,
+        "value": 3000
+      }
+    ],
+    "id": 280030006,
+    "name": ""
+  },
+  {
+    "description": "At the start of wave, reduces own damage received by 1000% for 15 turns. When receiving 1 or more HP damage, or when an ally is KO'd, removes Received Damage 1000% Down effect from all allies. (38F Enemies Shared)",
+    "effects": [
+      {
+        "id": 880030033,
+        "value": 100000
+      },
+      {
+        "id": 880030034,
+        "value": 1000
+      },
+      {
+        "id": 880030035,
+        "value": 1000
+      }
+    ],
+    "id": 280030007,
+    "name": ""
+  },
+  {
     "description": "",
     "effects": [
       {
@@ -14202,6 +16868,51 @@
     "name": ""
   },
   {
+    "description": "When hit by an attack while HP is 50% or lower, boosts own damage dealt by 10% for 1 turn.\nWhen stunned, grants 3% Regen to all enemies for 2 turns.",
+    "effects": [
+      {
+        "id": 880035008,
+        "value": 1000
+      },
+      {
+        "id": 880035001,
+        "value": 300
+      }
+    ],
+    "id": 280035001,
+    "name": ""
+  },
+  {
+    "description": "When hit by an attack while HP is 50% or lower, boosts own damage dealt by 10% for 1 turn.\nWhen stunned, grants 3% Regen to all enemies for 2 turns.",
+    "effects": [
+      {
+        "id": 880035008,
+        "value": 1000
+      },
+      {
+        "id": 880035001,
+        "value": 300
+      }
+    ],
+    "id": 280035002,
+    "name": ""
+  },
+  {
+    "description": "When hit by an attack while HP is 50% or lower, boosts own damage dealt by 10% for 1 turn.\nWhen stunned, grants 3% Regen to all enemies for 2 turns.",
+    "effects": [
+      {
+        "id": 880035008,
+        "value": 1000
+      },
+      {
+        "id": 880035001,
+        "value": 300
+      }
+    ],
+    "id": 280035003,
+    "name": ""
+  },
+  {
     "description": "",
     "effects": [
       {
@@ -14213,6 +16924,21 @@
     "name": ""
   },
   {
+    "description": "Grants a 20% stackable boost to own damage received when hit by a critical attack. (MAX 100%)\nBoosts damage dealt to targets with Taunt by 15%.",
+    "effects": [
+      {
+        "id": 880007005,
+        "value": 2000
+      },
+      {
+        "id": 880039037,
+        "value": 1500
+      }
+    ],
+    "id": 280039002,
+    "name": ""
+  },
+  {
     "description": "",
     "effects": [
       {
@@ -14221,6 +16947,48 @@
       }
     ],
     "id": 280039005,
+    "name": ""
+  },
+  {
+    "description": "",
+    "effects": [
+      {
+        "id": 880040001,
+        "value": 3000
+      },
+      {
+        "id": 880040002,
+        "value": 2000
+      },
+      {
+        "id": 880040003,
+        "value": 500
+      },
+      {
+        "id": 880040005,
+        "value": 10000
+      }
+    ],
+    "id": 280040001,
+    "name": ""
+  },
+  {
+    "description": "Reduces damage received by 30% from opponents with 70% or lower HP.\nReduces damage received by 30% from opponents with 50% or lower HP.\nBoosts stun damage received from attacks that target all enemies by 50%.",
+    "effects": [
+      {
+        "id": 880047007,
+        "value": 3000
+      },
+      {
+        "id": 880047008,
+        "value": 3000
+      },
+      {
+        "id": 880105002,
+        "value": 5000
+      }
+    ],
+    "id": 280040002,
     "name": ""
   },
   {
@@ -14554,6 +17322,33 @@
     "name": ""
   },
   {
+    "description": "Boosts stun damage received from physical attacks by 50%.\nBoosts stun damage received from single-target attacks by 50%.\nBoosts damage received from single-target attacks by 30%.\nReduces damage received from magic attacks by 30%.\nReduces damage received from attacks that target all enemies by 15%.\nAll effects are permanent and guaranteed to apply.",
+    "effects": [
+      {
+        "id": 880046029,
+        "value": 5000
+      },
+      {
+        "id": 880046030,
+        "value": 5000
+      },
+      {
+        "id": 880046031,
+        "value": 3000
+      },
+      {
+        "id": 880046032,
+        "value": 3000
+      },
+      {
+        "id": 880046033,
+        "value": 1500
+      }
+    ],
+    "id": 280046011,
+    "name": ""
+  },
+  {
     "description": "",
     "effects": [
       {
@@ -14618,6 +17413,64 @@
     "name": ""
   },
   {
+    "description": "Reduces damage received by 30% from opponents with 70% or lower HP.\nReduces damage received by 30% from opponents with 50% or lower HP.\nReduces damage received by 30% from opponents with 30% or lower HP.\nAfter turn, boosts own damage dealt by 15% for 3 turns.\nWhen stunned, inflicts Paralysis on self for 2 turns.\nBoosts damage dealt to paralyzed targets by 30%.",
+    "effects": [
+      {
+        "id": 880047007,
+        "value": 3000
+      },
+      {
+        "id": 880047008,
+        "value": 3000
+      },
+      {
+        "id": 880047009,
+        "value": 3000
+      },
+      {
+        "id": 880047039,
+        "value": 1500
+      },
+      {
+        "id": 880047010,
+        "value": 2000
+      },
+      {
+        "id": 880047003,
+        "value": 3000
+      }
+    ],
+    "id": 280047003,
+    "name": ""
+  },
+  {
+    "description": "Boosts stun damage received from physical attacks by 50%.\nBoosts stun damage received from single-target attacks by 50%.\nBoosts damage received from single-target attacks by 30%.\nReduces damage received from magic attacks by 30%.\nReduces damage received from attacks that target all enemies by 15%.\nAll effects are permanent and guaranteed to apply.",
+    "effects": [
+      {
+        "id": 880047017,
+        "value": 5000
+      },
+      {
+        "id": 880047018,
+        "value": 5000
+      },
+      {
+        "id": 880047019,
+        "value": 3000
+      },
+      {
+        "id": 880047020,
+        "value": 3000
+      },
+      {
+        "id": 880047021,
+        "value": 1500
+      }
+    ],
+    "id": 280047004,
+    "name": ""
+  },
+  {
     "description": "",
     "effects": [
       {
@@ -14679,6 +17532,25 @@
       }
     ],
     "id": 280048001,
+    "name": ""
+  },
+  {
+    "description": "When hit by a physical attack, reduces own damage received by 1%.\nWhen hit by an Air attack, boosts own damage received by 1%.\nAfter stun, boosts own damage dealt by 50%.",
+    "effects": [
+      {
+        "id": 880048010,
+        "value": 100
+      },
+      {
+        "id": 880048011,
+        "value": 100
+      },
+      {
+        "id": 880048005,
+        "value": 5000
+      }
+    ],
+    "id": 280048002,
     "name": ""
   },
   {
@@ -14865,6 +17737,17 @@
       }
     ],
     "id": 280050004,
+    "name": ""
+  },
+  {
+    "description": "When hit by an attack while HP is 70% or lower, redraws 10 timeline panels. This only occurs once.",
+    "effects": [
+      {
+        "id": 880050016,
+        "value": 1000
+      }
+    ],
+    "id": 280050005,
     "name": ""
   },
   {
@@ -15750,6 +18633,25 @@
     "name": ""
   },
   {
+    "description": "When hit by a physical attack, reduces own damage received by 1%.\nWhen hit by an Air attack, boosts own damage received by 1%.\nWhen opponent has Taunt, boosts damage dealt by 50%.",
+    "effects": [
+      {
+        "id": 880051003,
+        "value": 5000
+      },
+      {
+        "id": 880051083,
+        "value": 100
+      },
+      {
+        "id": 880051084,
+        "value": 100
+      }
+    ],
+    "id": 280051080,
+    "name": ""
+  },
+  {
     "description": "",
     "effects": [
       {
@@ -15874,6 +18776,40 @@
     "name": ""
   },
   {
+    "description": "When hit by a physical attack, reduces own damage received by 1%.\nWhen hit by an Air attack, boosts own damage received by 1%.\nCounters.\nAt the end of the turn, restores all allies' HP by 3%.",
+    "effects": [
+      {
+        "id": 880017007,
+        "value": 0
+      },
+      {
+        "id": 880052009,
+        "value": 300
+      },
+      {
+        "id": 880052012,
+        "value": 100
+      },
+      {
+        "id": 880052013,
+        "value": 100
+      }
+    ],
+    "id": 280052010,
+    "name": ""
+  },
+  {
+    "description": "Counters when hit. (Effect follows past data usage, reusing data from Lickshroom)",
+    "effects": [
+      {
+        "id": 880017007,
+        "value": 0
+      }
+    ],
+    "id": 280052011,
+    "name": ""
+  },
+  {
     "description": "",
     "effects": [
       {
@@ -15901,6 +18837,33 @@
       }
     ],
     "id": 280052087,
+    "name": ""
+  },
+  {
+    "description": "Boosts stun damage received from physical attacks by 50%.\nBoosts stun damage received from single-target attacks by 50%.\nBoosts damage received from single-target attacks by 30%.\nReduces damage received from magic attacks by 30%.\nReduces damage received from attacks that target all enemies by 15%.\nAll effects are permanent and guaranteed to apply.",
+    "effects": [
+      {
+        "id": 880053008,
+        "value": 5000
+      },
+      {
+        "id": 880053009,
+        "value": 5000
+      },
+      {
+        "id": 880053010,
+        "value": 3000
+      },
+      {
+        "id": 880053011,
+        "value": 3000
+      },
+      {
+        "id": 880053012,
+        "value": 1500
+      }
+    ],
+    "id": 280053003,
     "name": ""
   },
   {
@@ -15976,6 +18939,78 @@
       }
     ],
     "id": 280054003,
+    "name": ""
+  },
+  {
+    "description": "非ブレイク時、魔法攻撃から受けるダメージ-50%\n行動後、自身のブレイクゲージ20%回復",
+    "effects": [
+      {
+        "id": 880105003,
+        "value": 5000
+      },
+      {
+        "id": 880021003,
+        "value": 2000
+      }
+    ],
+    "id": 280054004,
+    "name": ""
+  },
+  {
+    "description": "非ブレイク時、魔法攻撃から受けるダメージ-75%\n行動後、自身のブレイクゲージ20%回復",
+    "effects": [
+      {
+        "id": 880105003,
+        "value": 7500
+      },
+      {
+        "id": 880021003,
+        "value": 2000
+      }
+    ],
+    "id": 280054005,
+    "name": ""
+  },
+  {
+    "description": "非ブレイク時、魔法攻撃から受けるダメージ-99%\n行動後、自身のブレイクゲージ20%回復",
+    "effects": [
+      {
+        "id": 880105003,
+        "value": 9900
+      },
+      {
+        "id": 880021003,
+        "value": 2000
+      }
+    ],
+    "id": 280054006,
+    "name": ""
+  },
+  {
+    "description": "Boosts stun damage received from physical attacks by 50%.\nBoosts stun damage received from single-target attacks by 50%.\nBoosts damage received from single-target attacks by 30%.\nReduces damage received from magic attacks by 30%.\nReduces damage received from attacks that target all enemies by 15%.\nAll effects are permanent and guaranteed to apply.",
+    "effects": [
+      {
+        "id": 880054011,
+        "value": 5000
+      },
+      {
+        "id": 880054012,
+        "value": 5000
+      },
+      {
+        "id": 880054013,
+        "value": 3000
+      },
+      {
+        "id": 880054014,
+        "value": 3000
+      },
+      {
+        "id": 880054015,
+        "value": 1500
+      }
+    ],
+    "id": 280054007,
     "name": ""
   },
   {
@@ -16093,6 +19128,40 @@
       }
     ],
     "id": 280055005,
+    "name": ""
+  },
+  {
+    "description": "After turn, boosts own stun damage by 5%.\nWhen stunned, removes all buffs from self.\nBoosts own damage received by 100% while stunned.\nWhen stunned, inflicts a 25% stackable boost to damage received on self.",
+    "effects": [
+      {
+        "id": 880055014,
+        "value": 500
+      },
+      {
+        "id": 880055012,
+        "value": 10000
+      },
+      {
+        "id": 880031009,
+        "value": 10000
+      },
+      {
+        "id": 880055013,
+        "value": 2500
+      }
+    ],
+    "id": 280055006,
+    "name": ""
+  },
+  {
+    "description": "While not stunned, reduces damage received by 100%.",
+    "effects": [
+      {
+        "id": 880055015,
+        "value": 10000
+      }
+    ],
+    "id": 280055007,
     "name": ""
   },
   {
@@ -16285,6 +19354,99 @@
       }
     ],
     "id": 280056006,
+    "name": ""
+  },
+  {
+    "description": "Boosts stun damage received from physical attacks by 35%.\nBoosts stun damage received from single-target attacks by 35%.\nBoosts damage received from single-target attacks by 35%.\nBoosts damage received while stunned by 35%.\nBoosts damage received from single-target attacks while stunned by 35%.\nReduces damage received by 30%. (10 turns)",
+    "effects": [
+      {
+        "id": 880056025,
+        "value": 3500
+      },
+      {
+        "id": 880056026,
+        "value": 3500
+      },
+      {
+        "id": 880056027,
+        "value": 3500
+      },
+      {
+        "id": 880056031,
+        "value": 3500
+      },
+      {
+        "id": 880056032,
+        "value": 3500
+      },
+      {
+        "id": 880056030,
+        "value": 3000
+      }
+    ],
+    "id": 280056007,
+    "name": ""
+  },
+  {
+    "description": "Boosts stun damage received from physical attacks by 40%.\nBoosts stun damage received from single-target attacks by 40%.\nBoosts damage received from single-target attacks by 40%.\nBoosts damage received while stunned by 40%.\nBoosts damage received from single-target attacks while stunned by 40%.\nReduces damage received by 30%. (10 turns)",
+    "effects": [
+      {
+        "id": 880056025,
+        "value": 4000
+      },
+      {
+        "id": 880056026,
+        "value": 4000
+      },
+      {
+        "id": 880056027,
+        "value": 4000
+      },
+      {
+        "id": 880056031,
+        "value": 4000
+      },
+      {
+        "id": 880056032,
+        "value": 4000
+      },
+      {
+        "id": 880056030,
+        "value": 3000
+      }
+    ],
+    "id": 280056008,
+    "name": ""
+  },
+  {
+    "description": "Boosts stun damage received from physical attacks by 50%.\nBoosts stun damage received from single-target attacks by 50%.\nBoosts damage received from single-target attacks by 50%.\nBoosts damage received while stunned by 50%.\nBoosts damage received from single-target attacks while stunned by 50%.\nReduces damage received by 30%. (10 turns)",
+    "effects": [
+      {
+        "id": 880056025,
+        "value": 5000
+      },
+      {
+        "id": 880056026,
+        "value": 5000
+      },
+      {
+        "id": 880056027,
+        "value": 5000
+      },
+      {
+        "id": 880056031,
+        "value": 5000
+      },
+      {
+        "id": 880056032,
+        "value": 5000
+      },
+      {
+        "id": 880056030,
+        "value": 3000
+      }
+    ],
+    "id": 280056009,
     "name": ""
   },
   {
@@ -17410,6 +20572,17 @@
     "name": ""
   },
   {
+    "description": "Reduces damage from single-target attacks by 100%.",
+    "effects": [
+      {
+        "id": 880090007,
+        "value": 10000
+      }
+    ],
+    "id": 280090002,
+    "name": ""
+  },
+  {
     "description": "Before the start of a wave, reduces own damage received by 5%.",
     "effects": [
       {
@@ -17692,6 +20865,75 @@
     "name": ""
   },
   {
+    "description": "Reduces damage received by 30% from opponents with 70% or lower HP.\nReduces damage received by 30% from opponents with 50% or lower HP.\nReduces damage received by 30% from opponents with 30% or lower HP.\nWhen KO'd, boosts all enemies' damage received by 10% for 2 turns and reduces all enemies' damage dealt by 10% for 2 turns.",
+    "effects": [
+      {
+        "id": 880047007,
+        "value": 3000
+      },
+      {
+        "id": 880047008,
+        "value": 3000
+      },
+      {
+        "id": 880047009,
+        "value": 3000
+      },
+      {
+        "id": 780097006,
+        "value": 1000
+      },
+      {
+        "id": 780097007,
+        "value": 1000
+      }
+    ],
+    "id": 280097006,
+    "name": ""
+  },
+  {
+    "description": "Reduces damage received by 30% from opponents with 70% or lower HP.\nReduces damage received by 30% from opponents with 50% or lower HP.\nReduces damage received by 80% from opponents with 30% or lower HP.\nWhen KO'd, boosts all enemies' damage received by 70% for 2 turns and reduces all enemies' damage dealt by 70% for 2 turns.\nBoosts stun damage received from attacks that target all enemies by 100%.",
+    "effects": [
+      {
+        "id": 880047007,
+        "value": 3000
+      },
+      {
+        "id": 880047008,
+        "value": 3000
+      },
+      {
+        "id": 880047009,
+        "value": 8000
+      },
+      {
+        "id": 780097006,
+        "value": 7000
+      },
+      {
+        "id": 780097007,
+        "value": 7000
+      },
+      {
+        "id": 880105002,
+        "value": 10000
+      }
+    ],
+    "id": 280097007,
+    "name": ""
+  },
+  {
+    "description": "Inflicts a 20% stackable boost to damage received on self when hit by a critical attack. (MAX 100%)",
+    "effects": [
+      {
+        "id": 880007005,
+        "value": 2000
+      }
+    ],
+    "id": 280098001,
+    "name": ""
+  },
+  {
     "description": "Before the start of a wave, reduces own damage received by 10% for 10 turns.",
     "effects": [
       {
@@ -17700,6 +20942,21 @@
       }
     ],
     "id": 280099000,
+    "name": ""
+  },
+  {
+    "description": "Inflicts a 20% stackable boost to damage received on self when hit by a critical attack. (MAX 100%)\nBefore the start of a wave, reduces own damage received by 10% for 10 turns.",
+    "effects": [
+      {
+        "id": 880007005,
+        "value": 2000
+      },
+      {
+        "id": 880091001,
+        "value": 1000
+      }
+    ],
+    "id": 280099001,
     "name": ""
   },
   {
@@ -17810,6 +21067,754 @@
       }
     ],
     "id": 280102002,
+    "name": ""
+  },
+  {
+    "description": "",
+    "effects": [
+      {
+        "id": 880103023,
+        "value": 100
+      },
+      {
+        "id": 880103024,
+        "value": 1000
+      },
+      {
+        "id": 880103025,
+        "value": 100
+      },
+      {
+        "id": 780103048,
+        "value": 0
+      }
+    ],
+    "id": 280103001,
+    "name": ""
+  },
+  {
+    "description": "",
+    "effects": [
+      {
+        "id": 880103023,
+        "value": 100
+      },
+      {
+        "id": 880103025,
+        "value": 100
+      },
+      {
+        "id": 880040004,
+        "value": 900
+      },
+      {
+        "id": 880103030,
+        "value": 10000
+      },
+      {
+        "id": 880103031,
+        "value": 2500
+      },
+      {
+        "id": 880103044,
+        "value": 4000
+      },
+      {
+        "id": 880103045,
+        "value": 2000
+      },
+      {
+        "id": 880103046,
+        "value": 1500
+      },
+      {
+        "id": 780103048,
+        "value": 0
+      }
+    ],
+    "id": 280103002,
+    "name": ""
+  },
+  {
+    "description": "When buff effects are active on self, converts panels before the start of turn. (10 panels)",
+    "effects": [
+      {
+        "id": 880104003,
+        "value": 1000
+      }
+    ],
+    "id": 280104001,
+    "name": ""
+  },
+  {
+    "description": "When buff effects are active on self, converts panels before the start of turn. (10 panels)",
+    "effects": [
+      {
+        "id": 880104003,
+        "value": 1000
+      }
+    ],
+    "id": 280104002,
+    "name": ""
+  },
+  {
+    "description": "When buff effects are active on self, converts panels before the start of turn. (10 panels)",
+    "effects": [
+      {
+        "id": 880104003,
+        "value": 1000
+      }
+    ],
+    "id": 280104003,
+    "name": ""
+  },
+  {
+    "description": "Reduces damage received by 30% from opponents with 70% or lower HP.\nReduces damage received by 30% from opponents with 50% or lower HP.\nReduces damage received by 30% from opponents with 30% or lower HP.\nAt the start of the turn, if 1 or more positive effects are active on self, converts 10 negative panels to positive panels.",
+    "effects": [
+      {
+        "id": 880047007,
+        "value": 3000
+      },
+      {
+        "id": 880047008,
+        "value": 3000
+      },
+      {
+        "id": 880047009,
+        "value": 3000
+      },
+      {
+        "id": 880104003,
+        "value": 1000
+      }
+    ],
+    "id": 280104004,
+    "name": ""
+  },
+  {
+    "description": "At the start of the turn, if 2 or more positive effects are active on self, converts 10 negative panels to positive panels.\nWhen stunned, removes all buff effects from self.\nReduces damage received by 30% from opponents with 70% or lower HP.\nReduces damage received by 50% from opponents with 50% or lower HP.\nBoosts stun damage received from attacks that target all enemies by 50%.",
+    "effects": [
+      {
+        "id": 880105001,
+        "value": 1000
+      },
+      {
+        "id": 880055012,
+        "value": 10000
+      },
+      {
+        "id": 880047007,
+        "value": 3000
+      },
+      {
+        "id": 880047008,
+        "value": 5000
+      },
+      {
+        "id": 880105002,
+        "value": 5000
+      }
+    ],
+    "id": 280105001,
+    "name": ""
+  },
+  {
+    "description": "At the start of the turn, if 2 or more positive effects are active on self, converts 10 negative panels to positive panels.\nWhen stunned, removes all buff effects from self.\nReduces damage received by 30% from opponents with 70% or lower HP.\nReduces damage received by 30% from opponents with 50% or lower HP.\nReduces damage received by 80% from opponents with 30% or lower HP.\nBoosts stun damage received from attacks that target all enemies by 100%.",
+    "effects": [
+      {
+        "id": 880105001,
+        "value": 1000
+      },
+      {
+        "id": 880055012,
+        "value": 10000
+      },
+      {
+        "id": 880047007,
+        "value": 3000
+      },
+      {
+        "id": 880047008,
+        "value": 3000
+      },
+      {
+        "id": 880047009,
+        "value": 8000
+      },
+      {
+        "id": 880105002,
+        "value": 10000
+      }
+    ],
+    "id": 280105002,
+    "name": ""
+  },
+  {
+    "description": "行動開始時、自身にバフが2つ付与されている場合10パネルを−→＋パネルに変化させる\n非ブレイク時、魔法攻撃から受けるダメージ-50%",
+    "effects": [
+      {
+        "id": 880105001,
+        "value": 1000
+      },
+      {
+        "id": 880105003,
+        "value": 5000
+      }
+    ],
+    "id": 280105003,
+    "name": ""
+  },
+  {
+    "description": "行動開始時、自身にバフが2つ付与されている場合10パネルを−→＋パネルに変化させる\n非ブレイク時、魔法攻撃から受けるダメージ-80%",
+    "effects": [
+      {
+        "id": 880105001,
+        "value": 1000
+      },
+      {
+        "id": 880105003,
+        "value": 8000
+      }
+    ],
+    "id": 280105004,
+    "name": ""
+  },
+  {
+    "description": "行動開始時、自身にバフが2つ付与されている場合10パネルを−→＋パネルに変化させる\n非ブレイク時、魔法攻撃から受けるダメージ-99%",
+    "effects": [
+      {
+        "id": 880105001,
+        "value": 1000
+      },
+      {
+        "id": 880105003,
+        "value": 9900
+      }
+    ],
+    "id": 280105005,
+    "name": ""
+  },
+  {
+    "description": "行動開始時、自身にバフが2つ付与されている場合10パネルを−→＋パネルに変化させる",
+    "effects": [
+      {
+        "id": 880105001,
+        "value": 1000
+      }
+    ],
+    "id": 280105006,
+    "name": ""
+  },
+  {
+    "description": "When stunned, grants 3 stacks of 3% Regen to all enemies for 2 turns.\nWhen hit by an attack while HP is 50% or lower, boosts damage dealt by 5% for 1 turn.",
+    "effects": [
+      {
+        "id": 880106001,
+        "value": 900
+      },
+      {
+        "id": 880106015,
+        "value": 500
+      }
+    ],
+    "id": 280106001,
+    "name": ""
+  },
+  {
+    "description": "When stunned, boosts the potency of buff effects received for all party members by 30% for 3 turns.\nReduces damage received by 30% from opponents with 70% or lower HP.\nReduces damage received by 30% from opponents with 50% or lower HP.\nReduces damage received by 30% from opponents with 30% or lower HP.",
+    "effects": [
+      {
+        "id": 880106004,
+        "value": 3000
+      },
+      {
+        "id": 880047007,
+        "value": 3000
+      },
+      {
+        "id": 880047008,
+        "value": 3000
+      },
+      {
+        "id": 880047009,
+        "value": 3000
+      }
+    ],
+    "id": 280106004,
+    "name": ""
+  },
+  {
+    "description": "When stunned, boosts the potency of buff effects received for all party members by 50% for 3 turns.\nBoosts stun damage received from attacks that target all enemies by 100%.\nReduces damage received by 30% from opponents with 70% or lower HP.\nReduces damage received by 30% from opponents with 50% or lower HP.\nReduces damage received by 80% from opponents with 30% or lower HP.",
+    "effects": [
+      {
+        "id": 880106004,
+        "value": 5000
+      },
+      {
+        "id": 880105002,
+        "value": 10000
+      },
+      {
+        "id": 880047007,
+        "value": 3000
+      },
+      {
+        "id": 880047008,
+        "value": 3000
+      },
+      {
+        "id": 880047009,
+        "value": 8000
+      }
+    ],
+    "id": 280106005,
+    "name": ""
+  },
+  {
+    "description": "When hit by an attack while the stun gauge is full, converts panels. (10 panels) (- to +) (+ to -)",
+    "effects": [
+      {
+        "id": 780108015,
+        "value": 1000
+      },
+      {
+        "id": 780108017,
+        "value": 1000
+      },
+      {
+        "id": 780108018,
+        "value": 1000
+      }
+    ],
+    "id": 280107001,
+    "name": ""
+  },
+  {
+    "description": "When hit by an attack while the stun gauge is full, converts panels. (10 panels) (- to +) (+ to -)",
+    "effects": [
+      {
+        "id": 780108015,
+        "value": 1000
+      },
+      {
+        "id": 780108017,
+        "value": 1000
+      },
+      {
+        "id": 780108018,
+        "value": 1000
+      }
+    ],
+    "id": 280107002,
+    "name": ""
+  },
+  {
+    "description": "When hit by an attack while the stun gauge is full, converts panels. (10 panels) (- to +) (+ to -)",
+    "effects": [
+      {
+        "id": 780108015,
+        "value": 1000
+      },
+      {
+        "id": 780108017,
+        "value": 1000
+      },
+      {
+        "id": 780108018,
+        "value": 1000
+      }
+    ],
+    "id": 280107003,
+    "name": ""
+  },
+  {
+    "description": "When hit by an attack while the stun gauge is full, converts panels. (10 panels) (- to +) (+ to -)",
+    "effects": [
+      {
+        "id": 780108001,
+        "value": 1000
+      },
+      {
+        "id": 780108002,
+        "value": 1000
+      },
+      {
+        "id": 780108016,
+        "value": 1000
+      }
+    ],
+    "id": 280108001,
+    "name": ""
+  },
+  {
+    "description": "When hit by an attack while the stun gauge is full, converts panels. (10 panels) (- to +) (+ to -)",
+    "effects": [
+      {
+        "id": 780108001,
+        "value": 1000
+      },
+      {
+        "id": 780108002,
+        "value": 1000
+      },
+      {
+        "id": 780108016,
+        "value": 1000
+      }
+    ],
+    "id": 280108002,
+    "name": ""
+  },
+  {
+    "description": "When hit by an attack while the stun gauge is full, converts panels. (10 panels) (- to +) (+ to -)",
+    "effects": [
+      {
+        "id": 780108001,
+        "value": 1000
+      },
+      {
+        "id": 780108002,
+        "value": 1000
+      },
+      {
+        "id": 780108016,
+        "value": 1000
+      }
+    ],
+    "id": 280108003,
+    "name": ""
+  },
+  {
+    "description": "Reduces damage received by 30% from opponents with 70% or lower HP.\nReduces damage received by 30% from opponents with 50% or lower HP.\nReduces damage received by 80% from opponents with 30% or lower HP.\nBoosts stun damage received from attacks that target all enemies by 100%.",
+    "effects": [
+      {
+        "id": 880047007,
+        "value": 3000
+      },
+      {
+        "id": 880047008,
+        "value": 3000
+      },
+      {
+        "id": 880047009,
+        "value": 8000
+      },
+      {
+        "id": 880105002,
+        "value": 10000
+      }
+    ],
+    "id": 280109001,
+    "name": ""
+  },
+  {
+    "description": "While Brittle, boosts damage received by 15% and boosts critical damage received by 25%.",
+    "effects": [
+      {
+        "id": 880111003,
+        "value": 1500
+      },
+      {
+        "id": 880111004,
+        "value": 2500
+      }
+    ],
+    "id": 280111001,
+    "name": ""
+  },
+  {
+    "description": "When hit by an attack that targets all enemies, boosts stun damage received by 50%.",
+    "effects": [
+      {
+        "id": 880111005,
+        "value": 5000
+      }
+    ],
+    "id": 280111002,
+    "name": ""
+  },
+  {
+    "description": "While Dazed, boosts stun damage received by 30%, and when hit by an attack that targets all enemies, boosts damage received by 30%.",
+    "effects": [
+      {
+        "id": 880111007,
+        "value": 3000
+      },
+      {
+        "id": 880111008,
+        "value": 3000
+      }
+    ],
+    "id": 280111003,
+    "name": ""
+  },
+  {
+    "description": "While Brittle, boosts damage received by 15% and boosts critical damage received by 25%.",
+    "effects": [
+      {
+        "id": 880112005,
+        "value": 1500
+      },
+      {
+        "id": 880112006,
+        "value": 2500
+      }
+    ],
+    "id": 280112002,
+    "name": ""
+  },
+  {
+    "description": "Recovers stun damage by 10% each turn, and while stunned, boosts damage received by 30%.",
+    "effects": [
+      {
+        "id": 880112007,
+        "value": 1000
+      },
+      {
+        "id": 880112008,
+        "value": 3000
+      }
+    ],
+    "id": 280112003,
+    "name": ""
+  },
+  {
+    "description": "While Dazed, boosts stun damage received by 20%, and when hit by a single-target attack, boosts damage received by 30%.",
+    "effects": [
+      {
+        "id": 880112010,
+        "value": 2000
+      },
+      {
+        "id": 880112011,
+        "value": 3000
+      }
+    ],
+    "id": 280112004,
+    "name": ""
+  },
+  {
+    "description": "１、ブレイク時、強化パネルをバーストパネルに書き換え(15マス)\n２、ブレイク時、弱体パネルを強化パネルに書き換え(15マス)\n行動後、自身に被ダメージDOWN10%3回付与",
+    "effects": [
+      {
+        "id": 880116001,
+        "value": 1500
+      },
+      {
+        "id": 880116002,
+        "value": 1500
+      },
+      {
+        "id": 880116003,
+        "value": 1000
+      }
+    ],
+    "id": 280116001,
+    "name": ""
+  },
+  {
+    "description": "１、ブレイク時、強化パネルをバーストパネルに書き換え(15マス)\n２、ブレイク時、弱体パネルを強化パネルに書き換え(15マス)\n行動後、自身に被ダメージDOWN15%3回付与",
+    "effects": [
+      {
+        "id": 880116001,
+        "value": 1500
+      },
+      {
+        "id": 880116002,
+        "value": 1500
+      },
+      {
+        "id": 880116003,
+        "value": 1500
+      }
+    ],
+    "id": 280116002,
+    "name": ""
+  },
+  {
+    "description": "１、ブレイク時、強化パネルをバーストパネルに書き換え(15マス)\n２、ブレイク時、弱体パネルを強化パネルに書き換え(15マス)\n行動後、自身に被ダメージDOWN25%3回付与",
+    "effects": [
+      {
+        "id": 880116001,
+        "value": 1500
+      },
+      {
+        "id": 880116002,
+        "value": 1500
+      },
+      {
+        "id": 880116003,
+        "value": 2500
+      }
+    ],
+    "id": 280116003,
+    "name": ""
+  },
+  {
+    "description": "自身がブレイクされた時、被弾した攻撃属性に応じて自身に効果を付与。\n物理属性の場合：物理被ダメージUP30%3回付与。\n魔法属性の場合：魔法被ダメージUP30%3回付与。",
+    "effects": [
+      {
+        "id": 880117001,
+        "value": 3000
+      },
+      {
+        "id": 880117002,
+        "value": 3000
+      }
+    ],
+    "id": 280117001,
+    "name": ""
+  },
+  {
+    "description": "自身がブレイクされた時、被弾した攻撃属性に応じて自身に効果を付与。\n物理属性の場合：物理被ダメージUP40%3回付与。\n魔法属性の場合：魔法被ダメージUP40%3回付与。",
+    "effects": [
+      {
+        "id": 880117001,
+        "value": 4000
+      },
+      {
+        "id": 880117002,
+        "value": 4000
+      }
+    ],
+    "id": 280117002,
+    "name": ""
+  },
+  {
+    "description": "自身がブレイクされた時、被弾した攻撃属性に応じて自身に効果を付与。\n物理属性の場合：物理被ダメージUP50%3回付与。\n魔法属性の場合：魔法被ダメージUP50%3回付与。",
+    "effects": [
+      {
+        "id": 880117001,
+        "value": 5000
+      },
+      {
+        "id": 880117002,
+        "value": 5000
+      }
+    ],
+    "id": 280117003,
+    "name": ""
+  },
+  {
+    "description": "攻撃被弾時、状態異常付与された時、自身に被ダメージUPと与ダメージDOWN25%2回を付与",
+    "effects": [
+      {
+        "id": 880118001,
+        "value": 2500
+      },
+      {
+        "id": 880118002,
+        "value": 2500
+      }
+    ],
+    "id": 280118001,
+    "name": ""
+  },
+  {
+    "description": "攻撃被弾時、状態異常付与された時、自身に被ダメージUPと与ダメージDOWN35%2回を付与",
+    "effects": [
+      {
+        "id": 880118001,
+        "value": 3500
+      },
+      {
+        "id": 880118002,
+        "value": 3500
+      }
+    ],
+    "id": 280118002,
+    "name": ""
+  },
+  {
+    "description": "攻撃被弾時、状態異常付与された時、自身に被ダメージUPと与ダメージDOWN45%2回を付与",
+    "effects": [
+      {
+        "id": 880118001,
+        "value": 4500
+      },
+      {
+        "id": 880118002,
+        "value": 4500
+      }
+    ],
+    "id": 280118003,
+    "name": ""
+  },
+  {
+    "description": "非ブレイク時、物理攻撃から受けるダメージ-50%",
+    "effects": [
+      {
+        "id": 880118003,
+        "value": 5000
+      }
+    ],
+    "id": 280118004,
+    "name": ""
+  },
+  {
+    "description": "非ブレイク時、物理攻撃から受けるダメージ-80%",
+    "effects": [
+      {
+        "id": 880118003,
+        "value": 8000
+      }
+    ],
+    "id": 280118005,
+    "name": ""
+  },
+  {
+    "description": "非ブレイク時、物理攻撃から受けるダメージ-99%",
+    "effects": [
+      {
+        "id": 880118003,
+        "value": 9900
+      }
+    ],
+    "id": 280118006,
+    "name": ""
+  },
+  {
+    "description": "クリティカル攻撃被弾時、空白パネルを強化パネルに書き換える。(10マス)",
+    "effects": [
+      {
+        "id": 880119001,
+        "value": 1000
+      }
+    ],
+    "id": 280119001,
+    "name": ""
+  },
+  {
+    "description": "戦闘不能時、弱体パネルを麻痺パネルに書き換え(10マス)",
+    "effects": [
+      {
+        "id": 880120001,
+        "value": 1000
+      }
+    ],
+    "id": 280120001,
+    "name": ""
+  },
+  {
+    "description": "戦闘不能時、弱体パネルを暗闇パネルに書き換え(10マス)",
+    "effects": [
+      {
+        "id": 880121001,
+        "value": 1000
+      }
+    ],
+    "id": 280121001,
+    "name": ""
+  },
+  {
+    "description": "ブレイク時、強化パネルをバーストパネルに書き換え(10マス)",
+    "effects": [
+      {
+        "id": 880122001,
+        "value": 1000
+      }
+    ],
+    "id": 280122001,
     "name": ""
   },
   {
@@ -19861,6 +23866,601 @@
     ],
     "id": 600000212,
     "name": "[Weakness] Burst Power +75%"
+  },
+  {
+    "description": "Boosts own max HP by 3% when attacking a weakness. (MAX 15%)",
+    "effects": [
+      {
+        "id": 120000192,
+        "value": 300
+      }
+    ],
+    "id": 600000213,
+    "name": "[Weakness] Max HP +3%"
+  },
+  {
+    "description": "Boosts own max HP by 5% when attacking a weakness. (MAX 25%)",
+    "effects": [
+      {
+        "id": 120000193,
+        "value": 500
+      }
+    ],
+    "id": 600000214,
+    "name": "[Weakness] Max HP +5%"
+  },
+  {
+    "description": "Boosts own max HP by 7% when attacking a weakness. (MAX 35%)",
+    "effects": [
+      {
+        "id": 120000194,
+        "value": 700
+      }
+    ],
+    "id": 600000215,
+    "name": "[Weakness] Max HP +7%"
+  },
+  {
+    "description": "Boosts potency of buff effects received by 15%.",
+    "effects": [
+      {
+        "id": 120000195,
+        "value": 1500
+      }
+    ],
+    "id": 600000216,
+    "name": "[Buffs Given] Potency +15%"
+  },
+  {
+    "description": "Boosts potency of buff effects received by 25%.",
+    "effects": [
+      {
+        "id": 120000195,
+        "value": 2500
+      }
+    ],
+    "id": 600000217,
+    "name": "[Buffs Given] Potency +25%"
+  },
+  {
+    "description": "Boosts potency of buff effects received by 40%.",
+    "effects": [
+      {
+        "id": 120000195,
+        "value": 4000
+      }
+    ],
+    "id": 600000218,
+    "name": "[Buffs Given] Potency +40%"
+  },
+  {
+    "description": "Boosts Air skill damage by 20%.",
+    "effects": [
+      {
+        "id": 120000196,
+        "value": 2000
+      }
+    ],
+    "id": 600000219,
+    "name": "[Air] Skill Power +20%"
+  },
+  {
+    "description": "Boosts Air skill damage by 30%.",
+    "effects": [
+      {
+        "id": 120000196,
+        "value": 3000
+      }
+    ],
+    "id": 600000220,
+    "name": "[Air] Skill Power +30%"
+  },
+  {
+    "description": "Boosts Air skill damage by 40%.",
+    "effects": [
+      {
+        "id": 120000196,
+        "value": 4000
+      }
+    ],
+    "id": 600000221,
+    "name": "[Air] Skill Power +40%"
+  },
+  {
+    "description": "Boosts HP recovery that targets all allies by 20%.",
+    "effects": [
+      {
+        "id": 120000197,
+        "value": 2000
+      }
+    ],
+    "id": 600000222,
+    "name": "[All] Recovery +20%"
+  },
+  {
+    "description": "Boosts HP recovery that targets all allies by 30%.",
+    "effects": [
+      {
+        "id": 120000197,
+        "value": 3000
+      }
+    ],
+    "id": 600000223,
+    "name": "[All] Recovery +30%"
+  },
+  {
+    "description": "Boosts HP recovery that targets all allies by 50%.",
+    "effects": [
+      {
+        "id": 120000197,
+        "value": 5000
+      }
+    ],
+    "id": 600000224,
+    "name": "[All] Recovery +50%"
+  },
+  {
+    "description": "Before turn, restores own HP by 5% at the start of the turn.",
+    "effects": [
+      {
+        "id": 120000198,
+        "value": 500
+      }
+    ],
+    "id": 600000225,
+    "name": "[Before Turn] Regen +5%"
+  },
+  {
+    "description": "Before turn, restores own HP by 5% at the start of the turn.",
+    "effects": [
+      {
+        "id": 120000198,
+        "value": 500
+      }
+    ],
+    "id": 600000226,
+    "name": "[Before Turn] Regen +5%"
+  },
+  {
+    "description": "Before turn, restores own HP by 10% at the start of the turn.",
+    "effects": [
+      {
+        "id": 120000198,
+        "value": 1000
+      }
+    ],
+    "id": 600000227,
+    "name": "[Before Turn] Regen +10%"
+  },
+  {
+    "description": "Before turn, boosts own skill damage by 5%.",
+    "effects": [
+      {
+        "id": 120000199,
+        "value": 500
+      }
+    ],
+    "id": 600000228,
+    "name": "[Before Turn] Skill Power +5%"
+  },
+  {
+    "description": "Before turn, boosts own skill damage by 7%.",
+    "effects": [
+      {
+        "id": 120000199,
+        "value": 700
+      }
+    ],
+    "id": 600000229,
+    "name": "[Before Turn] Skill Power +7%"
+  },
+  {
+    "description": "Before turn, boosts own skill damage by 10%.",
+    "effects": [
+      {
+        "id": 120000199,
+        "value": 1000
+      }
+    ],
+    "id": 600000230,
+    "name": "[Before Turn] Skill Power +10%"
+  },
+  {
+    "description": "Boosts damage to weaknesses by 50% while not inflicted with negative effects.",
+    "effects": [
+      {
+        "id": 120000206,
+        "value": 5000
+      }
+    ],
+    "id": 600000232,
+    "name": "No Neg. Effect Weak DMG Up"
+  },
+  {
+    "description": "When attack target is stunned, boosts skill damage by 50%.",
+    "effects": [
+      {
+        "id": 120000207,
+        "value": 5000
+      }
+    ],
+    "id": 600000234,
+    "name": "Damage Up Vs. Stun"
+  },
+  {
+    "description": "Boosts magic damage by 5% when recovering HP.",
+    "effects": [
+      {
+        "id": 120000210,
+        "value": 500
+      }
+    ],
+    "id": 600000239,
+    "name": "Magic DMG Up on HP Recover"
+  },
+  {
+    "description": "Boosts skill damage by 50% for attacks that target all enemies.",
+    "effects": [
+      {
+        "id": 120000211,
+        "value": 5000
+      }
+    ],
+    "id": 600000241,
+    "name": "All Enemy Attack Skill DMG Up"
+  },
+  {
+    "description": "Boosts stun damage by 50% for attacks that target all enemies.",
+    "effects": [
+      {
+        "id": 120000212,
+        "value": 5000
+      }
+    ],
+    "id": 600000242,
+    "name": "All Enemy Attack Stun DMG Up"
+  },
+  {
+    "description": "Boosts critical damage by 20%.",
+    "effects": [
+      {
+        "id": 120000214,
+        "value": 2000
+      }
+    ],
+    "id": 600000243,
+    "name": "[Critical] Power +20%"
+  },
+  {
+    "description": "Boosts critical damage by 40%.",
+    "effects": [
+      {
+        "id": 120000214,
+        "value": 4000
+      }
+    ],
+    "id": 600000244,
+    "name": "[Critical] Power +40%"
+  },
+  {
+    "description": "Boosts critical damage by 60%.",
+    "effects": [
+      {
+        "id": 120000214,
+        "value": 6000
+      }
+    ],
+    "id": 600000245,
+    "name": "[Critical] Power +60%"
+  },
+  {
+    "description": "Boosts Bolt stun damage by 20%.",
+    "effects": [
+      {
+        "id": 120000215,
+        "value": 2000
+      }
+    ],
+    "id": 600000246,
+    "name": "[Bolt] Stun Power +20%"
+  },
+  {
+    "description": "Boosts Bolt stun damage by 30%.",
+    "effects": [
+      {
+        "id": 120000215,
+        "value": 3000
+      }
+    ],
+    "id": 600000247,
+    "name": "[Bolt] Stun Power +30%"
+  },
+  {
+    "description": "Boosts Bolt stun damage by 40%.",
+    "effects": [
+      {
+        "id": 120000215,
+        "value": 4000
+      }
+    ],
+    "id": 600000248,
+    "name": "[Bolt] Stun Power +40%"
+  },
+  {
+    "description": "Boosts skill damage by 30% when attacking a weakness.",
+    "effects": [
+      {
+        "id": 120000138,
+        "value": 3000
+      }
+    ],
+    "id": 600000249,
+    "name": "[Weakness] Skill Power +30%"
+  },
+  {
+    "description": "Boosts skill damage by 50% when attacking a weakness.",
+    "effects": [
+      {
+        "id": 120000138,
+        "value": 5000
+      }
+    ],
+    "id": 600000250,
+    "name": "[Weakness] Skill Power +50%"
+  },
+  {
+    "description": "Boosts skill damage by 75% when attacking a weakness.",
+    "effects": [
+      {
+        "id": 120000138,
+        "value": 7500
+      }
+    ],
+    "id": 600000251,
+    "name": "[Weakness] Skill Power +75%"
+  },
+  {
+    "description": "Boosts Stab damage by 30%.",
+    "effects": [
+      {
+        "id": 120000146,
+        "value": 3000
+      }
+    ],
+    "id": 600000252,
+    "name": "[Stab] Skill Power +30%"
+  },
+  {
+    "description": "Boosts Stab damage by 50%.",
+    "effects": [
+      {
+        "id": 120000146,
+        "value": 5000
+      }
+    ],
+    "id": 600000253,
+    "name": "[Stab] Skill Power +50%"
+  },
+  {
+    "description": "Boosts Stab damage by 80%.",
+    "effects": [
+      {
+        "id": 120000146,
+        "value": 8000
+      }
+    ],
+    "id": 600000254,
+    "name": "[Stab] Skill Power +80%"
+  },
+  {
+    "description": "Boosts skill power by 30% while an enemy is stunned.",
+    "effects": [
+      {
+        "id": 120000114,
+        "value": 3000
+      }
+    ],
+    "id": 600000255,
+    "name": "[Stun] Skill Power +30%"
+  },
+  {
+    "description": "Boosts skill power by 60% while enemy is stunned.",
+    "effects": [
+      {
+        "id": 120000114,
+        "value": 6000
+      }
+    ],
+    "id": 600000256,
+    "name": "[Stun] Skill Power +60%"
+  },
+  {
+    "description": "Boosts skill power by 90% while enemy is stunned.",
+    "effects": [
+      {
+        "id": 120000114,
+        "value": 9000
+      }
+    ],
+    "id": 600000257,
+    "name": "[Stun] Skill Power +90%"
+  },
+  {
+    "description": "Boosts burst skill damage by 30% when attacking a weakness.",
+    "effects": [
+      {
+        "id": 120000141,
+        "value": 3000
+      }
+    ],
+    "id": 600000258,
+    "name": "[Weakness] Burst Power +30%"
+  },
+  {
+    "description": "Boosts burst skill damage by 50% when attacking a weakness.",
+    "effects": [
+      {
+        "id": 120000141,
+        "value": 5000
+      }
+    ],
+    "id": 600000259,
+    "name": "[Weakness] Burst Power +50%"
+  },
+  {
+    "description": "Boosts burst skill damage by 75% when attacking a weakness.",
+    "effects": [
+      {
+        "id": 120000141,
+        "value": 7500
+      }
+    ],
+    "id": 600000260,
+    "name": "[Weakness] Burst Power +75%"
+  },
+  {
+    "description": "When using a stun boost panel, boosts own skill damage by 50% for 1 turn.",
+    "effects": [
+      {
+        "id": 120000218,
+        "value": 5000
+      }
+    ],
+    "id": 600000271,
+    "name": "Stun Boost Panel Skill DMG Up"
+  },
+  {
+    "description": "When attack target is stunned, boosts skill damage by 50%.",
+    "effects": [
+      {
+        "id": 120000220,
+        "value": 5000
+      }
+    ],
+    "id": 600000273,
+    "name": "Damage Up Vs. Stun"
+  },
+  {
+    "description": "Boosts all allies' P. ATK by 150%.",
+    "effects": [
+      {
+        "id": 120000221,
+        "value": 15000
+      }
+    ],
+    "id": 600000275,
+    "name": "All Allies P. ATK Up"
+  },
+  {
+    "description": "Boosts all allies' M. ATK by 150%.",
+    "effects": [
+      {
+        "id": 120000222,
+        "value": 15000
+      }
+    ],
+    "id": 600000276,
+    "name": "All Allies M. ATK Up"
+  },
+  {
+    "description": "When attacking, boosts stun damage depending on the number of different status effects on target. (More damage per status effect)",
+    "effects": [
+      {
+        "id": 120000276,
+        "value": 100000
+      },
+      {
+        "id": 120000277,
+        "value": 100000
+      },
+      {
+        "id": 120000278,
+        "value": 100000
+      },
+      {
+        "id": 120000279,
+        "value": 100000
+      },
+      {
+        "id": 120000280,
+        "value": 100000
+      },
+      {
+        "id": 120000281,
+        "value": 100000
+      },
+      {
+        "id": 120000282,
+        "value": 100000
+      },
+      {
+        "id": 120000283,
+        "value": 100000
+      }
+    ],
+    "id": 600000277,
+    "name": "Stun DMG Up Per Status Effect"
+  },
+  {
+    "description": "When attacking, boosts skill damage depending on the number of different status effects on target. (More damage per status effect)",
+    "effects": [
+      {
+        "id": 120000268,
+        "value": 2000
+      },
+      {
+        "id": 120000269,
+        "value": 2000
+      },
+      {
+        "id": 120000270,
+        "value": 2000
+      },
+      {
+        "id": 120000271,
+        "value": 2000
+      },
+      {
+        "id": 120000272,
+        "value": 2000
+      },
+      {
+        "id": 120000273,
+        "value": 2000
+      },
+      {
+        "id": 120000274,
+        "value": 2000
+      },
+      {
+        "id": 120000275,
+        "value": 2000
+      }
+    ],
+    "id": 600000278,
+    "name": "Skill DMG Up Per Status Effect"
+  },
+  {
+    "description": "Boosts potency of buff effects from battle items by 50%.",
+    "effects": [
+      {
+        "id": 120000235,
+        "value": 5000
+      }
+    ],
+    "id": 600000279,
+    "name": "Battle Item Buff Effects Up"
+  },
+  {
+    "description": "Restores the item gauge by 20% at the start of the turn.",
+    "effects": [
+      {
+        "id": 120000233,
+        "value": 2000
+      }
+    ],
+    "id": 600000280,
+    "name": "Restore Item Gauge at Turn Start"
   },
   {
     "description": "Restores HP by 10% at the start of a Defender's turn.",

@@ -29,7 +29,7 @@
         "reward_set_id": 10001
       }
     ],
-    "start_at": null,
+    "start_at": "2024-01-25T03:00:00.000Z",
     "tab_type": 1
   },
   {
@@ -62,7 +62,7 @@
         "reward_set_id": 10001
       }
     ],
-    "start_at": null,
+    "start_at": "2024-01-25T03:00:00.000Z",
     "tab_type": 1
   },
   {
@@ -95,7 +95,7 @@
         "reward_set_id": 10001
       }
     ],
-    "start_at": null,
+    "start_at": "2024-01-25T03:00:00.000Z",
     "tab_type": 1
   },
   {
@@ -128,7 +128,7 @@
         "reward_set_id": 10002
       }
     ],
-    "start_at": null,
+    "start_at": "2024-01-25T03:00:00.000Z",
     "tab_type": 2
   },
   {
@@ -184,7 +184,7 @@
     "id": 7,
     "key_quest_id": null,
     "name": "Event Board",
-    "priority": 7,
+    "priority": 10000,
     "recipe_count_rewards": [
       {
         "count": 3,
@@ -205,7 +205,7 @@
     "id": 8,
     "key_quest_id": null,
     "name": "Event Board 2",
-    "priority": 8,
+    "priority": 9999,
     "recipe_count_rewards": [
       {
         "count": 3,
@@ -272,7 +272,7 @@
     "id": 12,
     "key_quest_id": null,
     "name": "Event Board 4",
-    "priority": 12,
+    "priority": 9997,
     "recipe_count_rewards": [
       {
         "count": 3,
@@ -293,7 +293,7 @@
     "id": 13,
     "key_quest_id": null,
     "name": "Event Board 5",
-    "priority": 13,
+    "priority": 9996,
     "recipe_count_rewards": [
       {
         "count": 3,
@@ -314,7 +314,7 @@
     "id": 14,
     "key_quest_id": null,
     "name": "Event Board 6",
-    "priority": 14,
+    "priority": 9995,
     "recipe_count_rewards": [
       {
         "count": 3,
@@ -330,6 +330,14 @@
       },
       {
         "count": 9,
+        "reward_set_id": 10023
+      },
+      {
+        "count": 12,
+        "reward_set_id": 10022
+      },
+      {
+        "count": 14,
         "reward_set_id": 10023
       }
     ],
@@ -389,7 +397,7 @@
     "id": 17,
     "key_quest_id": null,
     "name": "Affinity Tower",
-    "priority": 4,
+    "priority": 100,
     "recipe_count_rewards": [
       {
         "count": 14,
@@ -405,6 +413,182 @@
       }
     ],
     "start_at": "2024-04-04T03:00:00.000Z",
+    "tab_type": 3
+  },
+  {
+    "abbreviation": "Gifts on a\nStarry Night",
+    "banner_path_hash": "7361283265328594472",
+    "hide_unlearned_recipe": false,
+    "id": 18,
+    "key_quest_id": null,
+    "name": "Event Board 7",
+    "priority": 9994,
+    "recipe_count_rewards": [
+      {
+        "count": 3,
+        "reward_set_id": 10022
+      },
+      {
+        "count": 6,
+        "reward_set_id": 10022
+      }
+    ],
+    "start_at": "2024-04-15T03:00:00.000Z",
+    "tab_type": 3
+  },
+  {
+    "abbreviation": "Marie's\nFortune Frenzy!",
+    "banner_path_hash": "1161519730452629420",
+    "hide_unlearned_recipe": false,
+    "id": 19,
+    "key_quest_id": null,
+    "name": "Event Board 8",
+    "priority": 9993,
+    "recipe_count_rewards": [
+      {
+        "count": 3,
+        "reward_set_id": 10022
+      },
+      {
+        "count": 6,
+        "reward_set_id": 10022
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "tab_type": 3
+  },
+  {
+    "abbreviation": "7",
+    "banner_path_hash": 0,
+    "hide_unlearned_recipe": false,
+    "id": 20,
+    "key_quest_id": 101007037,
+    "name": "Chapter 7 Board",
+    "priority": 17,
+    "recipe_count_rewards": [
+      {
+        "count": 4,
+        "reward_set_id": 10020
+      },
+      {
+        "count": 8,
+        "reward_set_id": 10021
+      },
+      {
+        "count": 11,
+        "reward_set_id": 10001
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "tab_type": 1
+  },
+  {
+    "abbreviation": "5",
+    "banner_path_hash": 0,
+    "hide_unlearned_recipe": false,
+    "id": 21,
+    "key_quest_id": 101008039,
+    "name": "Extra Board 5",
+    "priority": 18,
+    "recipe_count_rewards": [
+      {
+        "count": 5,
+        "reward_set_id": 10002
+      },
+      {
+        "count": 9,
+        "reward_set_id": 10002
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "tab_type": 2
+  },
+  {
+    "abbreviation": "Two Shallies and a Mother's Wish",
+    "banner_path_hash": "2570108144471217243",
+    "hide_unlearned_recipe": false,
+    "id": 22,
+    "key_quest_id": null,
+    "name": "Event Board 9",
+    "priority": 9992,
+    "recipe_count_rewards": [
+      {
+        "count": 3,
+        "reward_set_id": 10022
+      },
+      {
+        "count": 6,
+        "reward_set_id": 10022
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "tab_type": 3
+  },
+  {
+    "abbreviation": "8",
+    "banner_path_hash": 0,
+    "hide_unlearned_recipe": false,
+    "id": 23,
+    "key_quest_id": 101008039,
+    "name": "Chapter 8 Board",
+    "priority": 19,
+    "recipe_count_rewards": [
+      {
+        "count": 4,
+        "reward_set_id": 10020
+      },
+      {
+        "count": 8,
+        "reward_set_id": 10021
+      },
+      {
+        "count": 11,
+        "reward_set_id": 10001
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "tab_type": 1
+  },
+  {
+    "abbreviation": "6",
+    "banner_path_hash": 0,
+    "hide_unlearned_recipe": false,
+    "id": 24,
+    "key_quest_id": 101009043,
+    "name": "Extra Board 6",
+    "priority": 20,
+    "recipe_count_rewards": [
+      {
+        "count": 5,
+        "reward_set_id": 10002
+      },
+      {
+        "count": 9,
+        "reward_set_id": 10002
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "tab_type": 2
+  },
+  {
+    "abbreviation": "Valentine's\nChocolate Mix",
+    "banner_path_hash": "4220403187042248569",
+    "hide_unlearned_recipe": false,
+    "id": 25,
+    "key_quest_id": null,
+    "name": "Event Board 10",
+    "priority": 9991,
+    "recipe_count_rewards": [
+      {
+        "count": 3,
+        "reward_set_id": 10022
+      },
+      {
+        "count": 7,
+        "reward_set_id": 10022
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
     "tab_type": 3
   }
 ]

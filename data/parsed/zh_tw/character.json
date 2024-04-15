@@ -188,6 +188,219 @@
     "start_at": "2024-01-25T03:00:00.000Z"
   },
   {
+    "id": 10102,
+    "name": "瑪莉",
+    "title": "【Fortune Full Bloom】",
+    "full_name": "瑪洛娜",
+    "base_character": "瑪莉",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "ICE",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "使心情煥然一新──\n來，讓我們盡情享受吧！",
+    "profile": {
+      "voice_actor": "Haruna Ikezawa",
+      "voice_text": "畢竟機會難得，也配合這件衣服\n把炸彈稍微改良一下好了。",
+      "description": "活潑淘氣的鍊金術士。\n從其他世界來到蘭塔納大陸的「異邦人」之一。\n與蕾斯娜一起拜年並分送護身符的瑪莉，盛裝打扮前往夥伴身邊。",
+      "origin_game": "瑪莉的鍊金工房 ～薩爾布魯克的鍊金術士～"
+    },
+    "gift_color": {
+      "received": "綠",
+      "given": "紅"
+    },
+    "battle_item_trait": [
+      {
+        "id": 5,
+        "name": "魔力之祝福",
+        "category": "ATTACK",
+        "description": "魔法攻擊傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻擊傷害上升{0}%。",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "冰之盾",
+        "category": "ENHANCE",
+        "description": "賦予目標「冰屬性耐性上升{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000067,
+            "description": "賦予目標「冰屬性耐性上升{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 33,
+        "name": "魔法傷害上升【滿血】",
+        "category": "ATTACK",
+        "description": "HP全滿時，魔法攻擊傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000100,
+            "description": "HP為最大值時，給予的魔法屬性傷害上升{0}%。",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 150,
+        "spd": 223,
+        "patk": 51,
+        "matk": 69,
+        "pdef": 52,
+        "mdef": 43
+      },
+      "growth": {
+        "hp": 1500,
+        "spd": 0,
+        "patk": 510,
+        "matk": 690,
+        "pdef": 520,
+        "mdef": 430
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 5,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "摩根之杖",
+      "description": "攻擊前，解除自身減弱效果，<br>攻擊後，賦予自身「重擊率+{1}%」，直到行動結束1次為止。",
+      "summary": "攻擊前，解除自身的減弱效果，<br>攻擊後，自身的重擊率上升。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001007,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001115,
+          "description": "[自身/1次/重擊率上升]",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [90, 95, 101, 106, 112],
+      "has_stun": true,
+      "stun_values": [8, 8, 9, 9, 10],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "謹製炎燒射門",
+      "description": "重擊攻擊時，重擊傷害+{0}%，<br>攻擊後，賦予自身「技能傷害-{1}%」直到行動結束2次為止。",
+      "summary": "重擊傷害上升。<br>攻擊後，自身技能傷害下降。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000904,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001106,
+          "description": "",
+          "value": 3000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [400, 425, 450, 475, 500],
+      "has_stun": true,
+      "stun_values": [35, 37, 39, 41, 43],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "淨雪與曙光的聖歌",
+      "description": "攻擊前，解除自身減弱效果與異常狀態，<br>攻擊後，賦予自身「減弱效果無效」，直到行動結束3次為止。",
+      "summary": "攻擊前，解除自身減弱效果與異常狀態。<br>攻擊後，賦予自身減弱效果無效。",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001007,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001107,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001108,
+          "description": "[自身/3次/減益無效]",
+          "value": 0
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [400, 400, 400, 425, 450, 475, 500],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "除厄DE運氣上升！",
+      "description": "以技能擊破時，賦予自身「回合開始時，解除減弱效果」，直到行動開始1次為止，並賦予自身「重擊率+{0}%」，直到行動結束1次為止。",
+      "effects": [
+        {
+          "id": 72000944,
+          "description": "[自身/擊破時/重擊率上升]",
+          "value": 10000
+        },
+        {
+          "id": 72000949,
+          "description": "擊破時，賦予解除減弱效果（1次）。",
+          "value": 10000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "良機之後福將至",
+      "description": "重擊攻擊後，賦予自身「技能傷害+{0}%」（上限30%）。",
+      "effects": [
+        {
+          "id": 72000945,
+          "description": "[自身/重擊時/給予傷害上升（上限30%）]",
+          "value": 1000
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
+  },
+  {
     "id": 10301,
     "name": "繆羽",
     "title": "【南國冒險者】",
@@ -3294,6 +3507,207 @@
     "start_at": "2024-01-25T03:00:00.000Z"
   },
   {
+    "id": 29202,
+    "name": "愛夏",
+    "title": "【高貴之花】",
+    "full_name": "愛夏‧阿圖爾",
+    "base_character": "愛夏",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "BOLT",
+    "role": "DEFENDER",
+    "initial_rarity": 3,
+    "acquisition_text": "只要還有人需要藥品，\n我就會以藥師的身分為大家服務──！",
+    "profile": {
+      "voice_actor": "Marina Inoue",
+      "voice_text": "這是我第一次進城堡。 \n希望這身打扮不會很奇怪……",
+      "description": "溫和的治癒系鍊金術士。\n以某個事件為契機，因具備藥的知識而受到賞識成為了王宮的藥師。這身服裝是發放給她的工作服。\n立場與裝束雖已改變，但善解人意地為妹妹著想的個性一如既往。",
+      "origin_game": "愛夏的鍊金工房 ～黃昏大地之鍊金術士～"
+    },
+    "gift_color": {
+      "received": "藍",
+      "given": "紫"
+    },
+    "battle_item_trait": [
+      {
+        "id": 10,
+        "name": "守護之祝福",
+        "category": "ENHANCE",
+        "description": "賦予「物防上升{0}%」與「魔防上升{1}%」，直到被攻擊1次為止。",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "賦予「物防上升{0}%」，直到被攻擊1次為止。",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "賦予「魔防上升{0}%」，直到被攻擊1次為止。",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "雷之詛咒",
+        "category": "WEAKENING",
+        "description": "賦予目標「雷屬性耐性下降{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000061,
+            "description": "賦予目標「雷屬性耐性下降{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 9,
+        "name": "雷傷害上升",
+        "category": "ATTACK",
+        "description": "雷屬性技能傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "雷屬性傷害上升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 199,
+        "spd": 226,
+        "patk": 45,
+        "matk": 59,
+        "pdef": 63,
+        "mdef": 63
+      },
+      "growth": {
+        "hp": 1990,
+        "spd": 0,
+        "patk": 450,
+        "matk": 590,
+        "pdef": 630,
+        "mdef": 630
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 5,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "多納之杖",
+      "description": "攻擊後，賦予自身「受到自身HP最大值25%以下的傷害時，所受傷害無效」，直到目標受1次攻擊為止。",
+      "summary": "攻擊後，賦予自身HP最大值25%以下的傷害無效。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001120,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [74, 78, 83, 87, 92],
+      "has_stun": true,
+      "stun_values": [8, 8, 9, 9, 10],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "雷華之盾",
+      "description": "賦予我方全體「受到自身HP最大值15%以下的傷害時，所受傷害無效」，直到目標受1次攻擊為止，<br>並回復目標的HP{1}%。",
+      "summary": "賦予我方全體受到自身HP最大值15%以下的傷害無效。回復目標的HP。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001121,
+          "description": "",
+          "value": 0
+        },
+        {
+          "id": 91000925,
+          "description": "",
+          "value": 500
+        }
+      ],
+      "attribute_type": "NONE",
+      "attribute": "BOLT",
+      "target": "ALLY",
+      "range": "ALL",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "千花萬雷",
+      "description": "攻擊後，賦予我方全體「受到自身HP最大值40%以下的傷害時，所受傷害無效」，直到目標受1次攻擊為止。",
+      "summary": "攻擊後，賦予我方全體受到自身HP最大值40%以下的傷害無效。",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001122,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "王宮式急救術",
+      "description": "非常容易成為敵人的目標，<br>受到攻擊時，回復自身HP{0}%。",
+      "effects": [
+        {
+          "id": 72000950,
+          "description": "[自身/HP回復]",
+          "value": 1000
+        },
+        {
+          "id": 72000914,
+          "description": "被鎖定機率+100％。",
+          "value": 10000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "麻痺抵抗上升",
+      "description": "麻痺耐性+{0}%。",
+      "effects": [
+        {
+          "id": 72000905,
+          "description": "[自身/時常/麻痺耐性上升]",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
+  },
+  {
     "id": 29301,
     "name": "薇爾貝兒",
     "title": "【Magical Trick Star】",
@@ -4856,6 +5270,204 @@
     "start_at": "2024-01-25T03:00:00.000Z"
   },
   {
+    "id": 30902,
+    "name": "愛絲卡",
+    "title": "【Sweet Monochrome】",
+    "full_name": "愛絲卡‧梅莉耶",
+    "base_character": "愛絲卡",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "STAB",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "主人，歡迎回來！\n是……是這種感覺嗎？",
+    "profile": {
+      "voice_actor": "Rie Murakawa",
+      "voice_text": "這衣服真的太可愛了。\n看起來適合我嗎？",
+      "description": "既開朗又認真的鍊金術士。\n蘭塔納王國每年都會舉行贈送巧克力給意中人的慶典「菩提樹祭」，擁有高超烘焙手腕的愛絲卡便扛下了炒熱氣氛的重責大任。\n為了送巧克力給對自己來說很重要的人，她穿上符合慶典氣氛的服飾展開奮鬥。",
+      "origin_game": "愛絲卡＆羅吉的鍊金工房 ～黃昏天空之鍊金術士～"
+    },
+    "gift_color": {
+      "received": "紅",
+      "given": "藍"
+    },
+    "battle_item_trait": [
+      {
+        "id": 4,
+        "name": "突之祝福",
+        "category": "ATTACK",
+        "description": "突屬性傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "突屬性傷害上升{0}%。",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "突之盾",
+        "category": "ENHANCE",
+        "description": "賦予目標「突屬性耐性上升{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000072,
+            "description": "賦予目標「突屬性耐性上升{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 14,
+        "name": "物理破防傷害上升",
+        "category": "ATTACK",
+        "description": "物理攻擊的破防傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000013,
+            "description": "物理屬性攻擊破防傷害上升{0}%。",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 148,
+        "spd": 247,
+        "patk": 61,
+        "matk": 52,
+        "pdef": 45,
+        "mdef": 44
+      },
+      "growth": {
+        "hp": 1480,
+        "spd": 0,
+        "patk": 610,
+        "matk": 520,
+        "pdef": 450,
+        "mdef": 440
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 5
+      }
+    },
+    "skill_1": {
+      "name": "蒼穹之叉",
+      "description": "攻擊後，賦予自身「破防傷害+{0}%」，直到行動結束1次為止。",
+      "summary": "攻擊後，自身破防傷害上升。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000908,
+          "description": "",
+          "value": 4000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [41, 43, 46, 48, 51],
+      "has_stun": true,
+      "stun_values": [16, 17, 18, 19, 20],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "爆震斷株",
+      "description": "攻擊後，賦予目標「所受物理攻擊傷害+{0}%」，直到受2次攻擊為止。<br>目標破防時，再賦予「所受物理攻擊傷害+{1}%」，直到受2次攻擊為止。",
+      "summary": "攻擊後，目標所受物理攻擊傷害上升。目標破防時，目標所受物理攻擊傷害上升。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001148,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001149,
+          "description": "",
+          "value": 3000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [151, 160, 169, 178, 188],
+      "has_stun": true,
+      "stun_values": [117, 124, 131, 138, 146],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "自製蘋果派",
+      "description": "攻擊後，賦予目標「所受物理攻擊傷害+{0}%」，直到受2次攻擊為止。<br>目標破防時，賦予物攻最高的我方「物攻+{1}%」，直到行動結束1次為止。",
+      "summary": "攻擊後，目標所受物理攻擊傷害上升。<br>目標破防時，我方1人超物攻上升。",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001148,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001162,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [320, 320, 320, 340, 360, 380, 400],
+      "has_stun": true,
+      "stun_values": [300, 300, 300, 318, 337, 356, 375],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "我會再努力一下！",
+      "description": "攻擊目標未破防時，賦予自身「破防傷害+{0}%」，直到行動1次為止。",
+      "effects": [
+        {
+          "id": 72000957,
+          "description": "[自身/ブレイクしなかった時/1回/ブレイクダメージアップ]",
+          "value": 3000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "破壞之力",
+      "description": "破防傷害+{0}%",
+      "effects": [
+        {
+          "id": 72000959,
+          "description": "[自身/常時/ブレイクダメージアップ]",
+          "value": 1500
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
+  },
+  {
     "id": 31001,
     "name": "羅吉",
     "title": "【黃昏鍊金劍】",
@@ -5044,6 +5656,199 @@
     "start_at": "2024-01-25T03:00:00.000Z"
   },
   {
+    "id": 31002,
+    "name": "羅吉",
+    "title": "【黃昏騎士團】",
+    "full_name": "羅吉克斯‧菲克薩立歐",
+    "base_character": "羅吉",
+    "is_alchemist": false,
+    "gender": "男性",
+    "attribute": "BOLT",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "我想替朝夢想勇往直前的人──\n助上一臂之力。",
+    "profile": {
+      "voice_actor": "Kaito Ishikawa",
+      "voice_text": "既然要與這個國家的騎士合作，\n我就換了套服裝，以免我太過顯眼。",
+      "description": "待人和善且樂於助人的鍊金術士。\n對這世界上的無人之境甚感興趣，因此正在調查阻礙路途的頂獸。在過程中與王國騎士攜手互助，自己也穿上了宛如騎士般的服裝。\n他被尤娜的騎士道深深打動，下定決心也要為人們而戰。",
+      "origin_game": "愛絲卡＆羅吉的鍊金工房 ～黃昏天空之鍊金術士～"
+    },
+    "gift_color": {
+      "received": "綠",
+      "given": "黃"
+    },
+    "battle_item_trait": [
+      {
+        "id": 49,
+        "name": "追擊強化",
+        "category": "ATTACK",
+        "description": "對破防狀態的敵人傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "對破防狀態的敵人傷害上升{0}%。",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "雷之詛咒",
+        "category": "WEAKENING",
+        "description": "賦予目標「雷屬性耐性下降{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000061,
+            "description": "賦予目標「雷屬性耐性下降{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 15,
+        "name": "魔法破防傷害上升",
+        "category": "ATTACK",
+        "description": "魔法攻擊的破防傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000014,
+            "description": "魔法屬性攻擊破防傷害上升{0}%。",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 142,
+        "spd": 251,
+        "patk": 53,
+        "matk": 60,
+        "pdef": 49,
+        "mdef": 45
+      },
+      "growth": {
+        "hp": 1420,
+        "spd": 0,
+        "patk": 530,
+        "matk": 600,
+        "pdef": 490,
+        "mdef": 450
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 5,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "閃電斬",
+      "description": "攻擊後，賦予自身「破防傷害+{0}%」，直到行動結束2次為止。",
+      "summary": "攻擊後，自身破防傷害上升。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001135,
+          "description": "",
+          "value": 2500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [37, 39, 41, 43, 46],
+      "has_stun": true,
+      "stun_values": [15, 15, 16, 17, 18],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "電漿伏特",
+      "description": "目標破防時，賦予我方魔攻最高的1人「重擊率+{0}%」，\n直到行動結束1次為止。",
+      "summary": "目標破防時，賦予我方魔攻最高的1人重擊率上升。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001144,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [146, 155, 164, 173, 182],
+      "has_stun": true,
+      "stun_values": [116, 123, 130, 137, 145],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "突破急襲",
+      "description": "攻擊後，賦予目標「所受魔法攻擊傷害+{0}%」，直到受1次攻擊為止。<br>目標破防時，賦予我方魔攻最高的1人「重擊率+{1}%」，直到行動結束1次為止。",
+      "summary": "攻擊後，賦予目標所受魔法攻擊傷害上升。<br>目標破防時，賦予我方魔攻最高的1人重擊率上升。",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001145,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001144,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [192, 192, 192, 204, 216, 228, 240],
+      "has_stun": true,
+      "stun_values": [120, 120, 120, 127, 135, 142, 150],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "還有空看其他地方？",
+      "description": "攻擊目標的破防量表在50%以上時，破防傷害+{0}%。",
+      "effects": [
+        {
+          "id": 72000956,
+          "description": "攻撃対象のブレイクゲージ50%以上時ブレイクダメージアップ付与",
+          "value": 3000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "破壞之力",
+      "description": "破防傷害+{0}%。",
+      "effects": [
+        {
+          "id": 72000959,
+          "description": "[自身/常時/ブレイクダメージアップ]",
+          "value": 1500
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
+  },
+  {
     "id": 32201,
     "name": "夏莉絲堤菈",
     "title": "【族長之女】",
@@ -5229,6 +6034,586 @@
       ]
     },
     "start_at": "2024-01-25T03:00:00.000Z"
+  },
+  {
+    "id": 32202,
+    "name": "夏莉絲堤菈",
+    "title": "【校園少女】",
+    "full_name": "夏莉絲堤菈",
+    "base_character": "夏莉絲堤菈",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "FIRE",
+    "role": "SUPPORTER",
+    "initial_rarity": 3,
+    "acquisition_text": "適、適合我嗎？\n……呵呵，謝謝。那麼，走吧！",
+    "profile": {
+      "voice_actor": "Kotori Koiwai",
+      "voice_text": "我平時不會穿這麼可愛的衣服…… \n適合我嗎……？",
+      "description": "背負一族使命的鍊金術士。\n與同為鍊金術士的夏露羅蒂是在原本的世界同甘共苦的摯友。\n這身服裝也是配合她的穿搭。\n在這個世界也能與摯友一起冒險，這讓她期待不已。",
+      "origin_game": "夏莉的鍊金工房 ～黃昏海洋之鍊金術士～"
+    },
+    "gift_color": {
+      "received": "藍",
+      "given": "紅"
+    },
+    "battle_item_trait": [
+      {
+        "id": 16,
+        "name": "突之詛咒",
+        "category": "WEAKENING",
+        "description": "賦予目標「突屬性耐性下降{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000065,
+            "description": "賦予目標「突屬性耐性下降{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "魔防之祝福",
+        "category": "ENHANCE",
+        "description": "賦予「魔防上升{0}%」，直到被攻擊1次為止。",
+        "effects": [
+          {
+            "id": 3000051,
+            "description": "賦予「魔防上升{0}%」，直到被攻擊1次為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 6,
+        "name": "火傷害上升",
+        "category": "ATTACK",
+        "description": "火屬性技能傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "火屬性傷害上升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 139,
+        "spd": 243,
+        "patk": 48,
+        "matk": 57,
+        "pdef": 56,
+        "mdef": 58
+      },
+      "growth": {
+        "hp": 1390,
+        "spd": 0,
+        "patk": 480,
+        "matk": 570,
+        "pdef": 560,
+        "mdef": 580
+      },
+      "resistance": {
+        "fire": 5,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "究極閃耀",
+      "description": "攻擊後，回復我方全體HP{0}%。",
+      "summary": "攻擊後，回復我方全體HP。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000925,
+          "description": "",
+          "value": 500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [57, 60, 64, 67, 71],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "混合歡呼",
+      "description": "回復後，賦予目標「所受傷害-{0}%」，直到受1次攻擊為止。",
+      "summary": "回復後，目標所受傷害下降。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001069,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ALLY",
+      "range": "ALL",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": true,
+      "recovery_values": [85, 87, 89, 91, 93],
+      "wait": 200
+    },
+    "burst": {
+      "name": "稜鏡瞄準",
+      "description": "攻擊後，賦予我方全體「所受傷害-{0}%」，直到受1次攻擊為止，<br>並賦予我方全體「所受單體攻擊傷害-{1}%」，直到受1次攻擊為止。",
+      "summary": "攻擊後，我方全體所受傷害下降。<br>我方全體受到單體攻擊的傷害下降。",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001069,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001146,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "滿溢而出的庇護之力Ⅰ",
+      "description": "我方全體所受傷害-{0}%。",
+      "effects": [
+        {
+          "id": 72000951,
+          "description": "[我方全體/時常/所受傷害下降]",
+          "value": 500
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "睡眠抵抗上升",
+      "description": "睡眠耐性+{0}%。",
+      "effects": [
+        {
+          "id": 72000928,
+          "description": "[自身/時常/睡眠耐性上升]",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
+  },
+  {
+    "id": 32301,
+    "name": "夏露羅蒂",
+    "title": "【野心勃勃的女孩】",
+    "full_name": "夏露羅蒂‧艾爾蜜娜思",
+    "base_character": "夏露羅蒂",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "STRIKE",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "嗯？難道說該我出場了？ \n我的時代終於到來了呢！",
+    "profile": {
+      "voice_actor": "Sumire Uesaka",
+      "voice_text": "有煩惱的話，\n請一定要來委託鍊金術士夏露羅蒂！\n我會迅速解決的！",
+      "description": "懷抱巨大野心的鍊金術士。\n於故鄉斯特拉多與夏莉絲堤菈相遇，兩人在共同生活中成了摯友。\n懷抱著要在這個世界成就一番大事的野心。\n個性開朗充滿活力，但也有時也會因不考慮後果而魯莽行事。",
+      "origin_game": "夏莉的鍊金工房 ～黃昏海洋之鍊金術士～"
+    },
+    "gift_color": {
+      "received": "紫",
+      "given": "黃"
+    },
+    "battle_item_trait": [
+      {
+        "id": 3,
+        "name": "打之祝福",
+        "category": "ATTACK",
+        "description": "打屬性傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "打屬性傷害上升{0}%。",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "剛力之詛咒",
+        "category": "WEAKENING",
+        "description": "賦予目標「所受物理攻擊傷害上升{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000047,
+            "description": "賦予目標「所受物理攻擊傷害上升{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 12,
+        "name": "破防中傷害上升",
+        "category": "ATTACK",
+        "description": "對破防狀態的敵人傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "對破防狀態的敵人傷害上升{0}%。",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 142,
+        "spd": 245,
+        "patk": 64,
+        "matk": 53,
+        "pdef": 46,
+        "mdef": 49
+      },
+      "growth": {
+        "hp": 1420,
+        "spd": 0,
+        "patk": 640,
+        "matk": 530,
+        "pdef": 460,
+        "mdef": 490
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 5,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "掃帚打擊",
+      "description": "攻擊後，賦予自身「破防傷害+{0}%」，直到行動結束1次為止，<br>並賦予目標「所受傷害+{1}%」，直到受1次攻擊為止。",
+      "summary": "攻擊後，自身破防傷害上升，<br>目標的所受傷害上升。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000908,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91000901,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [43, 45, 48, 50, 53],
+      "has_stun": true,
+      "stun_values": [16, 17, 18, 19, 20],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "混合「海膽桶子」",
+      "description": "目標為破防狀態時，傷害+{0}%。",
+      "summary": "目標為破防狀態時，傷害上升。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000906,
+          "description": "",
+          "value": 4000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [92, 97, 103, 109, 115],
+      "has_stun": true,
+      "stun_values": [47, 49, 52, 55, 58],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "高熱炎燒",
+      "description": "目標破防時，賦予目標「所受傷害+{0}%」，直到受1次攻擊為止。",
+      "summary": "目標破防時，目標所受傷害上升。",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91000909,
+          "description": "",
+          "value": 6000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [192, 192, 192, 204, 216, 228, 240],
+      "has_stun": true,
+      "stun_values": [120, 120, 120, 127, 135, 142, 150],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "包在羅蒂身上！",
+      "description": "攻擊目標破防時，賦予自身「物攻+{0}%」（上限30%）。",
+      "effects": [
+        {
+          "id": 72000952,
+          "description": "[自身/破防時/物攻上升（上限30%）]",
+          "value": 1500
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "盲目抵抗上升",
+      "description": "盲目耐性+{0}%。",
+      "effects": [
+        {
+          "id": 72000906,
+          "description": "[自身/時常/盲目耐性上升]",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
+  },
+  {
+    "id": 33001,
+    "name": "娜蒂",
+    "title": "【微笑的母親】",
+    "full_name": "娜蒂‧艾爾蜜娜思",
+    "base_character": "娜蒂",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "STRIKE",
+    "role": "SUPPORTER",
+    "initial_rarity": 1,
+    "acquisition_text": null,
+    "profile": {
+      "voice_actor": "Aya Hisakawa",
+      "voice_text": "我是娜蒂‧艾爾蜜娜思。這是我女兒夏露羅蒂。\n還請多關照了！",
+      "description": "夏露羅蒂的母親。 \n平時默默地支持著女兒的生活，但有時也會自己跑出去冒險。 \n溫柔地為女兒著想，比任何人都相信夏露羅蒂。給人一種文靜穩重的感覺，卻意外地大膽。",
+      "origin_game": "夏莉的鍊金工房 ～黃昏海洋之鍊金術士～"
+    },
+    "gift_color": {
+      "received": "紫",
+      "given": "紅"
+    },
+    "battle_item_trait": [
+      {
+        "id": 46,
+        "name": "全體回復獎勵",
+        "category": "RECOVERY",
+        "description": "全體回復時賦予的HP回復量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全體回復時賦予的HP回復量上升{0}%。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "風之盾",
+        "category": "ENHANCE",
+        "description": "賦予目標「風屬性耐性上升{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000069,
+            "description": "賦予目標「風屬性耐性上升{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 39,
+        "name": "回復量上升",
+        "category": "RECOVERY",
+        "description": "賦予的回復量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000031,
+            "description": "回復量上升{0}%。",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 132,
+        "spd": 211,
+        "patk": 52,
+        "matk": 49,
+        "pdef": 47,
+        "mdef": 51
+      },
+      "growth": {
+        "hp": 1320,
+        "spd": 0,
+        "patk": 520,
+        "matk": 490,
+        "pdef": 470,
+        "mdef": 510
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 5,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "必殺斬刀",
+      "description": "攻擊後，回復自身HP{0}%。",
+      "summary": "攻擊後，回復自身HP。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000926,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [92, 97, 103, 109, 115],
+      "has_stun": true,
+      "stun_values": [10, 10, 11, 11, 12],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "七倍蜂蜜",
+      "description": "解除我方1人的回復無效狀態，<br>並賦予目標「回合開始時，HP回復+{1}%」，直到行動開始2次為止。",
+      "summary": "解除我方1人的回復無效狀態，<br>並賦予目標再生。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001137,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001093,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "NONE",
+      "attribute": "STRIKE",
+      "target": "ALLY",
+      "range": "ONE",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "歡迎回家的魔法",
+      "description": "回復前，解除目標的回復無效狀態，<br>回復後，賦予目標「回合開始時，HP回復+{1}%」，直到行動開始3次為止。",
+      "summary": "回復前，解除目標的回復無效狀態，<br>回復後，賦予目標再生。",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001137,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001138,
+          "description": "",
+          "value": 1500
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ALLY",
+      "range": "ONE",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": true,
+      "recovery_values": [400, 400, 400, 412, 425, 437, 450],
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "活性之力",
+      "description": "自身所受HP回復量+{0}%。",
+      "effects": [
+        {
+          "id": 72000953,
+          "description": "[自身/所受回復量上升]",
+          "value": 1000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "燒傷抵抗上升",
+      "description": "燒傷耐性+{0}%。",
+      "effects": [
+        {
+          "id": 72000932,
+          "description": "[自身/時常/燒傷耐性上升]",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
   },
   {
     "id": 33401,
@@ -8309,6 +9694,214 @@
     "start_at": "2024-03-25T03:00:00.000Z"
   },
   {
+    "id": 41501,
+    "name": "派翠夏",
+    "title": "【傳遞聖善夜】",
+    "full_name": "派翠夏‧阿貝爾海姆",
+    "base_character": "派翠夏",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "SLASH",
+    "role": "DEFENDER",
+    "initial_rarity": 3,
+    "acquisition_text": "我知道了。為了不負各位的期待，<br>我一定會完成的──！",
+    "profile": {
+      "voice_actor": "Naomi Ohzora",
+      "voice_text": "讓人們露出笑容的這份使命……<br>既然決定要做，就得堅持到底。",
+      "description": "穿著「星誕祭」服裝的少女。暱稱為「派蒂」。 \n與萊莎和塔奧相識。為了報答照顧過自己的人們，決心與蕾斯娜一起擔任「星誕使者」。 \n家教很好，個性認真且注重禮貌。在身為騎士的父親指導下，練就了劍術本領。",
+      "origin_game": "萊莎的鍊金工房２ ～失落傳說與秘密妖精～"
+    },
+    "gift_color": {
+      "received": "黃",
+      "given": "藍"
+    },
+    "battle_item_trait": [
+      {
+        "id": 12,
+        "name": "物防之祝福",
+        "category": "ENHANCE",
+        "description": "賦予「物防上升{0}%」，直到被攻擊1次為止。",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "賦予「物防上升{0}%」，直到被攻擊1次為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "單體回復獎勵",
+        "category": "RECOVERY",
+        "description": "單體回復時賦予的HP回復量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000073,
+            "description": "單體回復時賦予的HP回復量上升{0}%。",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 34,
+        "name": "全耐性上升【殘血】",
+        "category": "ENHANCE",
+        "description": "HP在50%以下時，所受傷害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000103,
+            "description": "HP在50%以下時，傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 204,
+        "spd": 242,
+        "patk": 59,
+        "matk": 45,
+        "pdef": 60,
+        "mdef": 60
+      },
+      "growth": {
+        "hp": 2040,
+        "spd": 0,
+        "patk": 590,
+        "matk": 450,
+        "pdef": 600,
+        "mdef": 600
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 5,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "雪拔劍",
+      "description": "攻擊後，賦予自身「所受傷害-{0}%」，直到受1次攻擊為止，<br>並回復自身HP{1}%。",
+      "summary": "攻擊後，自身所受傷害下降，<br>並回復自身HP。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001038,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91000926,
+          "description": "",
+          "value": 1500
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [58, 61, 65, 68, 72],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "雪花之形",
+      "description": "攻擊後，賦予自身「所受傷害-{0}%」，直到受2次攻擊為止，<br>並賦予自身「還擊（雪拔劍）」，直到還擊2次為止（不可重複）。",
+      "summary": "攻擊後，自身所受傷害下降。<br>攻擊後，賦予自身還擊。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000997,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001086,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [197, 209, 221, 233, 246],
+      "has_stun": true,
+      "stun_values": [29, 30, 32, 34, 36],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "無瑕暴風雪",
+      "description": "攻擊前，解除自身減弱效果，<br>攻擊後，回復自身HP{1}%。",
+      "summary": "攻擊前，解除自身減弱效果，<br>攻擊後，回復自身HP。",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001007,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91000926,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [400, 400, 400, 425, 450, 475, 500],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "使者變身",
+      "description": "非常容易成為敵人的目標。\n還擊成功時，賦予自身「所受傷害-{0}%」（上限20%）。",
+      "effects": [
+        {
+          "id": 72000939,
+          "description": "",
+          "value": 500
+        },
+        {
+          "id": 72000914,
+          "description": "被鎖定機率+100％。",
+          "value": 10000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "盲目抵抗上升",
+      "description": "盲目耐性+{0}%。",
+      "effects": [
+        {
+          "id": 72000906,
+          "description": "[自身/時常/盲目耐性上升]",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2024-04-15T03:00:00.000Z"
+  },
+  {
     "id": 43101,
     "name": "蕾斯娜",
     "title": "【追尋未來夢想的人】",
@@ -8677,6 +10270,194 @@
       ]
     },
     "start_at": "2024-01-25T03:00:00.000Z"
+  },
+  {
+    "id": 43103,
+    "name": "蕾斯娜",
+    "title": "【Starry Heavens Gift】",
+    "full_name": "蕾斯娜‧修特涅利希特",
+    "base_character": "蕾斯娜",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "ICE",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "依循神聖之星的指引，<br>送給大家至高無上的祝福──！",
+    "profile": {
+      "voice_actor": "Saho Shirasu",
+      "voice_text": "這是用於向人們送出祝福的服裝。<br>我也要成為配得上這套服裝的鍊金術士！",
+      "description": "穿著「星誕祭」服裝的鍊金術士。 \n星誕祭是慶祝這個星球誕生的活動。活動中會有身穿特別服裝的「星誕使者」分送人們禮物。 \n蕾斯娜為了向平日照顧自己的人們表達感謝之情，幹勁十足地決定擔負起星誕使者的使命。",
+      "origin_game": "蕾斯萊莉婭娜的鍊金工房 ～忘卻的鍊金術與極夜的解放者～"
+    },
+    "gift_color": {
+      "received": "紅",
+      "given": "紫"
+    },
+    "battle_item_trait": [
+      {
+        "id": 51,
+        "name": "破壞力上升",
+        "category": "ATTACK",
+        "description": "戰鬥道具賦予的傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "戰鬥道具賦予的傷害上升{0}%。",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "斬之盾",
+        "category": "ENHANCE",
+        "description": "賦予目標「斬屬性耐性上升{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000070,
+            "description": "賦予目標「斬屬性耐性上升{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "技能威力上升",
+        "category": "ATTACK",
+        "description": "技能威力上升{0}%。",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "技能威力上升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 150,
+        "spd": 239,
+        "patk": 52,
+        "matk": 69,
+        "pdef": 45,
+        "mdef": 49
+      },
+      "growth": {
+        "hp": 1500,
+        "spd": 0,
+        "patk": 520,
+        "matk": 690,
+        "pdef": 450,
+        "mdef": 490
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 5,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "彩虹之星",
+      "description": "攻擊後，賦予我方全體「重擊傷害+{0}%」（上限30%）。",
+      "summary": "攻擊後，我方全體重擊傷害上升（上限30%）。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001114,
+          "description": "重擊傷害+5%（最多累積6次）。",
+          "value": 500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [73, 77, 82, 86, 91],
+      "has_stun": true,
+      "stun_values": [7, 7, 7, 7, 8],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "星弧雪風",
+      "description": "攻擊前，超高機率賦予目標「僵硬」，直到受2次攻擊為止。",
+      "summary": "攻擊前，超高機率賦予目標僵硬。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001099,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [241, 256, 271, 286, 301],
+      "has_stun": true,
+      "stun_values": [30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "冰柱盛禮",
+      "description": "此次攻擊重擊率+100%。<br>攻擊後，超高機率賦予目標「僵硬」，直到受2次攻擊為止。",
+      "summary": "此次攻擊重擊率上升。<br>攻擊後，超高機率賦予目標僵硬。",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001100,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "滿溢而出的重擊之力Ⅱ",
+      "description": "我方全體重擊傷害+{0}%。",
+      "effects": [
+        {
+          "id": 72000946,
+          "description": "[我方全體/時常/重擊傷害上升]",
+          "value": 2000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "異常狀態抵抗上升",
+      "description": "異常狀態耐性+{0}%。",
+      "effects": [
+        {
+          "id": 72000943,
+          "description": "[自身/時常/異常狀態耐性上升]",
+          "value": 2000
+        }
+      ]
+    },
+    "start_at": "2024-04-15T03:00:00.000Z"
   },
   {
     "id": 43201,
@@ -9093,6 +10874,407 @@
       ]
     },
     "start_at": "2024-02-09T03:00:00.000Z"
+  },
+  {
+    "id": 43301,
+    "name": "羅曼",
+    "title": "【Romance Hearts】",
+    "full_name": "羅曼‧卡爾曼",
+    "base_character": "羅曼",
+    "is_alchemist": false,
+    "gender": "男性",
+    "attribute": "AIR",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "來吧，我的同伴！\n和我一起向夢想邁進吧！",
+    "profile": {
+      "voice_actor": "Yuya Hirose",
+      "voice_text": "我叫羅曼‧卡爾曼。是個微不足道的冒險者。\n絕不是什麼可疑分子啊。哈哈哈。",
+      "description": "蕾斯娜在王都遇到，自稱為「帥氣冒險者」。 \n懷抱著想復興鍊金術的野心，將擁有相同目標的蕾斯娜親暱地稱呼為「同伴」。 \n性格爽朗又吊兒郎當，不過身為冒險者的本領卻相當不凡，無論什麼事都能靈活應對。",
+      "origin_game": "蕾斯萊莉婭娜的鍊金工房 ～忘卻的鍊金術與極夜的解放者～"
+    },
+    "gift_color": {
+      "received": "紅",
+      "given": "紫"
+    },
+    "battle_item_trait": [
+      {
+        "id": 8,
+        "name": "風之祝福",
+        "category": "ATTACK",
+        "description": "風屬性傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "風屬性傷害上升{0}%。",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "風之詛咒",
+        "category": "WEAKENING",
+        "description": "賦予目標「風屬性耐性下降{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000062,
+            "description": "賦予目標「風屬性耐性下降{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 8,
+        "name": "風傷害上升",
+        "category": "ATTACK",
+        "description": "風屬性技能傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "風屬性傷害上升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 150,
+        "spd": 240,
+        "patk": 51,
+        "matk": 71,
+        "pdef": 43,
+        "mdef": 52
+      },
+      "growth": {
+        "hp": 1500,
+        "spd": 0,
+        "patk": 510,
+        "matk": 710,
+        "pdef": 430,
+        "mdef": 520
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 5,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "狂風",
+      "description": "攻擊後，賦予自身「回合開始時，HP回復+{0}%」，直到行動開始3次為止。",
+      "summary": "攻擊後，賦予自身再生。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001123,
+          "description": "",
+          "value": 500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [72, 76, 81, 85, 90],
+      "has_stun": true,
+      "stun_values": [7, 7, 7, 7, 8],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "風助急攻",
+      "description": "自身的HP在70%以上時，傷害+{0}%，<br>HP為最大值時，傷害再+{1}%。",
+      "summary": "自身的HP在70%以上時，傷害上升，<br>自身的HP為最大值時，傷害上升。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000947,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001044,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "猛禽之翼",
+      "description": "攻擊後，賦予自身「回合開始時，HP回復+{0}%」，<br>直到行動開始5次為止，<br>並且賦予自身「這就是我的男子氣概」（不可重複）。",
+      "summary": "攻擊後，賦予自身再生，<br>並賦予自身「這就是我的男子氣概」。",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001124,
+          "description": "",
+          "value": 500
+        },
+        {
+          "id": 91001133,
+          "description": "",
+          "value": 500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [400, 400, 400, 425, 450, 475, 500],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "這就是我的男子氣概",
+      "description": "獲得HP回復時，賦予自身「技能傷害+{0}%」（上限120%）。",
+      "effects": [
+        {
+          "id": 72000947,
+          "description": "獲得HP回復時，賦予自身「技能傷害+{0}%」（上限120%）。",
+          "value": 500
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "擊碎與治癒Ⅰ",
+      "description": "以技能擊破時，回復自身HP{0}%。",
+      "effects": [
+        {
+          "id": 72000948,
+          "description": "[自身/擊破時/HP回復]",
+          "value": 1500
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
+  },
+  {
+    "id": 43401,
+    "name": "尤娜",
+    "title": "【White Royal Guard】",
+    "full_name": "尤娜‧維茨",
+    "base_character": "尤娜",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "STAB",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "我是蘭塔納王國騎士尤娜‧維茨。\n這身純白鎧甲，將成為保護你的力量。",
+    "profile": {
+      "voice_actor": "Ikumi Hasegawa",
+      "voice_text": "我是尤娜，是效命於王宮的白夜騎士。\n若需要我的力量，我願意隨時為你效力。",
+      "description": "隸屬於「白夜騎士」，他們在王國騎士中屬於職責相當重大的一群，負責護衛王族及清除危險魔物等等。\n她在蘭塔納是名聲響亮的「獵龍者」，\n甚至還有以她為題材的冒險故事。\n雖然英氣凜然又沉默寡言，但內心很溫柔，十分關懷人民。",
+      "origin_game": "蕾斯萊莉婭娜的鍊金工房 ～忘卻的鍊金術與極夜的解放者～"
+    },
+    "gift_color": {
+      "received": "藍",
+      "given": "黃"
+    },
+    "battle_item_trait": [
+      {
+        "id": 16,
+        "name": "突之詛咒",
+        "category": "WEAKENING",
+        "description": "賦予目標「突屬性耐性下降{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000065,
+            "description": "賦予目標「突屬性耐性下降{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "name": "破壞力上升",
+        "category": "ATTACK",
+        "description": "戰鬥道具賦予的傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "戰鬥道具賦予的傷害上升{0}%。",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 5,
+        "name": "突傷害上升",
+        "category": "ATTACK",
+        "description": "突屬性技能傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "突屬性傷害上升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 150,
+        "spd": 223,
+        "patk": 63,
+        "matk": 55,
+        "pdef": 47,
+        "mdef": 47
+      },
+      "growth": {
+        "hp": 1500,
+        "spd": 0,
+        "patk": 630,
+        "matk": 550,
+        "pdef": 470,
+        "mdef": 470
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 5
+      }
+    },
+    "skill_1": {
+      "name": "雷厲風行",
+      "description": "攻擊後，賦予自身「敏捷+{0}%」（上限10%）。",
+      "summary": "攻擊後，自身的敏捷上升。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001147,
+          "description": "",
+          "value": 500
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [81, 86, 91, 96, 101],
+      "has_stun": true,
+      "stun_values": [8, 8, 9, 9, 10],
+      "has_recovery": false,
+      "wait": 75
+    },
+    "skill_2": {
+      "name": "雙利牙",
+      "description": "攻擊前，賦予自身「技能傷害+{0}%」（上限60%）。<br>目標的HP未滿50%時，傷害+{1}%。",
+      "summary": "攻擊前，自身的技能傷害上升。<br>目標的HP未滿50%時，傷害上升。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001140,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001141,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [261, 277, 293, 309, 326],
+      "has_stun": true,
+      "stun_values": [35, 37, 39, 41, 43],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "迴旋‧螺旋",
+      "description": "攻擊前，解除目標全部的所受傷害下降狀態，<br>並且賦予自身「技能傷害+{0}%」（不可重複）。<br>目標的HP未滿50%時，傷害+{1}%。",
+      "summary": "攻擊前，解除目標全部的所受傷害下降狀態，並且賦予自身技能傷害上升。目標的HP未滿50%時，傷害上升。",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001143,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001141,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001142,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [400, 400, 400, 425, 450, 475, 500],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "追擊與鬥爭之力Ⅲ",
+      "description": "攻擊目標為破防狀態時，技能傷害+{0}%。",
+      "effects": [
+        {
+          "id": 72000954,
+          "description": "[自身/攻撃対象がブレイク中/与ダメージアップ]",
+          "value": 4000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "吾之刃，非一蹴可幾",
+      "description": "以技能擊破時，賦予自身「物攻+{0}%」（上限30%）。",
+      "effects": [
+        {
+          "id": 72000955,
+          "description": "[自身/撃破時/物攻アップ(上限30%)]",
+          "value": 1000
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
   },
   {
     "id": 43801,

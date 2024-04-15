@@ -15079,5 +15079,6148 @@
     "image_medium": "Ingredient_0286_M",
     "start_at": "2024-04-04T03:00:00.000Z",
     "end_at": null
+  },
+  {
+    "id": 287,
+    "name": "Curious Aqua",
+    "rarity": 3,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 7,
+        "name": "Ice Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Ice skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "Boosts Ice damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Skill Power Up",
+        "category": "ATTACK",
+        "description": "Boosts skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "Boosts skill power by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 7,
+      "name": "Ryza's Challenge"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0287_S",
+    "image_medium": "Ingredient_0287_M",
+    "start_at": "2024-04-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 288,
+    "name": "Rainbow Wing Fragment",
+    "rarity": 3,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 13,
+        "name": "Mighty Curse",
+        "category": "WEAKENING",
+        "description": "Boosts physical damage target receives by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000047,
+            "description": "Boosts physical damage target receives by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Magic Curse",
+        "category": "WEAKENING",
+        "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 7,
+      "name": "Ryza's Challenge"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0288_S",
+    "image_medium": "Ingredient_0288_M",
+    "start_at": "2024-04-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 291,
+    "name": "Starry Night Grapes",
+    "rarity": 2,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 19,
+        "name": "Ice Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000060,
+            "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "All Recovery Bonus",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "Boosts HP recovery given to all allies by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 8,
+      "name": "Gifts on a Starry Night"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 803001,
+        "quest_name": "Gifts on a Starry Night 1",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      },
+      {
+        "quest_id": 803004,
+        "quest_name": "Gifts on a Starry Night 4",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      },
+      {
+        "quest_id": 803005,
+        "quest_name": "Gifts on a Starry Night 5",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      },
+      {
+        "quest_id": 803008,
+        "quest_name": "Gifts on a Starry Night 8",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      },
+      {
+        "quest_id": 803009,
+        "quest_name": "Gifts on a Starry Night 9",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      },
+      {
+        "quest_id": 803012,
+        "quest_name": "Gifts on a Starry Night 12",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      }
+    ],
+    "image_small": "Ingredient_0291_S",
+    "image_medium": "Ingredient_0291_M",
+    "start_at": "2024-04-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 292,
+    "name": "Starry Night Scissor",
+    "rarity": 2,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 14,
+        "name": "Slash Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Slash resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000063,
+            "description": "Reduces target's Slash resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Slash Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Slash resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000070,
+            "description": "Boosts target's Slash resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 8,
+      "name": "Gifts on a Starry Night"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 803002,
+        "quest_name": "Gifts on a Starry Night 2",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      },
+      {
+        "quest_id": 803004,
+        "quest_name": "Gifts on a Starry Night 4",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      },
+      {
+        "quest_id": 803006,
+        "quest_name": "Gifts on a Starry Night 6",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      },
+      {
+        "quest_id": 803008,
+        "quest_name": "Gifts on a Starry Night 8",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      },
+      {
+        "quest_id": 803010,
+        "quest_name": "Gifts on a Starry Night 10",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      },
+      {
+        "quest_id": 803012,
+        "quest_name": "Gifts on a Starry Night 12",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      }
+    ],
+    "image_small": "Ingredient_0292_S",
+    "image_medium": "Ingredient_0292_M",
+    "start_at": "2024-04-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 293,
+    "name": "Starry Night Ixora",
+    "rarity": 2,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 7,
+        "name": "Ice Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Ice damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "Boosts Ice damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "Critical Finish",
+        "category": "ENHANCE",
+        "description": "Boosts critical rate by {0}% for 1 turn.",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "Boosts critical rate by {0}% for 1 turn.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 8,
+      "name": "Gifts on a Starry Night"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 803003,
+        "quest_name": "Gifts on a Starry Night 3",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      },
+      {
+        "quest_id": 803004,
+        "quest_name": "Gifts on a Starry Night 4",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      },
+      {
+        "quest_id": 803007,
+        "quest_name": "Gifts on a Starry Night 7",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      },
+      {
+        "quest_id": 803008,
+        "quest_name": "Gifts on a Starry Night 8",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      },
+      {
+        "quest_id": 803011,
+        "quest_name": "Gifts on a Starry Night 11",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      },
+      {
+        "quest_id": 803012,
+        "quest_name": "Gifts on a Starry Night 12",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      }
+    ],
+    "image_small": "Ingredient_0293_S",
+    "image_medium": "Ingredient_0293_M",
+    "start_at": "2024-04-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 294,
+    "name": "Starry Night Tree",
+    "rarity": 3,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 27,
+        "name": "Single Attack Power Up",
+        "category": "ATTACK",
+        "description": "Boosts single-target skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000111,
+            "description": "Boosts skill power of single-target attacks by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Stab Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Stab resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000019,
+            "description": "Boosts Stab damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 8,
+      "name": "Gifts on a Starry Night"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 803009,
+        "quest_name": "Gifts on a Starry Night 9",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      },
+      {
+        "quest_id": 803012,
+        "quest_name": "Gifts on a Starry Night 12",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      }
+    ],
+    "image_small": "Ingredient_0294_S",
+    "image_medium": "Ingredient_0294_M",
+    "start_at": "2024-04-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 295,
+    "name": "Starry Night Amber",
+    "rarity": 3,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 7,
+        "name": "Ice Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Ice skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "Boosts Ice damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Recovery Boost [Resolve]",
+        "category": "RECOVERY",
+        "description": "Boosts recovery given by {0}% when HP is 50% or lower.",
+        "effects": [
+          {
+            "id": 3000107,
+            "description": "Boosts recovery given by {0}% when HP is 50% or lower.",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 8,
+      "name": "Gifts on a Starry Night"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 803010,
+        "quest_name": "Gifts on a Starry Night 10",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      },
+      {
+        "quest_id": 803012,
+        "quest_name": "Gifts on a Starry Night 12",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      }
+    ],
+    "image_small": "Ingredient_0295_S",
+    "image_medium": "Ingredient_0295_M",
+    "start_at": "2024-04-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 296,
+    "name": "Starry Night White Flower",
+    "rarity": 3,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 36,
+        "name": "Physical Resistance Up [Full]",
+        "category": "ENHANCE",
+        "description": "Reduces physical damage received by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000105,
+            "description": "Boosts physical damage resistance by {0}% when at full HP.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Single Recovery Boost",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to a single ally by {0}%.",
+        "effects": [
+          {
+            "id": 3000032,
+            "description": "Boosts single recovery by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 8,
+      "name": "Gifts on a Starry Night"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 803011,
+        "quest_name": "Gifts on a Starry Night 11",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      },
+      {
+        "quest_id": 803012,
+        "quest_name": "Gifts on a Starry Night 12",
+        "episode_id": 803,
+        "episode_name": "Gifts on a Starry Night"
+      }
+    ],
+    "image_small": "Ingredient_0296_S",
+    "image_medium": "Ingredient_0296_M",
+    "start_at": "2024-04-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 299,
+    "name": "New Year Bamboo",
+    "rarity": 2,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 12,
+        "name": "Stunned Damage Up",
+        "category": "ATTACK",
+        "description": "Boosts damage to stunned enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "Boosts damage to stunned enemies by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "Enhanced P./M. Resistance Up [D]",
+        "category": "ENHANCE",
+        "description": "Boosts potency of Received Physical Damage Down and Received Magic Damage Down given to Defenders by {0}%.",
+        "effects": [
+          {
+            "id": 3000029,
+            "description": "Boosts potency of Received Physical Damage Down and Received Magic Damage Down given to Defenders by {0}%.",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 9,
+      "name": "Marie's Fortune Frenzy!"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 904001,
+        "quest_name": "Marie's Fortune Frenzy! 1",
+        "episode_id": 904,
+        "episode_name": "Marie's Fortune Frenzy!"
+      },
+      {
+        "quest_id": 904004,
+        "quest_name": "Marie's Fortune Frenzy! 4",
+        "episode_id": 904,
+        "episode_name": "Marie's Fortune Frenzy!"
+      },
+      {
+        "quest_id": 904007,
+        "quest_name": "Marie's Fortune Frenzy! 7",
+        "episode_id": 904,
+        "episode_name": "Marie's Fortune Frenzy!"
+      },
+      {
+        "quest_id": 904010,
+        "quest_name": "Marie's Fortune Frenzy! 10",
+        "episode_id": 904,
+        "episode_name": "Marie's Fortune Frenzy!"
+      }
+    ],
+    "image_small": "Ingredient_0299_S",
+    "image_medium": "Ingredient_0299_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 300,
+    "name": "New Year Fruit",
+    "rarity": 2,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "Skill Power Up",
+        "category": "ATTACK",
+        "description": "Boosts skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "Boosts skill power by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Physical Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from physical attacks by {0}%.",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "Boosts physical damage resistance by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 9,
+      "name": "Marie's Fortune Frenzy!"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 904002,
+        "quest_name": "Marie's Fortune Frenzy! 2",
+        "episode_id": 904,
+        "episode_name": "Marie's Fortune Frenzy!"
+      },
+      {
+        "quest_id": 904005,
+        "quest_name": "Marie's Fortune Frenzy! 5",
+        "episode_id": 904,
+        "episode_name": "Marie's Fortune Frenzy!"
+      },
+      {
+        "quest_id": 904008,
+        "quest_name": "Marie's Fortune Frenzy! 8",
+        "episode_id": 904,
+        "episode_name": "Marie's Fortune Frenzy!"
+      },
+      {
+        "quest_id": 904010,
+        "quest_name": "Marie's Fortune Frenzy! 10",
+        "episode_id": 904,
+        "episode_name": "Marie's Fortune Frenzy!"
+      }
+    ],
+    "image_small": "Ingredient_0300_S",
+    "image_medium": "Ingredient_0300_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 301,
+    "name": "New Year Shrimp",
+    "rarity": 2,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 12,
+        "name": "P. DEF Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts P. DEF by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "Boosts P. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Mighty Curse",
+        "category": "WEAKENING",
+        "description": "Boosts physical damage target receives by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000047,
+            "description": "Boosts physical damage target receives by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 9,
+      "name": "Marie's Fortune Frenzy!"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 904003,
+        "quest_name": "Marie's Fortune Frenzy! 3",
+        "episode_id": 904,
+        "episode_name": "Marie's Fortune Frenzy!"
+      },
+      {
+        "quest_id": 904006,
+        "quest_name": "Marie's Fortune Frenzy! 6",
+        "episode_id": 904,
+        "episode_name": "Marie's Fortune Frenzy!"
+      },
+      {
+        "quest_id": 904009,
+        "quest_name": "Marie's Fortune Frenzy! 9",
+        "episode_id": 904,
+        "episode_name": "Marie's Fortune Frenzy!"
+      },
+      {
+        "quest_id": 904010,
+        "quest_name": "Marie's Fortune Frenzy! 10",
+        "episode_id": 904,
+        "episode_name": "Marie's Fortune Frenzy!"
+      }
+    ],
+    "image_small": "Ingredient_0301_S",
+    "image_medium": "Ingredient_0301_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 302,
+    "name": "New Year Water",
+    "rarity": 3,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 32,
+        "name": "Magic Damage Boost [Resolve]",
+        "category": "ATTACK",
+        "description": "Boosts magic damage by {0}% when HP is 50% or lower.",
+        "effects": [
+          {
+            "id": 3000099,
+            "description": "Boosts dealt magic damage by {0}% when HP is 50% or lower.",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Physical Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from physical attacks by {0}%.",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "Boosts physical damage resistance by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 9,
+      "name": "Marie's Fortune Frenzy!"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 904007,
+        "quest_name": "Marie's Fortune Frenzy! 7",
+        "episode_id": 904,
+        "episode_name": "Marie's Fortune Frenzy!"
+      },
+      {
+        "quest_id": 904010,
+        "quest_name": "Marie's Fortune Frenzy! 10",
+        "episode_id": 904,
+        "episode_name": "Marie's Fortune Frenzy!"
+      }
+    ],
+    "image_small": "Ingredient_0302_S",
+    "image_medium": "Ingredient_0302_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 303,
+    "name": "New Year Leaves",
+    "rarity": 3,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 33,
+        "name": "Magic Damage Boost [Full]",
+        "category": "ATTACK",
+        "description": "Boosts magic damage by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000100,
+            "description": "Boosts dealt magic damage by {0}% when at full HP.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "name": "All-Target Attack Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from attacks that hit all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000112,
+            "description": "Reduces received damage by {0}% from attacks that hit all enemies.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 9,
+      "name": "Marie's Fortune Frenzy!"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 904008,
+        "quest_name": "Marie's Fortune Frenzy! 8",
+        "episode_id": 904,
+        "episode_name": "Marie's Fortune Frenzy!"
+      },
+      {
+        "quest_id": 904010,
+        "quest_name": "Marie's Fortune Frenzy! 10",
+        "episode_id": 904,
+        "episode_name": "Marie's Fortune Frenzy!"
+      }
+    ],
+    "image_small": "Ingredient_0303_S",
+    "image_medium": "Ingredient_0303_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 304,
+    "name": "New Year Celebratory Fish",
+    "rarity": 3,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 46,
+        "name": "All Recovery Bonus",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "Boosts HP recovery given to all allies by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "Critical Finish",
+        "category": "ENHANCE",
+        "description": "Boosts critical rate by {0}% for 1 turn.",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "Boosts critical rate by {0}% for 1 turn.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 9,
+      "name": "Marie's Fortune Frenzy!"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 904009,
+        "quest_name": "Marie's Fortune Frenzy! 9",
+        "episode_id": 904,
+        "episode_name": "Marie's Fortune Frenzy!"
+      },
+      {
+        "quest_id": 904010,
+        "quest_name": "Marie's Fortune Frenzy! 10",
+        "episode_id": 904,
+        "episode_name": "Marie's Fortune Frenzy!"
+      }
+    ],
+    "image_small": "Ingredient_0304_S",
+    "image_medium": "Ingredient_0304_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 313,
+    "name": "Underground Spider",
+    "rarity": 1,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 13,
+        "name": "Stun Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts stun damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000012,
+            "description": "Boosts stun damage by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Bolt Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Bolt resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000024,
+            "description": "Boosts Bolt damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204218001,
+        "quest_name": "Abandoned Mineshaft [Risk 1]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218002,
+        "quest_name": "Abandoned Mineshaft [Risk 2]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204219001,
+        "quest_name": "Trail of Aspirations [Risk 1]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219002,
+        "quest_name": "Trail of Aspirations [Risk 2]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      }
+    ],
+    "image_small": "Ingredient_0313_S",
+    "image_medium": "Ingredient_0313_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 314,
+    "name": "Raiden Dragonfly",
+    "rarity": 2,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 4,
+        "name": "Strike Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Strike skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "Boosts Strike damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "Enhanced P./M. Resistance Up [D]",
+        "category": "ENHANCE",
+        "description": "Boosts potency of Received Physical Damage Down and Received Magic Damage Down given to Defenders by {0}%.",
+        "effects": [
+          {
+            "id": 3000029,
+            "description": "Boosts potency of Received Physical Damage Down and Received Magic Damage Down given to Defenders by {0}%.",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204218001,
+        "quest_name": "Abandoned Mineshaft [Risk 1]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218002,
+        "quest_name": "Abandoned Mineshaft [Risk 2]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218003,
+        "quest_name": "Abandoned Mineshaft [Risk 3]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218004,
+        "quest_name": "Abandoned Mineshaft [Risk 4]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218005,
+        "quest_name": "Abandoned Mineshaft [Risk 5]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218006,
+        "quest_name": "Abandoned Mineshaft [Risk 6]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      }
+    ],
+    "image_small": "Ingredient_0314_S",
+    "image_medium": "Ingredient_0314_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 315,
+    "name": "Baby Menace",
+    "rarity": 2,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 41,
+        "name": "All Recovery Boost",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "Boosts HP recovery given to all allies by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 59,
+        "name": "Bird Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts damage to Bird enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000081,
+            "description": "Boosts damage to Bird enemies by {0}%.",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204219001,
+        "quest_name": "Trail of Aspirations [Risk 1]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219002,
+        "quest_name": "Trail of Aspirations [Risk 2]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219003,
+        "quest_name": "Trail of Aspirations [Risk 3]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219004,
+        "quest_name": "Trail of Aspirations [Risk 4]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219005,
+        "quest_name": "Trail of Aspirations [Risk 5]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219006,
+        "quest_name": "Trail of Aspirations [Risk 6]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      }
+    ],
+    "image_small": "Ingredient_0315_S",
+    "image_medium": "Ingredient_0315_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 316,
+    "name": "Iguru Worm",
+    "rarity": 3,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 23,
+        "name": "Air Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Air resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000025,
+            "description": "Boosts Air damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Physical Damage Boost [Resolve]",
+        "category": "ATTACK",
+        "description": "Boosts physical damage by {0}% when HP is 50% or lower.",
+        "effects": [
+          {
+            "id": 3000101,
+            "description": "Boosts dealt physical damage by {0}% when HP is 50% or lower.",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204218003,
+        "quest_name": "Abandoned Mineshaft [Risk 3]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218004,
+        "quest_name": "Abandoned Mineshaft [Risk 4]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218005,
+        "quest_name": "Abandoned Mineshaft [Risk 5]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218006,
+        "quest_name": "Abandoned Mineshaft [Risk 6]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218007,
+        "quest_name": "Abandoned Mineshaft [Risk 7]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218008,
+        "quest_name": "Abandoned Mineshaft [Risk 8]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218009,
+        "quest_name": "Abandoned Mineshaft [Risk 9]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      }
+    ],
+    "image_small": "Ingredient_0316_S",
+    "image_medium": "Ingredient_0316_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 317,
+    "name": "Mine Ant",
+    "rarity": 3,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 5,
+        "name": "Magic Blessing",
+        "category": "ATTACK",
+        "description": "Boosts magic attack damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "Boosts magic attack damage by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Ice Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000060,
+            "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204219003,
+        "quest_name": "Trail of Aspirations [Risk 3]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219004,
+        "quest_name": "Trail of Aspirations [Risk 4]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219005,
+        "quest_name": "Trail of Aspirations [Risk 5]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219006,
+        "quest_name": "Trail of Aspirations [Risk 6]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219007,
+        "quest_name": "Trail of Aspirations [Risk 7]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219008,
+        "quest_name": "Trail of Aspirations [Risk 8]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219009,
+        "quest_name": "Trail of Aspirations [Risk 9]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      }
+    ],
+    "image_small": "Ingredient_0317_S",
+    "image_medium": "Ingredient_0317_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 318,
+    "name": "Underground Spider Queen",
+    "rarity": 3,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 31,
+        "name": "Physical Damage Boost [Full]",
+        "category": "ATTACK",
+        "description": "Boosts physical damage by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000102,
+            "description": "Boosts dealt physical damage by {0}% when at full HP.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "Recovery Boost [D]",
+        "category": "RECOVERY",
+        "description": "Boosts recovery given to Defenders by {0}%.",
+        "effects": [
+          {
+            "id": 3000076,
+            "description": "Boosts recovery for Defenders by {0}%.",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204218007,
+        "quest_name": "Abandoned Mineshaft [Risk 7]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218008,
+        "quest_name": "Abandoned Mineshaft [Risk 8]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218009,
+        "quest_name": "Abandoned Mineshaft [Risk 9]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      }
+    ],
+    "image_small": "Ingredient_0318_S",
+    "image_medium": "Ingredient_0318_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 319,
+    "name": "Phantom Butterfly",
+    "rarity": 3,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 1,
+        "name": "Dealt Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000011,
+            "description": "Boosts skill damage by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Physical Resistance Up [Full]",
+        "category": "ENHANCE",
+        "description": "Reduces physical damage received by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000105,
+            "description": "Boosts physical damage resistance by {0}% when at full HP.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204219007,
+        "quest_name": "Trail of Aspirations [Risk 7]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219008,
+        "quest_name": "Trail of Aspirations [Risk 8]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219009,
+        "quest_name": "Trail of Aspirations [Risk 9]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      }
+    ],
+    "image_small": "Ingredient_0319_S",
+    "image_medium": "Ingredient_0319_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 320,
+    "name": "Crystal Shard",
+    "rarity": 1,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 7,
+        "name": "Ice Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Ice damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "Boosts Ice damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Stab Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Stab resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000065,
+            "description": "Reduces target's Stab resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204218001,
+        "quest_name": "Abandoned Mineshaft [Risk 1]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218002,
+        "quest_name": "Abandoned Mineshaft [Risk 2]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204219001,
+        "quest_name": "Trail of Aspirations [Risk 1]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219002,
+        "quest_name": "Trail of Aspirations [Risk 2]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      }
+    ],
+    "image_small": "Ingredient_0320_S",
+    "image_medium": "Ingredient_0320_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 321,
+    "name": "Fuerels",
+    "rarity": 2,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 27,
+        "name": "Air Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Air resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000069,
+            "description": "Boosts target's Air resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Bird Slayer",
+        "category": "ATTACK",
+        "description": "Boosts damage to Bird enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000081,
+            "description": "Boosts damage to Bird enemies by {0}%.",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204218001,
+        "quest_name": "Abandoned Mineshaft [Risk 1]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218002,
+        "quest_name": "Abandoned Mineshaft [Risk 2]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218003,
+        "quest_name": "Abandoned Mineshaft [Risk 3]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218004,
+        "quest_name": "Abandoned Mineshaft [Risk 4]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218005,
+        "quest_name": "Abandoned Mineshaft [Risk 5]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218006,
+        "quest_name": "Abandoned Mineshaft [Risk 6]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      }
+    ],
+    "image_small": "Ingredient_0321_S",
+    "image_medium": "Ingredient_0321_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 322,
+    "name": "Rouge Gemstone",
+    "rarity": 2,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 33,
+        "name": "Aquatic Slayer",
+        "category": "ATTACK",
+        "description": "Boosts damage to Aquatic enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000083,
+            "description": "Boosts damage to Aquatic enemies by {0}%.",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Resistance vs. Aquatics",
+        "category": "ENHANCE",
+        "description": "Reduces damage received by target from Aquatic enemies by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000093,
+            "description": "Reduces damage received by target from Aquatic enemies by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204219001,
+        "quest_name": "Trail of Aspirations [Risk 1]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219002,
+        "quest_name": "Trail of Aspirations [Risk 2]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219003,
+        "quest_name": "Trail of Aspirations [Risk 3]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219004,
+        "quest_name": "Trail of Aspirations [Risk 4]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219005,
+        "quest_name": "Trail of Aspirations [Risk 5]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219006,
+        "quest_name": "Trail of Aspirations [Risk 6]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      }
+    ],
+    "image_small": "Ingredient_0322_S",
+    "image_medium": "Ingredient_0322_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 323,
+    "name": "Blue Gemstone",
+    "rarity": 3,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 18,
+        "name": "Fire Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Slash Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Slash resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000070,
+            "description": "Boosts target's Slash resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204218003,
+        "quest_name": "Abandoned Mineshaft [Risk 3]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218004,
+        "quest_name": "Abandoned Mineshaft [Risk 4]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218005,
+        "quest_name": "Abandoned Mineshaft [Risk 5]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218006,
+        "quest_name": "Abandoned Mineshaft [Risk 6]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218007,
+        "quest_name": "Abandoned Mineshaft [Risk 7]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218008,
+        "quest_name": "Abandoned Mineshaft [Risk 8]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218009,
+        "quest_name": "Abandoned Mineshaft [Risk 9]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      }
+    ],
+    "image_small": "Ingredient_0323_S",
+    "image_medium": "Ingredient_0323_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 324,
+    "name": "Dream Stone",
+    "rarity": 3,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 16,
+        "name": "Stun Damage Boost [Resolve]",
+        "category": "ATTACK",
+        "description": "Boosts stun damage by {0}% when HP is 50% or lower.",
+        "effects": [
+          {
+            "id": 3000015,
+            "description": "Boosts stun damage by {0}% when HP is 50% or lower.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Magic Resistance Up [Full]",
+        "category": "ENHANCE",
+        "description": "Reduces magic damage received by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000104,
+            "description": "Boosts magic damage resistance by {0}% when at full HP.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204219003,
+        "quest_name": "Trail of Aspirations [Risk 3]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219004,
+        "quest_name": "Trail of Aspirations [Risk 4]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219005,
+        "quest_name": "Trail of Aspirations [Risk 5]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219006,
+        "quest_name": "Trail of Aspirations [Risk 6]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219007,
+        "quest_name": "Trail of Aspirations [Risk 7]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219008,
+        "quest_name": "Trail of Aspirations [Risk 8]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219009,
+        "quest_name": "Trail of Aspirations [Risk 9]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      }
+    ],
+    "image_small": "Ingredient_0324_S",
+    "image_medium": "Ingredient_0324_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 325,
+    "name": "Dazzling Crystal Shard",
+    "rarity": 3,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 1,
+        "name": "Mighty Blessing",
+        "category": "ATTACK",
+        "description": "Boosts physical attack damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000008,
+            "description": "Boosts physical attack damage by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Bolt Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Bolt resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000068,
+            "description": "Boosts target's Bolt resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204218007,
+        "quest_name": "Abandoned Mineshaft [Risk 7]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218008,
+        "quest_name": "Abandoned Mineshaft [Risk 8]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218009,
+        "quest_name": "Abandoned Mineshaft [Risk 9]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      }
+    ],
+    "image_small": "Ingredient_0325_S",
+    "image_medium": "Ingredient_0325_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 326,
+    "name": "Rainbow Crystal",
+    "rarity": 3,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 28,
+        "name": "All-Target Attack Power Up",
+        "category": "ATTACK",
+        "description": "Boosts skill power by {0}% on attacks that hit all enemies.",
+        "effects": [
+          {
+            "id": 3000110,
+            "description": "Boosts skill power by {0}% on attacks that hit all enemies.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "name": "All-Target Attack Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from attacks that hit all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000112,
+            "description": "Reduces received damage by {0}% from attacks that hit all enemies.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204219007,
+        "quest_name": "Trail of Aspirations [Risk 7]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219008,
+        "quest_name": "Trail of Aspirations [Risk 8]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219009,
+        "quest_name": "Trail of Aspirations [Risk 9]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      }
+    ],
+    "image_small": "Ingredient_0326_S",
+    "image_medium": "Ingredient_0326_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 327,
+    "name": "Sofle Sauce",
+    "rarity": 1,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 26,
+        "name": "Magic Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from magic attacks by {0}%.",
+        "effects": [
+          {
+            "id": 3000027,
+            "description": "Boosts magic damage resistance by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Single Recovery Boost",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to a single ally by {0}%.",
+        "effects": [
+          {
+            "id": 3000032,
+            "description": "Boosts single recovery by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204218001,
+        "quest_name": "Abandoned Mineshaft [Risk 1]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218002,
+        "quest_name": "Abandoned Mineshaft [Risk 2]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      }
+    ],
+    "image_small": "Ingredient_0327_S",
+    "image_medium": "Ingredient_0327_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 328,
+    "name": "Groundwater",
+    "rarity": 2,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 27,
+        "name": "Single Attack Power Up",
+        "category": "ATTACK",
+        "description": "Boosts single-target skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000111,
+            "description": "Boosts skill power of single-target attacks by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Stab Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Stab resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000019,
+            "description": "Boosts Stab damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204218001,
+        "quest_name": "Abandoned Mineshaft [Risk 1]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218002,
+        "quest_name": "Abandoned Mineshaft [Risk 2]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218003,
+        "quest_name": "Abandoned Mineshaft [Risk 3]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218004,
+        "quest_name": "Abandoned Mineshaft [Risk 4]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218005,
+        "quest_name": "Abandoned Mineshaft [Risk 5]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218006,
+        "quest_name": "Abandoned Mineshaft [Risk 6]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      }
+    ],
+    "image_small": "Ingredient_0328_S",
+    "image_medium": "Ingredient_0328_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 329,
+    "name": "Cure Water",
+    "rarity": 3,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 9,
+        "name": "Bolt Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Bolt skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "Boosts Bolt damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Recovery Boost [Resolve]",
+        "category": "RECOVERY",
+        "description": "Boosts recovery given by {0}% when HP is 50% or lower.",
+        "effects": [
+          {
+            "id": 3000107,
+            "description": "Boosts recovery given by {0}% when HP is 50% or lower.",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204218003,
+        "quest_name": "Abandoned Mineshaft [Risk 3]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218004,
+        "quest_name": "Abandoned Mineshaft [Risk 4]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218005,
+        "quest_name": "Abandoned Mineshaft [Risk 5]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218006,
+        "quest_name": "Abandoned Mineshaft [Risk 6]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218007,
+        "quest_name": "Abandoned Mineshaft [Risk 7]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218008,
+        "quest_name": "Abandoned Mineshaft [Risk 8]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218009,
+        "quest_name": "Abandoned Mineshaft [Risk 9]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      }
+    ],
+    "image_small": "Ingredient_0329_S",
+    "image_medium": "Ingredient_0329_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 330,
+    "name": "Stromwasser",
+    "rarity": 3,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 26,
+        "name": "Magic Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from magic attacks by {0}%.",
+        "effects": [
+          {
+            "id": 3000027,
+            "description": "Boosts magic damage resistance by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Magic Damage Boost [Full]",
+        "category": "ATTACK",
+        "description": "Boosts magic damage by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000100,
+            "description": "Boosts dealt magic damage by {0}% when at full HP.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204218007,
+        "quest_name": "Abandoned Mineshaft [Risk 7]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218008,
+        "quest_name": "Abandoned Mineshaft [Risk 8]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      },
+      {
+        "quest_id": 204218009,
+        "quest_name": "Abandoned Mineshaft [Risk 9]",
+        "episode_id": 204218,
+        "episode_name": "Abandoned Mineshaft"
+      }
+    ],
+    "image_small": "Ingredient_0330_S",
+    "image_medium": "Ingredient_0330_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 331,
+    "name": "Fureshumere",
+    "rarity": 1,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 12,
+        "name": "P. DEF Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts P. DEF by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "Boosts P. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "All Recovery Bonus",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "Boosts HP recovery given to all allies by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204219001,
+        "quest_name": "Trail of Aspirations [Risk 1]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219002,
+        "quest_name": "Trail of Aspirations [Risk 2]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      }
+    ],
+    "image_small": "Ingredient_0331_S",
+    "image_medium": "Ingredient_0331_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 332,
+    "name": "Cheek Fish",
+    "rarity": 2,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 36,
+        "name": "Physical Resistance Up [Full]",
+        "category": "ENHANCE",
+        "description": "Reduces physical damage received by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000105,
+            "description": "Boosts physical damage resistance by {0}% when at full HP.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "name": "Recovery Boost",
+        "category": "RECOVERY",
+        "description": "Boosts recovery given by {0}%.",
+        "effects": [
+          {
+            "id": 3000031,
+            "description": "Boosts recovery given by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204219001,
+        "quest_name": "Trail of Aspirations [Risk 1]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219002,
+        "quest_name": "Trail of Aspirations [Risk 2]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219003,
+        "quest_name": "Trail of Aspirations [Risk 3]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219004,
+        "quest_name": "Trail of Aspirations [Risk 4]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219005,
+        "quest_name": "Trail of Aspirations [Risk 5]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219006,
+        "quest_name": "Trail of Aspirations [Risk 6]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      }
+    ],
+    "image_small": "Ingredient_0332_S",
+    "image_medium": "Ingredient_0332_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 333,
+    "name": "Reed Fish",
+    "rarity": 3,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 45,
+        "name": "Enhanced Damage Buff [A]",
+        "category": "ENHANCE",
+        "description": "Boosts potency of damage buffs given to Attackers by {0}%.",
+        "effects": [
+          {
+            "id": 3000017,
+            "description": "Boosts effects of damage buffs to Attackers by {0}%.",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "name": "Enhanced P./M. Resistance Down",
+        "category": "WEAKENING",
+        "description": "Boosts potency of Received Physical Damage Up and Received Magic Damage Up applied by {0}%.",
+        "effects": [
+          {
+            "id": 3000030,
+            "description": "Boosts potency of Received Physical Damage Up and Received Magic Damage Up applied by {0}%.",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204219003,
+        "quest_name": "Trail of Aspirations [Risk 3]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219004,
+        "quest_name": "Trail of Aspirations [Risk 4]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219005,
+        "quest_name": "Trail of Aspirations [Risk 5]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219006,
+        "quest_name": "Trail of Aspirations [Risk 6]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219007,
+        "quest_name": "Trail of Aspirations [Risk 7]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219008,
+        "quest_name": "Trail of Aspirations [Risk 8]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219009,
+        "quest_name": "Trail of Aspirations [Risk 9]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      }
+    ],
+    "image_small": "Ingredient_0333_S",
+    "image_medium": "Ingredient_0333_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 334,
+    "name": "Gloomy Fish",
+    "rarity": 3,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 4,
+        "name": "Stab Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Stab damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "Boosts Stab damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "M. DEF Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts M. DEF by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000051,
+            "description": "Boosts M. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204219007,
+        "quest_name": "Trail of Aspirations [Risk 7]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219008,
+        "quest_name": "Trail of Aspirations [Risk 8]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      },
+      {
+        "quest_id": 204219009,
+        "quest_name": "Trail of Aspirations [Risk 9]",
+        "episode_id": 204219,
+        "episode_name": "Trail of Aspirations"
+      }
+    ],
+    "image_small": "Ingredient_0334_S",
+    "image_medium": "Ingredient_0334_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 335,
+    "name": "Unknown Husk",
+    "rarity": 1,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 10,
+        "name": "Physical Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts physical skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000008,
+            "description": "Boosts physical attack damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Slash Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Slash resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000020,
+            "description": "Boosts Slash damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204107001,
+        "quest_name": "To the Old Mine",
+        "difficulty": "NORMAL",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 5
+      },
+      {
+        "quest_id": 204107007,
+        "quest_name": "To the Old Mine 3",
+        "difficulty": "HARD",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204107020,
+        "quest_name": "To the Old Mine 3",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0335_S",
+    "image_medium": "Ingredient_0335_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 336,
+    "name": "Spiky Fruit",
+    "rarity": 1,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 23,
+        "name": "Air Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Air resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000025,
+            "description": "Boosts Air damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "All Recovery Boost",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "Boosts HP recovery given to all allies by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204107002,
+        "quest_name": "Monsters of the Old Mine",
+        "difficulty": "NORMAL",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 5
+      },
+      {
+        "quest_id": 204107009,
+        "quest_name": "Monsters of the Old Mine",
+        "difficulty": "HARD",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204107022,
+        "quest_name": "Monsters of the Old Mine",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0336_S",
+    "image_medium": "Ingredient_0336_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 337,
+    "name": "Unknown Egg",
+    "rarity": 1,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 8,
+        "name": "Air Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Air skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "Boosts Air damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Ice Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Ice resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000023,
+            "description": "Boosts Ice damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204107003,
+        "quest_name": "Saving the Prince!",
+        "difficulty": "NORMAL",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 5
+      },
+      {
+        "quest_id": 204107013,
+        "quest_name": "Saving the Prince! 4",
+        "difficulty": "HARD",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204107026,
+        "quest_name": "Saving the Prince! 4",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0337_S",
+    "image_medium": "Ingredient_0337_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 338,
+    "name": "Chummy Bubbles",
+    "rarity": 1,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 8,
+        "name": "Air Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Air damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "Boosts Air damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Fire Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204107004,
+        "quest_name": "The Master of the Old Mine",
+        "difficulty": "NORMAL",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 5
+      },
+      {
+        "quest_id": 204107017,
+        "quest_name": "The Master of the Old Mine",
+        "difficulty": "HARD",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204107030,
+        "quest_name": "The Master of the Old Mine",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0338_S",
+    "image_medium": "Ingredient_0338_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 339,
+    "name": "Green Spiky Fruit",
+    "rarity": 2,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 18,
+        "name": "Slash Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Slash resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000020,
+            "description": "Boosts Slash damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Recovery Boost [Full]",
+        "category": "RECOVERY",
+        "description": "Boosts recovery given by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000106,
+            "description": "Boosts recovery given by {0}% when at full HP.",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204107007,
+        "quest_name": "To the Old Mine 3",
+        "difficulty": "HARD",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 4
+      },
+      {
+        "quest_id": 204107013,
+        "quest_name": "Saving the Prince! 4",
+        "difficulty": "HARD",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 4
+      },
+      {
+        "quest_id": 204107020,
+        "quest_name": "To the Old Mine 3",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204107026,
+        "quest_name": "Saving the Prince! 4",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0339_S",
+    "image_medium": "Ingredient_0339_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 340,
+    "name": "Pure White Sand",
+    "rarity": 2,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 21,
+        "name": "Bolt Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Bolt resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000061,
+            "description": "Reduces target's Bolt resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Puni Slayer",
+        "category": "ATTACK",
+        "description": "Boosts damage to Puni enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000079,
+            "description": "Boosts damage to Puni enemies by {0}%.",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204107009,
+        "quest_name": "Monsters of the Old Mine",
+        "difficulty": "HARD",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 4
+      },
+      {
+        "quest_id": 204107017,
+        "quest_name": "The Master of the Old Mine",
+        "difficulty": "HARD",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 4
+      },
+      {
+        "quest_id": 204107022,
+        "quest_name": "Monsters of the Old Mine",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204107030,
+        "quest_name": "The Master of the Old Mine",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0340_S",
+    "image_medium": "Ingredient_0340_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 341,
+    "name": "Gold Spiky Fruit",
+    "rarity": 3,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "Skill Power Up",
+        "category": "ATTACK",
+        "description": "Boosts skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "Boosts skill power by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "name": "Reduced Aquatic Damage",
+        "category": "ENHANCE",
+        "description": "Reduces damage from Aquatic enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000088,
+            "description": "Reduces damage received by target from Aquatic enemies by {0}%. (1 turn)",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204107020,
+        "quest_name": "To the Old Mine 3",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 3
+      },
+      {
+        "quest_id": 204107026,
+        "quest_name": "Saving the Prince! 4",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 3
+      }
+    ],
+    "image_small": "Ingredient_0341_S",
+    "image_medium": "Ingredient_0341_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 342,
+    "name": "Aurora Tree",
+    "rarity": 3,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 5,
+        "name": "Magic Blessing",
+        "category": "ATTACK",
+        "description": "Boosts magic attack damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "Boosts magic attack damage by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Air Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Air resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000062,
+            "description": "Reduces target's Air resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204107022,
+        "quest_name": "Monsters of the Old Mine",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 3
+      },
+      {
+        "quest_id": 204107030,
+        "quest_name": "The Master of the Old Mine",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204107,
+        "episode_name": "Score Battle Chapter 7",
+        "quantity": 3
+      }
+    ],
+    "image_small": "Ingredient_0342_S",
+    "image_medium": "Ingredient_0342_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 346,
+    "name": "Ore Pumpkin",
+    "rarity": 2,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 9,
+        "name": "Bolt Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Bolt damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "Boosts Bolt damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Air Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Air resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000069,
+            "description": "Boosts target's Air resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 11,
+      "name": "Two Shallies and a Mother's Wish"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 110401,
+        "quest_name": "Two Shallies and a Mother's Wish 1",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      },
+      {
+        "quest_id": 110404,
+        "quest_name": "Two Shallies and a Mother's Wish 4",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      },
+      {
+        "quest_id": 110405,
+        "quest_name": "Two Shallies and a Mother's Wish 5",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      },
+      {
+        "quest_id": 110408,
+        "quest_name": "Two Shallies and a Mother's Wish 8",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      },
+      {
+        "quest_id": 110409,
+        "quest_name": "Two Shallies and a Mother's Wish 9",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      },
+      {
+        "quest_id": 110412,
+        "quest_name": "Two Shallies and a Mother's Wish 12",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      }
+    ],
+    "image_small": "Ingredient_0346_S",
+    "image_medium": "Ingredient_0346_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 347,
+    "name": "Hundred Color Shell",
+    "rarity": 2,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 1,
+        "name": "Mighty Blessing",
+        "category": "ATTACK",
+        "description": "Boosts physical attack damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000008,
+            "description": "Boosts physical attack damage by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Ice Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Ice resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000067,
+            "description": "Boosts target's Ice resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 11,
+      "name": "Two Shallies and a Mother's Wish"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 110402,
+        "quest_name": "Two Shallies and a Mother's Wish 2",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      },
+      {
+        "quest_id": 110404,
+        "quest_name": "Two Shallies and a Mother's Wish 4",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      },
+      {
+        "quest_id": 110406,
+        "quest_name": "Two Shallies and a Mother's Wish 6",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      },
+      {
+        "quest_id": 110408,
+        "quest_name": "Two Shallies and a Mother's Wish 8",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      },
+      {
+        "quest_id": 110410,
+        "quest_name": "Two Shallies and a Mother's Wish 10",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      },
+      {
+        "quest_id": 110412,
+        "quest_name": "Two Shallies and a Mother's Wish 12",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      }
+    ],
+    "image_small": "Ingredient_0347_S",
+    "image_medium": "Ingredient_0347_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 348,
+    "name": "Umbrella Tree Strawberry",
+    "rarity": 2,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 39,
+        "name": "Recovery Boost",
+        "category": "RECOVERY",
+        "description": "Boosts recovery given by {0}%.",
+        "effects": [
+          {
+            "id": 3000031,
+            "description": "Boosts recovery given by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Strike Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Strike resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000021,
+            "description": "Boosts Strike damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 11,
+      "name": "Two Shallies and a Mother's Wish"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 110403,
+        "quest_name": "Two Shallies and a Mother's Wish 3",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      },
+      {
+        "quest_id": 110404,
+        "quest_name": "Two Shallies and a Mother's Wish 4",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      },
+      {
+        "quest_id": 110407,
+        "quest_name": "Two Shallies and a Mother's Wish 7",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      },
+      {
+        "quest_id": 110408,
+        "quest_name": "Two Shallies and a Mother's Wish 8",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      },
+      {
+        "quest_id": 110411,
+        "quest_name": "Two Shallies and a Mother's Wish 11",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      },
+      {
+        "quest_id": 110412,
+        "quest_name": "Two Shallies and a Mother's Wish 12",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      }
+    ],
+    "image_small": "Ingredient_0348_S",
+    "image_medium": "Ingredient_0348_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 349,
+    "name": "Endangered Herb",
+    "rarity": 3,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 25,
+        "name": "Fire Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000066,
+            "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Ice Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000060,
+            "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 11,
+      "name": "Two Shallies and a Mother's Wish"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 110409,
+        "quest_name": "Two Shallies and a Mother's Wish 9",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      },
+      {
+        "quest_id": 110412,
+        "quest_name": "Two Shallies and a Mother's Wish 12",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      }
+    ],
+    "image_small": "Ingredient_0349_S",
+    "image_medium": "Ingredient_0349_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 350,
+    "name": "Star Core",
+    "rarity": 3,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 6,
+        "name": "Fire Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Fire skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "Boosts Fire damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Strike Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Strike resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000021,
+            "description": "Boosts Strike damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 11,
+      "name": "Two Shallies and a Mother's Wish"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 110410,
+        "quest_name": "Two Shallies and a Mother's Wish 10",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      },
+      {
+        "quest_id": 110412,
+        "quest_name": "Two Shallies and a Mother's Wish 12",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      }
+    ],
+    "image_small": "Ingredient_0350_S",
+    "image_medium": "Ingredient_0350_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 351,
+    "name": "Old Treasure Chest",
+    "rarity": 3,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 12,
+        "name": "Stunned Damage Up",
+        "category": "ATTACK",
+        "description": "Boosts damage to stunned enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "Boosts damage to stunned enemies by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "All Recovery Boost",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "Boosts HP recovery given to all allies by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 11,
+      "name": "Two Shallies and a Mother's Wish"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 110411,
+        "quest_name": "Two Shallies and a Mother's Wish 11",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      },
+      {
+        "quest_id": 110412,
+        "quest_name": "Two Shallies and a Mother's Wish 12",
+        "episode_id": 1103,
+        "episode_name": "Two Shallies and a Mother's Wish"
+      }
+    ],
+    "image_small": "Ingredient_0351_S",
+    "image_medium": "Ingredient_0351_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 352,
+    "name": "Whitefly",
+    "rarity": 1,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 7,
+        "name": "Ice Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Ice skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "Boosts Ice damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "name": "Magic Resistance Up [D]",
+        "category": "ENHANCE",
+        "description": "Reduces magic damage to Defenders by {0}%.",
+        "effects": [
+          {
+            "id": 3000034,
+            "description": "Boosts effects of magic damage resistance to Defenders by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204220001,
+        "quest_name": "Silver Ridge [Risk 1]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220002,
+        "quest_name": "Silver Ridge [Risk 2]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204221001,
+        "quest_name": "Deep Snow Bluff [Risk 1]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221002,
+        "quest_name": "Deep Snow Bluff [Risk 2]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      }
+    ],
+    "image_small": "Ingredient_0352_S",
+    "image_medium": "Ingredient_0352_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 353,
+    "name": "Glacial Beetle",
+    "rarity": 2,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 31,
+        "name": "Physical Damage Boost [Full]",
+        "category": "ATTACK",
+        "description": "Boosts physical damage by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000102,
+            "description": "Boosts dealt physical damage by {0}% when at full HP.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "name": "Physical Resistance Up [D]",
+        "category": "ENHANCE",
+        "description": "Reduces physical damage to Defenders by {0}%.",
+        "effects": [
+          {
+            "id": 3000033,
+            "description": "Boosts effects of physical damage resistance to Defenders by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204220001,
+        "quest_name": "Silver Ridge [Risk 1]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220002,
+        "quest_name": "Silver Ridge [Risk 2]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220003,
+        "quest_name": "Silver Ridge [Risk 3]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220004,
+        "quest_name": "Silver Ridge [Risk 4]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220005,
+        "quest_name": "Silver Ridge [Risk 5]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220006,
+        "quest_name": "Silver Ridge [Risk 6]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      }
+    ],
+    "image_small": "Ingredient_0353_S",
+    "image_medium": "Ingredient_0353_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 354,
+    "name": "Ice Hopper",
+    "rarity": 2,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 16,
+        "name": "Stun Damage Boost [Resolve]",
+        "category": "ATTACK",
+        "description": "Boosts stun damage by {0}% when HP is 50% or lower.",
+        "effects": [
+          {
+            "id": 3000015,
+            "description": "Boosts stun damage by {0}% when HP is 50% or lower.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "Reduced Puni Damage",
+        "category": "ENHANCE",
+        "description": "Reduces damage from Puni enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000084,
+            "description": "Reduces damage received by target from Puni enemies by {0}%. (1 turn)",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204221001,
+        "quest_name": "Deep Snow Bluff [Risk 1]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221002,
+        "quest_name": "Deep Snow Bluff [Risk 2]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221003,
+        "quest_name": "Deep Snow Bluff [Risk 3]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221004,
+        "quest_name": "Deep Snow Bluff [Risk 4]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221005,
+        "quest_name": "Deep Snow Bluff [Risk 5]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221006,
+        "quest_name": "Deep Snow Bluff [Risk 6]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      }
+    ],
+    "image_small": "Ingredient_0354_S",
+    "image_medium": "Ingredient_0354_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 355,
+    "name": "Snowflake",
+    "rarity": 3,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 33,
+        "name": "Magic Damage Boost [Full]",
+        "category": "ATTACK",
+        "description": "Boosts magic damage by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000100,
+            "description": "Boosts dealt magic damage by {0}% when at full HP.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Magic Resistance Up [Full]",
+        "category": "ENHANCE",
+        "description": "Reduces magic damage received by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000104,
+            "description": "Boosts magic damage resistance by {0}% when at full HP.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204220003,
+        "quest_name": "Silver Ridge [Risk 3]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220004,
+        "quest_name": "Silver Ridge [Risk 4]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220005,
+        "quest_name": "Silver Ridge [Risk 5]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220006,
+        "quest_name": "Silver Ridge [Risk 6]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220007,
+        "quest_name": "Silver Ridge [Risk 7]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220008,
+        "quest_name": "Silver Ridge [Risk 8]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220009,
+        "quest_name": "Silver Ridge [Risk 9]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      }
+    ],
+    "image_small": "Ingredient_0355_S",
+    "image_medium": "Ingredient_0355_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 356,
+    "name": "Parasite Isopod",
+    "rarity": 3,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 21,
+        "name": "Fire Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Fire resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000022,
+            "description": "Boosts Fire damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "Recovery Boost [D]",
+        "category": "RECOVERY",
+        "description": "Boosts recovery given to Defenders by {0}%.",
+        "effects": [
+          {
+            "id": 3000076,
+            "description": "Boosts recovery for Defenders by {0}%.",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204221003,
+        "quest_name": "Deep Snow Bluff [Risk 3]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221004,
+        "quest_name": "Deep Snow Bluff [Risk 4]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221005,
+        "quest_name": "Deep Snow Bluff [Risk 5]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221006,
+        "quest_name": "Deep Snow Bluff [Risk 6]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221007,
+        "quest_name": "Deep Snow Bluff [Risk 7]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221008,
+        "quest_name": "Deep Snow Bluff [Risk 8]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221009,
+        "quest_name": "Deep Snow Bluff [Risk 9]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      }
+    ],
+    "image_small": "Ingredient_0356_S",
+    "image_medium": "Ingredient_0356_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 357,
+    "name": "Icicle Fly",
+    "rarity": 3,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 12,
+        "name": "Stunned Damage Up",
+        "category": "ATTACK",
+        "description": "Boosts damage to stunned enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "Boosts damage to stunned enemies by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "name": "Enhanced P./M. Resistance Down",
+        "category": "WEAKENING",
+        "description": "Boosts potency of Received Physical Damage Up and Received Magic Damage Up applied by {0}%.",
+        "effects": [
+          {
+            "id": 3000030,
+            "description": "Boosts potency of Received Physical Damage Up and Received Magic Damage Up applied by {0}%.",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204220007,
+        "quest_name": "Silver Ridge [Risk 7]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220008,
+        "quest_name": "Silver Ridge [Risk 8]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220009,
+        "quest_name": "Silver Ridge [Risk 9]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      }
+    ],
+    "image_small": "Ingredient_0357_S",
+    "image_medium": "Ingredient_0357_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 358,
+    "name": "Warm Mantis",
+    "rarity": 3,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 27,
+        "name": "Single Attack Power Up",
+        "category": "ATTACK",
+        "description": "Boosts single-target skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000111,
+            "description": "Boosts skill power of single-target attacks by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Recovery Boost [Resolve]",
+        "category": "RECOVERY",
+        "description": "Boosts recovery given by {0}% when HP is 50% or lower.",
+        "effects": [
+          {
+            "id": 3000107,
+            "description": "Boosts recovery given by {0}% when HP is 50% or lower.",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204221007,
+        "quest_name": "Deep Snow Bluff [Risk 7]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221008,
+        "quest_name": "Deep Snow Bluff [Risk 8]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221009,
+        "quest_name": "Deep Snow Bluff [Risk 9]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      }
+    ],
+    "image_small": "Ingredient_0358_S",
+    "image_medium": "Ingredient_0358_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 359,
+    "name": "Erte",
+    "rarity": 1,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 25,
+        "name": "Fire Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000066,
+            "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Bird Slayer",
+        "category": "ATTACK",
+        "description": "Boosts damage to Bird enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000081,
+            "description": "Boosts damage to Bird enemies by {0}%.",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204220001,
+        "quest_name": "Silver Ridge [Risk 1]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220002,
+        "quest_name": "Silver Ridge [Risk 2]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204221001,
+        "quest_name": "Deep Snow Bluff [Risk 1]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221002,
+        "quest_name": "Deep Snow Bluff [Risk 2]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      }
+    ],
+    "image_small": "Ingredient_0359_S",
+    "image_medium": "Ingredient_0359_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 360,
+    "name": "Bronekeleton",
+    "rarity": 2,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 4,
+        "name": "Stab Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Stab damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "Boosts Stab damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "M. DEF Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts M. DEF by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000051,
+            "description": "Boosts M. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204220001,
+        "quest_name": "Silver Ridge [Risk 1]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220002,
+        "quest_name": "Silver Ridge [Risk 2]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220003,
+        "quest_name": "Silver Ridge [Risk 3]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220004,
+        "quest_name": "Silver Ridge [Risk 4]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220005,
+        "quest_name": "Silver Ridge [Risk 5]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220006,
+        "quest_name": "Silver Ridge [Risk 6]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      }
+    ],
+    "image_small": "Ingredient_0360_S",
+    "image_medium": "Ingredient_0360_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 361,
+    "name": "Incense Bark",
+    "rarity": 2,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 8,
+        "name": "Air Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Air damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "Boosts Air damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Guardian's Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts P. DEF by {0}% and M. DEF by {1}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "Boosts P. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "Boosts M. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204221001,
+        "quest_name": "Deep Snow Bluff [Risk 1]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221002,
+        "quest_name": "Deep Snow Bluff [Risk 2]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221003,
+        "quest_name": "Deep Snow Bluff [Risk 3]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221004,
+        "quest_name": "Deep Snow Bluff [Risk 4]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221005,
+        "quest_name": "Deep Snow Bluff [Risk 5]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221006,
+        "quest_name": "Deep Snow Bluff [Risk 6]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      }
+    ],
+    "image_small": "Ingredient_0361_S",
+    "image_medium": "Ingredient_0361_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 362,
+    "name": "Purification Block",
+    "rarity": 3,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 36,
+        "name": "Resistance vs. Beasts",
+        "category": "ENHANCE",
+        "description": "Reduces damage received by target from Beast enemies by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000090,
+            "description": "Reduces damage received by target from Beast enemies by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "Single Recovery Bonus",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to a single ally by {0}%.",
+        "effects": [
+          {
+            "id": 3000073,
+            "description": "Boosts HP recovery given to a single ally by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204220003,
+        "quest_name": "Silver Ridge [Risk 3]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220004,
+        "quest_name": "Silver Ridge [Risk 4]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220005,
+        "quest_name": "Silver Ridge [Risk 5]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220006,
+        "quest_name": "Silver Ridge [Risk 6]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220007,
+        "quest_name": "Silver Ridge [Risk 7]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220008,
+        "quest_name": "Silver Ridge [Risk 8]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220009,
+        "quest_name": "Silver Ridge [Risk 9]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      }
+    ],
+    "image_small": "Ingredient_0362_S",
+    "image_medium": "Ingredient_0362_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 363,
+    "name": "Frozen Tree",
+    "rarity": 3,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 25,
+        "name": "Physical Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from physical attacks by {0}%.",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "Boosts physical damage resistance by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "All-Target Attack Power Up",
+        "category": "ATTACK",
+        "description": "Boosts skill power by {0}% on attacks that hit all enemies.",
+        "effects": [
+          {
+            "id": 3000110,
+            "description": "Boosts skill power by {0}% on attacks that hit all enemies.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204221003,
+        "quest_name": "Deep Snow Bluff [Risk 3]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221004,
+        "quest_name": "Deep Snow Bluff [Risk 4]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221005,
+        "quest_name": "Deep Snow Bluff [Risk 5]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221006,
+        "quest_name": "Deep Snow Bluff [Risk 6]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221007,
+        "quest_name": "Deep Snow Bluff [Risk 7]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221008,
+        "quest_name": "Deep Snow Bluff [Risk 8]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221009,
+        "quest_name": "Deep Snow Bluff [Risk 9]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      }
+    ],
+    "image_small": "Ingredient_0363_S",
+    "image_medium": "Ingredient_0363_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 364,
+    "name": "Neige Erte",
+    "rarity": 3,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 20,
+        "name": "Air Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Air resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000062,
+            "description": "Reduces target's Air resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "name": "Destructive Power Boost",
+        "category": "ATTACK",
+        "description": "Boosts damage of battle items by {0}%.",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "Boosts damage of battle items by {0}%.",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204220007,
+        "quest_name": "Silver Ridge [Risk 7]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220008,
+        "quest_name": "Silver Ridge [Risk 8]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220009,
+        "quest_name": "Silver Ridge [Risk 9]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      }
+    ],
+    "image_small": "Ingredient_0364_S",
+    "image_medium": "Ingredient_0364_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 365,
+    "name": "Gel Arbre",
+    "rarity": 3,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 31,
+        "name": "Physical Damage Boost [Full]",
+        "category": "ATTACK",
+        "description": "Boosts physical damage by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000102,
+            "description": "Boosts dealt physical damage by {0}% when at full HP.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Physical Resistance Up [Full]",
+        "category": "ENHANCE",
+        "description": "Reduces physical damage received by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000105,
+            "description": "Boosts physical damage resistance by {0}% when at full HP.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204221007,
+        "quest_name": "Deep Snow Bluff [Risk 7]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221008,
+        "quest_name": "Deep Snow Bluff [Risk 8]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221009,
+        "quest_name": "Deep Snow Bluff [Risk 9]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      }
+    ],
+    "image_small": "Ingredient_0365_S",
+    "image_medium": "Ingredient_0365_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 366,
+    "name": "Shining Crystal",
+    "rarity": 1,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 1,
+        "name": "Dealt Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000011,
+            "description": "Boosts skill damage by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Bolt Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Bolt resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000024,
+            "description": "Boosts Bolt damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204220001,
+        "quest_name": "Silver Ridge [Risk 1]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220002,
+        "quest_name": "Silver Ridge [Risk 2]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      }
+    ],
+    "image_small": "Ingredient_0366_S",
+    "image_medium": "Ingredient_0366_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 367,
+    "name": "Absolute Zero Stone",
+    "rarity": 2,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 8,
+        "name": "Air Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Air skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "Boosts Air damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Fire Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Fire resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000022,
+            "description": "Boosts Fire damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204220001,
+        "quest_name": "Silver Ridge [Risk 1]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220002,
+        "quest_name": "Silver Ridge [Risk 2]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220003,
+        "quest_name": "Silver Ridge [Risk 3]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220004,
+        "quest_name": "Silver Ridge [Risk 4]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220005,
+        "quest_name": "Silver Ridge [Risk 5]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220006,
+        "quest_name": "Silver Ridge [Risk 6]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      }
+    ],
+    "image_small": "Ingredient_0367_S",
+    "image_medium": "Ingredient_0367_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 368,
+    "name": "Diamant Ore",
+    "rarity": 3,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 17,
+        "name": "Stun Damage Boost [Full]",
+        "category": "ATTACK",
+        "description": "Boosts stun damage by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000016,
+            "description": "Boosts stun damage by {0}% when at full HP.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Magic Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from magic attacks by {0}%.",
+        "effects": [
+          {
+            "id": 3000027,
+            "description": "Boosts magic damage resistance by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204220003,
+        "quest_name": "Silver Ridge [Risk 3]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220004,
+        "quest_name": "Silver Ridge [Risk 4]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220005,
+        "quest_name": "Silver Ridge [Risk 5]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220006,
+        "quest_name": "Silver Ridge [Risk 6]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220007,
+        "quest_name": "Silver Ridge [Risk 7]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220008,
+        "quest_name": "Silver Ridge [Risk 8]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220009,
+        "quest_name": "Silver Ridge [Risk 9]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      }
+    ],
+    "image_small": "Ingredient_0368_S",
+    "image_medium": "Ingredient_0368_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 369,
+    "name": "Diopside",
+    "rarity": 3,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 15,
+        "name": "Magic Stun Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts magic stun damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000014,
+            "description": "Boosts magic stun damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Stab Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Stab resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000019,
+            "description": "Boosts Stab damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204220007,
+        "quest_name": "Silver Ridge [Risk 7]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220008,
+        "quest_name": "Silver Ridge [Risk 8]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      },
+      {
+        "quest_id": 204220009,
+        "quest_name": "Silver Ridge [Risk 9]",
+        "episode_id": 204220,
+        "episode_name": "Silver Ridge"
+      }
+    ],
+    "image_small": "Ingredient_0369_S",
+    "image_medium": "Ingredient_0369_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 370,
+    "name": "Freezing Water",
+    "rarity": 1,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 9,
+        "name": "Bolt Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Bolt skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "Boosts Bolt damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "All Recovery Boost",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "Boosts HP recovery given to all allies by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204221001,
+        "quest_name": "Deep Snow Bluff [Risk 1]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221002,
+        "quest_name": "Deep Snow Bluff [Risk 2]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      }
+    ],
+    "image_small": "Ingredient_0370_S",
+    "image_medium": "Ingredient_0370_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 371,
+    "name": "Eternal Ice",
+    "rarity": 2,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 11,
+        "name": "Magic Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts magic skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "Boosts magic attack damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "Enhanced Damage Buff [A]",
+        "category": "ENHANCE",
+        "description": "Boosts potency of damage buffs given to Attackers by {0}%.",
+        "effects": [
+          {
+            "id": 3000017,
+            "description": "Boosts effects of damage buffs to Attackers by {0}%.",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204221001,
+        "quest_name": "Deep Snow Bluff [Risk 1]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221002,
+        "quest_name": "Deep Snow Bluff [Risk 2]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221003,
+        "quest_name": "Deep Snow Bluff [Risk 3]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221004,
+        "quest_name": "Deep Snow Bluff [Risk 4]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221005,
+        "quest_name": "Deep Snow Bluff [Risk 5]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221006,
+        "quest_name": "Deep Snow Bluff [Risk 6]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      }
+    ],
+    "image_small": "Ingredient_0371_S",
+    "image_medium": "Ingredient_0371_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 372,
+    "name": "Blizzard Water",
+    "rarity": 3,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 13,
+        "name": "Stun Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts stun damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000012,
+            "description": "Boosts stun damage by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "name": "Reduced Bird Damage",
+        "category": "ENHANCE",
+        "description": "Reduces damage from Bird enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000086,
+            "description": "Reduces damage received by target from Bird enemies by {0}%. (1 turn)",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204221003,
+        "quest_name": "Deep Snow Bluff [Risk 3]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221004,
+        "quest_name": "Deep Snow Bluff [Risk 4]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221005,
+        "quest_name": "Deep Snow Bluff [Risk 5]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221006,
+        "quest_name": "Deep Snow Bluff [Risk 6]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221007,
+        "quest_name": "Deep Snow Bluff [Risk 7]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221008,
+        "quest_name": "Deep Snow Bluff [Risk 8]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221009,
+        "quest_name": "Deep Snow Bluff [Risk 9]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      }
+    ],
+    "image_small": "Ingredient_0372_S",
+    "image_medium": "Ingredient_0372_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 373,
+    "name": "Antifreeze Drop",
+    "rarity": 3,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 12,
+        "name": "P. DEF Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts P. DEF by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "Boosts P. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "Chaser Charge",
+        "category": "ATTACK",
+        "description": "Boosts damage to stunned enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "Boosts damage to stunned enemies by {0}%.",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204221007,
+        "quest_name": "Deep Snow Bluff [Risk 7]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221008,
+        "quest_name": "Deep Snow Bluff [Risk 8]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      },
+      {
+        "quest_id": 204221009,
+        "quest_name": "Deep Snow Bluff [Risk 9]",
+        "episode_id": 204221,
+        "episode_name": "Deep Snow Bluff"
+      }
+    ],
+    "image_small": "Ingredient_0373_S",
+    "image_medium": "Ingredient_0373_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 374,
+    "name": "Mud Ball",
+    "rarity": 1,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 14,
+        "name": "Physical Stun Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts physical stun damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000013,
+            "description": "Boosts physical stun damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "Enhanced Damage Buff [B]",
+        "category": "ENHANCE",
+        "description": "Boosts potency of damage buffs given to Breakers by {0}%.",
+        "effects": [
+          {
+            "id": 3000018,
+            "description": "Boosts effects of damage buffs to Breakers by {0}%.",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204108001,
+        "quest_name": "Monster Removal Request",
+        "difficulty": "NORMAL",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 5
+      },
+      {
+        "quest_id": 204108007,
+        "quest_name": "Monster Removal Request 3 [Red]",
+        "difficulty": "HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204108021,
+        "quest_name": "Monster Removal Request 3 [Red]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0374_S",
+    "image_medium": "Ingredient_0374_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 375,
+    "name": "Whimsy Strawberry",
+    "rarity": 1,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 5,
+        "name": "Stab Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Stab skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "Boosts Stab damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Air Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Air resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000025,
+            "description": "Boosts Air damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204108002,
+        "quest_name": "Snowfield Defense Battle",
+        "difficulty": "NORMAL",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 5
+      },
+      {
+        "quest_id": 204108011,
+        "quest_name": "Snowfield Defense Battle 3 [Blue]",
+        "difficulty": "HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204108025,
+        "quest_name": "Snowfield Defense Battle 3 [Blue]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0375_S",
+    "image_medium": "Ingredient_0375_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 376,
+    "name": "Duchess Shroom",
+    "rarity": 1,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 1,
+        "name": "Dealt Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000011,
+            "description": "Boosts skill damage by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Single Recovery Boost",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to a single ally by {0}%.",
+        "effects": [
+          {
+            "id": 3000032,
+            "description": "Boosts single recovery by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204108003,
+        "quest_name": "Darkness Lurking in the Snow",
+        "difficulty": "NORMAL",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 5
+      },
+      {
+        "quest_id": 204108014,
+        "quest_name": "Darkness Lurking in the Snow [Green]",
+        "difficulty": "HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204108028,
+        "quest_name": "Darkness Lurking in the Snow [Green]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0376_S",
+    "image_medium": "Ingredient_0376_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 377,
+    "name": "Snow Queen",
+    "rarity": 1,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 2,
+        "name": "Slash Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Slash damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000002,
+            "description": "Boosts Slash damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Strike Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000064,
+            "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204108004,
+        "quest_name": "What We Protect",
+        "difficulty": "NORMAL",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 5
+      },
+      {
+        "quest_id": 204108018,
+        "quest_name": "What We Protect [Yellow/Purple]",
+        "difficulty": "HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204108032,
+        "quest_name": "What We Protect [Yellow/Purple]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0377_S",
+    "image_medium": "Ingredient_0377_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 378,
+    "name": "Ash Ball",
+    "rarity": 2,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 11,
+        "name": "Magic Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts magic skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "Boosts magic attack damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Bolt Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Bolt resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000024,
+            "description": "Boosts Bolt damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204108007,
+        "quest_name": "Monster Removal Request 3 [Red]",
+        "difficulty": "HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 4
+      },
+      {
+        "quest_id": 204108014,
+        "quest_name": "Darkness Lurking in the Snow [Green]",
+        "difficulty": "HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 4
+      },
+      {
+        "quest_id": 204108021,
+        "quest_name": "Monster Removal Request 3 [Red]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204108028,
+        "quest_name": "Darkness Lurking in the Snow [Green]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0378_S",
+    "image_medium": "Ingredient_0378_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 379,
+    "name": "Marine Green Mushroom",
+    "rarity": 2,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 8,
+        "name": "Air Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Air damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "Boosts Air damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Ice Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000060,
+            "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204108011,
+        "quest_name": "Snowfield Defense Battle 3 [Blue]",
+        "difficulty": "HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 4
+      },
+      {
+        "quest_id": 204108018,
+        "quest_name": "What We Protect [Yellow/Purple]",
+        "difficulty": "HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 4
+      },
+      {
+        "quest_id": 204108025,
+        "quest_name": "Snowfield Defense Battle 3 [Blue]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204108032,
+        "quest_name": "What We Protect [Yellow/Purple]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0379_S",
+    "image_medium": "Ingredient_0379_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 380,
+    "name": "Gold Ball",
+    "rarity": 3,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 10,
+        "name": "Physical Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts physical skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000008,
+            "description": "Boosts physical attack damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Recovery Boost [Full]",
+        "category": "RECOVERY",
+        "description": "Boosts recovery given by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000106,
+            "description": "Boosts recovery given by {0}% when at full HP.",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204108021,
+        "quest_name": "Monster Removal Request 3 [Red]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 2
+      },
+      {
+        "quest_id": 204108025,
+        "quest_name": "Snowfield Defense Battle 3 [Blue]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 2
+      },
+      {
+        "quest_id": 204108028,
+        "quest_name": "Darkness Lurking in the Snow [Green]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 2
+      },
+      {
+        "quest_id": 204108032,
+        "quest_name": "What We Protect [Yellow/Purple]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 2
+      }
+    ],
+    "image_small": "Ingredient_0380_S",
+    "image_medium": "Ingredient_0380_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 381,
+    "name": "Heilige Blume",
+    "rarity": 3,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 4,
+        "name": "Stab Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Stab damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "Boosts Stab damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Stab Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Stab resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000065,
+            "description": "Reduces target's Stab resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204108021,
+        "quest_name": "Monster Removal Request 3 [Red]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 2
+      },
+      {
+        "quest_id": 204108025,
+        "quest_name": "Snowfield Defense Battle 3 [Blue]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 2
+      },
+      {
+        "quest_id": 204108028,
+        "quest_name": "Darkness Lurking in the Snow [Green]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 2
+      },
+      {
+        "quest_id": 204108032,
+        "quest_name": "What We Protect [Yellow/Purple]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204108,
+        "episode_name": "Score Battle Chapter 8",
+        "quantity": 2
+      }
+    ],
+    "image_small": "Ingredient_0381_S",
+    "image_medium": "Ingredient_0381_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 392,
+    "name": "Sweet Flower",
+    "rarity": 2,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 4,
+        "name": "Stab Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Stab damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "Boosts Stab damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "P. DEF Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts P. DEF by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "Boosts P. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 13,
+      "name": "Valentine's Chocolate Mix"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 130301,
+        "quest_name": "Valentine's Chocolate Mix 1",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      },
+      {
+        "quest_id": 130304,
+        "quest_name": "Valentine's Chocolate Mix 4",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      },
+      {
+        "quest_id": 130305,
+        "quest_name": "Valentine's Chocolate Mix 5",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      },
+      {
+        "quest_id": 130308,
+        "quest_name": "Valentine's Chocolate Mix 8",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      },
+      {
+        "quest_id": 130309,
+        "quest_name": "Valentine's Chocolate Mix 9",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      },
+      {
+        "quest_id": 130312,
+        "quest_name": "Valentine's Chocolate Mix 12",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      }
+    ],
+    "image_small": "Ingredient_0392_S",
+    "image_medium": "Ingredient_0392_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 393,
+    "name": "Sweet Leaf",
+    "rarity": 2,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 23,
+        "name": "Strike Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Strike resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000071,
+            "description": "Boosts target's Strike resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "Enhanced Last Recovery",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery by {0}% on final use.",
+        "effects": [
+          {
+            "id": 3000109,
+            "description": "Boosts HP recovery by {0}% on final use.",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 13,
+      "name": "Valentine's Chocolate Mix"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 130302,
+        "quest_name": "Valentine's Chocolate Mix 2",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      },
+      {
+        "quest_id": 130304,
+        "quest_name": "Valentine's Chocolate Mix 4",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      },
+      {
+        "quest_id": 130306,
+        "quest_name": "Valentine's Chocolate Mix 6",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      },
+      {
+        "quest_id": 130308,
+        "quest_name": "Valentine's Chocolate Mix 8",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      },
+      {
+        "quest_id": 130310,
+        "quest_name": "Valentine's Chocolate Mix 10",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      },
+      {
+        "quest_id": 130312,
+        "quest_name": "Valentine's Chocolate Mix 12",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      }
+    ],
+    "image_small": "Ingredient_0393_S",
+    "image_medium": "Ingredient_0393_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 394,
+    "name": "Sweet Milk",
+    "rarity": 2,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 50,
+        "name": "Critical Finish",
+        "category": "ENHANCE",
+        "description": "Boosts critical rate by {0}% for 1 turn.",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "Boosts critical rate by {0}% for 1 turn.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Strike Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Strike damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "Boosts Strike damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 13,
+      "name": "Valentine's Chocolate Mix"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 130303,
+        "quest_name": "Valentine's Chocolate Mix 3",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      },
+      {
+        "quest_id": 130304,
+        "quest_name": "Valentine's Chocolate Mix 4",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      },
+      {
+        "quest_id": 130307,
+        "quest_name": "Valentine's Chocolate Mix 7",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      },
+      {
+        "quest_id": 130308,
+        "quest_name": "Valentine's Chocolate Mix 8",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      },
+      {
+        "quest_id": 130311,
+        "quest_name": "Valentine's Chocolate Mix 1",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      },
+      {
+        "quest_id": 130312,
+        "quest_name": "Valentine's Chocolate Mix 12",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      }
+    ],
+    "image_small": "Ingredient_0394_S",
+    "image_medium": "Ingredient_0394_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 395,
+    "name": "Sweet Pieces",
+    "rarity": 3,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 14,
+        "name": "Physical Stun Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts physical stun damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000013,
+            "description": "Boosts physical stun damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "name": "All-Target Attack Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from attacks that hit all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000112,
+            "description": "Reduces received damage by {0}% from attacks that hit all enemies.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 13,
+      "name": "Valentine's Chocolate Mix"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 130309,
+        "quest_name": "Valentine's Chocolate Mix 9",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      },
+      {
+        "quest_id": 130312,
+        "quest_name": "Valentine's Chocolate Mix 12",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      }
+    ],
+    "image_small": "Ingredient_0395_S",
+    "image_medium": "Ingredient_0395_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 396,
+    "name": "Sweet Butterfly",
+    "rarity": 3,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "Skill Power Up",
+        "category": "ATTACK",
+        "description": "Boosts skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "Boosts skill power by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Single Recovery Boost",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to a single ally by {0}%.",
+        "effects": [
+          {
+            "id": 3000032,
+            "description": "Boosts single recovery by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 13,
+      "name": "Valentine's Chocolate Mix"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 130310,
+        "quest_name": "Valentine's Chocolate Mix 10",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      },
+      {
+        "quest_id": 130312,
+        "quest_name": "Valentine's Chocolate Mix 12",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      }
+    ],
+    "image_small": "Ingredient_0396_S",
+    "image_medium": "Ingredient_0396_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 397,
+    "name": "Sweet Fish",
+    "rarity": 3,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 45,
+        "name": "Enhanced Damage Buff [A]",
+        "category": "ENHANCE",
+        "description": "Boosts potency of damage buffs given to Attackers by {0}%.",
+        "effects": [
+          {
+            "id": 3000017,
+            "description": "Boosts effects of damage buffs to Attackers by {0}%.",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Stun Damage Boost [Full]",
+        "category": "ATTACK",
+        "description": "Boosts stun damage by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000016,
+            "description": "Boosts stun damage by {0}% when at full HP.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 13,
+      "name": "Valentine's Chocolate Mix"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 130311,
+        "quest_name": "Valentine's Chocolate Mix 1",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      },
+      {
+        "quest_id": 130312,
+        "quest_name": "Valentine's Chocolate Mix 12",
+        "episode_id": 1303,
+        "episode_name": "Valentine's Chocolate Mix"
+      }
+    ],
+    "image_small": "Ingredient_0397_S",
+    "image_medium": "Ingredient_0397_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
   }
 ]

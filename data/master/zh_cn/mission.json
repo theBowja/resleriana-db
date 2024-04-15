@@ -2422,6 +2422,14 @@
       {
         "count": 30,
         "reward_set_id": 30017
+      },
+      {
+        "count": 35,
+        "reward_set_id": 30017
+      },
+      {
+        "count": 40,
+        "reward_set_id": 30017
       }
     ],
     "total_task_condition_id": 36,
@@ -5559,6 +5567,90 @@
     "transition": null
   },
   {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300114,
+    "name": "更改玩家名吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 100010,
+    "reset_cycle": null,
+    "start_at": "2024-04-15T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30054
+      }
+    ],
+    "total_task_condition_id": 529,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300115,
+    "name": "通关主线故事7-52吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7295,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 532,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300116,
+    "name": "通关主线故事8-57吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7294,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016
+      }
+    ],
+    "total_task_condition_id": 578,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300117,
+    "name": "提升{}个角色的等级至Lv.80吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 6439,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30017
+      }
+    ],
+    "total_task_condition_id": 387,
+    "transition": null
+  },
+  {
     "category": 3,
     "end_at": null,
     "event_tab_id": 1,
@@ -7359,6 +7451,1556 @@
     ],
     "total_task_condition_id": 519,
     "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 6,
+    "guide_mission_step_id": null,
+    "id": 4000083,
+    "name": "通关30次迷宫吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 30,
+        "reward_set_id": 300117
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 18
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 6,
+    "guide_mission_step_id": null,
+    "id": 4000084,
+    "name": "通关50次迷宫吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 50,
+        "reward_set_id": 300118
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 18
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 6,
+    "guide_mission_step_id": null,
+    "id": 4000085,
+    "name": "通关70次迷宫吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 70,
+        "reward_set_id": 300119
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 18
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 6,
+    "guide_mission_step_id": null,
+    "id": 4000086,
+    "name": "通关100次迷宫吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 300120
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 18
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 6,
+    "guide_mission_step_id": null,
+    "id": 4000087,
+    "name": "通关50次积分战斗吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 50,
+        "reward_set_id": 300121
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 17
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 6,
+    "guide_mission_step_id": null,
+    "id": 4000088,
+    "name": "通关100次积分战斗吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 300122
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 17
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 6,
+    "guide_mission_step_id": null,
+    "id": 4000089,
+    "name": "通关200次积分战斗吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 200,
+        "reward_set_id": 300123
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 17
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 6,
+    "guide_mission_step_id": null,
+    "id": 4000090,
+    "name": "通关300次积分战斗吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300,
+        "reward_set_id": 300124
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 17
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 6,
+    "guide_mission_step_id": null,
+    "id": 4000091,
+    "name": "进行50次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 50,
+        "reward_set_id": 300125
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 6,
+    "guide_mission_step_id": null,
+    "id": 4000092,
+    "name": "进行75次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 75,
+        "reward_set_id": 300126
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 6,
+    "guide_mission_step_id": null,
+    "id": 4000093,
+    "name": "进行100次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 90,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 300127
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 7,
+    "guide_mission_step_id": null,
+    "id": 4000094,
+    "name": "进行30次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 30,
+        "reward_set_id": 300128
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 7,
+    "guide_mission_step_id": null,
+    "id": 4000095,
+    "name": "进行60次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 60,
+        "reward_set_id": 300128
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 7,
+    "guide_mission_step_id": null,
+    "id": 4000096,
+    "name": "进行90次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 90,
+        "reward_set_id": 300128
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 7,
+    "guide_mission_step_id": null,
+    "id": 4000097,
+    "name": "进行120次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 120,
+        "reward_set_id": 300128
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 7,
+    "guide_mission_step_id": null,
+    "id": 4000098,
+    "name": "进行150次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 150,
+        "reward_set_id": 300128
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 7,
+    "guide_mission_step_id": null,
+    "id": 4000099,
+    "name": "进行180次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 180,
+        "reward_set_id": 300128
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 7,
+    "guide_mission_step_id": null,
+    "id": 4000100,
+    "name": "进行210次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 210,
+        "reward_set_id": 300128
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 7,
+    "guide_mission_step_id": null,
+    "id": 4000101,
+    "name": "进行240次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 240,
+        "reward_set_id": 300128
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 7,
+    "guide_mission_step_id": null,
+    "id": 4000102,
+    "name": "进行270次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 270,
+        "reward_set_id": 300128
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 7,
+    "guide_mission_step_id": null,
+    "id": 4000103,
+    "name": "进行300次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300,
+        "reward_set_id": 300128
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 12,
+    "guide_mission_step_id": null,
+    "id": 4000104,
+    "name": "在曲奇任务期间内登录1天吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300133
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 1
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 12,
+    "guide_mission_step_id": null,
+    "id": 4000105,
+    "name": "在曲奇任务期间内登录2天吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 2,
+        "reward_set_id": 300133
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 1
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 12,
+    "guide_mission_step_id": null,
+    "id": 4000106,
+    "name": "在曲奇任务期间内登录3天吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 300133
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 1
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 12,
+    "guide_mission_step_id": null,
+    "id": 4000107,
+    "name": "完成5次育成挑战吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 300129
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 10
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 12,
+    "guide_mission_step_id": null,
+    "id": 4000108,
+    "name": "消耗100点体力吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 300130
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 3
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 12,
+    "guide_mission_step_id": null,
+    "id": 4000109,
+    "name": "消耗300点体力吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 300,
+        "reward_set_id": 300131
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 3
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 12,
+    "guide_mission_step_id": null,
+    "id": 4000110,
+    "name": "消耗500点体力吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 500,
+        "reward_set_id": 300132
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 3
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 12,
+    "guide_mission_step_id": null,
+    "id": 4000111,
+    "name": "获得50个调合素材吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 50,
+        "reward_set_id": 300129
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 12,
+    "guide_mission_step_id": null,
+    "id": 4000112,
+    "name": "获得100个调合素材吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 300130
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 12,
+    "guide_mission_step_id": null,
+    "id": 4000113,
+    "name": "获得150个调合素材吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 150,
+        "reward_set_id": 300131
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 12,
+    "guide_mission_step_id": null,
+    "id": 4000114,
+    "name": "获得200个调合素材吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 90,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 200,
+        "reward_set_id": 300132
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 12,
+    "guide_mission_step_id": null,
+    "id": 4000115,
+    "name": "调合1个武器吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 89,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300129
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": 1,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 12,
+    "guide_mission_step_id": null,
+    "id": 4000116,
+    "name": "调合1个防具吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 88,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300129
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": 2,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 12,
+    "guide_mission_step_id": null,
+    "id": 4000117,
+    "name": "调合1个装饰品吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 87,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300129
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": 3,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 12,
+    "guide_mission_step_id": null,
+    "id": 4000118,
+    "name": "调合5个SSR道具吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 86,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 300130
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 12,
+    "guide_mission_step_id": null,
+    "id": 4000119,
+    "name": "调合1个特性等级合计6以上的装备道具吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 85,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300131
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 12,
+    "guide_mission_step_id": null,
+    "id": 4000120,
+    "name": "调合1个特性等级合计9以上的战斗道具吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 84,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300131
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 13,
+    "guide_mission_step_id": null,
+    "id": 4000121,
+    "name": "完成10次素材挑战吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 300134
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 13,
+    "guide_mission_step_id": null,
+    "id": 4000122,
+    "name": "完成50次素材挑战吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 50,
+        "reward_set_id": 300135
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 13,
+    "guide_mission_step_id": null,
+    "id": 4000123,
+    "name": "完成100次素材挑战吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 300136
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 13,
+    "guide_mission_step_id": null,
+    "id": 4000124,
+    "name": "完成150次素材挑战吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 150,
+        "reward_set_id": 300137
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 13,
+    "guide_mission_step_id": null,
+    "id": 4000125,
+    "name": "完成200次素材挑战吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 200,
+        "reward_set_id": 300138
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 13,
+    "guide_mission_step_id": null,
+    "id": 4000126,
+    "name": "完成250次素材挑战吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 250,
+        "reward_set_id": 300139
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 13,
+    "guide_mission_step_id": null,
+    "id": 4000127,
+    "name": "完成300次素材挑战吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300,
+        "reward_set_id": 300140
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 13,
+    "guide_mission_step_id": null,
+    "id": 4000128,
+    "name": "完成350次素材挑战吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 350,
+        "reward_set_id": 300141
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 13,
+    "guide_mission_step_id": null,
+    "id": 4000129,
+    "name": "完成400次素材挑战吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 400,
+        "reward_set_id": 300142
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 13,
+    "guide_mission_step_id": null,
+    "id": 4000130,
+    "name": "完成450次素材挑战吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 450,
+        "reward_set_id": 300143
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 13,
+    "guide_mission_step_id": null,
+    "id": 4000131,
+    "name": "完成500次素材挑战吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 90,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 500,
+        "reward_set_id": 300144
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 13,
+    "guide_mission_step_id": null,
+    "id": 4000132,
+    "name": "进行50次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 89,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 50,
+        "reward_set_id": 300145
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 13,
+    "guide_mission_step_id": null,
+    "id": 4000133,
+    "name": "进行75次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 88,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 75,
+        "reward_set_id": 300146
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 13,
+    "guide_mission_step_id": null,
+    "id": 4000134,
+    "name": "进行100次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 87,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 300147
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 14,
+    "guide_mission_step_id": null,
+    "id": 4000135,
+    "name": "进行30次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 86,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 30,
+        "reward_set_id": 300145
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 14,
+    "guide_mission_step_id": null,
+    "id": 4000136,
+    "name": "进行60次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 85,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 60,
+        "reward_set_id": 300145
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 14,
+    "guide_mission_step_id": null,
+    "id": 4000137,
+    "name": "进行90次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 84,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 90,
+        "reward_set_id": 300145
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 14,
+    "guide_mission_step_id": null,
+    "id": 4000138,
+    "name": "进行120次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 83,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 120,
+        "reward_set_id": 300145
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 14,
+    "guide_mission_step_id": null,
+    "id": 4000139,
+    "name": "进行150次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 82,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 150,
+        "reward_set_id": 300145
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 14,
+    "guide_mission_step_id": null,
+    "id": 4000140,
+    "name": "进行180次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 81,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 180,
+        "reward_set_id": 300145
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 14,
+    "guide_mission_step_id": null,
+    "id": 4000141,
+    "name": "进行210次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 80,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 210,
+        "reward_set_id": 300145
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 14,
+    "guide_mission_step_id": null,
+    "id": 4000142,
+    "name": "进行240次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 79,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 240,
+        "reward_set_id": 300145
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 14,
+    "guide_mission_step_id": null,
+    "id": 4000143,
+    "name": "进行270次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 78,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 270,
+        "reward_set_id": 300145
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 14,
+    "guide_mission_step_id": null,
+    "id": 4000144,
+    "name": "进行300次调合吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 77,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300,
+        "reward_set_id": 300145
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
   },
   {
     "category": 4,

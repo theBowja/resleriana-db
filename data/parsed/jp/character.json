@@ -2365,6 +2365,212 @@
     "start_at": "2024-02-20T03:00:00.000Z"
   },
   {
+    "id": 25503,
+    "name": "ロロナ",
+    "title": "【Joyful Leader】",
+    "full_name": "ロロライナ・フリクセル",
+    "base_character": "ロロナ",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "STRIKE",
+    "role": "SUPPORTER",
+    "initial_rarity": 3,
+    "acquisition_text": "ようこそランターナ学園へ！\n一緒に、清く正しい学園生活を送ろうね！",
+    "profile": {
+      "voice_actor": "門脇舞以",
+      "voice_text": "ランターナ学園のロロナです。分からない\nことがあれば、いつでもわたしに聞いてね",
+      "description": "ランターナ学園、錬金術科の２年生。\nクラスの委員長を務めている。\n真面目で優しく、困っていたり問題があったりする生徒を放っておけない。\n委員長らしくしっかり者であろうとしているが、時折天然な部分を発揮してしまう。",
+      "origin_game": "ロロナのアトリエ ～アーランドの錬金術士～"
+    },
+    "gift_color": {
+      "received": "緑",
+      "given": "紫"
+    },
+    "battle_item_trait": [
+      {
+        "id": 3,
+        "name": "打の祝福",
+        "category": "ATTACK",
+        "description": "打属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "打属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "打の盾",
+        "category": "ENHANCE",
+        "description": "対象に「打属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000071,
+            "description": "対象に「打属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 26,
+        "name": "魔法耐性上昇",
+        "category": "ENHANCE",
+        "description": "魔法攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000027,
+            "description": "魔法属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 128,
+        "spd": 234,
+        "patk": 59,
+        "matk": 50,
+        "pdef": 53,
+        "mdef": 63
+      },
+      "growth": {
+        "hp": 1280,
+        "spd": 0,
+        "patk": 590,
+        "matk": 500,
+        "pdef": 530,
+        "mdef": 630
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 5,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "いいんちょスペシャル",
+      "description": "攻撃後、HPが最も減っている味方1人のHPを{0}%回復",
+      "summary": "攻撃後、HPが最も減っている味方1人のHPを回復",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001265,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [66, 70, 74, 78, 82],
+      "has_stun": true,
+      "stun_values": [7, 7, 7, 7, 8],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "はなまるフラップ",
+      "description": "味方全員に「スキルダメージ+{0}%」を1回行動終了するまで付与し、<br>このスキル使用前にタイムラインに並んでいる、次の味方のパネル1つをバーストパネルに変換(空パネルの時は生成)",
+      "summary": "味方全員のスキルダメージアップし、タイムラインに並んでいる次の味方のパネルをバーストパネルに変換",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001041,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001266,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "NONE",
+      "attribute": "STRIKE",
+      "target": "ALLY",
+      "range": "ALL",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": false,
+      "wait": 275
+    },
+    "burst": {
+      "name": "さいきょう魔砲",
+      "description": "攻撃後、対象に「全属性耐性-{0}%」を2回攻撃を受けるまで付与し、<br>物攻が最も高い味方1人に「物攻+{1}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、対象の全属性耐性ダウン<br>物攻が最も高い味方1人の物攻アップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001014,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001269,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "元気よくごうれーい！",
+      "description": "味方全員のスキルダメージ+{0}%<br>味方全員の受けるHP回復量+{1}%",
+      "effects": [
+        {
+          "id": 72000922,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 72001051,
+          "description": "[味方全員/受ける回復量アップ]",
+          "value": 1000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "ねこさんチーム",
+      "description": "マイナスパネル無効<br>プラスパネルから受ける効果量+{0}%",
+      "effects": [
+        {
+          "id": 72001045,
+          "description": "state_change用",
+          "value": 1000
+        },
+        {
+          "id": 72001041,
+          "description": "[自身/マイナスパネル無効]",
+          "value": 0
+        }
+      ]
+    },
+    "start_at": "2024-04-22T03:00:00.000Z"
+  },
+  {
     "id": 25601,
     "name": "クーデリア",
     "title": "【貴族令嬢】",
@@ -14307,5 +14513,208 @@
       ]
     },
     "start_at": "2023-12-11T03:00:00.000Z"
+  },
+  {
+    "id": 44301,
+    "name": "エレン",
+    "title": "【Noble Wolf】",
+    "full_name": "エレン",
+    "base_character": "エレン",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "AIR",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "私は誓った――\n皆を護るために、この剣を振るおう！",
+    "profile": {
+      "voice_actor": "瑞沢渓",
+      "voice_text": "私は故あって、このランターナ学園に\n入学した。友は……できるだろうか",
+      "description": "ランターナ学園、錬金術科の新入生。\n推薦で入学したが、授業にあまり出席せず、錬金術部にも入っていない様子。\n寡黙で頑なに他の生徒と交わろうとせず、単独行動を好む。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "黄",
+      "given": "紫"
+    },
+    "battle_item_trait": [
+      {
+        "id": 20,
+        "name": "風の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「風属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000062,
+            "description": "対象に「風属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "name": "破壊力上昇",
+        "category": "ATTACK",
+        "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 11,
+        "name": "魔法ダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 152,
+        "spd": 259,
+        "patk": 55,
+        "matk": 60,
+        "pdef": 43,
+        "mdef": 54
+      },
+      "growth": {
+        "hp": 1520,
+        "spd": 0,
+        "patk": 550,
+        "matk": 600,
+        "pdef": 430,
+        "mdef": 540
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 5,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "ヴィントフィーゲン",
+      "description": "攻撃後、自身に「スキルダメージ+{0}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、自身のスキルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001270,
+          "description": "",
+          "value": 3500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [41, 43, 46, 48, 51],
+      "has_stun": true,
+      "stun_values": [4, 4, 4, 4, 5],
+      "has_recovery": false,
+      "wait": 75
+    },
+    "skill_2": {
+      "name": "エンプレスライド",
+      "description": "WEAK攻撃時、ダメージ+{0}%",
+      "summary": "WEAK攻撃時、ダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000903,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [179, 190, 201, 212, 223],
+      "has_stun": true,
+      "stun_values": [20, 21, 22, 23, 25],
+      "has_recovery": false,
+      "wait": 175
+    },
+    "burst": {
+      "name": "ノヴァブレイク",
+      "description": "攻撃後、自身に「素早さ+{0}%」を1回行動終了するまで付与し、<br>自身に「魔攻+{1}%」を3回行動終了するまで付与",
+      "summary": "攻撃後、自身に超素早さアップ<br>自身の魔攻アップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001017,
+          "description": "素早さアップ(1回)",
+          "value": 5000
+        },
+        {
+          "id": 91002036,
+          "description": "魔攻アップ(3回)",
+          "value": 3000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [296, 296, 296, 314, 333, 351, 370],
+      "has_stun": true,
+      "stun_values": [56, 56, 56, 59, 63, 66, 70],
+      "has_recovery": false,
+      "wait": 150
+    },
+    "passive_1": {
+      "name": "気高き誓い",
+      "description": "自身がパネル獲得時またはHP回復を受けた時、自身に「魔攻+{0}%」を付与(上限100%)",
+      "effects": [
+        {
+          "id": 72001053,
+          "description": "[自身/魔攻上昇(上限100%)]",
+          "value": 1000
+        },
+        {
+          "id": 72001053,
+          "description": "[自身/魔攻上昇(上限100%)]",
+          "value": 1000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "ねこさんチーム",
+      "description": "マイナスパネル無効<br>プラスパネルから受ける効果量+{0}%",
+      "effects": [
+        {
+          "id": 72001045,
+          "description": "state_change用",
+          "value": 1000
+        },
+        {
+          "id": 72001041,
+          "description": "[自身/マイナスパネル無効]",
+          "value": 0
+        }
+      ]
+    },
+    "start_at": "2024-04-22T03:00:00.000Z"
   }
 ]

@@ -3390,6 +3390,66 @@
     "id": 6000587
   },
   {
+    "description": "自身がサポーターの時、スキル発動後、タイムラインに並んでいる次の味方に「バーストスキルダメージ+{0}%」を1回行動終了するまで付与",
+    "effect_motion_id": null,
+    "id": 6000588
+  },
+  {
+    "description": "得意属性が打属性かつサポーターの時、味方全員の強化系パネルから受ける効果量+{0}%",
+    "effect_motion_id": null,
+    "id": 6000589
+  },
+  {
+    "description": "得意属性が打属性かつサポーターの時、味方全員の物攻+{0}%",
+    "effect_motion_id": null,
+    "id": 6000590
+  },
+  {
+    "description": "得意属性が風属性かつWEAK攻撃時、スキルダメージ+{0}%",
+    "effect_motion_id": null,
+    "id": 6000591
+  },
+  {
+    "description": "得意属性が風属性の時、HP回復を受けた時、自身に「魔攻+{0}%」を1回行動終了するまで付与(重複不可)",
+    "effect_motion_id": null,
+    "id": 6000592
+  },
+  {
+    "description": "得意属性が風属性かつアタッカーの時、パネル獲得時、スキルダメージ+{0}%(上限35%)",
+    "effect_motion_id": null,
+    "id": 6000593
+  },
+  {
+    "description": "清廉潔白のワイシャツと清廉潔白の雑巾を装備している時、バーストパネル獲得時、バーストスキルダメージ+{0}%(上限75%)",
+    "effect_motion_id": null,
+    "id": 6000594
+  },
+  {
+    "description": "セット効果用state_changeを付与",
+    "effect_motion_id": null,
+    "id": 6000595
+  },
+  {
+    "description": "セット効果用state_changeを付与",
+    "effect_motion_id": null,
+    "id": 6000596
+  },
+  {
+    "description": "得意属性が風属性かつアタッカーの時、パネル獲得時、スキルダメージ+{0}%(上限25%)",
+    "effect_motion_id": null,
+    "id": 6000597
+  },
+  {
+    "description": "清廉潔白のワイシャツと清廉潔白の雑巾を装備している時、バーストパネル獲得時、バーストスキルダメージ+{0}%(上限50%)",
+    "effect_motion_id": null,
+    "id": 6000598
+  },
+  {
+    "description": "得意属性が風属性の時、HP回復を受けた時、自身に「魔攻+{0}%」を1回行動終了するまで付与(重複不可)",
+    "effect_motion_id": null,
+    "id": 6000600
+  },
+  {
     "description": "次の{0}パネルを強化パネルに変換(空パネルの時は生成)",
     "effect_motion_id": null,
     "id": 6000601
@@ -3410,9 +3470,44 @@
     "id": 6000604
   },
   {
+    "description": "次のパネル{0}つをクリティカルパネルに変換もしくは生成",
+    "effect_motion_id": null,
+    "id": 6000605
+  },
+  {
+    "description": "HPが最も減っている味方1人のHPを{0}%回復",
+    "effect_motion_id": null,
+    "id": 6000606
+  },
+  {
+    "description": "現在HPが最も高い敵1体に「麻痺」を1回行動開始するまで超高確率で付与",
+    "effect_motion_id": null,
+    "id": 6000607
+  },
+  {
     "description": "味方全員に「スキルダメージ+{0}%」を1回行動終了するまで付与",
     "effect_motion_id": null,
     "id": 6000635
+  },
+  {
+    "description": "味方全員に「スキルダメージ+{0}%」を1回行動終了するまで付与",
+    "effect_motion_id": null,
+    "id": 6000638
+  },
+  {
+    "description": "現在HPが最も高い敵1体に「毒」を1回行動開始するまで超高確率で付与",
+    "effect_motion_id": null,
+    "id": 6000639
+  },
+  {
+    "description": "現在HPが最も高い敵1体に「麻痺」を1回行動開始するまで高確率で付与",
+    "effect_motion_id": null,
+    "id": 6000640
+  },
+  {
+    "description": "現在HPが最も高い敵1体に「毒」を1回行動開始するまで高確率で付与",
+    "effect_motion_id": null,
+    "id": 6000641
   },
   {
     "description": "与回復量上昇",
@@ -3815,6 +3910,11 @@
     "id": 13000181
   },
   {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 13000182
+  },
+  {
     "description": "自身が風属性の時、スキルダメージ+{}%",
     "effect_motion_id": null,
     "id": 13000183
@@ -3823,6 +3923,16 @@
     "description": "自身が風属性の時、ブレイクダメージ+{}%",
     "effect_motion_id": null,
     "id": 13000184
+  },
+  {
+    "description": "自身が雷属性の時、ブレイクダメージ+{}%",
+    "effect_motion_id": null,
+    "id": 13000186
+  },
+  {
+    "description": "自身が風属性の時、クリティカルダメージ+{}%",
+    "effect_motion_id": null,
+    "id": 13000187
   },
   {
     "description": "[自身/常時/ダメージバフ]",
@@ -4190,6 +4300,16 @@
     "id": 72001049
   },
   {
+    "description": "[味方全員/受ける回復量アップ]",
+    "effect_motion_id": null,
+    "id": 72001051
+  },
+  {
+    "description": "[自身/魔攻上昇(上限100%)]",
+    "effect_motion_id": null,
+    "id": 72001053
+  },
+  {
     "description": "[自身/被弾時/自身のHPが100%未満/バーストパネル以外を回復パネルに変換or生成]",
     "effect_motion_id": null,
     "id": 72001055
@@ -4400,6 +4520,11 @@
     "id": 72500136
   },
   {
+    "description": "[自身/WEAK攻撃時スキルダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72500137
+  },
+  {
     "description": "",
     "effect_motion_id": 1032,
     "id": 80000001
@@ -4418,6 +4543,21 @@
     "description": "カウンター",
     "effect_motion_id": null,
     "id": 80000167
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 86017003
+  },
+  {
+    "description": "味方全体に与ダメージUP(3回)を付与",
+    "effect_motion_id": null,
+    "id": 86119001
+  },
+  {
+    "description": "味方全体に被ダメージDOWN(3回)を付与",
+    "effect_motion_id": null,
+    "id": 86119002
   },
   {
     "description": "物理攻撃の被ダメージを軽減する",
@@ -5682,6 +5822,26 @@
   {
     "description": "",
     "effect_motion_id": null,
+    "id": 91001265
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001266
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001269
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001270
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
     "id": 91001273
   },
   {
@@ -6268,6 +6428,11 @@
     "description": "得意属性が風属性の時、ブレイクダメージアップ",
     "effect_motion_id": null,
     "id": 95000103
+  },
+  {
+    "description": "自身がサポーターの時、味方全員のバーストスキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 95000104
   },
   {
     "description": "",
@@ -13065,6 +13230,41 @@
     "id": 780136003
   },
   {
+    "description": "自身にカウンター(3回)を付与",
+    "effect_motion_id": null,
+    "id": 780138001
+  },
+  {
+    "description": "自身にかばう(5回)を付与",
+    "effect_motion_id": null,
+    "id": 780138002
+  },
+  {
+    "description": "ダメージ無効(1回)を付与",
+    "effect_motion_id": null,
+    "id": 780138003
+  },
+  {
+    "description": "対象者の頭上(タイムライン上)に治癒パネルを生成する(空 → 癒)",
+    "effect_motion_id": null,
+    "id": 780138004
+  },
+  {
+    "description": "対象者の頭上（タイムライン上）にマイナスパネルを生成する(空 → -)",
+    "effect_motion_id": null,
+    "id": 780138005
+  },
+  {
+    "description": "自身に被ダメージDOWN(3回)を付与",
+    "effect_motion_id": null,
+    "id": 780138006
+  },
+  {
+    "description": "自身に素早さUP(3回)を付与",
+    "effect_motion_id": null,
+    "id": 780138007
+  },
+  {
     "description": "攻撃対象にデバフ1つ以上ついている場合付与率80で毒3回付与",
     "effect_motion_id": null,
     "id": 790002001
@@ -16573,6 +16773,26 @@
     "description": "自身が戦闘不能時かつウェルテックス第二形態Aが「被ブレイクダメージUP(ウェルテックス(ブレイク時))」を所持している場合、ウェルテックス第二形態Aの「被ブレイクダメージUP(ウェルテックス(ブレイク時))」を解除",
     "effect_motion_id": null,
     "id": 880136003
+  },
+  {
+    "description": "HP60%以下の時、ダメージ無効(1回)を付与（一度だけ）",
+    "effect_motion_id": 1061,
+    "id": 880138008
+  },
+  {
+    "description": "HP60%以下の時、被ダメージDOWNを付与（一度だけ）",
+    "effect_motion_id": null,
+    "id": 880138009
+  },
+  {
+    "description": "戦闘アイテムの攻撃で被弾時、自身に被ダメージUPを3回付与(一度だけ)",
+    "effect_motion_id": 1063,
+    "id": 880138010
+  },
+  {
+    "description": "女性キャラから攻撃をされた時、自身に与ダメージDOWN付与(一度だけ)",
+    "effect_motion_id": 1062,
+    "id": 880138011
   },
   {
     "description": "マイナス効果が5個以上自身にかかっている時、状態異常付与率を上昇",

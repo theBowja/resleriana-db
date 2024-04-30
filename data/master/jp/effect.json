@@ -3445,6 +3445,11 @@
     "id": 6000598
   },
   {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "id": 6000599
+  },
+  {
     "description": "得意属性が風属性の時、HP回復を受けた時、自身に「魔攻+{0}%」を1回行動終了するまで付与(重複不可)",
     "effect_motion_id": null,
     "id": 6000600
@@ -3483,6 +3488,36 @@
     "description": "現在HPが最も高い敵1体に「麻痺」を1回行動開始するまで超高確率で付与",
     "effect_motion_id": null,
     "id": 6000607
+  },
+  {
+    "description": "得意属性が雷属性かつサポーターの時、与えるマイナス効果量アップ",
+    "effect_motion_id": null,
+    "id": 6000608
+  },
+  {
+    "description": "自身がサポーターの時、味方全員の魔法攻撃スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000609
+  },
+  {
+    "description": "得意属性が雷属性の時、全体攻撃から受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000610
+  },
+  {
+    "description": "状態異常耐性アップ",
+    "effect_motion_id": null,
+    "id": 6000611
+  },
+  {
+    "description": "得意属性が火氷雷風属性の時、受けるHP回復量アップ",
+    "effect_motion_id": null,
+    "id": 6000612
+  },
+  {
+    "description": "得意属性が火氷雷風属性の時、受けるマイナス効果量ダウン",
+    "effect_motion_id": null,
+    "id": 6000613
   },
   {
     "description": "味方全員に「スキルダメージ+{0}%」を1回行動終了するまで付与",
@@ -3935,6 +3970,11 @@
     "id": 13000187
   },
   {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 13000188
+  },
+  {
     "description": "[自身/常時/ダメージバフ]",
     "effect_motion_id": null,
     "id": 72000901
@@ -4313,6 +4353,11 @@
     "description": "[自身/被弾時/自身のHPが100%未満/バーストパネル以外を回復パネルに変換or生成]",
     "effect_motion_id": null,
     "id": 72001055
+  },
+  {
+    "description": "[味方全員/与えるマイナス効果量アップ]",
+    "effect_motion_id": null,
+    "id": 72001057
   },
   {
     "description": "[自身/常時/物攻上昇]",
@@ -5847,6 +5892,21 @@
   {
     "description": "",
     "effect_motion_id": null,
+    "id": 91001279
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001280
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001296
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
     "id": 91002004
   },
   {
@@ -6433,6 +6493,16 @@
     "description": "自身がサポーターの時、味方全員のバーストスキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000104
+  },
+  {
+    "description": "自身がサポーターの時、味方全員の強化系パネルから受ける効果量アップ",
+    "effect_motion_id": null,
+    "id": 95000105
+  },
+  {
+    "description": "魔法攻撃時、対象に「火氷風雷属性耐性ダウン」を2回攻撃を受けるまで付与",
+    "effect_motion_id": null,
+    "id": 95000106
   },
   {
     "description": "",
@@ -9835,6 +9905,16 @@
     "id": 780013005
   },
   {
+    "description": "対象に与ダメージUP1回を付与",
+    "effect_motion_id": null,
+    "id": 780013008
+  },
+  {
+    "description": "対象に素早さUP1回を付与",
+    "effect_motion_id": null,
+    "id": 780013009
+  },
+  {
     "description": "",
     "effect_motion_id": null,
     "id": 780014001
@@ -10203,6 +10283,26 @@
     "description": "自身の被ダメージカット（10回）",
     "effect_motion_id": null,
     "id": 780030006
+  },
+  {
+    "description": "自身に被ダメージDOWN5回を付与",
+    "effect_motion_id": null,
+    "id": 780030007
+  },
+  {
+    "description": "自身に与ダメージUP5回を付与",
+    "effect_motion_id": null,
+    "id": 780030008
+  },
+  {
+    "description": "対象に被ダメージUP3回を付与",
+    "effect_motion_id": null,
+    "id": 780030009
+  },
+  {
+    "description": "対象に素早さDOWN3回を付与",
+    "effect_motion_id": null,
+    "id": 780030010
   },
   {
     "description": "敵対象に与ダメージDOWN2回付与",
@@ -11138,6 +11238,11 @@
     "description": "対象に再生2回付与",
     "effect_motion_id": null,
     "id": 780055011
+  },
+  {
+    "description": "対象にダメージ無効2回を付与",
+    "effect_motion_id": null,
+    "id": 780055017
   },
   {
     "description": "",
@@ -12163,6 +12268,11 @@
     "description": "敵対象に与ダメージDOWN2回",
     "effect_motion_id": null,
     "id": 780101013
+  },
+  {
+    "description": "対象に物理攻撃力DOWN3回を付与",
+    "effect_motion_id": null,
+    "id": 780101014
   },
   {
     "description": "自身のブレイクダメージを回復",
@@ -13263,6 +13373,66 @@
     "description": "自身に素早さUP(3回)を付与",
     "effect_motion_id": null,
     "id": 780138007
+  },
+  {
+    "description": "味方全体のHP回復",
+    "effect_motion_id": null,
+    "id": 780139022
+  },
+  {
+    "description": "対象に与ダメージDOWN2回を付与",
+    "effect_motion_id": null,
+    "id": 780139023
+  },
+  {
+    "description": "対象に与ダメージDOWN1回を付与",
+    "effect_motion_id": null,
+    "id": 780139024
+  },
+  {
+    "description": "HPが50%以上の対象に与ダメージUP",
+    "effect_motion_id": null,
+    "id": 780139025
+  },
+  {
+    "description": "対象のブレイクゲージ回復",
+    "effect_motion_id": null,
+    "id": 780139026
+  },
+  {
+    "description": "対象にマイナス効果無効1回を付与",
+    "effect_motion_id": null,
+    "id": 780139027
+  },
+  {
+    "description": "対象のHP回復",
+    "effect_motion_id": null,
+    "id": 780139028
+  },
+  {
+    "description": "HPが100%の対象に眠り1回を付与",
+    "effect_motion_id": null,
+    "id": 780139029
+  },
+  {
+    "description": "HPが100%の対象に被ダメージUP1回を付与",
+    "effect_motion_id": null,
+    "id": 780139030
+  },
+  {
+    "description": "HPが100%の対象に与ダメージUP2回を付与",
+    "effect_motion_id": null,
+    "id": 780139031
+  },
+  {
+    "description": "対象に物理被ダメージDOWN3回を付与",
+    "effect_motion_id": null,
+    "id": 780139032
+  },
+  {
+    "description": "対象に回復無効2回を付与",
+    "effect_motion_id": null,
+    "id": 780139033
   },
   {
     "description": "攻撃対象にデバフ1つ以上ついている場合付与率80で毒3回付与",
@@ -16793,6 +16963,111 @@
     "description": "女性キャラから攻撃をされた時、自身に与ダメージDOWN付与(一度だけ)",
     "effect_motion_id": 1062,
     "id": 880138011
+  },
+  {
+    "description": "",
+    "effect_motion_id": 1064,
+    "id": 880139001
+  },
+  {
+    "description": "自身にHP回復",
+    "effect_motion_id": null,
+    "id": 880139002
+  },
+  {
+    "description": "自身に被ブレイクダメージDOWNを付与",
+    "effect_motion_id": null,
+    "id": 880139003
+  },
+  {
+    "description": "自身に被ダメージUPを付与",
+    "effect_motion_id": null,
+    "id": 880139004
+  },
+  {
+    "description": "自身に与ダメージUPを付与",
+    "effect_motion_id": null,
+    "id": 880139005
+  },
+  {
+    "description": "自身に素早さUPを付与",
+    "effect_motion_id": null,
+    "id": 880139006
+  },
+  {
+    "description": "自身に再生2回を付与",
+    "effect_motion_id": null,
+    "id": 880139007
+  },
+  {
+    "description": "",
+    "effect_motion_id": 1064,
+    "id": 880139008
+  },
+  {
+    "description": "自身にHP回復",
+    "effect_motion_id": null,
+    "id": 880139009
+  },
+  {
+    "description": "自身に被ブレイクダメージDOWNを付与",
+    "effect_motion_id": null,
+    "id": 880139010
+  },
+  {
+    "description": "自身に被ダメージUPを付与",
+    "effect_motion_id": null,
+    "id": 880139011
+  },
+  {
+    "description": "自身に与ダメージUPを付与",
+    "effect_motion_id": null,
+    "id": 880139012
+  },
+  {
+    "description": "自身に素早さUPを付与",
+    "effect_motion_id": null,
+    "id": 880139013
+  },
+  {
+    "description": "自身に再生2回を付与",
+    "effect_motion_id": null,
+    "id": 880139014
+  },
+  {
+    "description": "",
+    "effect_motion_id": 1064,
+    "id": 880139015
+  },
+  {
+    "description": "自身にHP回復",
+    "effect_motion_id": null,
+    "id": 880139016
+  },
+  {
+    "description": "自身に被ブレイクダメージDOWNを付与",
+    "effect_motion_id": null,
+    "id": 880139017
+  },
+  {
+    "description": "自身に被ダメージUPを付与",
+    "effect_motion_id": null,
+    "id": 880139018
+  },
+  {
+    "description": "自身に与ダメージUPを付与",
+    "effect_motion_id": null,
+    "id": 880139019
+  },
+  {
+    "description": "自身に素早さUPを付与",
+    "effect_motion_id": null,
+    "id": 880139020
+  },
+  {
+    "description": "自身に再生2回を付与",
+    "effect_motion_id": null,
+    "id": 880139021
   },
   {
     "description": "マイナス効果が5個以上自身にかかっている時、状態異常付与率を上昇",

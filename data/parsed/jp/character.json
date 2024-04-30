@@ -11123,6 +11123,197 @@
     "start_at": "2023-10-10T03:00:00.000Z"
   },
   {
+    "id": 40002,
+    "name": "クラウディア",
+    "title": "【Fragrant Elegance】",
+    "full_name": "クラウディア・バレンツ",
+    "base_character": "クラウディア",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "BOLT",
+    "role": "SUPPORTER",
+    "initial_rarity": 3,
+    "acquisition_text": "ごめんね、準備に時間がかかっちゃって……\nえ、似合ってる？ もう……ありがと",
+    "profile": {
+      "voice_actor": "大和田仁美",
+      "voice_text": "初めての衣装でお出かけに……\nなんだかドキドキするよね",
+      "description": "商家の一人娘。\n隊商に同行し、父親譲りの商才を発揮して行商人たちを助けている。\nこの衣装は仕事で訪れた市場で一目惚れして購入したもの。\n淑やかな彼女だが意外と度胸があり、「ととのう」体験をするためなら冷たい水にもためらわず浸かる。",
+      "origin_game": "ライザのアトリエ ～常闇の女王と秘密の隠れ家～"
+    },
+    "gift_color": {
+      "received": "緑",
+      "given": "青"
+    },
+    "battle_item_trait": [
+      {
+        "id": 21,
+        "name": "雷の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000061,
+            "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "魔防の祝福",
+        "category": "ENHANCE",
+        "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 25,
+        "name": "物理耐性上昇",
+        "category": "ENHANCE",
+        "description": "物理攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "物理属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 152,
+        "spd": 256,
+        "patk": 52,
+        "matk": 55,
+        "pdef": 48,
+        "mdef": 54
+      },
+      "growth": {
+        "hp": 1520,
+        "spd": 0,
+        "patk": 520,
+        "matk": 550,
+        "pdef": 480,
+        "mdef": 540
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 5,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "ヴァントネール",
+      "description": "攻撃後、対象に「ダメージ-{0}%」を2回行動終了するまで付与",
+      "summary": "攻撃後、対象のダメージダウン",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000916,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [45, 47, 50, 53, 56],
+      "has_stun": true,
+      "stun_values": [5, 5, 5, 5, 6],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "雷鳴の調べ",
+      "description": "敵全体に「ダメージ-{0}%」を1回行動終了するまで付与し、<br>対象に「受ける魔法攻撃ダメージ+{1}%」を2回攻撃を受けるまで付与(上限4個)",
+      "summary": "敵全体のダメージダウン<br>対象の受ける魔法攻撃ダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000914,
+          "description": "",
+          "value": 500
+        },
+        {
+          "id": 91001296,
+          "description": "",
+          "value": 3000
+        }
+      ],
+      "attribute_type": "NONE",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "紫電泉響",
+      "description": "攻撃後、味方全員に「強化系パネルから受ける効果量+{0}%」を付与(重複不可)",
+      "summary": "攻撃後、味方全員の強化系パネルから受ける効果量アップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001279,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "ととのいました？",
+      "description": "味方全員の与えるマイナス効果量+{0}%",
+      "effects": [
+        {
+          "id": 72001057,
+          "description": "[味方全員/与えるマイナス効果量アップ]",
+          "value": 1500
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "アドバンスオール魔攻Ⅲ",
+      "description": "味方全員の魔攻+{0}%",
+      "effects": [
+        {
+          "id": 72000908,
+          "description": "[味方全体/常時/魔攻上昇]",
+          "value": 1500
+        }
+      ]
+    },
+    "start_at": "2024-04-30T03:00:00.000Z"
+  },
+  {
     "id": 40101,
     "name": "リラ",
     "title": "【漆黒の護衛】",

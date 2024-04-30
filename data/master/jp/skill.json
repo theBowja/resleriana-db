@@ -13793,6 +13793,126 @@
   },
   {
     "attack_attribute_category": 2,
+    "attack_attributes": [7],
+    "break_power": 5,
+    "break_power_type": 2,
+    "description": "攻撃後、対象に「ダメージ-{0}%」を2回行動終了するまで付与",
+    "effects": [
+      {
+        "id": 91000916,
+        "value": 1000
+      }
+    ],
+    "id": 11001284,
+    "limit_count": null,
+    "name": "ヴァントネール",
+    "power": 45,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 3,
+    "still_path_hash": "9019439288131687315",
+    "summary": "攻撃後、対象のダメージダウン",
+    "timeline_hash": "407983401645328539",
+    "wait": -100
+  },
+  {
+    "attack_attribute_category": 2,
+    "attack_attributes": [7],
+    "break_power": 5,
+    "break_power_type": 2,
+    "description": "攻撃後、対象に「ダメージ-{0}%」を2回行動終了するまで付与",
+    "effects": [
+      {
+        "id": 91000916,
+        "value": 1000
+      }
+    ],
+    "id": 11001285,
+    "limit_count": null,
+    "name": "ヴァントネール",
+    "power": 47,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 3,
+    "still_path_hash": "9019439288131687315",
+    "summary": "攻撃後、対象のダメージダウン",
+    "timeline_hash": "407983401645328539",
+    "wait": -100
+  },
+  {
+    "attack_attribute_category": 2,
+    "attack_attributes": [7],
+    "break_power": 5,
+    "break_power_type": 2,
+    "description": "攻撃後、対象に「ダメージ-{0}%」を2回行動終了するまで付与",
+    "effects": [
+      {
+        "id": 91000916,
+        "value": 1000
+      }
+    ],
+    "id": 11001286,
+    "limit_count": null,
+    "name": "ヴァントネール",
+    "power": 50,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 3,
+    "still_path_hash": "9019439288131687315",
+    "summary": "攻撃後、対象のダメージダウン",
+    "timeline_hash": "407983401645328539",
+    "wait": -100
+  },
+  {
+    "attack_attribute_category": 2,
+    "attack_attributes": [7],
+    "break_power": 5,
+    "break_power_type": 2,
+    "description": "攻撃後、対象に「ダメージ-{0}%」を2回行動終了するまで付与",
+    "effects": [
+      {
+        "id": 91000916,
+        "value": 1000
+      }
+    ],
+    "id": 11001287,
+    "limit_count": null,
+    "name": "ヴァントネール",
+    "power": 53,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 3,
+    "still_path_hash": "9019439288131687315",
+    "summary": "攻撃後、対象のダメージダウン",
+    "timeline_hash": "407983401645328539",
+    "wait": -100
+  },
+  {
+    "attack_attribute_category": 2,
+    "attack_attributes": [7],
+    "break_power": 6,
+    "break_power_type": 2,
+    "description": "攻撃後、対象に「ダメージ-{0}%」を2回行動終了するまで付与",
+    "effects": [
+      {
+        "id": 91000916,
+        "value": 1000
+      }
+    ],
+    "id": 11001288,
+    "limit_count": null,
+    "name": "ヴァントネール",
+    "power": 56,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 3,
+    "still_path_hash": "9019439288131687315",
+    "summary": "攻撃後、対象のダメージダウン",
+    "timeline_hash": "407983401645328539",
+    "wait": -100
+  },
+  {
+    "attack_attribute_category": 2,
     "attack_attributes": [5],
     "break_power": 12,
     "break_power_type": 2,
@@ -23530,6 +23650,146 @@
     "summary": "WEAK攻撃時、ダメージアップ",
     "timeline_hash": "4991946183886182131",
     "wait": -25
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [7],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "敵全体に「ダメージ-{0}%」を1回行動終了するまで付与し、<br>対象に「受ける魔法攻撃ダメージ+{1}%」を2回攻撃を受けるまで付与(上限4個)",
+    "effects": [
+      {
+        "id": 91000914,
+        "value": 500
+      },
+      {
+        "id": 91001296,
+        "value": 3000
+      }
+    ],
+    "id": 12001289,
+    "limit_count": null,
+    "name": "雷鳴の調べ",
+    "power": 0,
+    "skill_effect_type": 4,
+    "skill_power_type": 1,
+    "skill_target_type": 5,
+    "still_path_hash": "6350769914047526280",
+    "summary": "敵全体のダメージダウン<br>対象の受ける魔法攻撃ダメージアップ",
+    "timeline_hash": "6744580184623841033",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [7],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "敵全体に「ダメージ-{0}%」を1回行動終了するまで付与し、<br>対象に「受ける魔法攻撃ダメージ+{1}%」を2回攻撃を受けるまで付与(上限4個)",
+    "effects": [
+      {
+        "id": 91000914,
+        "value": 600
+      },
+      {
+        "id": 91001296,
+        "value": 3000
+      }
+    ],
+    "id": 12001290,
+    "limit_count": null,
+    "name": "雷鳴の調べ",
+    "power": 0,
+    "skill_effect_type": 4,
+    "skill_power_type": 1,
+    "skill_target_type": 5,
+    "still_path_hash": "6350769914047526280",
+    "summary": "敵全体のダメージダウン<br>対象の受ける魔法攻撃ダメージアップ",
+    "timeline_hash": "6744580184623841033",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [7],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "敵全体に「ダメージ-{0}%」を1回行動終了するまで付与し、<br>対象に「受ける魔法攻撃ダメージ+{1}%」を2回攻撃を受けるまで付与(上限4個)",
+    "effects": [
+      {
+        "id": 91000914,
+        "value": 700
+      },
+      {
+        "id": 91001296,
+        "value": 3000
+      }
+    ],
+    "id": 12001291,
+    "limit_count": null,
+    "name": "雷鳴の調べ",
+    "power": 0,
+    "skill_effect_type": 4,
+    "skill_power_type": 1,
+    "skill_target_type": 5,
+    "still_path_hash": "6350769914047526280",
+    "summary": "敵全体のダメージダウン<br>対象の受ける魔法攻撃ダメージアップ",
+    "timeline_hash": "6744580184623841033",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [7],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "敵全体に「ダメージ-{0}%」を1回行動終了するまで付与し、<br>対象に「受ける魔法攻撃ダメージ+{1}%」を2回攻撃を受けるまで付与(上限4個)",
+    "effects": [
+      {
+        "id": 91000914,
+        "value": 800
+      },
+      {
+        "id": 91001296,
+        "value": 3000
+      }
+    ],
+    "id": 12001292,
+    "limit_count": null,
+    "name": "雷鳴の調べ",
+    "power": 0,
+    "skill_effect_type": 4,
+    "skill_power_type": 1,
+    "skill_target_type": 5,
+    "still_path_hash": "6350769914047526280",
+    "summary": "敵全体のダメージダウン<br>対象の受ける魔法攻撃ダメージアップ",
+    "timeline_hash": "6744580184623841033",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [7],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "敵全体に「ダメージ-{0}%」を1回行動終了するまで付与し、<br>対象に「受ける魔法攻撃ダメージ+{1}%」を2回攻撃を受けるまで付与(上限4個)",
+    "effects": [
+      {
+        "id": 91000914,
+        "value": 900
+      },
+      {
+        "id": 91001296,
+        "value": 3000
+      }
+    ],
+    "id": 12001293,
+    "limit_count": null,
+    "name": "雷鳴の調べ",
+    "power": 0,
+    "skill_effect_type": 4,
+    "skill_power_type": 1,
+    "skill_target_type": 5,
+    "still_path_hash": "6350769914047526280",
+    "summary": "敵全体のダメージダウン<br>対象の受ける魔法攻撃ダメージアップ",
+    "timeline_hash": "6744580184623841033",
+    "wait": 0
   },
   {
     "attack_attribute_category": 2,
@@ -33710,6 +33970,126 @@
     "summary": "攻撃後、自身に超素早さアップ<br>自身の魔攻アップ",
     "timeline_hash": "1179662121725687600",
     "wait": -50
+  },
+  {
+    "attack_attribute_category": 2,
+    "attack_attributes": [7],
+    "break_power": 30,
+    "break_power_type": 2,
+    "description": "攻撃後、味方全員に「強化系パネルから受ける効果量+{0}%」を付与(重複不可)",
+    "effects": [
+      {
+        "id": 91001279,
+        "value": 10000
+      }
+    ],
+    "id": 14001294,
+    "limit_count": null,
+    "name": "紫電泉響",
+    "power": 240,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 5,
+    "still_path_hash": "2737944152616749262",
+    "summary": "攻撃後、味方全員の強化系パネルから受ける効果量アップ",
+    "timeline_hash": "4520930314633859686",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": 2,
+    "attack_attributes": [7],
+    "break_power": 31,
+    "break_power_type": 2,
+    "description": "攻撃後、味方全員に「強化系パネルから受ける効果量+{0}%」を付与(重複不可)",
+    "effects": [
+      {
+        "id": 91001279,
+        "value": 10000
+      }
+    ],
+    "id": 14001295,
+    "limit_count": null,
+    "name": "紫電泉響",
+    "power": 255,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 5,
+    "still_path_hash": "2737944152616749262",
+    "summary": "攻撃後、味方全員の強化系パネルから受ける効果量アップ",
+    "timeline_hash": "4520930314633859686",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": 2,
+    "attack_attributes": [7],
+    "break_power": 33,
+    "break_power_type": 2,
+    "description": "攻撃後、味方全員に「強化系パネルから受ける効果量+{0}%」を付与(重複不可)",
+    "effects": [
+      {
+        "id": 91001279,
+        "value": 10000
+      }
+    ],
+    "id": 14001296,
+    "limit_count": null,
+    "name": "紫電泉響",
+    "power": 270,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 5,
+    "still_path_hash": "2737944152616749262",
+    "summary": "攻撃後、味方全員の強化系パネルから受ける効果量アップ",
+    "timeline_hash": "4520930314633859686",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": 2,
+    "attack_attributes": [7],
+    "break_power": 35,
+    "break_power_type": 2,
+    "description": "攻撃後、味方全員に「強化系パネルから受ける効果量+{0}%」を付与(重複不可)",
+    "effects": [
+      {
+        "id": 91001279,
+        "value": 10000
+      }
+    ],
+    "id": 14001297,
+    "limit_count": null,
+    "name": "紫電泉響",
+    "power": 285,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 5,
+    "still_path_hash": "2737944152616749262",
+    "summary": "攻撃後、味方全員の強化系パネルから受ける効果量アップ",
+    "timeline_hash": "4520930314633859686",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": 2,
+    "attack_attributes": [7],
+    "break_power": 37,
+    "break_power_type": 2,
+    "description": "攻撃後、味方全員に「強化系パネルから受ける効果量+{0}%」を付与(重複不可)",
+    "effects": [
+      {
+        "id": 91001279,
+        "value": 10000
+      }
+    ],
+    "id": 14001298,
+    "limit_count": null,
+    "name": "紫電泉響",
+    "power": 300,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 5,
+    "still_path_hash": "2737944152616749262",
+    "summary": "攻撃後、味方全員の強化系パネルから受ける効果量アップ",
+    "timeline_hash": "4520930314633859686",
+    "wait": 0
   },
   {
     "attack_attribute_category": 1,
@@ -144884,6 +145264,1169 @@
     "summary": "",
     "timeline_hash": "6638740359805299415",
     "wait": -60
+  },
+  {
+    "attack_attribute_category": 1,
+    "attack_attributes": [2],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "効果なし",
+    "effects": [],
+    "id": 20011032,
+    "limit_count": null,
+    "name": "ぷにボンバー",
+    "power": 210,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 5,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "5730041127285223100",
+    "wait": -85
+  },
+  {
+    "attack_attribute_category": 2,
+    "attack_attributes": [6],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "効果なし",
+    "effects": [],
+    "id": 20011033,
+    "limit_count": null,
+    "name": "ぷにブレス",
+    "power": 184,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 5,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "4923083226484161822",
+    "wait": -85
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "対象のHPを50％回復",
+    "effects": [],
+    "id": 20011034,
+    "limit_count": null,
+    "name": "ヒール",
+    "power": 50,
+    "skill_effect_type": 2,
+    "skill_power_type": 7,
+    "skill_target_type": 2,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "1708499526144350504",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": 1,
+    "attack_attributes": [2],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "効果なし",
+    "effects": [],
+    "id": 20011035,
+    "limit_count": null,
+    "name": "タートルヘッド",
+    "power": 440,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 3,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "7386186473112376339",
+    "wait": -107
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "対象にダメージ無効1回を付与",
+    "effects": [
+      {
+        "id": 780013001,
+        "value": 10000
+      }
+    ],
+    "id": 20011036,
+    "limit_count": null,
+    "name": "シェルフィールド",
+    "power": 0,
+    "skill_effect_type": 3,
+    "skill_power_type": 1,
+    "skill_target_type": 4,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "1720328440697880966",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": 1,
+    "attack_attributes": [2],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "効果なし",
+    "effects": [],
+    "id": 20011037,
+    "limit_count": null,
+    "name": "レイジングタートル",
+    "power": 184,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 5,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "4517669223515792257",
+    "wait": -107
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "対象に与ダメージUP30%1回を付与\n対象に素早さUP30%1回を付与",
+    "effects": [
+      {
+        "id": 780013008,
+        "value": 3000
+      },
+      {
+        "id": 780013009,
+        "value": 3000
+      }
+    ],
+    "id": 20011038,
+    "limit_count": null,
+    "name": "スピンアップ",
+    "power": 0,
+    "skill_effect_type": 3,
+    "skill_power_type": 1,
+    "skill_target_type": 2,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "5759867346579338774",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": 1,
+    "attack_attributes": [2],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "効果なし",
+    "effects": [],
+    "id": 20011040,
+    "limit_count": null,
+    "name": "打振",
+    "power": 210,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 5,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "2526974191654943714",
+    "wait": -90
+  },
+  {
+    "attack_attribute_category": 1,
+    "attack_attributes": [2],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "対象に与ダメージダウン15%3回を付与",
+    "effects": [
+      {
+        "id": 780020013,
+        "value": 1500
+      }
+    ],
+    "id": 20011041,
+    "limit_count": null,
+    "name": "激振",
+    "power": 210,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 5,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "2526974191654943714",
+    "wait": -90
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "自身にカウンター状態3回を付与",
+    "effects": [
+      {
+        "id": 780020002,
+        "value": 0
+      }
+    ],
+    "id": 20011042,
+    "limit_count": null,
+    "name": "反撃態勢",
+    "power": 0,
+    "skill_effect_type": 3,
+    "skill_power_type": 1,
+    "skill_target_type": 1,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "8430369603913712876",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "対象に素早さダウン15%3回を付与",
+    "effects": [
+      {
+        "id": 780020023,
+        "value": 1500
+      }
+    ],
+    "id": 20011043,
+    "limit_count": null,
+    "name": "威圧",
+    "power": 0,
+    "skill_effect_type": 4,
+    "skill_power_type": 1,
+    "skill_target_type": 3,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "2817337077518262490",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": 1,
+    "attack_attributes": [2],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "効果なし",
+    "effects": [],
+    "id": 20011044,
+    "limit_count": null,
+    "name": "報襲",
+    "power": 440,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 3,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "3247414694210233343",
+    "wait": -90
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "対象のHPを30％回復",
+    "effects": [],
+    "id": 20011045,
+    "limit_count": null,
+    "name": "祝福の指差し",
+    "power": 30,
+    "skill_effect_type": 2,
+    "skill_power_type": 7,
+    "skill_target_type": 2,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "5100858318102086022",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": 2,
+    "attack_attributes": [8],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "対象に毒5回を8つ付与",
+    "effects": [
+      {
+        "id": 780015005,
+        "value": 200
+      },
+      {
+        "id": 780015005,
+        "value": 200
+      },
+      {
+        "id": 780015005,
+        "value": 200
+      },
+      {
+        "id": 780015005,
+        "value": 200
+      },
+      {
+        "id": 780015005,
+        "value": 200
+      },
+      {
+        "id": 780015005,
+        "value": 200
+      },
+      {
+        "id": 780015005,
+        "value": 200
+      },
+      {
+        "id": 780015005,
+        "value": 200
+      }
+    ],
+    "id": 20011046,
+    "limit_count": null,
+    "name": "炸裂の開花",
+    "power": 500,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 3,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "2231848981571663382",
+    "wait": -101
+  },
+  {
+    "attack_attribute_category": 2,
+    "attack_attributes": [8],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "効果なし",
+    "effects": [],
+    "id": 20011047,
+    "limit_count": null,
+    "name": "マジックシュート",
+    "power": 440,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 3,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "1526265923526600112",
+    "wait": -101
+  },
+  {
+    "attack_attribute_category": 2,
+    "attack_attributes": [8],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "対象に70%の確率で麻痺を付与",
+    "effects": [
+      {
+        "id": 780015042,
+        "value": 2000
+      }
+    ],
+    "id": 20011048,
+    "limit_count": null,
+    "name": "パラライズシュート",
+    "power": 440,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 3,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "8957134858981170336",
+    "wait": -101
+  },
+  {
+    "attack_attribute_category": 1,
+    "attack_attributes": [2],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "効果なし",
+    "effects": [],
+    "id": 20011049,
+    "limit_count": null,
+    "name": "タートルヘッド",
+    "power": 440,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 3,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "4184931416277224517",
+    "wait": -60
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "対象にダメージ無効2回を付与",
+    "effects": [
+      {
+        "id": 780055017,
+        "value": 10000
+      }
+    ],
+    "id": 20011050,
+    "limit_count": null,
+    "name": "シェルフィールド",
+    "power": 0,
+    "skill_effect_type": 3,
+    "skill_power_type": 1,
+    "skill_target_type": 4,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "1720328440697880966",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": 1,
+    "attack_attributes": [2],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "効果なし",
+    "effects": [],
+    "id": 20011051,
+    "limit_count": null,
+    "name": "レイジングタートル",
+    "power": 184,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 5,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "6506588482418858299",
+    "wait": -60
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "対象に与ダメージUP60%1回を付与\n対象に素早さUP30%1回を付与",
+    "effects": [
+      {
+        "id": 780013008,
+        "value": 6000
+      },
+      {
+        "id": 780013009,
+        "value": 3000
+      }
+    ],
+    "id": 20011052,
+    "limit_count": null,
+    "name": "スピンアップ",
+    "power": 0,
+    "skill_effect_type": 3,
+    "skill_power_type": 1,
+    "skill_target_type": 2,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "5759867346579338774",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "対象に挑発付与3回\n攻撃後、自身に被ダメージDOWN30%3回",
+    "effects": [
+      {
+        "id": 780109001,
+        "value": 0
+      },
+      {
+        "id": 780109002,
+        "value": 3000
+      }
+    ],
+    "id": 20011053,
+    "limit_count": null,
+    "name": "アテンション",
+    "power": 0,
+    "skill_effect_type": 4,
+    "skill_power_type": 1,
+    "skill_target_type": 5,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "7167802246843667996",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "自身に被ダメージDOWN20%2回\n自身のHPを20%回復",
+    "effects": [
+      {
+        "id": 780109003,
+        "value": 2000
+      },
+      {
+        "id": 780109004,
+        "value": 2000
+      }
+    ],
+    "id": 20011054,
+    "limit_count": null,
+    "name": "ヒールロア",
+    "power": 0,
+    "skill_effect_type": 3,
+    "skill_power_type": 1,
+    "skill_target_type": 1,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "5759867346579338774",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": 1,
+    "attack_attributes": [3],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "攻撃後、自身に被ダメージDOWN30%1回\n攻撃後、自身に与ダメージUP20%2回",
+    "effects": [
+      {
+        "id": 780109005,
+        "value": 3000
+      },
+      {
+        "id": 780109006,
+        "value": 2000
+      }
+    ],
+    "id": 20011055,
+    "limit_count": null,
+    "name": "ポークバイト",
+    "power": 440,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 3,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "3503421670622327338",
+    "wait": -40
+  },
+  {
+    "attack_attribute_category": 1,
+    "attack_attributes": [3],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "効果なし",
+    "effects": [],
+    "id": 20011056,
+    "limit_count": null,
+    "name": "スピンニードル",
+    "power": 184,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 5,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "4272186949343256976",
+    "wait": -40
+  },
+  {
+    "attack_attribute_category": 2,
+    "attack_attributes": [6],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "効果なし",
+    "effects": [],
+    "id": 20011057,
+    "limit_count": null,
+    "name": "アイスバイト",
+    "power": 440,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 3,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "7543065643951474106",
+    "wait": -40
+  },
+  {
+    "attack_attribute_category": 2,
+    "attack_attributes": [6],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "攻撃後、自身に与ダメージ20%UP3回を付与\n攻撃後、自身に被ブレイクダメージ50%DOWN1回を付与\n攻撃後、自身に被ダメージ50%DOWN1回を付与",
+    "effects": [
+      {
+        "id": 780109007,
+        "value": 2000
+      },
+      {
+        "id": 780109008,
+        "value": 5000
+      },
+      {
+        "id": 780109005,
+        "value": 5000
+      }
+    ],
+    "id": 20011058,
+    "limit_count": null,
+    "name": "氷山甲",
+    "power": 210,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 5,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "7608136830232061314",
+    "wait": -40
+  },
+  {
+    "attack_attribute_category": 2,
+    "attack_attributes": [5],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "攻撃後、味方全体のHPを15%回復",
+    "effects": [
+      {
+        "id": 780139022,
+        "value": 1500
+      }
+    ],
+    "id": 20011059,
+    "limit_count": null,
+    "name": "お湯浴びヒール",
+    "power": 210,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 5,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "6771424163601045799",
+    "wait": -54
+  },
+  {
+    "attack_attribute_category": 2,
+    "attack_attributes": [5],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "対象に与ダメージDOWN30%2回を付与",
+    "effects": [
+      {
+        "id": 780139023,
+        "value": 3000
+      }
+    ],
+    "id": 20011060,
+    "limit_count": null,
+    "name": "あつあつ湯玉",
+    "power": 440,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 3,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "1017654354203360529",
+    "wait": -54
+  },
+  {
+    "attack_attribute_category": 2,
+    "attack_attributes": [5],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "対象に与ダメージDOWN20%1回を付与",
+    "effects": [
+      {
+        "id": 780139024,
+        "value": 2000
+      }
+    ],
+    "id": 20011061,
+    "limit_count": null,
+    "name": "バラマキあつあつ湯玉",
+    "power": 184,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 5,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "416604036508741301",
+    "wait": -54
+  },
+  {
+    "attack_attribute_category": 1,
+    "attack_attributes": [1],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "HPが50%以上の対象に与ダメージUP100%",
+    "effects": [
+      {
+        "id": 780139025,
+        "value": 10000
+      }
+    ],
+    "id": 20011062,
+    "limit_count": null,
+    "name": "ぐるぐるカッター",
+    "power": 500,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 3,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "6210343428427647619",
+    "wait": -54
+  },
+  {
+    "attack_attribute_category": 1,
+    "attack_attributes": [1],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "HPが50%以上の対象に与ダメージUP100%",
+    "effects": [
+      {
+        "id": 780139025,
+        "value": 10000
+      }
+    ],
+    "id": 20011063,
+    "limit_count": null,
+    "name": "湯あたりスラッシュ",
+    "power": 210,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 5,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "9169816830209927302",
+    "wait": -54
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "対象のHPを20%回復\n対象のブレイクゲージを20%回復\n対象にマイナス効果無効1回を付与",
+    "effects": [
+      {
+        "id": 780139026,
+        "value": 2000
+      },
+      {
+        "id": 780139027,
+        "value": 10000
+      }
+    ],
+    "id": 20011064,
+    "limit_count": null,
+    "name": "応援",
+    "power": 20,
+    "skill_effect_type": 2,
+    "skill_power_type": 7,
+    "skill_target_type": 4,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "8555778132674327988",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "対象のHPを50%回復\n回復後、HPが100%の対象に眠り1回を付与\n回復後、HPが100%の対象に被ダメージUP20%1回を付与\n回復後、HPが100%の対象に与ダメージUP20%2回を付与",
+    "effects": [
+      {
+        "id": 780139028,
+        "value": 5000
+      },
+      {
+        "id": 780139029,
+        "value": 0
+      },
+      {
+        "id": 780139030,
+        "value": 10000
+      },
+      {
+        "id": 780139031,
+        "value": 2000
+      }
+    ],
+    "id": 20011065,
+    "limit_count": null,
+    "name": "まどろみの湯けむり",
+    "power": 0,
+    "skill_effect_type": 4,
+    "skill_power_type": 1,
+    "skill_target_type": 5,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "2691951608473833862",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": 1,
+    "attack_attributes": [2],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "対象の魔法攻撃力DOWN30%2回を付与(確率付与)\n対象の物理攻撃力DOWN30%2回を付与(確率付与)",
+    "effects": [
+      {
+        "id": 780030001,
+        "value": 3000
+      },
+      {
+        "id": 780030002,
+        "value": 3000
+      }
+    ],
+    "id": 20011066,
+    "limit_count": null,
+    "name": "激振",
+    "power": 184,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 5,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "2526974191654943714",
+    "wait": -60
+  },
+  {
+    "attack_attribute_category": 1,
+    "attack_attributes": [2],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "効果なし",
+    "effects": [],
+    "id": 20011067,
+    "limit_count": null,
+    "name": "強打",
+    "power": 440,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 3,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "1042328803144123101",
+    "wait": -60
+  },
+  {
+    "attack_attribute_category": 2,
+    "attack_attributes": [5],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "効果なし",
+    "effects": [],
+    "id": 20011068,
+    "limit_count": null,
+    "name": "爆炎拳",
+    "power": 440,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 3,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "9148679108032235465",
+    "wait": -60
+  },
+  {
+    "attack_attribute_category": 2,
+    "attack_attributes": [5],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "効果なし",
+    "effects": [],
+    "id": 20011069,
+    "limit_count": null,
+    "name": "業炎湧昇",
+    "power": 184,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 5,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "8139725243878498264",
+    "wait": -60
+  },
+  {
+    "attack_attribute_category": 1,
+    "attack_attributes": [2],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "効果なし",
+    "effects": [],
+    "id": 20011070,
+    "limit_count": null,
+    "name": "打振",
+    "power": 184,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 5,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "2526974191654943714",
+    "wait": -60
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "自身に被ダメージDOWN30%5回を付与\n自身に与ダメージUP20%5回を付与",
+    "effects": [
+      {
+        "id": 780030007,
+        "value": 3000
+      },
+      {
+        "id": 780030008,
+        "value": 2000
+      }
+    ],
+    "id": 20011071,
+    "limit_count": null,
+    "name": "守備体勢",
+    "power": 0,
+    "skill_effect_type": 3,
+    "skill_power_type": 1,
+    "skill_target_type": 1,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "756521176909421031",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "対象に物理攻撃力DOWN30%3回を付与\n対象に被ダメージUP30%3回を付与\n対象に素早さDOWN30%3回を付与",
+    "effects": [
+      {
+        "id": 780030004,
+        "value": 3000
+      },
+      {
+        "id": 780030009,
+        "value": 3000
+      },
+      {
+        "id": 780030010,
+        "value": 3000
+      }
+    ],
+    "id": 20011072,
+    "limit_count": null,
+    "name": "威圧",
+    "power": 0,
+    "skill_effect_type": 4,
+    "skill_power_type": 1,
+    "skill_target_type": 3,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "2817337077518262490",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": 1,
+    "attack_attributes": [3],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "攻撃後、自身にかばう状態3回を付与",
+    "effects": [
+      {
+        "id": 780101001,
+        "value": 0
+      }
+    ],
+    "id": 20011074,
+    "limit_count": null,
+    "name": "重荷捨て",
+    "power": 500,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 3,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "2761249124525426712",
+    "wait": -67
+  },
+  {
+    "attack_attribute_category": 1,
+    "attack_attributes": [3],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "攻撃時に自身のHPが50%以下の時、自身に与ダメージUP50%3回を付与\n攻撃後、自身に被ダメージDOWN30%2回付与",
+    "effects": [
+      {
+        "id": 780101002,
+        "value": 5000
+      },
+      {
+        "id": 780101003,
+        "value": 3000
+      }
+    ],
+    "id": 20011075,
+    "limit_count": null,
+    "name": "鉄塊投げ",
+    "power": 440,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 3,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "8482085879252659234",
+    "wait": -67
+  },
+  {
+    "attack_attribute_category": 1,
+    "attack_attributes": [3],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "攻撃時に自身のHPが50%以下の時、自身に与ダメージUP50%3回を付与",
+    "effects": [
+      {
+        "id": 780101002,
+        "value": 5000
+      }
+    ],
+    "id": 20011076,
+    "limit_count": null,
+    "name": "うに投げ",
+    "power": 184,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 5,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "9106577777800609668",
+    "wait": -67
+  },
+  {
+    "attack_attribute_category": 2,
+    "attack_attributes": [8],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "対象に物理攻撃力DOWN50%3回を付与",
+    "effects": [
+      {
+        "id": 780101014,
+        "value": 5000
+      }
+    ],
+    "id": 20011077,
+    "limit_count": null,
+    "name": "風塊落とし",
+    "power": 184,
+    "skill_effect_type": 1,
+    "skill_power_type": 2,
+    "skill_target_type": 5,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "3280469242733992882",
+    "wait": -67
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "自身にかばう状態3回を付与\n自身に物理ダメージ無効2回を付与",
+    "effects": [
+      {
+        "id": 780101001,
+        "value": 0
+      },
+      {
+        "id": 780101007,
+        "value": 0
+      }
+    ],
+    "id": 20011078,
+    "limit_count": null,
+    "name": "スタンバイ",
+    "power": 0,
+    "skill_effect_type": 3,
+    "skill_power_type": 1,
+    "skill_target_type": 1,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "353735732387527093",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "対象のHPを20%回復\n対象のブレイクゲージを20%回復\n対象にマイナス効果無効1回を付与\n対象に物理被ダメージDOWN50%3回を付与",
+    "effects": [
+      {
+        "id": 780139026,
+        "value": 2000
+      },
+      {
+        "id": 780139027,
+        "value": 10000
+      },
+      {
+        "id": 780139032,
+        "value": 5000
+      }
+    ],
+    "id": 20011182,
+    "limit_count": null,
+    "name": "応援",
+    "power": 20,
+    "skill_effect_type": 2,
+    "skill_power_type": 7,
+    "skill_target_type": 4,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "8555778132674327988",
+    "wait": 0
+  },
+  {
+    "attack_attribute_category": null,
+    "attack_attributes": [],
+    "break_power": 0,
+    "break_power_type": 1,
+    "description": "対象のHPを50%回復\n回復後、HPが100%の対象に眠り1回を付与\n回復後、HPが100%の対象に被ダメージUP20%1回を付与\n回復後、HPが100%の対象に与ダメージUP20%2回を付与\n回復後、HPが100%の対象に回復無効2回を付与",
+    "effects": [
+      {
+        "id": 780139028,
+        "value": 5000
+      },
+      {
+        "id": 780139029,
+        "value": 0
+      },
+      {
+        "id": 780139030,
+        "value": 2000
+      },
+      {
+        "id": 780139031,
+        "value": 2000
+      },
+      {
+        "id": 780139033,
+        "value": 0
+      }
+    ],
+    "id": 20011183,
+    "limit_count": null,
+    "name": "まどろみの湯けむり",
+    "power": 0,
+    "skill_effect_type": 4,
+    "skill_power_type": 1,
+    "skill_target_type": 5,
+    "still_path_hash": "6523615492000077891",
+    "summary": "",
+    "timeline_hash": "2691951608473833862",
+    "wait": 0
   },
   {
     "attack_attribute_category": 1,

@@ -462,6 +462,23 @@
     "damage_se_path_hash": 0,
     "damage_vfx_path_hash": 0,
     "damage_vfx_priority": 0,
+    "description": "攻撃を受けるたび、クリティカル確率+{value}%(上限100%)",
+    "id": 510050,
+    "invoke_shot_se_path_hash": 0,
+    "invoke_shot_vfx_path_hash": 0,
+    "is_unremovable": false,
+    "loop_vfx_path_hash": 0,
+    "name": "呼び覚まされる本能",
+    "state_change_motion_type": null,
+    "state_change_type": 1,
+    "still_path_hash": "3630297586870480732",
+    "success_shot_se_path_hash": "8814531431721834252",
+    "success_shot_vfx_path_hash": "3835349273592513633"
+  },
+  {
+    "damage_se_path_hash": 0,
+    "damage_vfx_path_hash": 0,
+    "damage_vfx_priority": 0,
     "description": "攻撃後、対象に「麻痺」を付与",
     "id": 560001,
     "invoke_shot_se_path_hash": 0,
@@ -863,6 +880,23 @@
     "state_change_motion_type": null,
     "state_change_type": 1,
     "still_path_hash": "3630297586870480732",
+    "success_shot_se_path_hash": "8814531431721834252",
+    "success_shot_vfx_path_hash": "3835349273592513633"
+  },
+  {
+    "damage_se_path_hash": 0,
+    "damage_vfx_path_hash": 0,
+    "damage_vfx_priority": 0,
+    "description": "受けるダメージ-{value}%",
+    "id": 560074,
+    "invoke_shot_se_path_hash": 0,
+    "invoke_shot_vfx_path_hash": 0,
+    "is_unremovable": false,
+    "loop_vfx_path_hash": 0,
+    "name": "被ダメージDOWN",
+    "state_change_motion_type": null,
+    "state_change_type": 1,
+    "still_path_hash": "2933034647843309955",
     "success_shot_se_path_hash": "8814531431721834252",
     "success_shot_vfx_path_hash": "3835349273592513633"
   },
@@ -2060,6 +2094,40 @@
     "damage_se_path_hash": 0,
     "damage_vfx_path_hash": 0,
     "damage_vfx_priority": 0,
+    "description": "物攻+{value}%(上限30%)",
+    "id": 610099,
+    "invoke_shot_se_path_hash": 0,
+    "invoke_shot_vfx_path_hash": 0,
+    "is_unremovable": false,
+    "loop_vfx_path_hash": 0,
+    "name": "物攻UP",
+    "state_change_motion_type": null,
+    "state_change_type": 1,
+    "still_path_hash": "3630297586870480732",
+    "success_shot_se_path_hash": "8814531431721834252",
+    "success_shot_vfx_path_hash": "3835349273592513633"
+  },
+  {
+    "damage_se_path_hash": 0,
+    "damage_vfx_path_hash": 0,
+    "damage_vfx_priority": 0,
+    "description": "バーストスキルダメージ+{value}%(上限50%)",
+    "id": 610100,
+    "invoke_shot_se_path_hash": 0,
+    "invoke_shot_vfx_path_hash": 0,
+    "is_unremovable": false,
+    "loop_vfx_path_hash": 0,
+    "name": "バーストダメージUP",
+    "state_change_motion_type": null,
+    "state_change_type": 1,
+    "still_path_hash": "3630297586870480732",
+    "success_shot_se_path_hash": "8814531431721834252",
+    "success_shot_vfx_path_hash": "3835349273592513633"
+  },
+  {
+    "damage_se_path_hash": 0,
+    "damage_vfx_path_hash": 0,
+    "damage_vfx_priority": 0,
     "description": "受ける魔法攻撃スキルダメージ+{value}%(最大4個)",
     "id": 610101,
     "invoke_shot_se_path_hash": 0,
@@ -2767,8 +2835,8 @@
     "state_change_motion_type": null,
     "state_change_type": 1,
     "still_path_hash": "3630297586870480732",
-    "success_shot_se_path_hash": "6394140584746087392",
-    "success_shot_vfx_path_hash": "1186856317070894303"
+    "success_shot_se_path_hash": "8814531431721834252",
+    "success_shot_vfx_path_hash": "3835349273592513633"
   },
   {
     "damage_se_path_hash": 0,
@@ -2784,8 +2852,8 @@
     "state_change_motion_type": null,
     "state_change_type": 1,
     "still_path_hash": "3630297586870480732",
-    "success_shot_se_path_hash": "4579486891958165204",
-    "success_shot_vfx_path_hash": "1341054180982809700"
+    "success_shot_se_path_hash": "8814531431721834252",
+    "success_shot_vfx_path_hash": "3835349273592513633"
   },
   {
     "damage_se_path_hash": 0,
@@ -2801,8 +2869,8 @@
     "state_change_motion_type": null,
     "state_change_type": 1,
     "still_path_hash": "2933034647843309955",
-    "success_shot_se_path_hash": "4579486891958165204",
-    "success_shot_vfx_path_hash": "1341054180982809700"
+    "success_shot_se_path_hash": "8814531431721834252",
+    "success_shot_vfx_path_hash": "3835349273592513633"
   },
   {
     "damage_se_path_hash": 0,
@@ -2818,8 +2886,8 @@
     "state_change_motion_type": null,
     "state_change_type": 1,
     "still_path_hash": "2933034647843309955",
-    "success_shot_se_path_hash": "4579486891958165204",
-    "success_shot_vfx_path_hash": "1341054180982809700"
+    "success_shot_se_path_hash": "8814531431721834252",
+    "success_shot_vfx_path_hash": "3835349273592513633"
   },
   {
     "damage_se_path_hash": 0,
@@ -2835,8 +2903,8 @@
     "state_change_motion_type": null,
     "state_change_type": 1,
     "still_path_hash": "3630297586870480732",
-    "success_shot_se_path_hash": "4579486891958165204",
-    "success_shot_vfx_path_hash": "1341054180982809700"
+    "success_shot_se_path_hash": "8814531431721834252",
+    "success_shot_vfx_path_hash": "3835349273592513633"
   },
   {
     "damage_se_path_hash": 0,
@@ -2852,8 +2920,8 @@
     "state_change_motion_type": null,
     "state_change_type": 1,
     "still_path_hash": "3630297586870480732",
-    "success_shot_se_path_hash": "4579486891958165204",
-    "success_shot_vfx_path_hash": "1341054180982809700"
+    "success_shot_se_path_hash": "8814531431721834252",
+    "success_shot_vfx_path_hash": "3835349273592513633"
   },
   {
     "damage_se_path_hash": 0,
@@ -3260,8 +3328,8 @@
     "state_change_motion_type": null,
     "state_change_type": 1,
     "still_path_hash": "3630297586870480732",
-    "success_shot_se_path_hash": "4579486891958165204",
-    "success_shot_vfx_path_hash": "1341054180982809700"
+    "success_shot_se_path_hash": "8814531431721834252",
+    "success_shot_vfx_path_hash": "3835349273592513633"
   },
   {
     "damage_se_path_hash": 0,
@@ -3277,8 +3345,8 @@
     "state_change_motion_type": null,
     "state_change_type": 1,
     "still_path_hash": "3630297586870480732",
-    "success_shot_se_path_hash": "4579486891958165204",
-    "success_shot_vfx_path_hash": "1341054180982809700"
+    "success_shot_se_path_hash": "8814531431721834252",
+    "success_shot_vfx_path_hash": "3835349273592513633"
   },
   {
     "damage_se_path_hash": 0,
@@ -3294,8 +3362,8 @@
     "state_change_motion_type": null,
     "state_change_type": 1,
     "still_path_hash": "3630297586870480732",
-    "success_shot_se_path_hash": "4579486891958165204",
-    "success_shot_vfx_path_hash": "1341054180982809700"
+    "success_shot_se_path_hash": "8814531431721834252",
+    "success_shot_vfx_path_hash": "3835349273592513633"
   },
   {
     "damage_se_path_hash": 0,
@@ -3311,8 +3379,25 @@
     "state_change_motion_type": null,
     "state_change_type": 1,
     "still_path_hash": "3630297586870480732",
-    "success_shot_se_path_hash": "4579486891958165204",
-    "success_shot_vfx_path_hash": "1341054180982809700"
+    "success_shot_se_path_hash": "8814531431721834252",
+    "success_shot_vfx_path_hash": "3835349273592513633"
+  },
+  {
+    "damage_se_path_hash": 0,
+    "damage_vfx_path_hash": 0,
+    "damage_vfx_priority": 0,
+    "description": "全体攻撃の時、敵の数に応じ、スキルダメージ+0〜{value}%(1〜4体で多いほど増加)",
+    "id": 800079,
+    "invoke_shot_se_path_hash": 0,
+    "invoke_shot_vfx_path_hash": 0,
+    "is_unremovable": false,
+    "loop_vfx_path_hash": 0,
+    "name": "全体攻撃時、敵の数に応じ、与ダメージUP(1〜4体で多いほど増加)",
+    "state_change_motion_type": null,
+    "state_change_type": 1,
+    "still_path_hash": "3630297586870480732",
+    "success_shot_se_path_hash": "8814531431721834252",
+    "success_shot_vfx_path_hash": "3835349273592513633"
   },
   {
     "damage_se_path_hash": 0,
@@ -6514,23 +6599,6 @@
     "damage_se_path_hash": 0,
     "damage_vfx_path_hash": 0,
     "damage_vfx_priority": 0,
-    "description": "受ける強化効果量+{value}%",
-    "id": 910084,
-    "invoke_shot_se_path_hash": 0,
-    "invoke_shot_vfx_path_hash": 0,
-    "is_unremovable": false,
-    "loop_vfx_path_hash": 0,
-    "name": "受ける強化効果量UP",
-    "state_change_motion_type": null,
-    "state_change_type": 1,
-    "still_path_hash": "3930168973241524339",
-    "success_shot_se_path_hash": "8814531431721834252",
-    "success_shot_vfx_path_hash": "3835349273592513633"
-  },
-  {
-    "damage_se_path_hash": 0,
-    "damage_vfx_path_hash": 0,
-    "damage_vfx_priority": 0,
     "description": "全体攻撃から受けるブレイクダメージ+{value}%",
     "id": 910085,
     "invoke_shot_se_path_hash": 0,
@@ -6701,6 +6769,23 @@
     "damage_se_path_hash": 0,
     "damage_vfx_path_hash": 0,
     "damage_vfx_priority": 0,
+    "description": "受けるマイナス効果の効果量-{value}%",
+    "id": 910099,
+    "invoke_shot_se_path_hash": 0,
+    "invoke_shot_vfx_path_hash": 0,
+    "is_unremovable": false,
+    "loop_vfx_path_hash": 0,
+    "name": "受けるマイナス効果量DOWN",
+    "state_change_motion_type": null,
+    "state_change_type": 1,
+    "still_path_hash": "2933034647843309955",
+    "success_shot_se_path_hash": "8814531431721834252",
+    "success_shot_vfx_path_hash": "3835349273592513633"
+  },
+  {
+    "damage_se_path_hash": 0,
+    "damage_vfx_path_hash": 0,
+    "damage_vfx_priority": 0,
     "description": "クリティカル攻撃時、ブレイクダメージ+{value}%",
     "id": 910100,
     "invoke_shot_se_path_hash": 0,
@@ -6830,6 +6915,40 @@
     "state_change_motion_type": null,
     "state_change_type": 2,
     "still_path_hash": "2439143492845063937",
+    "success_shot_se_path_hash": "5718517478951318988",
+    "success_shot_vfx_path_hash": "3367295353974167128"
+  },
+  {
+    "damage_se_path_hash": 0,
+    "damage_vfx_path_hash": 0,
+    "damage_vfx_priority": 0,
+    "description": "受けるダメージ+{value}%",
+    "id": 910115,
+    "invoke_shot_se_path_hash": 0,
+    "invoke_shot_vfx_path_hash": 0,
+    "is_unremovable": false,
+    "loop_vfx_path_hash": 0,
+    "name": "被ダメージUP",
+    "state_change_motion_type": null,
+    "state_change_type": 2,
+    "still_path_hash": "2439143492845063937",
+    "success_shot_se_path_hash": "5718517478951318988",
+    "success_shot_vfx_path_hash": "3367295353974167128"
+  },
+  {
+    "damage_se_path_hash": 0,
+    "damage_vfx_path_hash": 0,
+    "damage_vfx_priority": 0,
+    "description": "クリティカル確率DOWNを付与",
+    "id": 910116,
+    "invoke_shot_se_path_hash": 0,
+    "invoke_shot_vfx_path_hash": 0,
+    "is_unremovable": false,
+    "loop_vfx_path_hash": 0,
+    "name": "クリティカル確率DOWN",
+    "state_change_motion_type": null,
+    "state_change_type": 2,
+    "still_path_hash": "7823213466598741033",
     "success_shot_se_path_hash": "5718517478951318988",
     "success_shot_vfx_path_hash": "3367295353974167128"
   },
@@ -11876,6 +11995,57 @@
     "is_unremovable": true,
     "loop_vfx_path_hash": 0,
     "name": "WEAKダメージUP",
+    "state_change_motion_type": null,
+    "state_change_type": 1,
+    "still_path_hash": "3630297586870480732",
+    "success_shot_se_path_hash": "8814531431721834252",
+    "success_shot_vfx_path_hash": "3835349273592513633"
+  },
+  {
+    "damage_se_path_hash": 0,
+    "damage_vfx_path_hash": 0,
+    "damage_vfx_priority": 0,
+    "description": "WEAK攻撃時、自身の最大HP+{value}%(上限100%)",
+    "id": 1210279,
+    "invoke_shot_se_path_hash": 0,
+    "invoke_shot_vfx_path_hash": 0,
+    "is_unremovable": true,
+    "loop_vfx_path_hash": 0,
+    "name": "WEAK攻撃時、自身HP上限UP",
+    "state_change_motion_type": null,
+    "state_change_type": 1,
+    "still_path_hash": "7238692844792354537",
+    "success_shot_se_path_hash": "8814531431721834252",
+    "success_shot_vfx_path_hash": "3835349273592513633"
+  },
+  {
+    "damage_se_path_hash": 0,
+    "damage_vfx_path_hash": 0,
+    "damage_vfx_priority": 0,
+    "description": "カウンター攻撃時、スキルダメージ+{value}%",
+    "id": 1210280,
+    "invoke_shot_se_path_hash": 0,
+    "invoke_shot_vfx_path_hash": 0,
+    "is_unremovable": true,
+    "loop_vfx_path_hash": 0,
+    "name": "カウンターダメージUP",
+    "state_change_motion_type": null,
+    "state_change_type": 1,
+    "still_path_hash": "3630297586870480732",
+    "success_shot_se_path_hash": "8814531431721834252",
+    "success_shot_vfx_path_hash": "3835349273592513633"
+  },
+  {
+    "damage_se_path_hash": 0,
+    "damage_vfx_path_hash": 0,
+    "damage_vfx_priority": 0,
+    "description": "受けるパネル効果量+{value}%",
+    "id": 1210281,
+    "invoke_shot_se_path_hash": 0,
+    "invoke_shot_vfx_path_hash": 0,
+    "is_unremovable": true,
+    "loop_vfx_path_hash": 0,
+    "name": "被パネル効果量UP",
     "state_change_motion_type": null,
     "state_change_type": 1,
     "still_path_hash": "3630297586870480732",

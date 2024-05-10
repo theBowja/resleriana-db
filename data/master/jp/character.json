@@ -33,6 +33,7 @@
       "abilities": [
         {
           "ability_id": 1980001,
+          "combat_power_coefficient": 1500,
           "condition_ids": [28]
         }
       ],
@@ -102,6 +103,7 @@
       "abilities": [
         {
           "ability_id": 1980073,
+          "combat_power_coefficient": 2500,
           "condition_ids": [41]
         }
       ],
@@ -171,6 +173,7 @@
       "abilities": [
         {
           "ability_id": 1980027,
+          "combat_power_coefficient": 2500,
           "condition_ids": [34]
         }
       ],
@@ -240,6 +243,7 @@
       "abilities": [
         {
           "ability_id": 1980028,
+          "combat_power_coefficient": 500,
           "condition_ids": [12]
         }
       ],
@@ -309,6 +313,7 @@
       "abilities": [
         {
           "ability_id": 1980093,
+          "combat_power_coefficient": 3500,
           "condition_ids": [48]
         }
       ],
@@ -378,6 +383,7 @@
       "abilities": [
         {
           "ability_id": 1980057,
+          "combat_power_coefficient": 2500,
           "condition_ids": [31]
         }
       ],
@@ -447,6 +453,7 @@
       "abilities": [
         {
           "ability_id": 1980007,
+          "combat_power_coefficient": 2500,
           "condition_ids": [40]
         }
       ],
@@ -516,6 +523,7 @@
       "abilities": [
         {
           "ability_id": 1980020,
+          "combat_power_coefficient": 1000,
           "condition_ids": [32]
         }
       ],
@@ -585,6 +593,7 @@
       "abilities": [
         {
           "ability_id": 1980107,
+          "combat_power_coefficient": 500,
           "condition_ids": [12]
         }
       ],
@@ -654,6 +663,7 @@
       "abilities": [
         {
           "ability_id": 1980029,
+          "combat_power_coefficient": 500,
           "condition_ids": [12]
         }
       ],
@@ -723,6 +733,7 @@
       "abilities": [
         {
           "ability_id": 1980030,
+          "combat_power_coefficient": 500,
           "condition_ids": [12]
         }
       ],
@@ -792,6 +803,7 @@
       "abilities": [
         {
           "ability_id": 1980086,
+          "combat_power_coefficient": 2500,
           "condition_ids": [37]
         }
       ],
@@ -861,6 +873,7 @@
       "abilities": [
         {
           "ability_id": 1980126,
+          "combat_power_coefficient": 3500,
           "condition_ids": [57]
         }
       ],
@@ -930,6 +943,7 @@
       "abilities": [
         {
           "ability_id": 1980031,
+          "combat_power_coefficient": 2500,
           "condition_ids": [35]
         }
       ],
@@ -999,6 +1013,7 @@
       "abilities": [
         {
           "ability_id": 1980003,
+          "combat_power_coefficient": 2500,
           "condition_ids": [32]
         }
       ],
@@ -1068,6 +1083,7 @@
       "abilities": [
         {
           "ability_id": 1980088,
+          "combat_power_coefficient": 2500,
           "condition_ids": [49]
         }
       ],
@@ -1137,6 +1153,7 @@
       "abilities": [
         {
           "ability_id": 1980033,
+          "combat_power_coefficient": 1000,
           "condition_ids": [13]
         }
       ],
@@ -1206,6 +1223,7 @@
       "abilities": [
         {
           "ability_id": 1980035,
+          "combat_power_coefficient": 1500,
           "condition_ids": [49]
         }
       ],
@@ -1275,6 +1293,7 @@
       "abilities": [
         {
           "ability_id": 1980085,
+          "combat_power_coefficient": 1500,
           "condition_ids": [34]
         }
       ],
@@ -1311,6 +1330,76 @@
     "voice_actor_id": 49
   },
   {
+    "ability_ids": [1990200, 1990201],
+    "acquisition_movie_path_hash": "3391959525683460631",
+    "acquisition_text": "船乗りで冒険者で錬金術士――\n一緒に行こう！ 世界の果てまで！",
+    "another_name": "【Hopeful Sailor】",
+    "attack_attributes": [1],
+    "base_character_id": 269,
+    "battle_tool_trait_ids": [13, 12],
+    "burst_skill_ids": [14001324, 14001324, 14001324, 14001325, 14001326, 14001327, 14001328],
+    "character_growth_id": 926903,
+    "character_size_id": 2,
+    "description": "海辺育ちの錬金術士。\n海の向こうを見ることを目標としており、長らく船に乗りたがっていた。\n今回、念願叶ったのが嬉しく、師匠のロロナに手伝ってもらって航海用の服を新調するほど。\n元の世界でも船を操縦した経験があり、航海技術はランツェのお墨付き。",
+    "equipment_tool_trait_ids": [14],
+    "ex_growboard_id": 269032,
+    "extra_skill_ids": [],
+    "fullname": "トトゥーリア・ヘルモルト",
+    "growboard_id": 269031,
+    "id": 26903,
+    "initial_rarity": 3,
+    "initial_status": {
+      "attack": 60,
+      "defense": 42,
+      "hp": 149,
+      "magic": 51,
+      "mental": 47,
+      "speed": 251
+    },
+    "is_alchemist": true,
+    "large_narrow_still_path_hash": "5490907914754710892",
+    "large_still_path_hash": "87823943363218089",
+    "leader_skill": {
+      "abilities": [
+        {
+          "ability_id": 1980130,
+          "combat_power_coefficient": 3500,
+          "condition_ids": [56]
+        }
+      ],
+      "description": "「家族と友情」は「バーストスキルダメージ+100%」",
+      "name": "旅をして得た強さ"
+    },
+    "model_path_hash": "6273364614957675378",
+    "motion_type": 2,
+    "name": "トトリ",
+    "narrow_still_path_hash": "6007917529223299316",
+    "normal1_skill_ids": [11001314, 11001315, 11001316, 11001317, 11001318],
+    "normal2_skill_ids": [12001319, 12001320, 12001321, 12001322, 12001323],
+    "original_title_id": 13,
+    "overlay_name": "Totooria Helmold",
+    "personality": 2,
+    "profile_voice_text": "ヨーソロー！\n船に乗る冒険者兼錬金術士です！",
+    "resistance": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 5,
+      "wind": 0
+    },
+    "result_timeline_hash": "6006355149446723472",
+    "role": 2,
+    "series_id": 6,
+    "start_at": "2024-05-10T03:00:00.000Z",
+    "still_path_hash": "2155744658884903946",
+    "support_color_id": 5,
+    "tag_ids": [2, 10, 14, 18],
+    "trait_color_id": 3,
+    "voice_actor_id": 49
+  },
+  {
     "ability_ids": [1990185, 1990186],
     "acquisition_movie_path_hash": "6757635722215192917",
     "acquisition_text": "このランターナ学園で\n私は私自身の価値を証明してみせる――！",
@@ -1344,6 +1433,7 @@
       "abilities": [
         {
           "ability_id": 1980125,
+          "combat_power_coefficient": 3500,
           "condition_ids": [49]
         }
       ],
@@ -1413,6 +1503,7 @@
       "abilities": [
         {
           "ability_id": 1980118,
+          "combat_power_coefficient": 500,
           "condition_ids": [12]
         }
       ],
@@ -1482,6 +1573,7 @@
       "abilities": [
         {
           "ability_id": 1980014,
+          "combat_power_coefficient": 1500,
           "condition_ids": [35]
         }
       ],
@@ -1551,6 +1643,7 @@
       "abilities": [
         {
           "ability_id": 1980036,
+          "combat_power_coefficient": 500,
           "condition_ids": [12]
         }
       ],
@@ -1620,6 +1713,7 @@
       "abilities": [
         {
           "ability_id": 1980112,
+          "combat_power_coefficient": 1000,
           "condition_ids": [10]
         }
       ],
@@ -1689,6 +1783,7 @@
       "abilities": [
         {
           "ability_id": 1980060,
+          "combat_power_coefficient": 2500,
           "condition_ids": [40]
         }
       ],
@@ -1758,6 +1853,7 @@
       "abilities": [
         {
           "ability_id": 1980111,
+          "combat_power_coefficient": 2500,
           "condition_ids": [12]
         }
       ],
@@ -1827,6 +1923,7 @@
       "abilities": [
         {
           "ability_id": 1980038,
+          "combat_power_coefficient": 1000,
           "condition_ids": [5]
         }
       ],
@@ -1896,6 +1993,7 @@
       "abilities": [
         {
           "ability_id": 1980061,
+          "combat_power_coefficient": 2500,
           "condition_ids": [12]
         }
       ],
@@ -1965,6 +2063,7 @@
       "abilities": [
         {
           "ability_id": 1980040,
+          "combat_power_coefficient": 1500,
           "condition_ids": [50]
         }
       ],
@@ -2034,6 +2133,7 @@
       "abilities": [
         {
           "ability_id": 1980005,
+          "combat_power_coefficient": 2500,
           "condition_ids": [33]
         }
       ],
@@ -2103,6 +2203,7 @@
       "abilities": [
         {
           "ability_id": 1980108,
+          "combat_power_coefficient": 1500,
           "condition_ids": [46]
         }
       ],
@@ -2172,6 +2273,7 @@
       "abilities": [
         {
           "ability_id": 1980119,
+          "combat_power_coefficient": 2500,
           "condition_ids": [50]
         }
       ],
@@ -2241,6 +2343,7 @@
       "abilities": [
         {
           "ability_id": 1980114,
+          "combat_power_coefficient": 1500,
           "condition_ids": [32]
         }
       ],
@@ -2310,6 +2413,7 @@
       "abilities": [
         {
           "ability_id": 1980043,
+          "combat_power_coefficient": 500,
           "condition_ids": [12]
         }
       ],
@@ -2379,6 +2483,7 @@
       "abilities": [
         {
           "ability_id": 1980105,
+          "combat_power_coefficient": 2500,
           "condition_ids": [27]
         }
       ],
@@ -2448,6 +2553,7 @@
       "abilities": [
         {
           "ability_id": 1980044,
+          "combat_power_coefficient": 2500,
           "condition_ids": [55]
         }
       ],
@@ -2517,6 +2623,7 @@
       "abilities": [
         {
           "ability_id": 1980113,
+          "combat_power_coefficient": 1000,
           "condition_ids": [8]
         }
       ],
@@ -2586,6 +2693,7 @@
       "abilities": [
         {
           "ability_id": 1980077,
+          "combat_power_coefficient": 2500,
           "condition_ids": [45]
         }
       ],
@@ -2655,6 +2763,7 @@
       "abilities": [
         {
           "ability_id": 1980022,
+          "combat_power_coefficient": 500,
           "condition_ids": [12]
         }
       ],
@@ -2724,6 +2833,7 @@
       "abilities": [
         {
           "ability_id": 1980054,
+          "combat_power_coefficient": 2500,
           "condition_ids": [51]
         }
       ],
@@ -2793,6 +2903,7 @@
       "abilities": [
         {
           "ability_id": 1980122,
+          "combat_power_coefficient": 3500,
           "condition_ids": [12]
         }
       ],
@@ -2862,6 +2973,7 @@
       "abilities": [
         {
           "ability_id": 1980055,
+          "combat_power_coefficient": 2500,
           "condition_ids": [30]
         }
       ],
@@ -2931,6 +3043,7 @@
       "abilities": [
         {
           "ability_id": 1980059,
+          "combat_power_coefficient": 2500,
           "condition_ids": [51]
         }
       ],
@@ -3000,6 +3113,7 @@
       "abilities": [
         {
           "ability_id": 1980046,
+          "combat_power_coefficient": 1000,
           "condition_ids": [7]
         }
       ],
@@ -3069,6 +3183,7 @@
       "abilities": [
         {
           "ability_id": 1980120,
+          "combat_power_coefficient": 1500,
           "condition_ids": [29]
         }
       ],
@@ -3138,6 +3253,7 @@
       "abilities": [
         {
           "ability_id": 1980048,
+          "combat_power_coefficient": 2500,
           "condition_ids": [43]
         }
       ],
@@ -3207,6 +3323,7 @@
       "abilities": [
         {
           "ability_id": 1980116,
+          "combat_power_coefficient": 1500,
           "condition_ids": [33]
         }
       ],
@@ -3276,6 +3393,7 @@
       "abilities": [
         {
           "ability_id": 1980051,
+          "combat_power_coefficient": 1000,
           "condition_ids": [11]
         }
       ],
@@ -3345,6 +3463,7 @@
       "abilities": [
         {
           "ability_id": 1980115,
+          "combat_power_coefficient": 3500,
           "condition_ids": [12]
         }
       ],
@@ -3414,6 +3533,7 @@
       "abilities": [
         {
           "ability_id": 1980064,
+          "combat_power_coefficient": 2500,
           "condition_ids": [20]
         }
       ],
@@ -3483,6 +3603,7 @@
       "abilities": [
         {
           "ability_id": 1980091,
+          "combat_power_coefficient": 3500,
           "condition_ids": [43]
         }
       ],
@@ -3552,6 +3673,7 @@
       "abilities": [
         {
           "ability_id": 1980066,
+          "combat_power_coefficient": 1000,
           "condition_ids": [6]
         }
       ],
@@ -3621,6 +3743,7 @@
       "abilities": [
         {
           "ability_id": 1980106,
+          "combat_power_coefficient": 3500,
           "condition_ids": [20]
         }
       ],
@@ -3690,6 +3813,7 @@
       "abilities": [
         {
           "ability_id": 1980110,
+          "combat_power_coefficient": 3500,
           "condition_ids": [52]
         }
       ],
@@ -3759,6 +3883,7 @@
       "abilities": [
         {
           "ability_id": 1980067,
+          "combat_power_coefficient": 500,
           "condition_ids": [12]
         }
       ],
@@ -3828,6 +3953,7 @@
       "abilities": [
         {
           "ability_id": 1980124,
+          "combat_power_coefficient": 3500,
           "condition_ids": [52]
         }
       ],
@@ -3897,6 +4023,7 @@
       "abilities": [
         {
           "ability_id": 1980056,
+          "combat_power_coefficient": 1000,
           "condition_ids": [9]
         }
       ],
@@ -3966,6 +4093,7 @@
       "abilities": [
         {
           "ability_id": 1980128,
+          "combat_power_coefficient": 3500,
           "condition_ids": [52]
         }
       ],
@@ -4035,6 +4163,7 @@
       "abilities": [
         {
           "ability_id": 1980069,
+          "combat_power_coefficient": 2500,
           "condition_ids": [30]
         }
       ],
@@ -4104,6 +4233,7 @@
       "abilities": [
         {
           "ability_id": 1980052,
+          "combat_power_coefficient": 1500,
           "condition_ids": [38]
         }
       ],
@@ -4173,6 +4303,7 @@
       "abilities": [
         {
           "ability_id": 1980053,
+          "combat_power_coefficient": 2500,
           "condition_ids": [36]
         }
       ],
@@ -4242,6 +4373,7 @@
       "abilities": [
         {
           "ability_id": 1980023,
+          "combat_power_coefficient": 1500,
           "condition_ids": [31]
         }
       ],
@@ -4311,6 +4443,7 @@
       "abilities": [
         {
           "ability_id": 1980072,
+          "combat_power_coefficient": 1500,
           "condition_ids": [37]
         }
       ],
@@ -4380,6 +4513,7 @@
       "abilities": [
         {
           "ability_id": 1980008,
+          "combat_power_coefficient": 500,
           "condition_ids": [12]
         }
       ],
@@ -4449,6 +4583,7 @@
       "abilities": [
         {
           "ability_id": 1980009,
+          "combat_power_coefficient": 500,
           "condition_ids": [12]
         }
       ],
@@ -4518,6 +4653,7 @@
       "abilities": [
         {
           "ability_id": 1980101,
+          "combat_power_coefficient": 500,
           "condition_ids": [12]
         }
       ],
@@ -4587,6 +4723,7 @@
       "abilities": [
         {
           "ability_id": 1980123,
+          "combat_power_coefficient": 3500,
           "condition_ids": [57]
         }
       ],
@@ -4656,6 +4793,7 @@
       "abilities": [
         {
           "ability_id": 1980012,
+          "combat_power_coefficient": 500,
           "condition_ids": [12]
         }
       ],
@@ -4725,6 +4863,7 @@
       "abilities": [
         {
           "ability_id": 1980013,
+          "combat_power_coefficient": 2500,
           "condition_ids": [56]
         }
       ],
@@ -4794,6 +4933,7 @@
       "abilities": [
         {
           "ability_id": 1980094,
+          "combat_power_coefficient": 3500,
           "condition_ids": [53]
         }
       ],
@@ -4863,6 +5003,7 @@
       "abilities": [
         {
           "ability_id": 1980074,
+          "combat_power_coefficient": 2500,
           "condition_ids": [54]
         }
       ],
@@ -4932,6 +5073,7 @@
       "abilities": [
         {
           "ability_id": 1980121,
+          "combat_power_coefficient": 1500,
           "condition_ids": [27]
         }
       ],
@@ -5001,6 +5143,7 @@
       "abilities": [
         {
           "ability_id": 1980104,
+          "combat_power_coefficient": 3500,
           "condition_ids": [56]
         }
       ],
@@ -5070,6 +5213,7 @@
       "abilities": [
         {
           "ability_id": 1980025,
+          "combat_power_coefficient": 3500,
           "condition_ids": [12]
         }
       ],
@@ -5106,6 +5250,76 @@
     "voice_actor_id": 44
   },
   {
+    "ability_ids": [1990199, 1990198],
+    "acquisition_movie_path_hash": "5570899644104013263",
+    "acquisition_text": "船出の時だ！\n鍛え直した俺の拳、役立ててくれ！",
+    "another_name": "【The Captain Awakens】",
+    "attack_attributes": [1],
+    "base_character_id": 437,
+    "battle_tool_trait_ids": [14, 22],
+    "burst_skill_ids": [14001309, 14001309, 14001309, 14001310, 14001311, 14001312, 14001313],
+    "character_growth_id": 943701,
+    "character_size_id": 2,
+    "description": "かつて王国北部の海で名を馳せた船乗り。\nしかし彼の船は頂獣に襲われてしまい、妻と仲間たちを失う。\n以来、塞ぎ込んで酒に溺れていたが、王都で出会った仲間たちのおかげで一念発起し、果ての大陸を目指すという夢を再び追いかけることに。",
+    "equipment_tool_trait_ids": [3],
+    "ex_growboard_id": 437012,
+    "extra_skill_ids": [14001129, 14001130, 14001131, 14001132, 14001133],
+    "fullname": "ランツェ・ダッハ",
+    "growboard_id": 437011,
+    "id": 43701,
+    "initial_rarity": 3,
+    "initial_status": {
+      "attack": 63,
+      "defense": 47,
+      "hp": 170,
+      "magic": 51,
+      "mental": 47,
+      "speed": 224
+    },
+    "is_alchemist": false,
+    "large_narrow_still_path_hash": "9055698363195008310",
+    "large_still_path_hash": "7112710121595766218",
+    "leader_skill": {
+      "abilities": [
+        {
+          "ability_id": 1980129,
+          "combat_power_coefficient": 3500,
+          "condition_ids": [34]
+        }
+      ],
+      "description": "バトル開始時「冒険」に「受けるダメージ-30%」を2回攻撃を受けるまで付与",
+      "name": "もう二度と見送らない"
+    },
+    "model_path_hash": "845404123422268284",
+    "motion_type": 1,
+    "name": "ランツェ",
+    "narrow_still_path_hash": "7383644186651371584",
+    "normal1_skill_ids": [11001299, 11001300, 11001301, 11001302, 11001303],
+    "normal2_skill_ids": [12001304, 12001305, 12001306, 12001307, 12001308],
+    "original_title_id": 26,
+    "overlay_name": "Lanze Dach",
+    "personality": 3,
+    "profile_voice_text": "すべてを無くした船乗りだ。大事な\n奴らのために、もうへこたれねぇよ",
+    "resistance": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 5,
+      "wind": 0
+    },
+    "result_timeline_hash": "2661244239730391943",
+    "role": 1,
+    "series_id": 10,
+    "start_at": "2024-05-10T03:00:00.000Z",
+    "still_path_hash": "5409134969144639524",
+    "support_color_id": 4,
+    "tag_ids": [7, 10, 18, 29],
+    "trait_color_id": 2,
+    "voice_actor_id": 45
+  },
+  {
     "ability_ids": [1990124, 1990125],
     "acquisition_movie_path_hash": "8331748602516955737",
     "acquisition_text": "アタシは最強の騎士になる――<br>流れ星に誓って！",
@@ -5139,6 +5353,7 @@
       "abilities": [
         {
           "ability_id": 1980068,
+          "combat_power_coefficient": 1500,
           "condition_ids": [42]
         }
       ],
@@ -5208,6 +5423,7 @@
       "abilities": [
         {
           "ability_id": 1980127,
+          "combat_power_coefficient": 3500,
           "condition_ids": [46]
         }
       ],

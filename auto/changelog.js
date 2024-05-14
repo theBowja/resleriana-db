@@ -37,6 +37,12 @@ function toStringFlatArray(obj) {
     return perfectJson(obj, { singleLine: ({ value }) => Array.isArray(value) && typeof value[0] === 'number', compact: false });
 }
 
+/**
+ * Update the masterdata change log.
+ * @param {string} server found in config
+ * @param {string} version masterdata version
+ * @returns 
+ */
 function updateChangelog(server, version) {
     const changelog = require(`../resources/${server}/masterdata_change_log.json`);
     if (changelog.some(e => e.masterdata_version === version)) return; // already done
@@ -61,4 +67,11 @@ function updateChangelog(server, version) {
 
     // save masterdata_active_ids.json
     fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/masterdata_active_ids.json`), toStringFlatArray(activeDataIds));
+}
+
+function updateActiveIds() {
+    for (const server of importconfig.servers) {
+        const activeDataIds = getActiveDataIds(importconfig.serverToLanguage[server][0]);
+        fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/masterdata_active_ids.json`), toStringFlatArray(activeDataIds));
+    }
 }

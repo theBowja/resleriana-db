@@ -13,6 +13,7 @@ const importer = require('../import/import.js');
 const catalog = require('../import/catalog.js');
 const tools = require('../tools/tools.js');
 const unpackTextAssets = require('../import/unpackTextAssets.js');
+const changelog = require('./changelog.js');
 
 const autoconfig = require('./config.json');
 const importconfig = require('../import/config.json');
@@ -49,6 +50,10 @@ async function checkMasterdata(server, skipCheck=false) {
 
         console.log(`${server}: Importing masterdata...`);
         await importer.extractReslerianaData(server);
+
+        // Update changelog
+        console.log(`${server}: Updating change log...`);
+        changelog.updateChangelog(server, version);
 
         // Update config
         autoconfig.masterdata_version[server] = version;

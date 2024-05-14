@@ -3,7 +3,8 @@ const path = require('path');
 const perfectJson = require('../import/perfectJson.js');
 const importconfig = require('../import/config.json');
 
-updateChangelog('Global', importconfig.masterdata_version.Global);
+module.exports = { updateChangelog };
+// updateChangelog('Global', importconfig.masterdata_version.Global);
 
 function getData(dataset, locale, filename) {
     return require(`../data/${dataset}/${locale}/${filename}.json`);
@@ -60,11 +61,4 @@ function updateChangelog(server, version) {
 
     // save masterdata_active_ids.json
     fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/masterdata_active_ids.json`), toStringFlatArray(activeDataIds));
-}
-
-function initialize(version) {
-    for (const server of importconfig.servers) {
-        const activeDataIds = getActiveDataIds(importconfig.serverToLanguage[server][0]);
-        fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/masterdata_active_ids.json`), toStringFlatArray(activeDataIds));
-    }
 }

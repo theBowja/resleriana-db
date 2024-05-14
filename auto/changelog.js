@@ -3,7 +3,7 @@ const path = require('path');
 const perfectJson = require('../import/perfectJson.js');
 const importconfig = require('../import/config.json');
 
-initialize();
+updateChangelog('Global', importconfig.masterdata_version.Global);
 
 function getData(dataset, locale, filename) {
     return require(`../data/${dataset}/${locale}/${filename}.json`);
@@ -23,7 +23,7 @@ function isActiveData(data) {
 
 function getActiveDataIds(lang) {
     const activeDataIds = {};
-    for (const filename of ['character', 'memoria', 'item']) {
+    for (const filename of importconfig.masterdata_track_changes) {
         const listdata = getData('master', lang, filename);
         const ids = listdata.filter(isActiveData).map(data => data.id);
         activeDataIds[filename] = ids;
@@ -37,9 +37,28 @@ function toStringFlatArray(obj) {
 }
 
 function updateChangelog(server, version) {
+    const changelog = require(`../resources/${server}/masterdata_change_log.json`);
+    if (changelog.some(e => e.masterdata_version === version)) return; // already done
+
     const previousDataIds = require(`../resources/${server}/masterdata_active_ids.json`);
     const activeDataIds = getActiveDataIds(importconfig.serverToLanguage[server][0]);
 
+    // calculate changes
+    const changeObj = {
+        id: changelog.length,
+        masterdata_version: version,
+        log_update_time: new Date().toUTCString(),
+        changes: {},
+    };
+    for (const filename of importconfig.masterdata_track_changes) {
+        changeObj.changes[filename] = activeDataIds[filename].filter(id => !previousDataIds[filename].includes(id));
+    }
+    changelog.push(changeObj);
+
+    // save masterdata_change_log.json
+    fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/masterdata_change_log.json`), toStringFlatArray(changelog));
+
+    // save masterdata_active_ids.json
     fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/masterdata_active_ids.json`), toStringFlatArray(activeDataIds));
 }
 

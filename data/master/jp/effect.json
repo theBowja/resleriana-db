@@ -5061,6 +5061,55 @@
     "popup_text": ""
   },
   {
+    "description": "得意属性が雷属性かつアタッカーであり攻撃対象がブレイク状態の時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000741,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が雷属性かつアタッカーの時、クリティカルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000742,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が雷属性かつアタッカーの時、攻撃後、対象に「受ける魔法攻撃ダメージアップ」を2回攻撃を受けるまで付与",
+    "effect_motion_id": null,
+    "id": 6000743,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "ブレイクダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000744,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "毒耐性アップ",
+    "effect_motion_id": null,
+    "id": 6000745,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "バーストスキル使用後、アイテムゲージを回復",
+    "effect_motion_id": null,
+    "id": 6000746,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "魔攻減少",
+    "effect_motion_id": null,
+    "id": 6000747,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "与回復量上昇",
     "effect_motion_id": null,
     "id": 13000001,
@@ -5698,9 +5747,44 @@
     "popup_text": ""
   },
   {
+    "description": "戦闘アイテムの風属性ダメージ+{0}%",
+    "effect_motion_id": null,
+    "id": 13000193,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "戦闘アイテムの雷属性ダメージ+{0}%",
     "effect_motion_id": null,
     "id": 13000194,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "戦闘アイテムの打属性ダメージ+{0}%",
+    "effect_motion_id": null,
+    "id": 13000195,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 13000196,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身が雷属性の時、スキルダメージ+{}%",
+    "effect_motion_id": null,
+    "id": 13000197,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身が氷属性の時、スキルダメージ+{}%",
+    "effect_motion_id": null,
+    "id": 13000198,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -6510,6 +6594,13 @@
     "popup_text": ""
   },
   {
+    "description": "[自身/受けるダメージ強化の効果量アップ]",
+    "effect_motion_id": null,
+    "id": 72001058,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "[斬属性キャラ全員ダメージアップ]",
     "effect_motion_id": null,
     "id": 72001059,
@@ -6839,6 +6930,13 @@
     "popup_text": ""
   },
   {
+    "description": "対象に与える回復量DOWN(2回)を付与",
+    "effect_motion_id": null,
+    "id": 76086001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "スキル対象のうち、アタッカーに与ダメージ低下(3回)を付与",
     "effect_motion_id": null,
     "id": 76093001,
@@ -7049,9 +7147,177 @@
     "popup_text": ""
   },
   {
+    "description": "単体攻撃を受けた時、自身に被ダメージUP(上限50%)を付与する",
+    "effect_motion_id": null,
+    "id": 86030001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "単体攻撃を受けた時、自身に与ダメージUP(上限30%)を付与する",
+    "effect_motion_id": null,
+    "id": 86030002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "全体攻撃を受けた時、自身に被ダメージDOWN(上限50%)を付与する",
+    "effect_motion_id": null,
+    "id": 86030003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "全体攻撃を受けた時、自身に与ダメージDOWN(上限30%)を付与する",
+    "effect_motion_id": null,
+    "id": 86030004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "カウンター発動率100%",
+    "effect_motion_id": null,
+    "id": 86030005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "単体攻撃を受けた時、自身に被ダメージUP(上限100%)を付与する",
+    "effect_motion_id": null,
+    "id": 86030006,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "単体攻撃を受けた時、自身に与ダメージUP(上限50%)を付与する",
+    "effect_motion_id": null,
+    "id": 86030007,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "全体攻撃を受けた時、自身に被ダメージDOWN(上限100%)を付与する",
+    "effect_motion_id": null,
+    "id": 86030008,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "全体攻撃を受けた時、自身に与ダメージDOWN(上限50%)を付与する",
+    "effect_motion_id": null,
+    "id": 86030009,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "敵全体に与ダメージDOWN(1回)を付与",
     "effect_motion_id": null,
     "id": 86035001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "魔法攻撃被弾時、受ける回復量DOWN",
+    "effect_motion_id": null,
+    "id": 86086001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "物理攻撃被弾時、受けるマイナス効果量UP",
+    "effect_motion_id": null,
+    "id": 86086002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身のHPが50%以下の時、与ダメージUP",
+    "effect_motion_id": 1074,
+    "id": 86086005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身のHPが50%以下の時、素早さUP",
+    "effect_motion_id": null,
+    "id": 86086006,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "戦闘中付与バフが10個以上の相手からの被ダメージUP",
+    "effect_motion_id": null,
+    "id": 86087004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "戦闘中付与バフが11個以上の相手からの被ダメージUP",
+    "effect_motion_id": null,
+    "id": 86087005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "戦闘中付与バフが12個以上の相手からの被ダメージUP",
+    "effect_motion_id": null,
+    "id": 86087006,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "戦闘中付与バフが13個以上の相手からの被ダメージUP",
+    "effect_motion_id": null,
+    "id": 86087007,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "戦闘中付与バフが14個以上の相手からの被ダメージUP",
+    "effect_motion_id": null,
+    "id": 86087008,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "戦闘中付与バフが15個以上の相手からの被ダメージUP",
+    "effect_motion_id": null,
+    "id": 86087009,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "戦闘中付与バフが16個以上の相手からの被ダメージUP",
+    "effect_motion_id": null,
+    "id": 86087010,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "戦闘中付与バフが17個以上の相手からの被ダメージUP",
+    "effect_motion_id": null,
+    "id": 86087011,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "戦闘中付与バフが18個以上の相手からの被ダメージUP",
+    "effect_motion_id": null,
+    "id": 86087012,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "戦闘中付与バフが19個以上の相手からの被ダメージUP",
+    "effect_motion_id": null,
+    "id": 86087013,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "戦闘中付与バフが20個以上の相手からの被ダメージUP",
+    "effect_motion_id": null,
+    "id": 86087014,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -7084,6 +7350,34 @@
     "popup_text": ""
   },
   {
+    "description": "自身が受けるブレイクダメージDOWN",
+    "effect_motion_id": null,
+    "id": 86105002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "生存数2人以上の場合、受けるダメージDOWN",
+    "effect_motion_id": null,
+    "id": 86105003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "生存数1人以下の場合、自身のバフを全て解除",
+    "effect_motion_id": null,
+    "id": 86105004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "生存数2人以上の場合、受けるダメージDOWN",
+    "effect_motion_id": null,
+    "id": 86105005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "味方全体に与ダメージUP(3回)を付与",
     "effect_motion_id": null,
     "id": 86119001,
@@ -7094,6 +7388,34 @@
     "description": "味方全体に被ダメージDOWN(3回)を付与",
     "effect_motion_id": null,
     "id": 86119002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "戦闘不能時味方全体に与ダメージUP永続付与",
+    "effect_motion_id": 1046,
+    "id": 86130001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "戦闘不能時味方全体に素早さUP永続付与",
+    "effect_motion_id": 1046,
+    "id": 86130002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "戦闘不能時味方全体のデバフ解除",
+    "effect_motion_id": 1046,
+    "id": 86130003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "戦闘不能時味方全体に被ダメージDOWN永続付与",
+    "effect_motion_id": 1046,
+    "id": 86130004,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -8913,6 +9235,27 @@
   {
     "description": "",
     "effect_motion_id": null,
+    "id": 91001281,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001282,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001283,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
     "id": 91001284,
     "is_positive_popup": null,
     "popup_text": ""
@@ -8998,6 +9341,13 @@
     "description": "",
     "effect_motion_id": null,
     "id": 91001296,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001305,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -9852,6 +10202,20 @@
     "description": "自身がディフェンダーの時、味方全員のスキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000113,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がアタッカーの時、強化系パネルから受ける効果量アップ",
+    "effect_motion_id": null,
+    "id": 95000114,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が雷属性の時、クリティカルダメージアップ",
+    "effect_motion_id": null,
+    "id": 95000115,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -16779,14 +17143,14 @@
     "popup_text": ""
   },
   {
-    "description": "物攻DOWN1回を敵対象に付与",
+    "description": "物攻DOWN2回を敵対象に付与",
     "effect_motion_id": null,
     "id": 780066003,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "魔攻DOWN1回を敵対象に付与",
+    "description": "魔攻DOWN2回を敵対象に付与",
     "effect_motion_id": null,
     "id": 780066004,
     "is_positive_popup": null,
@@ -20055,6 +20419,20 @@
     "popup_text": ""
   },
   {
+    "description": "自身に与ダメージUP",
+    "effect_motion_id": null,
+    "id": 880009010,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に素早さUP",
+    "effect_motion_id": null,
+    "id": 880009011,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "",
     "effect_motion_id": null,
     "id": 880009035,
@@ -20422,6 +20800,20 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880021003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に被ダメージDOWN",
+    "effect_motion_id": null,
+    "id": 880021004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に与ダメージUP",
+    "effect_motion_id": null,
+    "id": 880021005,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -20835,6 +21227,13 @@
     "description": "攻撃被弾時、与ダメージUP(クリスマス)解除",
     "effect_motion_id": null,
     "id": 880040005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "対象に被ダメージUP5回",
+    "effect_motion_id": null,
+    "id": 880040007,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -24314,6 +24713,41 @@
     "description": "クリティカル攻撃被弾時、空白パネルを強化パネルに書き換える。",
     "effect_motion_id": 1027,
     "id": 880119001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "クリティカル率減少",
+    "effect_motion_id": null,
+    "id": 880119010,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "ブレイク中、クリティカル率増加",
+    "effect_motion_id": null,
+    "id": 880119011,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "味方全体の氷耐性UP3回",
+    "effect_motion_id": null,
+    "id": 880119012,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "味方全体の物理耐性UP3回",
+    "effect_motion_id": null,
+    "id": 880119013,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がブレイクした時、敵全体のマイナス効果を解除",
+    "effect_motion_id": null,
+    "id": 880119014,
     "is_positive_popup": null,
     "popup_text": ""
   },

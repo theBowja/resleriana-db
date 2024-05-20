@@ -401,6 +401,204 @@
     "start_at": "2023-12-31T15:00:00.000Z"
   },
   {
+    "id": 10103,
+    "name": "マリー",
+    "title": "【Violent Beauty】",
+    "full_name": "マルローネ",
+    "base_character": "マリー",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "BOLT",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "錬金術士の華麗な戦いぶり、見せてあげる！\n……ところで、爆弾って使ってもいい？",
+    "profile": {
+      "voice_actor": "池澤春菜",
+      "voice_text": "この服、本当に動きやすいわね。これなら\n苦手な掃除も頑張れる気が……気が……むぅ",
+      "description": "おおらかで陽気な錬金術士。\nある街のアカデミーで錬金術を学んでいたが、その頃は落ちこぼれだった。今は立派な錬金術士だが、調子に乗りやすい部分は相変わらず。今も、とある大会に向けてこの衣装をまとい、すっかり優勝する気になっている。果たして、今回はそれが良い風に作用するのだろうか。",
+      "origin_game": "マリーのアトリエ ～ザールブルグの錬金術士～"
+    },
+    "gift_color": {
+      "received": "緑",
+      "given": "赤"
+    },
+    "battle_item_trait": [
+      {
+        "id": 51,
+        "name": "破壊力上昇",
+        "category": "ATTACK",
+        "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "雷の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000061,
+            "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "スキル威力上昇",
+        "category": "ATTACK",
+        "description": "スキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "スキル威力{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 142,
+        "spd": 246,
+        "patk": 55,
+        "matk": 64,
+        "pdef": 48,
+        "mdef": 52
+      },
+      "growth": {
+        "hp": 1420,
+        "spd": 0,
+        "patk": 550,
+        "matk": 640,
+        "pdef": 480,
+        "mdef": 520
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 5,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "雷閃一刀",
+      "description": "攻撃後、自身に「クリティカルダメージ+{0}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、自身のクリティカルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001305,
+          "description": "",
+          "value": 4000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [66, 70, 74, 78, 82],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "雷轟旋刃脚",
+      "description": "攻撃後、アタッカーの味方全員に「クリティカル確率+{0}%」を付与(上限100%)し、<br>アタッカーの味方全員に「クリティカルダメージ+{1}%」を付与(上限50%)",
+      "summary": "攻撃後、アタッカーの味方全員のクリティカル確率アップとクリティカルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001281,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001282,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [232, 246, 261, 275, 290],
+      "has_stun": true,
+      "stun_values": [28, 29, 31, 33, 35],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "紫電招雷戟",
+      "description": "この攻撃のクリティカルダメージ+{0}%<br>クリティカル攻撃時、このスキル使用前にタイムラインに並んでいる、次の味方のパネル1つをバーストパネルに変換(空パネルの時は生成)",
+      "summary": "この攻撃のクリティカルダメージアップ。クリティカル攻撃時、次の味方のパネルをバーストパネルに変換",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91000904,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001283,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [192, 192, 192, 204, 216, 228, 240],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "ポジティブシンキング",
+      "description": "自身が受ける、与えるダメージ強化の効果量+{0}%",
+      "effects": [
+        {
+          "id": 72001058,
+          "description": "[自身/受けるダメージ強化の効果量アップ]",
+          "value": 2000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "パネルアッププラスⅢ",
+      "description": "プラスパネルから受ける効果量+{0}%",
+      "effects": [
+        {
+          "id": 72001045,
+          "description": "state_change用",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2024-05-20T03:00:00.000Z"
+  },
+  {
     "id": 10301,
     "name": "ミュー",
     "title": "【南国の冒険者】",

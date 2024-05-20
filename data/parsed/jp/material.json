@@ -10085,61 +10085,61 @@
     "source_locations": [
       {
         "quest_id": 404001,
-        "quest_name": "決戦！ハロウィンぷに 1",
+        "quest_name": "決戦！ハロウィンぷに１",
         "episode_id": 404,
         "episode_name": "決戦！ハロウィンぷに"
       },
       {
         "quest_id": 404002,
-        "quest_name": "決戦！ハロウィンぷに 2",
+        "quest_name": "決戦！ハロウィンぷに２",
         "episode_id": 404,
         "episode_name": "決戦！ハロウィンぷに"
       },
       {
         "quest_id": 404003,
-        "quest_name": "決戦！ハロウィンぷに 3",
+        "quest_name": "決戦！ハロウィンぷに３",
         "episode_id": 404,
         "episode_name": "決戦！ハロウィンぷに"
       },
       {
         "quest_id": 404004,
-        "quest_name": "決戦！ハロウィンぷに 4",
+        "quest_name": "決戦！ハロウィンぷに４",
         "episode_id": 404,
         "episode_name": "決戦！ハロウィンぷに"
       },
       {
         "quest_id": 404005,
-        "quest_name": "決戦！ハロウィンぷに 5",
+        "quest_name": "決戦！ハロウィンぷに５",
         "episode_id": 404,
         "episode_name": "決戦！ハロウィンぷに"
       },
       {
         "quest_id": 404006,
-        "quest_name": "決戦！ハロウィンぷに 6",
+        "quest_name": "決戦！ハロウィンぷに６",
         "episode_id": 404,
         "episode_name": "決戦！ハロウィンぷに"
       },
       {
         "quest_id": 404007,
-        "quest_name": "決戦！ハロウィンぷに 7",
+        "quest_name": "決戦！ハロウィンぷに７",
         "episode_id": 404,
         "episode_name": "決戦！ハロウィンぷに"
       },
       {
         "quest_id": 404008,
-        "quest_name": "決戦！ハロウィンぷに 8",
+        "quest_name": "決戦！ハロウィンぷに８",
         "episode_id": 404,
         "episode_name": "決戦！ハロウィンぷに"
       },
       {
         "quest_id": 404009,
-        "quest_name": "決戦！ハロウィンぷに 9",
+        "quest_name": "決戦！ハロウィンぷに９",
         "episode_id": 404,
         "episode_name": "決戦！ハロウィンぷに"
       },
       {
         "quest_id": 404010,
-        "quest_name": "決戦！ハロウィンぷに 10",
+        "quest_name": "決戦！ハロウィンぷに１０",
         "episode_id": 404,
         "episode_name": "決戦！ハロウィンぷに"
       }
@@ -10193,13 +10193,13 @@
     "source_locations": [
       {
         "quest_id": 404008,
-        "quest_name": "決戦！ハロウィンぷに 8",
+        "quest_name": "決戦！ハロウィンぷに８",
         "episode_id": 404,
         "episode_name": "決戦！ハロウィンぷに"
       },
       {
         "quest_id": 404010,
-        "quest_name": "決戦！ハロウィンぷに 10",
+        "quest_name": "決戦！ハロウィンぷに１０",
         "episode_id": 404,
         "episode_name": "決戦！ハロウィンぷに"
       }
@@ -10253,13 +10253,13 @@
     "source_locations": [
       {
         "quest_id": 404009,
-        "quest_name": "決戦！ハロウィンぷに 9",
+        "quest_name": "決戦！ハロウィンぷに９",
         "episode_id": 404,
         "episode_name": "決戦！ハロウィンぷに"
       },
       {
         "quest_id": 404010,
-        "quest_name": "決戦！ハロウィンぷに 10",
+        "quest_name": "決戦！ハロウィンぷに１０",
         "episode_id": 404,
         "episode_name": "決戦！ハロウィンぷに"
       }
@@ -30101,6 +30101,402 @@
     "image_small": "Ingredient_0541_S",
     "image_medium": "Ingredient_0541_M",
     "start_at": "2024-05-10T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 545,
+    "name": "地底湖の溜まり",
+    "rarity": 2,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 58,
+        "name": "水棲ダメージ上昇",
+        "category": "ATTACK",
+        "description": "水棲種族に与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000083,
+            "description": "水棲種族に与えるダメージ{0}%アップ",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "雷耐性上昇",
+        "category": "ENHANCE",
+        "description": "雷属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000024,
+            "description": "雷属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 37,
+      "name": "ランターナ建国記念杯"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 370401,
+        "quest_name": "ランターナ建国記念杯１",
+        "episode_id": 3704,
+        "episode_name": "ランターナ建国記念杯"
+      },
+      {
+        "quest_id": 370404,
+        "quest_name": "ランターナ建国記念杯４",
+        "episode_id": 3704,
+        "episode_name": "ランターナ建国記念杯"
+      },
+      {
+        "quest_id": 370407,
+        "quest_name": "ランターナ建国記念杯７",
+        "episode_id": 3704,
+        "episode_name": "ランターナ建国記念杯"
+      },
+      {
+        "quest_id": 370410,
+        "quest_name": "ランターナ建国記念杯１０",
+        "episode_id": 3704,
+        "episode_name": "ランターナ建国記念杯"
+      }
+    ],
+    "image_small": "Ingredient_0545_S",
+    "image_medium": "Ingredient_0545_M",
+    "start_at": "2024-05-20T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 546,
+    "name": "ナゾの木の実",
+    "rarity": 2,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 31,
+        "name": "獣特攻",
+        "category": "ATTACK",
+        "description": "獣種族に与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000080,
+            "description": "獣種族に与えるダメージ{0}%アップ",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "獣弱点サーチ",
+        "category": "WEAKENING",
+        "description": "対象に「獣種族が受けるダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000095,
+            "description": "対象に「獣種族が受けるダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 37,
+      "name": "ランターナ建国記念杯"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 370402,
+        "quest_name": "ランターナ建国記念杯２",
+        "episode_id": 3704,
+        "episode_name": "ランターナ建国記念杯"
+      },
+      {
+        "quest_id": 370405,
+        "quest_name": "ランターナ建国記念杯５",
+        "episode_id": 3704,
+        "episode_name": "ランターナ建国記念杯"
+      },
+      {
+        "quest_id": 370408,
+        "quest_name": "ランターナ建国記念杯８",
+        "episode_id": 3704,
+        "episode_name": "ランターナ建国記念杯"
+      },
+      {
+        "quest_id": 370410,
+        "quest_name": "ランターナ建国記念杯１０",
+        "episode_id": 3704,
+        "episode_name": "ランターナ建国記念杯"
+      }
+    ],
+    "image_small": "Ingredient_0546_S",
+    "image_medium": "Ingredient_0546_M",
+    "start_at": "2024-05-20T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 547,
+    "name": "黄金色の岩",
+    "rarity": 2,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 9,
+        "name": "雷の祝福",
+        "category": "ATTACK",
+        "description": "雷属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "雷属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "name": "ぷに弱点サーチ",
+        "category": "WEAKENING",
+        "description": "対象に「ぷに種族が受けるダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000094,
+            "description": "対象に「ぷに種族が受けるダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 37,
+      "name": "ランターナ建国記念杯"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 370403,
+        "quest_name": "ランターナ建国記念杯３",
+        "episode_id": 3704,
+        "episode_name": "ランターナ建国記念杯"
+      },
+      {
+        "quest_id": 370406,
+        "quest_name": "ランターナ建国記念杯６",
+        "episode_id": 3704,
+        "episode_name": "ランターナ建国記念杯"
+      },
+      {
+        "quest_id": 370409,
+        "quest_name": "ランターナ建国記念杯９",
+        "episode_id": 3704,
+        "episode_name": "ランターナ建国記念杯"
+      },
+      {
+        "quest_id": 370410,
+        "quest_name": "ランターナ建国記念杯１０",
+        "episode_id": 3704,
+        "episode_name": "ランターナ建国記念杯"
+      }
+    ],
+    "image_small": "Ingredient_0547_S",
+    "image_medium": "Ingredient_0547_M",
+    "start_at": "2024-05-20T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 548,
+    "name": "滝つぼのしずく",
+    "rarity": 3,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 60,
+        "name": "クリティカルダメージ上昇",
+        "category": "ATTACK",
+        "description": "クリティカルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 13000011,
+            "description": "クリティカルダメージアップ",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "name": "回復量上昇【背水】",
+        "category": "RECOVERY",
+        "description": "HPが50%以下の時、与える回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000107,
+            "description": "HPが50%以下の時、HP回復量{0}%アップ",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 37,
+      "name": "ランターナ建国記念杯"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 370407,
+        "quest_name": "ランターナ建国記念杯７",
+        "episode_id": 3704,
+        "episode_name": "ランターナ建国記念杯"
+      },
+      {
+        "quest_id": 370410,
+        "quest_name": "ランターナ建国記念杯１０",
+        "episode_id": 3704,
+        "episode_name": "ランターナ建国記念杯"
+      }
+    ],
+    "image_small": "Ingredient_0548_S",
+    "image_medium": "Ingredient_0548_M",
+    "start_at": "2024-05-20T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 549,
+    "name": "金色の鮭",
+    "rarity": 3,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 21,
+        "name": "雷の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000061,
+            "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "name": "使い切り攻撃強化",
+        "category": "ATTACK",
+        "description": "使用回数が1回の時、ダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000108,
+            "description": "使用回数が1回の時、ダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 37,
+      "name": "ランターナ建国記念杯"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 370408,
+        "quest_name": "ランターナ建国記念杯８",
+        "episode_id": 3704,
+        "episode_name": "ランターナ建国記念杯"
+      },
+      {
+        "quest_id": 370410,
+        "quest_name": "ランターナ建国記念杯１０",
+        "episode_id": 3704,
+        "episode_name": "ランターナ建国記念杯"
+      }
+    ],
+    "image_small": "Ingredient_0549_S",
+    "image_medium": "Ingredient_0549_M",
+    "start_at": "2024-05-20T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 550,
+    "name": "常若のリンゴ",
+    "rarity": 3,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 61,
+        "name": "バーストスキル威力上昇",
+        "category": "ATTACK",
+        "description": "バーストスキルのスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000165,
+            "description": "バーストスキル威力{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "雷耐性上昇",
+        "category": "ENHANCE",
+        "description": "雷属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000024,
+            "description": "雷属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 37,
+      "name": "ランターナ建国記念杯"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 370409,
+        "quest_name": "ランターナ建国記念杯９",
+        "episode_id": 3704,
+        "episode_name": "ランターナ建国記念杯"
+      },
+      {
+        "quest_id": 370410,
+        "quest_name": "ランターナ建国記念杯１０",
+        "episode_id": 3704,
+        "episode_name": "ランターナ建国記念杯"
+      }
+    ],
+    "image_small": "Ingredient_0550_S",
+    "image_medium": "Ingredient_0550_M",
+    "start_at": "2024-05-20T03:00:00.000Z",
     "end_at": null
   }
 ]

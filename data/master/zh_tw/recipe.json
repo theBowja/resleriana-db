@@ -1556,7 +1556,7 @@
       {
         "condition_id": 274,
         "count": 1,
-        "name": "調合1個電導之石"
+        "name": "調合1個「電導之石」"
       },
       {
         "condition_id": 61,
@@ -4193,7 +4193,7 @@
       {
         "condition_id": 239,
         "count": 1,
-        "name": "使用銀色蜂巢調合1次"
+        "name": "使用「銀色蜂巢」調合1次"
       },
       {
         "condition_id": 241,
@@ -6942,12 +6942,12 @@
       {
         "condition_id": 240,
         "count": 1,
-        "name": "使用藥苔調合1次"
+        "name": "使用「藥苔」調合1次"
       },
       {
         "condition_id": 242,
         "count": 1,
-        "name": "調合1個具有魔力之詛咒特性的玫瑰炎燒"
+        "name": "調合1個具有「魔力之詛咒」特性的「玫瑰炎燒」"
       }
     ],
     "rewards": [
@@ -7138,7 +7138,7 @@
       {
         "condition_id": 245,
         "count": 3,
-        "name": "使用3次玫瑰炎燒"
+        "name": "使用3次「玫瑰炎燒」"
       },
       {
         "condition_id": 205,
@@ -10256,7 +10256,7 @@
       {
         "condition_id": 211,
         "count": 2,
-        "name": "取得2個礦物質結晶"
+        "name": "取得2個「礦物質結晶」"
       }
     ],
     "rewards": [
@@ -61659,7 +61659,7 @@
         }
       }
     ],
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-05-27T03:00:00.000Z",
     "support_character_ids": [80, 25, 48],
     "support_color_ids": [1, 3, 4],
     "tracking_id": "af_synthesis_recipe_338"
@@ -61842,7 +61842,7 @@
         }
       }
     ],
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-05-27T03:00:00.000Z",
     "support_character_ids": [80, 78, 74],
     "support_color_ids": [1, 3, 5],
     "tracking_id": "af_synthesis_recipe_339"
@@ -62025,7 +62025,7 @@
         }
       }
     ],
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-05-27T03:00:00.000Z",
     "support_character_ids": [80, 62, 76],
     "support_color_ids": [1, 2, 4],
     "tracking_id": "af_synthesis_recipe_340"
@@ -62208,7 +62208,7 @@
         }
       }
     ],
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-05-27T03:00:00.000Z",
     "support_character_ids": [22, 63, 73],
     "support_color_ids": [2, 3, 4],
     "tracking_id": "af_synthesis_recipe_341"
@@ -62391,7 +62391,7 @@
         }
       }
     ],
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-05-27T03:00:00.000Z",
     "support_character_ids": [30, 52, 53],
     "support_color_ids": [2, 4, 5],
     "tracking_id": "af_synthesis_recipe_342"
@@ -62574,7 +62574,7 @@
         }
       }
     ],
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-05-27T03:00:00.000Z",
     "support_character_ids": [32, 27, 36],
     "support_color_ids": [3, 4, 5],
     "tracking_id": "af_synthesis_recipe_343"
@@ -62765,9 +62765,6797 @@
         }
       }
     ],
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-05-27T03:00:00.000Z",
     "support_character_ids": [80, 25, 40],
     "support_color_ids": [1, 2, 5],
     "tracking_id": "af_synthesis_recipe_344"
+  },
+  {
+    "id": 345,
+    "ingredient_costs": [
+      {
+        "id": 403,
+        "quantity": 20
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "天使之杖",
+    "position": {
+      "x": 0,
+      "y": 4
+    },
+    "recipe_plan_id": 26,
+    "requirements": [
+      {
+        "condition_id": 676,
+        "count": 1,
+        "name": "通關活動戰鬥「離開王都」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 496,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 497,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [82, 42, 44],
+    "support_color_ids": [1, 2, 5],
+    "tracking_id": "af_synthesis_recipe_345"
+  },
+  {
+    "id": 346,
+    "ingredient_costs": [
+      {
+        "id": 403,
+        "quantity": 20
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "絲絹鏈甲",
+    "position": {
+      "x": 2,
+      "y": 5
+    },
+    "recipe_plan_id": 26,
+    "requirements": [
+      {
+        "condition_id": 677,
+        "count": 1,
+        "name": "通關活動故事探索「少女的苦衷」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 498,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 499,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [58, 82, 66],
+    "support_color_ids": [2, 4, 5],
+    "tracking_id": "af_synthesis_recipe_346"
+  },
+  {
+    "id": 347,
+    "ingredient_costs": [
+      {
+        "id": 404,
+        "quantity": 20
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "賭徒的護身符",
+    "position": {
+      "x": 4,
+      "y": 1
+    },
+    "recipe_plan_id": 26,
+    "requirements": [
+      {
+        "condition_id": 678,
+        "count": 1,
+        "name": "通關活動故事探索「一絲異樣」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 500,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 501,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [82, 83, 38],
+    "support_color_ids": [1, 3, 4],
+    "tracking_id": "af_synthesis_recipe_347"
+  },
+  {
+    "id": 348,
+    "ingredient_costs": [
+      {
+        "id": 404,
+        "quantity": 20
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "魔女之杖",
+    "position": {
+      "x": 6,
+      "y": 4
+    },
+    "recipe_plan_id": 26,
+    "requirements": [
+      {
+        "condition_id": 679,
+        "count": 1,
+        "name": "通關活動戰鬥「雪山魔物‧2」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 502,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 503,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [69, 64, 81],
+    "support_color_ids": [1, 2, 4],
+    "tracking_id": "af_synthesis_recipe_348"
+  },
+  {
+    "id": 349,
+    "ingredient_costs": [
+      {
+        "id": 405,
+        "quantity": 20
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "天使外袍",
+    "position": {
+      "x": 8,
+      "y": 2
+    },
+    "recipe_plan_id": 26,
+    "requirements": [
+      {
+        "condition_id": 680,
+        "count": 1,
+        "name": "通關活動故事探索「對家人的心意」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 504,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 505,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [81, 43, 45],
+    "support_color_ids": [1, 3, 4],
+    "tracking_id": "af_synthesis_recipe_349"
+  },
+  {
+    "id": 350,
+    "ingredient_costs": [
+      {
+        "id": 405,
+        "quantity": 20
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "實影手環",
+    "position": {
+      "x": 10,
+      "y": 4
+    },
+    "recipe_plan_id": 26,
+    "requirements": [
+      {
+        "condition_id": 681,
+        "count": 1,
+        "name": "通關活動故事探索「溫暖的調合品」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 506,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 507,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [81, 74, 83],
+    "support_color_ids": [2, 3, 5],
+    "tracking_id": "af_synthesis_recipe_350"
+  },
+  {
+    "id": 351,
+    "ingredient_costs": [
+      {
+        "id": 408,
+        "quantity": 12
+      },
+      {
+        "id": 378,
+        "quantity": 12
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "高火力鍊金大砲",
+    "position": {
+      "x": 180,
+      "y": 3
+    },
+    "recipe_plan_id": 27,
+    "requirements": [
+      {
+        "condition_id": 634,
+        "count": 1,
+        "name": "通關積分戰8-1Hard"
+      },
+      {
+        "condition_id": 649,
+        "count": 10,
+        "name": "取得10個「貧瘠果實」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 159,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 14
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 160,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 14
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [79, 78, 34],
+    "support_color_ids": [2, 3, 5],
+    "tracking_id": "af_synthesis_recipe_351"
+  },
+  {
+    "id": 352,
+    "ingredient_costs": [
+      {
+        "id": 416,
+        "quantity": 3
+      },
+      {
+        "id": 417,
+        "quantity": 2
+      },
+      {
+        "id": 418,
+        "quantity": 2
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "凍結破壞炸彈",
+    "position": {
+      "x": 188,
+      "y": 3
+    },
+    "recipe_plan_id": 27,
+    "requirements": [
+      {
+        "condition_id": 653,
+        "count": 5,
+        "name": "取得5個「迪索瓦花」"
+      },
+      {
+        "condition_id": 654,
+        "count": 5,
+        "name": "取得5個「古老木片」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 161,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 14
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 162,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 14
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [38, 22, 50],
+    "support_color_ids": [2, 4, 5],
+    "tracking_id": "af_synthesis_recipe_352"
+  },
+  {
+    "id": 353,
+    "ingredient_costs": [
+      {
+        "id": 410,
+        "quantity": 4
+      },
+      {
+        "id": 417,
+        "quantity": 4
+      },
+      {
+        "id": 423,
+        "quantity": 3
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "力量圖騰",
+    "position": {
+      "x": 189,
+      "y": 5
+    },
+    "recipe_plan_id": 27,
+    "requirements": [
+      {
+        "condition_id": 637,
+        "count": 1,
+        "name": "通關積分戰9-3Normal"
+      },
+      {
+        "condition_id": 655,
+        "count": 5,
+        "name": "取得5個「鷲鷹果實」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 163,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 14
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 164,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 14
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [69, 75, 67],
+    "support_color_ids": [1, 3, 4],
+    "tracking_id": "af_synthesis_recipe_353"
+  },
+  {
+    "id": 354,
+    "ingredient_costs": [
+      {
+        "id": 410,
+        "quantity": 4
+      },
+      {
+        "id": 419,
+        "quantity": 4
+      },
+      {
+        "id": 424,
+        "quantity": 3
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "凶兆水",
+    "position": {
+      "x": 189,
+      "y": 1
+    },
+    "recipe_plan_id": 27,
+    "requirements": [
+      {
+        "condition_id": 646,
+        "count": 1,
+        "name": "通關通往夢想殘渣的小徑[危險度：I]"
+      },
+      {
+        "condition_id": 53,
+        "count": 200,
+        "name": "調合200個戰鬥道具"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 165,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 14
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 166,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 14
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [66, 62, 63],
+    "support_color_ids": [3, 4, 5],
+    "tracking_id": "af_synthesis_recipe_354"
+  },
+  {
+    "id": 355,
+    "ingredient_costs": [
+      {
+        "id": 408,
+        "quantity": 12
+      },
+      {
+        "id": 379,
+        "quantity": 12
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "槍斧",
+    "position": {
+      "x": 182,
+      "y": 2
+    },
+    "recipe_plan_id": 27,
+    "requirements": [
+      {
+        "condition_id": 635,
+        "count": 1,
+        "name": "通關積分戰9-1Normal"
+      },
+      {
+        "condition_id": 650,
+        "count": 10,
+        "name": "取得10個「深碧菌菇」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 508,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 509,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [69, 68, 36],
+    "support_color_ids": [1, 3, 5],
+    "tracking_id": "af_synthesis_recipe_355"
+  },
+  {
+    "id": 356,
+    "ingredient_costs": [
+      {
+        "id": 416,
+        "quantity": 3
+      },
+      {
+        "id": 420,
+        "quantity": 4
+      },
+      {
+        "id": 409,
+        "quantity": 5
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "純淨皮鎧",
+    "position": {
+      "x": 184,
+      "y": 3
+    },
+    "recipe_plan_id": 27,
+    "requirements": [
+      {
+        "condition_id": 643,
+        "count": 1,
+        "name": "通關天聳入雲霄的昏暗樓閣[危險度：I]"
+      },
+      {
+        "condition_id": 663,
+        "count": 5,
+        "name": "取得5個「大骨」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 510,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 511,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [73, 35, 76],
+    "support_color_ids": [2, 3, 4],
+    "tracking_id": "af_synthesis_recipe_356"
+  },
+  {
+    "id": 357,
+    "ingredient_costs": [
+      {
+        "id": 417,
+        "quantity": 3
+      },
+      {
+        "id": 421,
+        "quantity": 4
+      },
+      {
+        "id": 409,
+        "quantity": 5
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "無聲之靴",
+    "position": {
+      "x": 186,
+      "y": 4
+    },
+    "recipe_plan_id": 27,
+    "requirements": [
+      {
+        "condition_id": 636,
+        "count": 1,
+        "name": "通關積分戰9-2Normal"
+      },
+      {
+        "condition_id": 652,
+        "count": 5,
+        "name": "取得5個「變異通草」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 512,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 513,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [76, 51, 64],
+    "support_color_ids": [1, 3, 5],
+    "tracking_id": "af_synthesis_recipe_357"
+  },
+  {
+    "id": 358,
+    "ingredient_costs": [
+      {
+        "id": 411,
+        "quantity": 5
+      },
+      {
+        "id": 416,
+        "quantity": 3
+      },
+      {
+        "id": 425,
+        "quantity": 4
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "神諭之劍",
+    "position": {
+      "x": 190,
+      "y": 3
+    },
+    "recipe_plan_id": 27,
+    "requirements": [
+      {
+        "condition_id": 651,
+        "count": 5,
+        "name": "取得5個「女高音蟋蟀」"
+      },
+      {
+        "condition_id": 52,
+        "count": 300,
+        "name": "調合300個裝備道具"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 514,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 515,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [84, 66, 46],
+    "support_color_ids": [1, 2, 5],
+    "tracking_id": "af_synthesis_recipe_358"
+  },
+  {
+    "id": 359,
+    "ingredient_costs": [
+      {
+        "id": 411,
+        "quantity": 5
+      },
+      {
+        "id": 417,
+        "quantity": 3
+      },
+      {
+        "id": 423,
+        "quantity": 4
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "魅影皮甲",
+    "position": {
+      "x": 192,
+      "y": 4
+    },
+    "recipe_plan_id": 27,
+    "requirements": [
+      {
+        "condition_id": 638,
+        "count": 1,
+        "name": "通關積分戰9-4Normal"
+      },
+      {
+        "condition_id": 657,
+        "count": 5,
+        "name": "取得5個「昂維蠕蟲」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 516,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 517,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [84, 56, 47],
+    "support_color_ids": [2, 3, 5],
+    "tracking_id": "af_synthesis_recipe_359"
+  },
+  {
+    "id": 360,
+    "ingredient_costs": [
+      {
+        "id": 422,
+        "quantity": 4
+      },
+      {
+        "id": 424,
+        "quantity": 4
+      },
+      {
+        "id": 425,
+        "quantity": 3
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "戰鬥的護符",
+    "position": {
+      "x": 192,
+      "y": 2
+    },
+    "recipe_plan_id": 27,
+    "requirements": [
+      {
+        "condition_id": 647,
+        "count": 1,
+        "name": "通關通往夢想殘渣的小徑[危險度：II]"
+      },
+      {
+        "condition_id": 658,
+        "count": 5,
+        "name": "取得5個「霞草」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 518,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 519,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [84, 52, 48],
+    "support_color_ids": [3, 4, 5],
+    "tracking_id": "af_synthesis_recipe_360"
+  },
+  {
+    "id": 361,
+    "ingredient_costs": [
+      {
+        "id": 424,
+        "quantity": 6
+      },
+      {
+        "id": 429,
+        "quantity": 6
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "焦味蘇茶",
+    "position": {
+      "x": 105,
+      "y": 3
+    },
+    "recipe_plan_id": 28,
+    "requirements": [
+      {
+        "condition_id": 675,
+        "count": 1,
+        "name": "通關積分戰8-1Very Hard"
+      },
+      {
+        "condition_id": 659,
+        "count": 10,
+        "name": "取得10個「王古蟲」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 167,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 14
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 168,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 14
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [79, 77, 31],
+    "support_color_ids": [1, 2, 5],
+    "tracking_id": "af_synthesis_recipe_361"
+  },
+  {
+    "id": 362,
+    "ingredient_costs": [
+      {
+        "id": 412,
+        "quantity": 6
+      },
+      {
+        "id": 423,
+        "quantity": 5
+      },
+      {
+        "id": 427,
+        "quantity": 4
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "長柄刀",
+    "position": {
+      "x": 108,
+      "y": 5
+    },
+    "recipe_plan_id": 28,
+    "requirements": [
+      {
+        "condition_id": 644,
+        "count": 1,
+        "name": "通關聳入雲霄的昏暗樓閣[危險度：III]"
+      },
+      {
+        "condition_id": 660,
+        "count": 10,
+        "name": "取得10個「成熟果實」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 520,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 521,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [80, 74, 78],
+    "support_color_ids": [1, 2, 3],
+    "tracking_id": "af_synthesis_recipe_362"
+  },
+  {
+    "id": 363,
+    "ingredient_costs": [
+      {
+        "id": 413,
+        "quantity": 5
+      },
+      {
+        "id": 423,
+        "quantity": 5
+      },
+      {
+        "id": 425,
+        "quantity": 4
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "狂風掃把",
+    "position": {
+      "x": 107,
+      "y": 3
+    },
+    "recipe_plan_id": 28,
+    "requirements": [
+      {
+        "condition_id": 185,
+        "count": 50,
+        "name": "完成戰鬥研究Lv.50"
+      },
+      {
+        "condition_id": 661,
+        "count": 5,
+        "name": "取得5個「茜苔」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 522,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 523,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [81, 70, 83],
+    "support_color_ids": [2, 3, 4],
+    "tracking_id": "af_synthesis_recipe_363"
+  },
+  {
+    "id": 364,
+    "ingredient_costs": [
+      {
+        "id": 424,
+        "quantity": 4
+      },
+      {
+        "id": 423,
+        "quantity": 4
+      },
+      {
+        "id": 425,
+        "quantity": 3
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "亞龍之魂",
+    "position": {
+      "x": 108,
+      "y": 1
+    },
+    "recipe_plan_id": 28,
+    "requirements": [
+      {
+        "condition_id": 141,
+        "count": 50,
+        "name": "完成鍊金研究Lv.50"
+      },
+      {
+        "condition_id": 656,
+        "count": 5,
+        "name": "取得5個「柔鐵礦」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 524,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 525,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [82, 67, 41],
+    "support_color_ids": [1, 2, 5],
+    "tracking_id": "af_synthesis_recipe_364"
+  },
+  {
+    "id": 365,
+    "ingredient_costs": [
+      {
+        "id": 433,
+        "quantity": 3
+      },
+      {
+        "id": 426,
+        "quantity": 3
+      },
+      {
+        "id": 428,
+        "quantity": 2
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "司令官胸鎧",
+    "position": {
+      "x": 110,
+      "y": 5
+    },
+    "recipe_plan_id": 28,
+    "requirements": [
+      {
+        "condition_id": 531,
+        "count": 30,
+        "name": "完成育成研究Lv.30"
+      },
+      {
+        "condition_id": 662,
+        "count": 5,
+        "name": "取得5個「男低音蟋蟀」"
+      },
+      {
+        "condition_id": 664,
+        "count": 5,
+        "name": "取得5個「金比奧茲樹」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 526,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 527,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [80, 40, 43],
+    "support_color_ids": [1, 3, 4],
+    "tracking_id": "af_synthesis_recipe_365"
+  },
+  {
+    "id": 366,
+    "ingredient_costs": [
+      {
+        "id": 432,
+        "quantity": 3
+      },
+      {
+        "id": 426,
+        "quantity": 3
+      },
+      {
+        "id": 430,
+        "quantity": 2
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "微風禮服",
+    "position": {
+      "x": 109,
+      "y": 3
+    },
+    "recipe_plan_id": 28,
+    "requirements": [
+      {
+        "condition_id": 639,
+        "count": 1,
+        "name": "在積分戰9-1VeryHard獲得SS級別積分"
+      },
+      {
+        "condition_id": 671,
+        "count": 1,
+        "name": "調合1個「焦味蘇茶」"
+      },
+      {
+        "condition_id": 665,
+        "count": 5,
+        "name": "取得5個「夜光花」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 528,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 529,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [81, 74, 58],
+    "support_color_ids": [2, 4, 5],
+    "tracking_id": "af_synthesis_recipe_366"
+  },
+  {
+    "id": 367,
+    "ingredient_costs": [
+      {
+        "id": 434,
+        "quantity": 3
+      },
+      {
+        "id": 427,
+        "quantity": 3
+      },
+      {
+        "id": 431,
+        "quantity": 2
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "銀夾克",
+    "position": {
+      "x": 110,
+      "y": 1
+    },
+    "recipe_plan_id": 28,
+    "requirements": [
+      {
+        "condition_id": 640,
+        "count": 1,
+        "name": "在積分戰9-2VeryHard獲得SS級別積分"
+      },
+      {
+        "condition_id": 672,
+        "count": 1,
+        "name": "調合1個「長柄刀」"
+      },
+      {
+        "condition_id": 666,
+        "count": 5,
+        "name": "取得5個「蛋化石」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 530,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 531,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [82, 68, 25],
+    "support_color_ids": [1, 3, 5],
+    "tracking_id": "af_synthesis_recipe_367"
+  },
+  {
+    "id": 368,
+    "ingredient_costs": [
+      {
+        "id": 414,
+        "quantity": 6
+      },
+      {
+        "id": 415,
+        "quantity": 6
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "物靈耳環",
+    "position": {
+      "x": 112,
+      "y": 5
+    },
+    "recipe_plan_id": 28,
+    "requirements": [
+      {
+        "condition_id": 641,
+        "count": 1,
+        "name": "在積分戰9-3VeryHard獲得SS級別積分"
+      },
+      {
+        "condition_id": 673,
+        "count": 1,
+        "name": "調合1個「狂風掃把」"
+      },
+      {
+        "condition_id": 667,
+        "count": 10,
+        "name": "取得10個「黃金果實」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 532,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 533,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [80, 78, 27],
+    "support_color_ids": [1, 2, 4],
+    "tracking_id": "af_synthesis_recipe_368"
+  },
+  {
+    "id": 369,
+    "ingredient_costs": [
+      {
+        "id": 433,
+        "quantity": 2
+      },
+      {
+        "id": 432,
+        "quantity": 2
+      },
+      {
+        "id": 434,
+        "quantity": 1
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "強韌頭巾",
+    "position": {
+      "x": 111,
+      "y": 3
+    },
+    "recipe_plan_id": 28,
+    "requirements": [
+      {
+        "condition_id": 642,
+        "count": 1,
+        "name": "在積分戰9-4VeryHard獲得SS級別積分"
+      },
+      {
+        "condition_id": 674,
+        "count": 1,
+        "name": "調合1個「亞龍之魂」"
+      },
+      {
+        "condition_id": 668,
+        "count": 3,
+        "name": "取得3個「悠久樹枝」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 534,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 535,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [81, 53, 59],
+    "support_color_ids": [1, 4, 5],
+    "tracking_id": "af_synthesis_recipe_369"
+  },
+  {
+    "id": 370,
+    "ingredient_costs": [
+      {
+        "id": 436,
+        "quantity": 2
+      },
+      {
+        "id": 435,
+        "quantity": 2
+      },
+      {
+        "id": 437,
+        "quantity": 1
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "紅噗尼掛飾",
+    "position": {
+      "x": 112,
+      "y": 1
+    },
+    "recipe_plan_id": 28,
+    "requirements": [
+      {
+        "condition_id": 645,
+        "count": 1,
+        "name": "通關聳入雲霄的昏暗樓閣[危險度：VII]"
+      },
+      {
+        "condition_id": 648,
+        "count": 1,
+        "name": "通關通往夢想殘渣的小徑[危險度：VII]"
+      },
+      {
+        "condition_id": 669,
+        "count": 3,
+        "name": "取得3個「碧剛石」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 536,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 537,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [82, 49, 39],
+    "support_color_ids": [1, 3, 4],
+    "tracking_id": "af_synthesis_recipe_370"
+  },
+  {
+    "id": 371,
+    "ingredient_costs": [
+      {
+        "id": 412,
+        "quantity": 6
+      },
+      {
+        "id": 445,
+        "quantity": 6
+      },
+      {
+        "id": 449,
+        "quantity": 4
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "初始彈弓",
+    "position": {
+      "x": 194,
+      "y": 4
+    },
+    "recipe_plan_id": 29,
+    "requirements": [
+      {
+        "condition_id": 697,
+        "count": 1,
+        "name": "通關積分戰9-1Hard"
+      },
+      {
+        "condition_id": 688,
+        "count": 10,
+        "name": "取得10個「藍色惡魔」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 544,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 545,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [76, 85, 67],
+    "support_color_ids": [1, 3, 5],
+    "tracking_id": "af_synthesis_recipe_371"
+  },
+  {
+    "id": 372,
+    "ingredient_costs": [
+      {
+        "id": 445,
+        "quantity": 10
+      },
+      {
+        "id": 452,
+        "quantity": 6
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "理智披風",
+    "position": {
+      "x": 194,
+      "y": 2
+    },
+    "recipe_plan_id": 29,
+    "requirements": [
+      {
+        "condition_id": 699,
+        "count": 1,
+        "name": "通關積分戰10-1Normal"
+      },
+      {
+        "condition_id": 689,
+        "count": 5,
+        "name": "取得5個「雲綿花」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 546,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 547,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [84, 85, 74],
+    "support_color_ids": [2, 4, 5],
+    "tracking_id": "af_synthesis_recipe_372"
+  },
+  {
+    "id": 373,
+    "ingredient_costs": [
+      {
+        "id": 447,
+        "quantity": 5
+      },
+      {
+        "id": 450,
+        "quantity": 4
+      },
+      {
+        "id": 457,
+        "quantity": 3
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "靈獸尾巴",
+    "position": {
+      "x": 196,
+      "y": 3
+    },
+    "recipe_plan_id": 29,
+    "requirements": [
+      {
+        "condition_id": 701,
+        "count": 1,
+        "name": "通關寧靜庭園[危險度：I]"
+      },
+      {
+        "condition_id": 690,
+        "count": 5,
+        "name": "取得5個「灌木蟹」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 548,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 549,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [86, 85, 78],
+    "support_color_ids": [1, 4, 5],
+    "tracking_id": "af_synthesis_recipe_373"
+  },
+  {
+    "id": 374,
+    "ingredient_costs": [
+      {
+        "id": 413,
+        "quantity": 6
+      },
+      {
+        "id": 446,
+        "quantity": 6
+      },
+      {
+        "id": 451,
+        "quantity": 4
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "智慧之心",
+    "position": {
+      "x": 198,
+      "y": 4
+    },
+    "recipe_plan_id": 29,
+    "requirements": [
+      {
+        "condition_id": 698,
+        "count": 1,
+        "name": "通關積分戰9-2Hard"
+      },
+      {
+        "condition_id": 691,
+        "count": 10,
+        "name": "取得10個「謎語泡泡」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 538,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 539,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [86, 78, 73],
+    "support_color_ids": [1, 2, 4],
+    "tracking_id": "af_synthesis_recipe_374"
+  },
+  {
+    "id": 375,
+    "ingredient_costs": [
+      {
+        "id": 445,
+        "quantity": 10
+      },
+      {
+        "id": 453,
+        "quantity": 6
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "清新外套",
+    "position": {
+      "x": 198,
+      "y": 2
+    },
+    "recipe_plan_id": 29,
+    "requirements": [
+      {
+        "condition_id": 700,
+        "count": 1,
+        "name": "通關積分戰10-2Normal"
+      },
+      {
+        "condition_id": 692,
+        "count": 5,
+        "name": "取得5個「葉鱗魚」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 540,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 541,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [86, 85, 67],
+    "support_color_ids": [2, 3, 4],
+    "tracking_id": "af_synthesis_recipe_375"
+  },
+  {
+    "id": 376,
+    "ingredient_costs": [
+      {
+        "id": 447,
+        "quantity": 5
+      },
+      {
+        "id": 454,
+        "quantity": 5
+      },
+      {
+        "id": 455,
+        "quantity": 4
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "冰結飾品",
+    "position": {
+      "x": 200,
+      "y": 3
+    },
+    "recipe_plan_id": 29,
+    "requirements": [
+      {
+        "condition_id": 702,
+        "count": 1,
+        "name": "通關寧靜庭園[危險度：III]"
+      },
+      {
+        "condition_id": 693,
+        "count": 5,
+        "name": "取得5個「善心曲樹」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 542,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 543,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 6
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [86, 84, 74],
+    "support_color_ids": [1, 2, 3],
+    "tracking_id": "af_synthesis_recipe_376"
+  },
+  {
+    "id": 377,
+    "ingredient_costs": [
+      {
+        "id": 448,
+        "quantity": 5
+      },
+      {
+        "id": 456,
+        "quantity": 5
+      },
+      {
+        "id": 457,
+        "quantity": 5
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "漬物石",
+    "position": {
+      "x": 114,
+      "y": 3
+    },
+    "recipe_plan_id": 30,
+    "requirements": [
+      {
+        "condition_id": 52,
+        "count": 350,
+        "name": "調合350個裝備道具"
+      },
+      {
+        "condition_id": 694,
+        "count": 5,
+        "name": "取得5個「蝶翅魚」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 169,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 14
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 170,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 14
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [84, 74, 73],
+    "support_color_ids": [2, 3, 4],
+    "tracking_id": "af_synthesis_recipe_377"
+  },
+  {
+    "id": 378,
+    "ingredient_costs": [
+      {
+        "id": 447,
+        "quantity": 5
+      },
+      {
+        "id": 455,
+        "quantity": 5
+      },
+      {
+        "id": 456,
+        "quantity": 5
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "原初的力肉",
+    "position": {
+      "x": 116,
+      "y": 4
+    },
+    "recipe_plan_id": 30,
+    "requirements": [
+      {
+        "condition_id": 705,
+        "count": 1,
+        "name": "在積分戰10-2VeryHard獲得SS級別積分"
+      },
+      {
+        "condition_id": 695,
+        "count": 5,
+        "name": "取得5個「魔法草」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 171,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 14
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 172,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 14
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [69, 85, 74],
+    "support_color_ids": [1, 3, 5],
+    "tracking_id": "af_synthesis_recipe_378"
+  },
+  {
+    "id": 379,
+    "ingredient_costs": [
+      {
+        "id": 458,
+        "quantity": 2
+      },
+      {
+        "id": 459,
+        "quantity": 2
+      },
+      {
+        "id": 460,
+        "quantity": 1
+      }
+    ],
+    "learning_reward_set_id": 10000,
+    "mana_cost": 1,
+    "name": "魔法鎖鏈",
+    "position": {
+      "x": 116,
+      "y": 2
+    },
+    "recipe_plan_id": 30,
+    "requirements": [
+      {
+        "condition_id": 703,
+        "count": 1,
+        "name": "通關寧靜庭園[危險度：VII]"
+      },
+      {
+        "condition_id": 696,
+        "count": 3,
+        "name": "取得3個「純潔木片」"
+      }
+    ],
+    "rewards": [
+      {
+        "is_target": true,
+        "resource": {
+          "id": 173,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 14
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 174,
+          "quantity": 1,
+          "resource_params": null,
+          "type": 14
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 108,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 111,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 114,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 117,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 120,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 109,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 112,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 115,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 118,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 121,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 110,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 113,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 116,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 119,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      },
+      {
+        "is_target": false,
+        "resource": {
+          "id": 122,
+          "quantity": 3,
+          "resource_params": null,
+          "type": 5
+        }
+      }
+    ],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "support_character_ids": [66, 85, 78],
+    "support_color_ids": [1, 4, 5],
+    "tracking_id": "af_synthesis_recipe_379"
   }
 ]

@@ -1,10 +1,12 @@
 [
   {
+    "attack_attributes": [],
     "description": "恢复HP最低的1名我方的HP。",
     "id": 1,
     "large_still_path_hash": "3034299152807780982",
     "name": "治愈软膏",
     "rarity": 1,
+    "roles": [3],
     "skill_id": 31549,
     "small_still_path_hash": "6069348271925201019",
     "still_path_hash": "5016916069781570740",
@@ -12,11 +14,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [5],
     "description": "对当前HP最多的1名敌人造成火属性伤害。",
     "id": 2,
     "large_still_path_hash": "3572367564393938284",
     "name": "炎烧",
     "rarity": 1,
+    "roles": [],
     "skill_id": 31550,
     "small_still_path_hash": "3678244575021901135",
     "still_path_hash": "2499143196165810560",
@@ -24,11 +28,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [3],
     "description": "对敌方全体造成突刺属性伤害。",
     "id": 3,
     "large_still_path_hash": "7908019951420038454",
     "name": "海胆袋",
     "rarity": 1,
+    "roles": [],
     "skill_id": 31551,
     "small_still_path_hash": "1289351840303497635",
     "still_path_hash": "18489558370176364",
@@ -36,11 +42,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "恢复我方全体HP。",
     "id": 4,
     "large_still_path_hash": "7756330180834304555",
     "name": "饼干",
     "rarity": 2,
+    "roles": [3],
     "skill_id": 31552,
     "small_still_path_hash": "186459419609432281",
     "still_path_hash": "1383569734043470872",
@@ -48,11 +56,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [5, 6, 7, 8],
     "description": "赋予敌方全体“火冰雷风属性耐性-{0}%”，受到2次攻击后失效。",
     "id": 5,
     "large_still_path_hash": "4001855450449511029",
     "name": "魔女的秘药",
     "rarity": 1,
+    "roles": [1, 2],
     "skill_id": 31553,
     "small_still_path_hash": "2340009798761833525",
     "still_path_hash": "3592852218184591612",
@@ -60,11 +70,13 @@
     "usage_count": 1
   },
   {
+    "attack_attributes": [5, 6, 7, 8],
     "description": "赋予我方全体“火冰雷风属性技能伤害+{0}%”，2次行动结束后失效。",
     "id": 6,
     "large_still_path_hash": "3170837654370688361",
     "name": "总有办法秘药",
     "rarity": 1,
+    "roles": [1],
     "skill_id": 31554,
     "small_still_path_hash": "5136484467894536449",
     "still_path_hash": "6263794485903640016",
@@ -72,11 +84,13 @@
     "usage_count": 1
   },
   {
+    "attack_attributes": [3],
     "description": "对当前HP最多的1名敌人造成突刺属性伤害。",
     "id": 7,
     "large_still_path_hash": "8082944745908124983",
     "name": "诡雷",
     "rarity": 2,
+    "roles": [],
     "skill_id": 31555,
     "small_still_path_hash": "7324955474880835053",
     "still_path_hash": "8359378810162848036",
@@ -84,11 +98,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [7],
     "description": "对当前HP最多的1名敌人造成雷属性伤害。",
     "id": 8,
     "large_still_path_hash": "2320693140322214743",
     "name": "电导之石",
     "rarity": 2,
+    "roles": [],
     "skill_id": 31556,
     "small_still_path_hash": "903709894706211468",
     "still_path_hash": "2103073073799636547",
@@ -96,11 +112,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [],
     "description": "恢复我方全体15%的HP。",
     "id": 9,
     "large_still_path_hash": "8942378086386844425",
     "name": "治愈之铃",
     "rarity": 3,
+    "roles": [3],
     "skill_id": 31914,
     "small_still_path_hash": "3343238849655557728",
     "still_path_hash": "4593830535192461999",
@@ -108,11 +126,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "恢复我方全体10%的HP。",
     "id": 10,
     "large_still_path_hash": "8942378086386844425",
     "name": "治愈之铃",
     "rarity": 2,
+    "roles": [3],
     "skill_id": 31557,
     "small_still_path_hash": "3343238849655557728",
     "still_path_hash": "4593830535192461999",
@@ -120,11 +140,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [5, 6, 7, 8],
     "description": "赋予敌方全体“所受魔法攻击技能伤害+{0}%”，受到2次攻击后失效。",
     "id": 11,
     "large_still_path_hash": "1707529736184800750",
     "name": "暗黑水",
     "rarity": 3,
+    "roles": [1],
     "skill_id": 31915,
     "small_still_path_hash": "6022666276755360809",
     "still_path_hash": "4769819553008337128",
@@ -132,11 +154,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [5, 6, 7, 8],
     "description": "赋予敌方全体“所受魔法攻击技能伤害+{0}%”，受到2次攻击后失效。",
     "id": 12,
     "large_still_path_hash": "1707529736184800750",
     "name": "暗黑水",
     "rarity": 2,
+    "roles": [1],
     "skill_id": 31558,
     "small_still_path_hash": "6022666276755360809",
     "still_path_hash": "4769819553008337128",
@@ -144,11 +168,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [1, 2, 3],
     "description": "赋予我方全体“所受物理攻击技能伤害-{0}%”，受到2次攻击后失效。",
     "id": 13,
     "large_still_path_hash": "5449120664796661168",
     "name": "朴素烘焙点心",
     "rarity": 2,
+    "roles": [],
     "skill_id": 31559,
     "small_still_path_hash": "8177343165301467333",
     "still_path_hash": "6980228427349435404",
@@ -156,11 +182,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [5, 6, 7, 8],
     "description": "赋予我方全体“所受魔法攻击技能伤害-{0}%”，受到2次攻击后失效。",
     "id": 14,
     "large_still_path_hash": "5771165010663414446",
     "name": "神秘的羽衣",
     "rarity": 2,
+    "roles": [],
     "skill_id": 31560,
     "small_still_path_hash": "1606331116712134129",
     "still_path_hash": "571912273660250432",
@@ -168,11 +196,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予我方全体“暴击率+{0}%”，2次行动结束后失效。",
     "id": 15,
     "large_still_path_hash": "881081961194830580",
     "name": "金创粉",
     "rarity": 3,
+    "roles": [1],
     "skill_id": 31916,
     "small_still_path_hash": "3793676833270128925",
     "still_path_hash": "2666371188314205652",
@@ -180,11 +210,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予我方全体“暴击率+{0}%”，2次行动结束后失效。",
     "id": 16,
     "large_still_path_hash": "881081961194830580",
     "name": "金创粉",
     "rarity": 2,
+    "roles": [1],
     "skill_id": 31561,
     "small_still_path_hash": "3793676833270128925",
     "still_path_hash": "2666371188314205652",
@@ -192,11 +224,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [1],
     "description": "对当前HP最少的1名敌人造成斩击属性伤害。",
     "id": 17,
     "large_still_path_hash": "729812298005693933",
     "name": "战斗魔剑",
     "rarity": 3,
+    "roles": [],
     "skill_id": 31860,
     "small_still_path_hash": "2870769380262682727",
     "still_path_hash": "3923205954452860072",
@@ -204,11 +238,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [1],
     "description": "对当前HP最少的1名敌人造成斩击属性伤害。",
     "id": 18,
     "large_still_path_hash": "729812298005693933",
     "name": "战斗魔剑",
     "rarity": 2,
+    "roles": [],
     "skill_id": 31861,
     "small_still_path_hash": "2870769380262682727",
     "still_path_hash": "3923205954452860072",
@@ -216,11 +252,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [5],
     "description": "对当前HP最多的1名敌人造成火属性伤害。",
     "id": 19,
     "large_still_path_hash": "6200795928259159475",
     "name": "玫瑰炎烧",
     "rarity": 3,
+    "roles": [],
     "skill_id": 31862,
     "small_still_path_hash": "376060273940317323",
     "still_path_hash": "1485354854085118020",
@@ -228,11 +266,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [5],
     "description": "对当前HP最多的1名敌人造成火属性伤害。",
     "id": 20,
     "large_still_path_hash": "6200795928259159475",
     "name": "玫瑰炎烧",
     "rarity": 2,
+    "roles": [],
     "skill_id": 31863,
     "small_still_path_hash": "376060273940317323",
     "still_path_hash": "1485354854085118020",
@@ -240,11 +280,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [],
     "description": "赋予HP上限最高的1名我方“回合开始时HP恢复{0}%”，回合开始2次后失效。",
     "id": 21,
     "large_still_path_hash": "5586083481745685167",
     "name": "形意口琴",
     "rarity": 3,
+    "roles": [3],
     "skill_id": 31864,
     "small_still_path_hash": "7064211820169587135",
     "still_path_hash": "8335069677444064624",
@@ -252,11 +294,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [],
     "description": "赋予HP上限最高的1名我方“回合开始时HP恢复{0}%”，回合开始2次后失效。",
     "id": 22,
     "large_still_path_hash": "5586083481745685167",
     "name": "形意口琴",
     "rarity": 2,
+    "roles": [3],
     "skill_id": 31865,
     "small_still_path_hash": "7064211820169587135",
     "still_path_hash": "8335069677444064624",
@@ -264,11 +308,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [1],
     "description": "赋予HP上限最高的1名敌人“斩击属性耐性-{0}%”，受到2次攻击后失效。",
     "id": 23,
     "large_still_path_hash": "1272467232355834609",
     "name": "不幸之瓶",
     "rarity": 3,
+    "roles": [1, 2],
     "skill_id": 31866,
     "small_still_path_hash": "4676445474308984147",
     "still_path_hash": "5855542549847441820",
@@ -276,11 +322,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [1],
     "description": "赋予HP上限最高的1名敌人“斩击属性耐性-{0}%”，受到2次攻击后失效。",
     "id": 24,
     "large_still_path_hash": "1272467232355834609",
     "name": "不幸之瓶",
     "rarity": 2,
+    "roles": [1, 2],
     "skill_id": 31867,
     "small_still_path_hash": "4676445474308984147",
     "still_path_hash": "5855542549847441820",
@@ -288,11 +336,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [5],
     "description": "赋予HP上限最高的1名敌人“火属性耐性-{0}%”，受到2次攻击后失效。",
     "id": 25,
     "large_still_path_hash": "4733308784485926033",
     "name": "可燃烧的水",
     "rarity": 3,
+    "roles": [1, 2],
     "skill_id": 31868,
     "small_still_path_hash": "3011770209015990836",
     "still_path_hash": "4066459648410814205",
@@ -300,11 +350,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [5],
     "description": "赋予HP上限最高的1名敌人“火属性耐性-{0}%”，受到2次攻击后失效。",
     "id": 26,
     "large_still_path_hash": "4733308784485926033",
     "name": "可燃烧的水",
     "rarity": 2,
+    "roles": [1, 2],
     "skill_id": 31869,
     "small_still_path_hash": "3011770209015990836",
     "still_path_hash": "4066459648410814205",
@@ -312,11 +364,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予魔攻最高的1名我方“爆发技能伤害+{0}%”，2次行动结束后失效。",
     "id": 27,
     "large_still_path_hash": "2133967501149676751",
     "name": "妙药龙液",
     "rarity": 3,
+    "roles": [1],
     "skill_id": 31870,
     "small_still_path_hash": "803039679572733664",
     "still_path_hash": "1910083524212679185",
@@ -324,11 +378,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予魔攻最高的1名我方“爆发技能伤害+{0}%”，2次行动结束后失效。",
     "id": 28,
     "large_still_path_hash": "2133967501149676751",
     "name": "妙药龙液",
     "rarity": 2,
+    "roles": [1],
     "skill_id": 31871,
     "small_still_path_hash": "803039679572733664",
     "still_path_hash": "1910083524212679185",
@@ -336,11 +392,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予我方全体“暴击率+{0}%”，2次行动结束后失效。",
     "id": 29,
     "large_still_path_hash": "5386548291921998428",
     "name": "黄金精华汤",
     "rarity": 3,
+    "roles": [1],
     "skill_id": 31872,
     "small_still_path_hash": "5868226828711382164",
     "still_path_hash": "4671679464797519965",
@@ -348,11 +406,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予我方全体“暴击率+{0}%”，2次行动结束后失效。",
     "id": 30,
     "large_still_path_hash": "5386548291921998428",
     "name": "黄金精华汤",
     "rarity": 2,
+    "roles": [1],
     "skill_id": 31873,
     "small_still_path_hash": "5868226828711382164",
     "still_path_hash": "4671679464797519965",
@@ -360,11 +420,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [1, 2, 3],
     "description": "赋予我方全体“物理攻击技能伤害+{0}%”，2次行动结束后失效。",
     "id": 31,
     "large_still_path_hash": "1652163837999927814",
     "name": "熏肉",
     "rarity": 3,
+    "roles": [1],
     "skill_id": 31874,
     "small_still_path_hash": "8331426680547256448",
     "still_path_hash": "7078021310672479409",
@@ -372,11 +434,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [1, 2, 3],
     "description": "赋予我方全体“物理攻击技能伤害+{0}%”，2次行动结束后失效。",
     "id": 32,
     "large_still_path_hash": "1652163837999927814",
     "name": "熏肉",
     "rarity": 2,
+    "roles": [1],
     "skill_id": 31875,
     "small_still_path_hash": "8331426680547256448",
     "still_path_hash": "7078021310672479409",
@@ -384,11 +448,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [5, 6, 7, 8],
     "description": "赋予我方全体“魔法攻击技能伤害+{0}%”，2次行动结束后失效。",
     "id": 33,
     "large_still_path_hash": "965402126392544536",
     "name": "炼金糖果",
     "rarity": 3,
+    "roles": [1],
     "skill_id": 31876,
     "small_still_path_hash": "1490193981121791308",
     "still_path_hash": "363446913574144389",
@@ -396,11 +462,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [5, 6, 7, 8],
     "description": "赋予我方全体“魔法攻击技能伤害+{0}%”，2次行动结束后失效。",
     "id": 34,
     "large_still_path_hash": "965402126392544536",
     "name": "炼金糖果",
     "rarity": 2,
+    "roles": [1],
     "skill_id": 31877,
     "small_still_path_hash": "1490193981121791308",
     "still_path_hash": "363446913574144389",
@@ -408,11 +476,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [2],
     "description": "对当前HP最多的1名敌人造成打击属性伤害。",
     "id": 35,
     "large_still_path_hash": "5857137466490547526",
     "name": "创世之槌",
     "rarity": 3,
+    "roles": [],
     "skill_id": 31878,
     "small_still_path_hash": "3909466282936361384",
     "still_path_hash": "2874479997126831465",
@@ -420,11 +490,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [2],
     "description": "对当前HP最多的1名敌人造成打击属性伤害。",
     "id": 36,
     "large_still_path_hash": "5857137466490547526",
     "name": "创世之槌",
     "rarity": 2,
+    "roles": [],
     "skill_id": 31879,
     "small_still_path_hash": "3909466282936361384",
     "still_path_hash": "2874479997126831465",
@@ -432,11 +504,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [3],
     "description": "对当前HP最少的1名敌人造成突刺属性伤害。",
     "id": 37,
     "large_still_path_hash": "6292180094955688537",
     "name": "光之枪",
     "rarity": 3,
+    "roles": [],
     "skill_id": 31880,
     "small_still_path_hash": "2680745338168942812",
     "still_path_hash": "3789472475556097043",
@@ -444,11 +518,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [3],
     "description": "对当前HP最少的1名敌人造成突刺属性伤害。",
     "id": 38,
     "large_still_path_hash": "6292180094955688537",
     "name": "光之枪",
     "rarity": 2,
+    "roles": [],
     "skill_id": 31881,
     "small_still_path_hash": "2680745338168942812",
     "still_path_hash": "3789472475556097043",
@@ -456,11 +532,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [8],
     "description": "对当前HP最多的1名敌人造成风属性伤害。",
     "id": 39,
     "large_still_path_hash": "1222517613811838235",
     "name": "龙卷结晶",
     "rarity": 3,
+    "roles": [],
     "skill_id": 31882,
     "small_still_path_hash": "6984503703561234692",
     "still_path_hash": "8163042132971939275",
@@ -468,11 +546,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [8],
     "description": "对当前HP最多的1名敌人造成风属性伤害。",
     "id": 40,
     "large_still_path_hash": "1222517613811838235",
     "name": "龙卷结晶",
     "rarity": 2,
+    "roles": [],
     "skill_id": 31883,
     "small_still_path_hash": "6984503703561234692",
     "still_path_hash": "8163042132971939275",
@@ -480,11 +560,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [6],
     "description": "对当前HP最少的1名敌人造成冰属性伤害。",
     "id": 41,
     "large_still_path_hash": "2072385202324001573",
     "name": "礼服冰精",
     "rarity": 3,
+    "roles": [],
     "skill_id": 31884,
     "small_still_path_hash": "3111735727591295625",
     "still_path_hash": "4218212198729942600",
@@ -492,11 +574,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [6],
     "description": "对当前HP最少的1名敌人造成冰属性伤害。",
     "id": 42,
     "large_still_path_hash": "2072385202324001573",
     "name": "礼服冰精",
     "rarity": 2,
+    "roles": [],
     "skill_id": 31885,
     "small_still_path_hash": "3111735727591295625",
     "still_path_hash": "4218212198729942600",
@@ -504,11 +588,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [7],
     "description": "对当前HP最少的1名敌人造成雷属性伤害。",
     "id": 43,
     "large_still_path_hash": "3117626181779527070",
     "name": "漫舞雷球",
     "rarity": 3,
+    "roles": [],
     "skill_id": 31886,
     "small_still_path_hash": "8372556082018184236",
     "still_path_hash": "7319556557375987939",
@@ -516,11 +602,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [7],
     "description": "对当前HP最少的1名敌人造成雷属性伤害。",
     "id": 44,
     "large_still_path_hash": "3117626181779527070",
     "name": "漫舞雷球",
     "rarity": 2,
+    "roles": [],
     "skill_id": 31887,
     "small_still_path_hash": "8372556082018184236",
     "still_path_hash": "7319556557375987939",
@@ -528,11 +616,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [2],
     "description": "赋予HP上限最高的1名敌人“打击属性耐性-{0}%”，受到2次攻击后失效。",
     "id": 45,
     "large_still_path_hash": "8604548332589233604",
     "name": "活着的垃圾桶",
     "rarity": 3,
+    "roles": [1, 2],
     "skill_id": 31888,
     "small_still_path_hash": "6259517758527211712",
     "still_path_hash": "5150786128902587407",
@@ -540,11 +630,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [2],
     "description": "赋予HP上限最高的1名敌人“打击属性耐性-{0}%”，受到2次攻击后失效。",
     "id": 46,
     "large_still_path_hash": "8604548332589233604",
     "name": "活着的垃圾桶",
     "rarity": 2,
+    "roles": [1, 2],
     "skill_id": 31889,
     "small_still_path_hash": "6259517758527211712",
     "still_path_hash": "5150786128902587407",
@@ -552,11 +644,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [3],
     "description": "赋予HP上限最高的1名敌人“突刺属性耐性-{0}%”，受到2次攻击后失效。",
     "id": 47,
     "large_still_path_hash": "7845579793005980382",
     "name": "南瓜娃娃",
     "rarity": 3,
+    "roles": [1, 2],
     "skill_id": 31890,
     "small_still_path_hash": "3598184615233725940",
     "still_path_hash": "2326763807431731515",
@@ -564,11 +658,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [3],
     "description": "赋予HP上限最高的1名敌人“突刺属性耐性-{0}%”，受到2次攻击后失效。",
     "id": 48,
     "large_still_path_hash": "7845579793005980382",
     "name": "南瓜娃娃",
     "rarity": 2,
+    "roles": [1, 2],
     "skill_id": 31891,
     "small_still_path_hash": "3598184615233725940",
     "still_path_hash": "2326763807431731515",
@@ -576,11 +672,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [8],
     "description": "赋予HP上限最高的1名敌人“风属性耐性-{0}%”，受到2次攻击后失效。",
     "id": 49,
     "large_still_path_hash": "3516306498036599424",
     "name": "苦难的拥抱",
     "rarity": 3,
+    "roles": [1, 2],
     "skill_id": 31892,
     "small_still_path_hash": "1369196055026024728",
     "still_path_hash": "190661929949023703",
@@ -588,11 +686,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [8],
     "description": "赋予HP上限最高的1名敌人“风属性耐性-{0}%”，受到2次攻击后失效。",
     "id": 50,
     "large_still_path_hash": "3516306498036599424",
     "name": "苦难的拥抱",
     "rarity": 2,
+    "roles": [1, 2],
     "skill_id": 31893,
     "small_still_path_hash": "1369196055026024728",
     "still_path_hash": "190661929949023703",
@@ -600,11 +700,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [6],
     "description": "赋予HP上限最高的1名敌人“冰属性耐性-{0}%”，受到2次攻击后失效。",
     "id": 51,
     "large_still_path_hash": "3951492138709841311",
     "name": "冰菱",
     "rarity": 3,
+    "roles": [1, 2],
     "skill_id": 31894,
     "small_still_path_hash": "32231078330663012",
     "still_path_hash": "1285640751532510381",
@@ -612,11 +714,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [6],
     "description": "赋予HP上限最高的1名敌人“冰属性耐性-{0}%”，受到2次攻击后失效。",
     "id": 52,
     "large_still_path_hash": "3951492138709841311",
     "name": "冰菱",
     "rarity": 2,
+    "roles": [1, 2],
     "skill_id": 31895,
     "small_still_path_hash": "32231078330663012",
     "still_path_hash": "1285640751532510381",
@@ -624,11 +728,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [7],
     "description": "赋予HP上限最高的1名敌人“雷属性耐性-{0}%”，受到2次攻击后失效。",
     "id": 53,
     "large_still_path_hash": "7709021587877942721",
     "name": "凝缩核",
     "rarity": 3,
+    "roles": [1, 2],
     "skill_id": 31896,
     "small_still_path_hash": "2494304419707479184",
     "still_path_hash": "3690856208272844865",
@@ -636,11 +742,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [7],
     "description": "赋予HP上限最高的1名敌人“雷属性耐性-{0}%”，受到2次攻击后失效。",
     "id": 54,
     "large_still_path_hash": "7709021587877942721",
     "name": "凝缩核",
     "rarity": 2,
+    "roles": [1, 2],
     "skill_id": 31897,
     "small_still_path_hash": "2494304419707479184",
     "still_path_hash": "3690856208272844865",
@@ -648,11 +756,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [1],
     "description": "赋予物攻最高的1名我方“斩击属性技能伤害+{0}%”，2次行动结束后失效。",
     "id": 55,
     "large_still_path_hash": "8175040569022335709",
     "name": "活化肉体粉末",
     "rarity": 3,
+    "roles": [1],
     "skill_id": 31898,
     "small_still_path_hash": "5020558439077792188",
     "still_path_hash": "6055540231509001589",
@@ -660,11 +770,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [1],
     "description": "赋予物攻最高的1名我方“斩击属性技能伤害+{0}%”，2次行动结束后失效。",
     "id": 56,
     "large_still_path_hash": "8175040569022335709",
     "name": "活化肉体粉末",
     "rarity": 2,
+    "roles": [1],
     "skill_id": 31899,
     "small_still_path_hash": "5020558439077792188",
     "still_path_hash": "6055540231509001589",
@@ -672,11 +784,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [2],
     "description": "赋予物攻最高的1名我方“打击属性技能伤害+{0}%”，2次行动结束后失效。",
     "id": 57,
     "large_still_path_hash": "3269300473974221443",
     "name": "强力敷药",
     "rarity": 3,
+    "roles": [1],
     "skill_id": 31900,
     "small_still_path_hash": "7440956030238535000",
     "still_path_hash": "8567698725749072281",
@@ -684,11 +798,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [2],
     "description": "赋予物攻最高的1名我方“打击属性技能伤害+{0}%”，2次行动结束后失效。",
     "id": 58,
     "large_still_path_hash": "3269300473974221443",
     "name": "强力敷药",
     "rarity": 2,
+    "roles": [1],
     "skill_id": 31901,
     "small_still_path_hash": "7440956030238535000",
     "still_path_hash": "8567698725749072281",
@@ -696,11 +812,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [3],
     "description": "赋予物攻最高的1名我方“突刺属性技能伤害+{0}%”，2次行动结束后失效。",
     "id": 59,
     "large_still_path_hash": "9026975087997105379",
     "name": "特里同的法螺",
     "rarity": 3,
+    "roles": [1],
     "skill_id": 31902,
     "small_still_path_hash": "1039893326016293431",
     "still_path_hash": "2291052333514893048",
@@ -708,11 +826,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [3],
     "description": "赋予物攻最高的1名我方“突刺属性技能伤害+{0}%”，2次行动结束后失效。",
     "id": 60,
     "large_still_path_hash": "9026975087997105379",
     "name": "特里同的法螺",
     "rarity": 2,
+    "roles": [1],
     "skill_id": 31903,
     "small_still_path_hash": "1039893326016293431",
     "still_path_hash": "2291052333514893048",
@@ -720,11 +840,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [8],
     "description": "赋予魔攻最高的1名我方“风属性技能伤害+{0}%”，2次行动结束后失效。",
     "id": 61,
     "large_still_path_hash": "2408077128560678077",
     "name": "驭风风车",
     "rarity": 3,
+    "roles": [1],
     "skill_id": 31904,
     "small_still_path_hash": "3206980892341391067",
     "still_path_hash": "4405785613748748820",
@@ -732,11 +854,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [8],
     "description": "赋予魔攻最高的1名我方“风属性技能伤害+{0}%”，2次行动结束后失效。",
     "id": 62,
     "large_still_path_hash": "2408077128560678077",
     "name": "驭风风车",
     "rarity": 2,
+    "roles": [1],
     "skill_id": 31905,
     "small_still_path_hash": "3206980892341391067",
     "still_path_hash": "4405785613748748820",
@@ -744,11 +868,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [6],
     "description": "赋予魔攻最高的1名我方“冰属性技能伤害+{0}%”，2次行动结束后失效。",
     "id": 63,
     "large_still_path_hash": "7132982963727483829",
     "name": "冰雪风暴",
     "rarity": 3,
+    "roles": [1],
     "skill_id": 31906,
     "small_still_path_hash": "4151946851110857885",
     "still_path_hash": "2899103357983498322",
@@ -756,11 +882,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [6],
     "description": "赋予魔攻最高的1名我方“冰属性技能伤害+{0}%”，2次行动结束后失效。",
     "id": 64,
     "large_still_path_hash": "7132982963727483829",
     "name": "冰雪风暴",
     "rarity": 2,
+    "roles": [1],
     "skill_id": 31907,
     "small_still_path_hash": "4151946851110857885",
     "still_path_hash": "2899103357983498322",
@@ -768,11 +896,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [7],
     "description": "赋予魔攻最高的1名我方“雷属性技能伤害+{0}%”，2次行动结束后失效。",
     "id": 65,
     "large_still_path_hash": "4526123495354524651",
     "name": "呼雷铃",
     "rarity": 3,
+    "roles": [1],
     "skill_id": 31908,
     "small_still_path_hash": "1977538668176001137",
     "still_path_hash": "780427297210942654",
@@ -780,11 +910,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [7],
     "description": "赋予魔攻最高的1名我方“雷属性技能伤害+{0}%”，2次行动结束后失效。",
     "id": 66,
     "large_still_path_hash": "4526123495354524651",
     "name": "呼雷铃",
     "rarity": 2,
+    "roles": [1],
     "skill_id": 31909,
     "small_still_path_hash": "1977538668176001137",
     "still_path_hash": "780427297210942654",
@@ -792,11 +924,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [5],
     "description": "赋予魔攻最高的1名我方“火属性技能伤害+{0}%”，2次行动结束后失效。",
     "id": 67,
     "large_still_path_hash": "2691009667753344247",
     "name": "怒血金创粉",
     "rarity": 3,
+    "roles": [1],
     "skill_id": 31910,
     "small_still_path_hash": "8953357388676687173",
     "still_path_hash": "7918935178642024842",
@@ -804,11 +938,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [5],
     "description": "赋予魔攻最高的1名我方“火属性技能伤害+{0}%”，2次行动结束后失效。",
     "id": 68,
     "large_still_path_hash": "2691009667753344247",
     "name": "怒血金创粉",
     "rarity": 2,
+    "roles": [1],
     "skill_id": 31911,
     "small_still_path_hash": "8953357388676687173",
     "still_path_hash": "7918935178642024842",
@@ -816,11 +952,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "恢复HP最低的1名我方50%的HP。",
     "id": 69,
     "large_still_path_hash": "8751923892979784873",
     "name": "里斯托莱阿药瓶",
     "rarity": 3,
+    "roles": [3],
     "skill_id": 31912,
     "small_still_path_hash": "6822876755800883625",
     "still_path_hash": "5695567880221101414",
@@ -828,11 +966,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [],
     "description": "恢复HP最低的1名我方30%的HP。",
     "id": 70,
     "large_still_path_hash": "8751923892979784873",
     "name": "里斯托莱阿药瓶",
     "rarity": 2,
+    "roles": [3],
     "skill_id": 31913,
     "small_still_path_hash": "6822876755800883625",
     "still_path_hash": "5695567880221101414",
@@ -840,11 +980,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [],
     "description": "恢复HP最低的1名我方30%的HP。<br>恢复后解除目标的异常状态。",
     "id": 71,
     "large_still_path_hash": "4092345297210252532",
     "name": "万灵药剂",
     "rarity": 3,
+    "roles": [3],
     "skill_id": 31918,
     "small_still_path_hash": "577443168210585867",
     "still_path_hash": "1848304393549972934",
@@ -852,11 +994,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [],
     "description": "恢复HP最低的1名我方20%的HP。<br>恢复后解除目标的异常状态。",
     "id": 72,
     "large_still_path_hash": "4092345297210252532",
     "name": "万灵药剂",
     "rarity": 2,
+    "roles": [3],
     "skill_id": 31917,
     "small_still_path_hash": "577443168210585867",
     "still_path_hash": "1848304393549972934",
@@ -864,11 +1008,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [1, 2, 3],
     "description": "赋予HP上限最高的1名敌人2次“物理攻击伤害-{0}%”和“所受物理攻击伤害+{1}%”。",
     "id": 73,
     "large_still_path_hash": "2540742682796786666",
     "name": "万物抄本",
     "rarity": 3,
+    "roles": [1, 3],
     "skill_id": 31919,
     "small_still_path_hash": "8012583698499150911",
     "still_path_hash": "9121874910591625458",
@@ -876,11 +1022,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [1, 2, 3],
     "description": "赋予HP上限最高的1名敌人2次“物理攻击伤害-{0}%”和“所受物理攻击伤害+{1}%”。",
     "id": 74,
     "large_still_path_hash": "2540742682796786666",
     "name": "万物抄本",
     "rarity": 2,
+    "roles": [1, 3],
     "skill_id": 31920,
     "small_still_path_hash": "8012583698499150911",
     "still_path_hash": "9121874910591625458",
@@ -888,11 +1036,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予敌方全体“所受破防伤害+{0}%”，受到2次攻击后失效。",
     "id": 75,
     "large_still_path_hash": "9182838961637335992",
     "name": "英雄精神",
     "rarity": 3,
+    "roles": [2],
     "skill_id": 31921,
     "small_still_path_hash": "5610754179226779859",
     "still_path_hash": "6663187523862645790",
@@ -900,11 +1050,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予敌方全体“所受破防伤害+{0}%”，受到2次攻击后失效。",
     "id": 76,
     "large_still_path_hash": "9182838961637335992",
     "name": "英雄精神",
     "rarity": 2,
+    "roles": [2],
     "skill_id": 31922,
     "small_still_path_hash": "5610754179226779859",
     "still_path_hash": "6663187523862645790",
@@ -912,11 +1064,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予我方全体“自身为攻击者时，技能伤害+{0}%”，2次行动结束后失效。",
     "id": 77,
     "large_still_path_hash": "7553186574395294356",
     "name": "黑檀妖药",
     "rarity": 3,
+    "roles": [1],
     "skill_id": 31924,
     "small_still_path_hash": "7002704813322407530",
     "still_path_hash": "8109743092505772709",
@@ -924,11 +1078,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予我方全体“自身为攻击者时，技能伤害+{0}%”，2次行动结束后失效。",
     "id": 78,
     "large_still_path_hash": "7553186574395294356",
     "name": "黑檀妖药",
     "rarity": 2,
+    "roles": [1],
     "skill_id": 31923,
     "small_still_path_hash": "7002704813322407530",
     "still_path_hash": "8109743092505772709",
@@ -936,11 +1092,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [1],
     "description": "对敌方全体造成斩击属性伤害。",
     "id": 79,
     "large_still_path_hash": "7270948613531974826",
     "name": "回旋魔剑",
     "rarity": 3,
+    "roles": [],
     "skill_id": 31926,
     "small_still_path_hash": "3092971124423814631",
     "still_path_hash": "4272071429504000298",
@@ -948,11 +1106,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [1],
     "description": "对敌方全体造成斩击属性伤害。",
     "id": 80,
     "large_still_path_hash": "7270948613531974826",
     "name": "回旋魔剑",
     "rarity": 2,
+    "roles": [],
     "skill_id": 31925,
     "small_still_path_hash": "3092971124423814631",
     "still_path_hash": "4272071429504000298",
@@ -960,11 +1120,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [],
     "description": "恢复HP最低的1名我方30%的HP。<br>恢复后解除目标的负面效果。",
     "id": 81,
     "large_still_path_hash": "6869344072414626861",
     "name": "鱼油治愈软膏",
     "rarity": 3,
+    "roles": [3],
     "skill_id": 31928,
     "small_still_path_hash": "4481304421237680335",
     "still_path_hash": "3428866790522774530",
@@ -972,11 +1134,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [],
     "description": "恢复HP最低的1名我方20%的HP。<br>恢复后解除目标的负面效果。",
     "id": 82,
     "large_still_path_hash": "6869344072414626861",
     "name": "鱼油治愈软膏",
     "rarity": 2,
+    "roles": [3],
     "skill_id": 31927,
     "small_still_path_hash": "4481304421237680335",
     "still_path_hash": "3428866790522774530",
@@ -984,11 +1148,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [7],
     "description": "对当前HP最多的1名敌人造成雷属性伤害，<br>中概率赋予目标“麻痹”，回合开始2次后失效。",
     "id": 83,
     "large_still_path_hash": "3818832907880948426",
     "name": "电导水晶",
     "rarity": 3,
+    "roles": [],
     "skill_id": 31930,
     "small_still_path_hash": "4882350271301773958",
     "still_path_hash": "5937034281573770825",
@@ -996,11 +1162,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [7],
     "description": "对当前HP最多的1名敌人造成雷属性伤害，<br>低概率赋予目标“麻痹”，回合开始2次后失效。",
     "id": 84,
     "large_still_path_hash": "3818832907880948426",
     "name": "电导水晶",
     "rarity": 2,
+    "roles": [],
     "skill_id": 31929,
     "small_still_path_hash": "4882350271301773958",
     "still_path_hash": "5937034281573770825",
@@ -1008,11 +1176,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [],
     "description": "赋予我方全体“自身为破坏者时，破防伤害+{0}%”，2次行动结束后失效。",
     "id": 85,
     "large_still_path_hash": "250415327734768755",
     "name": "破坏秘药",
     "rarity": 3,
+    "roles": [2],
     "skill_id": 31932,
     "small_still_path_hash": "2080601429335804963",
     "still_path_hash": "971305775480111342",
@@ -1020,11 +1190,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予我方全体“自身为破坏者时，破防伤害+{0}%”，2次行动结束后失效。",
     "id": 86,
     "large_still_path_hash": "250415327734768755",
     "name": "破坏秘药",
     "rarity": 2,
+    "roles": [2],
     "skill_id": 31931,
     "small_still_path_hash": "2080601429335804963",
     "still_path_hash": "971305775480111342",
@@ -1032,11 +1204,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予HP上限最高的1名我方“所受伤害-{0}%”，受到2次攻击后失效。",
     "id": 87,
     "large_still_path_hash": "4962041371944164145",
     "name": "保护粉",
     "rarity": 3,
+    "roles": [3],
     "skill_id": 31933,
     "small_still_path_hash": "6413650661015668219",
     "still_path_hash": "5234554710726658358",
@@ -1044,11 +1218,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予HP上限最高的1名我方“所受伤害-{0}%”，受到2次攻击后失效。",
     "id": 88,
     "large_still_path_hash": "4962041371944164145",
     "name": "保护粉",
     "rarity": 2,
+    "roles": [3],
     "skill_id": 31934,
     "small_still_path_hash": "6413650661015668219",
     "still_path_hash": "5234554710726658358",
@@ -1056,11 +1232,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [5],
     "description": "对当前HP最少的1名敌人造成火属性伤害。",
     "id": 89,
     "large_still_path_hash": "1797430165115124591",
     "name": "熔岩方块",
     "rarity": 3,
+    "roles": [],
     "skill_id": 31935,
     "small_still_path_hash": "8930303889663631639",
     "still_path_hash": "7659447174816378330",
@@ -1068,11 +1246,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [5],
     "description": "对当前HP最少的1名敌人造成火属性伤害。",
     "id": 90,
     "large_still_path_hash": "1797430165115124591",
     "name": "熔岩方块",
     "rarity": 2,
+    "roles": [],
     "skill_id": 31936,
     "small_still_path_hash": "8930303889663631639",
     "still_path_hash": "7659447174816378330",
@@ -1080,11 +1260,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [],
     "description": "恢复HP上限最高的1名我方HP的30%。<br>恢复后，赋予目标“回合开始时，HP恢复{0}%”，回合开始2次后失效。",
     "id": 91,
     "large_still_path_hash": "2227920884026360946",
     "name": "鸡尾酒点心",
     "rarity": 3,
+    "roles": [3],
     "skill_id": 31937,
     "small_still_path_hash": "7537914594470223981",
     "still_path_hash": "8735030474920783010",
@@ -1092,11 +1274,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [],
     "description": "恢复HP上限最高的1名我方HP的15%。<br>恢复后，赋予目标“回合开始时，HP恢复{0}%”，回合开始2次后失效。",
     "id": 92,
     "large_still_path_hash": "2227920884026360946",
     "name": "鸡尾酒点心",
     "rarity": 2,
+    "roles": [3],
     "skill_id": 31938,
     "small_still_path_hash": "7537914594470223981",
     "still_path_hash": "8735030474920783010",
@@ -1104,11 +1288,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [6],
     "description": "对敌方全体造成冰属性伤害。",
     "id": 93,
     "large_still_path_hash": "4811635907043320880",
     "name": "坚硬冰精",
     "rarity": 3,
+    "roles": [],
     "skill_id": 31939,
     "small_still_path_hash": "5364631838328882305",
     "still_path_hash": "6617479687388268622",
@@ -1116,11 +1302,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [6],
     "description": "对敌方全体造成冰属性伤害。",
     "id": 94,
     "large_still_path_hash": "4811635907043320880",
     "name": "坚硬冰精",
     "rarity": 2,
+    "roles": [],
     "skill_id": 31940,
     "small_still_path_hash": "5364631838328882305",
     "still_path_hash": "6617479687388268622",
@@ -1128,11 +1316,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [],
     "description": "赋予我方全体“自身为支援者时，技能伤害+{0}%”，2次行动结束后失效。",
     "id": 95,
     "large_still_path_hash": "6435145801234086706",
     "name": "混装糖果",
     "rarity": 3,
+    "roles": [4],
     "skill_id": 31941,
     "small_still_path_hash": "3261195265500228021",
     "still_path_hash": "4388499853860119930",
@@ -1140,11 +1330,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予我方全体“自身为支援者时，技能伤害+{0}%”，2次行动结束后失效。",
     "id": 96,
     "large_still_path_hash": "6435145801234086706",
     "name": "混装糖果",
     "rarity": 2,
+    "roles": [4],
     "skill_id": 31942,
     "small_still_path_hash": "3261195265500228021",
     "still_path_hash": "4388499853860119930",
@@ -1152,11 +1344,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [2],
     "description": "对HP上限最低的1名敌人造成打击属性伤害，<br>目标为水生种族时，使其回合推迟{0}回合。",
     "id": 97,
     "large_still_path_hash": "6346078185883045082",
     "name": "漂泊地球仪",
     "rarity": 3,
+    "roles": [],
     "skill_id": 31943,
     "small_still_path_hash": "957565422139526626",
     "still_path_hash": "2084311347191791917",
@@ -1164,11 +1358,13 @@
     "usage_count": 1
   },
   {
+    "attack_attributes": [2],
     "description": "对HP上限最低的1名敌人造成打击属性伤害，<br>目标为水生种族时，使其回合推迟{0}回合。",
     "id": 98,
     "large_still_path_hash": "6346078185883045082",
     "name": "漂泊地球仪",
     "rarity": 2,
+    "roles": [],
     "skill_id": 31944,
     "small_still_path_hash": "957565422139526626",
     "still_path_hash": "2084311347191791917",
@@ -1176,11 +1372,13 @@
     "usage_count": 1
   },
   {
+    "attack_attributes": [],
     "description": "解除HP减少最多的1名我方的负面效果，恢复15%的HP。",
     "id": 99,
     "large_still_path_hash": "5008918851384732891",
     "name": "草豆",
     "rarity": 2,
+    "roles": [3],
     "skill_id": 31946,
     "small_still_path_hash": "8721852033223139758",
     "still_path_hash": "7543314677522279779",
@@ -1188,11 +1386,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [1],
     "description": "对当前HP最少的1名敌人造成斩击属性伤害。",
     "id": 100,
     "large_still_path_hash": "1850476180269911173",
     "name": "爆裂海胆",
     "rarity": 2,
+    "roles": [],
     "skill_id": 31947,
     "small_still_path_hash": "6621755381287863618",
     "still_path_hash": "5350331206503090575",
@@ -1200,11 +1400,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [3],
     "description": "对HP上限最高的1名敌人造成突刺属性破防伤害。",
     "id": 101,
     "large_still_path_hash": "305324605863505032",
     "name": "多重诡雷",
     "rarity": 3,
+    "roles": [],
     "skill_id": 31948,
     "small_still_path_hash": "3433706595088574734",
     "still_path_hash": "4468691755584693697",
@@ -1212,11 +1414,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [],
     "description": "分别以超高概率赋予HP上限最高的1名敌人“毒耐性-{0}%”和2个“中毒”，2次行动后失效。",
     "id": 102,
     "large_still_path_hash": "4871111539712168900",
     "name": "飘摇的毒烟",
     "rarity": 3,
+    "roles": [],
     "skill_id": 31949,
     "small_still_path_hash": "7672131858483208406",
     "still_path_hash": "8925538302130744345",
@@ -1224,11 +1428,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予我方全体“攻击目标处于破防状态时，技能伤害+{0}%”，1次行动结束后失效。",
     "id": 103,
     "large_still_path_hash": "2284694191522821018",
     "name": "阿斯拉甜甜圈",
     "rarity": 3,
+    "roles": [1],
     "skill_id": 31950,
     "small_still_path_hash": "5230911313321919546",
     "still_path_hash": "6427459733834959093",
@@ -1236,11 +1442,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予魔攻最高的1名我方“暴击伤害+{0}%”，2次行动结束后失效。",
     "id": 104,
     "large_still_path_hash": "388237980359416684",
     "name": "营养剂",
     "rarity": 3,
+    "roles": [1],
     "skill_id": 31951,
     "small_still_path_hash": "1129588259595930969",
     "still_path_hash": "2164006028874006934",
@@ -1248,11 +1456,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予魔攻最高的1名我方“暴击伤害+{0}%”，2次行动结束后失效。",
     "id": 105,
     "large_still_path_hash": "388237980359416684",
     "name": "营养剂",
     "rarity": 2,
+    "roles": [1],
     "skill_id": 31952,
     "small_still_path_hash": "1129588259595930969",
     "still_path_hash": "2164006028874006934",
@@ -1260,11 +1470,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予当前HP最多的1名敌人“异常状态耐性-{0}%”，2次行动结束后失效。",
     "id": 106,
     "large_still_path_hash": "6159777587674645772",
     "name": "禁忌秘药",
     "rarity": 3,
+    "roles": [],
     "skill_id": 31953,
     "small_still_path_hash": "7386182544808593978",
     "still_path_hash": "8585549091440543479",
@@ -1272,11 +1484,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予当前HP最多的1名敌人“异常状态耐性-{0}%”，2次行动结束后失效。",
     "id": 107,
     "large_still_path_hash": "6159777587674645772",
     "name": "禁忌秘药",
     "rarity": 2,
+    "roles": [],
     "skill_id": 31954,
     "small_still_path_hash": "7386182544808593978",
     "still_path_hash": "8585549091440543479",
@@ -1284,11 +1498,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "恢复HP减少最多的1名我方40%的HP。<br>恢复后赋予目标“破防伤害+{0}%”，1次行动结束后失效。",
     "id": 108,
     "large_still_path_hash": "672895020348908882",
     "name": "补给瓶",
     "rarity": 3,
+    "roles": [2, 3],
     "skill_id": 31955,
     "small_still_path_hash": "4931424812497678038",
     "still_path_hash": "6182019727028953627",
@@ -1296,11 +1512,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [],
     "description": "恢复HP减少最多的1名我方30%的HP。<br>恢复后赋予目标“破防伤害+{0}%”，1次行动结束后失效。",
     "id": 109,
     "large_still_path_hash": "672895020348908882",
     "name": "补给瓶",
     "rarity": 2,
+    "roles": [2, 3],
     "skill_id": 31956,
     "small_still_path_hash": "4931424812497678038",
     "still_path_hash": "6182019727028953627",
@@ -1308,11 +1526,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [7],
     "description": "赋予敌方全体“雷属性耐性-{0}%”，受到3次攻击后失效，并造成雷属性伤害。",
     "id": 110,
     "large_still_path_hash": "6776553458615514055",
     "name": "放电管",
     "rarity": 3,
+    "roles": [1, 2],
     "skill_id": 31957,
     "small_still_path_hash": "2178380877732711578",
     "still_path_hash": "1125384583710179415",
@@ -1320,11 +1540,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [7],
     "description": "赋予敌方全体“雷属性耐性-{0}%”，受到3次攻击后失效，并造成雷属性伤害。",
     "id": 111,
     "large_still_path_hash": "6776553458615514055",
     "name": "放电管",
     "rarity": 2,
+    "roles": [1, 2],
     "skill_id": 31958,
     "small_still_path_hash": "2178380877732711578",
     "still_path_hash": "1125384583710179415",
@@ -1332,11 +1554,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [],
     "description": "赋予HP上限最高的1名我方1次“掩护”和“所受伤害-{0}%”。",
     "id": 112,
     "large_still_path_hash": "154899299958576025",
     "name": "守护女神之盾",
     "rarity": 3,
+    "roles": [3],
     "skill_id": 31959,
     "small_still_path_hash": "4383168490286770294",
     "still_path_hash": "3274440227649119419",
@@ -1344,11 +1568,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予HP上限最高的1名我方1次“掩护”和“所受伤害-{0}%”。",
     "id": 113,
     "large_still_path_hash": "154899299958576025",
     "name": "守护女神之盾",
     "rarity": 2,
+    "roles": [3],
     "skill_id": 31960,
     "small_still_path_hash": "4383168490286770294",
     "still_path_hash": "3274440227649119419",
@@ -1356,11 +1582,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予HP减少最多的1名我方“HP上限+{0}%”（上限30%），恢复50%的HP。",
     "id": 114,
     "large_still_path_hash": "9092776565490570332",
     "name": "传承万灵药剂",
     "rarity": 3,
+    "roles": [3],
     "skill_id": 31961,
     "small_still_path_hash": "7914658873248097414",
     "still_path_hash": "8967659454483179595",
@@ -1368,11 +1596,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [],
     "description": "赋予HP减少最多的1名我方“HP上限+{0}%”（上限21%），恢复30%的HP。",
     "id": 115,
     "large_still_path_hash": "9092776565490570332",
     "name": "传承万灵药剂",
     "rarity": 2,
+    "roles": [3],
     "skill_id": 31962,
     "small_still_path_hash": "7914658873248097414",
     "still_path_hash": "8967659454483179595",
@@ -1380,11 +1610,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [],
     "description": "赋予物攻最高的1名我方“HP不低于50%时，爆发技能伤害+{0}%”，2次行动结束后失效。",
     "id": 116,
     "large_still_path_hash": "7329729631676549954",
     "name": "传承教典",
     "rarity": 3,
+    "roles": [1],
     "skill_id": 31963,
     "small_still_path_hash": "785758995256379826",
     "still_path_hash": "1964291995017872767",
@@ -1392,11 +1624,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予物攻最高的1名我方“HP不低于50%时，爆发技能伤害+{0}%”，2次行动结束后失效。",
     "id": 117,
     "large_still_path_hash": "7329729631676549954",
     "name": "传承教典",
     "rarity": 2,
+    "roles": [1],
     "skill_id": 31964,
     "small_still_path_hash": "785758995256379826",
     "still_path_hash": "1964291995017872767",
@@ -1404,11 +1638,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [1, 2, 3, 5, 6, 7, 8],
     "description": "赋予HP上限最高的1名敌人“全属性耐性-{0}%”，受到2次攻击后失效。",
     "id": 118,
     "large_still_path_hash": "4149250273035447072",
     "name": "传承咒术书",
     "rarity": 3,
+    "roles": [1, 2],
     "skill_id": 31965,
     "small_still_path_hash": "2884730373674790238",
     "still_path_hash": "4156150038983500179",
@@ -1416,11 +1652,13 @@
     "usage_count": 1
   },
   {
+    "attack_attributes": [1, 2, 3, 5, 6, 7, 8],
     "description": "赋予HP上限最高的1名敌人“全属性耐性-{0}%”，受到2次攻击后失效。",
     "id": 119,
     "large_still_path_hash": "4149250273035447072",
     "name": "传承咒术书",
     "rarity": 2,
+    "roles": [1, 2],
     "skill_id": 31966,
     "small_still_path_hash": "2884730373674790238",
     "still_path_hash": "4156150038983500179",
@@ -1428,11 +1666,13 @@
     "usage_count": 1
   },
   {
+    "attack_attributes": [5],
     "description": "对敌方全体造成火属性伤害后，赋予敌方全体2次“火属性耐性-{0}%”，赋予我方全体2次“火属性伤害+{1}%”。",
     "id": 120,
     "large_still_path_hash": "579113920720786106",
     "name": "闪耀新星炎烧",
     "rarity": 3,
+    "roles": [1, 2],
     "skill_id": 31967,
     "small_still_path_hash": "7233928617187199619",
     "still_path_hash": "8485082195562972750",
@@ -1440,11 +1680,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [5],
     "description": "对敌方全体造成火属性伤害后，赋予敌方全体2次“火属性耐性-{0}%”，赋予我方全体2次“火属性伤害+{1}%”。",
     "id": 121,
     "large_still_path_hash": "579113920720786106",
     "name": "闪耀新星炎烧",
     "rarity": 2,
+    "roles": [1, 2],
     "skill_id": 31968,
     "small_still_path_hash": "7233928617187199619",
     "still_path_hash": "8485082195562972750",
@@ -1452,11 +1694,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [6],
     "description": "对敌方全体造成冰属性伤害后，赋予敌方全体2次“冰属性耐性-{0}%”，赋予我方全体2次“冰属性伤害+{1}%”。",
     "id": 122,
     "large_still_path_hash": "6063000044587447016",
     "name": "暴风雪冰精",
     "rarity": 3,
+    "roles": [1, 2],
     "skill_id": 31969,
     "small_still_path_hash": "5083190247450259055",
     "still_path_hash": "6281989403401036450",
@@ -1464,11 +1708,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [6],
     "description": "对敌方全体造成冰属性伤害后，赋予敌方全体2次“冰属性耐性-{0}%”，赋予我方全体2次“冰属性伤害+{1}%”。",
     "id": 123,
     "large_still_path_hash": "6063000044587447016",
     "name": "暴风雪冰精",
     "rarity": 2,
+    "roles": [1, 2],
     "skill_id": 31970,
     "small_still_path_hash": "5083190247450259055",
     "still_path_hash": "6281989403401036450",
@@ -1476,11 +1722,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [7],
     "description": "对敌方全体造成雷属性伤害后，赋予敌方全体2次“雷属性耐性-{0}%”，赋予我方全体2次“雷属性伤害+{1}%”。",
     "id": 124,
     "large_still_path_hash": "4580145603768128513",
     "name": "冈格尼尔雷球",
     "rarity": 3,
+    "roles": [1, 2],
     "skill_id": 31971,
     "small_still_path_hash": "4285812271935630374",
     "still_path_hash": "3089259340939895017",
@@ -1488,11 +1736,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [7],
     "description": "对敌方全体造成雷属性伤害后，赋予敌方全体2次“雷属性耐性-{0}%”，赋予我方全体2次“雷属性伤害+{1}%”。",
     "id": 125,
     "large_still_path_hash": "4580145603768128513",
     "name": "冈格尼尔雷球",
     "rarity": 2,
+    "roles": [1, 2],
     "skill_id": 31972,
     "small_still_path_hash": "4285812271935630374",
     "still_path_hash": "3089259340939895017",
@@ -1500,11 +1750,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [8],
     "description": "对敌方全体造成风属性伤害后，赋予敌方全体2次“风属性耐性-{0}%”，赋予我方全体2次“风属性伤害+{1}%”。",
     "id": 126,
     "large_still_path_hash": "7179447303620441183",
     "name": "龙卷风精",
     "rarity": 3,
+    "roles": [1, 2],
     "skill_id": 31973,
     "small_still_path_hash": "1843466298915473610",
     "still_path_hash": "590055500469421061",
@@ -1512,11 +1764,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [8],
     "description": "对敌方全体造成风属性伤害后，赋予敌方全体2次“风属性耐性-{0}%”，赋予我方全体2次“风属性伤害+{1}%”。",
     "id": 127,
     "large_still_path_hash": "7179447303620441183",
     "name": "龙卷风精",
     "rarity": 2,
+    "roles": [1, 2],
     "skill_id": 31974,
     "small_still_path_hash": "1843466298915473610",
     "still_path_hash": "590055500469421061",
@@ -1524,11 +1778,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [1],
     "description": "对敌方全体造成斩击属性伤害后，赋予敌方全体2次“斩击属性耐性-{0}%”，赋予我方全体2次“斩击属性伤害+{1}%”。",
     "id": 128,
     "large_still_path_hash": "8658982923314998083",
     "name": "粉碎之灾",
     "rarity": 3,
+    "roles": [1, 2],
     "skill_id": 31975,
     "small_still_path_hash": "9125516875085211134",
     "still_path_hash": "7998775236104644913",
@@ -1536,11 +1792,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [1],
     "description": "对敌方全体造成斩击属性伤害后，赋予敌方全体2次“斩击属性耐性-{0}%”，赋予我方全体2次“斩击属性伤害+{1}%”。",
     "id": 129,
     "large_still_path_hash": "8658982923314998083",
     "name": "粉碎之灾",
     "rarity": 2,
+    "roles": [1, 2],
     "skill_id": 31976,
     "small_still_path_hash": "9125516875085211134",
     "still_path_hash": "7998775236104644913",
@@ -1548,11 +1806,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [2],
     "description": "给敌方全体造成打击属性伤害后，赋予敌方全体2次“打击属性耐性-{0}%”，赋予我方全体2次“打击属性伤害+{1}%”。",
     "id": 130,
     "large_still_path_hash": "2596206950628264733",
     "name": "绝望加农炮",
     "rarity": 3,
+    "roles": [1, 2],
     "skill_id": 31977,
     "small_still_path_hash": "6650502074082525458",
     "still_path_hash": "5615521355359063517",
@@ -1560,11 +1820,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [2],
     "description": "给敌方全体造成打击属性伤害后，赋予敌方全体2次“打击属性耐性-{0}%”，赋予我方全体2次“打击属性伤害+{1}%”。",
     "id": 131,
     "large_still_path_hash": "2596206950628264733",
     "name": "绝望加农炮",
     "rarity": 2,
+    "roles": [1, 2],
     "skill_id": 31978,
     "small_still_path_hash": "6650502074082525458",
     "still_path_hash": "5615521355359063517",
@@ -1572,11 +1834,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [3],
     "description": "给敌方全体造成突刺属性伤害后，赋予敌方全体2次“突刺属性耐性-{0}%”，赋予我方全体2次“突刺属性伤害+{1}%”。",
     "id": 132,
     "large_still_path_hash": "2458261143975359490",
     "name": "灾祸诡雷",
     "rarity": 3,
+    "roles": [1, 2],
     "skill_id": 31979,
     "small_still_path_hash": "5708744734388895850",
     "still_path_hash": "6817477437792570535",
@@ -1584,11 +1848,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [3],
     "description": "给敌方全体造成突刺属性伤害后，赋予敌方全体2次“突刺属性耐性-{0}%”，赋予我方全体2次“突刺属性伤害+{1}%”。",
     "id": 133,
     "large_still_path_hash": "2458261143975359490",
     "name": "灾祸诡雷",
     "rarity": 2,
+    "roles": [1, 2],
     "skill_id": 31980,
     "small_still_path_hash": "5708744734388895850",
     "still_path_hash": "6817477437792570535",
@@ -1596,11 +1862,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [3],
     "description": "对HP上限最高的1名敌人造成突刺属性破防伤害。",
     "id": 134,
     "large_still_path_hash": "305324605863505032",
     "name": "多重诡雷",
     "rarity": 2,
+    "roles": [],
     "skill_id": 31981,
     "small_still_path_hash": "3433706595088574734",
     "still_path_hash": "4468691755584693697",
@@ -1608,11 +1876,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [],
     "description": "分别以超高概率赋予HP上限最高的1名敌人“毒耐性-{0}%”和2个“中毒”，2次行动后失效。",
     "id": 135,
     "large_still_path_hash": "4871111539712168900",
     "name": "飘摇的毒烟",
     "rarity": 2,
+    "roles": [],
     "skill_id": 31982,
     "small_still_path_hash": "7672131858483208406",
     "still_path_hash": "8925538302130744345",
@@ -1620,11 +1890,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予我方全体“攻击目标处于破防状态时，技能伤害+{0}%”，1次行动结束后失效。",
     "id": 136,
     "large_still_path_hash": "2284694191522821018",
     "name": "阿斯拉甜甜圈",
     "rarity": 2,
+    "roles": [1],
     "skill_id": 31983,
     "small_still_path_hash": "5230911313321919546",
     "still_path_hash": "6427459733834959093",
@@ -1632,11 +1904,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [1, 2, 3],
     "description": "赋予敌方全体“所受物理攻击技能伤害+{0}%”，受到2次攻击后失效。",
     "id": 137,
     "large_still_path_hash": "7605938023512520064",
     "name": "小恶魔的恶作剧",
     "rarity": 3,
+    "roles": [1],
     "skill_id": 31984,
     "small_still_path_hash": "4694291846749317693",
     "still_path_hash": "5800771685426489074",
@@ -1644,11 +1918,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [1, 2, 3],
     "description": "赋予敌方全体“所受物理攻击技能伤害+{0}%”，受到2次攻击后失效。",
     "id": 138,
     "large_still_path_hash": "7605938023512520064",
     "name": "小恶魔的恶作剧",
     "rarity": 2,
+    "roles": [1],
     "skill_id": 31985,
     "small_still_path_hash": "4694291846749317693",
     "still_path_hash": "5800771685426489074",
@@ -1656,11 +1932,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [8],
     "description": "赋予敌方全体“风属性耐性-{0}%”，受到3次攻击后失效，并造成风属性伤害。",
     "id": 139,
     "large_still_path_hash": "3864316309657195810",
     "name": "疾风加护",
     "rarity": 3,
+    "roles": [1, 2],
     "skill_id": 31986,
     "small_still_path_hash": "7190688162114965201",
     "still_path_hash": "8245939477168783902",
@@ -1668,11 +1946,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [8],
     "description": "赋予敌方全体“风属性耐性-{0}%”，受到3次攻击后失效，并造成风属性伤害。",
     "id": 140,
     "large_still_path_hash": "3864316309657195810",
     "name": "疾风加护",
     "rarity": 2,
+    "roles": [1, 2],
     "skill_id": 31987,
     "small_still_path_hash": "7190688162114965201",
     "still_path_hash": "8245939477168783902",
@@ -1680,11 +1960,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [5, 6, 7, 8],
     "description": "赋予HP上限最高的1名敌人2次“魔法攻击伤害-{0}%”和“所受魔法攻击伤害+{1}%”。",
     "id": 141,
     "large_still_path_hash": "6890926121343992082",
     "name": "吸魂葫芦",
     "rarity": 3,
+    "roles": [1],
     "skill_id": 31988,
     "small_still_path_hash": "1710324898561233789",
     "still_path_hash": "439463681781374900",
@@ -1692,11 +1974,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [5, 6, 7, 8],
     "description": "赋予HP上限最高的1名敌人2次“魔法攻击伤害-{0}%”和“所受魔法攻击伤害+{1}%”。",
     "id": 142,
     "large_still_path_hash": "6890926121343992082",
     "name": "吸魂葫芦",
     "rarity": 2,
+    "roles": [1],
     "skill_id": 31989,
     "small_still_path_hash": "1710324898561233789",
     "still_path_hash": "439463681781374900",
@@ -1704,11 +1988,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [6],
     "description": "赋予敌方全体“冰属性耐性-{0}%”，受到3次攻击后失效，并造成冰属性伤害。",
     "id": 143,
     "large_still_path_hash": "255592112348684620",
     "name": "玻璃玫瑰",
     "rarity": 3,
+    "roles": [1, 2],
     "skill_id": 31990,
     "small_still_path_hash": "3842492112499570577",
     "still_path_hash": "2663391798792747872",
@@ -1716,11 +2002,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [6],
     "description": "赋予敌方全体“冰属性耐性-{0}%”，受到3次攻击后失效，并造成冰属性伤害。",
     "id": 144,
     "large_still_path_hash": "255592112348684620",
     "name": "玻璃玫瑰",
     "rarity": 2,
+    "roles": [1, 2],
     "skill_id": 31991,
     "small_still_path_hash": "3842492112499570577",
     "still_path_hash": "2663391798792747872",
@@ -1728,11 +2016,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [],
     "description": "解除HP减少最多的1名我方的恢复无效状态，并恢复其30%的HP。",
     "id": 145,
     "large_still_path_hash": "1730629050153369170",
     "name": "史特拉珍珠",
     "rarity": 3,
+    "roles": [3],
     "skill_id": 31992,
     "small_still_path_hash": "5936397266658876069",
     "still_path_hash": "4883963930641258092",
@@ -1740,11 +2030,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "解除HP减少最多的1名我方的恢复无效状态，并恢复其20%的HP。",
     "id": 146,
     "large_still_path_hash": "1730629050153369170",
     "name": "史特拉珍珠",
     "rarity": 2,
+    "roles": [3],
     "skill_id": 31993,
     "small_still_path_hash": "5936397266658876069",
     "still_path_hash": "4883963930641258092",
@@ -1752,11 +2044,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予我方全体“回合开始时，HP恢复10%”，回合开始2次后失效。",
     "id": 147,
     "large_still_path_hash": "694458902910623853",
     "name": "活力饮料",
     "rarity": 3,
+    "roles": [3],
     "skill_id": 31994,
     "small_still_path_hash": "7918297308750763368",
     "still_path_hash": "8954972444158417321",
@@ -1764,11 +2058,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予我方全体“回合开始时，HP恢复7%”，回合开始2次后失效。",
     "id": 148,
     "large_still_path_hash": "694458902910623853",
     "name": "活力饮料",
     "rarity": 2,
+    "roles": [3],
     "skill_id": 31995,
     "small_still_path_hash": "7918297308750763368",
     "still_path_hash": "8954972444158417321",
@@ -1776,11 +2072,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [3],
     "description": "赋予敌方全体“突属性耐性-{0}%”，受到3次攻击后失效，并造成突刺属性伤害。",
     "id": 149,
     "large_still_path_hash": "4770422068334960913",
     "name": "防御长枪",
     "rarity": 3,
+    "roles": [1, 2],
     "skill_id": 31996,
     "small_still_path_hash": "7205620821591981875",
     "still_path_hash": "8240043023008396284",
@@ -1788,11 +2086,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [3],
     "description": "赋予敌方全体“突属性耐性-{0}%”，受到3次攻击后失效，并造成突刺属性伤害。",
     "id": 150,
     "large_still_path_hash": "4770422068334960913",
     "name": "防御长枪",
     "rarity": 2,
+    "roles": [1, 2],
     "skill_id": 31997,
     "small_still_path_hash": "7205620821591981875",
     "still_path_hash": "8240043023008396284",
@@ -1800,11 +2100,13 @@
     "usage_count": 3
   },
   {
+    "attack_attributes": [],
     "description": "赋予物攻最高的1名我方“当攻击目标HP低于50%时，技能伤害+{0}%”，2次行动结束后失效。",
     "id": 151,
     "large_still_path_hash": "2170320472700223823",
     "name": "梦幻羽衣",
     "rarity": 3,
+    "roles": [1],
     "skill_id": 31998,
     "small_still_path_hash": "4688401886311390175",
     "still_path_hash": "5815710770442311440",
@@ -1812,11 +2114,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予物攻最高的1名我方“当攻击目标HP低于50%时，技能伤害+{0}%”，2次行动结束后失效。",
     "id": 152,
     "large_still_path_hash": "2170320472700223823",
     "name": "梦幻羽衣",
     "rarity": 2,
+    "roles": [1],
     "skill_id": 31999,
     "small_still_path_hash": "4688401886311390175",
     "still_path_hash": "5815710770442311440",
@@ -1824,11 +2128,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予HP上限最高的1名敌人“火伤耐性-{0}%”，2次行动结束后失效，以超高概率赋予“火伤”。",
     "id": 153,
     "large_still_path_hash": "402756225428463187",
     "name": "酸性云雾",
     "rarity": 3,
+    "roles": [],
     "skill_id": 32000,
     "small_still_path_hash": "2747647980018808555",
     "still_path_hash": "4000491464586639908",
@@ -1836,11 +2142,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予HP上限最高的1名敌人“火伤耐性-{0}%”，2次行动结束后失效，以超高概率赋予“火伤”。",
     "id": 154,
     "large_still_path_hash": "402756225428463187",
     "name": "酸性云雾",
     "rarity": 2,
+    "roles": [],
     "skill_id": 32001,
     "small_still_path_hash": "2747647980018808555",
     "still_path_hash": "4000491464586639908",
@@ -1848,11 +2156,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予敌方全体“所受全体攻击破防伤害+{0}%”，受到2次攻击后失效。",
     "id": 155,
     "large_still_path_hash": "6465928570982743565",
     "name": "纯净香薰",
     "rarity": 3,
+    "roles": [2],
     "skill_id": 32002,
     "small_still_path_hash": "346379279299138055",
     "still_path_hash": "1543490658890833608",
@@ -1860,11 +2170,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予敌方全体“所受全体攻击破防伤害+{0}%”，受到2次攻击后失效。",
     "id": 156,
     "large_still_path_hash": "6465928570982743565",
     "name": "纯净香薰",
     "rarity": 2,
+    "roles": [2],
     "skill_id": 32003,
     "small_still_path_hash": "346379279299138055",
     "still_path_hash": "1543490658890833608",
@@ -1872,11 +2184,13 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予我方全体2次“若为攻击者，技能伤害+{0}%”和“若为破坏者，破防伤害+{1}%”。",
     "id": 157,
     "large_still_path_hash": "4911486089964346896",
     "name": "真心巧克力",
     "rarity": 3,
+    "roles": [1, 2],
     "skill_id": 32004,
     "small_still_path_hash": "8110240232952315465",
     "still_path_hash": "7000949012308701832",
@@ -1884,15 +2198,241 @@
     "usage_count": 2
   },
   {
+    "attack_attributes": [],
     "description": "赋予我方全体2次“若为攻击者，技能伤害+{0}%”和“若为破坏者，破防伤害+{1}%”。",
     "id": 158,
     "large_still_path_hash": "4911486089964346896",
     "name": "真心巧克力",
     "rarity": 2,
+    "roles": [1, 2],
     "skill_id": 32005,
     "small_still_path_hash": "8110240232952315465",
     "still_path_hash": "7000949012308701832",
     "trait_filter_ids": [2],
     "usage_count": 2
+  },
+  {
+    "attack_attributes": [2],
+    "description": "对当前HP最少的1名敌人造成打击属性伤害。",
+    "id": 159,
+    "large_still_path_hash": "6164937307580022835",
+    "name": "高火力炼金大炮",
+    "rarity": 3,
+    "roles": [],
+    "skill_id": 32006,
+    "small_still_path_hash": "5696064149604020620",
+    "still_path_hash": "6821122367016680773",
+    "trait_filter_ids": [1],
+    "usage_count": 3
+  },
+  {
+    "attack_attributes": [2],
+    "description": "对当前HP最少的1名敌人造成打击属性伤害。",
+    "id": 160,
+    "large_still_path_hash": "6164937307580022835",
+    "name": "高火力炼金大炮",
+    "rarity": 2,
+    "roles": [],
+    "skill_id": 32007,
+    "small_still_path_hash": "5696064149604020620",
+    "still_path_hash": "6821122367016680773",
+    "trait_filter_ids": [1],
+    "usage_count": 3
+  },
+  {
+    "attack_attributes": [6],
+    "description": "对敌方全体造成冰属性伤害，赋予目标“所受破防伤害+{0}%”，受到2次攻击后失效。",
+    "id": 161,
+    "large_still_path_hash": "4478171854493263572",
+    "name": "冻结破坏炸弹",
+    "rarity": 3,
+    "roles": [2],
+    "skill_id": 32008,
+    "small_still_path_hash": "3674129424485659587",
+    "still_path_hash": "2546824844679003916",
+    "trait_filter_ids": [1],
+    "usage_count": 3
+  },
+  {
+    "attack_attributes": [6],
+    "description": "对敌方全体造成冰属性伤害，赋予目标“所受破防伤害+{0}%”，受到2次攻击后失效。",
+    "id": 162,
+    "large_still_path_hash": "4478171854493263572",
+    "name": "冻结破坏炸弹",
+    "rarity": 2,
+    "roles": [2],
+    "skill_id": 32009,
+    "small_still_path_hash": "3674129424485659587",
+    "still_path_hash": "2546824844679003916",
+    "trait_filter_ids": [1],
+    "usage_count": 3
+  },
+  {
+    "attack_attributes": [],
+    "description": "赋予物攻最高的1名我方“暴击伤害+{0}%”，2次行动结束后失效。",
+    "id": 163,
+    "large_still_path_hash": "7064141152768558730",
+    "name": "力量图腾",
+    "rarity": 3,
+    "roles": [1],
+    "skill_id": 32010,
+    "small_still_path_hash": "1158036879136675631",
+    "still_path_hash": "123619101238254560",
+    "trait_filter_ids": [2],
+    "usage_count": 2
+  },
+  {
+    "attack_attributes": [],
+    "description": "赋予物攻最高的1名我方“暴击伤害+{0}%”，2次行动结束后失效。",
+    "id": 164,
+    "large_still_path_hash": "7064141152768558730",
+    "name": "力量图腾",
+    "rarity": 2,
+    "roles": [1],
+    "skill_id": 32011,
+    "small_still_path_hash": "1158036879136675631",
+    "still_path_hash": "123619101238254560",
+    "trait_filter_ids": [2],
+    "usage_count": 2
+  },
+  {
+    "attack_attributes": [],
+    "description": "赋予HP上限最高的1名敌人“所受暴击伤害+{0}%”，受到3次攻击后失效。",
+    "id": 165,
+    "large_still_path_hash": "8755200728211823000",
+    "name": "凶兆水",
+    "rarity": 3,
+    "roles": [1],
+    "skill_id": 32012,
+    "small_still_path_hash": "8584770790077364763",
+    "still_path_hash": "7387654918255539924",
+    "trait_filter_ids": [3],
+    "usage_count": 2
+  },
+  {
+    "attack_attributes": [],
+    "description": "赋予HP上限最高的1名敌人“所受暴击伤害+{0}%”，受到3次攻击后失效。",
+    "id": 166,
+    "large_still_path_hash": "8755200728211823000",
+    "name": "凶兆水",
+    "rarity": 2,
+    "roles": [1],
+    "skill_id": 32013,
+    "small_still_path_hash": "8584770790077364763",
+    "still_path_hash": "7387654918255539924",
+    "trait_filter_ids": [3],
+    "usage_count": 2
+  },
+  {
+    "attack_attributes": [],
+    "description": "恢复我方全体10%的HP，解除“火伤状态”和“中毒状态”。",
+    "id": 167,
+    "large_still_path_hash": "2715054629439846858",
+    "name": "焦味苏茶",
+    "rarity": 3,
+    "roles": [3],
+    "skill_id": 32014,
+    "small_still_path_hash": "6182376679483940599",
+    "still_path_hash": "4929528821862928952",
+    "trait_filter_ids": [4],
+    "usage_count": 3
+  },
+  {
+    "attack_attributes": [],
+    "description": "恢复我方全体5%的HP，解除“火伤状态”和“中毒状态”。",
+    "id": 168,
+    "large_still_path_hash": "2715054629439846858",
+    "name": "焦味苏茶",
+    "rarity": 2,
+    "roles": [3],
+    "skill_id": 32015,
+    "small_still_path_hash": "6182376679483940599",
+    "still_path_hash": "4929528821862928952",
+    "trait_filter_ids": [4],
+    "usage_count": 3
+  },
+  {
+    "attack_attributes": [2],
+    "description": "对敌方全体造成打击属性伤害。目标陷入破防状态时，此道具的伤害+{0}%。",
+    "id": 169,
+    "large_still_path_hash": "2573566152837449431",
+    "name": "渍物石",
+    "rarity": 3,
+    "roles": [],
+    "skill_id": 32016,
+    "small_still_path_hash": "5097770926047321997",
+    "still_path_hash": "6276866867707597636",
+    "trait_filter_ids": [1],
+    "usage_count": 3
+  },
+  {
+    "attack_attributes": [2],
+    "description": "对敌方全体造成打击属性伤害。目标陷入破防状态时，此道具的伤害+{0}%。",
+    "id": 170,
+    "large_still_path_hash": "2573566152837449431",
+    "name": "渍物石",
+    "rarity": 2,
+    "roles": [],
+    "skill_id": 32017,
+    "small_still_path_hash": "5097770926047321997",
+    "still_path_hash": "6276866867707597636",
+    "trait_filter_ids": [1],
+    "usage_count": 3
+  },
+  {
+    "attack_attributes": [1, 2, 3],
+    "description": "赋予物攻最高的1名我方“物理攻击技能伤害+{0}%”，1次行动结束后失效（不可重复）。",
+    "id": 171,
+    "large_still_path_hash": "9194753569882662537",
+    "name": "原初之力肉",
+    "rarity": 3,
+    "roles": [1],
+    "skill_id": 32018,
+    "small_still_path_hash": "7228812850631031649",
+    "still_path_hash": "8499669574039910320",
+    "trait_filter_ids": [2],
+    "usage_count": 1
+  },
+  {
+    "attack_attributes": [1, 2, 3],
+    "description": "赋予物攻最高的1名我方“物理攻击技能伤害+{0}%”，1次行动结束后失效（不可重复）。",
+    "id": 172,
+    "large_still_path_hash": "9194753569882662537",
+    "name": "原初之力肉",
+    "rarity": 2,
+    "roles": [1],
+    "skill_id": 32019,
+    "small_still_path_hash": "7228812850631031649",
+    "still_path_hash": "8499669574039910320",
+    "trait_filter_ids": [2],
+    "usage_count": 1
+  },
+  {
+    "attack_attributes": [],
+    "description": "赋予敌方全体“所受破防伤害+{0}%”，受到2次攻击后失效（不可重复）。",
+    "id": 173,
+    "large_still_path_hash": "7210885293743798677",
+    "name": "魔法锁链",
+    "rarity": 3,
+    "roles": [2],
+    "skill_id": 32020,
+    "small_still_path_hash": "243459463123539541",
+    "still_path_hash": "1352755108425996956",
+    "trait_filter_ids": [3],
+    "usage_count": 1
+  },
+  {
+    "attack_attributes": [],
+    "description": "赋予敌方全体“所受破防伤害+{0}%”，受到2次攻击后失效（不可重复）。",
+    "id": 174,
+    "large_still_path_hash": "7210885293743798677",
+    "name": "魔法锁链",
+    "rarity": 2,
+    "roles": [2],
+    "skill_id": 32021,
+    "small_still_path_hash": "243459463123539541",
+    "still_path_hash": "1352755108425996956",
+    "trait_filter_ids": [3],
+    "usage_count": 1
   }
 ]

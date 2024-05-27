@@ -2171,6 +2171,200 @@
     "start_at": "2024-01-25T03:00:00.000Z"
   },
   {
+    "id": 25502,
+    "name": "萝乐娜",
+    "title": "【天降纯白】",
+    "full_name": "萝乐莱娜·菲立克塞尔",
+    "base_character": "萝乐娜",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "SLASH",
+    "role": "SUPPORTER",
+    "initial_rarity": 3,
+    "acquisition_text": "嘿嘿，我试着换了种风格。\n那我们快走吧！",
+    "profile": {
+      "voice_actor": "Mai Kadowaki",
+      "voice_text": "现在的我看起来……\n应该是非常成熟稳重的样子吧？",
+      "description": "开朗活泼的炼金术士。\n为了在王都罕见的积雪天前去游玩，她穿上了比平时更暖和的服装。\n尽管担心衣服适不适合自己，但同时也为不同于往常的风格感到兴奋。她尤其喜欢这顶毛茸茸的帽子。",
+      "origin_game": "萝乐娜的炼金工房 ～亚兰德之炼金术士～"
+    },
+    "gift_color": {
+      "received": "绿",
+      "given": "蓝"
+    },
+    "battle_item_trait": [
+      {
+        "id": 2,
+        "name": "斩击之祝福",
+        "category": "ATTACK",
+        "description": "斩击属性的伤害提升{0}%。",
+        "effects": [
+          {
+            "id": 3000002,
+            "description": "斩击属性的伤害提升{0}%。",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "火之诅咒",
+        "category": "WEAKENING",
+        "description": "赋予目标“火属性耐性下降{0}%”，受到1次攻击后失效。",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "赋予目标“火属性耐性下降{0}%”，受到1次攻击后失效。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 41,
+        "name": "全体恢复量提升",
+        "category": "RECOVERY",
+        "description": "我方全体恢复给予的HP恢复量提升{0}%。",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体恢复给予的HP恢复量提升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 130,
+        "spd": 249,
+        "patk": 52,
+        "matk": 50,
+        "pdef": 63,
+        "mdef": 56
+      },
+      "growth": {
+        "hp": 1300,
+        "spd": 0,
+        "patk": 520,
+        "matk": 500,
+        "pdef": 630,
+        "mdef": 560
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 5,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "阳光冲击",
+      "description": "攻击后，我方全体HP恢复{0}%。",
+      "summary": "攻击后，恢复我方全体HP。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000925,
+          "description": "",
+          "value": 500
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [51, 54, 57, 60, 63],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "太阳面纱",
+      "description": "赋予1名我方“暴击率+{0}%”，1次行动结束后失效，<br>恢复目标{1}%的HP。",
+      "summary": "1名我方的暴击率提升。<br>恢复目标HP。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001156,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001163,
+          "description": "",
+          "value": 500
+        }
+      ],
+      "attribute_type": "NONE",
+      "attribute": "SLASH",
+      "target": "ALLY",
+      "range": "ONE",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "飘曳灿光",
+      "description": "赋予我方全体“物攻+{0}%”（上限30%），<br>恢复目标{1}%的HP。",
+      "summary": "我方全体物攻提升。<br>恢复目标HP。",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001157,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91000925,
+          "description": "",
+          "value": 2500
+        }
+      ],
+      "attribute_type": "NONE",
+      "attribute": "SLASH",
+      "target": "ALLY",
+      "range": "ALL",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "满溢的斗争之力II",
+      "description": "我方全体技能伤害+{0}%。",
+      "effects": [
+        {
+          "id": 72000922,
+          "description": "",
+          "value": 2000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "麻痹抵抗提升",
+      "description": "麻痹耐性+{0}%。",
+      "effects": [
+        {
+          "id": 72000905,
+          "description": "[自身/常态/麻痹耐性提升]",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
+  },
+  {
     "id": 25601,
     "name": "库蝶莉亚",
     "title": "【贵族千金】",
@@ -2551,6 +2745,198 @@
     "start_at": "2024-01-25T03:00:00.000Z"
   },
   {
+    "id": 25901,
+    "name": "史特尔克",
+    "title": "【崇高的剑士】",
+    "full_name": "史特尔肯布鲁克·库拉哈",
+    "base_character": "史特尔克",
+    "is_alchemist": false,
+    "gender": "男性",
+    "attribute": "AIR",
+    "role": "BREAKER",
+    "initial_rarity": 1,
+    "acquisition_text": null,
+    "profile": {
+      "voice_actor": "Jurota Kosugi",
+      "voice_text": "在原本的世界，我已不再是一名骑士。\n但是，我应尽的职责如今也没有改变。",
+      "description": "受苦受累的前骑士。\n曾效命于一个叫做亚兰德的国家。即便身份已经不再是骑士，他仍然坚守信念保持骑士的作风，做着护卫和驱除魔物一类的工作。\n性格很认真，但因为口拙和寡言，总是被当成可怕的人。",
+      "origin_game": "萝乐娜的炼金工房 ～亚兰德之炼金术士～"
+    },
+    "gift_color": {
+      "received": "紫",
+      "given": "红"
+    },
+    "battle_item_trait": [
+      {
+        "id": 49,
+        "name": "追击强化",
+        "category": "ATTACK",
+        "description": "对破防状态敌人造成的伤害提升{0}%。",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "对破防状态敌人造成的伤害提升{0}%。",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "风之诅咒",
+        "category": "WEAKENING",
+        "description": "赋予目标“风属性耐性下降{0}%”，受到1次攻击后失效。",
+        "effects": [
+          {
+            "id": 3000062,
+            "description": "赋予目标“风属性耐性下降{0}%”，受到1次攻击后失效。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 17,
+        "name": "破防伤害提升【满血】",
+        "category": "ATTACK",
+        "description": "HP全满时，破防伤害提升{0}%。",
+        "effects": [
+          {
+            "id": 3000016,
+            "description": "HP为最大值时，破防伤害提升{0}%。",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 143,
+        "spd": 222,
+        "patk": 52,
+        "matk": 55,
+        "pdef": 44,
+        "mdef": 40
+      },
+      "growth": {
+        "hp": 1430,
+        "spd": 0,
+        "patk": 520,
+        "matk": 550,
+        "pdef": 440,
+        "mdef": 400
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 5,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "重劈",
+      "description": "无额外效果。",
+      "summary": "无额外效果。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [70, 74, 78, 82, 87],
+      "has_stun": true,
+      "stun_values": [19, 20, 21, 22, 23],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "帝国扫击",
+      "description": "攻击后，赋予自身“技能伤害+{0}%”（上限80%），<br>赋予自身“破防伤害-{1}%”（上限80%）。",
+      "summary": "攻击后，自身技能伤害提升。<br>自身破防伤害下降。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001168,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001169,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [182, 193, 204, 215, 227],
+      "has_stun": true,
+      "stun_values": [113, 120, 127, 134, 141],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "英勇之风",
+      "description": "攻击后，赋予自身“技能伤害+{0}%”（上限40%）。",
+      "summary": "攻击后，自身技能伤害提升。",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001170,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [320, 320, 320, 330, 340, 350, 360],
+      "has_stun": true,
+      "stun_values": [270, 270, 270, 286, 303, 320, 337],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "浑身斗志",
+      "description": "HP得到恢复时，赋予自身“破防伤害+{0}%”（上限20%）。<br>使用技能击败敌人时，赋予自身“回合开始时，解除负面效果”，回合开始1次后失效。",
+      "effects": [
+        {
+          "id": 72000962,
+          "description": "HP回復を受けた時、自身に「ブレイクダメージ+{0}%」を付与(上限20%)",
+          "value": 200
+        },
+        {
+          "id": 72000949,
+          "description": "击败时，赋予解除负面效果（1次）。",
+          "value": 10000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "挑衅抵抗提升",
+      "description": "挑衅耐性+{0}%。",
+      "effects": [
+        {
+          "id": 72000927,
+          "description": "[自身/常态/挑衅耐性提升]",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
+  },
+  {
     "id": 26501,
     "name": "艾丝缇",
     "title": "【可靠的女接待员】",
@@ -2929,6 +3315,207 @@
       ]
     },
     "start_at": "2024-01-25T03:00:00.000Z"
+  },
+  {
+    "id": 26902,
+    "name": "托托莉",
+    "title": "【Snow Adventurer】",
+    "full_name": "托托莉亚·赫尔默德",
+    "base_character": "托托莉",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "AIR",
+    "role": "DEFENDER",
+    "initial_rarity": 3,
+    "acquisition_text": "我选了跟平时不一样的衣服。\n这次出门要玩得开心呀！",
+    "profile": {
+      "voice_actor": "Kaori Nazuka",
+      "voice_text": "现在的我看起来是什么感觉？\n希望不会太孩子气……",
+      "description": "出身于渔村的炼金术士。\n听说王都难得地下起了雪，于是和萝乐娜一起穿上厚厚的衣服前去游玩。\n虽然为了营造出比平时稳重成熟的气质特意选择了这身衣服，但她一看到积雪就忍不住回归童心，欢欣雀跃起来。",
+      "origin_game": "托托莉的炼金工房 ～亚兰德之炼金术士2～"
+    },
+    "gift_color": {
+      "received": "紫",
+      "given": "红"
+    },
+    "battle_item_trait": [
+      {
+        "id": 8,
+        "name": "风之祝福",
+        "category": "ATTACK",
+        "description": "风属性的伤害提升{0}%。",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "风属性的伤害提升{0}%。",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "突刺之诅咒",
+        "category": "WEAKENING",
+        "description": "赋予目标“突刺属性耐性下降{0}%”，受到1次攻击后失效。",
+        "effects": [
+          {
+            "id": 3000065,
+            "description": "赋予目标“突刺属性耐性下降{0}%”，受到1次攻击后失效。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "技能威力提升",
+        "category": "ATTACK",
+        "description": "技能威力提升{0}%。",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "技能威力提升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 180,
+        "spd": 241,
+        "patk": 47,
+        "matk": 51,
+        "pdef": 67,
+        "mdef": 71
+      },
+      "growth": {
+        "hp": 1800,
+        "spd": 0,
+        "patk": 470,
+        "matk": 510,
+        "pdef": 670,
+        "mdef": 710
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 5,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "风之吻",
+      "description": "攻击后，根据自身HP，恢复自身0～30%的HP（HP25～100%之间，HP越少恢复越多）。",
+      "summary": "攻击后，自身HP越少，恢复自身HP越多。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001027,
+          "description": "",
+          "value": 3000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [59, 62, 66, 69, 73],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "仄费罗斯吐息",
+      "description": "赋予我方全体“魔法攻击伤害+{0}%”，1次行动结束后失效，<br>赋予自身“受到攻击时，我方全体的HP恢复{1}%”，受到2次攻击后失效。",
+      "summary": "我方全体的魔法攻击伤害提升。<br>赋予自身“受到攻击时恢复我方全体HP”。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001155,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001165,
+          "description": "",
+          "value": 500
+        }
+      ],
+      "attribute_type": "NONE",
+      "attribute": "AIR",
+      "target": "ALLY",
+      "range": "ALL",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "托托莉亚海洋游行",
+      "description": "攻击后，赋予我方全体“魔法攻击技能伤害+{0}%”，1次行动结束后失效，<br>赋予自身“复制温暖”（不可重复）。",
+      "summary": "攻击后，我方全体的魔法攻击伤害提升，<br>赋予自身“复制温暖”。",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001155,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001166,
+          "description": "",
+          "value": 200
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "软糯毛衣超吸睛！",
+      "description": "变得极易被选为敌人的目标。<br>发动技能后，恢复自身{0}%的HP。",
+      "effects": [
+        {
+          "id": 72000950,
+          "description": "[自身/恢复HP]",
+          "value": 500
+        },
+        {
+          "id": 72000914,
+          "description": "易被选中度+100%。",
+          "value": 10000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "复制温暖",
+      "description": "HP得到恢复时，赋予自身“所受伤害-{0}%”（上限20%）。",
+      "effects": [
+        {
+          "id": 72000960,
+          "description": "HP回復を受けた時、自身に「受けるダメージ-{0}%」を付与(上限20%)",
+          "value": 200
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
   },
   {
     "id": 28401,
@@ -5465,7 +6052,7 @@
         }
       ]
     },
-    "start_at": "2049-12-31T16:00:00.000Z"
+    "start_at": "2024-05-27T03:00:00.000Z"
   },
   {
     "id": 31001,
@@ -7949,6 +8536,199 @@
     "start_at": "2024-01-25T03:00:00.000Z"
   },
   {
+    "id": 35002,
+    "name": "菲利丝",
+    "title": "【Crystaler of Rose】",
+    "full_name": "菲利丝·密斯忒卢特",
+    "base_character": "菲利丝",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "ICE",
+    "role": "SUPPORTER",
+    "initial_rarity": 3,
+    "acquisition_text": "接下来轮到我们反击了！\n让我们全力以赴！",
+    "profile": {
+      "voice_actor": "Kaede Hondo",
+      "voice_text": "顶兽很强……\n但是，我觉得我们能赢！",
+      "description": "热爱旅行的炼金术士。\n她和蕾斯娜一样，希望用炼金术给大家带来幸福，为了保护大家不受顶兽伤害而协助蕾斯娜等人。\n喜欢给物品起独特的名字，正在斟酌应该给这身装备起什么别名。",
+      "origin_game": "菲利丝的炼金工房 ～不可思议旅的炼金术士～"
+    },
+    "gift_color": {
+      "received": "红",
+      "given": "紫"
+    },
+    "battle_item_trait": [
+      {
+        "id": 17,
+        "name": "魔力之诅咒",
+        "category": "WEAKENING",
+        "description": "赋予目标“所受魔法攻击伤害提升{0}%”，受到1次攻击后失效。",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "赋予目标“所受魔法攻击伤害提升{0}%”，受到1次攻击后失效。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "冰之祝福",
+        "category": "ATTACK",
+        "description": "冰属性的伤害提升{0}%。",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "冰属性的伤害提升{0}%。",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 35,
+        "name": "魔法耐性提升【满血】",
+        "category": "ENHANCE",
+        "description": "HP全满时，所受魔法攻击的伤害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000104,
+            "description": "HP为最大值时，魔法属性伤害耐性提升{0}%。",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 143,
+        "spd": 245,
+        "patk": 52,
+        "matk": 57,
+        "pdef": 49,
+        "mdef": 57
+      },
+      "growth": {
+        "hp": 1430,
+        "spd": 0,
+        "patk": 520,
+        "matk": 570,
+        "pdef": 490,
+        "mdef": 570
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 5,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "紫水晶射击",
+      "description": "攻击后，赋予我方全体“技能伤害+{0}%”，1次行动结束后失效。",
+      "summary": "攻击后，我方全体技能伤害提升。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001041,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [55, 58, 61, 64, 68],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "冰柱雪崩",
+      "description": "攻击后，赋予目标“全属性耐性-{0}%”，受到1次攻击后失效。",
+      "summary": "攻击后，目标全属性耐性下降。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001012,
+          "description": "",
+          "value": 3500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [116, 123, 130, 137, 145],
+      "has_stun": true,
+      "stun_values": [11, 11, 12, 12, 13],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "水晶盛放",
+      "description": "攻击后，赋予目标“伤害-{0}%”，2次行动结束后失效，<br>赋予目标“全属性耐性-{1}%”，受到2次攻击后失效。",
+      "summary": "攻击后，目标造成伤害下降。<br>目标的全属性耐性下降。",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91000916,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001014,
+          "description": "",
+          "value": 3500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "让你破绽百出！",
+      "description": "队伍成员使用战斗道具后，赋予自身“攻击后，以超高概率赋予目标僵直，受到1次攻击后失效”，发动1次技能后失效。<br>※即使同时使用多个道具，此效果也只发动1次。",
+      "effects": [
+        {
+          "id": 72000985,
+          "description": "味方が戦闘アイテム使用後、自身に「攻撃後、対象にカチコチを1回攻撃を受けるまで超高確率で付与」を1回スキル発動するまで付与<br>※アイテムを複数同時に使用しても発動は1回",
+          "value": 0
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "决战装备漆黑蔷薇",
+      "description": "异常状态无效。",
+      "effects": [
+        {
+          "id": 72000987,
+          "description": "[自身/常時/状態異常無効]",
+          "value": 10000
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
+  },
+  {
     "id": 37401,
     "name": "莉迪",
     "title": "【Rainbow Canvas】",
@@ -8142,6 +8922,212 @@
       ]
     },
     "start_at": "2024-03-15T03:00:00.000Z"
+  },
+  {
+    "id": 37402,
+    "name": "莉迪",
+    "title": "【Witch of Rose】",
+    "full_name": "莉迪・玛莲",
+    "base_character": "莉迪",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "STRIKE",
+    "role": "DEFENDER",
+    "initial_rarity": 3,
+    "acquisition_text": "不会有事的，因为有伙伴们在一起！\n我们要用我们的双手来保护大家！",
+    "profile": {
+      "voice_actor": "Maria Naganawa",
+      "voice_text": "为了齐心协力打倒顶兽，\n我们会倾尽所能，全力以赴！",
+      "description": "双胞胎炼金术士中的姐姐。\n她和妹妹苏瑞一起在各地游历，以成为“为他人奉献的炼金术士”为目标，并且为了实现这一目标参加顶兽讨伐。\n与妹妹相比属于慎重的理论派。即使面对强大的敌人，她也会凭借至今为止积累的经验勇敢地迎接挑战。",
+      "origin_game": "莉迪＆苏瑞的炼金工房 ～不可思议绘画的炼金术士～"
+    },
+    "gift_color": {
+      "received": "红",
+      "given": "绿"
+    },
+    "battle_item_trait": [
+      {
+        "id": 47,
+        "name": "一次性恢复强化",
+        "category": "RECOVERY",
+        "description": "使用次数为1次时，HP恢复量提升{0}%。",
+        "effects": [
+          {
+            "id": 3000109,
+            "description": "使用次数为1次时，HP恢复量提升{0}%。",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "物防之祝福",
+        "category": "ENHANCE",
+        "description": "赋予“物防提升{0}%”，受到1次攻击后失效。",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "赋予“物防提升{0}%”，受到1次攻击后失效。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 47,
+        "name": "恢复量提升【D】",
+        "category": "RECOVERY",
+        "description": "给予防御者的恢复量提升{0}%。",
+        "effects": [
+          {
+            "id": 3000076,
+            "description": "对防御者的恢复量提升{0}%。",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 207,
+        "spd": 256,
+        "patk": 55,
+        "matk": 51,
+        "pdef": 55,
+        "mdef": 59
+      },
+      "growth": {
+        "hp": 2070,
+        "spd": 0,
+        "patk": 550,
+        "matk": 510,
+        "pdef": 550,
+        "mdef": 590
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 5,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "紫水晶雨",
+      "description": "攻击后，道具槽恢复{0}%，<br>自身HP恢复{1}%。",
+      "summary": "攻击后，恢复道具槽。<br>恢复自身HP。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91002004,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91000926,
+          "description": "",
+          "value": 1500
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [45, 47, 50, 53, 56],
+      "has_stun": true,
+      "stun_values": [5, 5, 5, 5, 6],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "彩绘盾牌",
+      "description": "赋予1名我方“所受伤害-{0}%”，受到2次攻击后失效，<br>赋予我方全体“技能伤害+{1}%”，1次行动结束后失效。",
+      "summary": "1名我方所受伤害下降。<br>我方全体技能伤害提升。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001201,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001041,
+          "description": "",
+          "value": 1500
+        }
+      ],
+      "attribute_type": "NONE",
+      "attribute": "STRIKE",
+      "target": "ALLY",
+      "range": "ONE",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "幻彩万花",
+      "description": "攻击后，赋予自身“所受伤害-{0}%”，受到1次攻击后失效。<br>赋予我方全体“所受全体攻击伤害-{1}%”，受到1次攻击后失效。",
+      "summary": "攻击后，自身所受伤害下降。<br>我方全体所受全体攻击伤害下降。",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001038,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001203,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [400, 400, 400, 425, 450, 475, 500],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "我怕痛！",
+      "description": "变得极易被选为敌人的目标。<br>队伍成员使用战斗道具后，赋予自身“回避（概率{0}%）”，受到1次攻击后失效（最多发动3次）。<br>※即使同时使用多个道具，此效果也只发动1次。",
+      "effects": [
+        {
+          "id": 72000971,
+          "description": "味方が戦闘アイテム使用後、自身に「回避(確率{0}%)」を1回攻撃されるまで付与(発動上限回数3回)<br>※アイテムを複数同時に使用しても発動は1回",
+          "value": 10000
+        },
+        {
+          "id": 72000914,
+          "description": "易被选中度+100%。",
+          "value": 10000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "决战装备漆黑蔷薇",
+      "description": "异常状态无效。",
+      "effects": [
+        {
+          "id": 72000987,
+          "description": "[自身/常時/状態異常無効]",
+          "value": 10000
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
   },
   {
     "id": 37501,
@@ -10876,6 +11862,224 @@
     "start_at": "2024-02-09T03:00:00.000Z"
   },
   {
+    "id": 43203,
+    "name": "瓦莱莉娅",
+    "title": "【Warrior of Rose】",
+    "full_name": "瓦莱莉娅",
+    "base_character": "瓦莱莉娅",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "STRIKE",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "我一定会赢！无论对手是谁！",
+    "profile": {
+      "voice_actor": "Manami Numakura",
+      "voice_text": "这个国家是我重要的家人和蕾斯娜她们生活的地方，\n我一定会保护她们不受顶兽伤害。",
+      "description": "充满谜团的战士。\n她失去了过去的记忆，但幸运地结识了搭档海蒂以及众多伙伴，过着充实的日子。在这次的战斗中，她也为了保护重要的伙伴们大展身手。\n这身漂亮的装备也很适合她，但她本人毫不在意这方面，只是单纯对性能感到满意。",
+      "origin_game": "蕾斯莱莉娅娜的炼金工房 ～忘却的炼金术与极夜的解放者～"
+    },
+    "gift_color": {
+      "received": "紫",
+      "given": "黄"
+    },
+    "battle_item_trait": [
+      {
+        "id": 48,
+        "name": "一次性攻击强化",
+        "category": "ATTACK",
+        "description": "使用次数为1次时，伤害提升{0}%。",
+        "effects": [
+          {
+            "id": 3000108,
+            "description": "使用次数为1次时，伤害提升{0}%。",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "打击之诅咒",
+        "category": "WEAKENING",
+        "description": "赋予目标“打击属性耐性下降{0}%”，受到1次攻击后失效。",
+        "effects": [
+          {
+            "id": 3000064,
+            "description": "赋予目标“打击属性耐性下降{0}%”，受到1次攻击后失效。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 27,
+        "name": "单体攻击威力提升",
+        "category": "ATTACK",
+        "description": "单体攻击的技能威力提升{0}%。",
+        "effects": [
+          {
+            "id": 3000111,
+            "description": "单体攻击的技能威力提升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 168,
+        "spd": 260,
+        "patk": 61,
+        "matk": 55,
+        "pdef": 43,
+        "mdef": 47
+      },
+      "growth": {
+        "hp": 1680,
+        "spd": 0,
+        "patk": 610,
+        "matk": 550,
+        "pdef": 430,
+        "mdef": 470
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 5,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "双剑击",
+      "description": "攻击前，解除自身负面效果，<br>攻击后，赋予自身“敏捷+{0}%”，1次行动结束后失效。",
+      "summary": "攻击前，解除自身负面效果。<br>攻击后，提升自身敏捷。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001017,
+          "description": "敏捷提升（1次）。",
+          "value": 500
+        },
+        {
+          "id": 91001007,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [51, 54, 57, 60, 63],
+      "has_stun": true,
+      "stun_values": [4, 4, 4, 4, 5],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "猫尾迅击",
+      "description": "此攻击的暴击率+100%。<br>攻击后，自身没有“战姬开花”时赋予自身“战姬开花（Lv.1）”。<br>自身已有“战姬开花”时，“战姬开花”的Lv.+1（上限Lv.10）。<br>※战姬开花：参见“加速绽放”。",
+      "summary": "此攻击的暴击率提升。\n攻击后，赋予“战姬开花”或提升其Lv.。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001172,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [214, 227, 240, 253, 267],
+      "has_stun": true,
+      "stun_values": [23, 24, 25, 26, 28],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "暴击旋风",
+      "description": "此攻击的暴击率+100%。<br>攻击后，自身没有“战姬开花”时赋予自身“战姬开花（Lv.3）”。<br>自身已有“战姬开花”时，“战姬开花”的Lv.+3（上限Lv.10）。<br>在3回合后生成额外回合（额外技能：{hyperlink_id 7})。<br>※战姬开花：参见“加速绽放”。",
+      "summary": "此攻击的暴击率提升。\n此攻击的暴击率提升。攻击后，赋予“战姬开花”或提升其Lv.，生成额外回合。",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001182,
+          "description": "",
+          "value": 0
+        },
+        {
+          "id": 91001174,
+          "description": "",
+          "value": 300
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [360, 360, 360, 382, 405, 427, 450],
+      "has_stun": true,
+      "stun_values": [65, 65, 65, 69, 73, 77, 81],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "加速绽放",
+      "description": "使用技能击败敌人时，自身没有“战姬开花”时，赋予自身“战姬开花（Lv.2）”。<br>自身已有“战姬开花”时，“战姬开花”的Lv.+2（上限Lv.10）。<br>根据“战姬开花”的Lv.分别获得以下奖励：<br>每Lv.使暴击伤害+{0}%<br>不低于Lv.3时：爆发技能伤害+{1}%<br>不低于Lv.5时：爆发技能伤害+{2}%<br>Lv.10：爆发技能伤害+{3}%",
+      "effects": [
+        {
+          "id": 72000976,
+          "description": "[自身/戦姫開花のLvに応じ/クリティカルダメージアップ]を付与",
+          "value": 1000
+        },
+        {
+          "id": 72000978,
+          "description": "Lv3以上：バーストスキルダメージ+{0}%",
+          "value": 5000
+        },
+        {
+          "id": 72000967,
+          "description": "Lv5以上：バーストスキルダメージ+{0}%",
+          "value": 5000
+        },
+        {
+          "id": 72000968,
+          "description": "Lv10以上：バーストスキルダメージ+{0}%",
+          "value": 10000
+        },
+        {
+          "id": 72000969,
+          "description": "スキルで撃破時、「戦姫開花」のLvを+2する",
+          "value": 0
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "决战装备漆黑蔷薇",
+      "description": "异常状态无效。",
+      "effects": [
+        {
+          "id": 72000987,
+          "description": "[自身/常時/状態異常無効]",
+          "value": 10000
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
+  },
+  {
     "id": 43301,
     "name": "罗曼",
     "title": "【Romance Hearts】",
@@ -11275,6 +12479,214 @@
       ]
     },
     "start_at": "2024-05-20T03:00:00.000Z"
+  },
+  {
+    "id": 43501,
+    "name": "海蒂",
+    "title": "【Thief of Rose】",
+    "full_name": "海蒂",
+    "base_character": "海蒂",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "STRIKE",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "既然有人需要我，我就会不遗余力地战斗。\n这是冒险者海蒂这辈子最重大的工作！",
+    "profile": {
+      "voice_actor": "Naomi Ohzora",
+      "voice_text": "这身衣服就代表我勇于战斗的决心……\n开玩笑的啦，要是不耍耍帅我都要怕死了。",
+      "description": "身手矫健的侦察兵。\n时时运用自己性格爽朗、行事机敏的特性从旁支援着瓦莱莉娅。\n因为过于巧舌如簧而显得不够稳重。对她来说，瓦莱莉娅和芙洛可亲如家人，因此她决定接受她们的选择，并与她们一同加入讨伐顶兽之战。",
+      "origin_game": "蕾斯莱莉娅娜的炼金工房 ～忘却的炼金术与极夜的解放者～"
+    },
+    "gift_color": {
+      "received": "黄",
+      "given": "绿"
+    },
+    "battle_item_trait": [
+      {
+        "id": 49,
+        "name": "追击强化",
+        "category": "ATTACK",
+        "description": "对破防状态敌人造成的伤害提升{0}%。",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "对破防状态敌人造成的伤害提升{0}%。",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "斩击之盾",
+        "category": "ENHANCE",
+        "description": "赋予目标“斩击属性耐性提升{0}%”，受到1次攻击后失效。",
+        "effects": [
+          {
+            "id": 3000070,
+            "description": "赋予目标“斩击属性耐性提升{0}%”，受到1次攻击后失效。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 13,
+        "name": "破防伤害提升",
+        "category": "ATTACK",
+        "description": "破防伤害提升{0}%。",
+        "effects": [
+          {
+            "id": 3000012,
+            "description": "破防伤害提升{0}%。",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 159,
+        "spd": 263,
+        "patk": 60,
+        "matk": 55,
+        "pdef": 42,
+        "mdef": 42
+      },
+      "growth": {
+        "hp": 1590,
+        "spd": 0,
+        "patk": 600,
+        "matk": 550,
+        "pdef": 420,
+        "mdef": 420
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 5,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "辅助专家",
+      "description": "攻击后，赋予自身“发动WEAK攻击时，破防伤害+{0}%”，<br>1次行动结束后失效，道具槽恢复{1}%。",
+      "summary": "攻击后，自身发动WEAK攻击时破防伤害提升。<br>恢复道具槽。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001202,
+          "description": "",
+          "value": 4000
+        },
+        {
+          "id": 91002004,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [27, 28, 30, 31, 33],
+      "has_stun": true,
+      "stun_values": [14, 14, 15, 16, 17],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "弹雨冲击",
+      "description": "攻击前，赋予目标“打击属性耐性-{0}%”，受到3次攻击后失效。<br>攻击后，赋予物攻最高的1名我方“物攻+{1}%”，1次行动结束后失效。",
+      "summary": "攻击前，赋予目标打击属性耐性下降。\n攻击后，物攻最高的1名我方物攻提升。",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000965,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001196,
+          "description": "",
+          "value": 1500
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [134, 142, 150, 158, 167],
+      "has_stun": true,
+      "stun_values": [113, 120, 127, 134, 141],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "花弹散射",
+      "description": "发动WEAK攻击时，使目标“强制破防”。<br>攻击后，赋予物攻最高的1名我方“物攻+{0}%”，1次行动结束后失效。",
+      "summary": "发动WEAK攻击时，使目标强制破防。<br>攻击后，物攻最高的1名我方物攻提升。",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001196,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001187,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [192, 192, 192, 204, 216, 228, 240],
+      "has_stun": true,
+      "stun_values": [120, 120, 120, 127, 135, 142, 150],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "乘胜追击！",
+      "description": "攻击目标破防时，道具槽恢复{0}%，<br>赋予我方全体“战斗道具对敌人造成的伤害+{1}%”（上限200%）。",
+      "effects": [
+        {
+          "id": 72000984,
+          "description": "攻撃対象がブレイク時、アイテムゲージ回復",
+          "value": 3000
+        },
+        {
+          "id": 72000983,
+          "description": "攻撃対象がブレイク時、味方全員に「敵に与える戦闘アイテムダメージ+{0}%」を付与(上限200%)",
+          "value": 10000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "决战装备漆黑蔷薇",
+      "description": "异常状态无效。",
+      "effects": [
+        {
+          "id": 72000987,
+          "description": "[自身/常時/状態異常無効]",
+          "value": 10000
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
   },
   {
     "id": 43801,

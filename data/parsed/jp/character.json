@@ -5693,6 +5693,224 @@
     "start_at": "2023-09-23T03:00:00.000Z"
   },
   {
+    "id": 29502,
+    "name": "リンカ",
+    "title": "【Valkyrie of the Sun】",
+    "full_name": "リンカ",
+    "base_character": "リンカ",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "FIRE",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "任務ですか。はい、お任せを！\nえ？ この衣装を自分が……？",
+    "profile": {
+      "voice_actor": "小清水亜美",
+      "voice_text": "マリオンが言うには、この鎧は\nかわいさと機能性を備えているそうですよ",
+      "description": "熟練の剣士。 \n卓越した戦闘技術を持っているため、マリオンなどから護衛をよく頼まれている。 \n生真面目で朴訥とした性格で、着飾るくらいなら裸のほうがましだという考えの持ち主。この鎧についても最初は抵抗があったようだが、機能性を体感してからはそこそこ気に入っている様子。",
+      "origin_game": "エスカ＆ロジーのアトリエ ～黄昏の空の錬金術士～"
+    },
+    "gift_color": {
+      "received": "紫",
+      "given": "黄"
+    },
+    "battle_item_trait": [
+      {
+        "id": 6,
+        "name": "火の祝福",
+        "category": "ATTACK",
+        "description": "火属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "火属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "火の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 15,
+        "name": "魔法ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000014,
+            "description": "魔法属性攻撃のブレイクダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 135,
+        "spd": 245,
+        "patk": 52,
+        "matk": 61,
+        "pdef": 52,
+        "mdef": 47
+      },
+      "growth": {
+        "hp": 1350,
+        "spd": 0,
+        "patk": 520,
+        "matk": 610,
+        "pdef": 520,
+        "mdef": 470
+      },
+      "resistance": {
+        "fire": 5,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "フレイムスマッシュ",
+      "description": "攻撃前、対象に「火傷耐性-{0}%」を2回行動終了するまで付与し、<br>攻撃後、自身に「ブレイクダメージ+{1}%」を1回行動終了するまで付与",
+      "summary": "攻撃前、対象の火傷耐性ダウン<br>攻撃後、自身のブレイクダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001297,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91000908,
+          "description": "",
+          "value": 3000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [43, 45, 48, 50, 53],
+      "has_stun": true,
+      "stun_values": [16, 17, 18, 19, 20],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "イグナイトブロウ",
+      "description": "攻撃前、対象に「火属性耐性-{0}%」を2回攻撃を受けるまで付与<br>対象がブレイク時、さらに「受ける魔法攻撃ダメージ+{1}%」を2回攻撃を受けるまで付与",
+      "summary": "攻撃前、対象の火属性耐性ダウン。対象がブレイク時、対象の受ける魔法攻撃ダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001298,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001299,
+          "description": "",
+          "value": 3000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [154, 163, 173, 182, 192],
+      "has_stun": true,
+      "stun_values": [118, 125, 132, 139, 147],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "ヴォルカニックエンド",
+      "description": "攻撃前、対象に「火属性耐性-{0}%」を3回攻撃を受けるまで付与<br>対象がブレイク時、魔攻が最も高い味方1人に「魔攻+{1}%」を1回行動終了するまで付与",
+      "summary": "攻撃前、対象の火属性耐性ダウン<br>対象がブレイク時、味方1人の魔攻アップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001300,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001264,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [320, 320, 320, 340, 360, 380, 400],
+      "has_stun": true,
+      "stun_values": [300, 300, 300, 318, 337, 356, 375],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "燃え上がる闘志",
+      "description": "攻撃対象がブレイク時、対象に「火傷」3個を超高確率で付与",
+      "effects": [
+        {
+          "id": 72001080,
+          "description": "[敵対象/ブレイク時/超高確率/火傷]",
+          "value": 100
+        },
+        {
+          "id": 72001080,
+          "description": "[敵対象/ブレイク時/超高確率/火傷]",
+          "value": 100
+        },
+        {
+          "id": 72001080,
+          "description": "[敵対象/ブレイク時/超高確率/火傷]",
+          "value": 100
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "火の闘争と破壊",
+      "description": "得意属性が火属性の味方全員のスキルダメージ・ブレイクダメージ+{0}%",
+      "effects": [
+        {
+          "id": 72000926,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 72001082,
+          "description": "[火属性キャラ全員/ブレイクダメージアップ]",
+          "value": 1000
+        }
+      ]
+    },
+    "start_at": "2024-05-31T03:00:00.000Z"
+  },
+  {
     "id": 29601,
     "name": "ニオ",
     "title": "【チャーミングシスター】",
@@ -14492,6 +14710,224 @@
       ]
     },
     "start_at": "2024-01-31T03:00:00.000Z"
+  },
+  {
+    "id": 43402,
+    "name": "ユナ",
+    "title": "【Valkyrie in the Sky】",
+    "full_name": "ユナ・ヴァイツ",
+    "base_character": "ユナ",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "STRIKE",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "纏う鎧は違えど、私の信念は変わらない。\n我が忠誠はランターナ王国に！",
+    "profile": {
+      "voice_actor": "長谷川育美",
+      "voice_text": "白夜の騎士のユナだ。此度の任務では、\n機動性を重視してこのような鎧に替えた",
+      "description": "王国騎士の中でも精鋭だけが選ばれる「白夜の騎士」の一人。\n竜を退治した英雄として、ランターナ中にその名が知れ渡っている。実はかわいいもの好きで、小動物を見つけると抱きしめたくなるほど。しかし皆の理想の騎士像を守るため、その一面を表に出せないでいる。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "緑",
+      "given": "赤"
+    },
+    "battle_item_trait": [
+      {
+        "id": 15,
+        "name": "打の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000064,
+            "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "突の盾",
+        "category": "ENHANCE",
+        "description": "対象に「突属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000072,
+            "description": "対象に「突属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 30,
+        "name": "物理ダメージ上昇【背水】",
+        "category": "ATTACK",
+        "description": "HPが50%以下の時、物理攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000101,
+            "description": "HPが50%以下の時、与える物理属性ダメージ{0}%アップ",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 157,
+        "spd": 246,
+        "patk": 63,
+        "matk": 55,
+        "pdef": 49,
+        "mdef": 49
+      },
+      "growth": {
+        "hp": 1570,
+        "spd": 0,
+        "patk": 630,
+        "matk": 550,
+        "pdef": 490,
+        "mdef": 490
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 5,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "リゼンシュラーク",
+      "description": "攻撃後、自身の次のパネルが強化系パネルでもバーストパネルでもない時、強化パネルに変換(空パネルの時は生成)",
+      "summary": "攻撃後、自身の次のパネルが強化系パネルでもバーストパネルでもない時、強化パネルに変換",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001273,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [66, 70, 74, 78, 82],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "ヴートドリュッケン",
+      "description": "WEAK攻撃時、ダメージ+{0}%<br>対象を撃破時、自身に「白夜の護衛」が付与されていない時、「白夜の護衛」を1回かばうまで付与<br>既に付与されている時、「白夜の護衛」の残り回数を{1}回増加",
+      "summary": "WEAK攻撃時、ダメージアップ。対象を撃破時、「白夜の護衛」を付与または残り回数を増加",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000903,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001301,
+          "description": "",
+          "value": 100
+        },
+        {
+          "id": 91001302,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [232, 246, 261, 275, 290],
+      "has_stun": true,
+      "stun_values": [28, 29, 31, 33, 35],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "アインプレーゲン",
+      "description": "WEAK攻撃時、ダメージ+{0}%<br>攻撃前、自身に「白夜の護衛」が付与されていない時、「白夜の護衛」を2回かばうまで付与<br>既に付与されている時、「白夜の護衛」の残り回数を{1}回増加",
+      "summary": "WEAK攻撃時、ダメージアップ<br>攻撃前、「白夜の護衛」を付与または残り回数を増加",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91000903,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001303,
+          "description": "",
+          "value": 200
+        },
+        {
+          "id": 91001304,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [400, 400, 400, 425, 450, 475, 500],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "研ぎ澄まされた嗅覚",
+      "description": "バトル開始時、自身に「白夜の護衛」を2回かばうまで付与<br>「白夜の護衛」が付与されている時、以下のボーナス効果が全て発動する<br>・かばう<br>・受けるダメージ-{0}%<br>・スキルダメージ+{1}%",
+      "effects": [
+        {
+          "id": 72001075,
+          "description": "[自身/白夜の護衛所持時被ダメージダウン]",
+          "value": 4000
+        },
+        {
+          "id": 72001076,
+          "description": "[自身/白夜の護衛所持時与ダメージアップ]",
+          "value": 4000
+        },
+        {
+          "id": 72001073,
+          "description": "[自身/白夜の護衛/2回]",
+          "value": 0
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "野生の本能",
+      "description": "攻撃を受けた時、自身に「物攻+{0}%」を付与(上限25%)",
+      "effects": [
+        {
+          "id": 72001079,
+          "description": "[自身/物攻上昇(上限25%)]",
+          "value": 500
+        }
+      ]
+    },
+    "start_at": "2024-05-31T03:00:00.000Z"
   },
   {
     "id": 43501,

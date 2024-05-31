@@ -30498,5 +30498,1990 @@
     "image_medium": "Ingredient_0550_M",
     "start_at": "2024-05-20T03:00:00.000Z",
     "end_at": null
+  },
+  {
+    "id": 553,
+    "name": "乾いた根っこ",
+    "rarity": 2,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 10,
+        "name": "物理ダメージ上昇",
+        "category": "ATTACK",
+        "description": "物理攻撃のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000008,
+            "description": "物理攻撃のダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "name": "魔法耐性上昇【D】",
+        "category": "ENHANCE",
+        "description": "ディフェンダーへの魔法攻撃のダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000034,
+            "description": "ディフェンダーの魔法属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204113001,
+        "quest_name": "虫克服特訓【赤】",
+        "difficulty": "NORMAL",
+        "episode_id": 204113,
+        "episode_name": "スコアバトル13章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204113005,
+        "quest_name": "虫克服特訓【赤】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204113,
+        "episode_name": "スコアバトル13章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0553_S",
+    "image_medium": "Ingredient_0553_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 554,
+    "name": "貴婦人のヒゲ",
+    "rarity": 2,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 3,
+        "name": "斬ダメージ上昇",
+        "category": "ATTACK",
+        "description": "斬属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000002,
+            "description": "斬属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "物理耐性上昇",
+        "category": "ENHANCE",
+        "description": "物理攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "物理属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204113002,
+        "quest_name": "蜘蛛の子を散らせ【紫】",
+        "difficulty": "NORMAL",
+        "episode_id": 204113,
+        "episode_name": "スコアバトル13章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204113006,
+        "quest_name": "蜘蛛の子を散らせ【紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204113,
+        "episode_name": "スコアバトル13章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0554_S",
+    "image_medium": "Ingredient_0554_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 555,
+    "name": "ケムリキノコ",
+    "rarity": 2,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 42,
+        "name": "魔法耐性上昇【D】",
+        "category": "ENHANCE",
+        "description": "ディフェンダーへの魔法攻撃のダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000034,
+            "description": "ディフェンダーの魔法属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "name": "物理/魔法耐性ダウン強化",
+        "category": "WEAKENING",
+        "description": "対象が与える「物理被ダメージアップ」と「魔法被ダメージアップ」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000030,
+            "description": "対象が与える「物理被ダメージアップ」と「魔法被ダメージアップ」の効果量{0}%アップ",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204113003,
+        "quest_name": "邪魔はどっち？【青】",
+        "difficulty": "NORMAL",
+        "episode_id": 204113,
+        "episode_name": "スコアバトル13章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204113007,
+        "quest_name": "邪魔はどっち？【青】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204113,
+        "episode_name": "スコアバトル13章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0555_S",
+    "image_medium": "Ingredient_0555_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 556,
+    "name": "魅惑の骨",
+    "rarity": 2,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 15,
+        "name": "打の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000064,
+            "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "火の盾",
+        "category": "ENHANCE",
+        "description": "対象に「火属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000066,
+            "description": "対象に「火属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204113004,
+        "quest_name": "女王のお相手【黄/緑】",
+        "difficulty": "NORMAL",
+        "episode_id": 204113,
+        "episode_name": "スコアバトル13章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204113008,
+        "quest_name": "女王のお相手【黄/緑】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204113,
+        "episode_name": "スコアバトル13章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0556_S",
+    "image_medium": "Ingredient_0556_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 557,
+    "name": "豊かな根っこ",
+    "rarity": 3,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 30,
+        "name": "物理ダメージ上昇【背水】",
+        "category": "ATTACK",
+        "description": "HPが50%以下の時、物理攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000101,
+            "description": "HPが50%以下の時、与える物理属性ダメージ{0}%アップ",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "name": "全耐性上昇【背水】",
+        "category": "ENHANCE",
+        "description": "HPが50%以下の時、受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000103,
+            "description": "HPが50%以下の時、ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204113005,
+        "quest_name": "虫克服特訓【赤】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204113,
+        "episode_name": "スコアバトル13章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0557_S",
+    "image_medium": "Ingredient_0557_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 558,
+    "name": "金色の糸毛",
+    "rarity": 3,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 21,
+        "name": "火耐性上昇",
+        "category": "ENHANCE",
+        "description": "火属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000022,
+            "description": "火属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "name": "単体回復量上昇",
+        "category": "RECOVERY",
+        "description": "味方単体回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000032,
+            "description": "単体回復時の回復量{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204113006,
+        "quest_name": "蜘蛛の子を散らせ【紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204113,
+        "episode_name": "スコアバトル13章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0558_S",
+    "image_medium": "Ingredient_0558_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 559,
+    "name": "アトラフレグラ",
+    "rarity": 3,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 16,
+        "name": "ブレイクダメージ上昇【背水】",
+        "category": "ATTACK",
+        "description": "HPが50%以下の時、ブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000015,
+            "description": "HPが50%以下の時、ブレイクダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "物理/魔法耐性アップ強化【D】",
+        "category": "ENHANCE",
+        "description": "対象がディフェンダーへ与える「物理被ダメージダウン」と「魔法被ダメージダウン」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000029,
+            "description": "対象がディフェンダーへ与える「物理被ダメージダウン」と「魔法被ダメージダウン」の効果量{0}%アップ",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204113007,
+        "quest_name": "邪魔はどっち？【青】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204113,
+        "episode_name": "スコアバトル13章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0559_S",
+    "image_medium": "Ingredient_0559_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 560,
+    "name": "ファルシュフルト",
+    "rarity": 3,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 35,
+        "name": "魔法耐性上昇【渾身】",
+        "category": "ENHANCE",
+        "description": "HP満タン時、受ける魔法攻撃のダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000104,
+            "description": "HPが最大の時、魔法属性ダメージ耐性{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 55,
+        "name": "ぷにダメージ上昇",
+        "category": "ATTACK",
+        "description": "ぷに種族に与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000079,
+            "description": "ぷに種族に与えるダメージ{0}%アップ",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204113008,
+        "quest_name": "女王のお相手【黄/緑】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204113,
+        "episode_name": "スコアバトル13章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0560_S",
+    "image_medium": "Ingredient_0560_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 561,
+    "name": "キャニークレア",
+    "rarity": 2,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 3,
+        "name": "打の祝福",
+        "category": "ATTACK",
+        "description": "打属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "打属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "獣弱点サーチ",
+        "category": "WEAKENING",
+        "description": "対象に「獣種族が受けるダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000095,
+            "description": "対象に「獣種族が受けるダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204228001,
+        "quest_name": "生物の楽園[危険度：I]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228002,
+        "quest_name": "生物の楽園[危険度：II]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228003,
+        "quest_name": "生物の楽園[危険度：III]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228004,
+        "quest_name": "生物の楽園[危険度：IV]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228005,
+        "quest_name": "生物の楽園[危険度：V]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228006,
+        "quest_name": "生物の楽園[危険度：VI]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228007,
+        "quest_name": "生物の楽園[危険度：VII]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228008,
+        "quest_name": "生物の楽園[危険度：VIII]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228009,
+        "quest_name": "生物の楽園[危険度：IX]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204229001,
+        "quest_name": "災厄を呑む樹海[危険度：I]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229002,
+        "quest_name": "災厄を呑む樹海[危険度：II]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229003,
+        "quest_name": "災厄を呑む樹海[危険度：III]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229004,
+        "quest_name": "災厄を呑む樹海[危険度：IV]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229005,
+        "quest_name": "災厄を呑む樹海[危険度：V]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229006,
+        "quest_name": "災厄を呑む樹海[危険度：VI]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229007,
+        "quest_name": "災厄を呑む樹海[危険度：VII]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229008,
+        "quest_name": "災厄を呑む樹海[危険度：VIII]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229009,
+        "quest_name": "災厄を呑む樹海[危険度：IX]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      }
+    ],
+    "image_small": "Ingredient_0561_S",
+    "image_medium": "Ingredient_0561_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 562,
+    "name": "テイルゼンマイ",
+    "rarity": 2,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 6,
+        "name": "火ダメージ上昇",
+        "category": "ATTACK",
+        "description": "火属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "火属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "全体回復量上昇",
+        "category": "RECOVERY",
+        "description": "味方全員回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体回復が与えるHP回復量{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204228001,
+        "quest_name": "生物の楽園[危険度：I]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228002,
+        "quest_name": "生物の楽園[危険度：II]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228003,
+        "quest_name": "生物の楽園[危険度：III]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228004,
+        "quest_name": "生物の楽園[危険度：IV]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228005,
+        "quest_name": "生物の楽園[危険度：V]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228006,
+        "quest_name": "生物の楽園[危険度：VI]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228007,
+        "quest_name": "生物の楽園[危険度：VII]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228008,
+        "quest_name": "生物の楽園[危険度：VIII]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228009,
+        "quest_name": "生物の楽園[危険度：IX]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      }
+    ],
+    "image_small": "Ingredient_0562_S",
+    "image_medium": "Ingredient_0562_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 563,
+    "name": "かみつき草",
+    "rarity": 2,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 13,
+        "name": "ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "ブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000012,
+            "description": "ブレイクダメージ{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "雷耐性上昇",
+        "category": "ENHANCE",
+        "description": "雷属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000024,
+            "description": "雷属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204228005,
+        "quest_name": "生物の楽園[危険度：V]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228006,
+        "quest_name": "生物の楽園[危険度：VI]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228007,
+        "quest_name": "生物の楽園[危険度：VII]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228008,
+        "quest_name": "生物の楽園[危険度：VIII]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228009,
+        "quest_name": "生物の楽園[危険度：IX]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      }
+    ],
+    "image_small": "Ingredient_0563_S",
+    "image_medium": "Ingredient_0563_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 564,
+    "name": "トキシクレア",
+    "rarity": 2,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 11,
+        "name": "魔法ダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "魔法耐性上昇",
+        "category": "ENHANCE",
+        "description": "魔法攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000027,
+            "description": "魔法属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204229001,
+        "quest_name": "災厄を呑む樹海[危険度：I]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229002,
+        "quest_name": "災厄を呑む樹海[危険度：II]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229003,
+        "quest_name": "災厄を呑む樹海[危険度：III]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229004,
+        "quest_name": "災厄を呑む樹海[危険度：IV]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229005,
+        "quest_name": "災厄を呑む樹海[危険度：V]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229006,
+        "quest_name": "災厄を呑む樹海[危険度：VI]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229007,
+        "quest_name": "災厄を呑む樹海[危険度：VII]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229008,
+        "quest_name": "災厄を呑む樹海[危険度：VIII]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229009,
+        "quest_name": "災厄を呑む樹海[危険度：IX]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      }
+    ],
+    "image_small": "Ingredient_0564_S",
+    "image_medium": "Ingredient_0564_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 565,
+    "name": "威光花",
+    "rarity": 3,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 60,
+        "name": "クリティカルダメージ上昇",
+        "category": "ATTACK",
+        "description": "クリティカルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 13000011,
+            "description": "クリティカルダメージアップ",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "name": "回復量上昇【渾身】",
+        "category": "RECOVERY",
+        "description": "HP満タン時、与える回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000106,
+            "description": "HPが最大の時、HP回復量{0}%アップ",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204229005,
+        "quest_name": "災厄を呑む樹海[危険度：V]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229006,
+        "quest_name": "災厄を呑む樹海[危険度：VI]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229007,
+        "quest_name": "災厄を呑む樹海[危険度：VII]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229008,
+        "quest_name": "災厄を呑む樹海[危険度：VIII]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229009,
+        "quest_name": "災厄を呑む樹海[危険度：IX]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      }
+    ],
+    "image_small": "Ingredient_0565_S",
+    "image_medium": "Ingredient_0565_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 566,
+    "name": "物見の樹",
+    "rarity": 3,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 6,
+        "name": "火の祝福",
+        "category": "ATTACK",
+        "description": "火属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "火属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "守護の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204228001,
+        "quest_name": "生物の楽園[危険度：I]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228002,
+        "quest_name": "生物の楽園[危険度：II]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228003,
+        "quest_name": "生物の楽園[危険度：III]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228004,
+        "quest_name": "生物の楽園[危険度：IV]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228005,
+        "quest_name": "生物の楽園[危険度：V]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228006,
+        "quest_name": "生物の楽園[危険度：VI]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228007,
+        "quest_name": "生物の楽園[危険度：VII]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228008,
+        "quest_name": "生物の楽園[危険度：VIII]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228009,
+        "quest_name": "生物の楽園[危険度：IX]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204229001,
+        "quest_name": "災厄を呑む樹海[危険度：I]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229002,
+        "quest_name": "災厄を呑む樹海[危険度：II]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229003,
+        "quest_name": "災厄を呑む樹海[危険度：III]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229004,
+        "quest_name": "災厄を呑む樹海[危険度：IV]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229005,
+        "quest_name": "災厄を呑む樹海[危険度：V]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229006,
+        "quest_name": "災厄を呑む樹海[危険度：VI]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229007,
+        "quest_name": "災厄を呑む樹海[危険度：VII]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229008,
+        "quest_name": "災厄を呑む樹海[危険度：VIII]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229009,
+        "quest_name": "災厄を呑む樹海[危険度：IX]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      }
+    ],
+    "image_small": "Ingredient_0566_S",
+    "image_medium": "Ingredient_0566_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 567,
+    "name": "巨人の木切れ",
+    "rarity": 3,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 33,
+        "name": "魔法ダメージ上昇【渾身】",
+        "category": "ATTACK",
+        "description": "HP満タン時、魔法攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000100,
+            "description": "HPが最大の時、与える魔法属性ダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "物理/魔法耐性アップ強化【D】",
+        "category": "ENHANCE",
+        "description": "対象がディフェンダーへ与える「物理被ダメージダウン」と「魔法被ダメージダウン」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000029,
+            "description": "対象がディフェンダーへ与える「物理被ダメージダウン」と「魔法被ダメージダウン」の効果量{0}%アップ",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204228001,
+        "quest_name": "生物の楽園[危険度：I]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228002,
+        "quest_name": "生物の楽園[危険度：II]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228003,
+        "quest_name": "生物の楽園[危険度：III]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228004,
+        "quest_name": "生物の楽園[危険度：IV]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228005,
+        "quest_name": "生物の楽園[危険度：V]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228006,
+        "quest_name": "生物の楽園[危険度：VI]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228007,
+        "quest_name": "生物の楽園[危険度：VII]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228008,
+        "quest_name": "生物の楽園[危険度：VIII]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228009,
+        "quest_name": "生物の楽園[危険度：IX]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      }
+    ],
+    "image_small": "Ingredient_0567_S",
+    "image_medium": "Ingredient_0567_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 568,
+    "name": "悪なるうねり樹",
+    "rarity": 3,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 15,
+        "name": "魔法ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000014,
+            "description": "魔法属性攻撃のブレイクダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "name": "回復量上昇【渾身】",
+        "category": "RECOVERY",
+        "description": "HP満タン時、与える回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000106,
+            "description": "HPが最大の時、HP回復量{0}%アップ",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204228005,
+        "quest_name": "生物の楽園[危険度：V]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228006,
+        "quest_name": "生物の楽園[危険度：VI]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228007,
+        "quest_name": "生物の楽園[危険度：VII]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228008,
+        "quest_name": "生物の楽園[危険度：VIII]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228009,
+        "quest_name": "生物の楽園[危険度：IX]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      }
+    ],
+    "image_small": "Ingredient_0568_S",
+    "image_medium": "Ingredient_0568_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 569,
+    "name": "鳥瞰樹",
+    "rarity": 3,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 4,
+        "name": "打ダメージ上昇",
+        "category": "ATTACK",
+        "description": "打属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "打属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "氷耐性上昇",
+        "category": "ENHANCE",
+        "description": "氷属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000023,
+            "description": "氷属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204229001,
+        "quest_name": "災厄を呑む樹海[危険度：I]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229002,
+        "quest_name": "災厄を呑む樹海[危険度：II]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229003,
+        "quest_name": "災厄を呑む樹海[危険度：III]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229004,
+        "quest_name": "災厄を呑む樹海[危険度：IV]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229005,
+        "quest_name": "災厄を呑む樹海[危険度：V]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229006,
+        "quest_name": "災厄を呑む樹海[危険度：VI]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229007,
+        "quest_name": "災厄を呑む樹海[危険度：VII]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229008,
+        "quest_name": "災厄を呑む樹海[危険度：VIII]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229009,
+        "quest_name": "災厄を呑む樹海[危険度：IX]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      }
+    ],
+    "image_small": "Ingredient_0569_S",
+    "image_medium": "Ingredient_0569_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 570,
+    "name": "ラップドシャフト",
+    "rarity": 3,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 28,
+        "name": "全体攻撃威力上昇",
+        "category": "ATTACK",
+        "description": "全体攻撃のスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000110,
+            "description": "全体攻撃のスキル威力{0}％アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "name": "魔法耐性上昇【D】",
+        "category": "ENHANCE",
+        "description": "ディフェンダーへの魔法攻撃のダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000034,
+            "description": "ディフェンダーの魔法属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204229005,
+        "quest_name": "災厄を呑む樹海[危険度：V]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229006,
+        "quest_name": "災厄を呑む樹海[危険度：VI]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229007,
+        "quest_name": "災厄を呑む樹海[危険度：VII]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229008,
+        "quest_name": "災厄を呑む樹海[危険度：VIII]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229009,
+        "quest_name": "災厄を呑む樹海[危険度：IX]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      }
+    ],
+    "image_small": "Ingredient_0570_S",
+    "image_medium": "Ingredient_0570_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 571,
+    "name": "けものぬし",
+    "rarity": 3,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 18,
+        "name": "火の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "大きな回復量",
+        "category": "RECOVERY",
+        "description": "与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000075,
+            "description": "与えるHP回復量{0}%アップ",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204228001,
+        "quest_name": "生物の楽園[危険度：I]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228002,
+        "quest_name": "生物の楽園[危険度：II]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228003,
+        "quest_name": "生物の楽園[危険度：III]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228004,
+        "quest_name": "生物の楽園[危険度：IV]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228005,
+        "quest_name": "生物の楽園[危険度：V]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228006,
+        "quest_name": "生物の楽園[危険度：VI]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228007,
+        "quest_name": "生物の楽園[危険度：VII]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228008,
+        "quest_name": "生物の楽園[危険度：VIII]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228009,
+        "quest_name": "生物の楽園[危険度：IX]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      }
+    ],
+    "image_small": "Ingredient_0571_S",
+    "image_medium": "Ingredient_0571_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 572,
+    "name": "アジュムル",
+    "rarity": 3,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 5,
+        "name": "突ダメージ上昇",
+        "category": "ATTACK",
+        "description": "突属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "突属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "雷耐性上昇",
+        "category": "ENHANCE",
+        "description": "雷属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000024,
+            "description": "雷属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204228001,
+        "quest_name": "生物の楽園[危険度：I]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228002,
+        "quest_name": "生物の楽園[危険度：II]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228003,
+        "quest_name": "生物の楽園[危険度：III]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228004,
+        "quest_name": "生物の楽園[危険度：IV]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228005,
+        "quest_name": "生物の楽園[危険度：V]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228006,
+        "quest_name": "生物の楽園[危険度：VI]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228007,
+        "quest_name": "生物の楽園[危険度：VII]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228008,
+        "quest_name": "生物の楽園[危険度：VIII]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228009,
+        "quest_name": "生物の楽園[危険度：IX]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      }
+    ],
+    "image_small": "Ingredient_0572_S",
+    "image_medium": "Ingredient_0572_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 573,
+    "name": "獰猛魚",
+    "rarity": 3,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 11,
+        "name": "魔法ダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "ダメージバフ強化【A】",
+        "category": "ENHANCE",
+        "description": "アタッカーへ与えるダメージ強化の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000017,
+            "description": "アタッカーへのダメージバフ{0}%アップ",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204228005,
+        "quest_name": "生物の楽園[危険度：V]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228006,
+        "quest_name": "生物の楽園[危険度：VI]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228007,
+        "quest_name": "生物の楽園[危険度：VII]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228008,
+        "quest_name": "生物の楽園[危険度：VIII]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      },
+      {
+        "quest_id": 204228009,
+        "quest_name": "生物の楽園[危険度：IX]",
+        "episode_id": 204228,
+        "episode_name": "生物の楽園"
+      }
+    ],
+    "image_small": "Ingredient_0573_S",
+    "image_medium": "Ingredient_0573_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 574,
+    "name": "鉄混じりの石",
+    "rarity": 3,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 17,
+        "name": "魔力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "突の盾",
+        "category": "ENHANCE",
+        "description": "対象に「突属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000072,
+            "description": "対象に「突属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204229001,
+        "quest_name": "災厄を呑む樹海[危険度：I]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229002,
+        "quest_name": "災厄を呑む樹海[危険度：II]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229003,
+        "quest_name": "災厄を呑む樹海[危険度：III]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229004,
+        "quest_name": "災厄を呑む樹海[危険度：IV]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229005,
+        "quest_name": "災厄を呑む樹海[危険度：V]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229006,
+        "quest_name": "災厄を呑む樹海[危険度：VI]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229007,
+        "quest_name": "災厄を呑む樹海[危険度：VII]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229008,
+        "quest_name": "災厄を呑む樹海[危険度：VIII]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229009,
+        "quest_name": "災厄を呑む樹海[危険度：IX]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      }
+    ],
+    "image_small": "Ingredient_0574_S",
+    "image_medium": "Ingredient_0574_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 575,
+    "name": "光輝のカケラ",
+    "rarity": 3,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 4,
+        "name": "打ダメージ上昇",
+        "category": "ATTACK",
+        "description": "打属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "打属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "name": "被回復量上昇",
+        "category": "RECOVERY",
+        "description": "受けるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 13000002,
+            "description": "被回復量上昇",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204229001,
+        "quest_name": "災厄を呑む樹海[危険度：I]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229002,
+        "quest_name": "災厄を呑む樹海[危険度：II]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229003,
+        "quest_name": "災厄を呑む樹海[危険度：III]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229004,
+        "quest_name": "災厄を呑む樹海[危険度：IV]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229005,
+        "quest_name": "災厄を呑む樹海[危険度：V]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229006,
+        "quest_name": "災厄を呑む樹海[危険度：VI]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229007,
+        "quest_name": "災厄を呑む樹海[危険度：VII]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229008,
+        "quest_name": "災厄を呑む樹海[危険度：VIII]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229009,
+        "quest_name": "災厄を呑む樹海[危険度：IX]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      }
+    ],
+    "image_small": "Ingredient_0575_S",
+    "image_medium": "Ingredient_0575_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 576,
+    "name": "模倣の逆さ石",
+    "rarity": 3,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 25,
+        "name": "物理耐性上昇",
+        "category": "ENHANCE",
+        "description": "物理攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "物理属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "name": "魔法ダメージ上昇【背水】",
+        "category": "ATTACK",
+        "description": "HPが50%以下の時、魔法攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000099,
+            "description": "HPが50%以下の時、与える魔法属性ダメージ{0}%アップ",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204229005,
+        "quest_name": "災厄を呑む樹海[危険度：V]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229006,
+        "quest_name": "災厄を呑む樹海[危険度：VI]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229007,
+        "quest_name": "災厄を呑む樹海[危険度：VII]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229008,
+        "quest_name": "災厄を呑む樹海[危険度：VIII]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      },
+      {
+        "quest_id": 204229009,
+        "quest_name": "災厄を呑む樹海[危険度：IX]",
+        "episode_id": 204229,
+        "episode_name": "災厄を呑む樹海"
+      }
+    ],
+    "image_small": "Ingredient_0576_S",
+    "image_medium": "Ingredient_0576_M",
+    "start_at": "2024-05-31T03:00:00.000Z",
+    "end_at": null
   }
 ]

@@ -22,7 +22,7 @@ function unpackFolder(inputDir, outputDir, sorted=false) {
 
         let outputDirFolder = outputDir;
         if (sorted) {
-            if (filename.includes('SystemText')) {
+            if (filename.includes('SystemText') || filename.includes('ErrorText')) {
                 outputDirFolder = path.join(outputDir, 'SystemText');
             } else if (isDialogue(entries)) {
                 outputDirFolder = path.join(outputDir, 'Dialogue');

@@ -73,7 +73,9 @@ function getCatalogResources(server, catalogJSON, platform='StandaloneWindows64'
 
     const keys = getKeys(catalogJSON);
     const buckets = getBuckets(catalogJSON);
-    const entries = getEntries(catalogJSON, keys);
+    const entries = getEntries(catalogJSON, keys, buckets);
+    fixDependencyKey(entries, keys, buckets);
+    // const extras = getExtras(catalogJSON);
     const resources = getResources(catalogJSON, keys, buckets, entries, platform, filterResourceTypes, filterLabels, false, true);
 
     // DEBUG
@@ -81,6 +83,7 @@ function getCatalogResources(server, catalogJSON, platform='StandaloneWindows64'
     // fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/${platform}/catalog/keys.json`), JSON.stringify(keys, null, '\t')); // debug
     // fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/${platform}/catalog/buckets.json`), JSON.stringify(buckets, null, '\t')); // debug
     // fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/${platform}/catalog/entries.json`), JSON.stringify(entries, null, '\t')); // debug
+    // // fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/${platform}/catalog/extras.json`), JSON.stringify(extras, null, '\t')); // debug
     // fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/${platform}/catalog/resources.json`), JSON.stringify(resources, null, '\t')); // debug
     // fs.mkdirSync(path.resolve(__dirname, `../resources/${server}/${platform}`), { recursive: true });
 
@@ -212,7 +215,22 @@ function getBuckets(catalog) {
     return buckets;
 }
 
-function getEntries(catalog, keys) {
+function getExtras(catalog) {
+    const extras = [];
+
+    const extrasBuffer = Buffer.from(catalog.m_ExtraDataString, 'base64');
+    let offset = 0;
+    while (offset < extrasBuffer.length) {
+        const { newOffset, data } = readObjectFromData(extrasBuffer, offset);
+        offset = newOffset;
+        extras.push(data);
+    }
+
+    return extras;
+}
+
+// https://github.com/needle-mirror/com.unity.addressables/blob/45b4451e40efabef100e41f269d8a50b16e33402/Runtime/ResourceLocators/ContentCatalogData.cs#L530
+function getEntries(catalog, keys, buckets) {
     const entries = [];
 
     const entriesBuffer = Buffer.from(catalog.m_EntryDataString, 'base64');
@@ -225,6 +243,7 @@ function getEntries(catalog, keys) {
         const providerIndex = entriesBuffer.readInt32LE(offset+4);
         const provider = catalog.m_ResourceProviderData[providerIndex].m_Id;
         const dependencyKeyIndex = entriesBuffer.readInt32LE(offset+8);
+        // if (dependencyKeyIndex < 0) console.log('something has gone awry with dependencyKeyIndex'); // idk man
         const dependencyKey = keys[dependencyKeyIndex];
         const depHash = entriesBuffer.readInt32LE(offset+12);
         const dataIndex = entriesBuffer.readInt32LE(offset+16);
@@ -242,6 +261,20 @@ function getEntries(catalog, keys) {
     }
 
     return entries;
+}
+
+/**
+ * Sometimes entry.dependencyKey might be a number.
+ * This means there are multiple bundles associated with this entry.
+ * We'll just use the first bundle. Surely it'll be enough.
+ */
+function fixDependencyKey(entries, keys, buckets) {
+    for (const entry of entries) {
+        if (typeof entry.dependencyKey === 'number') {
+            const keyIndex = keys.indexOf(entry.dependencyKey);
+            entry.dependencyKey = entries[buckets[keyIndex].entries[0]].primary;
+        }
+    }
 }
 
 /**

@@ -4,10 +4,10 @@
 const path = require('path');
 
 // const upload = require('./upload.js');
-// const importer = require('../import/import.js');
+const importer = require('../import/import.js');
 const catalog = require('../import/catalog.js');
 const tools = require('../tools/tools.js');
-// const unpackTextAssets = require('../import/unpackTextAssets.js');
+const unpackTextAssets = require('../import/unpackTextAssets.js');
 
 const importconfig = require('../import/config.json');
 
@@ -46,18 +46,19 @@ function coerceImageNamesOutputPath(imageNamesOutputPath) {
 
 main();
 async function main() {
-    switch (argv.script) {
+    switch (argv.script.toLowerCase()) {
         case 'updatecatalogresources':
-        case 'updateCatalogResources':
             break;
 
         case 'downloadbundles':
-        case 'downloadBundles':
             break;
 
         case 'extractimages':
-        case 'extractImages':
             await extractImages(argv.server, argv.platform, argv.version, argv.imageFormat, argv.imagesOutputFolder, argv.imageNamesOutputPath, argv.skipDownloads, argv.regexFilter);
+            break;
+
+        case 'textasset':
+            await textAsset(argv.server, argv.platform, argv.version);
             break;
 
         default:
@@ -89,4 +90,20 @@ async function extractImages(server="Global", platform="StandaloneWindows64", ve
 
     console.log(`Exporting images...`);
     tools.exportAssets(bundleNamesTexture2D, bundleDir, 'Texture2D', imagesOutputFolder, imageNamesOutputPath, imageFormat, regexFilter);
+}
+
+// Export TextAsset to resources folder
+async function textAsset(server="Global", platform="StandaloneWindows64", version=importconfig.fileassets_version[server]) {
+    console.log(`${server}: Exporting TextAsset to data...`);
+    const catalogJSON = await catalog.getCatalogFromDownload(server, version, platform);
+    catalog.getCatalogResources(server, catalogJSON, platform, 'TextAsset');
+
+    const bundleDir = path.resolve(__dirname, `../resources/${server}/${platform}/bundles`);
+    const bundleNamesTextAsset = path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames_all_textasset.txt`);
+    tools.executeAtelierToolBundleDownload(server, platform, version, bundleDir, bundleNamesTextAsset);
+
+    const textAssetByteDir = path.resolve(__dirname, `../resources/${server}/${platform}/TextAssetBytes`);
+    const textAssetDir = path.resolve(__dirname, `../resources/${server}/TextAsset`);
+    tools.exportAssets(bundleNamesTextAsset, bundleDir, 'TextAsset', textAssetByteDir);
+    unpackTextAssets.unpackFolder(textAssetByteDir, textAssetDir, true);
 }

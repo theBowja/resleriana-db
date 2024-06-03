@@ -6,7 +6,8 @@
   "scripts": {
     "import": "cd import && node import.js",
     "updatealldata": "node auto/update.js",
-    "extractImages": "node auto/scripts.js --script extractImages"
+    "extractImages": "node auto/scripts.js --script extractImages",
+    "textasset": "node auto/scripts.js --script textasset"
   },
   "author": "theBowja",
   "license": "MIT",

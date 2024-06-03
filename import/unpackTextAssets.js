@@ -8,8 +8,9 @@ module.exports = { unpackFolder };
  * Unpacks every file in the inputDir to json and writes it to outputDir.
  * @param {string} inputDir if relative path, then it is relative to current working directory.
  * @param {string} outputDir if relative path, then it is relative to current working directory.
+ * @param {boolean} sorted whether or not to separate the TextAssets into the following folders: Dialogue, Misc, SystemText
  */
-function unpackFolder(inputDir, outputDir) {
+function unpackFolder(inputDir, outputDir, sorted=false) {
     inputDir = path.resolve(process.cwd(), inputDir);
     outputDir = path.resolve(process.cwd(), outputDir);
 
@@ -19,9 +20,24 @@ function unpackFolder(inputDir, outputDir) {
 
         const entries = unpackTextAsset(file);
 
-        fs.mkdirSync(outputDir, { recursive: true });
-        fs.writeFileSync(path.join(outputDir, `${filename}.json`), JSON.stringify(entries, null, '\t'));
+        let outputDirFolder = outputDir;
+        if (sorted) {
+            if (filename.includes('SystemText')) {
+                outputDirFolder = path.join(outputDir, 'SystemText');
+            } else if (isDialogue(entries)) {
+                outputDirFolder = path.join(outputDir, 'Dialogue');
+            } else {
+                outputDirFolder = path.join(outputDir, 'Misc');
+            }
+        }
+
+        fs.mkdirSync(outputDirFolder, { recursive: true });
+        fs.writeFileSync(path.join(outputDirFolder, `${filename}.json`), JSON.stringify(entries, null, '\t'));
     }    
+}
+
+function isDialogue(entries) {
+    return entries && entries[0] && entries[0].text;
 }
 
 // Maps property keys to understandable keys

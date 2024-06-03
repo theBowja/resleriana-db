@@ -110,9 +110,9 @@ async function checkFileassets(server, skipCheck=false, uploadImages=false) {
         // Export TextAsset to data
         console.log(`${server}: Exporting TextAsset to data...`);
         const textAssetByteDir = path.resolve(__dirname, `../resources/${server}/${platform}/TextAssetBytes`);
-        const textAssetDir = path.resolve(__dirname, `../data/TextAsset/${server}`);
+        const textAssetDir = path.resolve(__dirname, `../resources/${server}/TextAsset`);
         tools.exportAssets(bundleNamesTextAsset, bundleDir, 'TextAsset', textAssetByteDir);
-        unpackTextAssets.unpackFolder(textAssetByteDir, textAssetDir);
+        unpackTextAssets.unpackFolder(textAssetByteDir, textAssetDir, true);
         importer.updateFileList([server]);
 
         // Update images for Cloudinary

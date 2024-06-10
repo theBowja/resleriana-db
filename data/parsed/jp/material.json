@@ -32483,5 +32483,382 @@
     "image_medium": "Ingredient_0576_M",
     "start_at": "2024-05-31T03:00:00.000Z",
     "end_at": null
+  },
+  {
+    "id": 580,
+    "name": "ブライドボンドフラワー",
+    "rarity": 2,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 32,
+        "name": "鳥特攻",
+        "category": "ATTACK",
+        "description": "鳥種族に与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000081,
+            "description": "鳥種族に与えるダメージ{0}%アップ",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "物防の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 39,
+      "name": "竜の涙は花と散る"
+    },
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 3902001,
+        "quest_name": "秘密の通い道[危険度：I]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      },
+      {
+        "quest_id": 3902002,
+        "quest_name": "秘密の通い道[危険度：II]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      },
+      {
+        "quest_id": 3902003,
+        "quest_name": "秘密の通い道[危険度：III]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      },
+      {
+        "quest_id": 3902004,
+        "quest_name": "秘密の通い道[危険度：IV]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      },
+      {
+        "quest_id": 3902005,
+        "quest_name": "秘密の通い道[危険度：V]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      },
+      {
+        "quest_id": 3902006,
+        "quest_name": "秘密の通い道[危険度：VI]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      }
+    ],
+    "image_small": "Ingredient_0580_S",
+    "image_medium": "Ingredient_0580_M",
+    "start_at": "2024-06-10T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 581,
+    "name": "ブライドフルーツ",
+    "rarity": 2,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 6,
+        "name": "火ダメージ上昇",
+        "category": "ATTACK",
+        "description": "火属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "火属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "name": "鳥ダメージ軽減",
+        "category": "ENHANCE",
+        "description": "鳥種族から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000086,
+            "description": "対象に鳥種族から受けるダメージ{0}%ダウンを付与(1回)",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 39,
+      "name": "竜の涙は花と散る"
+    },
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 3902001,
+        "quest_name": "秘密の通い道[危険度：I]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      },
+      {
+        "quest_id": 3902002,
+        "quest_name": "秘密の通い道[危険度：II]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      },
+      {
+        "quest_id": 3902003,
+        "quest_name": "秘密の通い道[危険度：III]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      },
+      {
+        "quest_id": 3902004,
+        "quest_name": "秘密の通い道[危険度：IV]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      },
+      {
+        "quest_id": 3902005,
+        "quest_name": "秘密の通い道[危険度：V]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      },
+      {
+        "quest_id": 3902006,
+        "quest_name": "秘密の通い道[危険度：VI]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      }
+    ],
+    "image_small": "Ingredient_0581_S",
+    "image_medium": "Ingredient_0581_M",
+    "start_at": "2024-06-10T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 582,
+    "name": "ブライドバグ",
+    "rarity": 2,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 13,
+        "name": "ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "ブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000012,
+            "description": "ブレイクダメージ{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "name": "物理耐性上昇【D】",
+        "category": "ENHANCE",
+        "description": "ディフェンダーへの物理攻撃のダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000033,
+            "description": "ディフェンダーの物理属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 39,
+      "name": "竜の涙は花と散る"
+    },
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 3902001,
+        "quest_name": "秘密の通い道[危険度：I]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      },
+      {
+        "quest_id": 3902002,
+        "quest_name": "秘密の通い道[危険度：II]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      },
+      {
+        "quest_id": 3902003,
+        "quest_name": "秘密の通い道[危険度：III]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      },
+      {
+        "quest_id": 3902004,
+        "quest_name": "秘密の通い道[危険度：IV]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      },
+      {
+        "quest_id": 3902005,
+        "quest_name": "秘密の通い道[危険度：V]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      },
+      {
+        "quest_id": 3902006,
+        "quest_name": "秘密の通い道[危険度：VI]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      }
+    ],
+    "image_small": "Ingredient_0582_S",
+    "image_medium": "Ingredient_0582_M",
+    "start_at": "2024-06-10T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 583,
+    "name": "ブライドラブフラワー",
+    "rarity": 3,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 50,
+        "name": "会心の出来",
+        "category": "ENHANCE",
+        "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "守護の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 39,
+      "name": "竜の涙は花と散る"
+    },
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 3902005,
+        "quest_name": "秘密の通い道[危険度：V]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      },
+      {
+        "quest_id": 3902006,
+        "quest_name": "秘密の通い道[危険度：VI]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      }
+    ],
+    "image_small": "Ingredient_0583_S",
+    "image_medium": "Ingredient_0583_M",
+    "start_at": "2024-06-10T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 584,
+    "name": "ブライドレインドロップ",
+    "rarity": 3,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 61,
+        "name": "バーストスキル威力上昇",
+        "category": "ATTACK",
+        "description": "バーストスキルのスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000165,
+            "description": "バーストスキル威力{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "全体攻撃威力上昇",
+        "category": "ATTACK",
+        "description": "全体攻撃のスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000110,
+            "description": "全体攻撃のスキル威力{0}％アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 39,
+      "name": "竜の涙は花と散る"
+    },
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 3902005,
+        "quest_name": "秘密の通い道[危険度：V]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      },
+      {
+        "quest_id": 3902006,
+        "quest_name": "秘密の通い道[危険度：VI]",
+        "episode_id": 3902,
+        "episode_name": "秘密の通い道"
+      }
+    ],
+    "image_small": "Ingredient_0584_S",
+    "image_medium": "Ingredient_0584_M",
+    "start_at": "2024-06-10T03:00:00.000Z",
+    "end_at": null
   }
 ]

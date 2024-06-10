@@ -854,6 +854,13 @@
     "popup_text": ""
   },
   {
+    "description": "鳥種族に与えるブレイクダメージ{0}%アップ",
+    "effect_motion_id": null,
+    "id": 3000203,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "次のターン終了時まで敵全体の風耐性を10%減少させる",
     "effect_motion_id": null,
     "id": 4000003,
@@ -1169,42 +1176,42 @@
     "popup_text": ""
   },
   {
-    "description": "物理ダメージ6%UP",
+    "description": "物理ダメージアップ",
     "effect_motion_id": null,
     "id": 6000018,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "魔法ダメージ6%UP",
+    "description": "魔法ダメージアップ",
     "effect_motion_id": null,
     "id": 6000019,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "物理攻撃から受けるダメージ-3%",
+    "description": "物理攻撃から受けるダメージダウン",
     "effect_motion_id": null,
     "id": 6000020,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "魔法攻撃ブレイクダメージ+6%",
+    "description": "魔法攻撃ブレイクダメージアップ",
     "effect_motion_id": null,
     "id": 6000021,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "物理攻撃ブレイクダメージ+6%",
+    "description": "物理攻撃ブレイクダメージアップ",
     "effect_motion_id": null,
     "id": 6000022,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "魔法攻撃から受けるダメージ-3%",
+    "description": "魔法攻撃から受けるダメージダウン",
     "effect_motion_id": null,
     "id": 6000023,
     "is_positive_popup": null,
@@ -1225,28 +1232,28 @@
     "popup_text": ""
   },
   {
-    "description": "単体物理攻撃から受けるダメージ-5%",
+    "description": "単体物理攻撃から受けるダメージダウン",
     "effect_motion_id": null,
     "id": 6000026,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "与えるHP回復量+2%",
+    "description": "与えるHP回復量アップ",
     "effect_motion_id": null,
     "id": 6000027,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "受けるHP回復量+3%",
+    "description": "受けるHP回復量アップ",
     "effect_motion_id": null,
     "id": 6000028,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "全体攻撃から受けるダメージ-6%",
+    "description": "全体攻撃から受けるダメージダウン",
     "effect_motion_id": null,
     "id": 6000029,
     "is_positive_popup": null,
@@ -4963,6 +4970,594 @@
     "popup_text": ""
   },
   {
+    "description": "単体物理攻撃から受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000643,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がアタッカーの時、受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000644,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "斬属性キャラのダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000645,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "与えるHP回復量アップ",
+    "effect_motion_id": null,
+    "id": 6000646,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がブレイカーの時、受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000647,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が突属性の時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000648,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がアタッカーの時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000649,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がディフェンダーの時、受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000650,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が打属性の時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000651,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がブレイカーの時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000652,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がサポーターの時、受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000653,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が火属性の時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000654,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "火氷雷風いずれかの属性キャラに与えるHP回復量アップ",
+    "effect_motion_id": null,
+    "id": 6000655,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身のHPが70%以上の時、受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000656,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が氷属性の時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000657,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "斬打突いずれかの属性キャラに与えるHP回復量アップ",
+    "effect_motion_id": null,
+    "id": 6000658,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身のHPが70%以上の時、斬打突属性耐性アップ",
+    "effect_motion_id": null,
+    "id": 6000659,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が風属性の時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000660,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がサポーターの時、バーストスキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000661,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身のHPが70%以上の時、火氷雷風属性耐性アップ",
+    "effect_motion_id": null,
+    "id": 6000662,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が雷属性の時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000663,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がディフェンダーの時、受けるHP回復量アップ",
+    "effect_motion_id": null,
+    "id": 6000664,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が斬属性キャラの時、受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000665,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が突属性キャラの時、受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000666,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が打属性キャラの時、受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000667,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が火属性キャラの時、受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000668,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が風属性キャラの時、受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000669,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が氷属性キャラの時、受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000670,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が雷属性キャラの時、受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000671,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000672,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身が味方全員回復時、HP回復量アップ",
+    "effect_motion_id": null,
+    "id": 6000673,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が斬属性かつアタッカーの時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000674,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が突属性かつアタッカーの時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000675,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が火属性かつアタッカーの時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000676,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が氷属性かつアタッカーの時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000677,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が雷属性かつアタッカーの時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000678,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が斬属性かつブレイカーの時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000679,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が突属性かつブレイカーの時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000680,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が火属性かつブレイカーの時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000681,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が風属性かつブレイカーの時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000682,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が氷属性かつブレイカーの時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000683,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が雷属性かつブレイカーの時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000684,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身のHPが70%以上の時、受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000685,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がディフェンダーの時、受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000686,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がアタッカーの時、クリティカルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000687,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がアタッカーの時、バーストスキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000688,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "単体攻撃の時、ブレイクダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000689,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "全体攻撃の時、ブレイクダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000690,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "与える状態異常付与率アップ",
+    "effect_motion_id": null,
+    "id": 6000691,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "状態異常耐性アップ",
+    "effect_motion_id": null,
+    "id": 6000692,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がサポーターの時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000693,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がブレイカーの時、ブレイクダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000694,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "火属性耐性アップ",
+    "effect_motion_id": null,
+    "id": 6000695,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "風属性耐性アップ",
+    "effect_motion_id": null,
+    "id": 6000696,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "突属性耐性アップ",
+    "effect_motion_id": null,
+    "id": 6000697,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "物理攻撃から受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000698,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "魔法攻撃から受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000699,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が雷属性の時、ブレイクダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000700,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がサポーターの時、斬打突属性耐性アップ",
+    "effect_motion_id": null,
+    "id": 6000701,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が雷属性の時、状態異常耐性アップ",
+    "effect_motion_id": null,
+    "id": 6000702,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がサポーターの時、火氷雷風属性耐性アップ",
+    "effect_motion_id": null,
+    "id": 6000703,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がブレイカーの時、ブレイクダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000704,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身のHPが70%以上の時、自身のスキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000705,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が氷属性の時、状態異常耐性アップ",
+    "effect_motion_id": null,
+    "id": 6000706,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が氷属性の時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000707,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がサポーターの時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000708,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がサポーターの時、受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000709,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "斬打突属性耐性アップ",
+    "effect_motion_id": null,
+    "id": 6000710,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "状態異常耐性アップ",
+    "effect_motion_id": null,
+    "id": 6000711,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が火属性の時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000712,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が火属性の時、バーストスキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000713,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が火属性のかつアタッカーの時、全体攻撃のスキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000714,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が打属性かつディフェンダーの時、単体攻撃から受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000715,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が斬属性かつサポーターの時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000716,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が氷属性かつ自身がアタッカーの時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000717,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が雷属性かつブレイカーの場合、全体ブレイクダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000718,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がサポーターの時、与えるHP回復量アップ",
+    "effect_motion_id": null,
+    "id": 6000719,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が打属性の時、受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000720,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が雷属性の時、火氷雷風属性耐性アップ",
+    "effect_motion_id": null,
+    "id": 6000721,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "id": 6000722,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "id": 6000723,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "id": 6000724,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "id": 6000725,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "id": 6000726,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "物攻が最も高い味方1人に「バーストスキルダメージアップ」を2回行動終了するまで付与",
     "effect_motion_id": null,
     "id": 6000727,
@@ -5215,6 +5810,48 @@
     "popup_text": ""
   },
   {
+    "description": "得意属性が斬属性かつクリティカル攻撃時、ブレイクダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000764,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が斬属性かつブレイカーの時、与えるマイナス効果量アップ",
+    "effect_motion_id": null,
+    "id": 6000765,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が斬属性の時、クリティカル攻撃後、対象に「受けるクリティカルダメージアップ」を2回攻撃を受けるまで付与",
+    "effect_motion_id": null,
+    "id": 6000766,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が火属性の時、与える強化効果量アップ",
+    "effect_motion_id": null,
+    "id": 6000767,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が火属性かつサポーターの時、味方全員の強化系パネルから受ける効果量アップ",
+    "effect_motion_id": null,
+    "id": 6000768,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が火属性かつサポーターの時、味方全員の魔攻アップ",
+    "effect_motion_id": null,
+    "id": 6000769,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "敵全体に「毒」を1回行動開始するまで高確率で付与",
     "effect_motion_id": null,
     "id": 6000776,
@@ -5225,6 +5862,20 @@
     "description": "敵全体に「麻痺」を1回行動開始するまで高確率で付与",
     "effect_motion_id": null,
     "id": 6000777,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "id": 6000793,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "id": 6000794,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -5918,6 +6569,27 @@
     "description": "戦闘アイテムの突属性ダメージ+{0}%",
     "effect_motion_id": null,
     "id": 13000200,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "戦闘アイテムの火属性ダメージ+{0}%",
+    "effect_motion_id": null,
+    "id": 13000201,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身が斬属性の時、ブレイクダメージ+{0}%",
+    "effect_motion_id": null,
+    "id": 13000204,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵の数が1体の時、ブレイクダメージ+{0}%",
+    "effect_motion_id": null,
+    "id": 13000205,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -7280,6 +7952,83 @@
     "popup_text": ""
   },
   {
+    "description": "[自身/毒耐性上昇付与]",
+    "effect_motion_id": null,
+    "id": 72001062,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "[自身/麻痺耐性上昇付与]",
+    "effect_motion_id": null,
+    "id": 72001063,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "[自身/暗闇耐性上昇付与]",
+    "effect_motion_id": null,
+    "id": 72001064,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "[自身/クリティカルダメージアップ付与]",
+    "effect_motion_id": null,
+    "id": 72001065,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "[自身/受ける回復量UP付与]",
+    "effect_motion_id": null,
+    "id": 72001066,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "[自身/挑発耐性上昇付与]",
+    "effect_motion_id": null,
+    "id": 72001067,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "[自身/WEAK攻撃時ブレイクダメージUP付与]",
+    "effect_motion_id": null,
+    "id": 72001068,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "[自身/火傷耐性上昇付与]",
+    "effect_motion_id": null,
+    "id": 72001069,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "[自身/眠り耐性上昇付与]",
+    "effect_motion_id": null,
+    "id": 72001070,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "[自身/状態異常耐性上昇付与]",
+    "effect_motion_id": null,
+    "id": 72001071,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "[自身/カウンター対象の味方をかばう時被ダメージDOWN付与]",
+    "effect_motion_id": null,
+    "id": 72001072,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "[自身/白夜の護衛/2回]",
     "effect_motion_id": null,
     "id": 72001073,
@@ -7332,6 +8081,20 @@
     "description": "[火属性キャラ全員/ブレイクダメージアップ]",
     "effect_motion_id": null,
     "id": 72001082,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "[自身/1回/クリティカル率アップ]",
+    "effect_motion_id": null,
+    "id": 72001086,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "[強化パネル獲得時/アイテムゲージ回復]",
+    "effect_motion_id": null,
+    "id": 72001087,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -7665,6 +8428,20 @@
     "popup_text": ""
   },
   {
+    "description": "受けるクリティカルダメージDOWN",
+    "effect_motion_id": null,
+    "id": 76017001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "受けるクリティカルダメージDOWN3回付与",
+    "effect_motion_id": null,
+    "id": 76017002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "対象に与える回復量DOWN(2回)を付与",
     "effect_motion_id": null,
     "id": 76086001,
@@ -7675,6 +8452,13 @@
     "description": "スキル対象のうち、アタッカーに与ダメージ低下(3回)を付与",
     "effect_motion_id": null,
     "id": 76093001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "ブレイク中、火属性攻撃の被ダメージUP",
+    "effect_motion_id": null,
+    "id": 76116001,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -7710,6 +8494,55 @@
     "description": "敵対象に与ブレイクダメージDOWN(2回)を付与",
     "effect_motion_id": null,
     "id": 76122002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵単体に素早さDOWNを付与",
+    "effect_motion_id": null,
+    "id": 76150001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体に被ダメージUPを付与",
+    "effect_motion_id": null,
+    "id": 76150002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体に与ダメージDOWNを付与",
+    "effect_motion_id": null,
+    "id": 76150003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身にスキル回避(3回)を付与",
+    "effect_motion_id": null,
+    "id": 76150004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身にマイナスパネル無効(2回)を付与",
+    "effect_motion_id": null,
+    "id": 76150005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に与ダメージUP(3回)を付与",
+    "effect_motion_id": null,
+    "id": 76150006,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身の素早さUP(3回)を付与",
+    "effect_motion_id": null,
+    "id": 76150007,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -8344,6 +9177,13 @@
     "popup_text": ""
   },
   {
+    "description": "死亡時、敵全体にクリティカル確率UPを付与",
+    "effect_motion_id": 1077,
+    "id": 86097001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "自身が受けるブレイクダメージDOWN",
     "effect_motion_id": null,
     "id": 86105002,
@@ -8417,6 +9257,41 @@
     "description": "戦闘不能時味方全体に被ダメージDOWN永続付与",
     "effect_motion_id": 1046,
     "id": 86130004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体にプラス効果無効(1回)を付与(ABL用)",
+    "effect_motion_id": 1071,
+    "id": 86143001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身のバフ全て解除",
+    "effect_motion_id": null,
+    "id": 86150001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身にスタン(1回)付与",
+    "effect_motion_id": 1076,
+    "id": 86150002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "戦闘アイテムを使用していない時、スキル回避(state_change用)",
+    "effect_motion_id": null,
+    "id": 86150003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "「スキル回避」状態で戦闘アイテム被弾時、自身の行動を再抽選(ABL用)",
+    "effect_motion_id": null,
+    "id": 86150004,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -10411,6 +11286,62 @@
   {
     "description": "",
     "effect_motion_id": null,
+    "id": 91001310,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001311,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001312,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001313,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001314,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001315,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001316,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001320,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
     "id": 91002004,
     "is_positive_popup": null,
     "popup_text": ""
@@ -10570,21 +11501,21 @@
     "popup_text": ""
   },
   {
-    "description": "WEAK攻撃時、スキルダメージ",
+    "description": "WEAK攻撃時、スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000001,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "ボスを攻撃時、ブレイクダメージ",
+    "description": "ボスを攻撃時、ブレイクダメージアップ",
     "effect_motion_id": null,
     "id": 95000002,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "自身がディフェンダーの時、スキルダメージ",
+    "description": "自身がディフェンダーの時、スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000003,
     "is_positive_popup": null,
@@ -10598,7 +11529,7 @@
     "popup_text": ""
   },
   {
-    "description": "ボスを攻撃時、スキルダメージ",
+    "description": "ボスを攻撃時、スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000005,
     "is_positive_popup": null,
@@ -10612,14 +11543,14 @@
     "popup_text": ""
   },
   {
-    "description": "敵が1体の時、ブレイクダメージ",
+    "description": "敵が1体の時、ブレイクダメージアップ",
     "effect_motion_id": null,
     "id": 95000007,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "与えるHP回復量",
+    "description": "与えるHP回復量アップ",
     "effect_motion_id": null,
     "id": 95000008,
     "is_positive_popup": null,
@@ -10640,14 +11571,14 @@
     "popup_text": ""
   },
   {
-    "description": "自身のHPが70%以上の時、与えるHP回復量",
+    "description": "自身のHPが70%以上の時、与えるHP回復量アップ",
     "effect_motion_id": null,
     "id": 95000011,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "全体攻撃のスキルダメージ",
+    "description": "全体攻撃のスキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000012,
     "is_positive_popup": null,
@@ -10668,56 +11599,56 @@
     "popup_text": ""
   },
   {
-    "description": "クリティカルダメージ",
+    "description": "クリティカルダメージアップ",
     "effect_motion_id": null,
     "id": 95000015,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "自身がアタッカーの時、スキルダメージ",
+    "description": "自身がアタッカーの時、スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000016,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "スキルダメージ",
+    "description": "スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000017,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "自身がブレイカーの時、ブレイクダメージ",
+    "description": "自身がブレイカーの時、ブレイクダメージアップ",
     "effect_motion_id": null,
     "id": 95000018,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "魔法攻撃ブレイクダメージ",
+    "description": "魔法攻撃ブレイクダメージアップ",
     "effect_motion_id": null,
     "id": 95000019,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "全体攻撃のブレイクダメージ",
+    "description": "全体攻撃のブレイクダメージアップ",
     "effect_motion_id": null,
     "id": 95000020,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "敵の数が1体の時、スキルダメージ",
+    "description": "敵の数が1体の時、スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000021,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "物理攻撃ブレイクダメージ",
+    "description": "物理攻撃ブレイクダメージアップ",
     "effect_motion_id": null,
     "id": 95000022,
     "is_positive_popup": null,
@@ -10731,7 +11662,7 @@
     "popup_text": ""
   },
   {
-    "description": "得意属性が打属性の時、与えるHP回復量",
+    "description": "得意属性が打属性の時、与えるHP回復量アップ",
     "effect_motion_id": null,
     "id": 95000024,
     "is_positive_popup": null,
@@ -10745,7 +11676,7 @@
     "popup_text": ""
   },
   {
-    "description": "得意属性が突属性の時、ブレイクダメージ",
+    "description": "得意属性が突属性の時、ブレイクダメージアップ",
     "effect_motion_id": null,
     "id": 95000026,
     "is_positive_popup": null,
@@ -10759,28 +11690,28 @@
     "popup_text": ""
   },
   {
-    "description": "物理攻撃スキルダメージ",
+    "description": "物理攻撃スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000028,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "自身のHPが50%以下の時、スキルダメージ",
+    "description": "自身のHPが50%以下の時、スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000029,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "WEAK攻撃時、スキルダメージ",
+    "description": "WEAK攻撃時、スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000030,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "魔法攻撃スキルダメージ",
+    "description": "魔法攻撃スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000031,
     "is_positive_popup": null,
@@ -10794,14 +11725,14 @@
     "popup_text": ""
   },
   {
-    "description": "得意属性が斬属性の時、スキルダメージ",
+    "description": "得意属性が斬属性の時、スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000033,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "得意属性が雷属性の時、スキルダメージ",
+    "description": "得意属性が雷属性の時、スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000034,
     "is_positive_popup": null,
@@ -10822,21 +11753,21 @@
     "popup_text": ""
   },
   {
-    "description": "得意属性が火属性の時、スキルダメージ",
+    "description": "得意属性が火属性の時、スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000037,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "得意属性が風属性の時、与えるHP回復量",
+    "description": "得意属性が風属性の時、与えるHP回復量アップ",
     "effect_motion_id": null,
     "id": 95000038,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "得意属性が斬属性の時、スキルダメージ",
+    "description": "得意属性が斬属性の時、スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000039,
     "is_positive_popup": null,
@@ -10850,7 +11781,7 @@
     "popup_text": ""
   },
   {
-    "description": "得意属性が風属性の時、スキルダメージ",
+    "description": "得意属性が風属性の時、スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000041,
     "is_positive_popup": null,
@@ -10864,7 +11795,7 @@
     "popup_text": ""
   },
   {
-    "description": "WEAK攻撃時、スキルダメージ",
+    "description": "WEAK攻撃時、スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000043,
     "is_positive_popup": null,
@@ -10878,35 +11809,35 @@
     "popup_text": ""
   },
   {
-    "description": "得意属性が火属性の時、ブレイクダメージ",
+    "description": "得意属性が火属性の時、ブレイクダメージアップ",
     "effect_motion_id": null,
     "id": 95000045,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "得意属性が火属性の時、受けるHP回復量",
+    "description": "得意属性が火属性の時、受けるHP回復量アップ",
     "effect_motion_id": null,
     "id": 95000046,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "得意属性が氷属性の時、与えるHP回復量",
+    "description": "得意属性が氷属性の時、与えるHP回復量アップ",
     "effect_motion_id": null,
     "id": 95000047,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "得意属性が斬属性の時、ブレイクダメージ",
+    "description": "得意属性が斬属性の時、ブレイクダメージアップ",
     "effect_motion_id": null,
     "id": 95000048,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "得意属性が突属性の時、スキルダメージ",
+    "description": "得意属性が突属性の時、スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000049,
     "is_positive_popup": null,
@@ -10920,14 +11851,14 @@
     "popup_text": ""
   },
   {
-    "description": "自身のHPが70%以上の時、スキルダメージ",
+    "description": "自身のHPが70%以上の時、スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000051,
     "is_positive_popup": null,
     "popup_text": ""
   },
   {
-    "description": "WEAK攻撃時、ブレイクダメージ",
+    "description": "WEAK攻撃時、ブレイクダメージアップ",
     "effect_motion_id": null,
     "id": 95000052,
     "is_positive_popup": null,
@@ -10941,7 +11872,7 @@
     "popup_text": ""
   },
   {
-    "description": "スキルダメージ",
+    "description": "スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000054,
     "is_positive_popup": null,
@@ -10997,7 +11928,7 @@
     "popup_text": ""
   },
   {
-    "description": "受けるHP回復量",
+    "description": "受けるHP回復量アップ",
     "effect_motion_id": null,
     "id": 95000070,
     "is_positive_popup": null,
@@ -11123,7 +12054,7 @@
     "popup_text": ""
   },
   {
-    "description": "得意属性が火属性の時、与えるHP回復量",
+    "description": "得意属性が火属性の時、与えるHP回復量アップ",
     "effect_motion_id": null,
     "id": 95000089,
     "is_positive_popup": null,
@@ -11249,6 +12180,41 @@
     "popup_text": ""
   },
   {
+    "description": "ボスを攻撃時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 95000107,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身のHPが70%以上の時、与えるHP回復量",
+    "effect_motion_id": null,
+    "id": 95000108,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "物理攻撃ブレイクダメージ",
+    "effect_motion_id": null,
+    "id": 95000109,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身のHPが50%以下の時、スキルダメージ",
+    "effect_motion_id": null,
+    "id": 95000110,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "攻撃対象がぷに種族の時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 95000111,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "自身がアタッカーの時、物理攻撃スキルダメージアップ",
     "effect_motion_id": null,
     "id": 95000112,
@@ -11284,6 +12250,13 @@
     "popup_text": ""
   },
   {
+    "description": "クリティカル攻撃時、ブレイクダメージアップ",
+    "effect_motion_id": null,
+    "id": 95000117,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "攻撃を受けた時、自身に「スキルダメージアップ」を付与(上限24%)",
     "effect_motion_id": null,
     "id": 95000119,
@@ -11308,6 +12281,20 @@
     "description": "攻撃を受けた時、自身に「スキルダメージアップ」を付与(上限72%)",
     "effect_motion_id": null,
     "id": 95000122,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "ボスを攻撃時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 95000123,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "ボスを攻撃時、ブレイクダメージアップ",
+    "effect_motion_id": null,
+    "id": 95000124,
     "is_positive_popup": null,
     "popup_text": ""
   },

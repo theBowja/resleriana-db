@@ -75,7 +75,7 @@ pip --version
 
 Install python package dependencies:
 ```
-pip install UnityPy=1.10.7
+pip install -r requirements.txt
 ```
 
 ## Repository structure

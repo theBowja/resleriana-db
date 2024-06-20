@@ -17,10 +17,11 @@ module.exports = {
  * @param {string} server 
  * @param {string} version 
  * @param {string} platform 
+ * @param {boolean} useCache whether or not to cache the catalog
  * @returns {object} catalog json
  */
-async function getCatalogFromDownload(server, version, platform='StandaloneWindows64') {
-    return await downloadCatalog(server, version, platform);
+async function getCatalogFromDownload(server, version, platform='StandaloneWindows64', useCache=true) {
+    return await downloadCatalog(server, version, platform, useCache);
 }
 
 /**
@@ -69,6 +70,9 @@ function getFilterLabels(filterPath) {
  */
 function getCatalogResources(server, catalogJSON, platform='StandaloneWindows64', filterResourceTypes=['Texture2D'], filterLabels=undefined) {
     validateServer('getCatalogResources', server);
+    console.log('Extracting resource data from catalog');
+    const t0 = performance.now();
+
     if (filterResourceTypes && !Array.isArray(filterResourceTypes)) filterResourceTypes = [filterResourceTypes];
 
     const keys = getKeys(catalogJSON);
@@ -98,7 +102,7 @@ function getCatalogResources(server, catalogJSON, platform='StandaloneWindows64'
     const filterString = filterResourceTypes.map(s => s.toLowerCase()).sort().join();
     const subset = filterLabels ? 'filtered' : 'all';
     fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames_${subset}_${filterString}.txt`),
-                     Array.from(bundleNames).sort().join('\n'));
+                     Array.from(bundleNames).filter(e => e).sort().join('\n'));
 
     if (filterLabels) {
         const pathHashContainerMap = {};
@@ -117,6 +121,8 @@ function getCatalogResources(server, catalogJSON, platform='StandaloneWindows64'
         fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/container_to_path_hash.json`),
                          JSON.stringify(pathHashContainerMap, null, '\t'));
     }
+    const t1 = performance.now();
+    console.log(`  Finished extracting resource data in ${(t1-t0)/1000} seconds`);
 }
 
 /**
@@ -128,10 +134,25 @@ function validateServer(callerName, server) {
     if (!config.servers.includes(server)) throw new Error(`${callerName} was not provided a valid server ${server}. It must be one of: ${config.servers.join(', ')}`);
 }
 
-async function downloadCatalog(server, version, platform) {
+let catalogCache;
+async function downloadCatalog(server, version, platform, useCache=true) {
+    if (useCache && catalogCache) {
+        console.log(`Returning cached result for catalog from previous download`);
+        return catalogCache;
+    }
+
+    console.log(`Downloading catalog for ${server} ${platform} ${version}`);
+    const t0 = performance.now();
+
     const domain = server === 'Global' ? 'com' : 'jp';
     const url = `https://asset.resleriana.${domain}/asset/${version}/${platform}/catalog.json`;
-    return JSON.parse(await sendHttpRequest(url));
+    const result = JSON.parse(await sendHttpRequest(url));
+    
+    const t1 = performance.now();
+    console.log(`  Finished downloading catalog in ${(t1 - t0)/1000} seconds`)
+
+    if (useCache) catalogCache = result;
+    return result;
 }
 
 function sendHttpRequest(url) {

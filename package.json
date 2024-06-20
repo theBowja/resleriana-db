@@ -7,7 +7,9 @@
     "import": "cd import && node import.js",
     "updatealldata": "node auto/update.js",
     "extractImages": "node auto/scripts.js --script extractImages",
-    "textasset": "node auto/scripts.js --script textasset"
+    "textasset": "node auto/scripts.js --script textasset",
+    "extractBGM": "node auto/scripts.js --script extractBGM",
+    "extractVoice": "node auto/scripts.js --script extractVoice"
   },
   "author": "theBowja",
   "license": "MIT",

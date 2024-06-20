@@ -60,24 +60,31 @@ function generateContainerToPathHash(container_json, bundle_folder, output_json)
  * @param {string} filename_list if relative path, then it is relative to current working directory.
  * @param {string} image_format format of images to output in. either png or webp. defaults to webp
  * @param {string} regex regex to filter on file names.
+ * @param {string} bundlename_list if relative path, then it is relative to current working directory.
+ * @param {number} processes number of processes to use. defaults to cpu count.
  */
-function exportAssets(bundle_names, bundle_folder, asset_type, output_folder, filename_list=undefined, image_format=undefined, regex=undefined) {
+function exportAssets(bundle_names, bundle_folder, asset_type, output_folder=undefined,
+                    filename_list=undefined, image_format=undefined, regex=undefined, bundlename_list=undefined, processes=undefined) {
     const exePath = path.resolve(__dirname, `./UnityPyScripts/exportAssets.py`);
     bundle_names = path.resolve(process.cwd(), bundle_names);
     bundle_folder = path.resolve(process.cwd(), bundle_folder);
-    output_folder = path.resolve(process.cwd(), output_folder);
+    if (output_folder) output_folder = path.resolve(process.cwd(), output_folder);
     if (filename_list) filename_list = path.resolve(process.cwd(), filename_list);
+    if (bundlename_list) bundlename_list = path.resolve(process.cwd(), bundlename_list);
+    if (typeof processes !== 'number') processes = undefined;
 
     const args = [
         exePath,
         bundle_names,
         bundle_folder,
-        asset_type,
-        output_folder
+        asset_type
     ];
+    if (output_folder) args.push(output_folder);
     if (filename_list) args.push('--filename_list', filename_list);
     if (image_format) args.push('--image_format', image_format);
     if (regex) args.push('--regex', regex);
+    if (bundlename_list) args.push('--bundlename_list', bundlename_list);
+    if (processes) args.push('--processes', processes);
 
     execSync(`python`, args, { stdio: 'inherit' });
 }

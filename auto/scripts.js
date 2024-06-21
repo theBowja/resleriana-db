@@ -122,7 +122,7 @@ async function textAsset(server="Global", platform="StandaloneWindows64", versio
 
 // Export AudioClip to resources folder
 async function extractAudioClip(server="Global", platform="StandaloneWindows64", version=importconfig.fileassets_version[server], type='SoundSetting',
-    { redoCache=false, skipDownloads=false, processes=undefined, outputFolder=undefined, doNotWrite=false } = {}) {
+    { redoCache=false, skipDownloads=false, processes=undefined, outputFolder=undefined, doNotWrite=false, regexFilter=undefined } = {}) {
     console.log(`${server} | ${platform} | ${version} | ${type}`);
     console.log(`Script started: extractAudioClip`);
     const t0 = performance.now();
@@ -139,14 +139,14 @@ async function extractAudioClip(server="Global", platform="StandaloneWindows64",
     const bundleDir = path.resolve(__dirname, `../resources/${server}/${platform}/bundles`);
     if (doNotWrite) outputFolder = undefined;
     else if (outputFolder === undefined) outputFolder = path.resolve(__dirname, `../resources/${server}/${platform}/${type}`);
-    const filenamesPath = path.resolve(__dirname, `../resources/${server}/${platform}/filenames_all_${type.toLowerCase()}`);
+    const filenamesPath = path.resolve(__dirname, `../resources/${server}/${platform}/filenames_all_${type.toLowerCase()}.txt`);
     const cachedPath = path.resolve(__dirname, `../resources/${server}/${platform}/cache_${type.toLowerCase()}.json`);
 
     if (redoCache) {
         // Download the bundles
         tools.executeAtelierToolBundleDownload(server, platform, version, bundleDir, bundleNamesAllPath);
         // Extract resources from the bundles
-        tools.exportAssets(bundleNamesAllPath, bundleDir, 'AudioClip', outputFolder, filenamesPath, undefined, undefined, bundleNamesCachePath, processes);
+        tools.exportAssets(bundleNamesAllPath, bundleDir, 'AudioClip', outputFolder, filenamesPath, undefined, regexFilter, bundleNamesCachePath, processes);
     
     } else {
         // Make a new bundle list out of the cached previous result and the typed bundle names list

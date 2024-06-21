@@ -20,6 +20,7 @@ parser.add_argument("-p", "--processes", type=int, help="Number of processes to 
 args = parser.parse_args()
 
 counter = None
+total = None
 
 def unpack_assets(bundle_name: str):
     filenames = []
@@ -33,7 +34,7 @@ def unpack_assets(bundle_name: str):
         if obj.type.name == "AudioClip":
             clip = obj.read()
             for name, data in clip.samples.items():
-                if name.startswith('SE_'): # skip sound effect files
+                if name.startswith('SE_') or not validateRegex(name): # skip sound effect files
                     continue
                 if args.output_folder:
                     dest = os.path.join(args.output_folder, name)
@@ -71,7 +72,6 @@ def unpack_assets(bundle_name: str):
 
             filenames.append(data.name)
 
-            #print("Export progress: "+str(count), end="\r")
     logMultiCounter()
     return filenames
 
@@ -114,6 +114,7 @@ if __name__ == "__main__":
     print("Using " + str(processesNum) + " processes")
     print("This may take a long time")
     if processesNum == 1:
+        initProcess(counter, len(bundle_names))
         results = list(map(unpack_assets, bundle_names))
     else:
         results = multiprocessing.Pool(processes=processesNum, initializer=initProcess, initargs=(counter, len(bundle_names))).map(unpack_assets, bundle_names)

@@ -5852,6 +5852,48 @@
     "popup_text": ""
   },
   {
+    "description": "得意属性が火属性かつアタッカーの時、バーストスキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000770,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が火属性の時、カウンター攻撃を受けた時、自身に「クリティカルダメージアップ」を1回行動終了するまで付与",
+    "effect_motion_id": null,
+    "id": 6000771,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が火属性かつアタッカーの時、単体攻撃のスキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000772,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が火属性かつディフェンダーの時、受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000773,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が火属性かつディフェンダーの時、受けるHP回復量アップ",
+    "effect_motion_id": null,
+    "id": 6000774,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が火属性かつディフェンダーの時、味方全員の魔法攻撃スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000775,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "敵全体に「毒」を1回行動開始するまで高確率で付与",
     "effect_motion_id": null,
     "id": 6000776,
@@ -6590,6 +6632,20 @@
     "description": "敵の数が1体の時、ブレイクダメージ+{0}%",
     "effect_motion_id": null,
     "id": 13000205,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身が火属性の時、スキルダメージ+{}%",
+    "effect_motion_id": null,
+    "id": 13000206,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身が打属性の時、スキルダメージ+{}%",
+    "effect_motion_id": null,
+    "id": 13000207,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -8085,6 +8141,27 @@
     "popup_text": ""
   },
   {
+    "description": "[自身/カウンター無効]",
+    "effect_motion_id": null,
+    "id": 72001083,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "id": 72001084,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "[アイテムゲージ回復]",
+    "effect_motion_id": null,
+    "id": 72001085,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "[自身/1回/クリティカル率アップ]",
     "effect_motion_id": null,
     "id": 72001086,
@@ -8452,6 +8529,76 @@
     "description": "スキル対象のうち、アタッカーに与ダメージ低下(3回)を付与",
     "effect_motion_id": null,
     "id": 76093001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "スキル対象に回復無効を付与（2手番）",
+    "effect_motion_id": null,
+    "id": 76093002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "スキル対象に与ダメージダウンを付与（3回）",
+    "effect_motion_id": null,
+    "id": 76093003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "スキル対象に与ブレイクダメージダウンを付与（3回）",
+    "effect_motion_id": null,
+    "id": 76093004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "スキル対象に被ダメージアップを付与（2回）",
+    "effect_motion_id": null,
+    "id": 76093005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "スキル対象に回復無効を付与（4手番）",
+    "effect_motion_id": null,
+    "id": 76093006,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "スキル対象に与ダメージダウンを付与（6回）",
+    "effect_motion_id": null,
+    "id": 76093007,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "スキル対象に与ブレイクダメージダウンを付与（6回）",
+    "effect_motion_id": null,
+    "id": 76093008,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "スキル対象に被ダメージアップを付与（3回）",
+    "effect_motion_id": null,
+    "id": 76093009,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "スキル対象に与ダメージアップを付与（上限120%/永続）",
+    "effect_motion_id": null,
+    "id": 76110001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "味方全体の与ダメージアップ（上限120%/永続）",
+    "effect_motion_id": null,
+    "id": 76110002,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -9166,6 +9313,20 @@
     "description": "生存数3人以下の場合、被ダメージ増加",
     "effect_motion_id": null,
     "id": 86093003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "攻撃被弾時、自身に被ダメージアップを付与（上限160％/永続）",
+    "effect_motion_id": null,
+    "id": 86093005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "攻撃被弾時、自身に被ダメージアップを付与（上限300％/永続）",
+    "effect_motion_id": null,
+    "id": 86093006,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -11286,6 +11447,20 @@
   {
     "description": "",
     "effect_motion_id": null,
+    "id": 91001306,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001307,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
     "id": 91001310,
     "is_positive_popup": null,
     "popup_text": ""
@@ -12253,6 +12428,13 @@
     "description": "クリティカル攻撃時、ブレイクダメージアップ",
     "effect_motion_id": null,
     "id": 95000117,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が火属性の時、クリティカルダメージアップ",
+    "effect_motion_id": null,
+    "id": 95000118,
     "is_positive_popup": null,
     "popup_text": ""
   },

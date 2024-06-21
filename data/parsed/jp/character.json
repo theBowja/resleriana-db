@@ -6292,6 +6292,219 @@
     "start_at": "2024-04-01T12:00:00.000Z"
   },
   {
+    "id": 29702,
+    "name": "マリオン",
+    "title": "【Bullet of Ink】",
+    "full_name": "マリオン・クィン",
+    "base_character": "マリオン",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "FIRE",
+    "role": "DEFENDER",
+    "initial_rarity": 3,
+    "acquisition_text": "開発班のみんなに任せきりでもいけないわね\nここは私が一肌脱ぐわ！",
+    "profile": {
+      "voice_actor": "植田佳奈",
+      "voice_text": "元の世界では開発班の班長をしてたわ。\n仕事を抱え込むのは悪い癖ね",
+      "description": "異邦人の調査を行う働き者。\nザスキアからアトリエの管理も任されている。\n高い事務処理能力と強い忍耐力を持ち合わせているが故に、仕事がひっきりなしに舞い込んでくる。\n書類のインクですぐ腕が汚れるので、アームカバー付きのこの服は都合が良いらしい。",
+      "origin_game": "エスカ＆ロジーのアトリエ ～黄昏の空の錬金術士～"
+    },
+    "gift_color": {
+      "received": "青",
+      "given": "赤"
+    },
+    "battle_item_trait": [
+      {
+        "id": 17,
+        "name": "魔力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "name": "破壊力上昇",
+        "category": "ATTACK",
+        "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 35,
+        "name": "魔法耐性上昇【渾身】",
+        "category": "ENHANCE",
+        "description": "HP満タン時、受ける魔法攻撃のダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000104,
+            "description": "HPが最大の時、魔法属性ダメージ耐性{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 180,
+        "spd": 256,
+        "patk": 46,
+        "matk": 50,
+        "pdef": 68,
+        "mdef": 68
+      },
+      "growth": {
+        "hp": 1800,
+        "spd": 0,
+        "patk": 460,
+        "matk": 500,
+        "pdef": 680,
+        "mdef": 680
+      },
+      "resistance": {
+        "fire": 5,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "ローテンマグナム",
+      "description": "攻撃後、自身に「物防・魔防+{0}%」を1回攻撃を受けるまで付与",
+      "summary": "攻撃後、自身にステータスアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001019,
+          "description": "物防アップ(1回)",
+          "value": 1500
+        },
+        {
+          "id": 91001021,
+          "description": "魔防アップ(1回)",
+          "value": 1500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [45, 47, 50, 53, 56],
+      "has_stun": true,
+      "stun_values": [5, 5, 5, 5, 6],
+      "has_recovery": false,
+      "wait": 75
+    },
+    "skill_2": {
+      "name": "スイングバレット",
+      "description": "攻撃後、アイテムゲージを{0}%回復し、<br>自身に「受けるダメージ-{1}%」を2回攻撃を受けるまで付与",
+      "summary": "攻撃後、アイテムゲージを回復<br>自身の受けるダメージダウン",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91002004,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91000997,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [182, 193, 204, 215, 227],
+      "has_stun": true,
+      "stun_values": [25, 26, 28, 29, 31],
+      "has_recovery": false,
+      "wait": 175
+    },
+    "burst": {
+      "name": "アラウンドアサルト",
+      "description": "攻撃前、自身のマイナス効果を解除し、<br>攻撃後、アイテムゲージを{0}%回復し、<br>自身に「受けるダメージ-{1}%」を2回攻撃を受けるまで付与",
+      "summary": "攻撃前、自身のマイナス効果を解除。攻撃後、アイテムゲージを回復し、自身の受けるダメージダウン",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91002004,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91000997,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001007,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "反撃への布石",
+      "description": "敵にとても狙われやすくなる<br>攻撃を受けた時、アイテムゲージを{0}%回復",
+      "effects": [
+        {
+          "id": 72001085,
+          "description": "[アイテムゲージ回復]",
+          "value": 500
+        },
+        {
+          "id": 72000914,
+          "description": "狙われやすさ+100％",
+          "value": 10000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "班長の回復術",
+      "description": "パーティの誰かが戦闘アイテム使用後、自身のHPを{0}%回復<br>※アイテムを複数同時に使用しても発動は1回",
+      "effects": [
+        {
+          "id": 72000950,
+          "description": "[自身/HP回復]",
+          "value": 1500
+        }
+      ]
+    },
+    "start_at": "2024-06-21T03:00:00.000Z"
+  },
+  {
     "id": 29801,
     "name": "オディーリア",
     "title": "【古の機械人形】",
@@ -7086,6 +7299,204 @@
       ]
     },
     "start_at": "2024-02-09T03:00:00.000Z"
+  },
+  {
+    "id": 30903,
+    "name": "エスカ",
+    "title": "【Challenging Worker】",
+    "full_name": "エスカ・メーリエ",
+    "base_character": "エスカ",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "FIRE",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "お仕事のご依頼ですか？\nはい！ わたしにぜひお任せください！",
+    "profile": {
+      "voice_actor": "村川梨衣",
+      "voice_text": "この服を着ていると身が引き締まる思いが\nします。期待に応えられるよう頑張ります！",
+      "description": "健気で頑張り屋な錬金術士。\n元の世界では役人で、マリオンの部下だった。\n今でも何かとマリオンから頼みごとをされることが多い。\n書類仕事は苦手だが、マリオンが用意してくれたこの服を着ている時はいつもより少しは捗るとのこと。",
+      "origin_game": "エスカ＆ロジーのアトリエ ～黄昏の空の錬金術士～"
+    },
+    "gift_color": {
+      "received": "黄",
+      "given": "紫"
+    },
+    "battle_item_trait": [
+      {
+        "id": 18,
+        "name": "火の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "name": "使い切り攻撃強化",
+        "category": "ATTACK",
+        "description": "使用回数が1回の時、ダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000108,
+            "description": "使用回数が1回の時、ダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 28,
+        "name": "全体攻撃威力上昇",
+        "category": "ATTACK",
+        "description": "全体攻撃のスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000110,
+            "description": "全体攻撃のスキル威力{0}％アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 142,
+        "spd": 244,
+        "patk": 57,
+        "matk": 64,
+        "pdef": 52,
+        "mdef": 48
+      },
+      "growth": {
+        "hp": 1420,
+        "spd": 0,
+        "patk": 570,
+        "matk": 640,
+        "pdef": 520,
+        "mdef": 480
+      },
+      "resistance": {
+        "fire": 5,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "エーテルボム",
+      "description": "攻撃前、自身に「クリティカル確率+{0}%」を付与(上限100%)",
+      "summary": "攻撃前、自身のクリティカル確率アップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001306,
+          "description": "",
+          "value": 2500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [68, 72, 76, 80, 85],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "コンバットマナー",
+      "description": "この攻撃のクリティカルダメージ+{0}%<br>対象を撃破時、自身の次のパネルをバーストパネルに変換(空パネルの時は生成)",
+      "summary": "この攻撃のクリティカルダメージアップ。対象を撃破時、自身の次のパネルをバーストパネルに変換",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000904,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001307,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [235, 249, 264, 278, 293],
+      "has_stun": true,
+      "stun_values": [28, 29, 31, 33, 35],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "プロミスドシード",
+      "description": "この攻撃のクリティカルダメージ+{0}%<br>攻撃後、自身の次のパネルがバーストパネルでない時、強化+パネルに変換(空パネルの時は生成)",
+      "summary": "この攻撃のクリティカルダメージアップ。攻撃後、自身の一部パネルを除いた次のパネルを強化+パネルに変換",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91000904,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001253,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "仕返しシャットアウト",
+      "description": "カウンター攻撃から受けるダメージを無効",
+      "effects": [
+        {
+          "id": 72001083,
+          "description": "[自身/カウンター無効]",
+          "value": 0
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "パネルアッププラスⅢ",
+      "description": "プラスパネルから受ける効果量+{0}%",
+      "effects": [
+        {
+          "id": 72001045,
+          "description": "state_change用",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2024-06-21T03:00:00.000Z"
   },
   {
     "id": 31001,

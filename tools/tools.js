@@ -53,18 +53,30 @@ function generateContainerToPathHash(container_json, bundle_folder, output_json)
 
 /**
  * Executes the python script to extract assets. Requires Python3.7+ and UnityPy1.10.7+ to be installed.
- * @param {string} [bundle_names] if relative path, then it is relative to current working directory.
+ * @param {string} bundle_names if relative path, then it is relative to current working directory.
  * @param {string} bundle_folder if relative path, then it is relative to current working directory.
  * @param {string} asset_type listed in import/config.json under resources property.
- * @param {string} output_folder if relative path, then it is relative to current working directory.
- * @param {string} filename_list if relative path, then it is relative to current working directory.
- * @param {string} image_format format of images to output in. either png or webp. defaults to webp
- * @param {string} regex regex to filter on file names.
- * @param {string} bundlename_list if relative path, then it is relative to current working directory.
- * @param {number} processes number of processes to use. defaults to cpu count.
+ * @param {object} [args] optional extra arguments
+ * @param {string} [args.output_folder] if relative path, then it is relative to current working directory.
+ * @param {string} [args.filename_list] if relative path, then it is relative to current working directory.
+ * @param {string} [args.image_format] format of images to output in. either png or webp. defaults to webp
+ * @param {string} [args.regex] regex to filter on file names.
+ * @param {string} [args.bundlename_list] if relative path, then it is relative to current working directory.
+ * @param {number} [args.processes] number of processes to use. defaults to cpu count.
  */
-function exportAssets(bundle_names, bundle_folder, asset_type, output_folder=undefined,
-                    filename_list=undefined, image_format=undefined, regex=undefined, bundlename_list=undefined, processes=undefined) {
+function exportAssets(
+    bundle_names,
+    bundle_folder,
+    asset_type, 
+    {
+        output_folder=undefined,
+        filename_list=undefined,
+        image_format=undefined,
+        regex=undefined,
+        bundlename_list=undefined,
+        processes=undefined
+    } = {}
+) {
     const exePath = path.resolve(__dirname, `./UnityPyScripts/exportAssets.py`);
     bundle_names = path.resolve(process.cwd(), bundle_names);
     bundle_folder = path.resolve(process.cwd(), bundle_folder);

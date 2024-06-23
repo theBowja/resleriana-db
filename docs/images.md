@@ -2,100 +2,58 @@
 
 Prerequisite: [Set up local environment](../README.md#local-development).  
 
-You can use the `extractImages` npm run-script to extract all images. TODO describe what it does. it downloads. This run-script can be configured with various options.
+This npm run-script helps download Unity Asset bundles and extracts images from them.
 
-Example:
+|  Run-script | Type | Unity | Description |
+|---|---|---|---|
+| `extractImages` | Image | Texture2D | Extracts images |
+
+Proper argument parsing requires prepending the arguments list with the `--%` stop-parsing token and enclosing strings in quotation marks. An *additional* `--` separator is needed before you can pass optional arguments into npm run-scripts.
+
+Usages:
 ```powershell
-npm run extractImages --% -- --imagesOutputFolder "../MyReslerApp/images" --regex "(^STL_P_.*)|(^equipment_.*)|(^battle_tool.*)"
+npm run extractImages
+npm run extractImages --% -- --[OPTION1] [VALUE1] ...
 ```
 
-Optional arguments:
-- [--server](#server)
-- [--platform](#platform)
-- [--imagesOutputFolder](#imagesoutputfolder)
-- [--imageFormat](#imageformat)
-- [--skipDownloads](#skipdownloads)
-- [--regex](#regex)
+| Option | Description | Default Value |
+|--------|-------------|---------------|
+| `--server` | Specifies the server to download Unity bundles from ("Global" or "Japan") | "Global" |
+| `--platform` | Selects the platform to download bundles from ("StandaloneWindows64", "Android", or "iOS") | "StandaloneWindows64" |
+| `--imageFormat` | Selects the format for converting extracted images ("png" or "webp") | "webp" |
+| `--outputFolder` | Folder where the extracted image files will be written to (default folder depends on server/platform) | "./resources/[server]/[platform]/Texture2D" |
+| `--skipOutputFolder` | Skip writing image files (useful for testing regex filters without writing files) | `false` |
+| `--skipDownloads` | Skip downloading the catalog and bundles (useful if they're already downloaded by previous script execution) | `false` |
+| `--processes` | Sets the number of processes for parallel asset extraction (utilizes python multiprocessing) | `os.cpu_count() - 1` |
+| `--regex` | Applies a regular expression to filenames to filter which image files get written into the output folder | No filter |
 
-### --server
 
-Which server to download Unity bundles from.
-
-Options: "Global" and "Japan"  
-Default: "Global"
-
-Example:
-```powershell
-npm run extractImages --% -- --server "Japan"
-```
-
-### --platform
-
-Which platform to download Unity bundles from.
-
-Options: "StandaloneWindows64", "Android", and "iOS"  
-Default: "StandaloneWindows64"
-
-The images from "StandaloneWindows64" will be of noticeable higher quality than images from the mobile platforms.
+### Examples
 
 ```powershell
-npm run extractImages --% -- --platform "Android"
+npm run extractImages --% -- --outputFolder "../MyReslerApp/images" --regex "(^STL_P_.*)|(^equipment_.*)|(^battle_tool.*)"
 ```
 
-### --imagesOutputFolder
+### Image Format
 
-Path to the folder where the images will be outputted.
-
-Default: "./resources/[server]/[platform]/Texture2D"
-
- If it is a relative path, then it will be relative to the current working directory.
-
-```powershell
-npm run extractImages --% -- --imagesOutputFolder "./path/to/wherever"
-```
-
-### --imageFormat
-
-Format of the image to convert to.
-
-Options: "png" and "webp"  
-Default: "webp"
-
-Assets inside Unity bundles are in a compressed format like BC7. They are decompressed into RGBA before being converted into a more common format. This conversion step can be time-consuming, especially for large batches of images. Processing over 2,000 images might take more than a minute.
+Assets inside Unity bundles are in a compressed format like BC7. They are decompressed into RGBA before being converted into a more common format. With a large number of images (>2,000), this conversion step can be time-consuming.
 
 Currently, png images are double the size of webp images. Webp images will go through lossy conversion. You can change the quality of the conversion by modifying the python script at `./tools/UnityPyScripts/exportAssets.py`.
 
-```powershell
-npm run extractImages --% -- --imageFormat "png"
-```
+### Testing Regex Filters
 
-### --skipDownloads
+You can test your regex against the complete list of filenames found in these files:
+- [/resources/Global/StandaloneWindows64/filenames_all_texture2d.txt](../resources/Global/StandaloneWindows64/filenames_all_texture2d.txt)
+- [/resources/Japan/StandaloneWindows64/filenames_all_texture2d.txt](../resources/Japan/StandaloneWindows64/filenames_all_texture2d.txt)
 
-Whether or not to skip downloading the catalog and bundles.
-
-Default: false
-
-This is useful for saving time if you've already downloaded the catalog and bundles from running the command previously and know that the game has not been updated since. The script downloads the catalog in order to create a list of Unity bundles that contain Texture2D assets. This is list is saved in the file: `./resources/[server]/[platform]/bundlenames_all_texture2d.txt`. The bundles are then downloaded into the folder: `./resources/[server]/[platform]/bundles`.
+Or you can directly run the script and check the updated filenames list on your local file system:
 
 ```powershell
-npm run extractImages --% -- --skipDownloads
+npm run extractImages --% -- --regex "^equipment_tool.*" --skipOutputFolder
 ```
-
-### --regex
-
-Regex on image name to filter which image to save.
-
-Default: no regex filter
-
-If you are running the command in PowerShell (and maybe others), you will need to prepend the stop-parsing token (`--%`) to the arguments list and add quotes around the regex in order for regex to be passed successfully into the script. Otherwise, characters like '^' will be stripped out.
-
-You can test your regex on the entire list of image names found at `./resources/Global/StandaloneWindows64/filenames_all_texture2d.txt`. The image names for Global/StandaloneWindows64 and Japan/StandaloneWindows64 will be updated in the repository consistently (hopefully).
 
 Sample regex:
 - `^equipment_tool.*` - Large, medium, and small icons for equipments.
 - `^STL_P_.*_mini` - Chibi images from the Ryza's Challenge event.
-- TODO: please help contribute
 
-```powershell
-npm run extractImages --% -- --regex "(^STL_P_.*)|(^equipment_.*)|(^battle_tool.*)"
-```
+Contribute your own regex examples by opening a pull request or sending a message to me on Discord.

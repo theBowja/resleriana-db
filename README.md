@@ -4,7 +4,7 @@ This repository provides easy access to all the resources required for creating 
 
 Provided from repository, web API, and npm package:
 - masterdata data (contains game data)
-- parsed data (contains curated data from masterdata)
+- parsed data (contains curated data from masterdata) (UNMAINTAINED)
 - TextAsset data (contains story dialogue, SystemText, etc.)
 
 Provided from repository:
@@ -96,6 +96,8 @@ This dataset contains the original data directly used in the game.
 
 ### parsed
 
+UNMAINTAINED
+
 This dataset contains files and data properties curated from the master data.
 
 ## Get data
@@ -120,7 +122,9 @@ Documentation for these functions can be found in the [next section](#from-npm-p
 
 ### From npm package
 
-JSON data for master, parsed, and TextAsset can be downloaded as an npm package for your JavaScript project. The size of the JSONs combined is 70MB+ or 5MB+ compressed. Please refrain from loading the entire package directly into your HTML because that will directly ruin your loading times.
+UNIMPLEMENTED
+
+JSON data for master and parsed can be downloaded as an npm package for your JavaScript project. The size of the JSONs combined is 70MB+ or 5MB+ compressed. Please refrain from loading the entire package directly into your HTML because that will directly ruin your loading times.
 
 ```
 PACKAGE ISN'T PUBLISHED AND DOESN'T EXIST YET
@@ -237,7 +241,6 @@ Helpers are wanted for making sure the versions are updated in a timely manner. 
 5. Copy the entire URL and extract only the version part
 6. Turn off Fiddler capturing traffic
 
-
 ### fileassets version
 
 1. Open Steam version of Atelier Resleriana
@@ -246,3 +249,4 @@ Helpers are wanted for making sure the versions are updated in a timely manner. 
     - Manage -> Browse local files
 4. Go into the folder `AtelierResleriana_Data\ABCache\content_catalogs`
 5. Copy the name of the catalog file and remove the `_catalog.json` at the end
+

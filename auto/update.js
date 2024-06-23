@@ -14,6 +14,7 @@ const catalog = require('../import/catalog.js');
 const tools = require('../tools/tools.js');
 const unpackTextAssets = require('../import/unpackTextAssets.js');
 const changelog = require('./changelog.js');
+const extract = require('./extract.js');
 
 const autoconfig = require('./config.json');
 const importconfig = require('../import/config.json');
@@ -111,13 +112,13 @@ async function checkFileassets(server, skipCheck=false, uploadImages=false) {
         console.log(`${server}: Exporting TextAsset to data...`);
         const textAssetByteDir = path.resolve(__dirname, `../resources/${server}/${platform}/TextAssetBytes`);
         const textAssetDir = path.resolve(__dirname, `../resources/${server}/TextAsset`);
-        tools.exportAssets(bundleNamesTextAsset, bundleDir, 'TextAsset', textAssetByteDir);
+        tools.exportAssets(bundleNamesTextAsset, bundleDir, 'TextAsset', { output_folder: textAssetByteDir });
         unpackTextAssets.unpackFolder(textAssetByteDir, textAssetDir, true);
         importer.updateFileList([server]);
 
-        // Update images for Cloudinary
+        // Update images and upload them to Cloudinary
         if (uploadImages) {
-            await updateImages(server, version, catalogJSON);
+            await updateImages(server, version);
         }
 
         // console.log(`Deleting downloaded bundles ${server}`);
@@ -141,29 +142,23 @@ async function checkFileassets(server, skipCheck=false, uploadImages=false) {
  * @param {string} server 
  * @param {object} catalogJSON 
  */
-async function updateImages(server, version, catalogJSON) {
+async function updateImages(server, version) {
     const platform = 'StandaloneWindows64'; // has better quality images
     fs.mkdirSync(path.resolve(__dirname, `../resources/${server}/${platform}`), { recursive: true });
 
-    // Initialize all paths
-    const bundleDir = path.resolve(__dirname, `../resources/${server}/${platform}/bundles`);
-    const bundleNamesTexture2D = path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames_all_texture2d.txt`);
+    // Variables
     const output_resources = path.resolve(__dirname, `../resources/${server}/${platform}/Texture2D`);
     const image_names_path = path.resolve(__dirname, `../resources/${server}/${platform}/filenames_all_texture2d.txt`);
 
-    // Get list of all bundle names with Texture2D
-    catalog.getCatalogResources(server, catalogJSON, platform, 'Texture2D');
+    extract.extractImages(server, platform, version,
+        { imageFormat: 'webp', output_folder: output_resources, filename_list: image_names_path });
 
-    // Download all Texture2D bundles
-    tools.executeAtelierToolBundleDownload(server, platform, version, bundleDir, bundleNamesTexture2D);
-
-    // Unpack images and lossy compress to webp. Write image names
-    tools.exportAssets(bundleNamesTexture2D, bundleDir, 'Texture2D', output_resources, image_names_path);
-
+    // Variables
     const imageNames = getListFromFile(image_names_path);
     const name_to_path_hash = objectSwap(require(`../resources/${server}/path_hash_to_name.json`));
     const uploadFolder = `${server}/${platform}`;
 
+    // Upload to Cloudinary
     console.log('Uploading images to Cloudinary...');
     console.log('This may take a very long time if there are a lot of new images...');
     let count = 0;

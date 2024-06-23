@@ -6,10 +6,10 @@
   "scripts": {
     "import": "cd import && node import.js",
     "updatealldata": "node auto/update.js",
-    "extractImages": "node auto/scripts.js --script extractImages",
-    "textasset": "node auto/scripts.js --script textasset",
-    "extractBGM": "node auto/scripts.js --script extractBGM",
-    "extractVoice": "node auto/scripts.js --script extractVoice"
+    "extractImages": "node auto/runscripts.js --script extractImages",
+    "textasset": "node auto/runscripts.js --script textasset",
+    "extractBGM": "node auto/runscripts.js --script extractBGM",
+    "extractVoice": "node auto/runscripts.js --script extractVoice"
   },
   "author": "theBowja",
   "license": "MIT",

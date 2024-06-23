@@ -2,95 +2,49 @@
 
 Prerequisite: [Set up local environment](../README.md#local-development).  
 
-There are two different kinds of AudioClips:
-- BGM (background music)
-- Voice (voicelines for main story quest)
+These npm run-scripts helps download Unity Asset bundles and extracts audio clips (BGM and voice lines) from them.
 
-You can use the `extractBGM` or `extractVoice` npm run-script to extract those audio files
+|  Run-script | Type | Unity | Description |
+|---|---|---|---|
+| `extractBGM` | BGM | SoundSetting | Extracts background music |
+| `extractVoice` | Voice | VoiceSetScriptableObject | Extracts voice lines for the main story quest |
 
-Example:
+Proper argument parsing requires prepending the arguments list with the `--%` stop-parsing token and enclosing strings in quotation marks. An *additional* `--` separator is needed before you can pass optional arguments into npm run-scripts.
+
+Usages:
 ```powershell
-npm run extractBGM --% -- --outputFolder "../MyReslerApp/BGM"
+npm run extractBGM
+npm run extractBGM --% -- --[OPTION1] [VALUE1] ...
+npm run extractVoice
+npm run extractVoice --% -- --[OPTION1] [VALUE1] ...
 ```
 
-Optional arguments:
-- [--server](#server)
-- [--platform](#platform)
-- [--outputFolder](#outputfolder)
-- [--doNotWrite](#donotwrite)
-- [--processes](#processes)
-- [--regex](#regex)
+| Option | Description | Default Value |
+|--------|-------------|---------------|
+| `--server` | Specifies the server to download Unity bundles from ("Global" or "Japan") | "Global" |
+| `--platform` | Selects the platform to download bundles from ("StandaloneWindows64", "Android", or "iOS") | "StandaloneWindows64" |
+| `--outputFolder` | Folder where the extracted audio files will be written to (default folder depends on audio clip type and server/platform) | BGM: "/resources/[server]/[platform]/SoundSetting"<br>Voice: "/resources/[server]/[platform]/VoiceSetScriptableObject" |
+| `--skipOutputFolder` | Skip writing audio files (useful for testing regex filters without writing files) | `false` |
+| `--processes` | Sets the number of processes for parallel asset extraction (utilizes python multiprocessing) | `os.cpu_count() - 1` |
+| `--regex` | Applies a regular expression to filenames to filter which audio files get written into the output folder | No filter |
 
-### --server
+### Examples
 
-Which server to download Unity bundles from.
-
-Options: "Global" and "Japan"  
-Default: "Global"
-
-Example:
 ```powershell
-npm run extractBGM --% -- --server "Japan"
+npm run extractBGM --% -- --outputFolder "../MyResleriApp/BGM"
 ```
 
-### --platform
+### Testing Regex Filters
 
-Which platform to download Unity bundles from.
+You can test your regex against the complete list of filenames found in these files:
+- [/resources/Global/StandaloneWindows64/filenames_all_soundsetting.txt](../resources/Global/StandaloneWindows64/filenames_all_soundsetting.txt) (BGM)
+- [/resources/Global/StandaloneWindows64/filenames_all_voicesetscriptableobject.txt](../resources/Global/StandaloneWindows64/filenames_all_voicesetscriptableobject.txt) (Voice)
+- [/resources/Japan/StandaloneWindows64/filenames_all_soundsetting.txt](../resources/Japan/StandaloneWindows64/filenames_all_soundsetting.txt) (BGM)
+- [/resources/Japan/StandaloneWindows64/filenames_all_voicesetscriptableobject.txt](../resources/Japan/StandaloneWindows64/filenames_all_voicesetscriptableobject.txt) (Voice)
 
-Options: "StandaloneWindows64", "Android", and "iOS"  
-Default: "StandaloneWindows64"
-
-```powershell
-npm run extractBGM --% -- --platform "Android"
-```
-
-### --outputFolder
-
-Path to the folder where the audio files will be outputted.
-
-Default: "./resources/[server]/[platform]/SoundSetting" for BGM; "./resources/[server]/[platform]/VoiceSetScriptableObject" for voicelines
+Or you can directly run the script and check the updated filenames list on your local file system:
 
 ```powershell
-npm run extractBGM --% -- --outputFolder "../MyReslerApp/BGM"
-```
-
-### --doNotWrite
-
-Flag to prevent writing audio files. The option `--outputFolder` will be ignored if this flag is on. 
-
-This can be useful if you add a regex filter and want to re-generate the list of filenames without writing the audio files again. It should reduce the time it takes to run the script drastically.
-
-Default: false
-
-```powershell
-npm run extractBGM --% -- --doNotWrite
-```
-
-### --processes
-
-Number of processes to use for extracting assets from bundles.
-
-The python extractor uses the multiprocessing library to speed up extracting assets and writing files. The time the script takes to finish executing is reduced linearly for each extra processor added.
-
-Default: os.cpu_count() - 1
-
-```powershell
-npm run extractBGM --% -- --processes 4
-```
-
-### --regex
-
-Regex on file name to filter which asset to save.
-
-Default: no regex filter
-
-You can test your regex on the entire list of files names found at:
-- [/resources/Global/StandaloneWindows64/filenames_all_soundsetting.txt](../resources/Global/StandaloneWindows64/filenames_all_soundsetting.txt)
-- [/resources/Global/StandaloneWindows64/bundlenames_cache_voicesetscriptableobject.txt](../resources/Global/StandaloneWindows64/bundlenames_cache_voicesetscriptableobject.txt)
-- [/resources/Japan/StandaloneWindows64/filenames_all_soundsetting.txt](../resources/Japan/StandaloneWindows64/filenames_all_soundsetting.txt)
-- [/resources/Japan/StandaloneWindows64/bundlenames_cache_voicesetscriptableobject.txt](../resources/Japan/StandaloneWindows64/bundlenames_cache_voicesetscriptableobject.txt)
-
-```powershell
-npm run extractBGM --% -- --regex "(^BGM.*_SONG_.*)"
+npm run extractBGM --% -- --regex "(^BGM.*_SONG_.*)" --skipOutputFolder
 ```
 

@@ -9,7 +9,7 @@ const unpackTextAssets = require('../import/unpackTextAssets.js');
 
 const importconfig = require('../import/config.json');
 
-module.exports = { extractImages, textAsset, extractAudioClip };
+module.exports = { extractImages, extractTextAsset, extractAudioClip };
 
 async function extractImages(server="Global", platform="StandaloneWindows64", version=importconfig.fileassets_version[server],
     {
@@ -47,19 +47,32 @@ async function extractImages(server="Global", platform="StandaloneWindows64", ve
 }
 
 // Export TextAsset to resources folder
-async function textAsset(server="Global", platform="StandaloneWindows64", version=importconfig.fileassets_version[server]) {
-    console.log(`${server}: Exporting TextAsset to data...`);
+async function extractTextAsset(server="Global", platform="Android", version=importconfig.fileassets_version[server],
+    {
+        outputFolder=undefined,
+        processes=undefined
+    } = {}
+) {
+    console.log(`${server} | ${platform} | ${version}`);
+    console.log(`Script started: extractTextAsset`);
+    const t0 = performance.now();
+
+    // Download catalog
     const catalogJSON = await catalog.getCatalogFromDownload(server, version, platform);
     catalog.getCatalogResources(server, catalogJSON, platform, 'TextAsset');
 
+    // Variables
     const bundleDir = path.resolve(__dirname, `../resources/${server}/${platform}/bundles`);
     const bundleNamesTextAsset = path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames_all_textasset.txt`);
-    tools.executeAtelierToolBundleDownload(server, platform, version, bundleDir, bundleNamesTextAsset);
-
     const textAssetByteDir = path.resolve(__dirname, `../resources/${server}/${platform}/TextAssetBytes`);
-    const textAssetDir = path.resolve(__dirname, `../resources/${server}/TextAsset`);
-    tools.exportAssets(bundleNamesTextAsset, bundleDir, 'TextAsset', { output_folder: textAssetByteDir });
-    unpackTextAssets.unpackFolder(textAssetByteDir, textAssetDir, true);
+    if (outputFolder === undefined) outputFolder = path.resolve(__dirname, `../resources/${server}/TextAsset`);
+
+    tools.executeAtelierToolBundleDownload(server, platform, version, bundleDir, bundleNamesTextAsset);
+    tools.exportAssets(bundleNamesTextAsset, bundleDir, 'TextAsset', { output_folder: textAssetByteDir, processes: processes });
+    unpackTextAssets.unpackFolder(textAssetByteDir, outputFolder, true);
+
+    const t1 = performance.now();
+    console.log(`Completed script extractTextAsset in ${(t1-t0)/1000} seconds`)
 }
 
 // Export AudioClip to resources folder

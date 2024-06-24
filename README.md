@@ -25,9 +25,6 @@ Provided from Cloudinary CDN:
   - [from npm package](#from-npm-package)
   - [from web API](#from-web-api)
 - [Extract resources](#extract-resources)
-  - [Texture2D](#extract-texture2d)
-  - [AudioClip](#extract-audioclip)
-  - [VideoClip](#extract-videoclip)
 - [Preview](#preview)
 - [Contributing](#contributing)
 
@@ -167,52 +164,13 @@ See [docs/api.md](./docs/api.md)
 
 This repository provides npm run-scripts for extracting the following UnityAssets: Texture2D, Sprite, AudioClip, VideoClip.
 
-### Extract Texture2D
-
-This script can be used to download and extract images used in the game.
-
-See [docs/images.md](./docs/images.md) for detailed documentation.
-
-The list of Unity bundles downloaded is located in the /resources folder in the **bundlenames_all_texture2d.txt** file.  
-The list of extracted image names is located in the /resources folder in the **filenames_all_texture2d.txt** file.  
-The mapping of masterdata image hashes to image names is located in the /resources folder in the **path_hash_to_name.json** file.  
-
-The following files are automatically updated after every version update:
-- [/resources/Global/StandaloneWindows64/bundlenames_all_texture2d.txt](./resources/Global/StandaloneWindows64/bundlenames_all_texture2d.txt)
-- [/resources/Global/StandaloneWindows64/filenames_all_texture2d.txt](./resources/Global/StandaloneWindows64/filenames_all_texture2d.txt)
-- [/resources/Global/path_hash_to_name.txt](./resources/Global/path_hash_to_name.txt)
-- [/resources/Japan/StandaloneWindows64/bundlenames_all_texture2d.txt](./resources/Japan/StandaloneWindows64/bundlenames_all_texture2d.txt)
-- [/resources/Japan/StandaloneWindows64/filenames_all_texture2d.txt](./resources/Japan/StandaloneWindows64/filenames_all_texture2d.txt)
-- [/resources/Japan/path_hash_to_name.txt](./resources/Japan/path_hash_to_name.txt)
-
-### Extract AudioClip
-
-There are two different kinds of AudioClips:
-- BGM (background music)
-- Voice (voicelines for main story quest)
-
-This script can be used to download and extract either BGM or Voicelines used in the game.
-
-See [docs/audio.md](./docs/audio.md) for detailed documentation.
-
-The list of Unity bundles downloaded for BGM is located in the /resources folder in the **bundlenames_cache_soundsetting.txt** file.  
-The list of Unity bundles downloaded for Voicelines is located in the /resources folder in the **bundlenames_cache_voicesetscriptableobject.txt** file.  
-The list of extracted BGM filenames is located in the /resources folder in the **filenames_all_soundsetting.txt** file.  
-The list of extracted Voiceline filenames is located in the /resources folder in the **filenames_all_voicesetscriptableobject.txt** file.  
-
-The following files are automatically updated after every version update:
-- [/resources/Global/StandaloneWindows64/bundlenames_cache_soundsetting.txt](./resources/Global/StandaloneWindows64/bundlenames_cache_soundsetting.txt)
-- [/resources/Global/StandaloneWindows64/bundlenames_cache_voicesetscriptableobject.txt](./resources/Global/StandaloneWindows64/bundlenames_cache_voicesetscriptableobject.txt)
-- [/resources/Global/StandaloneWindows64/filenames_all_soundsetting.txt](./resources/Global/StandaloneWindows64/filenames_all_soundsetting.txt)
-- [/resources/Global/StandaloneWindows64/filenames_all_voicesetscriptableobject.txt](./resources/Global/StandaloneWindows64/filenames_all_voicesetscriptableobject.txt)
-- [/resources/Japan/StandaloneWindows64/bundlenames_cache_soundsetting.txt](./resources/Japan/StandaloneWindows64/bundlenames_cache_soundsetting.txt)
-- [/resources/Japan/StandaloneWindows64/bundlenames_cache_voicesetscriptableobject.txt](./resources/Japan/StandaloneWindows64/bundlenames_cache_voicesetscriptableobject.txt)
-- [/resources/Japan/StandaloneWindows64/filenames_all_soundsetting.txt](./resources/Japan/StandaloneWindows64/filenames_all_soundsetting.txt)
-- [/resources/Japan/StandaloneWindows64/filenames_all_voicesetscriptableobject.txt](./resources/Japan/StandaloneWindows64/filenames_all_voicesetscriptableobject.txt)
-
-### Extract VideoClip
-
-TODO
+| Run-script | Description | Documentation|
+|---|---|---|
+| `extractImages` | Extracts images | [/docs/images.md](./docs/images.md) |
+| `extractText` | Extracts story dialogue and system text | [/docs/text.md](./docs/text.md) |
+| `extractBGM` | Extracts background music | [/docs/audio.md](./docs/audio.md) |
+| `extractVoice` | Extracts voice lines from the main story quest | [/docs/audio.md](./docs/audio.md) |
+| `extractVideo` | TODO | TODO |
 
 ## Preview
 

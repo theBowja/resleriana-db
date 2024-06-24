@@ -52,8 +52,8 @@ async function main() {
             await extract.extractImages(argv.server, argv.platform, argv.version, argv);
             break;
 
-        case 'textasset':
-            await extract.textAsset(argv.server, argv.platform, argv.version);
+        case 'extracttext':
+            await extract.extractTextAsset(argv.server, argv.platform, argv.version, argv);
             break;
 
         case 'extractbgm':

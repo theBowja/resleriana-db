@@ -47,4 +47,19 @@ Or you can directly run the script and check the updated filenames list on your 
 ```powershell
 npm run extractBGM --% -- --regex "(^BGM.*_SONG_.*)" --skipOutputFolder
 ```
+### Misc Files
 
+The list of Unity bundles downloaded for BGM is located in the /resources folder in the **bundlenames_cache_soundsetting.txt** file.  
+The list of Unity bundles downloaded for Voicelines is located in the /resources folder in the **bundlenames_cache_voicesetscriptableobject.txt** file.  
+The list of extracted BGM filenames is located in the /resources folder in the **filenames_all_soundsetting.txt** file.  
+The list of extracted Voiceline filenames is located in the /resources folder in the **filenames_all_voicesetscriptableobject.txt** file.  
+
+The following files are automatically updated after every version update:
+- [/resources/Global/StandaloneWindows64/bundlenames_cache_soundsetting.txt](./resources/Global/StandaloneWindows64/bundlenames_cache_soundsetting.txt)
+- [/resources/Global/StandaloneWindows64/bundlenames_cache_voicesetscriptableobject.txt](./resources/Global/StandaloneWindows64/bundlenames_cache_voicesetscriptableobject.txt)
+- [/resources/Global/StandaloneWindows64/filenames_all_soundsetting.txt](./resources/Global/StandaloneWindows64/filenames_all_soundsetting.txt)
+- [/resources/Global/StandaloneWindows64/filenames_all_voicesetscriptableobject.txt](./resources/Global/StandaloneWindows64/filenames_all_voicesetscriptableobject.txt)
+- [/resources/Japan/StandaloneWindows64/bundlenames_cache_soundsetting.txt](./resources/Japan/StandaloneWindows64/bundlenames_cache_soundsetting.txt)
+- [/resources/Japan/StandaloneWindows64/bundlenames_cache_voicesetscriptableobject.txt](./resources/Japan/StandaloneWindows64/bundlenames_cache_voicesetscriptableobject.txt)
+- [/resources/Japan/StandaloneWindows64/filenames_all_soundsetting.txt](./resources/Japan/StandaloneWindows64/filenames_all_soundsetting.txt)
+- [/resources/Japan/StandaloneWindows64/filenames_all_voicesetscriptableobject.txt](./resources/Japan/StandaloneWindows64/filenames_all_voicesetscriptableobject.txt)

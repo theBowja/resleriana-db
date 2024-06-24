@@ -57,3 +57,17 @@ Sample regex:
 - `^STL_P_.*_mini` - Chibi images from the Ryza's Challenge event.
 
 Contribute your own regex examples by opening a pull request or sending a message to me on Discord.
+
+### Misc Files
+
+The list of Unity bundles downloaded is located in the /resources folder in the **bundlenames_all_texture2d.txt** file.  
+The list of extracted image names is located in the /resources folder in the **filenames_all_texture2d.txt** file.  
+The mapping of masterdata image hashes to image names is located in the /resources folder in the **path_hash_to_name.json** file.  
+
+The following files are automatically updated after every version update:
+- [/resources/Global/StandaloneWindows64/bundlenames_all_texture2d.txt](./resources/Global/StandaloneWindows64/bundlenames_all_texture2d.txt)
+- [/resources/Global/StandaloneWindows64/filenames_all_texture2d.txt](./resources/Global/StandaloneWindows64/filenames_all_texture2d.txt)
+- [/resources/Global/path_hash_to_name.txt](./resources/Global/path_hash_to_name.txt)
+- [/resources/Japan/StandaloneWindows64/bundlenames_all_texture2d.txt](./resources/Japan/StandaloneWindows64/bundlenames_all_texture2d.txt)
+- [/resources/Japan/StandaloneWindows64/filenames_all_texture2d.txt](./resources/Japan/StandaloneWindows64/filenames_all_texture2d.txt)
+- [/resources/Japan/path_hash_to_name.txt](./resources/Japan/path_hash_to_name.txt)

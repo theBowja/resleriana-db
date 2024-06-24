@@ -91,16 +91,13 @@ async function checkFileassets(server, skipCheck=false, uploadImages=false) {
         const filterLabels = catalog.getFilterLabels(path.resolve(__dirname, `../resources/${server}/still_path_hash.txt`));
         console.log(`${server}: Updating catalog resources...`);
         catalog.getCatalogResources(server, catalogJSON, platform, 'Texture2D', filterLabels);
-        catalog.getCatalogResources(server, catalogJSON, platform, 'TextAsset');
 
         // Download bundles using AtelierToolBundleDownload
         console.log(`${server}: Downloading fileassets...`);
         console.log(`This may take a while.`);
         const bundleDir = path.resolve(__dirname, `../resources/${server}/${platform}/bundles`);
         const bundleNamesTexture2D = path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames_filtered_texture2d.txt`);
-        const bundleNamesTextAsset = path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames_all_textasset.txt`);
         tools.executeAtelierToolBundleDownload(server, platform, version, bundleDir, bundleNamesTexture2D);
-        tools.executeAtelierToolBundleDownload(server, platform, version, bundleDir, bundleNamesTextAsset);
 
         // Generate path_hash_to_name.txt for images using UnityPyScripts
         console.log(`${server}: Generating path_hash_to_name.txt...`);
@@ -108,13 +105,8 @@ async function checkFileassets(server, skipCheck=false, uploadImages=false) {
         const path_hash_to_name = path.resolve(__dirname, `../resources/${server}/path_hash_to_name.json`);
         tools.generateContainerToPathHash(container_to_path_hash, bundleDir, path_hash_to_name);
 
-        // Export TextAsset to data
-        console.log(`${server}: Exporting TextAsset to data...`);
-        const textAssetByteDir = path.resolve(__dirname, `../resources/${server}/${platform}/TextAssetBytes`);
-        const textAssetDir = path.resolve(__dirname, `../resources/${server}/TextAsset`);
-        tools.exportAssets(bundleNamesTextAsset, bundleDir, 'TextAsset', { output_folder: textAssetByteDir });
-        unpackTextAssets.unpackFolder(textAssetByteDir, textAssetDir, true);
-        importer.updateFileList([server]);
+        // Export TextAsset to resources
+        await extract.extractTextAsset(server, 'Android', version);
 
         // Update images and upload them to Cloudinary
         if (uploadImages) {

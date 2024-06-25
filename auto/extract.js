@@ -17,7 +17,7 @@ async function extractImages(server="Global", platform="StandaloneWindows64", ve
         skipDownloads=false, regexFilter=undefined
     } = {}
 ) {
-    console.log(`${server} | ${platform} | ${version} | ${type}`);
+    console.log(`${server} | ${platform} | ${version}`);
     console.log(`Script started: extractImages`);
     const t0 = performance.now();
         

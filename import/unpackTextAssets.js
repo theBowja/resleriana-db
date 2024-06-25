@@ -16,6 +16,8 @@ function unpackFolder(inputDir, outputDir, sorted=false) {
 
     const filenames = fs.readdirSync(inputDir);
     for (const filename of filenames) {
+        if (filename.endsWith('.webp') || filename.endsWith('.wav')) continue; // webp and wav files
+        else if (filename.includes('.')) console.log(`POTENTIAL ERROR textasset filename is: ${filename}`);
         const file = fs.readFileSync(path.join(inputDir, filename));
 
         const entries = unpackTextAsset(file);

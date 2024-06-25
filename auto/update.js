@@ -146,7 +146,8 @@ async function updateImages(server, version) {
     const output_resources = path.resolve(__dirname, `../resources/${server}/${platform}/Texture2D`);
     const image_names_path = path.resolve(__dirname, `../resources/${server}/${platform}/filenames_all_texture2d.txt`);
 
-    extract.extractImages(server, platform, version,
+    // Extract images
+    await extract.extractImages(server, platform, version,
         { imageFormat: 'webp', output_folder: output_resources, filename_list: image_names_path });
 
     // Variables

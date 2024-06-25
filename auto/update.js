@@ -108,6 +108,10 @@ async function checkFileassets(server, skipCheck=false, uploadImages=false) {
         // Export TextAsset to resources
         await extract.extractTextAsset(server, 'Android', version);
 
+        // Update audio file names
+        await extract.extractAudioClip(server, platform, 'StandaloneWindows64', 'SoundSetting', { skipOutputFolder: true });
+        await extract.extractAudioClip(server, platform, 'StandaloneWindows64', 'VoiceSetScriptableObject', { skipOutputFolder: true });
+
         // Update images and upload them to Cloudinary
         if (uploadImages) {
             await updateImages(server, version);

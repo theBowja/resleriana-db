@@ -75,7 +75,12 @@ async function extractTextAsset(server="Global", platform="Android", version=imp
     console.log(`Completed script extractTextAsset in ${(t1-t0)/1000} seconds`)
 }
 
-// Export AudioClip to resources folder
+/**
+ * Export AudioClip to resources folder
+ * @param {'Global'|'Japan'} server
+ * @param {'StandaloneWindows64'|'Android'|'iOS'} platform
+ * @param {'SoundSetting'|'VoiceSetScriptableObject'} type 
+ */
 async function extractAudioClip(server="Global", platform="StandaloneWindows64", version=importconfig.fileassets_version[server], type='SoundSetting',
     { redoCache=false, skipDownloads=false, processes=undefined, outputFolder=undefined, skipOutputFolder=false, regexFilter=undefined } = {}) {
     console.log(`${server} | ${platform} | ${version} | ${type}`);

@@ -5303,6 +5303,198 @@
     "start_at": "2023-11-10T03:00:00.000Z"
   },
   {
+    "id": 29302,
+    "name": "ウィルベル",
+    "title": "【Witch in the dark】",
+    "full_name": "ウィルベル・フォル＝エルスリート",
+    "base_character": "ウィルベル",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "BOLT",
+    "role": "SUPPORTER",
+    "initial_rarity": 3,
+    "acquisition_text": "潜入任務、ね。任せておきなさい！\nあたしの魔法で華麗に遂行してみせるわ！",
+    "profile": {
+      "voice_actor": "瀬戸麻沙美",
+      "voice_text": "普段から魔法使いという正体を隠して生活\nしてるんだもの。潜入くらいお手のものよ！",
+      "description": "大魔法使いを目指している少女。 \n尊大な態度を取ってしまいがちだが心根は優しく、天真爛漫で憎めない性格をしている。 \n魔法使いという身分を隠しているが、あえて魔法使いらしい格好をすることで怪しまれないようにしている。 \n闇夜に溶け込むようなこの衣装はまさに魔法使いにふさわしく、大変気に入っている。",
+      "origin_game": "シャリーのアトリエ ～黄昏の海の錬金術士～"
+    },
+    "gift_color": {
+      "received": "赤",
+      "given": "緑"
+    },
+    "battle_item_trait": [
+      {
+        "id": 9,
+        "name": "雷の祝福",
+        "category": "ATTACK",
+        "description": "雷属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "雷属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "雷の盾",
+        "category": "ENHANCE",
+        "description": "対象に「雷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000068,
+            "description": "対象に「雷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 41,
+        "name": "全体回復量上昇",
+        "category": "RECOVERY",
+        "description": "味方全員回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体回復が与えるHP回復量{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 127,
+        "spd": 252,
+        "patk": 52,
+        "matk": 59,
+        "pdef": 56,
+        "mdef": 56
+      },
+      "growth": {
+        "hp": 1270,
+        "spd": 0,
+        "patk": 520,
+        "matk": 590,
+        "pdef": 560,
+        "mdef": 560
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 5,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "シャドウショット",
+      "description": "攻撃後、このスキル使用前に魔攻が最も高い味方1人に「クリティカルダメージ+{0}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、味方1人のクリティカルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001323,
+          "description": "",
+          "value": 2500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [48, 51, 54, 57, 60],
+      "has_stun": true,
+      "stun_values": [5, 5, 5, 5, 6],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "キス・イリュージョン",
+      "description": "回復後、味方のクリティカル系パネルとバーストパネルを除いたパネル1つをクリティカルパネルに変換(空パネルの時は生成)",
+      "summary": "回復後、味方のクリティカル系パネルとバーストパネルを除いたパネル1つをクリティカルパネルに変換",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001321,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ALLY",
+      "range": "ALL",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": true,
+      "recovery_values": [85, 87, 89, 91, 93],
+      "wait": 200
+    },
+    "burst": {
+      "name": "ムーンライトアローズ",
+      "description": "攻撃後、対象に「雷属性耐性-{0}%」を5回攻撃を受けるまで付与し、<br>味方全員に「受けるダメージ-{1}%」を1回攻撃を受けるまで付与",
+      "summary": "攻撃後、対象の雷属性耐性ダウン<br>味方全員の受けるダメージダウン",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001322,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001069,
+          "description": "",
+          "value": 3000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [400, 400, 400, 425, 450, 475, 500],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "イッツ・ショータイム",
+      "description": "パネル獲得時、味方全員に「クリティカルダメージ+{0}%」を付与(上限30%)",
+      "effects": [
+        {
+          "id": 72001092,
+          "description": "[味方全体/クリティカルダメージアップ(上限30%)]",
+          "value": 1500
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "溢れ出る闘争の力雷Ⅱ",
+      "description": "得意属性が雷属性の味方全員のスキルダメージ+{0}%",
+      "effects": [
+        {
+          "id": 72000936,
+          "description": "",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2024-06-28T03:00:00.000Z"
+  },
+  {
     "id": 29401,
     "name": "レジナ",
     "title": "【遺跡発掘屋】",
@@ -14918,6 +15110,209 @@
       ]
     },
     "start_at": "2024-04-01T12:00:00.000Z"
+  },
+  {
+    "id": 43302,
+    "name": "ロマン",
+    "title": "【Secret Fellow】",
+    "full_name": "ロマン・カルマン",
+    "base_character": "ロマン",
+    "is_alchemist": false,
+    "gender": "男性",
+    "attribute": "ICE",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "目的遂行のためなら、闇にも紛れよう。\nそれが私のやり方だ",
+    "profile": {
+      "voice_actor": "広瀬裕也",
+      "voice_text": "隠密行動には定評があるんだ。\n此度の任務も、上手くこなしてみせるさ",
+      "description": "お茶目で親しみやすい青年。\nレスナと共に錬金術の復興を目指す同志。\n身分を隠して行動するのは得意と豪語し、月影の会への潜入に自ら立候補した。\n「こういう服も似合うだろう？　男前は何を着ても映えるからね」と周りに言って回っているが、いまだ誰の賛同も得られていない。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "赤",
+      "given": "紫"
+    },
+    "battle_item_trait": [
+      {
+        "id": 19,
+        "name": "氷の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「氷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000060,
+            "description": "対象に「氷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "魔防の祝福",
+        "category": "ENHANCE",
+        "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 15,
+        "name": "魔法ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000014,
+            "description": "魔法属性攻撃のブレイクダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 142,
+        "spd": 246,
+        "patk": 51,
+        "matk": 62,
+        "pdef": 51,
+        "mdef": 46
+      },
+      "growth": {
+        "hp": 1420,
+        "spd": 0,
+        "patk": 510,
+        "matk": 620,
+        "pdef": 510,
+        "mdef": 460
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 5,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "グラソン",
+      "description": "攻撃後、自身に「ブレイクダメージ+{0}%」を付与(上限20%)し、<br>自身に「ブレイクダメージ+{1}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、自身のブレイクダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001317,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91000908,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [42, 44, 47, 49, 52],
+      "has_stun": true,
+      "stun_values": [16, 17, 18, 19, 20],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "ラムファタール",
+      "description": "攻撃前、対象に「氷属性耐性-{0}%」を2回攻撃を受けるまで付与し、<br>攻撃後、対象に「パネル無効」を1回行動終了するまで付与<br>※パネル無効はバーストパネル以外のパネルの発動を無効化\n",
+      "summary": "攻撃前、対象の氷属性耐性ダウン<br>攻撃後、対象にパネル無効を付与",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000935,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001256,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [91, 96, 102, 107, 113],
+      "has_stun": true,
+      "stun_values": [47, 49, 52, 55, 58],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "ファントム・ダン・ブリザ",
+      "description": "攻撃前、対象に「氷属性耐性-{0}%」を2回攻撃を受けるまで付与し、<br>攻撃後、対象に「受ける魔法攻撃ダメージ+{1}%」を2回攻撃を受けるまで付与",
+      "summary": "攻撃前、対象の氷属性耐性ダウン<br>攻撃後、対象の受ける魔法攻撃ダメージアップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91000935,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001263,
+          "description": "",
+          "value": 3000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [320, 320, 320, 340, 360, 380, 400],
+      "has_stun": true,
+      "stun_values": [300, 300, 300, 318, 337, 356, 375],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "ファントムマジック",
+      "description": "攻撃対象がブレイク時、対象に「受ける魔法攻撃ダメージ+{0}%」を2回攻撃を受けるまで付与",
+      "effects": [
+        {
+          "id": 72001089,
+          "description": "[敵対象/ブレイク時/2回/被魔法ダメージアップ]",
+          "value": 2500
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "ロイヤルテクニック",
+      "description": "プラスパネル獲得時、自身に「ブレイクダメージ+{0}%」を1回行動終了するまで付与",
+      "effects": [
+        {
+          "id": 72001090,
+          "description": "[自身/1回/プラスパネル獲得時/ブレイクダメージアップ]",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2024-06-28T03:00:00.000Z"
   },
   {
     "id": 43401,

@@ -78,22 +78,28 @@
     "still_path_hash": "2126767475249688973"
   },
   {
-    "description": "Tap the button on the lower left of the screen to select the battle items you will take into battle. Normal quests and dungeons will allow for different quantities.",
+    "description": "You can select one character as the leader of your party. The leader will activate their Leader Skill, increasing the strength of your party. You can change your leader at any time you can change your party lineup.",
     "id": 602,
-    "name": "Editing Your Items",
+    "name": "Leader",
     "still_path_hash": "435632689558531729"
   },
   {
-    "description": "By tapping the Auto Select button, you can automatically select characters, items, and equipment for your party.",
+    "description": "Tap the button on the lower left of the screen to select the battle items you will take into battle. Normal quests and dungeons will allow for different quantities.",
     "id": 603,
-    "name": "Auto Select",
+    "name": "Editing Your Items",
     "still_path_hash": "6496120304273395407"
   },
   {
-    "description": "You can swap between 10 different party setups for normal quests and dungeons. You can switch parties by tapping the tabs on the top right of the screen.",
+    "description": "By tapping the Auto Select button, you can automatically select characters, items, and equipment for your party.",
     "id": 604,
-    "name": "Swapping Parties",
+    "name": "Auto Select",
     "still_path_hash": "6646242076385735120"
+  },
+  {
+    "description": "You can swap between 10 different party setups for normal quests and dungeons. You can switch parties by tapping the tabs on the top right of the screen.",
+    "id": 605,
+    "name": "Swapping Parties",
+    "still_path_hash": "4862679126495630"
   },
   {
     "description": "Here, you can check character information, level them up through Training, as well as change their equipment.",
@@ -124,6 +130,12 @@
     "id": 804,
     "name": "Character Training Reset",
     "still_path_hash": "690779345622486635"
+  },
+  {
+    "description": "Selecting the Reset Level Only option allows you to reset level progression while keeping the board unlock status unchanged.",
+    "id": 805,
+    "name": "Reset Level Only",
+    "still_path_hash": "1305554025176027511"
   },
   {
     "description": "On the Equipment tab, you can check and swap your characters' equipment and Memoria.",
@@ -160,6 +172,12 @@
     "id": 906,
     "name": "Equipped Item Effects",
     "still_path_hash": "3989951948106920393"
+  },
+  {
+    "description": "Tap the Display Recommended checkbox to display only the equipment and Memoria that are suitable for the currently selected character.",
+    "id": 907,
+    "name": "Display Recommended",
+    "still_path_hash": "7742355472414298519"
   },
   {
     "description": "On the Board tab, you can enhance characters by unlocking their panels.",
@@ -438,7 +456,7 @@
     "still_path_hash": "1145168647960129329"
   },
   {
-    "description": "Your rank is determined by the score that you get based on your battle performance. Enemies will drop rewards after battles that are based on your current rank. When you skip a dungeon, your highest past rank will be referenced.",
+    "description": "Your rank is determined by the score that you get based on your battle performance. \nEnemies will drop rewards after battles that are based on your current rank. When you perform Swift Hunting, your highest past rank will be referenced.",
     "id": 2702,
     "name": "Drop Rewards",
     "still_path_hash": "1471571582796197933"
@@ -450,7 +468,7 @@
     "still_path_hash": "2531722495834706028"
   },
   {
-    "description": "Your rank is determined by the score that you get based on your battle performance. Enemies will drop rewards after battles that are based on your current rank. When you skip a dungeon, your highest past rank will be referenced.",
+    "description": "Your rank is determined by the score that you get based on your battle performance. \nEnemies will drop rewards after battles that are based on your current rank. When you perform Swift Hunting, your highest past rank will be referenced.",
     "id": 2802,
     "name": "Drop Rewards",
     "still_path_hash": "4083105071538392950"
@@ -492,6 +510,18 @@
     "still_path_hash": "1796385730636124380"
   },
   {
+    "description": "Simple synthesis allows you to perform synthesis without needing to select a lineup. You can bulk synthesize up to 100 times depending on the amount of mana and materials you have.\nThe traits on items are randomly selected from a set of random traits.",
+    "id": 3103,
+    "name": "Simple Synthesis",
+    "still_path_hash": "4954940551408496770"
+  },
+  {
+    "description": "Filter by affinity or role to display recommended recipes. Simply select an affinity and/or role and press the Confirm button to show recipes suitable for the relevant character.",
+    "id": 3104,
+    "name": "Search Recommended Recipes",
+    "still_path_hash": "4817047469901959069"
+  },
+  {
     "description": "By selecting which character performs the synthesis and which materials are used, you can add special traits to the synthesized items. Traits give items various effects.",
     "id": 3201,
     "name": "Preparing to Synthesize",
@@ -520,6 +550,12 @@
     "id": 3205,
     "name": "Trait Types",
     "still_path_hash": "2022132050081836922"
+  },
+  {
+    "description": "Each item created through synthesis has a Quality assigned to it. The higher the compatibility of the traits are on the item, the higher the quality value will be.",
+    "id": 3206,
+    "name": "Quality",
+    "still_path_hash": "547301967768907876"
   },
   {
     "description": "You can convert synthesized items into Shiny Coins. The amount of Shiny Coins that you will receive changes according to the rarity and trait Levels of the synthesized item.",
@@ -588,6 +624,186 @@
     "still_path_hash": "6143452508009058413"
   },
   {
+    "description": "Emblems can be earned by fulfilling specific conditions.\nEach emblem has a unique effect that is activated simply by possessing the emblem.",
+    "id": 3701,
+    "name": "What are Emblems?",
+    "still_path_hash": "7748691159456149455"
+  },
+  {
+    "description": "The higher the rarity of an emblem, the stronger its effect. If you have multiple emblems of the same type, only the highest effect will be applied.",
+    "id": 3702,
+    "name": "Emblem Effects",
+    "still_path_hash": "8070599866283487443"
+  },
+  {
+    "description": "By selecting a location and characters for exploration, you can automatically collect various items over time.\nCollected items can be received using the \"Obtain\" button on the home screen.",
+    "id": 3801,
+    "name": "Exploration",
+    "still_path_hash": "5138300879338983574"
+  },
+  {
+    "description": "Once you clear a dungeon in Material Quests, it becomes available as an Exploration location.",
+    "id": 3901,
+    "name": "Location Selection",
+    "still_path_hash": "7066010639431069738"
+  },
+  {
+    "description": "The items that drop and the chances of them dropping vary based on the following:\n- Dungeon and Score Battle completion status\n- Player Rank",
+    "id": 3902,
+    "name": "Dropped Items",
+    "still_path_hash": "8757220212028796728"
+  },
+  {
+    "description": "Each location has recommended Top Pick Characters. Always try to send them to these locations to get a higher lineup bonus.",
+    "id": 3903,
+    "name": "Top Pick Characters",
+    "still_path_hash": "2714142265518641002"
+  },
+  {
+    "description": "The exploration lineup is made up of the characters you select to explore a location. \nDepending on the characters you select, you can improve the efficiency of acquiring items and earn bonus items.",
+    "id": 4001,
+    "name": "Exploration Lineup",
+    "still_path_hash": "8504974276070427903"
+  },
+  {
+    "description": "In addition to using Top Pick Characters, \nthe bonus also varies based on the awakening level of each character.",
+    "id": 4002,
+    "name": "Lineup Bonus",
+    "still_path_hash": "7894769831511118819"
+  },
+  {
+    "description": "Revival Events are events that were playable in the past and have become available again. \nIf you participated in the event in the past, you can continue from where you left off. \nIt's also possible to obtain recipes and materials that were only available from the event.",
+    "id": 4201,
+    "name": "What's a Revival Event?",
+    "still_path_hash": "5882327280201755900"
+  },
+  {
+    "description": "You'll need a Key of Memories to unlock the event. One Key of Memories is needed to unlock one event. Keys of Memories can be obtained from many places, such as event rewards.",
+    "id": 4202,
+    "name": "How to Play Revival Events",
+    "still_path_hash": "5344188505292567526"
+  },
+  {
+    "description": "Challenging a Revival Event will consume stamina instead of challenge tickets.",
+    "id": 4203,
+    "name": "Difference between Revival Events and Standard Events",
+    "still_path_hash": "1587281654608843704"
+  },
+  {
+    "description": "Here, you can take on battles and see the stories from various events.",
+    "id": 4301,
+    "name": "Event Stories (Revival)",
+    "still_path_hash": "8422667189130841156"
+  },
+  {
+    "description": "The first time you view a story or clear a battle, you can obtain First-Time Rewards.\nNote: You will not receive First-Time Rewards if you already received them when the event was previously run.",
+    "id": 4302,
+    "name": "First-Time Rewards",
+    "still_path_hash": "8028569521353184090"
+  },
+  {
+    "description": "Revival Events require the use of Stamina to enter the event dungeon. You will still be able to obtain synthesis materials during Revival Events that were previously only available in limited-time events.",
+    "id": 4401,
+    "name": "Event Dungeon (Revival)",
+    "still_path_hash": "3543621380821536915"
+  },
+  {
+    "description": "You can challenge Score Battles in Revival Events by using stamina. If you participated in the event in the past, your Clear and Rank statuses will carry over when playing again.",
+    "id": 4501,
+    "name": "Event Score Battles (Revival)",
+    "still_path_hash": "2021517765730020427"
+  },
+  {
+    "description": "Your rank is determined by the score that you get based on your battle performance. \nEnemies will drop rewards after battles that are based on your current rank. When you perform Swift Hunting, your highest past rank will be referenced.",
+    "id": 4502,
+    "name": "Drop Rewards",
+    "still_path_hash": "542043758377120599"
+  },
+  {
+    "description": "Take on Boss Challenges in Revival Events by using stamina. If you participated in the event in the past, your Clear status, Rank status, and obtained Rank Clear Rewards will carry over when playing again.",
+    "id": 4601,
+    "name": "Boss Challenges (Revival)",
+    "still_path_hash": "2227366013526256882"
+  },
+  {
+    "description": "Your rank is determined by the score that you get based on your battle performance. \nEnemies will drop rewards after battles that are based on your current rank. When you perform Swift Hunting, your highest past rank will be referenced.",
+    "id": 4602,
+    "name": "Drop Rewards",
+    "still_path_hash": "387687564782416876"
+  },
+  {
+    "description": "These quests have special rewards for reaching certain ranks. Each time you go up a rank, you will receive a Rank Clear Reward. Tap the treasure box icon to receive your rewards.",
+    "id": 4603,
+    "name": "Rank Clear Rewards",
+    "still_path_hash": "6434553878052934578"
+  },
+  {
+    "description": "EX Challenges are extremely difficult battles against very powerful foes. If you participated in the event in the past, your Clear status, Rank status, and obtained Rank Clear Rewards will carry over when playing again.",
+    "id": 4701,
+    "name": "EX Challenges (Revival)",
+    "still_path_hash": "4298786753197247566"
+  },
+  {
+    "description": "You will not receive reward drops after EX Challenge battles. Instead, you will be given Rank Rewards when your rank goes up.",
+    "id": 4702,
+    "name": "Rewards",
+    "still_path_hash": "2314917935921599316"
+  },
+  {
+    "description": "These are special boss challenges that are unlocked over time. These battles feature enemies with unique changes from standard battles and offer specific conditions that can significantly increase your score.",
+    "id": 4801,
+    "name": "SP Challenge",
+    "still_path_hash": "1688378331021325077"
+  },
+  {
+    "description": "In this game mode, you use synthesis items to improve the performance of a mini rocket, with the goal of flying it as far as possible. \nDepending on the record distance you fly, you can earn various rewards.",
+    "id": 4901,
+    "name": "Rocket Challenge",
+    "still_path_hash": "3616172203470918571"
+  },
+  {
+    "description": "Changing the items used in your rocket increases its performance parameters, which vary depending on the type and traits of the items. \nIt would seem that different parameters are more important depending on the wind direction...",
+    "id": 4902,
+    "name": "Parameters",
+    "still_path_hash": "3001472311081897143"
+  },
+  {
+    "description": "Items synthesized using event recipes from Resleriana Academy can more effectively enhance the parameters of the mini rocket.",
+    "id": 4903,
+    "name": "Special Effects",
+    "still_path_hash": "8469626348236778729"
+  },
+  {
+    "description": "Roman's Grand Tournament is a regularly held battle event. Your ranking changes based on your total damage dealt, and you can earn various rewards depending on your ranking.",
+    "id": 5001,
+    "name": "Roman's Grand Tournament",
+    "still_path_hash": "1327198863698119681"
+  },
+  {
+    "description": "Battles in this event have a turn limit. When the remaining turns reach 0, the battle ends and total damage is tallied.\nNote: Total damage is recorded regardless of victory or defeat.",
+    "id": 5002,
+    "name": "Special Battle Rules",
+    "still_path_hash": "712498971359367965"
+  },
+  {
+    "description": "The actual measure of damage is not the amount of damage dealt, but the amount of enemy HP reduced. Therefore, any damage that exceeds the enemy's maximum HP will not be counted.",
+    "id": 5003,
+    "name": "Total Damage Measurement",
+    "still_path_hash": "6182942466550854467"
+  },
+  {
+    "description": "The highest difficulty battles feature enemies with infinite HP. Here, you simply need to maximize your total damage within the specified number of turns.",
+    "id": 5004,
+    "name": "High Difficulty Battles",
+    "still_path_hash": "6040684314753109084"
+  },
+  {
+    "description": "After the event period ends, you will receive rewards based on your rank. Ranking rewards will be distributed via Mail after you log back in once the event has ended.",
+    "id": 5005,
+    "name": "Ranking Rewards",
+    "still_path_hash": "1151132604270259202"
+  },
+  {
     "description": "- Marie's strength lies in the damage of her Skill 2!\n- However, the same skill also lowers her own skill damage.\nNote: Trial battles are played with a max level, fully awakened party with\nfully unlocked Growboards.",
     "id": 1010201,
     "name": "Marie \"Fortune Full Bloom\" Ice | Attacker",
@@ -612,6 +828,30 @@
     "still_path_hash": "268414749550166542"
   },
   {
+    "description": "Has an ability that boosts the potency of damage buffs given to and received by self by 20%! Also boosts the effects received from positive panels by 30%!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
+    "id": 1010301,
+    "name": "Marie \"Violent Beauty\" Bolt | Attacker",
+    "still_path_hash": "7441927554114790125"
+  },
+  {
+    "description": "Skill 2 boosts all allied Attackers' critical rate by 20% (MAX 100%) and critical damage by 10% (MAX 50%)!",
+    "id": 1010302,
+    "name": "Marie \"Violent Beauty\" Bolt | Attacker",
+    "still_path_hash": "8993530065392745969"
+  },
+  {
+    "description": "When Burst Skill is a critical attack, it will convert the next ally on the timeline's panel into a burst panel! This attack's critical damage is also boosted by 50%!",
+    "id": 1010303,
+    "name": "Marie \"Violent Beauty\" Bolt | Attacker",
+    "still_path_hash": "2369483368946703791"
+  },
+  {
+    "description": "- How to Fight -\n- Use Skill 2 to enhance the critical attacks of allied Attackers!\n- Use Burst Skill to deal a critical attack and create a burst panel!",
+    "id": 1010304,
+    "name": "Marie \"Violent Beauty\" Bolt | Attacker",
+    "still_path_hash": "2808262214158475954"
+  },
+  {
     "description": "- Skill 2 boosts an ally's critical rate by 100% on their next turn!\n- Her ability boosts all allies' skill damage by 20%!\nNote: Trial battles are played with a max level, fully awakened party with\nfully unlocked Growboards.",
     "id": 2550201,
     "name": "Rorona \"Falling Snow\" Slash | Supporter",
@@ -628,6 +868,30 @@
     "id": 2550203,
     "name": "Rorona \"Falling Snow\" Slash | Supporter",
     "still_path_hash": "5867648106436692421"
+  },
+  {
+    "description": "The ability \"Kitty Cat Team\" grants her immunity to negative panels, while also boosting the potency of the positive panels she uses by 10%!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
+    "id": 2550301,
+    "name": "Rorona \"Joyful Leader\" Strike | Supporter",
+    "still_path_hash": "3713897060159198777"
+  },
+  {
+    "description": "Skill 2 will convert the next ally on the timeline's panel into a burst panel! \nPlus, it boosts the skill damage of all your allies!",
+    "id": 2550302,
+    "name": "Rorona \"Joyful Leader\" Strike | Supporter",
+    "still_path_hash": "2882884223404575013"
+  },
+  {
+    "description": "Her Burst Skill boosts the P. ATK of the ally with the highest P. ATK by 50%! \nPlus, it reduces all of the enemies' resistances by 25%!",
+    "id": 2550303,
+    "name": "Rorona \"Joyful Leader\" Strike | Supporter",
+    "still_path_hash": "8372042780957976955"
+  },
+  {
+    "description": "- How to Fight\nConvert the next ally's panel into a burst panel with Skill 2, then activate your Burst Skill!\n- After weakening all enemies with the Burst Skill, use your powered-up allies to strike!",
+    "id": 2550304,
+    "name": "Rorona \"Joyful Leader\" Strike | Supporter",
+    "still_path_hash": "8229646099284842086"
   },
   {
     "description": "- Her ability \"Duplicate Warmth\" reduces the damage she receives by 2% each time she recovers HP, up to 20%!\nNote: Trial battles are played with a max level, fully awakened party with\nfully unlocked Growboards.",
@@ -652,6 +916,66 @@
     "id": 2690204,
     "name": "Totori \"Snow Adventurer\" Air | Defender",
     "still_path_hash": "5144312475927442495"
+  },
+  {
+    "description": "Has an ability that reduces the potency of negative effects on allies by 15% and can boost own stun damage using both an ability and Skill 1!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
+    "id": 2690301,
+    "name": "Totori \"Hopeful Sailor\" Slash | Breaker",
+    "still_path_hash": "2565596671893181662"
+  },
+  {
+    "description": "Skill 2 converts the target enemy's next panel into a weaken panel as long as it was an empty panel to start! It also boosts the enemy's physical attack damage received by 35%!",
+    "id": 2690302,
+    "name": "Totori \"Hopeful Sailor\" Slash | Breaker",
+    "still_path_hash": "4040488404187450304"
+  },
+  {
+    "description": "Burst skill converts target enemy's next panel into a weaken+ panel! When it stuns an enemy, it boosts the burst skill damage of the ally with the highest P. ATK by 25%! (MAX 50%)",
+    "id": 2690303,
+    "name": "Totori \"Hopeful Sailor\" Slash | Breaker",
+    "still_path_hash": "7223709669337443230"
+  },
+  {
+    "description": "What is a Weaken+ Panel?\nAny character or enemy who uses this panel reduces their skill damage by 60%.",
+    "id": 2690304,
+    "name": "Totori \"Hopeful Sailor\" Slash | Breaker",
+    "still_path_hash": "7072110058162312321"
+  },
+  {
+    "description": "- How to Fight -\n- Use Skill 2 and Burst Skill to make the enemy use weaken-type panels, reducing their attack power!\n- Boost the physical attack damage received by enemies and then have your allies attack with physical attacks!",
+    "id": 2690305,
+    "name": "Totori \"Hopeful Sailor\" Slash | Breaker",
+    "still_path_hash": "4469921315209311455"
+  },
+  {
+    "description": "The ability \"Kitty Cat Team\" grants her immunity to negative panels, while also boosting the potency of the positive panels she uses by 10%!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
+    "id": 2700101,
+    "name": "Mimi \"Lonely Glory\" Stab | Defender",
+    "still_path_hash": "8513733074600133127"
+  },
+  {
+    "description": "- When receiving an attack while HP is not full, uses ability to convert own panels into HP recovery panels! (Excludes burst panels)\n- Skill 2 reduces all allies' damage received by 20%, boosting their durability in battle!",
+    "id": 2700102,
+    "name": "Mimi \"Lonely Glory\" Stab | Defender",
+    "still_path_hash": "7903462478719917339"
+  },
+  {
+    "description": "What is an HP Recovery Panel?\nAny character who uses this panel restores their entire party's HP by 25%.",
+    "id": 2700103,
+    "name": "Mimi \"Lonely Glory\" Stab | Defender",
+    "still_path_hash": "3567917569408941381"
+  },
+  {
+    "description": "Before attacking with Burst Skill, removes own negative effects and status effects! \nPlus, restores own HP by 100% after the attack! Also reduces all of the enemy's resistances by 30%, supporting allies' attacks!",
+    "id": 2700104,
+    "name": "Mimi \"Lonely Glory\" Stab | Defender",
+    "still_path_hash": "4006269812160086618"
+  },
+  {
+    "description": "- How to Fight\nUse her ability to convert her panels into HP recovery panels, restoring HP to all allies!\n- Use Burst Skill to restore her HP by 100%!",
+    "id": 2700105,
+    "name": "Mimi \"Lonely Glory\" Stab | Defender",
+    "still_path_hash": "7760922938926719492"
   },
   {
     "description": "- Grants all allies damage immunity based on their max HP!\n- Ability recovers HP by 10% when hit by an attack.\nNote: Trial battles are played with a max level, fully awakened party with\nfully unlocked Growboards.",
@@ -688,6 +1012,30 @@
     "id": 2930103,
     "name": "Wilbell \"Magical Trick Star\" Fire | Attacker",
     "still_path_hash": "4824226831925611179"
+  },
+  {
+    "description": "・アビリティで、敵をブレイク時、対象に超高確率で「火傷」を3個付与！\n・得意属性が火属性の味方全員のスキルダメージとブレイクダメージをアップ！\n※お試しバトルはLv.最大、覚醒段階MAX、グロウボード全解放状態です",
+    "id": 2950201,
+    "name": "リンカ【Valkyrie of the Sun】火｜ブレイカー",
+    "still_path_hash": "9023893547082675043"
+  },
+  {
+    "description": "・スキル1は敵の火傷耐性を100%ダウン！\n・スキル2は敵に「火属性耐性-25%」を付与！\n　さらに敵をブレイク時、対象の受ける魔法攻撃ダメージをアップ！",
+    "id": 2950202,
+    "name": "リンカ【Valkyrie of the Sun】火｜ブレイカー",
+    "still_path_hash": "7400303699110587519"
+  },
+  {
+    "description": "バーストスキルは敵に「火属性耐性-30%」を付与！\nさらに敵をブレイク時、魔攻が最も高い\n味方1人の魔攻を50%アップ！",
+    "id": 2950203,
+    "name": "リンカ【Valkyrie of the Sun】火｜ブレイカー",
+    "still_path_hash": "4223917272512252961"
+  },
+  {
+    "description": "〜戦い方〜\n・スキル2とバーストスキルを繰り出し敵の火属性耐性をダウン！\n・敵をブレイクして、味方の魔法攻撃を支援しよう！",
+    "id": 2950204,
+    "name": "リンカ【Valkyrie of the Sun】火｜ブレイカー",
+    "still_path_hash": "4360809808101126974"
   },
   {
     "description": "- Skill 1 grants Protection to self! Receive single-target attacks in place of your allies.\n- Skill 2 reduces all allies' damage received!\nNote: Trial battles are played with a max level, fully awakened party with\nfully unlocked Growboards.",
@@ -786,6 +1134,36 @@
     "still_path_hash": "476734233033338857"
   },
   {
+    "description": "The ability \"Kitty Cat Team\" grants her immunity to negative panels, while also boosting the potency of the positive panels she uses by 10%!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
+    "id": 3340201,
+    "name": "Sophie \"Mighty Boss\" Stab | Supporter",
+    "still_path_hash": "7140902374704816832"
+  },
+  {
+    "description": "- Skill 2 heals all allies and converts all their panels into boost panels. (Excludes boost-type panels and burst panels)\n- Skill 1 applies panel immunity to enemies, blocking them from using any panels other than burst panels!",
+    "id": 3340202,
+    "name": "Sophie \"Mighty Boss\" Stab | Supporter",
+    "still_path_hash": "8687992060603907550"
+  },
+  {
+    "description": "Burst Skill converts the panel of the next enemy in the turn order into a protection weaken panel!\nAlso boosts own HP recovery given by 50%! (MAX 100%)",
+    "id": 3340203,
+    "name": "Sophie \"Mighty Boss\" Stab | Supporter",
+    "still_path_hash": "2647137876838555012"
+  },
+  {
+    "description": "What is a Protection Weaken Panel?\nAny character who uses this panel boosts the damage received of all characters in their party by 40% for 1 attack.",
+    "id": 3340204,
+    "name": "Sophie \"Mighty Boss\" Stab | Supporter",
+    "still_path_hash": "2496804902385443485"
+  },
+  {
+    "description": "- How to Fight -\n- Heal all allies with Skill 2 and convert their panels into boost panels!\n- Use your Burst Skill to convert the enemy's panel into a protection weaken panel!",
+    "id": 3340205,
+    "name": "Sophie \"Mighty Boss\" Stab | Supporter",
+    "still_path_hash": "9118410134444786371"
+  },
+  {
     "description": "- After using a battle item, her attacks have a very high chance to inflict Brittle on enemies!\n- Her ability Final Battle Gear: Schwarz Rose makes her immune to all status effects!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
     "id": 3500201,
     "name": "Firis \"Crystaler of Rose\" Ice | Supporter",
@@ -864,6 +1242,30 @@
     "still_path_hash": "5985335343015443027"
   },
   {
+    "description": "- After using a battle item, the next attack against an enemy delays their turn by 1 turn! (MAX 3 times)\n- Her ability \"Final Battle Gear: Schwarz Rose\" makes her immune to all status effects!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
+    "id": 3750201,
+    "name": "Suelle \"Ranger of Rose\" Stab | Attacker",
+    "still_path_hash": "1608297249975633322"
+  },
+  {
+    "description": "- Skill 1 restores the item gauge by 10%!\n- Skill 2 grants Evasion (100% chance) to self for 1 turn!",
+    "id": 3750202,
+    "name": "Suelle \"Ranger of Rose\" Stab | Attacker",
+    "still_path_hash": "998030605666654904"
+  },
+  {
+    "description": "Burst Skill deals more damage the higher own HP is!\nBoosts damage by 100% when HP is full!\nBefore attacking, boosts own skill damage by 50%! (MAX 100%)",
+    "id": 3750203,
+    "name": "Suelle \"Ranger of Rose\" Stab | Attacker",
+    "still_path_hash": "5905557133356612330"
+  },
+  {
+    "description": "- How to Fight -\n- Grant Evasion to self to preserve HP, then attack with your Burst Skill!\n- After using battle items, attack the enemy to delay their turn by 1 turn!",
+    "id": 3750204,
+    "name": "Suelle \"Ranger of Rose\" Stab | Attacker",
+    "still_path_hash": "6336049998138721783"
+  },
+  {
     "description": "- Boosts stun damage when attacking a weakness.\n- Skill 2 reduces the Slash resistance of all enemies.\nNote: Trial battles are played with a max level, fully awakened party with\nfully unlocked Growboards.",
     "id": 3990201,
     "name": "Ryza \"Master's Right-Hand\" Slash | Breaker",
@@ -880,6 +1282,54 @@
     "id": 3990203,
     "name": "Ryza \"Master's Right-Hand\" Slash | Breaker",
     "still_path_hash": "2575989082361933118"
+  },
+  {
+    "description": "The ability \"Kitty Cat Team\" grants her immunity to negative panels, while also boosting the potency of the positive panels she uses by 10%!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
+    "id": 3990301,
+    "name": "Ryza \"Blooming Energy\" Air | Breaker",
+    "still_path_hash": "4709563459983422146"
+  },
+  {
+    "description": "- Ability converts all allies' boost panels into boost+ panels when stunning an enemy!\n- Skill 2 reduces all enemies Air resistance by 25% before attacking them! Also, after attacking, boosts magic attack damage received by all enemies by 35%!",
+    "id": 3990302,
+    "name": "Ryza \"Blooming Energy\" Air | Breaker",
+    "still_path_hash": "6544818071189269984"
+  },
+  {
+    "description": "Burst Skill boosts magic attack damage received by enemies by 50%!\nPlus, if the skill stuns an enemy, it also boosts the M. ATK of the ally with the highest M. ATK by 50%!",
+    "id": 3990303,
+    "name": "Ryza \"Blooming Energy\" Air | Breaker",
+    "still_path_hash": "504027383776349570"
+  },
+  {
+    "description": "- How to Fight -\n- Use Skill 2 and Burst Skill to boost allies' magic attack power!\n- Stun enemies to upgrade allies' panels into boost+ panels for even more attack power!",
+    "id": 3990304,
+    "name": "Ryza \"Blooming Energy\" Air | Breaker",
+    "still_path_hash": "64247999628178079"
+  },
+  {
+    "description": "Your ability boosts the potency of all negative effects your party inflicts by 15%! Their M. ATK is boosted by 15%, too!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
+    "id": 4000201,
+    "name": "Klaudia \"Fragrant Elegance\" Bolt | Supporter",
+    "still_path_hash": "7541643603911148520"
+  },
+  {
+    "description": "Skill 2 deals no damage, but inflicts enemies with negative effects!\nIt reduces the damage that enemies deal, while also boosting the magic attack damage they receive by 30% for the next 2 attacks they take! (MAX 4 times)",
+    "id": 4000202,
+    "name": "Klaudia \"Fragrant Elegance\" Bolt | Supporter",
+    "still_path_hash": "8295958963355852026"
+  },
+  {
+    "description": "Her Burst Skill increases the buff effects all allies receive from boost-type panels by 100%! (Cannot be stacked) Using a boost-type panel will boost the potency of your skill damage buff!",
+    "id": 4000203,
+    "name": "Klaudia \"Fragrant Elegance\" Bolt | Supporter",
+    "still_path_hash": "3390187806525439140"
+  },
+  {
+    "description": "- How to Fight -\n- Increase the potency of the buff effects your allies receive from boost-type panels with your Burst Skill!\n- Weaken your enemies with Skill 2, then have your allies slam them with magic attacks!",
+    "id": 4000204,
+    "name": "Klaudia \"Fragrant Elegance\" Bolt | Supporter",
+    "still_path_hash": "2960754818867381179"
   },
   {
     "description": "- Boosts all allies' M. ATK with abilities.\n- Skill 2 reduces Ice resistance and deals more stun damage when attacking a weakness!\nNote: Trial battles are played with a max level, fully awakened party with\nfully unlocked Growboards.",
@@ -954,6 +1404,36 @@
     "still_path_hash": "4852248159362255189"
   },
   {
+    "description": "The ability \"Kitty Cat Team\" grants her immunity to negative panels, while also boosting the potency of the positive panels she uses by 10%!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
+    "id": 4310401,
+    "name": "Resna \"Loved Rookie\" Air | Attacker",
+    "still_path_hash": "5286190282119476904"
+  },
+  {
+    "description": "- After attacking with Skill 2, boosts all enemies' critical damage received by 10%! (MAX 50%) Using a boost-type panel boosts this attack's critical rate by 100%!\n- Ability effect boosts own skill damage by 50% when using a boost-type panel!",
+    "id": 4310402,
+    "name": "Resna \"Loved Rookie\" Air | Attacker",
+    "still_path_hash": "5968452934968142266"
+  },
+  {
+    "description": "Burst Skill converts next panel for self to a boost+ panel! (Excludes burst panels)\nBoosts own critical damage by 50%! (MAX 100%)\nIf own HP is 70% or higher, boosts this attack's damage by 100%!",
+    "id": 4310403,
+    "name": "Resna \"Loved Rookie\" Air | Attacker",
+    "still_path_hash": "1078967468911610340"
+  },
+  {
+    "description": "What are Boost+ Panels?\nAny character who uses this panel boosts their skill damage by 100%.",
+    "id": 4310404,
+    "name": "Resna \"Loved Rookie\" Air | Attacker",
+    "still_path_hash": "640540536679118587"
+  },
+  {
+    "description": "- How to Fight\nMake use of boost-type panels to power up and use Skill 2 for a critical attack!\n- Use her Burst Skill to convert her next panel into a boost+ panel!",
+    "id": 4310405,
+    "name": "Resna \"Loved Rookie\" Air | Attacker",
+    "still_path_hash": "6111067318861371045"
+  },
+  {
     "description": "- All skills other than Skill 1 boost critical rate by 100% for the attack! \n- Her ability Final Battle Gear: Schwarz Rose makes her immune to all status effects!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
     "id": 4320301,
     "name": "Valeria \"Warrior of Rose\" Strike | Attacker",
@@ -1002,6 +1482,30 @@
     "still_path_hash": "1420637663154848730"
   },
   {
+    "description": "バトル開始時、自身に「白夜の護衛」を付与し、「白夜の護衛」が付与されている時、\n自身に「かばう」「受けるダメージ-40%」「スキルダメージ+40%」が発動！\n※お試しバトルはLv.最大、覚醒段階MAX、グロウボード全解放状態です",
+    "id": 4340201,
+    "name": "ユナ【Valkyrie in the Sky】打｜アタッカー",
+    "still_path_hash": "5831047150443660092"
+  },
+  {
+    "description": "・アビリティで、攻撃を受けた時、自身に「物攻+5%」を付与！(上限25%)\n・スキル2はWEAK攻撃時、この攻撃のダメージ30%アップ！\n　さらに敵撃破時、自身の「白夜の護衛」の残り回数を1回増加！",
+    "id": 4340202,
+    "name": "ユナ【Valkyrie in the Sky】打｜アタッカー",
+    "still_path_hash": "5432585946435165218"
+  },
+  {
+    "description": "バーストスキルはWEAK攻撃時、\nこの攻撃のダメージ50%アップ！\nさらに自身の「白夜の護衛」の残り回数を2回増加！",
+    "id": 4340203,
+    "name": "ユナ【Valkyrie in the Sky】打｜アタッカー",
+    "still_path_hash": "1677902309386370176"
+  },
+  {
+    "description": "〜戦い方〜\n・「白夜の護衛」を自身に付与し、強化状態で敵を攻撃！\n・スキル2やバーストスキルを繰り出し、「白夜の護衛」の残り回数を増加！",
+    "id": 4340204,
+    "name": "ユナ【Valkyrie in the Sky】打｜アタッカー",
+    "still_path_hash": "1248605720628872033"
+  },
+  {
     "description": "- Skill 2 decreases enemies' Strike resistance and boosts the P. ATK of the ally with the highest P. ATK!\n- Her ability Final Battle Gear: Schwarz Rose makes her immune to all status effects!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
     "id": 4350101,
     "name": "Heidi \"Thief of Rose\" Strike | Breaker",
@@ -1026,6 +1530,78 @@
     "still_path_hash": "4634379069673613292"
   },
   {
+    "description": "スキル2で任意の味方1人の魔攻を30%アップ！\n※スキルレベル5のときの効果量です\n※お試しバトルはLv.最大、覚醒段階MAX、グロウボード全解放状態です",
+    "id": 4350201,
+    "name": "ハイディ【Merciful Bride】火｜サポーター",
+    "still_path_hash": "219421998126458634"
+  },
+  {
+    "description": "・アビリティで、強化パネルを獲得すると\n　アイテムゲージを10%回復！\n・味方全員の魔攻を15%アップ！",
+    "id": 4350202,
+    "name": "ハイディ【Merciful Bride】火｜サポーター",
+    "still_path_hash": "1766516589878343704"
+  },
+  {
+    "description": "バーストスキルは魔攻が最も高い味方1人に\n「スキルダメージ+50%」を付与！\nさらにパネル1つを強化+パネルに変換もしくは生成！（バーストパネル除く）",
+    "id": 4350203,
+    "name": "ハイディ【Merciful Bride】火｜サポーター",
+    "still_path_hash": "4949062479508166730"
+  },
+  {
+    "description": "〜戦い方〜\n・スキル2で任意の味方1人の魔攻を強化！\n・バーストスキルで魔攻が最も高い味方の攻撃をサポート！",
+    "id": 4350204,
+    "name": "ハイディ【Merciful Bride】火｜サポーター",
+    "still_path_hash": "4806591022859462487"
+  },
+  {
+    "description": "- Ability increases all allies' P. ATK, M. ATK, P. DEF, and M. DEF by 10%!\n- Her ability \"Final Battle Gear: Schwarz Rose\" makes her immune to all status effects!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
+    "id": 4360101,
+    "name": "Flocke \"Angel of Rose\" Strike | Supporter",
+    "still_path_hash": "736366124042597397"
+  },
+  {
+    "description": "Skill 2 restores HP to all allies!\nBoosts HP recovery given to allies' with HP below 70% by 100%!\nAfter healing, boosts all allies' critical damage by 25%! (MAX 50%)",
+    "id": 4360102,
+    "name": "Flocke \"Angel of Rose\" Strike | Supporter",
+    "still_path_hash": "1274658646248336137"
+  },
+  {
+    "description": "Burst Skill boosts critical rate by 100% for the attack!\nBefore attacking, boosts all enemies' critical damage received by 30%! (MAX 60%)",
+    "id": 4360103,
+    "name": "Flocke \"Angel of Rose\" Strike | Supporter",
+    "still_path_hash": "5592635285394885463"
+  },
+  {
+    "description": "- How to Fight -\n- Use Skill 2 and Burst Skill to support allies' critical attacks!\n- Use Skill 2 to restore the HP of all allies!",
+    "id": 4360104,
+    "name": "Flocke \"Angel of Rose\" Strike | Supporter",
+    "still_path_hash": "5442568410071692362"
+  },
+  {
+    "description": "Skill 1 reduces own damage received while also granting Protection and Counter! When receiving an attack while Counter is active, Skill 2 is activated, boosting own P. ATK!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
+    "id": 4370101,
+    "name": "Lanze \"The Captain Awakens\" Slash | Attacker",
+    "still_path_hash": "6476062252518920227"
+  },
+  {
+    "description": "Has one ability that boosts own critical rate by 25% when hit by an attack (MAX 100%), and another that boosts all Slash allies' skill damage!",
+    "id": 4370102,
+    "name": "Lanze \"The Captain Awakens\" Slash | Attacker",
+    "still_path_hash": "4780568879301087039"
+  },
+  {
+    "description": "Burst Skill targets all enemies! When there are 3 or more enemies, the attack's damage is boosted by 100%!",
+    "id": 4370103,
+    "name": "Lanze \"The Captain Awakens\" Slash | Attacker",
+    "still_path_hash": "2196218886733655905"
+  },
+  {
+    "description": "- How to Fight -\n- In battles with 3 or more enemies, use Burst Skill to do a powerful attack on all enemies!\n- Use Skill 1 to defend allies while also striking back on enemies with a Counter.",
+    "id": 4370104,
+    "name": "Lanze \"The Captain Awakens\" Slash | Attacker",
+    "still_path_hash": "1756512131681980544"
+  },
+  {
     "description": "- Skill 2 hits all enemies and boosts own critical damage.\n- Boosts critical damage even more each time an enemy is defeated.\nNote: Trial battles are played with a max level, fully awakened party with\nfully unlocked Growboards.",
     "id": 4380101,
     "name": "Izana \"Return of the Knight\" Bolt | Attacker",
@@ -1042,6 +1618,54 @@
     "id": 4380103,
     "name": "Izana \"Return of the Knight\" Bolt | Attacker",
     "still_path_hash": "2252181821789917017"
+  },
+  {
+    "description": "スキル2はクリティカル攻撃時、この攻撃のブレイクダメージ200%アップ！\nさらに攻撃後、敵全体に「受けるクリティカルダメージ+30%」を付与！\n※お試しバトルはLv.最大、覚醒段階MAX、グロウボード全解放状態です",
+    "id": 4380201,
+    "name": "イザナ【Dragon's Bride】斬｜ブレイカー",
+    "still_path_hash": "6485364284513513634"
+  },
+  {
+    "description": "・スキル1は自身に「クリティカル確率+100%」を1回付与！\n・アビリティで、パネル獲得時、\n　自身に「クリティカル確率+100%」を1回付与！",
+    "id": 4380202,
+    "name": "イザナ【Dragon's Bride】斬｜ブレイカー",
+    "still_path_hash": "4722237699688067004"
+  },
+  {
+    "description": "バーストスキルは敵に「スタン」を超高確率で付与！\n味方全員のパネル1つをクリティカルパネルに\n変換もしくは生成！（強化系パネル・バーストパネル除く）",
+    "id": 4380203,
+    "name": "イザナ【Dragon's Bride】斬｜ブレイカー",
+    "still_path_hash": "2136312932673867746"
+  },
+  {
+    "description": "〜戦い方〜\n・スキル2でクリティカルを発生させ、ブレイクダメージをアップ！\n・ブレイクしたり、「スタン」を付与して、敵の行動を妨害しよう！",
+    "id": 4380204,
+    "name": "イザナ【Dragon's Bride】斬｜ブレイカー",
+    "still_path_hash": "1999420389038207229"
+  },
+  {
+    "description": "The ability \"Kitty Cat Team\" grants her immunity to negative panels, while also boosting the potency of the positive panels she uses by 10%!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
+    "id": 4430101,
+    "name": "Eren \"Noble Wolf\" Air | Attacker",
+    "still_path_hash": "5131036757516129189"
+  },
+  {
+    "description": "She boosts her own M. ATK by 10% whenever she uses a panel or heals! (MAX 100%) \nPlus, the wait time on her skills is short, letting her act more quickly! Skill 2 boosts the current attack's damage by 50% when attacking a weakness!",
+    "id": 4430102,
+    "name": "Eren \"Noble Wolf\" Air | Attacker",
+    "still_path_hash": "6682634729885994169"
+  },
+  {
+    "description": "Her Burst Skill boosts her M. ATK by 30%! It also boosts her SPD by 50%!",
+    "id": 4430103,
+    "name": "Eren \"Noble Wolf\" Air | Attacker",
+    "still_path_hash": "40545046487837927"
+  },
+  {
+    "description": "- How to Fight -\n- Boost her M. ATK by using panels, recovering HP, and using her burst skill!\n- Raise her SPD with her Burst Skill and lay on the attacks!",
+    "id": 4430104,
+    "name": "Eren \"Noble Wolf\" Air | Attacker",
+    "still_path_hash": "471435996221527032"
   },
   {
     "description": "- The ability \"This Is What I'm Made Of!\" increases skill damage by 5% each time HP is recovered, up to 120%!\nNote: Trial battles are played with a max level, fully awakened party with\nfully unlocked Growboards.",

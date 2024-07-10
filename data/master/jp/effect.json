@@ -861,6 +861,27 @@
     "popup_text": ""
   },
   {
+    "description": "対象が与える「雷属性耐性ダウン」の効果量{0}%アップ",
+    "effect_motion_id": null,
+    "id": 3000211,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "対象が与える「氷属性耐性ダウン」の効果量{0}%アップ",
+    "effect_motion_id": null,
+    "id": 3000212,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "WEAK攻撃時、ブレイクダメージ{0}%アップ",
+    "effect_motion_id": null,
+    "id": 3000213,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "次のターン終了時まで敵全体の風耐性を10%減少させる",
     "effect_motion_id": null,
     "id": 4000003,
@@ -6188,6 +6209,76 @@
     "popup_text": ""
   },
   {
+    "description": "得意属性が雷属性かつブレイカーの時、ブレイクダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000795,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "「季節の装い」の味方全員の魔攻上昇",
+    "effect_motion_id": null,
+    "id": 6000796,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が氷属性かつアタッカーの時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000797,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "「クーケン島」の味方全員の魔攻上昇",
+    "effect_motion_id": null,
+    "id": 6000798,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が雷属性かつブレイカーの時、全体攻撃のブレイクダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000799,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が雷属性かつブレイカーの時、与えるマイナス効果量アップ",
+    "effect_motion_id": null,
+    "id": 6000800,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が雷属性かつブレイカーの時、与える強化効果量アップ",
+    "effect_motion_id": null,
+    "id": 6000801,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が氷属性かつWEAK攻撃時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000802,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が氷属性かつアタッカーの時、パーティの誰かが戦闘アイテム使用後、自身に「スキルダメージアップ」を1回行動終了するまで付与<br>※アイテムを複数同時に使用しても発動は1回",
+    "effect_motion_id": null,
+    "id": 6000803,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が氷属性かつアタッカーの時、全体攻撃のスキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000804,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "与回復量上昇",
     "effect_motion_id": null,
     "id": 13000001,
@@ -6916,6 +7007,20 @@
     "popup_text": ""
   },
   {
+    "description": "味方全員に「クリティカル確率+{0}%(最大300%)」を付与",
+    "effect_motion_id": null,
+    "id": 13000208,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身が雷属性の時、クリティカルダメージ+{}%",
+    "effect_motion_id": null,
+    "id": 13000214,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "麻痺＋パネル効果「被ダメージDOWN」無効",
     "effect_motion_id": null,
     "id": 21045001,
@@ -7122,8 +7227,8 @@
     "description": "味方全体の状態異常を解除",
     "effect_motion_id": null,
     "id": 71140005,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "状態異常解除"
   },
   {
     "description": "味方全体に状態異常無効1回を付与",
@@ -7199,8 +7304,8 @@
     "description": "対象のバフを解除",
     "effect_motion_id": null,
     "id": 71142004,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "自身に与ダメージUPを付与",
@@ -7402,8 +7507,8 @@
     "description": "敵かつスキル対象の『強化効果』を解除",
     "effect_motion_id": null,
     "id": 71146002,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "敵かつスキル対象に『与ダメージDOWN(付与率100%/3回)』を付与",
@@ -7430,8 +7535,8 @@
     "description": "敵スキル対象の強化効果を全て解除",
     "effect_motion_id": null,
     "id": 71146006,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "敵全体に「強化効果の効果量ダウン」を付与（2回発動）",
@@ -7696,8 +7801,8 @@
     "description": "敵スキル対象の強化効果を全て解除",
     "effect_motion_id": null,
     "id": 71151002,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "敵全体に「強化効果の効果量ダウン」を付与（5回発動）",
@@ -8617,6 +8722,27 @@
     "popup_text": ""
   },
   {
+    "description": "[味方全員/ブレイク時/1回/魔攻アップ]",
+    "effect_motion_id": null,
+    "id": 72001093,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "[スキルランプ点灯]",
+    "effect_motion_id": null,
+    "id": 72001094,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "[出現する弱体系パネル/麦わらパネルに変換]",
+    "effect_motion_id": null,
+    "id": 72001096,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "[自身/常時/物攻上昇]",
     "effect_motion_id": null,
     "id": 72500002,
@@ -8939,6 +9065,20 @@
     "popup_text": ""
   },
   {
+    "description": "[自身/バーストブレイクダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72500142,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "id": 72500143,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "自身をかばう状態(2回)にする",
     "effect_motion_id": null,
     "id": 76008001,
@@ -9086,6 +9226,20 @@
     "popup_text": ""
   },
   {
+    "description": "味方対象に被ダメージDOWN(上限90%)7回付与",
+    "effect_motion_id": null,
+    "id": 76122003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "味方対象に被ダメージDOWN(上限90%)3回付与",
+    "effect_motion_id": null,
+    "id": 76141002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "敵かつスキル対象の1マスの頭上パネルの空,強化パネル,弱体パネル,バーストパネル,クリティカルパネル,ブレイク強化パネル,加護強化パネル,HP回復パネル,麻痺パネル,暗闇パネル,火傷パネルを加護弱化パネルに変換する",
     "effect_motion_id": null,
     "id": 76146009,
@@ -9205,6 +9359,20 @@
     "popup_text": ""
   },
   {
+    "description": "自身に付与されているデバフを解除",
+    "effect_motion_id": null,
+    "id": 76158007,
+    "is_positive_popup": true,
+    "popup_text": "マイナス効果解除"
+  },
+  {
+    "description": "自身に付与されている状態異常を解除",
+    "effect_motion_id": null,
+    "id": 76158008,
+    "is_positive_popup": true,
+    "popup_text": "状態異常解除"
+  },
+  {
     "description": "",
     "effect_motion_id": 1032,
     "id": 80000001,
@@ -9229,6 +9397,13 @@
     "description": "カウンター",
     "effect_motion_id": null,
     "id": 80000167,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "戦闘アイテムの被ダメージを減少",
+    "effect_motion_id": null,
+    "id": 81001005,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -9285,8 +9460,8 @@
     "description": "ブレイク時に、自身の強化状態を解除",
     "effect_motion_id": null,
     "id": 81050005,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "自身に「条件付き被ダメージDOWN(14章鴉)」を付与",
@@ -9327,8 +9502,8 @@
     "description": "以下条件の時、攻撃被弾時に「条件付き被ダメージDOWN(14章鴉)」効果を解除\n・攻撃被弾直前にHP85%以下の時\n・「条件付き被ダメージDOWN(14章鴉)」効果を持っている時",
     "effect_motion_id": 1089,
     "id": 81050011,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "条件付き被ダメージDOWN解除"
   },
   {
     "description": "以下条件の時、攻撃被弾時に自身のHPを回復\n・HP75%以下の時\n・「条件付き被ダメージDOWN(14章鴉)」を持っていない時\n・「条件付きクリティカル被ダメージDOWN(14章鴉)」効果を持っている時",
@@ -9341,8 +9516,8 @@
     "description": "以下条件の時、攻撃被弾時に自身の「ブレイク状態以外でのクリティカル耐性+100%」効果を解除\n・HP75%以下の時\n・「条件付き被ダメージDOWN(14章鴉)」を持っていない時\n・「条件付きクリティカル被ダメージDOWN(14章鴉)」効果を持っている時",
     "effect_motion_id": 1090,
     "id": 81050013,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "条件付きクリティカル被ダメージDOWN解除"
   },
   {
     "description": "以下条件の時、攻撃被弾時に自身のHPを回復\n・HP75%以下の時\n・「条件付き被ダメージDOWN(14章鴉)」を持っていない時\n・「条件付きクリティカル被ダメージDOWN(14章鴉)」効果を持っていない時",
@@ -9460,8 +9635,8 @@
     "description": "マイナスパネルを獲得時、自身のバフを解除",
     "effect_motion_id": 1067,
     "id": 81140005,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "マイナスパネルを獲得時、自身に被ダメージUPを付与",
@@ -9586,8 +9761,8 @@
     "description": "ブレイク発生時、味方全体の『被ダメージDOWN全般』を解除",
     "effect_motion_id": 1083,
     "id": 81147002,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "被ダメージDOWN解除"
   },
   {
     "description": "自身のブレイク回数が1回以上の時、自身に『与ダメージUP(付与率100%/99回)』を付与",
@@ -9642,8 +9817,8 @@
     "description": "敵全体の『強化効果』を解除",
     "effect_motion_id": 1079,
     "id": 81148005,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "スキル対象のHPが50%以下の場合、敵全体に『被回復量DOWN(付与率100%/3回)』を付与",
@@ -9691,8 +9866,8 @@
     "description": "ブレイク時に、自身の強化状態を解除",
     "effect_motion_id": null,
     "id": 81152001,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "自身に非クリティカル攻撃カウンター(1回)を付与",
@@ -9712,22 +9887,22 @@
     "description": "攻撃被弾時、ブレイクした場合、自身の強化効果を解除",
     "effect_motion_id": null,
     "id": 81153002,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "味方全体の強化効果解除",
     "effect_motion_id": null,
     "id": 81156001,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "敵全体の強化効果解除",
     "effect_motion_id": 1096,
     "id": 81156002,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "カチコチ状態の時、被クリティカルダメージUP",
@@ -9754,8 +9929,8 @@
     "description": "自身の「かばう」状態を解除",
     "effect_motion_id": null,
     "id": 86008001,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "かばう解除"
   },
   {
     "description": "行動終了後、自身に与ダメージUPを永続付与",
@@ -9859,6 +10034,34 @@
     "description": "敵全体に与ダメージDOWN(1回)を付与",
     "effect_motion_id": null,
     "id": 86035001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に非弱点属性攻撃カウンター(1回)を付与",
+    "effect_motion_id": null,
+    "id": 86056004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "非弱点属性攻撃カウンター",
+    "effect_motion_id": null,
+    "id": 86056005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身にカウンター(1回)を付与",
+    "effect_motion_id": null,
+    "id": 86056009,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身のブレイクゲージを回復",
+    "effect_motion_id": null,
+    "id": 86083010,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -10006,8 +10209,8 @@
     "description": "プレイヤー陣営のデバフ効果を全て解除",
     "effect_motion_id": null,
     "id": 86093007,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "マイナス効果解除"
   },
   {
     "description": "死亡時、敵全体にクリティカル確率UPを付与",
@@ -10034,13 +10237,20 @@
     "description": "生存数1人以下の場合、自身のバフを全て解除",
     "effect_motion_id": null,
     "id": 86105004,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "生存数2人以上の場合、受けるダメージDOWN",
     "effect_motion_id": null,
     "id": 86105005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "状態異常を付与されたとき、自身に被ダメージアップ付与",
+    "effect_motion_id": null,
+    "id": 86109003,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -10083,13 +10293,20 @@
     "description": "戦闘不能時味方全体のデバフ解除",
     "effect_motion_id": 1046,
     "id": 86130003,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "マイナス効果解除"
   },
   {
     "description": "戦闘不能時味方全体に被ダメージDOWN永続付与",
     "effect_motion_id": 1046,
     "id": 86130004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵対象にクリティカルダメージDOWN3回付与",
+    "effect_motion_id": null,
+    "id": 86141001,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -10104,8 +10321,8 @@
     "description": "自身のバフ全て解除",
     "effect_motion_id": null,
     "id": 86150001,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "自身にスタン(1回)付与",
@@ -10132,8 +10349,8 @@
     "description": "クリティカル攻撃被弾時、自身のバフ全て解除",
     "effect_motion_id": 1092,
     "id": 86152001,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "非クリティカル攻撃に対し100%でカウンター",
@@ -10167,6 +10384,41 @@
     "description": "自身に回避付与",
     "effect_motion_id": 1095,
     "id": 86155002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "バースト被弾時自身に暗闇2回を強制付与",
+    "effect_motion_id": 1097,
+    "id": 86158003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "バースト被弾時自身に被ダメUP(上限160%)を累積付与",
+    "effect_motion_id": 1097,
+    "id": 86158004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "バースト被弾時自身に被ダメUP(上限300%)を累積付与",
+    "effect_motion_id": 1097,
+    "id": 86158005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "バーストスキル被弾時に自身に被ダメージアップ付与",
+    "effect_motion_id": 1097,
+    "id": 86162001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "バーストスキル被弾時に自身に暗闇状態付与",
+    "effect_motion_id": 1097,
+    "id": 86162002,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -12259,6 +12511,69 @@
   {
     "description": "",
     "effect_motion_id": null,
+    "id": 91001326,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001327,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001328,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001329,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001330,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001331,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001337,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001343,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001344,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
     "id": 91002004,
     "is_positive_popup": null,
     "popup_text": ""
@@ -13230,6 +13545,41 @@
     "popup_text": ""
   },
   {
+    "description": "得意属性が雷属性の時、ブレイクダメージアップ",
+    "effect_motion_id": null,
+    "id": 95000126,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が氷属性かつWEAK攻撃時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 95000127,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "「クーケン島」の味方全員のスキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 95000128,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "攻撃対象が水棲種族の時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 95000129,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "水棲種族から受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 95000130,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "",
     "effect_motion_id": null,
     "id": 120000001,
@@ -13394,8 +13744,8 @@
     "description": "",
     "effect_motion_id": null,
     "id": 120000024,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "マイナス効果解除"
   },
   {
     "description": "",
@@ -13450,15 +13800,15 @@
     "description": "",
     "effect_motion_id": null,
     "id": 120000032,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "マイナス効果解除"
   },
   {
     "description": "",
     "effect_motion_id": null,
     "id": 120000033,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "マイナス効果解除"
   },
   {
     "description": "",
@@ -13534,8 +13884,8 @@
     "description": "",
     "effect_motion_id": null,
     "id": 120000046,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
@@ -13562,8 +13912,8 @@
     "description": "",
     "effect_motion_id": null,
     "id": 120000051,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
@@ -13646,8 +13996,8 @@
     "description": "",
     "effect_motion_id": null,
     "id": 120000065,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
@@ -15158,8 +15508,8 @@
     "description": "自身の回復無効を解除",
     "effect_motion_id": null,
     "id": 120000296,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "回復無効解除"
   },
   {
     "description": "アイテム使用後、クリティカルダメージUP1回",
@@ -17223,8 +17573,8 @@
     "description": "手番開始時プラス効果解除",
     "effect_motion_id": null,
     "id": 120010220,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "ブレイク時味方全体のHP回復",
@@ -17874,8 +18224,8 @@
     "description": "ブレイク発生時味方全体のマイナス効果解除",
     "effect_motion_id": null,
     "id": 120010317,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "マイナス効果解除"
   },
   {
     "description": "ブレイク発生時味方全体のマイナス効果解除",
@@ -18133,8 +18483,8 @@
     "description": "自身のデバフ解除",
     "effect_motion_id": null,
     "id": 780007011,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "マイナス効果解除"
   },
   {
     "description": "自身のマイナス効果無効付与1回",
@@ -18441,8 +18791,8 @@
     "description": "",
     "effect_motion_id": null,
     "id": 780014004,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "与ダメージUP2回を味方に付与",
@@ -18469,8 +18819,8 @@
     "description": "味方対象のマイナス効果を解除",
     "effect_motion_id": null,
     "id": 780014008,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "マイナス効果解除"
   },
   {
     "description": "",
@@ -18616,8 +18966,8 @@
     "description": "対象のプラス効果を解除",
     "effect_motion_id": null,
     "id": 780018003,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
@@ -19484,8 +19834,8 @@
     "description": "強化解除",
     "effect_motion_id": null,
     "id": 780045012,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "マイナス効果量上昇(付与率100%/1回)",
@@ -19848,8 +20198,8 @@
     "description": "HP70％以下の時、自身のデバフを解除",
     "effect_motion_id": null,
     "id": 780050002,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "マイナス効果解除"
   },
   {
     "description": "",
@@ -19953,8 +20303,8 @@
     "description": "自身がブレイクした時、自身のバフを解除",
     "effect_motion_id": null,
     "id": 780050020,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
@@ -20443,8 +20793,8 @@
     "description": "",
     "effect_motion_id": null,
     "id": 780063001,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
@@ -20457,22 +20807,22 @@
     "description": "",
     "effect_motion_id": null,
     "id": 780064001,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "攻撃対象のプラス効果を50%の確率で解除",
     "effect_motion_id": null,
     "id": 780064002,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
     "effect_motion_id": null,
     "id": 780065001,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "敵スキル対象に与ダメージDOWNを付与",
@@ -21003,8 +21353,8 @@
     "description": "敵対象のプラス効果を解除",
     "effect_motion_id": null,
     "id": 780087003,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "毒状態の敵対象に与えるダメージ上昇",
@@ -21577,8 +21927,8 @@
     "description": "対象の強化効果を全て解除",
     "effect_motion_id": null,
     "id": 780099005,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "対象の魔攻DOWN(2回)",
@@ -22004,8 +22354,8 @@
     "description": "スキル使用前、暗闇を解除",
     "effect_motion_id": null,
     "id": 780103047,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "暗闇解除"
   },
   {
     "description": "効果なし",
@@ -22459,8 +22809,8 @@
     "description": "対象のデバフ解除",
     "effect_motion_id": null,
     "id": 780110008,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "マイナス効果解除"
   },
   {
     "description": "対象に被ダメージUP(付与率100%/2回)を付与",
@@ -22851,8 +23201,8 @@
     "description": "味方対象の状態異常を解除",
     "effect_motion_id": null,
     "id": 780122005,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "状態異常解除"
   },
   {
     "description": "自身にかばう状態を3回付与",
@@ -22865,6 +23215,13 @@
     "description": "味方対象に被ダメージDOWN2回",
     "effect_motion_id": null,
     "id": 780122007,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "味方全体に被ダメージDOWNを付与（永続/30%）",
+    "effect_motion_id": null,
+    "id": 780122008,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -22893,8 +23250,8 @@
     "description": "自身のデバフ解除",
     "effect_motion_id": null,
     "id": 780130001,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "マイナス効果解除"
   },
   {
     "description": "敵全体に被ダメージUP2回を付与",
@@ -23082,8 +23439,8 @@
     "description": "敵単体のプラス効果を解除",
     "effect_motion_id": null,
     "id": 780132007,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "回復量DOWN(state_change用)",
@@ -23698,8 +24055,8 @@
     "description": "クリティカル被弾時自身のバフを解除",
     "effect_motion_id": null,
     "id": 880007004,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "クリティカル被弾時被ダメージUP(最大100%)を累積付与",
@@ -23887,8 +24244,8 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880011003,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
@@ -23922,8 +24279,8 @@
     "description": "ブレイク時、自身の状態異常解除",
     "effect_motion_id": null,
     "id": 880011008,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "状態異常解除"
   },
   {
     "description": "ブレイク中でない場合、単体攻撃を回避",
@@ -24027,8 +24384,8 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880014016,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
@@ -24118,8 +24475,8 @@
     "description": "味方のバフ解除",
     "effect_motion_id": null,
     "id": 880018005,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
@@ -24244,8 +24601,8 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880022002,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
@@ -24307,8 +24664,8 @@
     "description": "死亡時、味方1人のカウンター解除",
     "effect_motion_id": 1075,
     "id": 880026006,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "カウンター解除"
   },
   {
     "description": "味方全体に与ダメージUP付与(永続)",
@@ -24321,8 +24678,8 @@
     "description": "死亡時、味方1人のカウンター解除",
     "effect_motion_id": 1075,
     "id": 880026008,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "カウンター解除"
   },
   {
     "description": "物理属性攻撃を受けた時、自身の与ダメージUP(3回)",
@@ -24426,8 +24783,8 @@
     "description": "ブレイク時状態変化解除",
     "effect_motion_id": null,
     "id": 880030015,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "状態変化解除"
   },
   {
     "description": "自身に被ダメージDOWN(スイッチA)を付与する",
@@ -24440,8 +24797,8 @@
     "description": "物理属性攻撃を受けた時、自身の被ダメージDOWN(スイッチA)を解除する",
     "effect_motion_id": 1011,
     "id": 880030017,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "被ダメージDOWN解除"
   },
   {
     "description": "物理属性攻撃を受けた時、自身の与ダメージUP(スイッチB)を付与する",
@@ -24454,8 +24811,8 @@
     "description": "魔法属性攻撃を受けた時、自身の被ダメージDOWN(スイッチA)を解除する",
     "effect_motion_id": 1011,
     "id": 880030019,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "被ダメージDOWN解除"
   },
   {
     "description": "魔法属性攻撃を受けた時、自身被ダメージDOWN(スイッチC)を付与する",
@@ -24468,22 +24825,22 @@
     "description": "物理被弾時被ダメージDOWN(スイッチC)を解除",
     "effect_motion_id": 1011,
     "id": 880030021,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "被ダメージDOWN解除"
   },
   {
     "description": "魔法被弾時与ダメージUP(スイッチB)を解除",
     "effect_motion_id": 1011,
     "id": 880030022,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "与ダメージUP解除"
   },
   {
     "description": "単体属性攻撃を受けた時、自身の被ダメージDOWN(スイッチA)を解除する",
     "effect_motion_id": 1011,
     "id": 880030023,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "被ダメージDOWN解除"
   },
   {
     "description": "単体属性攻撃を受けた時、自身の与ダメージUP(スイッチB)を付与する",
@@ -24496,8 +24853,8 @@
     "description": "全体属性攻撃を受けた時、自身の被ダメージDOWN(スイッチA)を解除する",
     "effect_motion_id": 1011,
     "id": 880030025,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "被ダメージDOWN解除"
   },
   {
     "description": "全体属性攻撃を受けた時、自身被ダメージDOWN(スイッチC)を付与する",
@@ -24510,15 +24867,15 @@
     "description": "単体被弾時被ダメージDOWN(スイッチC)を解除",
     "effect_motion_id": 1011,
     "id": 880030027,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "被ダメージDOWN解除"
   },
   {
     "description": "全体被弾時与ダメージUP(スイッチB)を解除",
     "effect_motion_id": 1011,
     "id": 880030028,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "与ダメージUP解除"
   },
   {
     "description": "自身に付与されるプッシュ効果を無効化する",
@@ -24559,15 +24916,15 @@
     "description": "1以上のHPダメージを負った場合、味方全体の被ダメージ軽減効果を解除する",
     "effect_motion_id": null,
     "id": 880030034,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "被ダメージDOWN解除"
   },
   {
     "description": "味方全体の被ダメージ軽減効果を解除する",
     "effect_motion_id": null,
     "id": 880030035,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "被ダメージDOWN解除"
   },
   {
     "description": "自身の最大HP10%以下のダメージを受けた際、自身に被ダメージ減少を付与",
@@ -24601,8 +24958,8 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880031007,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "非ブレイク時被ダメージ軽減",
@@ -24657,8 +25014,8 @@
     "description": "自身がブレイク時、キャラクター陣営の状態異常を解除",
     "effect_motion_id": 1087,
     "id": 880035006,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "状態異常解除"
   },
   {
     "description": "HP50%以下の時、被弾時与ダメージUPを付与(1回)",
@@ -24706,8 +25063,8 @@
     "description": "攻撃被弾時、与ダメージUP(クリスマス)解除",
     "effect_motion_id": null,
     "id": 880040005,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "与ダメージUP解除"
   },
   {
     "description": "対象に被ダメージUP5回",
@@ -24804,22 +25161,22 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880042013,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "マイナス効果解除"
   },
   {
     "description": "",
     "effect_motion_id": null,
     "id": 880042014,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "マイナス効果解除"
   },
   {
     "description": "自身に付与された専用被ダメージUPを解除",
     "effect_motion_id": null,
     "id": 880042015,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "被ダメージUP解除"
   },
   {
     "description": "常時被ダメージ軽減",
@@ -24916,8 +25273,8 @@
     "description": "自身の最大HP(21%)以上の被ダメージを受けた時、自身の最大HP(20%)以下の被ダメージ無効を解除",
     "effect_motion_id": null,
     "id": 880042040,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "ダメージ無効解除"
   },
   {
     "description": "HPが低いほどスキルダメージUP(HP20%以下で効果値が最大になる)",
@@ -25035,8 +25392,8 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880045010,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "被ダメージDOWN解除"
   },
   {
     "description": "残りHPが60%以下の時、自身のHPを回復",
@@ -25140,8 +25497,8 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880046009,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
@@ -25441,8 +25798,8 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880050004,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
@@ -26001,15 +26358,15 @@
     "description": "ブレイクから復帰した時にデバフを解除する",
     "effect_motion_id": null,
     "id": 880051081,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "マイナス効果解除"
   },
   {
     "description": "自身ブレイク時、敵全体の挑発を解除",
     "effect_motion_id": null,
     "id": 880051082,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "挑発解除"
   },
   {
     "description": "物理攻撃被弾時、受けるダメージDOWNを付与(永続)",
@@ -26211,8 +26568,8 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880054006,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
@@ -26295,15 +26652,15 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880055003,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "マイナス効果解除"
   },
   {
     "description": "",
     "effect_motion_id": null,
     "id": 880055004,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
@@ -26330,8 +26687,8 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880055008,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "マイナス効果解除"
   },
   {
     "description": "ブレイクダメージDOWN3回を敵対象に付与",
@@ -26358,8 +26715,8 @@
     "description": "ブレイク時自身のバフ解除",
     "effect_motion_id": null,
     "id": 880055012,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "ブレイク時自身に被ダメージUPを累積付与",
@@ -26428,8 +26785,8 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880056006,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
@@ -26463,15 +26820,15 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880056011,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
     "effect_motion_id": null,
     "id": 880056012,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "状態異常解除"
   },
   {
     "description": "",
@@ -26526,8 +26883,8 @@
     "description": "物理攻撃被弾時自身の魔法反射を解除",
     "effect_motion_id": null,
     "id": 880056020,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "魔法攻撃反射解除"
   },
   {
     "description": "30%でカウンター",
@@ -26750,8 +27107,8 @@
     "description": "被弾時攻撃者のプラス効果を解除",
     "effect_motion_id": null,
     "id": 880065001,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
@@ -26904,15 +27261,15 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880072002,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
     "effect_motion_id": null,
     "id": 880073002,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
@@ -26925,8 +27282,8 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880074003,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
@@ -26946,8 +27303,8 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880075002,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
@@ -26967,8 +27324,8 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880076002,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
@@ -26981,8 +27338,8 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880077002,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "",
@@ -27149,15 +27506,15 @@
     "description": "",
     "effect_motion_id": null,
     "id": 880083007,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "防御DOWN解除"
   },
   {
     "description": "",
     "effect_motion_id": null,
     "id": 880083008,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "マイナス効果無効解除"
   },
   {
     "description": "・攻撃被弾時、HP35%以下の時、自身に与ダメージUP(5回)を付与",
@@ -27317,15 +27674,15 @@
     "description": "行動者にプラス効果が3つ以上ついている場合、対象のプラス効果を全て解除",
     "effect_motion_id": null,
     "id": 880086001,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "斬属性被弾時、バフ解除",
     "effect_motion_id": null,
     "id": 880086007,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
   },
   {
     "description": "打属性被弾時、ブレイクダメージ低下",
@@ -27408,8 +27765,8 @@
     "description": "自身がブレイク時、自身のマイナス効果解除",
     "effect_motion_id": null,
     "id": 880087003,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "マイナス効果解除"
   },
   {
     "description": "攻撃者に与ダメージUPが付与されている時、被ダメージ上昇",
@@ -27583,8 +27940,8 @@
     "description": "HPが60%以下かつ「被ダメージDOWN(ルナリアエンゼル専用)」状態の時、自身の「被ダメージDOWN(ルナリアエンゼル専用)」を解除",
     "effect_motion_id": 1008,
     "id": 880092002,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "被ダメージDOWN解除"
   },
   {
     "description": "HPが60%以下かつ「被ダメージDOWN(ルナリアエンゼル専用)」状態の時、自身の素早さUP(永続)",
@@ -28122,22 +28479,22 @@
     "description": "ウェルテックスBが非ブレイク中かつ自身が「与ダメージDOWN(ウェルテックス(ブレイク時))」を所持している場合、「与ダメージDOWN(ウェルテックス(ブレイク時))」を解除",
     "effect_motion_id": 1037,
     "id": 880113004,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "与ダメージDOWN解除"
   },
   {
     "description": "ウェルテックスCが非ブレイク中かつ自身が「被ブレイクダメージUP(ウェルテックス(ブレイク時))」を所持している場合、「被ブレイクダメージUP(ウェルテックス(ブレイク時))」を解除",
     "effect_motion_id": 1038,
     "id": 880113005,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "被ブレイクダメージUP解除"
   },
   {
     "description": "自身がブレイク中かつ「被ダメージDOWN(ウェルテックス)」を所持している場合、「被ダメージDOWN(ウェルテックス)」を解除",
     "effect_motion_id": 1023,
     "id": 880113006,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "被ダメージDOWN解除"
   },
   {
     "description": "被ブレイクダメージUP",
@@ -28171,8 +28528,8 @@
     "description": "自身が戦闘不能時かつウェルテックスAが「与ダメージDOWN(ウェルテックス(ブレイク時))」を所持している場合、ウェルテックスAの「与ダメージDOWN(ウェルテックス(ブレイク時))」を解除",
     "effect_motion_id": null,
     "id": 880114003,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "与ダメージDOWN解除"
   },
   {
     "description": "自身がブレイク時かつウェルテックスAが「被ブレイクダメージUP(ウェルテックス(ブレイク時))」を所持していない場合、ウェルテックスAに「被ブレイクダメージUP(ウェルテックス(ブレイク時))」(回数無制限)を付与",
@@ -28192,8 +28549,8 @@
     "description": "自身が戦闘不能時かつウェルテックスAが「被ブレイクダメージUP(ウェルテックス(ブレイク時))」を所持している場合、ウェルテックスAの「被ブレイクダメージUP(ウェルテックス(ブレイク時))」を解除",
     "effect_motion_id": null,
     "id": 880115003,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "被ブレイクダメージUP解除"
   },
   {
     "description": "ブレイク時、強化パネルをバーストパネルに書き換え",
@@ -28311,8 +28668,8 @@
     "description": "自身がブレイクした時、敵全体のマイナス効果を解除",
     "effect_motion_id": null,
     "id": 880119014,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "マイナス効果解除"
   },
   {
     "description": "弱体パネルを麻痺パネルに書き換える。",
@@ -28458,22 +28815,22 @@
     "description": "ウェルテックス第二形態Bが非ブレイク中かつ自身が「与ダメージDOWN(ウェルテックス(ブレイク時))」を所持している場合、「与ダメージDOWN(ウェルテックス(ブレイク時))」を解除",
     "effect_motion_id": 1056,
     "id": 880134004,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "与ダメージDOWN解除"
   },
   {
     "description": "ウェルテックス第二形態Cが非ブレイク中かつ自身が「被ブレイクダメージUP(ウェルテックス(ブレイク時))」を所持している場合、「被ブレイクダメージUP(ウェルテックス(ブレイク時))」を解除",
     "effect_motion_id": 1057,
     "id": 880134005,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "被ブレイクダメージUP解除"
   },
   {
     "description": "自身がブレイク中かつ「被ダメージDOWN(ウェルテックス)」を所持している場合、「被ダメージDOWN(ウェルテックス)」を解除",
     "effect_motion_id": 1055,
     "id": 880134006,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": false,
+    "popup_text": "被ダメージDOWN解除"
   },
   {
     "description": "自身の行動予定を再抽選する",
@@ -28500,8 +28857,8 @@
     "description": "自身が戦闘不能時かつウェルテックス第二形態Aが「与ダメージDOWN(ウェルテックス(ブレイク時))」を所持している場合、ウェルテックス第二形態Aの「与ダメージDOWN(ウェルテックス(ブレイク時))」を解除",
     "effect_motion_id": null,
     "id": 880135003,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "与ダメージDOWN解除"
   },
   {
     "description": "自身がブレイク時かつウェルテックス第二形態Aが「被ブレイクダメージUP(ウェルテックス(ブレイク時))」を所持していない場合、ウェルテックス第二形態Aに「被ブレイクダメージUP(ウェルテックス(ブレイク時))」(回数無制限)を付与",
@@ -28521,8 +28878,8 @@
     "description": "自身が戦闘不能時かつウェルテックス第二形態Aが「被ブレイクダメージUP(ウェルテックス(ブレイク時))」を所持している場合、ウェルテックス第二形態Aの「被ブレイクダメージUP(ウェルテックス(ブレイク時))」を解除",
     "effect_motion_id": null,
     "id": 880136003,
-    "is_positive_popup": null,
-    "popup_text": ""
+    "is_positive_popup": true,
+    "popup_text": "被ブレイクダメージUP解除"
   },
   {
     "description": "HP60%以下の時、ダメージ無効(1回)を付与（一度だけ）",

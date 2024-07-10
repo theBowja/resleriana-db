@@ -461,7 +461,7 @@
 	},
 	{
 		"id": 1742495730,
-		"text": "Turn"
+		"text": "Turn(s)"
 	},
 	{
 		"id": 2675000,
@@ -1733,7 +1733,7 @@
 	},
 	{
 		"id": 1314223310,
-		"text": "Obtained"
+		"text": "Obtain"
 	},
 	{
 		"id": 145596068,
@@ -1745,7 +1745,7 @@
 	},
 	{
 		"id": 1138638058,
-		"text": "Will Unlock Over Time"
+		"text": "Will unlock over time."
 	},
 	{
 		"id": 1206905181,
@@ -1769,11 +1769,19 @@
 	},
 	{
 		"id": 1659457109,
-		"text": "10"
+		"text": "+10"
 	},
 	{
 		"id": 763040800,
 		"text": "-10"
+	},
+	{
+		"id": 339595616,
+		"text": "Caution"
+	},
+	{
+		"id": 286113245,
+		"text": "Quality"
 	},
 	{
 		"id": 118319450,
@@ -2192,6 +2200,26 @@
 		"text": "Note: These stats are for a fully awakened, Lv. {0} character with a fully unlocked Growboard.\nThis does not include role enhancements, research effects, or emblem effects. Characters are received at Lv. 1."
 	},
 	{
+		"id": 554973128,
+		"text": "Reset Level Only"
+	},
+	{
+		"id": 1791522916,
+		"text": "Note: For characters above level {0}, resetting the level only will still consume one {1}."
+	},
+	{
+		"id": 1535950469,
+		"text": "No returnable items."
+	},
+	{
+		"id": 1429318499,
+		"text": "Recommended"
+	},
+	{
+		"id": 1216957547,
+		"text": "No equipment matches the criteria."
+	},
+	{
 		"id": 1591486979,
 		"text": "Battle"
 	},
@@ -2205,7 +2233,7 @@
 	},
 	{
 		"id": 2126998522,
-		"text": "Inbox"
+		"text": "Mailbox"
 	},
 	{
 		"id": 174277379,
@@ -2897,7 +2925,7 @@
 	},
 	{
 		"id": 448277047,
-		"text": "Earned the following Emblems:"
+		"text": "Earned the above Emblems."
 	},
 	{
 		"id": 1713670916,
@@ -3312,6 +3340,18 @@
 		"text": "Special Rules"
 	},
 	{
+		"id": 1068731100,
+		"text": "NEW RECORD"
+	},
+	{
+		"id": 1581593460,
+		"text": "BEST RECORD"
+	},
+	{
+		"id": 1799644299,
+		"text": "Total damage will not be recorded."
+	},
+	{
 		"id": 635668857,
 		"text": "Total PWR"
 	},
@@ -3534,6 +3574,14 @@
 	{
 		"id": 2110685255,
 		"text": "???"
+	},
+	{
+		"id": 1958459682,
+		"text": "Are you sure you want to use Auto Select?\n<color=#ff0000>Note: All currently equipped items and Memoria will be changed.</color>"
+	},
+	{
+		"id": 1486502557,
+		"text": "No Frame"
 	},
 	{
 		"id": 650867395,
@@ -4516,6 +4564,30 @@
 		"text": "Bonus"
 	},
 	{
+		"id": 1938710583,
+		"text": "Need"
+	},
+	{
+		"id": 151846625,
+		"text": "more to awaken to"
+	},
+	{
+		"id": 1052397518,
+		"text": "."
+	},
+	{
+		"id": 878460781,
+		"text": "{0} can be awakened to"
+	},
+	{
+		"id": 3123969,
+		"text": "."
+	},
+	{
+		"id": 1846011945,
+		"text": "<color=#ff0000>Note: You are attempting to exchange for a character you already own.</color>\nWould you like to proceed with the exchange?"
+	},
+	{
 		"id": 1535060855,
 		"text": "Order"
 	},
@@ -4753,7 +4825,7 @@
 	},
 	{
 		"id": 1693410723,
-		"text": "Synthesis bonuses appearing now!"
+		"text": "Synthesis Bonus Active!"
 	},
 	{
 		"id": 141787750,
@@ -4814,6 +4886,26 @@
 	{
 		"id": 310181907,
 		"text": "<color=#ff0000>With your current score rank, you cannot acquire that item.</color>\nWould you still like to proceed?"
+	},
+	{
+		"id": 432175914,
+		"text": "??? (Chapter {0} {1})"
+	},
+	{
+		"id": 1087346973,
+		"text": "Note: After clearing, any dungeons with a lower risk level that have not been cleared will automatically be marked as cleared."
+	},
+	{
+		"id": 1380255487,
+		"text": "Unlocks after clearing {0}"
+	},
+	{
+		"id": 726841201,
+		"text": "[Risk {0}]"
+	},
+	{
+		"id": 424152756,
+		"text": "Skip Settings"
 	},
 	{
 		"id": 27482927,
@@ -5185,7 +5277,7 @@
 	},
 	{
 		"id": 1133804502,
-		"text": "(Traits will be chosen at random from the random traits.)"
+		"text": "(Traits will be chosen at random from the list below.)"
 	},
 	{
 		"id": 1607862369,
@@ -5201,7 +5293,7 @@
 	},
 	{
 		"id": 1971523475,
-		"text": "Cannot increase further as this is the maximum number of times."
+		"text": "Cannot increase further as this is the maximum number of attempts."
 	},
 	{
 		"id": 1650282283,
@@ -5213,7 +5305,27 @@
 	},
 	{
 		"id": 1428632304,
-		"text": "Note: No more than two types or two instances of the traits in yellow text will be granted."
+		"text": "Note: Only one type or instance of the traits in yellow text will be granted."
+	},
+	{
+		"id": 1584241971,
+		"text": "Please select the role and attribute of the character you want to find recommended recipes for."
+	},
+	{
+		"id": 1584957112,
+		"text": "Applicable Characters"
+	},
+	{
+		"id": 1061200991,
+		"text": "You do not own any characters that meet the criteria."
+	},
+	{
+		"id": 59480821,
+		"text": "Recommended Recipes"
+	},
+	{
+		"id": 1629291966,
+		"text": "Displaying Rec. Recipes"
 	},
 	{
 		"id": 1800995180,
@@ -6353,7 +6465,7 @@
 	},
 	{
 		"id": 1752452488,
-		"text": "Unlocking the Revival Event will allow you to use this content."
+		"text": "Unlocking the Revival Event will allow you to attempt this content."
 	},
 	{
 		"id": 134008852,
@@ -6373,7 +6485,7 @@
 	},
 	{
 		"id": 364719096,
-		"text": "Synthesis Challenge"
+		"text": "Synthesis\nChallenge"
 	},
 	{
 		"id": 658839299,
@@ -6385,11 +6497,123 @@
 	},
 	{
 		"id": 1747665206,
-		"text": "Cannot unlock the Revival Event as you do not possess {0}."
+		"text": "Cannot unlock the Revival Event as you do not possess a {0}."
 	},
 	{
 		"id": 1908685330,
 		"text": "Unlock by completing the previous quest."
+	},
+	{
+		"id": 280796867,
+		"text": "Roman's Grand Tournament"
+	},
+	{
+		"id": 1582794851,
+		"text": "Current Position"
+	},
+	{
+		"id": 1329314548,
+		"text": "Total Damage"
+	},
+	{
+		"id": 2086160450,
+		"text": "Last Week's Ranking"
+	},
+	{
+		"id": 623513396,
+		"text": "Ranking"
+	},
+	{
+		"id": 1362039173,
+		"text": "Ranking"
+	},
+	{
+		"id": 500586721,
+		"text": "Next Ranking Tier"
+	},
+	{
+		"id": 655552960,
+		"text": "{0} - {1}"
+	},
+	{
+		"id": 254237609,
+		"text": "Total Damage Border"
+	},
+	{
+		"id": 56103764,
+		"text": "Next Ranking Tier Rewards"
+	},
+	{
+		"id": 913724947,
+		"text": "Party Lineup"
+	},
+	{
+		"id": 2055250708,
+		"text": "Turn Limit"
+	},
+	{
+		"id": 97557045,
+		"text": "Ranking Information"
+	},
+	{
+		"id": 1499741022,
+		"text": "TOP 100"
+	},
+	{
+		"id": 1794016149,
+		"text": "Ranking Rewards List"
+	},
+	{
+		"id": 203231229,
+		"text": "No information has been registered."
+	},
+	{
+		"id": 1032822513,
+		"text": "Last Week's Ranking Information"
+	},
+	{
+		"id": 549557470,
+		"text": "No current players"
+	},
+	{
+		"id": 215491754,
+		"text": "Roman's Grand Tournament will be ending soon."
+	},
+	{
+		"id": 1548260427,
+		"text": "Updating your total damage after the tournament ends\nwill not affect your ranking."
+	},
+	{
+		"id": 314554218,
+		"text": "Unranked"
+	},
+	{
+		"id": 355500201,
+		"text": "Not Entered"
+	},
+	{
+		"id": 477705280,
+		"text": "Current Ranking Tier"
+	},
+	{
+		"id": 49774477,
+		"text": "Current Ranking Tier Rewards"
+	},
+	{
+		"id": 1196783006,
+		"text": "Total Damage Border /"
+	},
+	{
+		"id": 473904277,
+		"text": "Only <color=#ff0000>{0}</color> left until the event ends. Would you like to go to the event screen?"
+	},
+	{
+		"id": 1483335567,
+		"text": "Note: Ranking rewards will be sent via Mail after relogging in to the game once the event period ends."
+	},
+	{
+		"id": 1513512146,
+		"text": "Rankings are currently being calculated. Please wait."
 	},
 	{
 		"id": 1361655556,
@@ -6645,7 +6869,7 @@
 	},
 	{
 		"id": 1562211610,
-		"text": "Clear All"
+		"text": "Remove All"
 	},
 	{
 		"id": 1059772281,
@@ -6710,5 +6934,9 @@
 	{
 		"id": 760959832,
 		"text": "Exploring"
+	},
+	{
+		"id": 257995258,
+		"text": "Unlocks after the first clear of a Materials Quest dungeon"
 	}
 ]

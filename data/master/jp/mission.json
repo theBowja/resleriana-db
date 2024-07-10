@@ -8,7 +8,7 @@
     "name": "ログインしよう",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
-    "priority": 13,
+    "priority": 14,
     "reset_cycle": 1,
     "start_at": null,
     "steps": [
@@ -34,7 +34,7 @@
     "name": "調合をしよう",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
-    "priority": 12,
+    "priority": 13,
     "reset_cycle": 1,
     "start_at": null,
     "steps": [
@@ -190,7 +190,7 @@
     "name": "ダンジョンをクリアしよう",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
-    "priority": 4,
+    "priority": 3,
     "reset_cycle": 1,
     "start_at": null,
     "steps": [
@@ -216,7 +216,7 @@
     "name": "スコアバトルをクリアしよう",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
-    "priority": 3,
+    "priority": 2,
     "reset_cycle": 1,
     "start_at": null,
     "steps": [
@@ -235,7 +235,7 @@
   },
   {
     "category": 1,
-    "end_at": null,
+    "end_at": "2024-07-10T03:00:00.000Z",
     "event_tab_id": null,
     "guide_mission_step_id": null,
     "id": 10010,
@@ -335,6 +335,58 @@
       "equipment_slot_type": null,
       "focused_on": 1,
       "transition": 26
+    }
+  },
+  {
+    "category": 1,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 10014,
+    "name": "スタミナを消費しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 11,
+    "reset_cycle": 1,
+    "start_at": "2024-07-10T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30004,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 3
+    }
+  },
+  {
+    "category": 1,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 10015,
+    "name": "ピースクエストをクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 4,
+    "reset_cycle": 1,
+    "start_at": "2024-07-10T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30004,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 15
     }
   },
   {
@@ -8956,6 +9008,28 @@
     "transition": null
   },
   {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300141,
+    "name": "序章 先輩、お初にお目にかかりますをクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7401,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30078,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 981,
+    "transition": null
+  },
+  {
     "category": 3,
     "end_at": null,
     "event_tab_id": 32,
@@ -17360,6 +17434,238 @@
       "equipment_slot_type": null,
       "focused_on": 1,
       "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 37,
+    "guide_mission_step_id": null,
+    "id": 4000288,
+    "name": "「新たな売り」をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 100028042,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 43,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 37,
+    "guide_mission_step_id": null,
+    "id": 4000289,
+    "name": "海の家Lvを{}にしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 2,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 3,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 4,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 5,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 6,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 7,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 8,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 9,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 10,
+        "reward_set_id": 100028040,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 988,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 37,
+    "guide_mission_step_id": null,
+    "id": 4000290,
+    "name": "潮騒のパラソルを{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 100028041,
+        "start_at": null
+      },
+      {
+        "count": 10,
+        "reward_set_id": 100028041,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 37,
+    "guide_mission_step_id": null,
+    "id": 4000291,
+    "name": "潮騒の水着を{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 100028041,
+        "start_at": null
+      },
+      {
+        "count": 10,
+        "reward_set_id": 100028041,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 37,
+    "guide_mission_step_id": null,
+    "id": 4000292,
+    "name": "潮騒の帽子を{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 100028041,
+        "start_at": null
+      },
+      {
+        "count": 10,
+        "reward_set_id": 100028041,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 37,
+    "guide_mission_step_id": null,
+    "id": 4000293,
+    "name": "スタミナを{}消費しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 300,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 500,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 2000,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 3000,
+        "reward_set_id": 100028040,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 3
     }
   }
 ]

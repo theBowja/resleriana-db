@@ -16211,6 +16211,12 @@
         "quest_name": "マリーの招福大作戦！１０",
         "episode_id": 904,
         "episode_name": "マリーの招福大作戦！"
+      },
+      {
+        "quest_id": 4304100,
+        "quest_name": "夜空に笑顔が咲いた夏１",
+        "episode_id": 4304,
+        "episode_name": "海の家"
       }
     ],
     "image_small": "Ingredient_0299_S",
@@ -35271,6 +35277,438 @@
     "image_small": "Ingredient_0620_S",
     "image_medium": "Ingredient_0620_M",
     "start_at": "2024-06-28T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 624,
+    "name": "海の星",
+    "rarity": 2,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 6,
+        "name": "火の祝福",
+        "category": "ATTACK",
+        "description": "火属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "火属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "火の盾",
+        "category": "ENHANCE",
+        "description": "対象に「火属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000066,
+            "description": "対象に「火属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 430301,
+        "quest_name": "水着DEリゾート！１",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430304,
+        "quest_name": "水着DEリゾート！４",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430305,
+        "quest_name": "水着DEリゾート！５",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430308,
+        "quest_name": "水着DEリゾート！８",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430309,
+        "quest_name": "水着DEリゾート！９",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430312,
+        "quest_name": "水着DEリゾート！１２",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      }
+    ],
+    "image_small": "Ingredient_0624_S",
+    "image_medium": "Ingredient_0624_M",
+    "start_at": "2024-07-10T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 625,
+    "name": "虹珊瑚",
+    "rarity": 2,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 11,
+        "name": "魔法ダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "name": "精霊ダメージ軽減",
+        "category": "ENHANCE",
+        "description": "精霊種族から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000087,
+            "description": "対象に精霊種族から受けるダメージ{0}%ダウンを付与(1回)",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 430302,
+        "quest_name": "水着DEリゾート！２",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430304,
+        "quest_name": "水着DEリゾート！４",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430306,
+        "quest_name": "水着DEリゾート！６",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430308,
+        "quest_name": "水着DEリゾート！８",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430310,
+        "quest_name": "水着DEリゾート！１０",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430312,
+        "quest_name": "水着DEリゾート！１２",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      }
+    ],
+    "image_small": "Ingredient_0625_S",
+    "image_medium": "Ingredient_0625_M",
+    "start_at": "2024-07-10T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 626,
+    "name": "マーメイドの涙",
+    "rarity": 2,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 46,
+        "name": "全体回復ボーナス",
+        "category": "RECOVERY",
+        "description": "全体回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体回復が与えるHP回復量{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "火の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 430303,
+        "quest_name": "水着DEリゾート！３",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430304,
+        "quest_name": "水着DEリゾート！４",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430307,
+        "quest_name": "水着DEリゾート！７",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430308,
+        "quest_name": "水着DEリゾート！８",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430311,
+        "quest_name": "水着DEリゾート！１１",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430312,
+        "quest_name": "水着DEリゾート！１２",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      }
+    ],
+    "image_small": "Ingredient_0626_S",
+    "image_medium": "Ingredient_0626_M",
+    "start_at": "2024-07-10T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 627,
+    "name": "サマータイムうに",
+    "rarity": 3,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 67,
+        "name": "WEAK時ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "WEAK攻撃時、ブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000213,
+            "description": "WEAK攻撃時、ブレイクダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 65,
+        "name": "属性耐性ダウン強化【雷】",
+        "category": "WEAKENING",
+        "description": "対象が与える「雷属性耐性ダウン」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000211,
+            "description": "対象が与える「雷属性耐性ダウン」の効果量{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 430309,
+        "quest_name": "水着DEリゾート！９",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430312,
+        "quest_name": "水着DEリゾート！１２",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      }
+    ],
+    "image_small": "Ingredient_0627_S",
+    "image_medium": "Ingredient_0627_M",
+    "start_at": "2024-07-10T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 628,
+    "name": "サマータイムフィッシュ",
+    "rarity": 3,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 46,
+        "name": "全体回復ボーナス",
+        "category": "RECOVERY",
+        "description": "全体回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体回復が与えるHP回復量{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "雷の盾",
+        "category": "ENHANCE",
+        "description": "対象に「雷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000068,
+            "description": "対象に「雷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 430310,
+        "quest_name": "水着DEリゾート！１０",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430312,
+        "quest_name": "水着DEリゾート！１２",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      }
+    ],
+    "image_small": "Ingredient_0628_S",
+    "image_medium": "Ingredient_0628_M",
+    "start_at": "2024-07-10T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 629,
+    "name": "サマータイムツリー",
+    "rarity": 3,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 66,
+        "name": "属性耐性ダウン強化【氷】",
+        "category": "WEAKENING",
+        "description": "対象が与える「氷属性耐性ダウン」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000212,
+            "description": "対象が与える「氷属性耐性ダウン」の効果量{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "スキル威力上昇",
+        "category": "ATTACK",
+        "description": "スキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "スキル威力{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 430311,
+        "quest_name": "水着DEリゾート！１１",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430312,
+        "quest_name": "水着DEリゾート！１２",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      }
+    ],
+    "image_small": "Ingredient_0629_S",
+    "image_medium": "Ingredient_0629_M",
+    "start_at": "2024-07-10T03:00:00.000Z",
     "end_at": null
   }
 ]

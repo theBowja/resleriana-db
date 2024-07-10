@@ -12142,6 +12142,224 @@
     "start_at": "2024-04-12T03:00:00.000Z"
   },
   {
+    "id": 39904,
+    "name": "ライザ",
+    "title": "【Sunlit Beach】",
+    "full_name": "ライザリン・シュタウト",
+    "base_character": "ライザ",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "ICE",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "海の向こうの知らない世界、\n一緒に見に行こう！",
+    "profile": {
+      "voice_actor": "のぐちゆり",
+      "voice_text": "泳ぐ準備はバッチリ！\n海の底に眠る素材、いっぱい集めるぞー！",
+      "description": "自由奔放な錬金術士の少女。 \n好奇心旺盛な彼女は華やかな水着に身を包み、新たな夏へ飛び込んだ。 \nいつもの帽子を想起させるスカーフは、本人のこだわり。 \n太陽を反射してきらめく砂浜が、彼女の存在を引き立たせる。",
+      "origin_game": "ライザのアトリエ ～常闇の女王と秘密の隠れ家～"
+    },
+    "gift_color": {
+      "received": "紫",
+      "given": "緑"
+    },
+    "battle_item_trait": [
+      {
+        "id": 7,
+        "name": "氷の祝福",
+        "category": "ATTACK",
+        "description": "氷属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "氷属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "会心の出来",
+        "category": "ENHANCE",
+        "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 7,
+        "name": "氷ダメージ上昇",
+        "category": "ATTACK",
+        "description": "氷属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "氷属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 150,
+        "spd": 243,
+        "patk": 53,
+        "matk": 67,
+        "pdef": 47,
+        "mdef": 47
+      },
+      "growth": {
+        "hp": 1500,
+        "spd": 0,
+        "patk": 530,
+        "matk": 670,
+        "pdef": 470,
+        "mdef": 470
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 5,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "サマーソルト",
+      "description": "攻撃後、アイテムゲージを{0}%回復し、<br>自身に「魔攻+{1}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、アイテムゲージを回復<br>自身の魔攻アップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91002004,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91001020,
+          "description": "魔攻アップ(1回)",
+          "value": 1500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [69, 73, 77, 81, 86],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "トリプルスピア",
+      "description": "攻撃前、対象に「氷属性耐性-{0}%」を2回攻撃を受けるまで付与<br>「トリプルスピア」はスキルランプを持ち、点灯数が2個の時、効果内容が変化する<br>スキルランプは最大2個点灯できる<br><br>スキルランプの点灯数が2個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が2個の時、<br>この攻撃の貫通力+{1}し、<br>攻撃後、スキルランプを全て消灯する",
+      "summary": "攻撃前、対象の氷属性耐性ダウン<br>スキルランプの点灯数が2個未満の時、攻撃後、スキルランプを1個点灯する<br>スキルランプの点灯数が2個の時、この攻撃の貫通力アップし、攻撃後、スキルランプを全て消灯する",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000935,
+          "description": "",
+          "value": 3500
+        },
+        {
+          "id": 91001328,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001329,
+          "description": "",
+          "value": 100
+        },
+        {
+          "id": 91001330,
+          "description": "",
+          "value": 200
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [141, 149, 158, 167, 176],
+      "has_stun": true,
+      "stun_values": [11, 11, 12, 12, 13],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "サンシャインスプラッシュ",
+      "description": "この攻撃の貫通力+{0}<br>攻撃前、自身に「スキルダメージ+{1}%」を付与(上限100%)",
+      "summary": "この攻撃の貫通力アップ<br>攻撃前、自身のスキルダメージアップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001337,
+          "description": "",
+          "value": 20000
+        },
+        {
+          "id": 91001331,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "ひと夏のハイジャンプ",
+      "description": "バトル開始時、「トリプルスピア」のスキルランプを2個点灯する<br>パーティの誰かが戦闘アイテム使用後、「トリプルスピア」のスキルランプを1個点灯する<br>※アイテムを複数同時に使用しても点灯は1個",
+      "effects": [
+        {
+          "id": 72001094,
+          "description": "[スキルランプ点灯]",
+          "value": 200
+        },
+        {
+          "id": 72001094,
+          "description": "[スキルランプ点灯]",
+          "value": 100
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "トドメのサーブ",
+      "description": "攻撃対象がブレイク状態の時、スキルダメージ+{0}%",
+      "effects": [
+        {
+          "id": 72000954,
+          "description": "[自身/攻撃対象がブレイク中/与ダメージアップ]",
+          "value": 5000
+        }
+      ]
+    },
+    "start_at": "2024-07-10T03:00:00.000Z"
+  },
+  {
     "id": 40001,
     "name": "クラウディア",
     "title": "【One Summer Melody】",
@@ -14278,6 +14496,209 @@
       ]
     },
     "start_at": "2024-04-01T12:00:00.000Z"
+  },
+  {
+    "id": 43105,
+    "name": "レスナ",
+    "title": "【Pretty Summer】",
+    "full_name": "レスナ・シュテルネンリヒト",
+    "base_character": "レスナ",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "BOLT",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "燦々と照らす太陽にも負けないくらい\n私ももっと輝いてみせます！",
+    "profile": {
+      "voice_actor": "白砂沙帆",
+      "voice_text": "強い日差しは得意じゃなかったけど……\nこの水着で乗り切ってみせる！",
+      "description": "駆け出しの錬金術士。\n錬金術復興を夢見て、日々奔走中。\n夏を楽しむため、親友のイザナに選んでもらった宝物の水着を身につけた。\n妖精を思わせる可憐な姿でも、日差し対策の麦わら帽子は欠かせない。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "青",
+      "given": "黄"
+    },
+    "battle_item_trait": [
+      {
+        "id": 21,
+        "name": "雷の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000061,
+            "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "雷の盾",
+        "category": "ENHANCE",
+        "description": "対象に「雷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000068,
+            "description": "対象に「雷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 13,
+        "name": "ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "ブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000012,
+            "description": "ブレイクダメージ{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 142,
+        "spd": 250,
+        "patk": 51,
+        "matk": 62,
+        "pdef": 47,
+        "mdef": 47
+      },
+      "growth": {
+        "hp": 1420,
+        "spd": 0,
+        "patk": 510,
+        "matk": 620,
+        "pdef": 470,
+        "mdef": 470
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 5,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "ブリッツワンド",
+      "description": "攻撃後、自身に「ブレイクダメージ+{0}%」を付与(上限20%)し、<br>自身に「ブレイクダメージ+{1}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、自身のブレイクダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001343,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91000908,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [38, 40, 42, 44, 47],
+      "has_stun": true,
+      "stun_values": [16, 17, 18, 19, 20],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "ライトニングケージ",
+      "description": "攻撃前、対象に「雷属性耐性-{0}%」を2回攻撃を受けるまで付与し、<br>攻撃後、対象に「受けるクリティカルダメージ+{1}%」を1回攻撃を受けるまで付与",
+      "summary": "攻撃前、対象の雷属性耐性ダウン<br>攻撃後、対象の受けるクリティカルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001326,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001327,
+          "description": "",
+          "value": 3500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [88, 93, 99, 104, 110],
+      "has_stun": true,
+      "stun_values": [46, 48, 51, 54, 57],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "波乗りマリンウェーブ",
+      "description": "攻撃後、対象に「受ける魔法攻撃ダメージ+{0}%」を1回攻撃を受けるまで付与<br>対象がブレイク時、魔攻が最も高い味方1人に「魔攻+{1}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、対象の受ける魔法攻撃ダメージアップ<br>対象がブレイク時、味方1人の魔攻アップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001344,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001264,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [172, 172, 172, 182, 193, 204, 215],
+      "has_stun": true,
+      "stun_values": [110, 110, 110, 116, 123, 130, 137],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "禍を転じて福と為す",
+      "description": "バトル中、タイムラインに出現する弱体系パネル全てを麦わらパネルに変化させる<br>自身が麦わらパネル獲得時、バーストスキルを発動できる",
+      "effects": [
+        {
+          "id": 72001096,
+          "description": "[出現する弱体系パネル/麦わらパネルに変換]",
+          "value": 0
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "サマーマジック",
+      "description": "攻撃対象がブレイク時、味方全員に「魔攻+{0}%」を1回行動終了するまで付与",
+      "effects": [
+        {
+          "id": 72001093,
+          "description": "[味方全員/ブレイク時/1回/魔攻アップ]",
+          "value": 2000
+        }
+      ]
+    },
+    "start_at": "2024-07-10T03:00:00.000Z"
   },
   {
     "id": 43201,

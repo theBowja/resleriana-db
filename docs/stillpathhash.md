@@ -34,5 +34,5 @@ Logs will mention: `resources is missing [numbers]`. You can ignore this.
 ### Misc Files
 
 For every version, the path hash map for both Global and Japan will be automatically updated at /resources/[server]/path_hash_to_name.json.
-- [/resources/Global/path_hash_to_name.json](./resources/Global/path_hash_to_name.json)
-- [/resources/Japan/path_hash_to_name.json](./resources/Japan/path_hash_to_name.json)
+- [/resources/Global/path_hash_to_name.json](../resources/Global/path_hash_to_name.json)
+- [/resources/Japan/path_hash_to_name.json](../resources/Japan/path_hash_to_name.json)

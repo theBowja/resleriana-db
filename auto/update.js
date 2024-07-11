@@ -85,25 +85,8 @@ async function checkFileassets(server, skipCheck=false, uploadImages=false) {
         const platform = 'Android'; // smaller bundles
         const version = importconfig.fileassets_version[server];
 
-        // Update bundlenames list
-        console.log(`${server}: Downloading catalog... `);
-        const catalogJSON = await catalog.getCatalogFromDownload(server, version, platform);
-        const filterLabels = catalog.getFilterLabels(path.resolve(__dirname, `../resources/${server}/still_path_hash.txt`));
-        console.log(`${server}: Updating catalog resources...`);
-        catalog.getCatalogResources(server, catalogJSON, platform, 'Texture2D', filterLabels);
-
-        // Download bundles using AtelierToolBundleDownload
-        console.log(`${server}: Downloading fileassets...`);
-        console.log(`This may take a while.`);
-        const bundleDir = path.resolve(__dirname, `../resources/${server}/${platform}/bundles`);
-        const bundleNamesTexture2D = path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames_filtered_texture2d.txt`);
-        tools.executeAtelierToolBundleDownload(server, platform, version, bundleDir, bundleNamesTexture2D);
-
-        // Generate path_hash_to_name.txt for images using UnityPyScripts
-        console.log(`${server}: Generating path_hash_to_name.txt...`);
-        const container_to_path_hash = path.resolve(__dirname, `../resources/${server}/container_to_path_hash.json`);
-        const path_hash_to_name = path.resolve(__dirname, `../resources/${server}/path_hash_to_name.json`);
-        tools.generateContainerToPathHash(container_to_path_hash, bundleDir, path_hash_to_name);
+        // Generate mapping between still path hash and image name
+        await extract.updatePathHashMap(server, 'Android', version);
 
         // Export TextAsset to resources
         await extract.extractTextAsset(server, 'Android', version);
@@ -118,6 +101,7 @@ async function checkFileassets(server, skipCheck=false, uploadImages=false) {
         }
 
         // console.log(`Deleting downloaded bundles ${server}`);
+        // const bundleDir = path.resolve(__dirname, `../resources/${server}/${platform}/bundles`);
         // for (const filename of fs.readdirSync(bundleDir)) {
         //     fs.unlinkSync(path.join(bundleDir, filename));
         // }

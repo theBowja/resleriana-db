@@ -9,8 +9,34 @@ const unpackTextAssets = require('../import/unpackTextAssets.js');
 
 const importconfig = require('../import/config.json');
 
-module.exports = { extractImages, extractTextAsset, extractAudioClip };
+module.exports = { updatePathHashMap, extractImages, extractTextAsset, extractAudioClip };
 
+// see docs/stillpathhash.md
+async function updatePathHashMap(server="Global", platform="StandaloneWindows64", version=importconfig.fileassets_version[server]) {
+    console.log(`${server} | ${platform} | ${version}`);
+    console.log(`Script started: updatePathHashMap`);
+    const t0 = performance.now();
+
+    // Catalog
+    const catalogJSON = await catalog.getCatalogFromDownload(server, version, platform);
+    const filterLabels = catalog.getFilterLabels(path.resolve(__dirname, `../resources/${server}/still_path_hash.txt`));
+    catalog.getCatalogResources(server, catalogJSON, platform, 'Texture2D', filterLabels);
+
+    // Bundle
+    const bundleDir = path.resolve(__dirname, `../resources/${server}/${platform}/bundles`);
+    const bundleNamesTexture2D = path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames_filtered_texture2d.txt`);
+    tools.executeAtelierToolBundleDownload(server, platform, version, bundleDir, bundleNamesTexture2D);
+
+    // Generate
+    const container_to_path_hash = path.resolve(__dirname, `../resources/${server}/container_to_path_hash.json`);
+    const path_hash_to_name = path.resolve(__dirname, `../resources/${server}/path_hash_to_name.json`);
+    tools.generateContainerToPathHash(container_to_path_hash, bundleDir, path_hash_to_name);
+    
+    const t1 = performance.now();
+    console.log(`Completed script updatePathHashMap in ${(t1-t0)/1000} seconds`)
+}
+
+// see docs/images.md
 async function extractImages(server="Global", platform="StandaloneWindows64", version=importconfig.fileassets_version[server],
     {
         imageFormat="webp", outputFolder=undefined, skipOutputFolder=false, imageNamesOutputPath=undefined,
@@ -47,6 +73,7 @@ async function extractImages(server="Global", platform="StandaloneWindows64", ve
 }
 
 // Export TextAsset to resources folder
+// see docs/text.md
 async function extractTextAsset(server="Global", platform="Android", version=importconfig.fileassets_version[server],
     {
         outputFolder=undefined,
@@ -77,6 +104,7 @@ async function extractTextAsset(server="Global", platform="Android", version=imp
 
 /**
  * Export AudioClip to resources folder
+ * See docs/audio.md
  * @param {'Global'|'Japan'} server
  * @param {'StandaloneWindows64'|'Android'|'iOS'} platform
  * @param {'SoundSetting'|'VoiceSetScriptableObject'} type 

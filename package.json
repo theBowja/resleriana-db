@@ -6,6 +6,7 @@
   "scripts": {
     "import": "cd import && node import.js",
     "updatealldata": "node auto/update.js",
+    "updatePathHashMap": "node auto/runscripts.js --script updatePathHashMap",
     "extractImages": "node auto/runscripts.js --script extractImages",
     "extractText": "node auto/runscripts.js --script extractText",
     "extractBGM": "node auto/runscripts.js --script extractBGM",

@@ -135,9 +135,10 @@ function validateServer(callerName, server) {
 }
 
 let catalogCache;
+let cacheHash;
 async function downloadCatalog(server, version, platform, useCache=true) {
-    if (useCache && catalogCache) {
-        console.log(`Returning cached result for catalog from previous download`);
+    if (useCache && catalogCache && cacheHash === server+version) {
+        console.log(`Returning cached catalog (${cacheHash}) from previous download`);
         return catalogCache;
     }
 
@@ -151,7 +152,10 @@ async function downloadCatalog(server, version, platform, useCache=true) {
     const t1 = performance.now();
     console.log(`  Finished downloading catalog in ${(t1 - t0)/1000} seconds`)
 
-    if (useCache) catalogCache = result;
+    if (useCache) {
+        catalogCache = result;
+        cacheHash = server+version;
+    }
     return result;
 }
 

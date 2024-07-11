@@ -172,6 +172,14 @@ This repository provides npm run-scripts for extracting the following UnityAsset
 | `extractVoice` | Extracts voice lines from the main story quest | [/docs/audio.md](./docs/audio.md) |
 | `extractVideo` | TODO | TODO |
 
+## Other scripts
+
+Other scripts are also provided for supporting functionality.
+
+| Run-script | Description | Documentation|
+|---|---|---|
+| `updatePathHashMap` | Generates mapping between masterdata's still path hashes to their respective image names | [/docs/stillpathhash.md](./docs/stillpathhash.md) |
+
 ## Preview
 
 TODO idk

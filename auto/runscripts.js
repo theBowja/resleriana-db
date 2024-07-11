@@ -48,6 +48,10 @@ async function main() {
         case 'downloadbundles':
             break;
 
+        case 'updatepathhashmap':
+            await extract.updatePathHashMap(argv.server, argv.platform, argv.version, argv);
+            break;
+
         case 'extractimages':
             await extract.extractImages(argv.server, argv.platform, argv.version, argv);
             break;

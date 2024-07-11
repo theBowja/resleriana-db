@@ -89,7 +89,8 @@ def getProcesses():
 def logMultiCounter():
     with counter.get_lock():
         counter.value += 1
-        print("", end=f"\rProcessed {counter.value}/{total} bundles")
+        if counter.value % 10 == 0 or counter.value == total:
+            print("", end=f"\rProcessed {counter.value}/{total} bundles")
 
 def initProcess(c, t):
     global counter

@@ -35710,5 +35710,287 @@
     "image_medium": "Ingredient_0629_M",
     "start_at": "2024-07-10T03:00:00.000Z",
     "end_at": null
+  },
+  {
+    "id": 638,
+    "name": "水樹の実",
+    "rarity": 2,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 9,
+        "name": "雷の祝福",
+        "category": "ATTACK",
+        "description": "雷属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "雷属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "使い切り回復強化",
+        "category": "RECOVERY",
+        "description": "使用回数が1回の時、HP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000109,
+            "description": "使用回数が1回の時、HP回復量{0}%アップ",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0638_S",
+    "image_medium": "Ingredient_0638_M",
+    "start_at": "2024-07-19T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 639,
+    "name": "石サンゴ",
+    "rarity": 2,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 32,
+        "name": "魔法ダメージ上昇【背水】",
+        "category": "ATTACK",
+        "description": "HPが50%以下の時、魔法攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000099,
+            "description": "HPが50%以下の時、与える魔法属性ダメージ{0}%アップ",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "name": "水棲ダメージ軽減",
+        "category": "ENHANCE",
+        "description": "水棲種族から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000088,
+            "description": "対象に水棲種族から受けるダメージ{0}%ダウンを付与(1回)",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0639_S",
+    "image_medium": "Ingredient_0639_M",
+    "start_at": "2024-07-19T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 640,
+    "name": "セイレーンの涙",
+    "rarity": 2,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 21,
+        "name": "雷の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000061,
+            "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "追い打ち強化",
+        "category": "ATTACK",
+        "description": "ブレイク中の敵へのダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "ブレイク中の敵へのダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0640_S",
+    "image_medium": "Ingredient_0640_M",
+    "start_at": "2024-07-19T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 641,
+    "name": "サマータイムきのこ",
+    "rarity": 3,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 61,
+        "name": "バーストスキル威力上昇",
+        "category": "ATTACK",
+        "description": "バーストスキルのスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000165,
+            "description": "バーストスキル威力{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 60,
+        "name": "クリティカルダメージ上昇",
+        "category": "ATTACK",
+        "description": "クリティカルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 13000011,
+            "description": "クリティカルダメージアップ",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0641_S",
+    "image_medium": "Ingredient_0641_M",
+    "start_at": "2024-07-19T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 642,
+    "name": "サマータイムオクトパス",
+    "rarity": 3,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 51,
+        "name": "破壊力上昇",
+        "category": "ATTACK",
+        "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "name": "水棲弱点サーチ",
+        "category": "WEAKENING",
+        "description": "対象に「水棲種族が受けるダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000098,
+            "description": "対象に「水棲種族が受けるダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0642_S",
+    "image_medium": "Ingredient_0642_M",
+    "start_at": "2024-07-19T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 643,
+    "name": "サマータイムシェル",
+    "rarity": 3,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "スキル威力上昇",
+        "category": "ATTACK",
+        "description": "スキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "スキル威力{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "ダメージバフ強化【A】",
+        "category": "ENHANCE",
+        "description": "アタッカーへ与えるダメージ強化の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000017,
+            "description": "アタッカーへのダメージバフ{0}%アップ",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0643_S",
+    "image_medium": "Ingredient_0643_M",
+    "start_at": "2024-07-19T03:00:00.000Z",
+    "end_at": null
   }
 ]

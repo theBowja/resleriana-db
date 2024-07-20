@@ -14678,7 +14678,7 @@
     },
     "passive_1": {
       "name": "禍を転じて福と為す",
-      "description": "バトル中、タイムラインに出現する弱体系パネル全てを麦わらパネルに変化させる<br>自身が麦わらパネル獲得時、バーストスキルを発動できる",
+      "description": "バトル中、タイムラインに出現する弱体系パネル全てを麦わらパネルに変換する(変換・生成されたパネルは除く)<br>自身が麦わらパネル獲得時、バーストスキルを発動できる",
       "effects": [
         {
           "id": 72001096,
@@ -15333,6 +15333,199 @@
       ]
     },
     "start_at": "2024-02-28T08:00:00.000Z"
+  },
+  {
+    "id": 43204,
+    "name": "ヴァレリア",
+    "title": "【Radiant Summer】",
+    "full_name": "ヴァレリア",
+    "base_character": "ヴァレリア",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "BOLT",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "さ、泳ぎに行きましょ！\n水場に潜む敵だって、私が倒してみせるわ！",
+    "profile": {
+      "voice_actor": "沼倉愛美",
+      "voice_text": "泳ぎは得意なのよ。水中での戦闘も任せて！\n我ながら適応力あるぅー",
+      "description": "美しき記憶喪失の戦士。\n水着の必要性を特に感じていなかったが、見事に着こなす姿に、周囲の人々の視線は釘付け。\n着てみるととても身軽で動きやすく、先手必勝を信条とする本人もその機能性に満足している。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "黄",
+      "given": "赤"
+    },
+    "battle_item_trait": [
+      {
+        "id": 9,
+        "name": "雷の祝福",
+        "category": "ATTACK",
+        "description": "雷属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "雷属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "物防の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 9,
+        "name": "雷ダメージ上昇",
+        "category": "ATTACK",
+        "description": "雷属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "雷属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 142,
+        "spd": 238,
+        "patk": 55,
+        "matk": 63,
+        "pdef": 54,
+        "mdef": 50
+      },
+      "growth": {
+        "hp": 1420,
+        "spd": 0,
+        "patk": 550,
+        "matk": 630,
+        "pdef": 540,
+        "mdef": 500
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 5,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "ゾマクリンゲ",
+      "description": "攻撃前、自身に「クリティカル確率+{0}%」を付与(上限100%)",
+      "summary": "攻撃前、自身のクリティカル確率アップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001332,
+          "description": "",
+          "value": 2500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [74, 78, 83, 87, 92],
+      "has_stun": true,
+      "stun_values": [7, 7, 7, 7, 8],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "シーセンフラッター",
+      "description": "強化系パネル獲得時、この攻撃のクリティカル確率+{0}%<br>クリティカル攻撃後、自身に「スキルダメージ+{1}%」を付与(上限100%)",
+      "summary": "強化系パネル獲得時、この攻撃のクリティカル確率アップ。クリティカル攻撃後、自身のスキルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001247,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001334,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [342, 363, 384, 405, 427],
+      "has_stun": true,
+      "stun_values": [42, 44, 47, 49, 52],
+      "has_recovery": false,
+      "wait": 300
+    },
+    "burst": {
+      "name": "オーツェアーンスピナー",
+      "description": "この攻撃はクリティカル確率+100%<br>攻撃後、自身に「大はしゃぎ」を1回行動終了するまで付与<br>※大はしゃぎは戦闘アイテムから受ける強化効果量+50%",
+      "summary": "この攻撃のクリティカル確率アップ<br>攻撃後、自身に「大はしゃぎ」を付与",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001335,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 300
+    },
+    "passive_1": {
+      "name": "イイ波乗ってこう！",
+      "description": "バトル中、タイムラインに出現する強化系パネル全てを浮き輪パネルに変換する(変換・生成されたパネルは除く)<br>自身が浮き輪パネル獲得時、バーストスキルを発動できる",
+      "effects": [
+        {
+          "id": 72001097,
+          "description": "[自然発生した強化系パネル/浮き輪パネルに変換]",
+          "value": 0
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "超えるホットリミット",
+      "description": "自身のクリティカル確率が100%を超えている場合、攻撃時、100%を超えたクリティカル確率の上昇量をクリティカルダメージアップに変換(変換上限300%)",
+      "effects": [
+        {
+          "id": 72001098,
+          "description": "[自身/余剰クリティカル率変換]",
+          "value": 30000
+        }
+      ]
+    },
+    "start_at": "2024-07-19T03:00:00.000Z"
   },
   {
     "id": 43301,

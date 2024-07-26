@@ -4330,7 +4330,7 @@
         }
       ]
     },
-    "start_at": "2049-12-31T16:00:00.000Z"
+    "start_at": "2024-07-26T03:00:00.000Z"
   },
   {
     "id": 28401,
@@ -5703,11 +5703,11 @@
     "attribute": "FIRE",
     "role": "BREAKER",
     "initial_rarity": 3,
-    "acquisition_text": "任務ですか。はい、お任せを！\nえ？ この衣装を自分が……？",
+    "acquisition_text": "A new mission? Excellent, leave it to me! Huh? You want me to wear this outfit?",
     "profile": {
       "voice_actor": "Ami Koshimizu",
-      "voice_text": "マリオンが言うには、この鎧は\nかわいさと機能性を備えているそうですよ",
-      "description": "熟練の剣士。 \n卓越した戦闘技術を持っているため、マリオンなどから護衛をよく頼まれている。 \n生真面目で朴訥とした性格で、着飾るくらいなら裸のほうがましだという考えの持ち主。この鎧についても最初は抵抗があったようだが、機能性を体感してからはそこそこ気に入っている様子。",
+      "voice_text": "According to Marion, this armor combines style with functionality.",
+      "description": "An experienced swordswoman. She has exceptional fighting skills and is often asked by Marion and others to serve as their bodyguard. She's serious and straightforward, and would rather wear nothing than dress up. At first she was reluctant to wear this armor, but after experiencing its functionality, she's come to appreciate it to a certain degree.",
       "origin_game": "Atelier Escha & Logy ~Alchemists of the Dusk Sky~"
     },
     "gift_color": {
@@ -5785,9 +5785,9 @@
       }
     },
     "skill_1": {
-      "name": "フレイムスマッシュ",
-      "description": "攻撃前、対象に「火傷耐性-{0}%」を2回行動終了するまで付与し、<br>攻撃後、自身に「ブレイクダメージ+{1}%」を1回行動終了するまで付与",
-      "summary": "攻撃前、対象の火傷耐性ダウン<br>攻撃後、自身のブレイクダメージアップ",
+      "name": "Flame Smash",
+      "description": "Before attacking, reduces target's Burn resistance by {0}% for 2 turns. After attacking, boosts own stun damage by {1}% for 1 turn.",
+      "summary": "Before attack, reduces target's Burn resistance. After attack, boosts own stun damage.",
       "max_level": 5,
       "skill_type": "SKILL",
       "effects": [
@@ -5814,9 +5814,9 @@
       "wait": 100
     },
     "skill_2": {
-      "name": "イグナイトブロウ",
-      "description": "攻撃前、対象に「火属性耐性-{0}%」を2回攻撃を受けるまで付与<br>対象がブレイク時、さらに「受ける魔法攻撃ダメージ+{1}%」を2回攻撃を受けるまで付与",
-      "summary": "攻撃前、対象の火属性耐性ダウン。対象がブレイク時、対象の受ける魔法攻撃ダメージアップ",
+      "name": "Ignite Blow",
+      "description": "Before attacking, reduces target's Fire resistance by {0}% for 2 attacks. When target is stunned, also boosts target's magic attack damage received by {1}% for 2 attacks.",
+      "summary": "Before attack, reduces target's Fire resistance. When target is stunned, boosts target's magic attack damage received.",
       "max_level": 5,
       "skill_type": "SKILL",
       "effects": [
@@ -5843,9 +5843,9 @@
       "wait": 200
     },
     "burst": {
-      "name": "ヴォルカニックエンド",
-      "description": "攻撃前、対象に「火属性耐性-{0}%」を3回攻撃を受けるまで付与<br>対象がブレイク時、魔攻が最も高い味方1人に「魔攻+{1}%」を1回行動終了するまで付与",
-      "summary": "攻撃前、対象の火属性耐性ダウン<br>対象がブレイク時、味方1人の魔攻アップ",
+      "name": "Volcanic End",
+      "description": "Before attacking, reduces target's Fire resistance by {0}% for 3 attacks. When target is stunned, boosts M. ATK of the ally with the highest M. ATK by {1}% for 1 turn.",
+      "summary": "Before attack, reduces target's Fire resistance. When target is stunned, boosts an ally's M. ATK.",
       "max_level": 7,
       "skill_type": "BURST",
       "effects": [
@@ -5872,8 +5872,8 @@
       "wait": 200
     },
     "passive_1": {
-      "name": "燃え上がる闘志",
-      "description": "攻撃対象がブレイク時、対象に「火傷」3個を超高確率で付与",
+      "name": "Fired-Up Fighting Spirit",
+      "description": "When attack target is stunned, very high chance to inflict the target with 3 stacks of Burn.",
       "effects": [
         {
           "id": 72001080,
@@ -5893,8 +5893,8 @@
       ]
     },
     "passive_2": {
-      "name": "火の闘争と破壊",
-      "description": "得意属性が火属性の味方全員のスキルダメージ・ブレイクダメージ+{0}%",
+      "name": "Conflict and Destruction of Fire",
+      "description": "Boosts skill damage and stun damage of all Fire affinity allies by {0}%.",
       "effects": [
         {
           "id": 72000926,
@@ -11350,7 +11350,7 @@
         }
       ]
     },
-    "start_at": "2049-12-31T16:00:00.000Z"
+    "start_at": "2024-07-26T03:00:00.000Z"
   },
   {
     "id": 40001,
@@ -14536,11 +14536,11 @@
     "attribute": "STRIKE",
     "role": "ATTACKER",
     "initial_rarity": 3,
-    "acquisition_text": "纏う鎧は違えど、私の信念は変わらない。\n我が忠誠はランターナ王国に！",
+    "acquisition_text": "Though my armor may have changed, my conviction remains steadfast. My loyalty is to the Kingdom of Lantarna!",
     "profile": {
       "voice_actor": "Ikumi Hasegawa",
-      "voice_text": "白夜の騎士のユナだ。此度の任務では、\n機動性を重視してこのような鎧に替えた",
-      "description": "王国騎士の中でも精鋭だけが選ばれる「白夜の騎士」の一人。\n竜を退治した英雄として、ランターナ中にその名が知れ渡っている。実はかわいいもの好きで、小動物を見つけると抱きしめたくなるほど。しかし皆の理想の騎士像を守るため、その一面を表に出せないでいる。",
+      "voice_text": "I am Juna of the Knights of the Midnight Sun. For this mission, I've opted for armor that prioritizes maneuverability.",
+      "description": "One of the elite Knights of the Midnight Sun, chosen from the best knights in the kingdom. She is known throughout Lantarna as a dragon-slaying hero. Despite her reputation, however, she has a soft spot for cute things and loves to cuddle small animals, though she hides this side of herself to maintain her idealized image as a knight.",
       "origin_game": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
     },
     "gift_color": {
@@ -14618,7 +14618,7 @@
       }
     },
     "skill_1": {
-      "name": "リゼンシュラーク",
+      "name": "Riesenschlag",
       "description": "After attacking, if own next panel is neither a boost-type panel nor a burst panel, converts it into a boost panel. (Creates a boost panel if the panel is empty)",
       "summary": "After attack, if own next panel is not a boost-type or burst panel, converts it into a boost panel.",
       "max_level": 5,
@@ -14642,9 +14642,9 @@
       "wait": 100
     },
     "skill_2": {
-      "name": "ヴートドリュッケン",
-      "description": "WEAK攻撃時、ダメージ+{0}%<br>対象を撃破時、自身に「白夜の護衛」が付与されていない時、「白夜の護衛」を1回かばうまで付与<br>既に付与されている時、「白夜の護衛」の残り回数を{1}回増加",
-      "summary": "WEAK攻撃時、ダメージアップ。対象を撃破時、「白夜の護衛」を付与または残り回数を増加",
+      "name": "Wutdrücken",
+      "description": "When attacking a weakness, boosts damage by {0}%. If this attack defeats the target and Midnight Sun's Guard has not been granted, grants self Midnight Sun's Guard for 1 Protection. If Midnight Sun's Guard has already been granted, extends the number of uses by {1} instead.",
+      "summary": "When attacking a weakness, boosts damage. If this attack defeats the target, grants or extends Midnight Sun's Guard.",
       "max_level": 5,
       "skill_type": "SKILL",
       "effects": [
@@ -14676,9 +14676,9 @@
       "wait": 200
     },
     "burst": {
-      "name": "アインプレーゲン",
-      "description": "WEAK攻撃時、ダメージ+{0}%<br>攻撃前、自身に「白夜の護衛」が付与されていない時、「白夜の護衛」を2回かばうまで付与<br>既に付与されている時、「白夜の護衛」の残り回数を{1}回増加",
-      "summary": "WEAK攻撃時、ダメージアップ<br>攻撃前、「白夜の護衛」を付与または残り回数を増加",
+      "name": "Einprägen",
+      "description": "When attacking a weakness, boosts damage by {0}%. Before attacking, if Midnight Sun's Guard has not been granted, grants self Midnight Sun's Guard for 2 Protections. If Midnight Sun's Guard has already been granted, extends the number of uses by {1} instead.",
+      "summary": "When attacking a weakness, boosts damage. Before attacking, grants or extends Midnight Sun's Guard.",
       "max_level": 7,
       "skill_type": "BURST",
       "effects": [
@@ -14710,8 +14710,8 @@
       "wait": 200
     },
     "passive_1": {
-      "name": "研ぎ澄まされた嗅覚",
-      "description": "バトル開始時、自身に「白夜の護衛」を2回かばうまで付与<br>「白夜の護衛」が付与されている時、以下のボーナス効果が全て発動する<br>・かばう<br>・受けるダメージ-{0}%<br>・スキルダメージ+{1}%",
+      "name": "Heightened Senses",
+      "description": "At the start of battle, grants self Midnight Sun's Guard for 2 Protections. When Midnight Sun's Guard is granted, gains the following bonuses:<br>- Protection<br>- Received Damage -{0}%<br>- Skill Damage +{1}%",
       "effects": [
         {
           "id": 72001075,
@@ -14731,8 +14731,8 @@
       ]
     },
     "passive_2": {
-      "name": "野生の本能",
-      "description": "攻撃を受けた時、自身に「物攻+{0}%」を付与(上限25%)",
+      "name": "Primal Instincts",
+      "description": "When hit by an attack, boosts own P. ATK by {0}%. (MAX 25%)",
       "effects": [
         {
           "id": 72001079,
@@ -14962,11 +14962,11 @@
     "attribute": "FIRE",
     "role": "SUPPORTER",
     "initial_rarity": 3,
-    "acquisition_text": "病めるときも、貧しきときも――\n楽しく生きていけたら、それでいいじゃん？",
+    "acquisition_text": "For richer, for poorer, in sickness and in health—eh, I think we just need to live life to the fullest!",
     "profile": {
       "voice_actor": "Naomi Ohzora",
-      "voice_text": "こういう服、あんま慣れてないからさー。\n変に見えてないといいんだけど",
-      "description": "口上手のお調子者。 \n希少な素材である「竜の鱗」を手に入れての一攫千金を狙い、竜退治に参加。 \n要領が良く、情報収集も花嫁役も器用にこなす。 \nただ、この格好に慣れるのには時間がかかったようで、照れくさがる様子をヴァレリアやランツェから散々からかわれた。",
+      "voice_text": "I'm really not used to wearing clothes like this. I hope I don't look too strange.",
+      "description": "An enthusiastic and witty character, she joined the dragon-slaying mission in hopes of striking it rich by acquiring rare dragon scales. Resourceful and adept, she gathers information while also playing the role of the bride. However, she was initially embarrassed by the outfit and was constantly teased by Valeria and Lanze, so it took her a while to get used to it.",
       "origin_game": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
     },
     "gift_color": {
@@ -15044,9 +15044,9 @@
       }
     },
     "skill_1": {
-      "name": "緋炎弾",
-      "description": "攻撃後、このスキル使用前に魔攻が最も高い味方1人の、次のパネルが空パネルの時、強化パネルを生成",
-      "summary": "攻撃後、魔攻が最も高い味方1人の次のパネルが空パネルの時、強化パネルを生成",
+      "name": "Crimson Flame Shot",
+      "description": "After attacking, if the next panel of the ally with the highest M. ATK before using this skill is empty, converts it into a boost panel.",
+      "summary": "After attack, if the next panel of the ally with the highest M. ATK is empty, converts it into a boost panel.",
       "max_level": 5,
       "skill_type": "SKILL",
       "effects": [
@@ -15068,9 +15068,9 @@
       "wait": 100
     },
     "skill_2": {
-      "name": "竜焔の加護",
-      "description": "味方1人に「魔攻+{0}%」を2回行動終了するまで付与",
-      "summary": "味方1人の魔攻アップ",
+      "name": "Dragon Flame's Blessing",
+      "description": "Boosts an ally's M. ATK by {0}% for 2 turns.",
+      "summary": "Boosts an ally's M. ATK.",
       "max_level": 5,
       "skill_type": "SKILL",
       "effects": [
@@ -15090,9 +15090,9 @@
       "wait": 200
     },
     "burst": {
-      "name": "焔舞・赫竜咆",
-      "description": "攻撃後、このスキル使用前に魔攻が最も高い味方1人に「スキルダメージ+{0}%」を1回行動終了するまで付与し、バーストパネルを除いたパネル1つを強化+パネルに変換(空パネルの時は生成)",
-      "summary": "攻撃後、味方1人のスキルダメージアップ。対象の一部パネルを除いたパネル1つを強化+パネルに変換",
+      "name": "Flame Dance: Radiant Dragon Roar",
+      "description": "After attacking, boosts skill damage of the ally with the highest M. ATK before this skill was used by {0}% for 1 turn and converts 1 of their panels other than a burst panel into a boost+ panel. (Creates a boost+ panel if the panel is empty)",
+      "summary": "After attack, boosts an ally's skill damage, then converts a certain panel into a boost+ panel.",
       "max_level": 7,
       "skill_type": "BURST",
       "effects": [
@@ -15119,8 +15119,8 @@
       "wait": 200
     },
     "passive_1": {
-      "name": "健やかなる時をあなたにも",
-      "description": "強化系パネル獲得時、アイテムゲージを{0}%回復",
+      "name": "In Sickness and in Health",
+      "description": "When using boost-type panels, restores the item gauge by {0}%.",
       "effects": [
         {
           "id": 72001087,
@@ -15756,11 +15756,11 @@
     "attribute": "SLASH",
     "role": "BREAKER",
     "initial_rarity": 3,
-    "acquisition_text": "見てよ、この綺麗な衣装！\nこれからも末永ーく、よろしくね！",
+    "acquisition_text": "Just look at this beautiful outfit! I hope you'll stay by my side forevermore!",
     "profile": {
       "voice_actor": "Minami Tanaka",
-      "voice_text": "いつもハンマー持って駆け回ってるから\nこういう綺麗な服って……緊張するよ",
-      "description": "明るく人懐こい獣人の少女。 \n最強の騎士を目指しているため、竜退治を快く引き受けた。 \n豪快だが乙女心も持ち合わせており、着替えてすぐは鏡の前からなかなか離れなかった。 \nまだ当分結婚の予定はないが、この格好を見たイザナの父親に涙ぐまれてしまい、なだめるのに苦労した。",
+      "voice_text": "I'm usually running around with a hammer, so wearing something this pretty makes me nervous!",
+      "description": "A cheerful and friendly beast girl. She is aiming to become the strongest knight, so she was eager to accept the dragon-slaying mission. Although she is brave, she also has a feminine side and couldn't stop admiring herself in the mirror after changing into this outfit. She has no plans to get married anytime soon, but seeing her in this outfit brought tears to her father's eyes, and she found it difficult to comfort him.",
       "origin_game": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
     },
     "gift_color": {
@@ -15838,8 +15838,8 @@
       }
     },
     "skill_1": {
-      "name": "ヒヒイロノツチ",
-      "description": "攻撃後、自身に「クリティカル確率+{0}%」を1回行動終了するまで付与",
+      "name": "Crimson Earth",
+      "description": "After attacking, boosts own critical rate by {0}% for 1 turn.",
       "summary": "After attacking, boosts own critical rate.",
       "max_level": 5,
       "skill_type": "SKILL",
@@ -15862,9 +15862,9 @@
       "wait": 100
     },
     "skill_2": {
-      "name": "緋連爪刃",
-      "description": "クリティカル攻撃時、この攻撃のブレイクダメージ+{0}%<br>攻撃後、対象に「受けるクリティカルダメージ+{1}%」を2回攻撃を受けるまで付与",
-      "summary": "クリティカル攻撃時、ブレイクダメージアップ<br>攻撃後、対象の受けるクリティカルダメージアップ",
+      "name": "Crimson Claw Blade",
+      "description": "On critical attack, boosts this attack's stun damage by {0}%. After attacking, boosts target's critical damage received by {1}% for 2 attacks.",
+      "summary": "On critical attack, boosts stun damage. After attack, boosts target's critical damage received.",
       "max_level": 5,
       "skill_type": "SKILL",
       "effects": [
@@ -15891,9 +15891,9 @@
       "wait": 200
     },
     "burst": {
-      "name": "竜嫁の守り刀",
-      "description": "攻撃後、対象に「スタン」を1回行動開始するまで超高確率で付与し、<br>味方の強化系パネルとバーストパネルを除いたパネル1つをクリティカルパネルに変換(空パネルの時は生成)",
-      "summary": "攻撃後、対象にスタンを超高確率で付与。味方の一部パネルを除いたパネル1つをクリティカルパネルに変換",
+      "name": "Dragon Bride's Guardian Blade",
+      "description": "After attacking, there is a very high chance to inflict Dazed on the target for 1 turn. Converts 1 panel for each ally that is not a boost-type panel or burst panel into a critical panel. (Creates a critical panel if the panel is empty)",
+      "summary": "After attack, very high chance to inflict Dazed on target. Converts certain panels for each ally into critical panels.",
       "max_level": 7,
       "skill_type": "BURST",
       "effects": [
@@ -15920,8 +15920,8 @@
       "wait": 200
     },
     "passive_1": {
-      "name": "心を射抜く愛のハンマー",
-      "description": "パネル獲得時、自身に「クリティカル確率+{0}%」を1回行動終了するまで付与",
+      "name": "Heart-Piercing Hammer of Love",
+      "description": "When using a panel, boosts own critical rate by {0}% for 1 turn.",
       "effects": [
         {
           "id": 72001086,

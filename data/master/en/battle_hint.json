@@ -1,221 +1,221 @@
 [
   {
-    "description": "・ウェーブ開始時、自身に被ダメージDOWNを付与\n・ウェーブ開始時、自身に与ダメージDOWNを付与",
+    "description": "- At the start of a wave, reduces own damage received\n- At the start of a wave, reduces own damage dealt",
     "enemy_id": 10027001,
     "id": 10027001
   },
   {
-    "description": "・行動するたびに挑発\n・麻痺＋パネルから付与される効果を無効",
+    "description": "- Taunts with each turn\n- Nullifies effects of Paralysis+ panels",
     "enemy_id": 10044002,
     "id": 10044002
   },
   {
-    "description": "・行動するたびに挑発\n・HPが一定に達すると、自身の与ダメージ上昇、被ダメージ上昇\n・HPが一定に達すると、自身のHP回復\n・HPが一定に達すると、挑発\n・麻痺＋パネルから付与される効果を無効",
+    "description": "- Taunts with each turn\n- Boosts own damage dealt and receives increased damage when HP reaches a certain level\n- Restores own HP when HP reaches a certain level\n- Taunts when HP reaches a certain level\n- Nullifies effects of Paralysis+ panels",
     "enemy_id": 10044003,
     "id": 10044003
   },
   {
-    "description": "・HPが一定に達すると、複数のプラス効果が発生\n・HPが一定に達すると、複数のパネルが出現\n・麻痺＋パネルから付与される効果を無効",
+    "description": "- Gains multiple positive effects when HP reaches a certain level\n- Multiple panels appear when HP reaches a certain level\n- Nullifies effects of Paralysis+ panels",
     "enemy_id": 10045001,
     "id": 10045001
   },
   {
-    "description": "・カウンター\n・強力な全体攻撃\n・毒攻撃\n・プラス効果無効を付与\n・状態異常に対し与ダメージ上昇",
+    "description": "- Counters\n- Deals significant damage to all targets\n- Poisonous attack\n- Inflicts Nullify Positive Effects\n- Dealt damage is increased against targets with status effects",
     "enemy_id": 10056001,
     "id": 10056001
   },
   {
-    "description": "・挑発\n・行動するたび、HP回復\n・行動するたび、ブレイクダメージ回復",
+    "description": "- Taunts\n- Recovers HP with each turn\n- Recovers stun damage with each turn",
     "enemy_id": 10081002,
     "id": 10081002
   },
   {
-    "description": "・仲間を回復し、与ダメージ上昇を付与\n・仲間全体に与ダメージ上昇を付与\n・仲間全体に被ダメージ低下を付与",
+    "description": "- Heals allies and boosts damage dealt\n- Boosts all allies' damage dealt\n- Reduces all allies damage received",
     "enemy_id": 10110001,
     "id": 10110001
   },
   {
-    "description": "・味方戦闘不能時、プラスパネルをバーストパネルに変更\n・自分以外の味方がいない時、バーストパネルを出現させる\n・プラスパネル獲得時、敵味方全体に暗闇を付与\n・マイナスパネル獲得時、複数のマイナス効果を自身に付与\n・行動するたび、自身に素早さUPを付与",
+    "description": "- When an ally is KO'd, converts positive panels into burst panels\n- When no other allies remain, creates burst panels\n- When using positive panels, inflicts Blindness on all enemies and allies\n- When using negative panels, inflicts multiple negative effects on self\n- Boosts own SPD each turn",
     "enemy_id": 10140001,
     "id": 10140001
   },
   {
-    "description": "・ウェーブ開始時、自身に被ダメージDOWNを付与\n・ウェーブ開始時、自身に被ブレイクダメージDOWNを付与\n・ウェーブ開始時、自身に与ダメージDOWNを付与",
+    "description": "- At the start of a wave, reduces own damage received\n- At the start of a wave, reduces own stun damage received\n- At the start of a wave, reduces own damage dealt",
     "enemy_id": 10141001,
     "id": 10141001
   },
   {
-    "description": "・マイナスパネル獲得時、自身に麻痺を付与\n・マイナスパネル獲得時、自身に被ダメージUPを付与",
+    "description": "- When using negative panels, inflicts Paralysis on self\n- When using negative panels, boosts own damage received",
     "enemy_id": 10142001,
     "id": 10142001
   },
   {
-    "description": "・戦闘不能時、敵全体にプラス効果無効を付与",
+    "description": "- When KO'd, inflicts Nullify Positive Effects on all enemies",
     "enemy_id": 10143001,
     "id": 10143001
   },
   {
-    "description": "・プラスパネル獲得時、プラスパネルをマイナスパネルに変更\n・マイナスパネル獲得時、マイナスパネルをプラスパネルに変更",
+    "description": "- When using a positive panel, converts positive panels into negative panels\n- When using a negative panel, converts negative panels into positive panels",
     "enemy_id": 10144001,
     "id": 10144001
   },
   {
-    "description": "・戦闘不能時、強化+パネルを出現させる",
+    "description": "- When KO'd, creates boost+ panels",
     "enemy_id": 10146002,
     "id": 10146002
   },
   {
-    "description": "・仲間を回復する\n・カウンター\n・攻撃するたび、敵単体に被ダメージUPを付与",
+    "description": "- Heals allies\n- Counter\n- Boosts one enemy's damage received with each attack",
     "enemy_id": 20015003,
     "id": 20015003
   },
   {
-    "description": "・暗闇パネルを出現させる\n・全体攻撃で受けるダメージが上昇\n・火傷状態の時、火属性攻撃で受けるダメージが上昇\n・火傷状態の時、火属性攻撃で受けるブレイクダメージが上昇\n・状態異常でない時、与えるダメージが上昇\n・ブレイク時、自身のプラス効果を解除",
+    "description": "- Creates Blindness panels\n- Receives increased damage from attacks that target all enemies\n- When inflicted with Burn, receives increased damage from Fire attacks\n- When inflicted with Burn, receives increased stun damage from Fire attacks\n- When not inflicted with a status effect, boosts damage dealt\n- When stunned, removes all positive effects from self",
     "enemy_id": 20050003,
     "id": 20050003
   },
   {
-    "description": "・戦闘不能時、強化+パネルを出現させる\n・火傷状態の時、火属性攻撃で受けるダメージが上昇\n・火傷状態の時、火属性攻撃で受けるブレイクダメージが上昇\n・全体攻撃で受けるダメージが低下\n・単体攻撃で受けるダメージが上昇",
+    "description": "- When KO'd, creates boost+ panels\n- When inflicted with Burn, receives increased damage from Fire attacks\n- When inflicted with Burn, receives increased stun damage from Fire attacks\n- Receives reduced damage from attacks that target all enemies\n- Receives increased damage from single-target attacks",
     "enemy_id": 20146017,
     "id": 20146017
   },
   {
-    "description": "・ウェーブ開始時、味方全体に被ダメージ低下を付与\n・ブレイク時、味方全体の被ダメージ低下を解除\n・１度目のブレイク復帰時、自身に与ダメージ上昇を付与\n・１度目のブレイク復帰時、自身に被ダメージ上昇を付与\n・１度目のブレイク復帰時、自身に状態異常耐性低下を付与",
+    "description": "- At the start of a wave, reduces all allies' damage received\n- When stunned, removes all damage reduction from allies\n- After recovering from being stunned for the first time, boosts own damage dealt\n- After recovering from being stunned for the first time, boosts own damage received\n- After recovering from being stunned for the first time, reduces own status effect resistance",
     "enemy_id": 20147003,
     "id": 20147003
   },
   {
-    "description": "・HPが一定に達すると、複数のプラス効果が発生\n・味方戦闘不能時、行動内容を変更\n・味方戦闘不能時、敵全体のプラス効果を解除",
+    "description": "- Triggers positive effects when HP reaches a certain level\n- When an ally is KO'd, changes moveset\n- When an ally is KO'd, removes all enemies' positive effects",
     "enemy_id": 20148003,
     "id": 20148003
   },
   {
-    "description": "・HPが一定に達すると、自身の与ダメージを上昇\n・HPが一定に達すると、敵全体に受けるHP回復量低下を付与\n・味方戦闘不能時、行動内容を変更\n・味方戦闘不能時、複数のプラス効果が発生",
+    "description": "- Boosts own damage dealt when HP reaches a certain level\n- Reduces all enemies' HP recovery received when HP reaches a certain level\n- When an ally is KO'd, changes moveset\n- When an ally is KO'd, triggers positive effects",
     "enemy_id": 20149003,
     "id": 20149003
   },
   {
-    "description": "・強力な全体攻撃",
+    "description": "- Deals significant damage to all targets",
     "enemy_id": 50013001,
     "id": 50013001
   },
   {
-    "description": "・カウンター",
+    "description": "- Counters",
     "enemy_id": 50015004,
     "id": 50015004
   },
   {
-    "description": "・素早さDOWNを連続で付与\n・与ダメージDOWNを連続で付与\n・カウンター",
+    "description": "- Reduces SPD multiple times\n- Reduces damage dealt multiple times\n- Counters",
     "enemy_id": 50020004,
     "id": 50020004
   },
   {
-    "description": "・連続で攻撃\n・カウンター",
+    "description": "- Attacks multiple times\n- Counters",
     "enemy_id": 50020005,
     "id": 50020005
   },
   {
-    "description": "・かばう\n・味方のパネルをバーストパネルに変更\n・素早さDOWNを付与\n・相手に素早さDOWNが付与されている時、眠りを付与",
+    "description": "- Protection\n- Converts allies' panels into burst panels\n- Reduces SPD\n- Inflicts Sleep on opponents that have reduced SPD",
     "enemy_id": 50034005,
     "id": 50034005
   },
   {
-    "description": "・挑発\n・挑発状態に対し与ダメージ上昇",
+    "description": "- Taunts\n- Dealt damage is increased against taunted targets",
     "enemy_id": 50039003,
     "id": 50039003
   },
   {
-    "description": "・挑発状態に対し与ダメージ上昇",
+    "description": "- Dealt damage is increased against taunted targets",
     "enemy_id": 50039004,
     "id": 50039004
   },
   {
-    "description": "・強力な全体攻撃\n・暗闇攻撃\n・行動するたび、与ダメージ上昇",
+    "description": "- Deals significant damage to all targets\n- Inflicts Blindness\n- Dealt damage is increased with every turn",
     "enemy_id": 50046001,
     "id": 50046001
   },
   {
-    "description": "・マイナス効果を持つ相手に対し、与ダメージ上昇\n・行動するたび、HP回復\n・行動するたび、自身に与ダメージUPを付与",
+    "description": "- Dealt damage is increased against targets with negative effects\n- Recovers HP with each turn\n- Boosts own damage dealt each turn",
     "enemy_id": 50066001,
     "id": 50066001
   },
   {
-    "description": "・毒攻撃\n・マイナス効果を持つ相手に対し、与ダメージ上昇",
+    "description": "- Poisonous attack\n- Dealt damage is increased against targets with negative effects",
     "enemy_id": 50079001,
     "id": 50079001
   },
   {
-    "description": "・マイナス効果を持つ相手に対し、与ダメージ上昇",
+    "description": "- Dealt damage is increased against targets with negative effects",
     "enemy_id": 50100019,
     "id": 50100019
   },
   {
-    "description": "・かばう\n・HPが一定以下の場合、与ダメージ上昇\n・与ダメージDOWNを付与",
+    "description": "- Protection\n- When HP is reduced below a certain level, boosts own damage dealt\n- Reduces damage dealt",
     "enemy_id": 50101001,
     "id": 50101001
   },
   {
-    "description": "・複数のマイナス効果を付与",
+    "description": "- Inflicts multiple negative effects",
     "enemy_id": 50132001,
     "id": 50132001
   },
   {
-    "description": "・戦闘アイテムからダメージを受けた時、自身に複数のマイナス効果を付与\n・手番を遅らせる\n・仲間のブレイクゲージを回復\n・素早さDOWNを付与",
+    "description": "- After taking damage from a battle item, inflicts multiple negative effects on self\n- Delays turn\n- Restores allies' stun gauge\n- Reduces SPD",
     "enemy_id": 50137001,
     "id": 50137001
   },
   {
-    "description": "・戦闘アイテムからダメージを受けた時、自身に複数のマイナス効果を付与\n・手番を遅らせる\n・仲間のブレイクゲージを回復\n・素早さDOWNを付与",
+    "description": "- After taking damage from a battle item, inflicts multiple negative effects on self\n- Delays turn\n- Restores allies' stun gauge\n- Reduces SPD",
     "enemy_id": 50137002,
     "id": 50137002
   },
   {
-    "description": "・味方戦闘不能時、プラスパネルをバーストパネルに変更\n・自分以外の味方がいない時、バーストパネルを出現させる\n・プラスパネル獲得時、敵味方全体に暗闇を付与\n・マイナスパネル獲得時、複数のマイナス効果を自身に付与\n・行動するたび、自身に素早さUPを付与",
+    "description": "- When an ally is KO'd, converts positive panels into burst panels\n- When no other allies remain, creates burst panels\n- When using positive panels, inflicts Blindness on all enemies and allies\n- When using negative panels, inflicts multiple negative effects on self\n- Boosts own SPD each turn",
     "enemy_id": 50140001,
     "id": 50140001
   },
   {
-    "description": "・ウェーブ開始時、自身に被ダメージDOWNを付与\n・ウェーブ開始時、自身に被ブレイクダメージDOWNを付与\n・ウェーブ開始時、自身に与ダメージDOWNを付与",
+    "description": "- At the start of a wave, reduces own damage received\n- At the start of a wave, reduces own stun damage received\n- At the start of a wave, reduces own damage dealt",
     "enemy_id": 50141001,
     "id": 50141001
   },
   {
-    "description": "・マイナスパネル獲得時、自身に麻痺を付与\n・マイナスパネル獲得時、自身に被ダメージUPを付与",
+    "description": "- When using negative panels, inflicts Paralysis on self\n- When using negative panels, boosts own damage received",
     "enemy_id": 50142001,
     "id": 50142001
   },
   {
-    "description": "・プラスパネル獲得時、プラスパネルをマイナスパネルに変更\n・マイナスパネル獲得時、マイナスパネルをプラスパネルに変更",
+    "description": "- When using a positive panel, converts positive panels into negative panels\n- When using a negative panel, converts negative panels into positive panels",
     "enemy_id": 50144001,
     "id": 50144001
   },
   {
-    "description": "・かばう\n・自身のパネルをバーストパネルに変更\n・素早さDOWNを付与\n・相手に素早さDOWNが付与されている時、眠りを付与",
+    "description": "- Protection\n- Converts own panels into burst panels\n- Reduces SPD\n- Inflicts Sleep on opponents that have reduced SPD",
     "enemy_id": 50145004,
     "id": 50145004
   },
   {
-    "description": "・かばう\n・自身のパネルをバーストパネルに変更\n・素早さDOWNを付与\n・相手に素早さDOWNが付与されている時、眠りを付与",
+    "description": "- Protection\n- Converts own panels into burst panels\n- Reduces SPD\n- Inflicts Sleep on opponents that have reduced SPD",
     "enemy_id": 50145005,
     "id": 50145005
   },
   {
-    "description": "・加護弱化パネルを出現させる\n・相手のプラス効果を全て解除\n・プラス効果の効果量DOWNを付与\n・与ダメージDOWNを付与",
+    "description": "- Creates protection weaken panels\n- Removes all of opponent's positive effects\n- Reduces potency of positive effects\n- Reduces damage dealt",
     "enemy_id": 50146021,
     "id": 50146021
   },
   {
-    "description": "・加護弱化パネルを出現させる\n・相手のプラス効果を全て解除\n・プラス効果の効果量DOWNを付与",
+    "description": "- Creates protection weaken panels\n- Removes all of opponent's positive effects\n- Reduces potency of positive effects",
     "enemy_id": 50146022,
     "id": 50146022
   },
   {
-    "description": "・加護弱化パネルを出現させる\n・プラス効果の効果量DOWNを付与\n・与ダメージDOWNを付与",
+    "description": "- Creates protection weaken panels\n- Reduces potency of positive effects\n- Reduces damage dealt",
     "enemy_id": 50146023,
     "id": 50146023
   },
   {
-    "description": "・加護弱化パネルを出現させる\n・相手のプラス効果を全て解除\n・プラス効果の効果量DOWNを付与",
+    "description": "- Creates protection weaken panels\n- Removes all of opponent's positive effects\n- Reduces potency of positive effects",
     "enemy_id": 50151001,
     "id": 50151001
   },
@@ -230,7 +230,7 @@
     "id": 60008003
   },
   {
-    "description": "・毒を付与",
+    "description": "- Inflicts Poison",
     "enemy_id": 60010002,
     "id": 60010002
   },
@@ -290,7 +290,7 @@
     "id": 60052002
   },
   {
-    "description": "・強力な単体攻撃\n・かばう\n・行動するたび、自身のブレイクゲージを回復",
+    "description": "- Deals significant damage to single targets\n- Protection\n- Restores own stun gauge each turn",
     "enemy_id": 60054001,
     "id": 60054001
   },
@@ -300,17 +300,17 @@
     "id": 60084001
   },
   {
-    "description": "・魔法攻撃を受けた時、自身に受ける回復量DOWNを付与\n・物理攻撃を受けた時、自身に受けるマイナス効果量UPを付与\n・行動するたび、自身のHP回復\n・HPが一定に達すると、複数のプラス効果が発生\n・敵全体に与える回復量DOWNを付与",
+    "description": "- When hit by a magic attack, reduces own recovery received\n- When hit by a physical attack, boosts potency of own received negative effects\n- Restores own HP each turn\n- Gains multiple positive effects when HP reaches a certain level\n- Reduces recovery given to all enemies",
     "enemy_id": 60086001,
     "id": 60086001
   },
   {
-    "description": "・敵のプラス効果が10個以上で多いほど被ダメージ上昇\n・狙われやすさを無視する攻撃を行う\n・防御力が高い\n・相手のプラス効果を解除\n・毒攻撃",
+    "description": "- Receives increased damage when enemies have 10 or more positive effects (Higher boost for more effects)\n- Attacks ignore odds of being targeted\n- High defense\n- Nullifies opponents' positive effects\n- Poisonous attack",
     "enemy_id": 60087006,
     "id": 60087006
   },
   {
-    "description": "・敵のプラス効果が10個以上で多いほど被ダメージ上昇\n・狙われやすさを無視する攻撃を行う\n・毒攻撃",
+    "description": "- Receives increased damage when enemies have 10 or more positive effects (Higher boost for more effects)\n- Attacks ignore odds of being targeted\n- Poisonous attack",
     "enemy_id": 60088008,
     "id": 60088008
   },
@@ -335,7 +335,7 @@
     "id": 60093003
   },
   {
-    "description": "・戦闘不能時、相手全員にクリティカル率UPを付与\n・ターンを遅らせる\n・仲間を回復",
+    "description": "- When KO'd, boosts all opponents' critical rate\n- Delays turn\n- Heals allies",
     "enemy_id": 60097001,
     "id": 60097001
   },
@@ -360,12 +360,12 @@
     "id": 60107001
   },
   {
-    "description": "・ブレイクゲージ最大時に攻撃被弾時、弱体パネルを強化パネルへ変更\n・ブレイクゲージ最大時に攻撃被弾時、強化パネルを弱体パネルへ変更\n・ターンを遅らせる\n・プラス効果無効を付与",
+    "description": "- When hit by an attack while stun gauge is full, converts weaken panels to boost panels\n- When hit by an attack while stun gauge is full, converts boost panels to weaken panels\n- Delays turn\n- Inflicts Nullify Positive Effects",
     "enemy_id": 60107004,
     "id": 60107004
   },
   {
-    "description": "・敵のプラス効果が10個以上で多いほど被ダメージ上昇\n・ブレイクゲージ最大時に攻撃被弾時、マイナスパネルをプラスパネルに変更\n・ブレイクゲージ最大時に攻撃被弾時、プラスパネルをマイナスパネルに変更",
+    "description": "- Receives increased damage when enemies have 10 or more positive effects (Higher boost for more effects)\n- When hit by an attack while stun gauge is full, converts negative panels to positive panels\n- When hit by an attack while stun gauge is full, converts positive panels to negative panels",
     "enemy_id": 60108009,
     "id": 60108009
   },
@@ -410,7 +410,7 @@
     "id": 60123003
   },
   {
-    "description": "・敵のプラス効果が10個以上で多いほど被ダメージ上昇\n・狙われやすさを無視する攻撃を行う\n・仲間全体を回避状態にする\n・戦闘不能時、味方全体に与ダメージUP、被ダメージDOWN、素早さUPを付与",
+    "description": "- Receives increased damage when enemies have 10 or more positive effects (Higher boost for more effects)\n- Attacks ignore odds of being targeted\n- Grants Evasion to all allies\n- When KO'd, boosts all allies' damage dealt and SPD and reduces all allies' damage received",
     "enemy_id": 60130013,
     "id": 60130013
   },
@@ -420,7 +420,7 @@
     "id": 60132001
   },
   {
-    "description": "・スキル回避状態の場合、戦闘アイテムからダメージを受けた時、自身にスタンを付与\n・ブレイク時、自身のプラス効果を解除\n・自身にスキル回避を付与\n・自身にマイナスパネル無効を付与",
+    "description": "- While granted Skill Evasion, after taking damage from a battle item, inflicts Dazed on self\n- When stunned, removes all positive effects from self\n- Grants self Skill Evasion\n- Grants self Negative Panel Immunity",
     "enemy_id": 60150001,
     "id": 60150001
   },
@@ -910,7 +910,7 @@
     "id": 80009028
   },
   {
-    "description": "・ブレイク状態が短い\n・麻痺攻撃\n・行動するたび、自身に与ダメージUPを付与\n・行動するたび、自身に素早さUPを付与",
+    "description": "- Shorter stun time\n- Paralyzing attack\n- Boosts own damage dealt each turn\n- Boosts own SPD each turn",
     "enemy_id": 80009035,
     "id": 80009035
   },
@@ -1015,12 +1015,12 @@
     "id": 80013015
   },
   {
-    "description": "- Deals significant damage to all targets\n- Inflicts Nullify Positive Effects",
+    "description": "- Inflicts Nullify Positive Effects\n- Counters",
     "enemy_id": 80014003,
     "id": 80014003
   },
   {
-    "description": "- Reflects Slash/Strike attacks\n- Attacks, ignoring odds of being targeted",
+    "description": "- Reflects Slash/Strike attacks\n- Attacks, ignoring odds of being targeted\n- Counters",
     "enemy_id": 80014005,
     "id": 80014005
   },
@@ -1030,7 +1030,7 @@
     "id": 80014013
   },
   {
-    "description": "- Inflicts Nullify Positive Effects",
+    "description": "- Inflicts Nullify Positive Effects\n- Counters",
     "enemy_id": 80014026,
     "id": 80014026
   },
@@ -1040,7 +1040,7 @@
     "id": 80014028
   },
   {
-    "description": "・カウンター\n・毒攻撃\n・麻痺攻撃\n・プラス効果無効を付与\n・状態異常に対し、与ダメージ上昇",
+    "description": "- Counters\n- Poisonous attack\n- Paralyzing attack\n- Inflicts Nullify Positive Effects\n- Dealt damage is increased against targets with status effects",
     "enemy_id": 80014031,
     "id": 80014031
   },
@@ -1365,7 +1365,7 @@
     "id": 80021027
   },
   {
-    "description": "・かばう\n・行動後、ブレイクダメージ回復\n・自身に被ダメージ低下を付与",
+    "description": "- Protection\n- Restores stun damage after turn\n- Reduces own damage received",
     "enemy_id": 80021059,
     "id": 80021059
   },
@@ -1595,12 +1595,12 @@
     "id": 80030005
   },
   {
-    "description": "- Boosts damage dealt and damage received when hit by a physical attack\n- Reduces damage dealt and damage received when hit by a magic attack\n- Reduces all allies' stun damage each turn",
+    "description": "- Boosts damage dealt and damage received when hit by a physical attack\n- Reduces damage dealt and damage received when hit by a magic attack\n- Reduces all allies' stun damage received each turn",
     "enemy_id": 80030007,
     "id": 80030007
   },
   {
-    "description": "- Boosts damage dealt and damage received when hit by a physical attack\n- Reduces damage dealt and damage received when hit by a magic attack\n- Reduces all allies' stun damage each turn\n- Reduces all allies' damage received each turn",
+    "description": "- Boosts damage dealt and damage received when hit by a physical attack\n- Reduces damage dealt and damage received when hit by a magic attack\n- Reduces all allies' stun damage received each turn\n- Reduces all allies' damage received each turn",
     "enemy_id": 80030008,
     "id": 80030008
   },
@@ -1800,7 +1800,7 @@
     "id": 80040025
   },
   {
-    "description": "・麻痺攻撃",
+    "description": "- Paralyzing attack",
     "enemy_id": 80040027,
     "id": 80040027
   },
@@ -2130,7 +2130,7 @@
     "id": 80052011
   },
   {
-    "description": "- Inflicts Nullify Recovery\n- Moderate chance to inflict Poison when hit by an attack",
+    "description": "- Inflicts Nullify Recovery\n- Moderate chance to inflict Poison when hit by an attack\n- Counters\n- Restores all allies' HP each turn",
     "enemy_id": 80052014,
     "id": 80052014
   },
@@ -2140,7 +2140,7 @@
     "id": 80052020
   },
   {
-    "description": "- Inflicts Nullify Recovery\n- Moderate chance to inflict Poison when hit by an attack\n- Grants Regen and increased damage dealt to allies\n- Restores all allies' HP each turn",
+    "description": "- Inflicts Nullify Recovery\n- Moderate chance to inflict Poison when hit by an attack\n- Grants Regen and increased damage dealt to allies\n- Restores all allies' HP each turn\n- Counters",
     "enemy_id": 80052024,
     "id": 80052024
   },
@@ -2230,12 +2230,12 @@
     "id": 80054003
   },
   {
-    "description": "- Deals significant damage to single targets\n- Protection\n- Reflects Fire attacks",
+    "description": "- Deals significant damage to single targets\n- Protection\n- Reflects Fire attacks\n- Restores own stun gauge each turn",
     "enemy_id": 80054005,
     "id": 80054005
   },
   {
-    "description": "- Deals significant damage to single targets\n- Protection\n- Reflects Fire attacks",
+    "description": "- Deals significant damage to single targets\n- Protection\n- Reflects Fire attacks\n- Restores own stun gauge each turn",
     "enemy_id": 80054006,
     "id": 80054006
   },
@@ -2285,7 +2285,7 @@
     "id": 80054021
   },
   {
-    "description": "- Receives reduced damage from magic attacks while not stunned\n- Protection",
+    "description": "- Receives reduced damage from magic attacks while not stunned\n- Protection\n- Restores own stun gauge each turn",
     "enemy_id": 80054022,
     "id": 80054022
   },
@@ -2395,7 +2395,7 @@
     "id": 80055021
   },
   {
-    "description": "- Deals significant damage to all targets\n- Poisonous attack\n- Dealt damage is increased against targets with status effects",
+    "description": "- Deals significant damage to all targets\n- Poisonous attack\n- Dealt damage is increased against targets with status effects\n- Counters",
     "enemy_id": 80056000,
     "id": 80056000
   },
@@ -2405,7 +2405,7 @@
     "id": 80056001
   },
   {
-    "description": "- Nullifies magic stun damage\n- Dealt damage is increased with every turn\n- Inflicted with Blindness when hit by physical attack while stunned\n- Received damage is increased after stun",
+    "description": "- Nullifies magic stun damage\n- Dealt damage is increased with every turn\n- Inflicted with Blindness when hit by physical attack while stunned\n- Received damage is increased after stun\n- Counters",
     "enemy_id": 80056002,
     "id": 80056002
   },
@@ -2425,7 +2425,7 @@
     "id": 80056005
   },
   {
-    "description": "- Reflects Slash/Strike attacks\n- Attacks, ignoring odds of being targeted",
+    "description": "- Reflects Slash/Strike attacks\n- Attacks, ignoring odds of being targeted\n- Counters",
     "enemy_id": 80056006,
     "id": 80056006
   },
@@ -2460,17 +2460,17 @@
     "id": 80056016
   },
   {
-    "description": "- Extended duration of status effects and negative effects\n- Poisonous attack\n- Inflicts Nullify Positive Effects",
+    "description": "- Extended duration of status effects and negative effects\n- Poisonous attack\n- Inflicts Nullify Positive Effects\n- Counters",
     "enemy_id": 80056018,
     "id": 80056018
   },
   {
-    "description": "- Receives increased stun damage from physical attacks and single-target attacks\n- Receives increased damage while stunned\n- Receives increased damage from single-target attacks while stunned\n- Poisonous attack\n- Inflicts Nullify Positive Effects",
+    "description": "- Receives increased stun damage from physical attacks and single-target attacks\n- Receives increased damage while stunned\n- Receives increased damage from single-target attacks while stunned\n- Poisonous attack\n- Inflicts Nullify Positive Effects\n- Counters",
     "enemy_id": 80056021,
     "id": 80056021
   },
   {
-    "description": "- Deals significant damage to all targets\n- Poisonous attack\n- Inflicts Nullify Positive Effects\n- Dealt damage is increased against targets with status effects",
+    "description": "- Deals significant damage to all targets\n- Poisonous attack\n- Inflicts Nullify Positive Effects\n- Dealt damage is increased against targets with status effects\n- Counters",
     "enemy_id": 80056026,
     "id": 80056026
   },
@@ -2490,7 +2490,7 @@
     "id": 80056031
   },
   {
-    "description": "- Poisonous attack",
+    "description": "- Poisonous attack\n- Counters",
     "enemy_id": 80056033,
     "id": 80056033
   },
@@ -2500,12 +2500,12 @@
     "id": 80056036
   },
   {
-    "description": "- Paralyzed after being stunned\n- Receives increased damage while paralyzed\n- Receives increased stun damage while paralyzed",
+    "description": "- Paralyzed when stunned\n- Receives increased damage while paralyzed\n- Receives increased stun damage while paralyzed",
     "enemy_id": 80060002,
     "id": 80060002
   },
   {
-    "description": "- Paralyzed after being stunned\n- Receives increased damage while paralyzed\n- Receives increased stun damage while paralyzed",
+    "description": "- Paralyzed when stunned\n- Receives increased damage while paralyzed\n- Receives increased stun damage while paralyzed",
     "enemy_id": 80061002,
     "id": 80061002
   },
@@ -2520,7 +2520,7 @@
     "id": 80062001
   },
   {
-    "description": "- Paralyzed after being stunned\n- Receives increased damage while paralyzed\n- Receives increased stun damage while paralyzed",
+    "description": "- Paralyzed when stunned\n- Receives increased damage while paralyzed\n- Receives increased stun damage while paralyzed",
     "enemy_id": 80062002,
     "id": 80062002
   },
@@ -2650,7 +2650,7 @@
     "id": 80067001
   },
   {
-    "description": "- High attack\n- Shorter stun time\n- Deals significant damage to all targets",
+    "description": "- High attack\n- Shorter stun time\n- Deals significant damage to all targets\n- Heals self each turn",
     "enemy_id": 80067002,
     "id": 80067002
   },
@@ -2945,17 +2945,17 @@
     "id": 80081007
   },
   {
-    "description": "- Reflects Fire attacks",
+    "description": "- Reflects Fire attacks\n- Restores own stun gauge each turn",
     "enemy_id": 80081008,
     "id": 80081008
   },
   {
-    "description": "- Reflects Fire attacks",
+    "description": "- Reflects Fire attacks\n- Restores own stun gauge each turn",
     "enemy_id": 80081009,
     "id": 80081009
   },
   {
-    "description": "- Reflects Fire attacks",
+    "description": "- Reflects Fire attacks\n- Restores own stun gauge each turn",
     "enemy_id": 80081010,
     "id": 80081010
   },
@@ -2975,7 +2975,7 @@
     "id": 80082002
   },
   {
-    "description": "- Deals significant damage to all targets\n- Grants Damage Immunity to allies\n- Removes allies' negative effects with each turn",
+    "description": "- Deals significant damage to all targets\n- Grants Damage Immunity to allies\n- Removes own negative effects each turn",
     "enemy_id": 80082006,
     "id": 80082006
   },
@@ -2990,12 +2990,12 @@
     "id": 80083004
   },
   {
-    "description": "- Deals significant damage to all targets\n- Poisonous attack\n- Inflicts Nullify Positive Effects\n- Dealt damage is increased against targets with status effects",
+    "description": "- Poisonous attack\n- Inflicts Nullify Positive Effects\n- Dealt damage is increased against targets with status effects\n- Counters",
     "enemy_id": 80083005,
     "id": 80083005
   },
   {
-    "description": "- Deals significant damage to all targets\n- Poisonous attack\n- Inflicts Nullify Positive Effects\n- Dealt damage is increased against targets with status effects",
+    "description": "- Deals significant damage to all targets\n- Poisonous attack\n- Inflicts Nullify Positive Effects\n- Dealt damage is increased against targets with status effects\n- Counters",
     "enemy_id": 80083007,
     "id": 80083007
   },
@@ -3500,7 +3500,7 @@
     "id": 80106011
   },
   {
-    "description": "- When hit by an attack while stun gauge is full, converts negative panels to positive panels\n- When hit by an attack while stun gauge is full, converts positive panels to negative panels",
+    "description": "- When hit by an attack while stun gauge is full, converts weaken panels to boost panels\n- When hit by an attack while stun gauge is full, converts boost panels to weaken panels",
     "enemy_id": 80107001,
     "id": 80107001
   },
@@ -3555,7 +3555,7 @@
     "id": 80110046
   },
   {
-    "description": "・仲間を回復し、与ダメージ上昇を付与\n・仲間全体に与ダメージ上昇を付与\n・仲間全体に被ダメージ低下を付与",
+    "description": "- Heals allies and boosts damage dealt\n- Boosts all allies' damage dealt\n- Reduces all allies damage received",
     "enemy_id": 80110067,
     "id": 80110067
   },
@@ -3590,7 +3590,7 @@
     "id": 80116001
   },
   {
-    "description": "・ブレイク時、プラスパネルをバーストパネルに変更\n・ブレイク時、マイナスパネルをプラスパネルに変更\n・行動後、被ダメージDOWNを自身に付与\n・敵単体に被ダメージUPを付与\n・仲間全体に被ダメージDOWNを付与\n・仲間全体に被ブレイクダメージDOWNを付与\n・敵全体に与ブレイクダメージDOWNを付与",
+    "description": "- When stunned, converts positive panels to burst panels\n- When stunned, converts negative panels to positive panels\n- After turn, reduces own damage received\n- Boosts an enemy's damage received\n- Reduces all allies' damage received\n- Reduces all allies' stun damage received\n- Reduces all enemies' stun damage dealt",
     "enemy_id": 80116008,
     "id": 80116008
   },
@@ -3640,7 +3640,7 @@
     "id": 80119004
   },
   {
-    "description": "・ブレイクしていない時、クリティカル無効\n・ブレイクした時、敵全体のマイナス効果を解除\n・クリティカル攻撃を受けた時、プラスパネルを出現させる\n・仲間を回復する\n・仲間のブレイクゲージを回復する\n・敵全体に与ダメージDOWNを付与\n・敵全体に与ブレイクダメージDOWNを付与",
+    "description": "- When not stunned, immune to critical attacks\n- When stunned, removes negative effects from all enemies\n- When hit by a critical attack, creates positive panels\n- Heals allies\n- Restores allies' stun gauge\n- Reduces all enemies' damage dealt\n- Reduces all enemies' stun damage dealt",
     "enemy_id": 80119006,
     "id": 80119006
   },

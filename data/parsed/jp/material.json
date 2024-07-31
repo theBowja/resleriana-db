@@ -16211,12 +16211,6 @@
         "quest_name": "マリーの招福大作戦！１０",
         "episode_id": 904,
         "episode_name": "マリーの招福大作戦！"
-      },
-      {
-        "quest_id": 4304100,
-        "quest_name": "夜空に笑顔が咲いた夏１",
-        "episode_id": 4304,
-        "episode_name": "海の家"
       }
     ],
     "image_small": "Ingredient_0299_S",
@@ -35991,6 +35985,402 @@
     "image_small": "Ingredient_0643_S",
     "image_medium": "Ingredient_0643_M",
     "start_at": "2024-07-19T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 645,
+    "name": "海のくさ",
+    "rarity": 2,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 50,
+        "name": "会心の出来",
+        "category": "ENHANCE",
+        "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "獣弱点サーチ",
+        "category": "WEAKENING",
+        "description": "対象に「獣種族が受けるダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000095,
+            "description": "対象に「獣種族が受けるダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 4304100,
+        "quest_name": "夜空に笑顔が咲いた夏１",
+        "episode_id": 4304,
+        "episode_name": "海の家"
+      },
+      {
+        "quest_id": 4304103,
+        "quest_name": "夜空に笑顔が咲いた夏４",
+        "episode_id": 4304,
+        "episode_name": "海の家"
+      },
+      {
+        "quest_id": 4304106,
+        "quest_name": "夜空に笑顔が咲いた夏７",
+        "episode_id": 4304,
+        "episode_name": "海の家"
+      },
+      {
+        "quest_id": 4304109,
+        "quest_name": "夜空に笑顔が咲いた夏１０",
+        "episode_id": 4304,
+        "episode_name": "海の家"
+      }
+    ],
+    "image_small": "Ingredient_0645_S",
+    "image_medium": "Ingredient_0645_M",
+    "start_at": "2024-07-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 646,
+    "name": "砂石",
+    "rarity": 2,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "スキル威力上昇",
+        "category": "ATTACK",
+        "description": "スキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "スキル威力{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "魔法耐性上昇",
+        "category": "ENHANCE",
+        "description": "魔法攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000027,
+            "description": "魔法属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 4304101,
+        "quest_name": "夜空に笑顔が咲いた夏２",
+        "episode_id": 4304,
+        "episode_name": "海の家"
+      },
+      {
+        "quest_id": 4304104,
+        "quest_name": "夜空に笑顔が咲いた夏５",
+        "episode_id": 4304,
+        "episode_name": "海の家"
+      },
+      {
+        "quest_id": 4304107,
+        "quest_name": "夜空に笑顔が咲いた夏８",
+        "episode_id": 4304,
+        "episode_name": "海の家"
+      },
+      {
+        "quest_id": 4304109,
+        "quest_name": "夜空に笑顔が咲いた夏１０",
+        "episode_id": 4304,
+        "episode_name": "海の家"
+      }
+    ],
+    "image_small": "Ingredient_0646_S",
+    "image_medium": "Ingredient_0646_M",
+    "start_at": "2024-07-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 647,
+    "name": "リシリコ",
+    "rarity": 2,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 46,
+        "name": "全体回復ボーナス",
+        "category": "RECOVERY",
+        "description": "全体回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体回復が与えるHP回復量{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "name": "水棲特防",
+        "category": "ENHANCE",
+        "description": "対象に「水棲種族から受けるダメージ{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000093,
+            "description": "対象に「水棲種族から受けるダメージ{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 4304102,
+        "quest_name": "夜空に笑顔が咲いた夏３",
+        "episode_id": 4304,
+        "episode_name": "海の家"
+      },
+      {
+        "quest_id": 4304105,
+        "quest_name": "夜空に笑顔が咲いた夏６",
+        "episode_id": 4304,
+        "episode_name": "海の家"
+      },
+      {
+        "quest_id": 4304108,
+        "quest_name": "夜空に笑顔が咲いた夏９",
+        "episode_id": 4304,
+        "episode_name": "海の家"
+      },
+      {
+        "quest_id": 4304109,
+        "quest_name": "夜空に笑顔が咲いた夏１０",
+        "episode_id": 4304,
+        "episode_name": "海の家"
+      }
+    ],
+    "image_small": "Ingredient_0647_S",
+    "image_medium": "Ingredient_0647_M",
+    "start_at": "2024-07-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 648,
+    "name": "サマータイムスクウィッド",
+    "rarity": 3,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 11,
+        "name": "魔法ダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "name": "物理/魔法耐性ダウン強化",
+        "category": "WEAKENING",
+        "description": "対象が与える「物理被ダメージアップ」と「魔法被ダメージアップ」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000030,
+            "description": "対象が与える「物理被ダメージアップ」と「魔法被ダメージアップ」の効果量{0}%アップ",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 4304106,
+        "quest_name": "夜空に笑顔が咲いた夏７",
+        "episode_id": 4304,
+        "episode_name": "海の家"
+      },
+      {
+        "quest_id": 4304109,
+        "quest_name": "夜空に笑顔が咲いた夏１０",
+        "episode_id": 4304,
+        "episode_name": "海の家"
+      }
+    ],
+    "image_small": "Ingredient_0648_S",
+    "image_medium": "Ingredient_0648_M",
+    "start_at": "2024-07-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 649,
+    "name": "サマータイムフラワー",
+    "rarity": 3,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 17,
+        "name": "魔力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "追い打ち強化",
+        "category": "ATTACK",
+        "description": "ブレイク中の敵へのダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "ブレイク中の敵へのダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 4304107,
+        "quest_name": "夜空に笑顔が咲いた夏８",
+        "episode_id": 4304,
+        "episode_name": "海の家"
+      },
+      {
+        "quest_id": 4304109,
+        "quest_name": "夜空に笑顔が咲いた夏１０",
+        "episode_id": 4304,
+        "episode_name": "海の家"
+      }
+    ],
+    "image_small": "Ingredient_0649_S",
+    "image_medium": "Ingredient_0649_M",
+    "start_at": "2024-07-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 650,
+    "name": "サマータイムフルーツ",
+    "rarity": 3,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 68,
+        "name": "スキル2ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "スキル2のブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 13000160,
+            "description": "スキル2ブレイクダメージ+{0}%",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "魔法ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000014,
+            "description": "魔法属性攻撃のブレイクダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 4304108,
+        "quest_name": "夜空に笑顔が咲いた夏９",
+        "episode_id": 4304,
+        "episode_name": "海の家"
+      },
+      {
+        "quest_id": 4304109,
+        "quest_name": "夜空に笑顔が咲いた夏１０",
+        "episode_id": 4304,
+        "episode_name": "海の家"
+      }
+    ],
+    "image_small": "Ingredient_0650_S",
+    "image_medium": "Ingredient_0650_M",
+    "start_at": "2024-07-31T03:00:00.000Z",
     "end_at": null
   }
 ]

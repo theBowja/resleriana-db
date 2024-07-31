@@ -12749,6 +12749,229 @@
     "start_at": "2024-04-30T03:00:00.000Z"
   },
   {
+    "id": 40003,
+    "name": "クラウディア",
+    "title": "【Moonlit Beach】",
+    "full_name": "クラウディア・バレンツ",
+    "base_character": "クラウディア",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "ICE",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "深い海の底だって、みんなとなら怖くない。\nさ、一緒に行こう！",
+    "profile": {
+      "voice_actor": "大和田仁美",
+      "voice_text": "この格好、ちょっと冒険しすぎたかな……？\nでもライザと一緒なら平気だよね",
+      "description": "商家の一人娘。\n親友であるライザから紹介された隊商に同行し、日々仕事の腕を磨いている。\n今回は少し背伸びをし、大人っぽい水着に挑戦。\nライザたちと共に過ごせる新たな夏に、心を躍らせている。",
+      "origin_game": "ライザのアトリエ ～常闇の女王と秘密の隠れ家～"
+    },
+    "gift_color": {
+      "received": "黄",
+      "given": "緑"
+    },
+    "battle_item_trait": [
+      {
+        "id": 19,
+        "name": "氷の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「氷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000060,
+            "description": "対象に「氷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "魔力の祝福",
+        "category": "ATTACK",
+        "description": "魔法攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 17,
+        "name": "ブレイクダメージ上昇【渾身】",
+        "category": "ATTACK",
+        "description": "HP満タン時、ブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000016,
+            "description": "HPが最大の時、ブレイクダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 147,
+        "spd": 242,
+        "patk": 51,
+        "matk": 60,
+        "pdef": 45,
+        "mdef": 49
+      },
+      "growth": {
+        "hp": 1470,
+        "spd": 0,
+        "patk": 510,
+        "matk": 600,
+        "pdef": 450,
+        "mdef": 490
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 5,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "エミットリエテ",
+      "description": "攻撃後、アイテムゲージを{0}%回復し、<br>自身に「ブレイクダメージ+{1}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、アイテムゲージを回復<br>自身のブレイクダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91002004,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91001338,
+          "description": "",
+          "value": 3000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [46, 48, 51, 54, 57],
+      "has_stun": true,
+      "stun_values": [16, 17, 18, 19, 20],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "フレイシュグラセ",
+      "description": "攻撃後、対象に「受ける魔法攻撃ダメージ+{0}%」を2回攻撃を受けるまで付与<br>「フレイシュグラセ」はスキルランプを持ち、点灯数が2個の時、効果内容が変化する<br>スキルランプは最大2個点灯できる<br><br>スキルランプの点灯数が2個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が2個の時、<br>攻撃後、魔攻が最も高い味方1人に「魔攻+{1}%」を付与(上限60%)し、<br>スキルランプを全て消灯する",
+      "summary": "攻撃後、対象の受ける魔法攻撃ダメージアップ<br>スキルランプの点灯数が2個未満の時、攻撃後、スキルランプを1個点灯する<br>スキルランプの点灯数が2個の時、攻撃後、味方1人の魔攻アップし、スキルランプを全て消灯する",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001263,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001342,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001329,
+          "description": "",
+          "value": 100
+        },
+        {
+          "id": 91001330,
+          "description": "",
+          "value": 200
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [83, 88, 93, 98, 103],
+      "has_stun": true,
+      "stun_values": [42, 44, 47, 49, 52],
+      "has_recovery": false,
+      "wait": 175
+    },
+    "burst": {
+      "name": "トナリティ・ラ・メール",
+      "description": "攻撃前、対象に「氷属性耐性-{0}%」を2回攻撃を受けるまで付与し、<br>攻撃後、対象に「受ける魔法攻撃ダメージ+{1}%」を1回攻撃を受けるまで付与",
+      "summary": "攻撃前、対象の氷属性耐性ダウン<br>攻撃後、対象の受ける魔法攻撃ダメージアップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91000935,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001344,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [146, 146, 146, 155, 164, 173, 182],
+      "has_stun": true,
+      "stun_values": [91, 91, 91, 96, 102, 107, 113],
+      "has_recovery": false,
+      "wait": 150
+    },
+    "passive_1": {
+      "name": "楽しいバカンスは全力で",
+      "description": "バトル開始時、「フレイシュグラセ」のスキルランプを2個点灯する<br>パーティの誰かが戦闘アイテム使用後、「フレイシュグラセ」のスキルランプを1個点灯する<br>※アイテムを複数同時に使用しても点灯は1個",
+      "effects": [
+        {
+          "id": 72001094,
+          "description": "[スキルランプ点灯]",
+          "value": 200
+        },
+        {
+          "id": 72001094,
+          "description": "[スキルランプ点灯]",
+          "value": 100
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "サマータイムメロディ",
+      "description": "攻撃対象がブレイク時、アイテムゲージを{0}%回復し、自身に「ブレイクダメージ+{1}%」を付与(上限30%)",
+      "effects": [
+        {
+          "id": 72000984,
+          "description": "攻撃対象がブレイク時、アイテムゲージ回復",
+          "value": 3000
+        },
+        {
+          "id": 72001099,
+          "description": "[自身/ブレイク時/ブレイクダメージアップ(上限30%)]",
+          "value": 1500
+        }
+      ]
+    },
+    "start_at": "2024-07-31T03:00:00.000Z"
+  },
+  {
     "id": 40101,
     "name": "リラ",
     "title": "【漆黒の護衛】",

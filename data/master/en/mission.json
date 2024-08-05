@@ -8789,7 +8789,7 @@
     "event_tab_id": 33,
     "guide_mission_step_id": null,
     "id": 340002,
-    "name": "Log in for 5 days during the Mission period",
+    "name": "Log in for 5 days during the mission period",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
     "priority": 99,
@@ -14674,7 +14674,7 @@
     "navigation_task_url_id": null,
     "priority": 117,
     "reset_cycle": null,
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-08-05T03:00:00.000Z",
     "steps": [
       {
         "count": 1,
@@ -14700,7 +14700,7 @@
     "navigation_task_url_id": null,
     "priority": 116,
     "reset_cycle": null,
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-08-05T03:00:00.000Z",
     "steps": [
       {
         "count": 1,
@@ -14726,7 +14726,7 @@
     "navigation_task_url_id": null,
     "priority": 115,
     "reset_cycle": null,
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-08-05T03:00:00.000Z",
     "steps": [
       {
         "count": 1,
@@ -14752,7 +14752,7 @@
     "navigation_task_url_id": null,
     "priority": 114,
     "reset_cycle": null,
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-08-05T03:00:00.000Z",
     "steps": [
       {
         "count": 1,
@@ -14778,7 +14778,7 @@
     "navigation_task_url_id": null,
     "priority": 113,
     "reset_cycle": null,
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-08-05T03:00:00.000Z",
     "steps": [
       {
         "count": 100,
@@ -14819,7 +14819,7 @@
     "navigation_task_url_id": null,
     "priority": 112,
     "reset_cycle": null,
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-08-05T03:00:00.000Z",
     "steps": [
       {
         "count": 100,
@@ -14860,7 +14860,7 @@
     "navigation_task_url_id": null,
     "priority": 111,
     "reset_cycle": null,
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-08-05T03:00:00.000Z",
     "steps": [
       {
         "count": 100,
@@ -21326,5 +21326,309 @@
     ],
     "total_task_condition_id": 456,
     "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000024,
+    "guide_mission_step_id": null,
+    "id": 1004000210,
+    "name": "Synthesize {} SSR items",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": "2024-08-12T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 1000301016,
+        "start_at": null
+      },
+      {
+        "count": 5,
+        "reward_set_id": 1000301016,
+        "start_at": null
+      },
+      {
+        "count": 10,
+        "reward_set_id": 1000301016,
+        "start_at": null
+      },
+      {
+        "count": 20,
+        "reward_set_id": 1000301017,
+        "start_at": null
+      },
+      {
+        "count": 30,
+        "reward_set_id": 1000301017,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000024,
+    "guide_mission_step_id": null,
+    "id": 1004000211,
+    "name": "Clear Dungeons {} times",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": "2024-08-12T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1000301015,
+        "start_at": null
+      },
+      {
+        "count": 3,
+        "reward_set_id": 1000301016,
+        "start_at": null
+      },
+      {
+        "count": 5,
+        "reward_set_id": 1000301016,
+        "start_at": null
+      },
+      {
+        "count": 10,
+        "reward_set_id": 1000301017,
+        "start_at": null
+      },
+      {
+        "count": 20,
+        "reward_set_id": 1000301017,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 18
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000024,
+    "guide_mission_step_id": null,
+    "id": 1004000212,
+    "name": "Clear Score Battles {} times",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": "2024-08-12T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 1000301015,
+        "start_at": null
+      },
+      {
+        "count": 5,
+        "reward_set_id": 1000301016,
+        "start_at": null
+      },
+      {
+        "count": 10,
+        "reward_set_id": 1000301016,
+        "start_at": null
+      },
+      {
+        "count": 20,
+        "reward_set_id": 1000301017,
+        "start_at": null
+      },
+      {
+        "count": 40,
+        "reward_set_id": 1000301017,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 17
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000024,
+    "guide_mission_step_id": null,
+    "id": 1004000213,
+    "name": "Synthesize {} equipment item(s)",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": "2024-08-12T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 1000301015,
+        "start_at": null
+      },
+      {
+        "count": 20,
+        "reward_set_id": 1000301016,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000024,
+    "guide_mission_step_id": null,
+    "id": 1004000214,
+    "name": "Synthesize {} battle item(s)",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": "2024-08-12T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 1000301015,
+        "start_at": null
+      },
+      {
+        "count": 20,
+        "reward_set_id": 1000301016,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000024,
+    "guide_mission_step_id": null,
+    "id": 1004000215,
+    "name": "Synthesize {} piece(s) of equipment with a total trait level of 4 or more",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": "2024-08-12T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 1000301016,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000024,
+    "guide_mission_step_id": null,
+    "id": 1004000216,
+    "name": "Synthesize {} piece(s) of equipment with a total trait level of 6 or more",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": "2024-08-12T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 1000301017,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000024,
+    "guide_mission_step_id": null,
+    "id": 1004000217,
+    "name": "Synthesize {} battle item(s) with a total trait level of 6 or more",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": "2024-08-12T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 1000301016,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000024,
+    "guide_mission_step_id": null,
+    "id": 1004000218,
+    "name": "Synthesize {} battle item(s) with a total trait level of 9 or more",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": "2024-08-12T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 1000301017,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
   }
 ]

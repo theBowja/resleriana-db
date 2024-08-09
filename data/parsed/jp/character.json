@@ -17773,6 +17773,445 @@
     "start_at": "2024-06-10T03:00:00.000Z"
   },
   {
+    "id": 43901,
+    "name": "ザスキア",
+    "title": "【Master of Alchemy】",
+    "full_name": "ザスキア",
+    "base_character": "ザスキア",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "ICE",
+    "role": "SUPPORTER",
+    "initial_rarity": 3,
+    "acquisition_text": "錬金術を復興させるのは私の願いでもある。\n――さあ、共に行きましょう",
+    "profile": {
+      "voice_actor": "能登麻美子",
+      "voice_text": "私はザスキア。レスナと同じ、夢見る\n錬金術士よ。目指せ、果ての大陸ってね",
+      "description": "レスナの錬金術の師匠。 \n旅の途中でレスナの住む村に立ち寄り、彼女に錬金術の手ほどきをした。 \n明るくさっぱりとした性格だが、錬金術のことになると厳しい一面も見せる。 \nまた私生活はずぼらで、よくレスナが世話を焼いている。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "紫",
+      "given": "緑"
+    },
+    "battle_item_trait": [
+      {
+        "id": 26,
+        "name": "氷の盾",
+        "category": "ENHANCE",
+        "description": "対象に「氷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000067,
+            "description": "対象に「氷属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "氷の祝福",
+        "category": "ATTACK",
+        "description": "氷属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "氷属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 32,
+        "name": "魔法ダメージ上昇【背水】",
+        "category": "ATTACK",
+        "description": "HPが50%以下の時、魔法攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000099,
+            "description": "HPが50%以下の時、与える魔法属性ダメージ{0}%アップ",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 136,
+        "spd": 249,
+        "patk": 49,
+        "matk": 57,
+        "pdef": 55,
+        "mdef": 56
+      },
+      "growth": {
+        "hp": 1360,
+        "spd": 0,
+        "patk": 490,
+        "matk": 570,
+        "pdef": 550,
+        "mdef": 560
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 5,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "墜星",
+      "description": "攻撃後、アイテムゲージを{0}%回復し、<br>味方全員に「クリティカルダメージ+{1}%」を2回行動終了するまで付与",
+      "summary": "攻撃後、アイテムゲージを回復<br>味方全員のクリティカルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91002004,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91001345,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [50, 53, 56, 59, 62],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "雪華の舞",
+      "description": "アイテムゲージを{0}%回復し、<br>味方全員に「魔攻+{1}%」を付与(上限15%)し、<br>このスキル使用前にタイムラインに並んでいる、次の味方のパネル1つがバーストパネルでない時、強化+パネルに変換(空パネルの時は生成)",
+      "summary": "アイテムゲージを回復<br>味方全員の魔攻アップ<br>次の味方のバーストパネルを除いたパネルを強化+パネルに変換",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91002004,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91001351,
+          "description": "",
+          "value": 500
+        },
+        {
+          "id": 91001346,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "NONE",
+      "attribute": "ICE",
+      "target": "ALLY",
+      "range": "ALL",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "スペキュラム・ルーナ",
+      "description": "攻撃後、アイテムゲージを{0}%回復し、<br>攻撃対象のパネル全てを弱体+パネルに変換(空パネルの時は生成)",
+      "summary": "攻撃後、アイテムゲージを回復<br>対象のパネルを弱体+パネルに変換",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91002004,
+          "description": "",
+          "value": 4000
+        },
+        {
+          "id": 91001294,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "ここは師匠に任せなさい",
+      "description": "パーティの誰かが戦闘アイテム使用後、味方全員に「マイナス効果無効」を1回行動終了するまで付与(発動上限3回)<br>※アイテムを複数同時に使用しても発動は1回",
+      "effects": [
+        {
+          "id": 72001104,
+          "description": "パーティの誰かが戦闘アイテム使用後、味方全員に「マイナス効果無効」を1回行動終了するまで付与(発動上限3回)\n※アイテムを複数同時に使用しても発動は1回",
+          "value": 0
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "アドバンスオール物防&魔防Ⅱ",
+      "description": "味方全員の物防・魔防+{0}%",
+      "effects": [
+        {
+          "id": 72001101,
+          "description": "[味方全員/常時/物防上昇]",
+          "value": 1000
+        },
+        {
+          "id": 72001102,
+          "description": "[味方全員/常時/魔防上昇]",
+          "value": 1000
+        }
+      ]
+    },
+    "start_at": "2024-08-13T03:00:00.000Z"
+  },
+  {
+    "id": 44001,
+    "name": "ヨハナ",
+    "title": "【Battle Phenom】",
+    "full_name": "ヨハナ",
+    "base_character": "ヨハナ",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "SLASH",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "天才と呼ばれたこの私の力――\n今度はあんたに使わせてあげる！",
+    "profile": {
+      "voice_actor": "芹澤優",
+      "voice_text": "今はここが私の居場所だから。\n何もかも、天才が守ってやるわよ",
+      "description": "王国非公認組織、「月影の会」にて、「鴉」の名で監視役をしていた少女。\n「月影の会」会長オリバーの言葉だけに従い生きてきたのは、彼がヨハナの唯一の肉親、祖父であったため。\n自らの戦闘技術に強い自信があり、その腕は確か。\nプライドが高く負けず嫌いな性格で、一人突っ走ってしまうことも。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "紫",
+      "given": "青"
+    },
+    "battle_item_trait": [
+      {
+        "id": 50,
+        "name": "会心の出来",
+        "category": "ENHANCE",
+        "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "斬の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「斬属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000063,
+            "description": "対象に「斬属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "スキル威力上昇",
+        "category": "ATTACK",
+        "description": "スキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "スキル威力{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 157,
+        "spd": 280,
+        "patk": 67,
+        "matk": 55,
+        "pdef": 48,
+        "mdef": 41
+      },
+      "growth": {
+        "hp": 1570,
+        "spd": 0,
+        "patk": 670,
+        "matk": 550,
+        "pdef": 480,
+        "mdef": 410
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 5,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "月影",
+      "description": "攻撃前、対象に「状態異常耐性-{0}%」を1回行動終了するまで付与し、<br>攻撃後、対象に「毒」を2回行動開始するまで超高確率で付与",
+      "summary": "攻撃前、対象の状態異常耐性ダウン<br>攻撃後、対象に毒を超高確率で付与",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001347,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91000951,
+          "description": "",
+          "value": 200
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [22, 23, 24, 25, 27],
+      "has_stun": true,
+      "stun_values": [1, 1, 1, 1, 1],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "幻鏡の斬",
+      "description": "攻撃後、対象に「受ける物理攻撃ダメージ+{0}%」を2回攻撃を受けるまで付与<br>「幻鏡の斬」はスキルランプを持ち、点灯数が3個の時、効果内容が変化する<br>スキルランプは最大3個点灯できる<br><br>スキルランプの点灯数が3個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が3個の時、<br>攻撃後、自身に「回避(確率{1}%)」を1回攻撃されるまで付与し、<br>自身に「物攻・素早さ+{2}%」を2回行動終了するまで付与し、<br>スキルランプを全て消灯する",
+      "summary": "攻撃後、対象の受ける物理攻撃ダメージアップ<br>スキルランプの点灯数が3個未満の時、攻撃後、スキルランプを1個点灯する<br>スキルランプの点灯数が3個の時、攻撃後、自身に回避を付与と自身にステータスアップし、スキルランプを全て消灯する",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001148,
+          "description": "",
+          "value": 3500
+        },
+        {
+          "id": 91001366,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001349,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001367,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001340,
+          "description": "",
+          "value": 100
+        },
+        {
+          "id": 91001341,
+          "description": "",
+          "value": 300
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [198, 210, 222, 234, 247],
+      "has_stun": true,
+      "stun_values": [19, 20, 21, 22, 23],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "閃刃乱舞",
+      "description": "攻撃前、自身のマイナス効果を解除し、<br>攻撃後、このスキル使用前にタイムラインに並んでいる、次の味方のパネル1つがバーストパネルでない時、クリティカルパネルに変換(空パネルの時は生成)",
+      "summary": "攻撃前、自身のマイナス効果を解除<br>攻撃後、次の味方のバーストパネルを除いたパネルをクリティカルパネルに変換",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001007,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001350,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [500, 500, 500, 531, 562, 593, 625],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "これが才能ってこと！",
+      "description": "バトル開始時、「幻鏡の斬」のスキルランプを3個点灯する<br>パーティの誰かが戦闘アイテム使用後、「幻鏡の斬」のスキルランプを1個点灯する<br>※アイテムを複数同時に使用しても点灯は1個",
+      "effects": [
+        {
+          "id": 72001094,
+          "description": "[スキルランプ点灯]",
+          "value": 300
+        },
+        {
+          "id": 72001094,
+          "description": "[スキルランプ点灯]",
+          "value": 100
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "私は戦闘の天才よ！",
+      "description": "自身の素早さに応じ、スキルダメージ+0～100%(素早さ280～520で多いほど増加)",
+      "effects": [
+        {
+          "id": 72001103,
+          "description": "[自身/素早さの値に応じ/スキルダメージアップ]",
+          "value": 10000
+        }
+      ]
+    },
+    "start_at": "2024-08-13T03:00:00.000Z"
+  },
+  {
     "id": 44301,
     "name": "エレン",
     "title": "【Noble Wolf】",

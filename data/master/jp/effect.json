@@ -6405,6 +6405,62 @@
     "popup_text": ""
   },
   {
+    "description": "得意属性が斬属性の時、与えるマイナス効果量アップ",
+    "effect_motion_id": null,
+    "id": 6000823,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が斬属性かつアタッカーの時、与えるマイナス効果量アップ",
+    "effect_motion_id": null,
+    "id": 6000824,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が斬属性かつアタッカーの時カウンター攻撃を受ける時、低確率で回避する",
+    "effect_motion_id": null,
+    "id": 6000825,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が斬属性かつアタッカーの時、 バーストスキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 6000826,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が氷属性かつサポーターの時、味方全員の受けるダメージダウン",
+    "effect_motion_id": null,
+    "id": 6000827,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が氷属性かつサポーターの時、味方全員の強化系パネルから受ける効果量アップ",
+    "effect_motion_id": null,
+    "id": 6000828,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がサポーターの時、バーストスキル使用後、アイテムゲージを回復",
+    "effect_motion_id": null,
+    "id": 6000829,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が氷属性かつサポーターの時、バーストスキル使用後、アイテムゲージを回復",
+    "effect_motion_id": null,
+    "id": 6000830,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "与回復量上昇",
     "effect_motion_id": null,
     "id": 13000001,
@@ -7175,9 +7231,72 @@
     "popup_text": ""
   },
   {
+    "description": "自身が打属性の時、受けるHP回復量上昇+{}%",
+    "effect_motion_id": null,
+    "id": 13000217,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身が氷属性の時、単体攻撃スキルダメージアップ+{}%",
+    "effect_motion_id": null,
+    "id": 13000218,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身が氷属性の時、ブレイクダメージ+{0}%",
+    "effect_motion_id": null,
+    "id": 13000220,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "麻痺＋パネル効果「被ダメージDOWN」無効",
     "effect_motion_id": null,
     "id": 21045001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身の素早さアップ(上限20%)",
+    "effect_motion_id": null,
+    "id": 26050001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "HP50%以下になった時、自身のHPを回復",
+    "effect_motion_id": 1101,
+    "id": 26050002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "HP50%以下になった時、自身のブレイクゲージを回復",
+    "effect_motion_id": 1101,
+    "id": 26050003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "HP50%以下になった時、自身のデバフを解除",
+    "effect_motion_id": 1101,
+    "id": 26050004,
+    "is_positive_popup": true,
+    "popup_text": "マイナス効果解除"
+  },
+  {
+    "description": "HP50%以下になった時、自身に与ダメージアップ付与",
+    "effect_motion_id": 1101,
+    "id": 26050005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身のHPが50%以下の場合、与ダメージUP",
+    "effect_motion_id": 1101,
+    "id": 26185006,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -7283,6 +7402,69 @@
     "description": "15パネル分の空白、マイナスパネルを痺+パネルに書き換え",
     "effect_motion_id": null,
     "id": 71045002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体に付与率30%で麻痺(3回)を付与",
+    "effect_motion_id": null,
+    "id": 71045003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "対象に魔攻DOWN(3回)を付与",
+    "effect_motion_id": null,
+    "id": 71045004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "対象に素早さDOWN(3回)を付与",
+    "effect_motion_id": null,
+    "id": 71045005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "対象にクリティカルダメージDOWN(3回)を付与",
+    "effect_motion_id": null,
+    "id": 71045006,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "対象に物防DOWN(3回)を付与",
+    "effect_motion_id": null,
+    "id": 71045007,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "対象に魔防DOWN(3回)を付与",
+    "effect_motion_id": null,
+    "id": 71045008,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "対象に与ダメDOWN(2回)を付与",
+    "effect_motion_id": null,
+    "id": 71045009,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "対象にクリティカルダメージDOWN(1回)を付与",
+    "effect_motion_id": null,
+    "id": 71045010,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "対象に被回復量DOWN(1回)を付与",
+    "effect_motion_id": null,
+    "id": 71045011,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -8120,6 +8302,132 @@
     "popup_text": ""
   },
   {
+    "description": "自身に与ダメージUP(1回)を付与",
+    "effect_motion_id": null,
+    "id": 71164028,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に素早さUP(1回)を付与",
+    "effect_motion_id": null,
+    "id": 71164029,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に被ダメージDOWN(1回)を付与",
+    "effect_motion_id": null,
+    "id": 71164030,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に素早さUP(1回)を付与",
+    "effect_motion_id": null,
+    "id": 71165014,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "対象に素早さDOWN(1回)を付与",
+    "effect_motion_id": null,
+    "id": 71165015,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に与ダメージUP(1回)を付与",
+    "effect_motion_id": null,
+    "id": 71165016,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に与ダメージUP(1回)を付与",
+    "effect_motion_id": null,
+    "id": 71166010,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に素早さUP(2回)を付与",
+    "effect_motion_id": null,
+    "id": 71166011,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "対象に被ダメージUP(1回)を付与",
+    "effect_motion_id": null,
+    "id": 71166012,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "味方全体にクリティカル発生率UP(1回)を付与",
+    "effect_motion_id": null,
+    "id": 71167022,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "対象にクリティカル発生率UP(1回)を付与",
+    "effect_motion_id": null,
+    "id": 71167023,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体にクリティカル発生率DOWN(1回)を付与",
+    "effect_motion_id": null,
+    "id": 71167024,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身にクリティカル発生率UP(1回)を付与",
+    "effect_motion_id": null,
+    "id": 71168017,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "対象にクリティカル発生率DOWN(1回)を付与",
+    "effect_motion_id": null,
+    "id": 71168018,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体に与ダメージDOWN(1回)を付与",
+    "effect_motion_id": null,
+    "id": 71168019,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "味方全体にクリティカル発生率UP(1回)を付与",
+    "effect_motion_id": null,
+    "id": 71168020,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "対象のブレイクゲージ回復(1回)",
+    "effect_motion_id": null,
+    "id": 71169025,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "対象の与ダメージDOWN(1回)",
+    "effect_motion_id": null,
+    "id": 71169026,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "[自身/常時/ダメージバフ]",
     "effect_motion_id": null,
     "id": 72000901,
@@ -8918,6 +9226,41 @@
     "popup_text": ""
   },
   {
+    "description": "[味方全員/常時/物防上昇]",
+    "effect_motion_id": null,
+    "id": 72001101,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "[味方全員/常時/魔防上昇]",
+    "effect_motion_id": null,
+    "id": 72001102,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "[自身/素早さの値に応じ/スキルダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72001103,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "パーティの誰かが戦闘アイテム使用後、味方全員に「マイナス効果無効」を1回行動終了するまで付与(発動上限3回)\n※アイテムを複数同時に使用しても発動は1回",
+    "effect_motion_id": null,
+    "id": 72001104,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "パーティの誰かが戦闘アイテム使用後、味方全員に「マイナス効果無効」を1回行動終了するまで付与(発動上限3回)\n※アイテムを複数同時に使用しても発動は1回",
+    "effect_motion_id": null,
+    "id": 72001106,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "[自身/常時/物攻上昇]",
     "effect_motion_id": null,
     "id": 72500002,
@@ -9250,6 +9593,13 @@
     "description": "state_change用",
     "effect_motion_id": null,
     "id": 72500143,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "[リーダースキル][自身/ランターナが多いほど/クリティカルダメージアップ]",
+    "effect_motion_id": null,
+    "id": 72500144,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -9651,6 +10001,13 @@
     "id": 76158008,
     "is_positive_popup": true,
     "popup_text": "状態異常解除"
+  },
+  {
+    "description": "残りHP割合が最も低い味方のブレイクゲージ回復",
+    "effect_motion_id": null,
+    "id": 76169002,
+    "is_positive_popup": null,
+    "popup_text": ""
   },
   {
     "description": "",
@@ -10185,6 +10542,76 @@
     "popup_text": "プラス効果解除"
   },
   {
+    "description": "自身に与ダメージUPを付与",
+    "effect_motion_id": 1098,
+    "id": 81164031,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に素早さUPを付与",
+    "effect_motion_id": 1098,
+    "id": 81164032,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に被ダメージDOWNを付与",
+    "effect_motion_id": 1098,
+    "id": 81164033,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "状態異常の場合、自身の与ダメージDOWN",
+    "effect_motion_id": null,
+    "id": 81164034,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "状態異常の場合、自身への攻撃のクリティカル率アップ",
+    "effect_motion_id": null,
+    "id": 81164035,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "状態異常の場合、自身の自身に被ダメージUP",
+    "effect_motion_id": null,
+    "id": 81164036,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "状態異常を受けたとき、自身に受ける強化効果量ダウンを付与",
+    "effect_motion_id": null,
+    "id": 81166013,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "エネミー陣営の生存数が1になった時、与ダメージUPを付与",
+    "effect_motion_id": 1099,
+    "id": 81168021,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "味方戦闘不能時、行動内容を再抽選する",
+    "effect_motion_id": 1099,
+    "id": 81168037,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "エネミー陣営の生存数が1になった時、素早さUPを付与",
+    "effect_motion_id": 1099,
+    "id": 81168038,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "カチコチ状態の時、被クリティカルダメージUP",
     "effect_motion_id": null,
     "id": 86003001,
@@ -10335,6 +10762,20 @@
     "description": "自身にカウンター(1回)を付与",
     "effect_motion_id": null,
     "id": 86056009,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "攻撃スキル被弾時、無条件で被ダメージUP(上限100%)を自身に付与",
+    "effect_motion_id": null,
+    "id": 86060007,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "攻撃スキル被弾時、無条件で被ブレイクダメージを自身に付与",
+    "effect_motion_id": null,
+    "id": 86060008,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -10601,6 +11042,20 @@
     "description": "生存数2人以上の場合、受けるダメージDOWN",
     "effect_motion_id": null,
     "id": 86105005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "ブレイク中でない時、被ダメージ減少",
+    "effect_motion_id": null,
+    "id": 86105009,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "ブレイク時敵全体のスキルダメージ上昇(上限150%)",
+    "effect_motion_id": null,
+    "id": 86105011,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -12959,6 +13414,20 @@
   {
     "description": "",
     "effect_motion_id": null,
+    "id": 91001340,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001341,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
     "id": 91001342,
     "is_positive_popup": null,
     "popup_text": ""
@@ -12974,6 +13443,90 @@
     "description": "",
     "effect_motion_id": null,
     "id": 91001344,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001345,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001346,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001347,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001349,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001350,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001351,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001360,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001361,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001362,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001363,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001366,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "id": 91001367,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -14003,6 +14556,20 @@
     "description": "得意属性が氷属性かつWEAK攻撃時、ブレイクダメージアップ",
     "effect_motion_id": null,
     "id": 95000132,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がアタッカーの時、クリティカルダメージアップ",
+    "effect_motion_id": null,
+    "id": 95000133,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が斬属性の時、バーストスキルダメージアップ",
+    "effect_motion_id": null,
+    "id": 95000134,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -16579,6 +17146,13 @@
     "description": "クリティカルダメージUP",
     "effect_motion_id": null,
     "id": 120000528,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "アイテムゲージ回復量増加(+150%)",
+    "effect_motion_id": null,
+    "id": 120000529,
     "is_positive_popup": null,
     "popup_text": ""
   },

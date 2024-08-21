@@ -5110,6 +5110,227 @@
     "start_at": "2024-01-11T03:00:00.000Z"
   },
   {
+    "id": 29203,
+    "name": "アーシャ",
+    "title": "【Twilight Fairy】",
+    "full_name": "アーシャ・アルトゥール",
+    "base_character": "アーシャ",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "ICE",
+    "role": "DEFENDER",
+    "initial_rarity": 3,
+    "acquisition_text": "おケガはありませんか？\n治療はわたしに任せてください――！",
+    "profile": {
+      "voice_actor": "井上麻里奈",
+      "voice_text": "この服を着ていると、身が引き締まります。\n任された役目をしっかり果たさなきゃ！",
+      "description": "ほんわか癒し系の錬金術士。 \n来たる極夜の錬金党との戦いに向け、治療薬を用意する医療班としての任を引き受けた。 \nこの衣装は、仕事がしやすいようにとロマンから贈られたもの。 \nおっとりとした印象とは裏腹に、薬の素材を手に入れるためなら、危険な場所にも飛び込んでいく勇気がある。",
+      "origin_game": "アーシャのアトリエ ～黄昏の大地の錬金術士～"
+    },
+    "gift_color": {
+      "received": "緑",
+      "given": "黄"
+    },
+    "battle_item_trait": [
+      {
+        "id": 7,
+        "name": "氷の祝福",
+        "category": "ATTACK",
+        "description": "氷属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "氷属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "守護の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 26,
+        "name": "魔法耐性上昇",
+        "category": "ENHANCE",
+        "description": "魔法攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000027,
+            "description": "魔法属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 205,
+        "spd": 225,
+        "patk": 51,
+        "matk": 52,
+        "pdef": 55,
+        "mdef": 60
+      },
+      "growth": {
+        "hp": 2050,
+        "spd": 0,
+        "patk": 510,
+        "matk": 520,
+        "pdef": 550,
+        "mdef": 600
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 5,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "アイスフロルスタッフ",
+      "description": "攻撃前、自身のマイナス効果を解除し、<br>攻撃後、自身のHPを{1}%回復し、<br>自身に「かばう」を3回発動するまで付与",
+      "summary": "攻撃前、自身のマイナス効果を解除<br>攻撃後、自身のHPを回復<br>自身にかばうを付与",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001007,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91000926,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001071,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [76, 80, 85, 90, 95],
+      "has_stun": true,
+      "stun_values": [8, 8, 9, 9, 10],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "氷蝶の加護",
+      "description": "自身に「攻撃を受けた時、味方全員のHPを{0}%回復」を2回攻撃を受けるまで付与し、<br>自身のHPに応じ、味方全員に「最大HP+5〜30%」を2回行動終了するまで付与し、<br>自身のHPに応じ、味方全員に「受けるダメージ-20〜50%」を1回攻撃を受けるまで付与(重複不可)<br>(HP25〜100%で少ないほど増加)",
+      "summary": "自身に「攻撃を受けた時、味方全員のHP回復」を付与<br>自身のHPが少ないほど、味方全員の最大HPをアップ<br>自身のHPが少ないほど、味方全員の受けるダメージダウン",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001165,
+          "description": "",
+          "value": 100
+        },
+        {
+          "id": 91001370,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001371,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "NONE",
+      "attribute": "ICE",
+      "target": "ALLY",
+      "range": "ALL",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "蝶雨蒼生",
+      "description": "攻撃後、味方全員の状態異常を回復し、<br>味方全員に「全体攻撃から受けるダメージ-{1}%」を1回攻撃を受けるまで付与",
+      "summary": "攻撃後、味方全員の状態異常を回復<br>味方全員の全体攻撃から受けるダメージダウン",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001372,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001203,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "へこたれません！",
+      "description": "敵にとても狙われやすくなる<br>攻撃を受けた時、自身に「受けるダメージ-{0}%」を付与(上限20%)",
+      "effects": [
+        {
+          "id": 72001105,
+          "description": "[自身/被ダメージ軽減/上限20%_1周年アーシャ_ABL1]",
+          "value": 200
+        },
+        {
+          "id": 72000914,
+          "description": "狙われやすさ+100％",
+          "value": 10000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "柔軟な受け流し",
+      "description": "自身のHPが最大の時、受けるダメージ-{0}%",
+      "effects": [
+        {
+          "id": 72001108,
+          "description": "自身のHPが100%以上の時、被ダメージダウン",
+          "value": 5000
+        }
+      ]
+    },
+    "start_at": "2024-08-21T03:00:00.000Z"
+  },
+  {
     "id": 29301,
     "name": "ウィルベル",
     "title": "【Magical Trick Star】",
@@ -9232,6 +9453,227 @@
       ]
     },
     "start_at": "2024-04-01T12:00:00.000Z"
+  },
+  {
+    "id": 33403,
+    "name": "ソフィー",
+    "title": "【Pure Angel】",
+    "full_name": "ソフィー・ノイエンミュラー",
+    "base_character": "ソフィー",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "FIRE",
+    "role": "SUPPORTER",
+    "initial_rarity": 3,
+    "acquisition_text": "あたしの錬金術はみんなのために――\nあなたの願いも、あたしが守るから！",
+    "profile": {
+      "voice_actor": "相坂優歌",
+      "voice_text": "この服はあたしへの期待の証……\nそれに応えられるよう頑張らなきゃ！",
+      "description": "天真爛漫な錬金術士。 \n極夜の錬金党との戦いに備え、治療薬を用意するアーシャを手伝う。 \nこの衣装は、仕事がしやすいようにとロマンから贈られたもの。 \n錬金術を人のために使うことに喜びを覚える彼女は、この仕事に大きなやりがいを感じている。",
+      "origin_game": "ソフィーのアトリエ ～不思議な本の錬金術士～"
+    },
+    "gift_color": {
+      "received": "紫",
+      "given": "赤"
+    },
+    "battle_item_trait": [
+      {
+        "id": 25,
+        "name": "火の盾",
+        "category": "ENHANCE",
+        "description": "対象に「火属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000066,
+            "description": "対象に「火属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "大きな回復量",
+        "category": "RECOVERY",
+        "description": "与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000075,
+            "description": "与えるHP回復量{0}%アップ",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 41,
+        "name": "全体回復量上昇",
+        "category": "RECOVERY",
+        "description": "味方全員回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体回復が与えるHP回復量{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 152,
+        "spd": 257,
+        "patk": 51,
+        "matk": 57,
+        "pdef": 48,
+        "mdef": 50
+      },
+      "growth": {
+        "hp": 1520,
+        "spd": 0,
+        "patk": 510,
+        "matk": 570,
+        "pdef": 480,
+        "mdef": 500
+      },
+      "resistance": {
+        "fire": 5,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "きらきらノック",
+      "description": "攻撃後、味方全員のHPを{0}%回復し、<br>味方全員に「スキルダメージ+{1}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、味方全員のHPを回復<br>味方全員のスキルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000925,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91001041,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [44, 46, 49, 52, 55],
+      "has_stun": true,
+      "stun_values": [5, 5, 5, 5, 6],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "ハートフルシャワー",
+      "description": "味方1人に「魔攻+{0}%」と「火属性ダメージ+{1}%」を2回行動終了するまで付与<br><br>対象に以下の追加効果を1回行動終了するまで付与する<br>追加効果:「攻撃前、対象に火属性耐性-{2}%(上限50%)を1回攻撃を受けるまで付与」",
+      "summary": "味方1人の魔攻アップ<br>対象の火属性ダメージアップ<br>対象に追加効果を付与",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001314,
+          "description": "",
+          "value": 500
+        },
+        {
+          "id": 91001352,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91001353,
+          "description": "",
+          "value": 2500
+        }
+      ],
+      "attribute_type": "NONE",
+      "attribute": "FIRE",
+      "target": "ALLY",
+      "range": "ONE",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "リリーフナレッジ",
+      "description": "攻撃前、味方全員に「WEAK攻撃時、スキルダメージ+{0}%」を付与(上限100%)し、<br>攻撃後、このスキル使用前に魔攻が最も高い味方1人に「魔攻+{1}%」を1回行動終了するまで付与",
+      "summary": "攻撃前、味方全員のWEAK攻撃時のスキルダメージアップ<br>攻撃後、魔攻が最も高い味方1人に超魔攻アップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001355,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001356,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [350, 350, 350, 371, 393, 415, 437],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "万病予防薬",
+      "description": "味方全員の物攻・魔攻・物防・魔防+{0}%",
+      "effects": [
+        {
+          "id": 72000907,
+          "description": "[味方全体/常時/物攻上昇]",
+          "value": 1000
+        },
+        {
+          "id": 72000908,
+          "description": "[味方全体/常時/魔攻上昇]",
+          "value": 1000
+        },
+        {
+          "id": 72000909,
+          "description": "[味方全体/常時/物防上昇]",
+          "value": 1000
+        },
+        {
+          "id": 72000910,
+          "description": "[味方全体/常時/魔防上昇]",
+          "value": 1000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "みんなの願い、手伝うよ！",
+      "description": "得意属性が火属性の味方全員のスキルダメージ+{0}%",
+      "effects": [
+        {
+          "id": 72000926,
+          "description": "",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2024-08-21T03:00:00.000Z"
   },
   {
     "id": 33501,
@@ -16970,6 +17412,214 @@
       ]
     },
     "start_at": "2024-06-10T03:00:00.000Z"
+  },
+  {
+    "id": 43599,
+    "name": "ハイディ",
+    "title": "【ログボ用】",
+    "full_name": "ハイディ",
+    "base_character": "ハイディ",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "STRIKE",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "ログボ用",
+    "profile": {
+      "voice_actor": "大空直美",
+      "voice_text": "ログボ用",
+      "description": "ログボ用",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "黄",
+      "given": "緑"
+    },
+    "battle_item_trait": [
+      {
+        "id": 49,
+        "name": "追い打ち強化",
+        "category": "ATTACK",
+        "description": "ブレイク中の敵へのダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "ブレイク中の敵へのダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "斬の盾",
+        "category": "ENHANCE",
+        "description": "対象に「斬属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000070,
+            "description": "対象に「斬属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 13,
+        "name": "ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "ブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000012,
+            "description": "ブレイクダメージ{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 159,
+        "spd": 263,
+        "patk": 60,
+        "matk": 55,
+        "pdef": 42,
+        "mdef": 42
+      },
+      "growth": {
+        "hp": 1590,
+        "spd": 0,
+        "patk": 600,
+        "matk": 550,
+        "pdef": 420,
+        "mdef": 420
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 5,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "アマシースタ",
+      "description": "攻撃後、自身に「WEAK攻撃時、ブレイクダメージ+{0}%」を1回行動終了するまで付与し、<br>アイテムゲージを{1}%回復",
+      "summary": "攻撃後、自身のWEAK攻撃時のブレイクダメージアップ<br>アイテムゲージを回復",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001202,
+          "description": "",
+          "value": 4000
+        },
+        {
+          "id": 91002004,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [27, 28, 30, 31, 33],
+      "has_stun": true,
+      "stun_values": [14, 14, 15, 16, 17],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "ローサクラーヴォ",
+      "description": "攻撃前、対象に「打属性耐性-{0}%」を3回攻撃を受けるまで付与<br>攻撃後、物攻が最も高い味方1人に「物攻+{1}%」を1回行動終了するまで付与",
+      "summary": "攻撃前、対象の打属性耐性ダウン<br>攻撃後、物攻が最も高い味方1人の物攻アップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000965,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001196,
+          "description": "",
+          "value": 1500
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [134, 142, 150, 158, 167],
+      "has_stun": true,
+      "stun_values": [113, 120, 127, 134, 141],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "ディスパローサ",
+      "description": "WEAK攻撃時、対象を「強制ブレイク」<br>攻撃後、物攻が最も高い味方1人に「物攻+{0}%」を1回行動終了するまで付与",
+      "summary": "WEAK攻撃時、対象を強制ブレイク<br>攻撃後、物攻が最も高い味方1人の物攻アップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001196,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001187,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [192, 192, 192, 204, 216, 228, 240],
+      "has_stun": true,
+      "stun_values": [120, 120, 120, 127, 135, 142, 150],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "さあ、追い打ちと行こうか！",
+      "description": "攻撃対象がブレイク時、アイテムゲージを{0}%回復し、<br>味方全員に「敵に与える戦闘アイテムダメージ+{1}%」を付与(上限200%)",
+      "effects": [
+        {
+          "id": 72000984,
+          "description": "攻撃対象がブレイク時、アイテムゲージ回復",
+          "value": 3000
+        },
+        {
+          "id": 72000983,
+          "description": "攻撃対象がブレイク時、味方全員に「敵に与える戦闘アイテムダメージ+{0}%」を付与(上限200%)",
+          "value": 10000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "決戦装備シュヴァルツロゼ",
+      "description": "状態異常無効",
+      "effects": [
+        {
+          "id": 72000987,
+          "description": "[自身/常時/状態異常無効]",
+          "value": 10000
+        }
+      ]
+    },
+    "start_at": "2049-12-31T15:00:00.000Z"
   },
   {
     "id": 43601,

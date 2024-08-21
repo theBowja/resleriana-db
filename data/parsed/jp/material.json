@@ -37636,5 +37636,382 @@
     "image_medium": "Ingredient_0662_M",
     "start_at": "2024-08-13T03:00:00.000Z",
     "end_at": null
+  },
+  {
+    "id": 668,
+    "name": "フィラト石",
+    "rarity": 2,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 10,
+        "name": "守護の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "魔力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 5104001,
+        "quest_name": "１周年前夜祭ボスチャレンジ１",
+        "episode_id": 5104,
+        "episode_name": "１周年前夜祭ボスチャレンジ"
+      },
+      {
+        "quest_id": 5104004,
+        "quest_name": "１周年前夜祭ボスチャレンジ４",
+        "episode_id": 5104,
+        "episode_name": "１周年前夜祭ボスチャレンジ"
+      },
+      {
+        "quest_id": 5104005,
+        "quest_name": "１周年前夜祭ボスチャレンジ５",
+        "episode_id": 5104,
+        "episode_name": "１周年前夜祭ボスチャレンジ"
+      }
+    ],
+    "image_small": "Ingredient_0668_S",
+    "image_medium": "Ingredient_0668_M",
+    "start_at": "2024-08-21T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 669,
+    "name": "玉水晶",
+    "rarity": 2,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 7,
+        "name": "氷ダメージ上昇",
+        "category": "ATTACK",
+        "description": "氷属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "氷属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "魔法ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000014,
+            "description": "魔法属性攻撃のブレイクダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 5104002,
+        "quest_name": "１周年前夜祭ボスチャレンジ２",
+        "episode_id": 5104,
+        "episode_name": "１周年前夜祭ボスチャレンジ"
+      },
+      {
+        "quest_id": 5104004,
+        "quest_name": "１周年前夜祭ボスチャレンジ４",
+        "episode_id": 5104,
+        "episode_name": "１周年前夜祭ボスチャレンジ"
+      },
+      {
+        "quest_id": 5104005,
+        "quest_name": "１周年前夜祭ボスチャレンジ５",
+        "episode_id": 5104,
+        "episode_name": "１周年前夜祭ボスチャレンジ"
+      }
+    ],
+    "image_small": "Ingredient_0669_S",
+    "image_medium": "Ingredient_0669_M",
+    "start_at": "2024-08-21T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 670,
+    "name": "ドライフラワー",
+    "rarity": 2,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 18,
+        "name": "火の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "全体回復ボーナス",
+        "category": "RECOVERY",
+        "description": "全体回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体回復が与えるHP回復量{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 5104003,
+        "quest_name": "１周年前夜祭ボスチャレンジ３",
+        "episode_id": 5104,
+        "episode_name": "１周年前夜祭ボスチャレンジ"
+      },
+      {
+        "quest_id": 5104004,
+        "quest_name": "１周年前夜祭ボスチャレンジ４",
+        "episode_id": 5104,
+        "episode_name": "１周年前夜祭ボスチャレンジ"
+      },
+      {
+        "quest_id": 5104005,
+        "quest_name": "１周年前夜祭ボスチャレンジ５",
+        "episode_id": 5104,
+        "episode_name": "１周年前夜祭ボスチャレンジ"
+      }
+    ],
+    "image_small": "Ingredient_0670_S",
+    "image_medium": "Ingredient_0670_M",
+    "start_at": "2024-08-21T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 671,
+    "name": "岩トカゲ",
+    "rarity": 3,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 41,
+        "name": "全体回復量上昇",
+        "category": "RECOVERY",
+        "description": "味方全員回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体回復が与えるHP回復量{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "ブレイク中ダメージ上昇",
+        "category": "ATTACK",
+        "description": "ブレイク中の敵へのダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "ブレイク中の敵へのダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 5104001,
+        "quest_name": "１周年前夜祭ボスチャレンジ１",
+        "episode_id": 5104,
+        "episode_name": "１周年前夜祭ボスチャレンジ"
+      },
+      {
+        "quest_id": 5104004,
+        "quest_name": "１周年前夜祭ボスチャレンジ４",
+        "episode_id": 5104,
+        "episode_name": "１周年前夜祭ボスチャレンジ"
+      },
+      {
+        "quest_id": 5104005,
+        "quest_name": "１周年前夜祭ボスチャレンジ５",
+        "episode_id": 5104,
+        "episode_name": "１周年前夜祭ボスチャレンジ"
+      }
+    ],
+    "image_small": "Ingredient_0671_S",
+    "image_medium": "Ingredient_0671_M",
+    "start_at": "2024-08-21T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 672,
+    "name": "ミカライト",
+    "rarity": 3,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 45,
+        "name": "ダメージバフ強化【A】",
+        "category": "ENHANCE",
+        "description": "アタッカーへ与えるダメージ強化の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000017,
+            "description": "アタッカーへのダメージバフ{0}%アップ",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "name": "全体攻撃耐性上昇",
+        "category": "ENHANCE",
+        "description": "全体攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000112,
+            "description": "全体攻撃で受けるダメージ{0}％ダウン",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 5104002,
+        "quest_name": "１周年前夜祭ボスチャレンジ２",
+        "episode_id": 5104,
+        "episode_name": "１周年前夜祭ボスチャレンジ"
+      },
+      {
+        "quest_id": 5104004,
+        "quest_name": "１周年前夜祭ボスチャレンジ４",
+        "episode_id": 5104,
+        "episode_name": "１周年前夜祭ボスチャレンジ"
+      },
+      {
+        "quest_id": 5104005,
+        "quest_name": "１周年前夜祭ボスチャレンジ５",
+        "episode_id": 5104,
+        "episode_name": "１周年前夜祭ボスチャレンジ"
+      }
+    ],
+    "image_small": "Ingredient_0672_S",
+    "image_medium": "Ingredient_0672_M",
+    "start_at": "2024-08-21T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 673,
+    "name": "傷心の花",
+    "rarity": 3,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 42,
+        "name": "魔法耐性上昇【D】",
+        "category": "ENHANCE",
+        "description": "ディフェンダーへの魔法攻撃のダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000034,
+            "description": "ディフェンダーの魔法属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 61,
+        "name": "バーストスキル威力上昇",
+        "category": "ATTACK",
+        "description": "バーストスキルのスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000165,
+            "description": "バーストスキル威力{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 5104003,
+        "quest_name": "１周年前夜祭ボスチャレンジ３",
+        "episode_id": 5104,
+        "episode_name": "１周年前夜祭ボスチャレンジ"
+      },
+      {
+        "quest_id": 5104004,
+        "quest_name": "１周年前夜祭ボスチャレンジ４",
+        "episode_id": 5104,
+        "episode_name": "１周年前夜祭ボスチャレンジ"
+      },
+      {
+        "quest_id": 5104005,
+        "quest_name": "１周年前夜祭ボスチャレンジ５",
+        "episode_id": 5104,
+        "episode_name": "１周年前夜祭ボスチャレンジ"
+      }
+    ],
+    "image_small": "Ingredient_0673_S",
+    "image_medium": "Ingredient_0673_M",
+    "start_at": "2024-08-21T03:00:00.000Z",
+    "end_at": null
   }
 ]

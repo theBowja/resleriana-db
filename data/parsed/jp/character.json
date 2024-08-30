@@ -15366,6 +15366,427 @@
     "start_at": "2024-07-10T03:00:00.000Z"
   },
   {
+    "id": 43106,
+    "name": "レスナ",
+    "title": "【Awakened Future】",
+    "full_name": "レスナ・シュテルネンリヒト",
+    "base_character": "レスナ",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "FIRE",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "この新たな力と共に――\nどんな困難にも打ち勝ってみせます！",
+    "profile": {
+      "voice_actor": "白砂沙帆",
+      "voice_text": "新たな力に目覚めた……そんな気分！\n皆さんのために役立ててみせます！",
+      "description": "新たな力を手に入れた錬金術士の少女。 \n錬金術を愛している彼女は、錬金術復興のため、マナが多く眠っているという「果ての大陸」を目指す。 \nどこか気品と輝きを感じさせるこの装いは、彼女の内に秘めたる力を目覚めさせる。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "黄",
+      "given": "赤"
+    },
+    "battle_item_trait": [
+      {
+        "id": 6,
+        "name": "火の祝福",
+        "category": "ATTACK",
+        "description": "火属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "火属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "火の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 12,
+        "name": "ブレイク中ダメージ上昇",
+        "category": "ATTACK",
+        "description": "ブレイク中の敵へのダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "ブレイク中の敵へのダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 141,
+        "spd": 240,
+        "patk": 53,
+        "matk": 71,
+        "pdef": 49,
+        "mdef": 51
+      },
+      "growth": {
+        "hp": 1410,
+        "spd": 0,
+        "patk": 530,
+        "matk": 710,
+        "pdef": 490,
+        "mdef": 510
+      },
+      "resistance": {
+        "fire": 5,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "ステラトワリング",
+      "description": "攻撃後、自身に「スキルダメージ+{0}%」を付与(上限60%)し、<br>自身に「素早さ+{1}%」と「魔攻+{2}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、自身のスキルダメージアップ<br>自身の素早さと魔攻アップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001375,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91001017,
+          "description": "素早さアップ(1回)",
+          "value": 500
+        },
+        {
+          "id": 91001020,
+          "description": "魔攻アップ(1回)",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [74, 78, 83, 87, 92],
+      "has_stun": true,
+      "stun_values": [7, 7, 7, 7, 8],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "アスパイアスター",
+      "description": "攻撃前に、対象に「火属性耐性-{0}%」を5回攻撃を受けるまで付与し、<br>攻撃後、自身に「魔攻+{1}%」を2回行動終了するまで付与",
+      "summary": "攻撃前、対象の火属性耐性ダウン<br>攻撃後、自身の魔攻アップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000911,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001376,
+          "description": "魔攻アップ(2回)",
+          "value": 4000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [242, 257, 272, 287, 302],
+      "has_stun": true,
+      "stun_values": [30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "ルミナスアウルム",
+      "description": "この攻撃の貫通力+{0}<br>WEAK攻撃時、ダメージ+{1}%<br>WEAK攻撃時、このスキル使用前にタイムラインに並んでいる、次の味方のパネル{2}つをバーストパネルに変換(空パネルの時は生成)",
+      "summary": "この攻撃の貫通力アップ<br>WEAK攻撃時、ダメージアップ<br>WEAK攻撃時、次の味方のパネルをバーストパネルに変換",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001337,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91000903,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001377,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [222, 222, 222, 235, 249, 263, 277],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "目覚める決意",
+      "description": "HP回復を受けた時、<br>やや高確率で自身に「火属性ダメージ+{0}%」を1回行動終了するまで付与",
+      "effects": [
+        {
+          "id": 72001116,
+          "description": "[自身/1回/火属性ダメージアップ/やや高確率]",
+          "value": 5000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "パネルアッププラスⅤ",
+      "description": "プラスパネルから受ける効果量+{0}%",
+      "effects": [
+        {
+          "id": 72001045,
+          "description": "state_change用",
+          "value": 5000
+        }
+      ]
+    },
+    "start_at": "2024-08-30T03:00:00.000Z"
+  },
+  {
+    "id": 43107,
+    "name": "レスナ",
+    "title": "【Awakened Future】",
+    "full_name": "レスナ・シュテルネンリヒト",
+    "base_character": "レスナ",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "FIRE",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "この新たな力と共に――\nどんな困難にも打ち勝ってみせます！",
+    "profile": {
+      "voice_actor": "白砂沙帆",
+      "voice_text": "新たな力に目覚めた……そんな気分！\n皆さんのために役立ててみせます！",
+      "description": "新たな力を手に入れた錬金術士の少女。 \n錬金術を愛している彼女は、錬金術復興のため、マナが多く眠っているという「果ての大陸」を目指す。 \nどこか気品と輝きを感じさせるこの装いは、彼女の内に秘めたる力を目覚めさせる。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "黄",
+      "given": "赤"
+    },
+    "battle_item_trait": [
+      {
+        "id": 6,
+        "name": "火の祝福",
+        "category": "ATTACK",
+        "description": "火属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "火属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "火の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 12,
+        "name": "ブレイク中ダメージ上昇",
+        "category": "ATTACK",
+        "description": "ブレイク中の敵へのダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "ブレイク中の敵へのダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 141,
+        "spd": 240,
+        "patk": 53,
+        "matk": 71,
+        "pdef": 49,
+        "mdef": 51
+      },
+      "growth": {
+        "hp": 1410,
+        "spd": 0,
+        "patk": 530,
+        "matk": 710,
+        "pdef": 490,
+        "mdef": 510
+      },
+      "resistance": {
+        "fire": 5,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "ステラシャワー",
+      "description": "攻撃後、自身に「スキルダメージ+{0}%」を付与(上限60%)し、<br>自身に「素早さ+{1}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、自身のスキルダメージアップ<br>自身の素早さアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001375,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91001017,
+          "description": "素早さアップ(1回)",
+          "value": 500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [74, 78, 83, 87, 92],
+      "has_stun": true,
+      "stun_values": [7, 7, 7, 7, 8],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "ステラクラフト",
+      "description": "攻撃前に、対象に「火属性耐性-{0}%」を3回攻撃を受けるまで付与<br>「ステラクラフト」はスキルランプを持ち、点灯数が2個の時、効果内容が変化する<br>スキルランプは最大2個点灯できる<br><br>スキルランプの点灯数が2個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が2個の時<br>攻撃前に変身する",
+      "summary": "攻撃前、対象の火属性耐性ダウン<br>スキルランプの点灯数が2個未満の時、攻撃後、スキルランプを1個点灯する<br>スキルランプの点灯数が2個の時、攻撃前に変身",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001300,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001369,
+          "description": "",
+          "value": 0
+        },
+        {
+          "id": 91001329,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [242, 257, 272, 287, 302],
+      "has_stun": true,
+      "stun_values": [30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "クイックミックス",
+      "description": "WEAK攻撃時、ダメージ+{0}%<br>WEAK攻撃時、このスキル使用前にタイムラインに並んでいる、次の味方のパネル{1}つをバーストパネルに変換(空パネルの時は生成)",
+      "summary": "WEAK攻撃時、ダメージアップ<br>WEAK攻撃時、次の味方のパネルをバーストパネルに変換",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91000903,
+          "description": "",
+          "value": 4000
+        },
+        {
+          "id": 91001377,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [222, 222, 222, 235, 249, 263, 277],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "目覚める決意",
+      "description": "HP回復を受けた時、<br>「ステラクラフト」のスキルランプを1個点灯する",
+      "effects": [
+        {
+          "id": 72001094,
+          "description": "[スキルランプ点灯]",
+          "value": 100
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "パネルアッププラスⅤ",
+      "description": "プラスパネルから受ける効果量+{0}%",
+      "effects": [
+        {
+          "id": 72001045,
+          "description": "state_change用",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2024-08-30T03:00:00.000Z"
+  },
+  {
     "id": 43201,
     "name": "ヴァレリア",
     "title": "【過去に夢を求めし者】",
@@ -18860,6 +19281,229 @@
       ]
     },
     "start_at": "2024-08-13T03:00:00.000Z"
+  },
+  {
+    "id": 44201,
+    "name": "ララ",
+    "title": "【Queen's Grace】",
+    "full_name": "ララ・トロッケル",
+    "base_character": "ララ",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "SLASH",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "このような道もまた一興――\nわたくしの物語に新たな章を加えましょう",
+    "profile": {
+      "voice_actor": "愛原ありさ",
+      "voice_text": "わたくしはララ・トロッケル。\n満たされぬ者の縁となる誇り高き王ですわ",
+      "description": "貴族のような出で立ちの錬金術士。 \nララ・キングダム建国という渇望のために錬金術を使用する彼女は、錬金術は人を幸せにするためのものと考えるレスナたちと対立していた。 \n皆を導く王としてふさわしくあるべく、己の外見は常に気品に満ちたものになるようこだわっている。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "青",
+      "given": "紫"
+    },
+    "battle_item_trait": [
+      {
+        "id": 2,
+        "name": "斬の祝福",
+        "category": "ATTACK",
+        "description": "斬属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000002,
+            "description": "斬属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "斬の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「斬属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000063,
+            "description": "対象に「斬属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 28,
+        "name": "全体攻撃威力上昇",
+        "category": "ATTACK",
+        "description": "全体攻撃のスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000110,
+            "description": "全体攻撃のスキル威力{0}％アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 165,
+        "spd": 221,
+        "patk": 69,
+        "matk": 52,
+        "pdef": 40,
+        "mdef": 47
+      },
+      "growth": {
+        "hp": 1650,
+        "spd": 0,
+        "patk": 690,
+        "matk": 520,
+        "pdef": 400,
+        "mdef": 470
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 5,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "王の戯れ",
+      "description": "攻撃後、自身に「スキルダメージ+{0}%」を1回行動終了するまで付与し、<br>対象に「受けるダメージ+{1}%」を1回攻撃を受けるまで付与",
+      "summary": "攻撃後、自身のスキルダメージアップ<br>対象の受けるダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001270,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91000901,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [92, 97, 103, 109, 115],
+      "has_stun": true,
+      "stun_values": [9, 9, 10, 10, 11],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "束縛の繭籠",
+      "description": "対象が状態異常時、ダメージ+{0}%し、<br>攻撃後、自身に「物攻+{1}%」を2回行動終了するまで付与<br>「束縛の繭籠」はスキルランプを持ち、点灯数が1個の時、効果内容が変化する<br>スキルランプは最大1個点灯できる<br><br>スキルランプの点灯数が1個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が1個の時、<br>攻撃後、対象のターンを{2}ターン遅らせ、<br>スキルランプを全て消灯する",
+      "summary": "対象が状態異常時、ダメージアップ<br>攻撃後、自身の物攻アップ<br>スキルランプの点灯数が1個未満の時、攻撃後、スキルランプを1個点灯する<br>スキルランプの点灯数が1個の時、攻撃後、対象のターンを1ターン遅らせ、スキルランプを全て消灯する",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000942,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001384,
+          "description": "物攻アップ(2回)",
+          "value": 500
+        },
+        {
+          "id": 91001381,
+          "description": "",
+          "value": 100
+        },
+        {
+          "id": 91001385,
+          "description": "",
+          "value": 100
+        },
+        {
+          "id": 91001386,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [269, 285, 302, 319, 336],
+      "has_stun": true,
+      "stun_values": [36, 38, 40, 42, 45],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "ジャッジメントローズドール",
+      "description": "攻撃後、対象に「王の威光」を1回行動終了するまで付与し、<br>対象に「受けるダメージ+{1}%」を2回攻撃を受けるまで付与<br>※王の威光はターン開始時に確率で行動不能",
+      "summary": "攻撃後、対象に「王の威光」を付与<br>対象の受けるダメージアップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001365,
+          "description": "",
+          "value": 4000
+        },
+        {
+          "id": 91000966,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "王の前にひれ伏しなさい！",
+      "description": "パーティの誰かが戦闘アイテム使用後、自身に「攻撃後、対象に麻痺を1回行動開始するまで超高確率で付与」を1回スキル発動するまで付与<br>※アイテムを複数同時に使用しても発動は1回",
+      "effects": [
+        {
+          "id": 72001107,
+          "description": "パーティの誰かが戦闘アイテム使用後、自身に「攻撃後、対象に麻痺を1回行動開始するまで超高確率で付与」を1回スキル発動するまで付与<br>※アイテムを複数同時に使用しても発動は1回",
+          "value": 2000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "施しはいかが？",
+      "description": "スキルで撃破時、味方全員のHPを{0}%回復し、自身に「物攻+{1}%」を付与(上限15%)",
+      "effects": [
+        {
+          "id": 72001117,
+          "description": "[味方全員/撃破時/HP回復]",
+          "value": 1500
+        },
+        {
+          "id": 72001118,
+          "description": "[自身/撃破時/物攻上昇(上限15%)]",
+          "value": 500
+        }
+      ]
+    },
+    "start_at": "2024-08-30T03:00:00.000Z"
   },
   {
     "id": 44301,

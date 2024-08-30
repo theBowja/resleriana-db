@@ -128,11 +128,11 @@
         "warning_text": ""
       }
     ],
-    "end_at": "2050-01-01T04:00:00.000Z",
+    "end_at": "2024-09-13T03:00:00.000Z",
     "episode_categories": [2, 3, 4, 5, 7, 8, 12, 13, 11],
     "event_id": null,
     "id": 12,
-    "start_at": "2049-12-31T16:00:00.000Z"
+    "start_at": "2024-09-02T03:00:00.000Z"
   },
   {
     "bonuses": [
@@ -160,5 +160,59 @@
     "event_id": null,
     "id": 13,
     "start_at": "2049-12-31T16:00:00.000Z"
+  },
+  {
+    "bonuses": [
+      {
+        "effects": [
+          {
+            "item_ids": [588],
+            "limit": null,
+            "targets": [
+              {
+                "character_scope_ids": [14],
+                "memoria_scope_ids": [],
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "name": "挑战券加量奖励",
+        "type": 3,
+        "warning_text": ""
+      }
+    ],
+    "end_at": "2050-01-01T04:00:00.000Z",
+    "episode_categories": [2, 3, 4, 5, 7, 8, 12, 13, 11],
+    "event_id": null,
+    "id": 14,
+    "start_at": "2049-12-31T16:00:00.000Z"
+  },
+  {
+    "bonuses": [
+      {
+        "effects": [
+          {
+            "item_ids": [187],
+            "limit": null,
+            "targets": [
+              {
+                "character_scope_ids": [5],
+                "memoria_scope_ids": [],
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "name": "挑战券加量奖励",
+        "type": 3,
+        "warning_text": ""
+      }
+    ],
+    "end_at": "2024-09-15T03:00:00.000Z",
+    "episode_categories": [2, 3, 4, 5, 7, 8, 12, 13],
+    "event_id": 4,
+    "id": 1000000001,
+    "start_at": "2024-09-06T03:00:00.000Z"
   }
 ]

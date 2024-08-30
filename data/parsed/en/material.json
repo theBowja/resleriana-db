@@ -10042,6 +10042,234 @@
     "end_at": null
   },
   {
+    "id": 189,
+    "name": "Halloween Pumpkin",
+    "rarity": 2,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 49,
+        "name": "Enhanced P./M. Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts potency of Received Physical Damage Down and Received Magic Damage Down applied by {0}%.",
+        "effects": [
+          {
+            "id": 3000028,
+            "description": "Boosts potency of Received Physical Damage Down and Received Magic Damage Down applied by {0}%.",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Magic Damage Boost [Full]",
+        "category": "ATTACK",
+        "description": "Boosts magic damage by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000100,
+            "description": "Boosts dealt magic damage by {0}% when at full HP.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 4,
+      "name": "Showdown! Halloween Puni"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 404001,
+        "quest_name": "Showdown! Halloween Puni 1",
+        "episode_id": 404,
+        "episode_name": "Showdown! Halloween Puni"
+      },
+      {
+        "quest_id": 404002,
+        "quest_name": "Showdown! Halloween Puni 2",
+        "episode_id": 404,
+        "episode_name": "Showdown! Halloween Puni"
+      },
+      {
+        "quest_id": 404003,
+        "quest_name": "Showdown! Halloween Puni 3",
+        "episode_id": 404,
+        "episode_name": "Showdown! Halloween Puni"
+      },
+      {
+        "quest_id": 404004,
+        "quest_name": "Showdown! Halloween Puni 4",
+        "episode_id": 404,
+        "episode_name": "Showdown! Halloween Puni"
+      },
+      {
+        "quest_id": 404005,
+        "quest_name": "Showdown! Halloween Puni 5",
+        "episode_id": 404,
+        "episode_name": "Showdown! Halloween Puni"
+      },
+      {
+        "quest_id": 404006,
+        "quest_name": "Showdown! Halloween Puni 6",
+        "episode_id": 404,
+        "episode_name": "Showdown! Halloween Puni"
+      },
+      {
+        "quest_id": 404007,
+        "quest_name": "Showdown! Halloween Puni 7",
+        "episode_id": 404,
+        "episode_name": "Showdown! Halloween Puni"
+      },
+      {
+        "quest_id": 404008,
+        "quest_name": "Showdown! Halloween Puni 8",
+        "episode_id": 404,
+        "episode_name": "Showdown! Halloween Puni"
+      },
+      {
+        "quest_id": 404009,
+        "quest_name": "Showdown! Halloween Puni 9",
+        "episode_id": 404,
+        "episode_name": "Showdown! Halloween Puni"
+      },
+      {
+        "quest_id": 404010,
+        "quest_name": "Showdown! Halloween Puni 10",
+        "episode_id": 404,
+        "episode_name": "Showdown! Halloween Puni"
+      }
+    ],
+    "image_small": "Ingredient_0189_S",
+    "image_medium": "Ingredient_0189_M",
+    "start_at": "2024-09-06T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 190,
+    "name": "Halloween Tree",
+    "rarity": 3,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 34,
+        "name": "Resistance vs. Puni",
+        "category": "ENHANCE",
+        "description": "Reduces damage received by target from Puni enemies by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000089,
+            "description": "Reduces damage received by target from Puni enemies by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "Ample Healing",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given by {0}%.",
+        "effects": [
+          {
+            "id": 3000075,
+            "description": "Boosts HP recovery given by {0}%.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 4,
+      "name": "Showdown! Halloween Puni"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 404008,
+        "quest_name": "Showdown! Halloween Puni 8",
+        "episode_id": 404,
+        "episode_name": "Showdown! Halloween Puni"
+      },
+      {
+        "quest_id": 404010,
+        "quest_name": "Showdown! Halloween Puni 10",
+        "episode_id": 404,
+        "episode_name": "Showdown! Halloween Puni"
+      }
+    ],
+    "image_small": "Ingredient_0190_S",
+    "image_medium": "Ingredient_0190_M",
+    "start_at": "2024-09-06T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 191,
+    "name": "Halloween Bug",
+    "rarity": 3,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 29,
+        "name": "Puni Slayer",
+        "category": "ATTACK",
+        "description": "Boosts damage to Puni enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000079,
+            "description": "Boosts damage to Puni enemies by {0}%.",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Slash Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Slash resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000063,
+            "description": "Reduces target's Slash resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 4,
+      "name": "Showdown! Halloween Puni"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 404009,
+        "quest_name": "Showdown! Halloween Puni 9",
+        "episode_id": 404,
+        "episode_name": "Showdown! Halloween Puni"
+      },
+      {
+        "quest_id": 404010,
+        "quest_name": "Showdown! Halloween Puni 10",
+        "episode_id": 404,
+        "episode_name": "Showdown! Halloween Puni"
+      }
+    ],
+    "image_small": "Ingredient_0191_S",
+    "image_medium": "Ingredient_0191_M",
+    "start_at": "2024-09-06T03:00:00.000Z",
+    "end_at": null
+  },
+  {
     "id": 199,
     "name": "Red Obsidian Ore",
     "rarity": 1,
@@ -12261,14 +12489,20 @@
         "episode_name": "Lydie & Suelle's Everyday Lives ~A Shared Canvas of Memories~"
       },
       {
-        "quest_id": 503007,
-        "quest_name": "Lydie & Suelle's Everyday Lives 7",
+        "quest_id": 503005,
+        "quest_name": "Lydie & Suelle's Everyday Lives 5",
         "episode_id": 503,
         "episode_name": "Lydie & Suelle's Everyday Lives ~A Shared Canvas of Memories~"
       },
       {
-        "quest_id": 503010,
-        "quest_name": "Lydie & Suelle's Everyday Lives 10",
+        "quest_id": 503008,
+        "quest_name": "Lydie & Suelle's Everyday Lives 8",
+        "episode_id": 503,
+        "episode_name": "Lydie & Suelle's Everyday Lives ~A Shared Canvas of Memories~"
+      },
+      {
+        "quest_id": 503009,
+        "quest_name": "Lydie & Suelle's Everyday Lives 9",
         "episode_id": 503,
         "episode_name": "Lydie & Suelle's Everyday Lives ~A Shared Canvas of Memories~"
       }
@@ -12327,8 +12561,14 @@
         "episode_name": "Lydie & Suelle's Everyday Lives ~A Shared Canvas of Memories~"
       },
       {
-        "quest_id": 503005,
-        "quest_name": "Lydie & Suelle's Everyday Lives 5",
+        "quest_id": 503004,
+        "quest_name": "Lydie & Suelle's Everyday Lives 4",
+        "episode_id": 503,
+        "episode_name": "Lydie & Suelle's Everyday Lives ~A Shared Canvas of Memories~"
+      },
+      {
+        "quest_id": 503006,
+        "quest_name": "Lydie & Suelle's Everyday Lives 6",
         "episode_id": 503,
         "episode_name": "Lydie & Suelle's Everyday Lives ~A Shared Canvas of Memories~"
       },
@@ -12399,20 +12639,20 @@
         "episode_name": "Lydie & Suelle's Everyday Lives ~A Shared Canvas of Memories~"
       },
       {
-        "quest_id": 503006,
-        "quest_name": "Lydie & Suelle's Everyday Lives 6",
+        "quest_id": 503004,
+        "quest_name": "Lydie & Suelle's Everyday Lives 4",
         "episode_id": 503,
         "episode_name": "Lydie & Suelle's Everyday Lives ~A Shared Canvas of Memories~"
       },
       {
-        "quest_id": 503009,
-        "quest_name": "Lydie & Suelle's Everyday Lives 9",
+        "quest_id": 503007,
+        "quest_name": "Lydie & Suelle's Everyday Lives 7",
         "episode_id": 503,
         "episode_name": "Lydie & Suelle's Everyday Lives ~A Shared Canvas of Memories~"
       },
       {
-        "quest_id": 503010,
-        "quest_name": "Lydie & Suelle's Everyday Lives 10",
+        "quest_id": 503008,
+        "quest_name": "Lydie & Suelle's Everyday Lives 8",
         "episode_id": 503,
         "episode_name": "Lydie & Suelle's Everyday Lives ~A Shared Canvas of Memories~"
       }
@@ -12465,14 +12705,8 @@
     "available_from": "SCORE_BATTLES",
     "source_locations": [
       {
-        "quest_id": 503007,
-        "quest_name": "Lydie & Suelle's Everyday Lives 7",
-        "episode_id": 503,
-        "episode_name": "Lydie & Suelle's Everyday Lives ~A Shared Canvas of Memories~"
-      },
-      {
-        "quest_id": 503010,
-        "quest_name": "Lydie & Suelle's Everyday Lives 10",
+        "quest_id": 503009,
+        "quest_name": "Lydie & Suelle's Everyday Lives 9",
         "episode_id": 503,
         "episode_name": "Lydie & Suelle's Everyday Lives ~A Shared Canvas of Memories~"
       }
@@ -12524,12 +12758,6 @@
     },
     "available_from": "SCORE_BATTLES",
     "source_locations": [
-      {
-        "quest_id": 503008,
-        "quest_name": "Lydie & Suelle's Everyday Lives 8",
-        "episode_id": 503,
-        "episode_name": "Lydie & Suelle's Everyday Lives ~A Shared Canvas of Memories~"
-      },
       {
         "quest_id": 503010,
         "quest_name": "Lydie & Suelle's Everyday Lives 10",
@@ -12583,20 +12811,7 @@
       "name": "Lydie & Suelle's Everyday Lives ~A Shared Canvas of Memories~"
     },
     "available_from": "SCORE_BATTLES",
-    "source_locations": [
-      {
-        "quest_id": 503009,
-        "quest_name": "Lydie & Suelle's Everyday Lives 9",
-        "episode_id": 503,
-        "episode_name": "Lydie & Suelle's Everyday Lives ~A Shared Canvas of Memories~"
-      },
-      {
-        "quest_id": 503010,
-        "quest_name": "Lydie & Suelle's Everyday Lives 10",
-        "episode_id": 503,
-        "episode_name": "Lydie & Suelle's Everyday Lives ~A Shared Canvas of Memories~"
-      }
-    ],
+    "source_locations": [],
     "image_small": "Ingredient_0236_S",
     "image_medium": "Ingredient_0236_M",
     "start_at": "2024-03-15T03:00:00.000Z",
@@ -15947,6 +16162,12 @@
         "quest_name": "Marie's Fortune Frenzy! 10",
         "episode_id": 904,
         "episode_name": "Marie's Fortune Frenzy!"
+      },
+      {
+        "quest_id": 4304100,
+        "quest_name": "夜空に笑顔が咲いた夏１",
+        "episode_id": 4304,
+        "episode_name": "海の家"
       }
     ],
     "image_small": "Ingredient_0299_S",
@@ -29908,7 +30129,7 @@
     ],
     "image_small": "Ingredient_0545_S",
     "image_medium": "Ingredient_0545_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-09-02T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -29980,7 +30201,7 @@
     ],
     "image_small": "Ingredient_0546_S",
     "image_medium": "Ingredient_0546_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-09-02T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -30052,7 +30273,7 @@
     ],
     "image_small": "Ingredient_0547_S",
     "image_medium": "Ingredient_0547_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-09-02T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -30112,7 +30333,7 @@
     ],
     "image_small": "Ingredient_0548_S",
     "image_medium": "Ingredient_0548_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-09-02T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -30172,7 +30393,7 @@
     ],
     "image_small": "Ingredient_0549_S",
     "image_medium": "Ingredient_0549_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-09-02T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -30232,7 +30453,7 @@
     ],
     "image_small": "Ingredient_0550_S",
     "image_medium": "Ingredient_0550_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-09-02T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -32594,6 +32815,3132 @@
     ],
     "image_small": "Ingredient_0584_S",
     "image_medium": "Ingredient_0584_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 589,
+    "name": "Taro",
+    "rarity": 2,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 6,
+        "name": "Fire Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Fire damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "Boosts Fire damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Fire Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000066,
+            "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 41,
+      "name": "Incident Alert! Dash Out of the Office!"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 410301,
+        "quest_name": "Incident Alert! Dash Out of the Office! 1",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      },
+      {
+        "quest_id": 410304,
+        "quest_name": "Incident Alert! Dash Out of the Office! 4",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      },
+      {
+        "quest_id": 410305,
+        "quest_name": "Incident Alert! Dash Out of the Office! 5",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      },
+      {
+        "quest_id": 410308,
+        "quest_name": "Incident Alert! Dash Out of the Office! 8",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      },
+      {
+        "quest_id": 410309,
+        "quest_name": "Incident Alert! Dash Out of the Office! 9",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      },
+      {
+        "quest_id": 410312,
+        "quest_name": "Incident Alert! Dash Out of the Office! 12",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      }
+    ],
+    "image_small": "Ingredient_0589_S",
+    "image_medium": "Ingredient_0589_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 590,
+    "name": "Pale Clay",
+    "rarity": 2,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 35,
+        "name": "Magic Resistance Up [Full]",
+        "category": "ENHANCE",
+        "description": "Reduces magic damage received by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000104,
+            "description": "Boosts magic damage resistance by {0}% when at full HP.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "name": "Reduced Spirit Damage",
+        "category": "ENHANCE",
+        "description": "Reduces damage from Spirit enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000087,
+            "description": "Reduces damage received by target from Spirit enemies by {0}%. (1 turn)",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 41,
+      "name": "Incident Alert! Dash Out of the Office!"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 410302,
+        "quest_name": "Incident Alert! Dash Out of the Office! 2",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      },
+      {
+        "quest_id": 410304,
+        "quest_name": "Incident Alert! Dash Out of the Office! 4",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      },
+      {
+        "quest_id": 410306,
+        "quest_name": "Incident Alert! Dash Out of the Office! 6",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      },
+      {
+        "quest_id": 410308,
+        "quest_name": "Incident Alert! Dash Out of the Office! 8",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      },
+      {
+        "quest_id": 410310,
+        "quest_name": "Incident Alert! Dash Out of the Office! 10",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      },
+      {
+        "quest_id": 410312,
+        "quest_name": "Incident Alert! Dash Out of the Office! 12",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      }
+    ],
+    "image_small": "Ingredient_0590_S",
+    "image_medium": "Ingredient_0590_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 591,
+    "name": "Fluorite",
+    "rarity": 2,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 46,
+        "name": "All Recovery Bonus",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "Boosts HP recovery given to all allies by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Fire Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 41,
+      "name": "Incident Alert! Dash Out of the Office!"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 410303,
+        "quest_name": "Incident Alert! Dash Out of the Office! 3",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      },
+      {
+        "quest_id": 410304,
+        "quest_name": "Incident Alert! Dash Out of the Office! 4",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      },
+      {
+        "quest_id": 410307,
+        "quest_name": "Incident Alert! Dash Out of the Office! 7",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      },
+      {
+        "quest_id": 410308,
+        "quest_name": "Incident Alert! Dash Out of the Office! 8",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      },
+      {
+        "quest_id": 410311,
+        "quest_name": "Incident Alert! Dash Out of the Office! 11",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      },
+      {
+        "quest_id": 410312,
+        "quest_name": "Incident Alert! Dash Out of the Office! 12",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      }
+    ],
+    "image_small": "Ingredient_0591_S",
+    "image_medium": "Ingredient_0591_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 592,
+    "name": "Living Clay",
+    "rarity": 3,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 60,
+        "name": "Critical Damage Up",
+        "category": "ATTACK",
+        "description": "Boosts critical damage by {0}%.",
+        "effects": [
+          {
+            "id": 13000011,
+            "description": "CRT Damage Up",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Magic Damage Boost [Resolve]",
+        "category": "ATTACK",
+        "description": "Boosts magic damage by {0}% when HP is 50% or lower.",
+        "effects": [
+          {
+            "id": 3000099,
+            "description": "Boosts dealt magic damage by {0}% when HP is 50% or lower.",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 41,
+      "name": "Incident Alert! Dash Out of the Office!"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 410309,
+        "quest_name": "Incident Alert! Dash Out of the Office! 9",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      },
+      {
+        "quest_id": 410312,
+        "quest_name": "Incident Alert! Dash Out of the Office! 12",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      }
+    ],
+    "image_small": "Ingredient_0592_S",
+    "image_medium": "Ingredient_0592_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 593,
+    "name": "Honey Poppy",
+    "rarity": 3,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 18,
+        "name": "Fire Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "Critical Finish",
+        "category": "ENHANCE",
+        "description": "Boosts critical rate by {0}% for 1 turn.",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "Boosts critical rate by {0}% for 1 turn.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 41,
+      "name": "Incident Alert! Dash Out of the Office!"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 410310,
+        "quest_name": "Incident Alert! Dash Out of the Office! 10",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      },
+      {
+        "quest_id": 410312,
+        "quest_name": "Incident Alert! Dash Out of the Office! 12",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      }
+    ],
+    "image_small": "Ingredient_0593_S",
+    "image_medium": "Ingredient_0593_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 594,
+    "name": "Scorching Ore",
+    "rarity": 3,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 45,
+        "name": "Enhanced Damage Buff [A]",
+        "category": "ENHANCE",
+        "description": "Boosts potency of damage buffs given to Attackers by {0}%.",
+        "effects": [
+          {
+            "id": 3000017,
+            "description": "Boosts effects of damage buffs to Attackers by {0}%.",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Magic Damage Boost [Full]",
+        "category": "ATTACK",
+        "description": "Boosts magic damage by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000100,
+            "description": "Boosts dealt magic damage by {0}% when at full HP.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 41,
+      "name": "Incident Alert! Dash Out of the Office!"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 410311,
+        "quest_name": "Incident Alert! Dash Out of the Office! 11",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      },
+      {
+        "quest_id": 410312,
+        "quest_name": "Incident Alert! Dash Out of the Office! 12",
+        "episode_id": 4103,
+        "episode_name": "Incident Alert! Dash Out of the Office!"
+      }
+    ],
+    "image_small": "Ingredient_0594_S",
+    "image_medium": "Ingredient_0594_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 597,
+    "name": "Silver Web",
+    "rarity": 2,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 42,
+        "name": "Magic Resistance Up [D]",
+        "category": "ENHANCE",
+        "description": "Reduces magic damage to Defenders by {0}%.",
+        "effects": [
+          {
+            "id": 3000034,
+            "description": "Boosts effects of magic damage resistance to Defenders by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "All Recovery Boost",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "Boosts HP recovery given to all allies by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204114001,
+        "quest_name": "Peek into the Big Hole [Blue]",
+        "difficulty": "NORMAL",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204114005,
+        "quest_name": "Peek into the Big Hole [Blue]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0597_S",
+    "image_medium": "Ingredient_0597_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 598,
+    "name": "Crispy Mushroom",
+    "rarity": 2,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 7,
+        "name": "Ice Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Ice skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "Boosts Ice damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Physical Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from physical attacks by {0}%.",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "Boosts physical damage resistance by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204114002,
+        "quest_name": "Guard Dog Hunt [Green]",
+        "difficulty": "NORMAL",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204114006,
+        "quest_name": "Guard Dog Hunt [Green]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0598_S",
+    "image_medium": "Ingredient_0598_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 599,
+    "name": "Soil Potato",
+    "rarity": 2,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 33,
+        "name": "Magic Damage Boost [Full]",
+        "category": "ATTACK",
+        "description": "Boosts magic damage by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000100,
+            "description": "Boosts dealt magic damage by {0}% when at full HP.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Slash Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Slash resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000020,
+            "description": "Boosts Slash damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204114003,
+        "quest_name": "Clash of Passions [Yellow]",
+        "difficulty": "NORMAL",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204114007,
+        "quest_name": "Clash of Passions [Yellow]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0599_S",
+    "image_medium": "Ingredient_0599_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 600,
+    "name": "Sponge Fruit",
+    "rarity": 2,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 9,
+        "name": "Bolt Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Bolt damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "Boosts Bolt damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Magic Curse",
+        "category": "WEAKENING",
+        "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204114004,
+        "quest_name": "Illuminate the Shadows [Red/Purple]",
+        "difficulty": "NORMAL",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204114008,
+        "quest_name": "Illuminate the Shadows [Red/Purple]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0600_S",
+    "image_medium": "Ingredient_0600_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 601,
+    "name": "Gold Steel Web",
+    "rarity": 3,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 17,
+        "name": "Stun Damage Boost [Full]",
+        "category": "ATTACK",
+        "description": "Boosts stun damage by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000016,
+            "description": "Boosts stun damage by {0}% when at full HP.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Strike Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Strike resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000021,
+            "description": "Boosts Strike damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204114005,
+        "quest_name": "Peek into the Big Hole [Blue]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0601_S",
+    "image_medium": "Ingredient_0601_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 602,
+    "name": "Altare",
+    "rarity": 3,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 15,
+        "name": "Magic Stun Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts magic stun damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000014,
+            "description": "Boosts magic stun damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "name": "Enhanced P./M. Resistance Down",
+        "category": "WEAKENING",
+        "description": "Boosts potency of Received Physical Damage Up and Received Magic Damage Up applied by {0}%.",
+        "effects": [
+          {
+            "id": 3000030,
+            "description": "Boosts potency of Received Physical Damage Up and Received Magic Damage Up applied by {0}%.",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204114006,
+        "quest_name": "Guard Dog Hunt [Green]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0602_S",
+    "image_medium": "Ingredient_0602_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 603,
+    "name": "Dream Mushroom",
+    "rarity": 3,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 34,
+        "name": "All Resistances Up [Resolve]",
+        "category": "ENHANCE",
+        "description": "Reduces damage taken by {0}% when HP is 50% or lower.",
+        "effects": [
+          {
+            "id": 3000103,
+            "description": "Boosts damage resistance by {0}% when HP is 50% or lower.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "name": "Received Recovery Up",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery received by {0}%.",
+        "effects": [
+          {
+            "id": 13000002,
+            "description": "Boosts recovery received.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204114007,
+        "quest_name": "Clash of Passions [Yellow]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0603_S",
+    "image_medium": "Ingredient_0603_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 604,
+    "name": "Brillianfru",
+    "rarity": 3,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 27,
+        "name": "Single Attack Power Up",
+        "category": "ATTACK",
+        "description": "Boosts single-target skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000111,
+            "description": "Boosts skill power of single-target attacks by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Bolt Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Bolt resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000024,
+            "description": "Boosts Bolt damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204114008,
+        "quest_name": "Illuminate the Shadows [Red/Purple]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0604_S",
+    "image_medium": "Ingredient_0604_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 605,
+    "name": "Riverstone",
+    "rarity": 2,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 22,
+        "name": "Slash Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Slash resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000070,
+            "description": "Boosts target's Slash resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "Enhanced Last Recovery",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery by {0}% on final use.",
+        "effects": [
+          {
+            "id": 3000109,
+            "description": "Boosts HP recovery by {0}% on final use.",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204230001,
+        "quest_name": "Bottomless Pit [Risk 1]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230002,
+        "quest_name": "Bottomless Pit [Risk 2]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230003,
+        "quest_name": "Bottomless Pit [Risk 3]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230004,
+        "quest_name": "Bottomless Pit [Risk 4]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230005,
+        "quest_name": "Bottomless Pit [Risk 5]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230006,
+        "quest_name": "Bottomless Pit [Risk 6]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230007,
+        "quest_name": "Bottomless Pit [Risk 7]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230008,
+        "quest_name": "Bottomless Pit [Risk 8]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230009,
+        "quest_name": "Bottomless Pit [Risk 9]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204231001,
+        "quest_name": "Spiral into Another World [Risk 1]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231002,
+        "quest_name": "Spiral into Another World [Risk 2]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231003,
+        "quest_name": "Spiral into Another World [Risk 3]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231004,
+        "quest_name": "Spiral into Another World [Risk 4]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231005,
+        "quest_name": "Spiral into Another World [Risk 5]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231006,
+        "quest_name": "Spiral into Another World [Risk 6]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231007,
+        "quest_name": "Spiral into Another World [Risk 7]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231008,
+        "quest_name": "Spiral into Another World [Risk 8]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231009,
+        "quest_name": "Spiral into Another World [Risk 9]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      }
+    ],
+    "image_small": "Ingredient_0605_S",
+    "image_medium": "Ingredient_0605_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 606,
+    "name": "Glacial Rock",
+    "rarity": 3,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 5,
+        "name": "Stab Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Stab skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "Boosts Stab damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "name": "Recovery Boost",
+        "category": "RECOVERY",
+        "description": "Boosts recovery given by {0}%.",
+        "effects": [
+          {
+            "id": 3000031,
+            "description": "Boosts recovery given by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204230001,
+        "quest_name": "Bottomless Pit [Risk 1]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230002,
+        "quest_name": "Bottomless Pit [Risk 2]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230003,
+        "quest_name": "Bottomless Pit [Risk 3]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230004,
+        "quest_name": "Bottomless Pit [Risk 4]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230005,
+        "quest_name": "Bottomless Pit [Risk 5]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230006,
+        "quest_name": "Bottomless Pit [Risk 6]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230007,
+        "quest_name": "Bottomless Pit [Risk 7]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230008,
+        "quest_name": "Bottomless Pit [Risk 8]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230009,
+        "quest_name": "Bottomless Pit [Risk 9]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      }
+    ],
+    "image_small": "Ingredient_0606_S",
+    "image_medium": "Ingredient_0606_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 607,
+    "name": "Blue Flame Riverstone",
+    "rarity": 3,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 61,
+        "name": "Burst Skill Power Up",
+        "category": "ATTACK",
+        "description": "Boosts burst skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000165,
+            "description": "Boosts burst skill power by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Ice Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Ice resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000023,
+            "description": "Boosts Ice damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204230005,
+        "quest_name": "Bottomless Pit [Risk 5]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230006,
+        "quest_name": "Bottomless Pit [Risk 6]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230007,
+        "quest_name": "Bottomless Pit [Risk 7]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230008,
+        "quest_name": "Bottomless Pit [Risk 8]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230009,
+        "quest_name": "Bottomless Pit [Risk 9]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      }
+    ],
+    "image_small": "Ingredient_0607_S",
+    "image_medium": "Ingredient_0607_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 608,
+    "name": "Marbled Stone",
+    "rarity": 3,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 23,
+        "name": "Air Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Air resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000025,
+            "description": "Boosts Air damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "Recovery Boost [D]",
+        "category": "RECOVERY",
+        "description": "Boosts recovery given to Defenders by {0}%.",
+        "effects": [
+          {
+            "id": 3000076,
+            "description": "Boosts recovery for Defenders by {0}%.",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204231001,
+        "quest_name": "Spiral into Another World [Risk 1]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231002,
+        "quest_name": "Spiral into Another World [Risk 2]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231003,
+        "quest_name": "Spiral into Another World [Risk 3]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231004,
+        "quest_name": "Spiral into Another World [Risk 4]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231005,
+        "quest_name": "Spiral into Another World [Risk 5]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231006,
+        "quest_name": "Spiral into Another World [Risk 6]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231007,
+        "quest_name": "Spiral into Another World [Risk 7]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231008,
+        "quest_name": "Spiral into Another World [Risk 8]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231009,
+        "quest_name": "Spiral into Another World [Risk 9]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      }
+    ],
+    "image_small": "Ingredient_0608_S",
+    "image_medium": "Ingredient_0608_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 609,
+    "name": "Mutastone Fragment",
+    "rarity": 3,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 49,
+        "name": "Chaser Charge",
+        "category": "ATTACK",
+        "description": "Boosts damage to stunned enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "Boosts damage to stunned enemies by {0}%.",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "Beast Weakness Radar",
+        "category": "WEAKENING",
+        "description": "Boosts damage to Beast enemies by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000095,
+            "description": "Boosts damage to Beast enemies by {0}% for 1 attack.",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204231005,
+        "quest_name": "Spiral into Another World [Risk 5]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231006,
+        "quest_name": "Spiral into Another World [Risk 6]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231007,
+        "quest_name": "Spiral into Another World [Risk 7]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231008,
+        "quest_name": "Spiral into Another World [Risk 8]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231009,
+        "quest_name": "Spiral into Another World [Risk 9]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      }
+    ],
+    "image_small": "Ingredient_0609_S",
+    "image_medium": "Ingredient_0609_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 610,
+    "name": "Serene Stump",
+    "rarity": 2,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 10,
+        "name": "Physical Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts physical skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000008,
+            "description": "Boosts physical attack damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Stab Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Stab resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000019,
+            "description": "Boosts Stab damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204230001,
+        "quest_name": "Bottomless Pit [Risk 1]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230002,
+        "quest_name": "Bottomless Pit [Risk 2]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230003,
+        "quest_name": "Bottomless Pit [Risk 3]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230004,
+        "quest_name": "Bottomless Pit [Risk 4]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230005,
+        "quest_name": "Bottomless Pit [Risk 5]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230006,
+        "quest_name": "Bottomless Pit [Risk 6]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230007,
+        "quest_name": "Bottomless Pit [Risk 7]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230008,
+        "quest_name": "Bottomless Pit [Risk 8]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230009,
+        "quest_name": "Bottomless Pit [Risk 9]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204231001,
+        "quest_name": "Spiral into Another World [Risk 1]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231002,
+        "quest_name": "Spiral into Another World [Risk 2]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231003,
+        "quest_name": "Spiral into Another World [Risk 3]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231004,
+        "quest_name": "Spiral into Another World [Risk 4]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231005,
+        "quest_name": "Spiral into Another World [Risk 5]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231006,
+        "quest_name": "Spiral into Another World [Risk 6]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231007,
+        "quest_name": "Spiral into Another World [Risk 7]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231008,
+        "quest_name": "Spiral into Another World [Risk 8]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231009,
+        "quest_name": "Spiral into Another World [Risk 9]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      }
+    ],
+    "image_small": "Ingredient_0610_S",
+    "image_medium": "Ingredient_0610_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 611,
+    "name": "Withered Arbor Twig",
+    "rarity": 3,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 16,
+        "name": "Stun Damage Boost [Resolve]",
+        "category": "ATTACK",
+        "description": "Boosts stun damage by {0}% when HP is 50% or lower.",
+        "effects": [
+          {
+            "id": 3000015,
+            "description": "Boosts stun damage by {0}% when HP is 50% or lower.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Strike Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Strike resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000021,
+            "description": "Boosts Strike damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204230001,
+        "quest_name": "Bottomless Pit [Risk 1]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230002,
+        "quest_name": "Bottomless Pit [Risk 2]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230003,
+        "quest_name": "Bottomless Pit [Risk 3]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230004,
+        "quest_name": "Bottomless Pit [Risk 4]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230005,
+        "quest_name": "Bottomless Pit [Risk 5]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230006,
+        "quest_name": "Bottomless Pit [Risk 6]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230007,
+        "quest_name": "Bottomless Pit [Risk 7]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230008,
+        "quest_name": "Bottomless Pit [Risk 8]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230009,
+        "quest_name": "Bottomless Pit [Risk 9]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      }
+    ],
+    "image_small": "Ingredient_0611_S",
+    "image_medium": "Ingredient_0611_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 612,
+    "name": "Tranquil Stump",
+    "rarity": 3,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "Skill Power Up",
+        "category": "ATTACK",
+        "description": "Boosts skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "Boosts skill power by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "Enhanced P./M. Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts potency of Received Physical Damage Down and Received Magic Damage Down applied by {0}%.",
+        "effects": [
+          {
+            "id": 3000028,
+            "description": "Boosts potency of Received Physical Damage Down and Received Magic Damage Down applied by {0}%.",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204230005,
+        "quest_name": "Bottomless Pit [Risk 5]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230006,
+        "quest_name": "Bottomless Pit [Risk 6]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230007,
+        "quest_name": "Bottomless Pit [Risk 7]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230008,
+        "quest_name": "Bottomless Pit [Risk 8]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230009,
+        "quest_name": "Bottomless Pit [Risk 9]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      }
+    ],
+    "image_small": "Ingredient_0612_S",
+    "image_medium": "Ingredient_0612_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 613,
+    "name": "Ancient Root",
+    "rarity": 3,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 7,
+        "name": "Ice Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Ice skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "Boosts Ice damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Fire Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Fire resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000022,
+            "description": "Boosts Fire damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204231001,
+        "quest_name": "Spiral into Another World [Risk 1]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231002,
+        "quest_name": "Spiral into Another World [Risk 2]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231003,
+        "quest_name": "Spiral into Another World [Risk 3]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231004,
+        "quest_name": "Spiral into Another World [Risk 4]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231005,
+        "quest_name": "Spiral into Another World [Risk 5]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231006,
+        "quest_name": "Spiral into Another World [Risk 6]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231007,
+        "quest_name": "Spiral into Another World [Risk 7]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231008,
+        "quest_name": "Spiral into Another World [Risk 8]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231009,
+        "quest_name": "Spiral into Another World [Risk 9]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      }
+    ],
+    "image_small": "Ingredient_0613_S",
+    "image_medium": "Ingredient_0613_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 614,
+    "name": "Cursed Lumber",
+    "rarity": 3,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 19,
+        "name": "Ice Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000060,
+            "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "Single Recovery Bonus",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to a single ally by {0}%.",
+        "effects": [
+          {
+            "id": 3000073,
+            "description": "Boosts HP recovery given to a single ally by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204231005,
+        "quest_name": "Spiral into Another World [Risk 5]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231006,
+        "quest_name": "Spiral into Another World [Risk 6]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231007,
+        "quest_name": "Spiral into Another World [Risk 7]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231008,
+        "quest_name": "Spiral into Another World [Risk 8]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231009,
+        "quest_name": "Spiral into Another World [Risk 9]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      }
+    ],
+    "image_small": "Ingredient_0614_S",
+    "image_medium": "Ingredient_0614_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 615,
+    "name": "Supernatural Springwater",
+    "rarity": 2,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 31,
+        "name": "Physical Damage Boost [Full]",
+        "category": "ATTACK",
+        "description": "Boosts physical damage by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000102,
+            "description": "Boosts dealt physical damage by {0}% when at full HP.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Physical Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from physical attacks by {0}%.",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "Boosts physical damage resistance by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204230001,
+        "quest_name": "Bottomless Pit [Risk 1]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230002,
+        "quest_name": "Bottomless Pit [Risk 2]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230003,
+        "quest_name": "Bottomless Pit [Risk 3]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230004,
+        "quest_name": "Bottomless Pit [Risk 4]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230005,
+        "quest_name": "Bottomless Pit [Risk 5]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230006,
+        "quest_name": "Bottomless Pit [Risk 6]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230007,
+        "quest_name": "Bottomless Pit [Risk 7]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230008,
+        "quest_name": "Bottomless Pit [Risk 8]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230009,
+        "quest_name": "Bottomless Pit [Risk 9]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      }
+    ],
+    "image_small": "Ingredient_0615_S",
+    "image_medium": "Ingredient_0615_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 616,
+    "name": "Bizarre Aqua",
+    "rarity": 3,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 18,
+        "name": "Slash Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Slash resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000020,
+            "description": "Boosts Slash damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Single Recovery Boost",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to a single ally by {0}%.",
+        "effects": [
+          {
+            "id": 3000032,
+            "description": "Boosts single recovery by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204230001,
+        "quest_name": "Bottomless Pit [Risk 1]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230002,
+        "quest_name": "Bottomless Pit [Risk 2]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230003,
+        "quest_name": "Bottomless Pit [Risk 3]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230004,
+        "quest_name": "Bottomless Pit [Risk 4]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230005,
+        "quest_name": "Bottomless Pit [Risk 5]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230006,
+        "quest_name": "Bottomless Pit [Risk 6]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230007,
+        "quest_name": "Bottomless Pit [Risk 7]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230008,
+        "quest_name": "Bottomless Pit [Risk 8]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230009,
+        "quest_name": "Bottomless Pit [Risk 9]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      }
+    ],
+    "image_small": "Ingredient_0616_S",
+    "image_medium": "Ingredient_0616_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 617,
+    "name": "Murky Mudwater",
+    "rarity": 3,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 60,
+        "name": "Critical Damage Up",
+        "category": "ATTACK",
+        "description": "Boosts critical damage by {0}%.",
+        "effects": [
+          {
+            "id": 13000011,
+            "description": "CRT Damage Up",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "Enhanced P./M. Resistance Up [D]",
+        "category": "ENHANCE",
+        "description": "Boosts potency of Received Physical Damage Down and Received Magic Damage Down given to Defenders by {0}%.",
+        "effects": [
+          {
+            "id": 3000029,
+            "description": "Boosts potency of Received Physical Damage Down and Received Magic Damage Down given to Defenders by {0}%.",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204230005,
+        "quest_name": "Bottomless Pit [Risk 5]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230006,
+        "quest_name": "Bottomless Pit [Risk 6]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230007,
+        "quest_name": "Bottomless Pit [Risk 7]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230008,
+        "quest_name": "Bottomless Pit [Risk 8]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      },
+      {
+        "quest_id": 204230009,
+        "quest_name": "Bottomless Pit [Risk 9]",
+        "episode_id": 204230,
+        "episode_name": "Bottomless Pit"
+      }
+    ],
+    "image_small": "Ingredient_0617_S",
+    "image_medium": "Ingredient_0617_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 618,
+    "name": "Vapor Butterfly",
+    "rarity": 2,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 4,
+        "name": "Stab Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Stab damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "Boosts Stab damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Ice Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Ice resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000067,
+            "description": "Boosts target's Ice resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204231001,
+        "quest_name": "Spiral into Another World [Risk 1]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231002,
+        "quest_name": "Spiral into Another World [Risk 2]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231003,
+        "quest_name": "Spiral into Another World [Risk 3]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231004,
+        "quest_name": "Spiral into Another World [Risk 4]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231005,
+        "quest_name": "Spiral into Another World [Risk 5]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231006,
+        "quest_name": "Spiral into Another World [Risk 6]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231007,
+        "quest_name": "Spiral into Another World [Risk 7]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231008,
+        "quest_name": "Spiral into Another World [Risk 8]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231009,
+        "quest_name": "Spiral into Another World [Risk 9]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      }
+    ],
+    "image_small": "Ingredient_0618_S",
+    "image_medium": "Ingredient_0618_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 619,
+    "name": "Zero-Gravity Hopper",
+    "rarity": 3,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 6,
+        "name": "Fire Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Fire skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "Boosts Fire damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "name": "Physical Resistance Up [D]",
+        "category": "ENHANCE",
+        "description": "Reduces physical damage to Defenders by {0}%.",
+        "effects": [
+          {
+            "id": 3000033,
+            "description": "Boosts effects of physical damage resistance to Defenders by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204231001,
+        "quest_name": "Spiral into Another World [Risk 1]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231002,
+        "quest_name": "Spiral into Another World [Risk 2]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231003,
+        "quest_name": "Spiral into Another World [Risk 3]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231004,
+        "quest_name": "Spiral into Another World [Risk 4]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231005,
+        "quest_name": "Spiral into Another World [Risk 5]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231006,
+        "quest_name": "Spiral into Another World [Risk 6]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231007,
+        "quest_name": "Spiral into Another World [Risk 7]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231008,
+        "quest_name": "Spiral into Another World [Risk 8]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231009,
+        "quest_name": "Spiral into Another World [Risk 9]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      }
+    ],
+    "image_small": "Ingredient_0619_S",
+    "image_medium": "Ingredient_0619_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 620,
+    "name": "Arnz Ant",
+    "rarity": 3,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 63,
+        "name": "Skill 2 Power Up",
+        "category": "ATTACK",
+        "description": "Boosts Skill 2's skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000168,
+            "description": "Boosts Skill 2 power by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "name": "Received Recovery Up",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery received by {0}%.",
+        "effects": [
+          {
+            "id": 13000002,
+            "description": "Boosts recovery received.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204231005,
+        "quest_name": "Spiral into Another World [Risk 5]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231006,
+        "quest_name": "Spiral into Another World [Risk 6]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231007,
+        "quest_name": "Spiral into Another World [Risk 7]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231008,
+        "quest_name": "Spiral into Another World [Risk 8]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      },
+      {
+        "quest_id": 204231009,
+        "quest_name": "Spiral into Another World [Risk 9]",
+        "episode_id": 204231,
+        "episode_name": "Spiral into Another World"
+      }
+    ],
+    "image_small": "Ingredient_0620_S",
+    "image_medium": "Ingredient_0620_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 624,
+    "name": "海の星",
+    "rarity": 2,
+    "color": "Purple",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 6,
+        "name": "Fire Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Fire damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "Boosts Fire damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Fire Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000066,
+            "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 430301,
+        "quest_name": "水着DEリゾート！１",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430304,
+        "quest_name": "水着DEリゾート！４",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430305,
+        "quest_name": "水着DEリゾート！５",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430308,
+        "quest_name": "水着DEリゾート！８",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430309,
+        "quest_name": "水着DEリゾート！９",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430312,
+        "quest_name": "水着DEリゾート！１２",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      }
+    ],
+    "image_small": "Ingredient_0624_S",
+    "image_medium": "Ingredient_0624_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 625,
+    "name": "虹珊瑚",
+    "rarity": 2,
+    "color": "Yellow",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 11,
+        "name": "Magic Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts magic skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "Boosts magic attack damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "name": "Reduced Spirit Damage",
+        "category": "ENHANCE",
+        "description": "Reduces damage from Spirit enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000087,
+            "description": "Reduces damage received by target from Spirit enemies by {0}%. (1 turn)",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 430302,
+        "quest_name": "水着DEリゾート！２",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430304,
+        "quest_name": "水着DEリゾート！４",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430306,
+        "quest_name": "水着DEリゾート！６",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430308,
+        "quest_name": "水着DEリゾート！８",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430310,
+        "quest_name": "水着DEリゾート！１０",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430312,
+        "quest_name": "水着DEリゾート！１２",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      }
+    ],
+    "image_small": "Ingredient_0625_S",
+    "image_medium": "Ingredient_0625_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 626,
+    "name": "マーメイドの涙",
+    "rarity": 2,
+    "color": "Green",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 46,
+        "name": "All Recovery Bonus",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "Boosts HP recovery given to all allies by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Fire Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 430303,
+        "quest_name": "水着DEリゾート！３",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430304,
+        "quest_name": "水着DEリゾート！４",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430307,
+        "quest_name": "水着DEリゾート！７",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430308,
+        "quest_name": "水着DEリゾート！８",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430311,
+        "quest_name": "水着DEリゾート！１１",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430312,
+        "quest_name": "水着DEリゾート！１２",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      }
+    ],
+    "image_small": "Ingredient_0626_S",
+    "image_medium": "Ingredient_0626_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 627,
+    "name": "サマータイムうに",
+    "rarity": 3,
+    "color": "Yellow",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 67,
+        "name": "WEAK時ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "Boosts stun damage by {0}% when attacking a weakness.",
+        "effects": [
+          {
+            "id": 3000213,
+            "description": "WEAK攻撃時、ブレイクダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 65,
+        "name": "Enhanced Resistance Debuff",
+        "category": "WEAKENING",
+        "description": "対象が与える「雷属性耐性ダウン」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000211,
+            "description": "対象が与える「雷属性耐性ダウン」の効果量{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 430309,
+        "quest_name": "水着DEリゾート！９",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430312,
+        "quest_name": "水着DEリゾート！１２",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      }
+    ],
+    "image_small": "Ingredient_0627_S",
+    "image_medium": "Ingredient_0627_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 628,
+    "name": "サマータイムフィッシュ",
+    "rarity": 3,
+    "color": "Blue",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 46,
+        "name": "All Recovery Bonus",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "Boosts HP recovery given to all allies by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Bolt Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Bolt resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000068,
+            "description": "Boosts target's Bolt resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 430310,
+        "quest_name": "水着DEリゾート！１０",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430312,
+        "quest_name": "水着DEリゾート！１２",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      }
+    ],
+    "image_small": "Ingredient_0628_S",
+    "image_medium": "Ingredient_0628_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 629,
+    "name": "サマータイムツリー",
+    "rarity": 3,
+    "color": "Red",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 66,
+        "name": "Enhanced Single Attack",
+        "category": "WEAKENING",
+        "description": "対象が与える「氷属性耐性ダウン」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000212,
+            "description": "対象が与える「氷属性耐性ダウン」の効果量{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Skill Power Up",
+        "category": "ATTACK",
+        "description": "Boosts skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "Boosts skill power by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 430311,
+        "quest_name": "水着DEリゾート！１１",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430312,
+        "quest_name": "水着DEリゾート！１２",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      }
+    ],
+    "image_small": "Ingredient_0629_S",
+    "image_medium": "Ingredient_0629_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 638,
+    "name": "水樹の実",
+    "rarity": 2,
+    "color": "Blue",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 9,
+        "name": "Bolt Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Bolt damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "Boosts Bolt damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "Enhanced Last Recovery",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery by {0}% on final use.",
+        "effects": [
+          {
+            "id": 3000109,
+            "description": "Boosts HP recovery by {0}% on final use.",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0638_S",
+    "image_medium": "Ingredient_0638_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 639,
+    "name": "石サンゴ",
+    "rarity": 2,
+    "color": "Purple",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 32,
+        "name": "Magic Damage Boost [Resolve]",
+        "category": "ATTACK",
+        "description": "Boosts magic damage by {0}% when HP is 50% or lower.",
+        "effects": [
+          {
+            "id": 3000099,
+            "description": "Boosts dealt magic damage by {0}% when HP is 50% or lower.",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "name": "Reduced Aquatic Damage",
+        "category": "ENHANCE",
+        "description": "Reduces damage from Aquatic enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000088,
+            "description": "Reduces damage received by target from Aquatic enemies by {0}%. (1 turn)",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0639_S",
+    "image_medium": "Ingredient_0639_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 640,
+    "name": "セイレーンの涙",
+    "rarity": 2,
+    "color": "Yellow",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 21,
+        "name": "Bolt Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Bolt resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000061,
+            "description": "Reduces target's Bolt resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "Chaser Charge",
+        "category": "ATTACK",
+        "description": "Boosts damage to stunned enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "Boosts damage to stunned enemies by {0}%.",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0640_S",
+    "image_medium": "Ingredient_0640_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 641,
+    "name": "サマータイムきのこ",
+    "rarity": 3,
+    "color": "Red",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 61,
+        "name": "Burst Skill Power Up",
+        "category": "ATTACK",
+        "description": "Boosts burst skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000165,
+            "description": "Boosts burst skill power by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 60,
+        "name": "Critical Damage Up",
+        "category": "ATTACK",
+        "description": "Boosts critical damage by {0}%.",
+        "effects": [
+          {
+            "id": 13000011,
+            "description": "CRT Damage Up",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0641_S",
+    "image_medium": "Ingredient_0641_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 642,
+    "name": "サマータイムオクトパス",
+    "rarity": 3,
+    "color": "Green",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 51,
+        "name": "Destructive Power Boost",
+        "category": "ATTACK",
+        "description": "Boosts damage of battle items by {0}%.",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "Boosts damage of battle items by {0}%.",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "name": "Aquatic Weakness Radar",
+        "category": "WEAKENING",
+        "description": "Boosts damage to Aquatic enemies by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000098,
+            "description": "Boosts damage to Aquatic enemies by {0}% for 1 attack.",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0642_S",
+    "image_medium": "Ingredient_0642_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 643,
+    "name": "サマータイムシェル",
+    "rarity": 3,
+    "color": "Blue",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "Skill Power Up",
+        "category": "ATTACK",
+        "description": "Boosts skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "Boosts skill power by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "Enhanced Damage Buff [A]",
+        "category": "ENHANCE",
+        "description": "Boosts potency of damage buffs given to Attackers by {0}%.",
+        "effects": [
+          {
+            "id": 3000017,
+            "description": "Boosts effects of damage buffs to Attackers by {0}%.",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0643_S",
+    "image_medium": "Ingredient_0643_M",
     "start_at": "2049-12-31T16:00:00.000Z",
     "end_at": null
   }

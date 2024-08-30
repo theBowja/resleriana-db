@@ -8,7 +8,7 @@
     "name": "登入遊戲",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
-    "priority": 13,
+    "priority": 14,
     "reset_cycle": 1,
     "start_at": null,
     "steps": [
@@ -34,7 +34,7 @@
     "name": "開始調合",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
-    "priority": 12,
+    "priority": 13,
     "reset_cycle": 1,
     "start_at": null,
     "steps": [
@@ -190,7 +190,7 @@
     "name": "通關迷宮",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
-    "priority": 4,
+    "priority": 3,
     "reset_cycle": 1,
     "start_at": null,
     "steps": [
@@ -216,7 +216,7 @@
     "name": "通關積分戰",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
-    "priority": 3,
+    "priority": 2,
     "reset_cycle": 1,
     "start_at": null,
     "steps": [
@@ -235,7 +235,7 @@
   },
   {
     "category": 1,
-    "end_at": null,
+    "end_at": "2024-08-26T03:00:00.000Z",
     "event_tab_id": null,
     "guide_mission_step_id": null,
     "id": 10010,
@@ -335,6 +335,58 @@
       "equipment_slot_type": null,
       "focused_on": 1,
       "transition": 26
+    }
+  },
+  {
+    "category": 1,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 10014,
+    "name": "消耗精力",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 11,
+    "reset_cycle": 1,
+    "start_at": "2024-08-26T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30004,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 3
+    }
+  },
+  {
+    "category": 1,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 10015,
+    "name": "通關碎片挑戰",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 4,
+    "reset_cycle": 1,
+    "start_at": "2024-08-26T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30004,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 15
     }
   },
   {
@@ -599,7 +651,7 @@
   },
   {
     "category": 2,
-    "end_at": null,
+    "end_at": "2024-08-26T03:00:00.000Z",
     "event_tab_id": null,
     "guide_mission_step_id": null,
     "id": 20011,
@@ -8479,6 +8531,16 @@
         "count": 20,
         "reward_set_id": 30077,
         "start_at": null
+      },
+      {
+        "count": 24,
+        "reward_set_id": 30076,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      },
+      {
+        "count": 29,
+        "reward_set_id": 30077,
+        "start_at": "2049-12-31T16:00:00.000Z"
       }
     ],
     "total_task_condition_id": 450,
@@ -8506,6 +8568,16 @@
         "count": 20,
         "reward_set_id": 30077,
         "start_at": null
+      },
+      {
+        "count": 24,
+        "reward_set_id": 30076,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      },
+      {
+        "count": 29,
+        "reward_set_id": 30077,
+        "start_at": "2049-12-31T16:00:00.000Z"
       }
     ],
     "total_task_condition_id": 451,
@@ -8533,6 +8605,16 @@
         "count": 20,
         "reward_set_id": 30077,
         "start_at": null
+      },
+      {
+        "count": 24,
+        "reward_set_id": 30076,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      },
+      {
+        "count": 29,
+        "reward_set_id": 30077,
+        "start_at": "2049-12-31T16:00:00.000Z"
       }
     ],
     "total_task_condition_id": 452,
@@ -8560,6 +8642,16 @@
         "count": 20,
         "reward_set_id": 30077,
         "start_at": null
+      },
+      {
+        "count": 24,
+        "reward_set_id": 30076,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      },
+      {
+        "count": 29,
+        "reward_set_id": 30077,
+        "start_at": "2049-12-31T16:00:00.000Z"
       }
     ],
     "total_task_condition_id": 453,
@@ -8587,6 +8679,16 @@
         "count": 20,
         "reward_set_id": 30077,
         "start_at": null
+      },
+      {
+        "count": 24,
+        "reward_set_id": 30076,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      },
+      {
+        "count": 29,
+        "reward_set_id": 30077,
+        "start_at": "2049-12-31T16:00:00.000Z"
       }
     ],
     "total_task_condition_id": 454,
@@ -8614,6 +8716,16 @@
         "count": 20,
         "reward_set_id": 30077,
         "start_at": null
+      },
+      {
+        "count": 24,
+        "reward_set_id": 30076,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      },
+      {
+        "count": 29,
+        "reward_set_id": 30077,
+        "start_at": "2049-12-31T16:00:00.000Z"
       }
     ],
     "total_task_condition_id": 455,
@@ -8641,9 +8753,63 @@
         "count": 20,
         "reward_set_id": 30077,
         "start_at": null
+      },
+      {
+        "count": 24,
+        "reward_set_id": 30076,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      },
+      {
+        "count": 29,
+        "reward_set_id": 30077,
+        "start_at": "2049-12-31T16:00:00.000Z"
       }
     ],
     "total_task_condition_id": 456,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300140,
+    "name": "通關主線故事14-58",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7288,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 980,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_step_id": null,
+    "id": 300141,
+    "name": "通關序章　前輩您好，初次見面",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 7401,
+    "reset_cycle": null,
+    "start_at": "2024-08-26T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30078,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 981,
     "transition": null
   },
   {
@@ -9147,6 +9313,630 @@
     ],
     "total_task_condition_id": 916,
     "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 35,
+    "guide_mission_step_id": null,
+    "id": 350001,
+    "name": "通關10次素材挑戰",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 114,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 300187,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 35,
+    "guide_mission_step_id": null,
+    "id": 350002,
+    "name": "通關30次素材挑戰",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 113,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 30,
+        "reward_set_id": 300189,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 35,
+    "guide_mission_step_id": null,
+    "id": 350003,
+    "name": "通關50次素材挑戰",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 112,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 50,
+        "reward_set_id": 300168,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 35,
+    "guide_mission_step_id": null,
+    "id": 350004,
+    "name": "通關75次素材挑戰",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 111,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 75,
+        "reward_set_id": 300169,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 35,
+    "guide_mission_step_id": null,
+    "id": 350005,
+    "name": "通關100次素材挑戰",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 110,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 300184,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 35,
+    "guide_mission_step_id": null,
+    "id": 350006,
+    "name": "通關150次素材挑戰",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 109,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 150,
+        "reward_set_id": 300188,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 35,
+    "guide_mission_step_id": null,
+    "id": 350007,
+    "name": "通關200次素材挑戰",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 108,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 200,
+        "reward_set_id": 300168,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 35,
+    "guide_mission_step_id": null,
+    "id": 350008,
+    "name": "通關250次素材挑戰",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 107,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 250,
+        "reward_set_id": 300173,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 35,
+    "guide_mission_step_id": null,
+    "id": 350009,
+    "name": "通關300次素材挑戰",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 106,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300,
+        "reward_set_id": 300185,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 16
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 35,
+    "guide_mission_step_id": null,
+    "id": 350010,
+    "name": "消耗100精力",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 105,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 300190,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 3
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 35,
+    "guide_mission_step_id": null,
+    "id": 350011,
+    "name": "消耗1000精力",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 104,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1000,
+        "reward_set_id": 300168,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 3
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 35,
+    "guide_mission_step_id": null,
+    "id": 350012,
+    "name": "消耗2000精力",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 103,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 2000,
+        "reward_set_id": 300172,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 3
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 35,
+    "guide_mission_step_id": null,
+    "id": 350013,
+    "name": "消耗3500精力",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 102,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 3500,
+        "reward_set_id": 300188,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 3
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 35,
+    "guide_mission_step_id": null,
+    "id": 350014,
+    "name": "消耗5000精力",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 101,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5000,
+        "reward_set_id": 300186,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 3
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 36,
+    "guide_mission_step_id": null,
+    "id": 360001,
+    "name": "進行30次調合",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 30,
+        "reward_set_id": 300148,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 36,
+    "guide_mission_step_id": null,
+    "id": 360002,
+    "name": "進行60次調合",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 60,
+        "reward_set_id": 300148,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 36,
+    "guide_mission_step_id": null,
+    "id": 360003,
+    "name": "進行90次調合",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 90,
+        "reward_set_id": 300148,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 36,
+    "guide_mission_step_id": null,
+    "id": 360004,
+    "name": "進行120次調合",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 120,
+        "reward_set_id": 300148,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 36,
+    "guide_mission_step_id": null,
+    "id": 360005,
+    "name": "進行150次調合",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 150,
+        "reward_set_id": 300148,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 36,
+    "guide_mission_step_id": null,
+    "id": 360006,
+    "name": "進行180次調合",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 180,
+        "reward_set_id": 300148,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 36,
+    "guide_mission_step_id": null,
+    "id": 360007,
+    "name": "進行210次調合",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 210,
+        "reward_set_id": 300148,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 36,
+    "guide_mission_step_id": null,
+    "id": 360008,
+    "name": "進行240次調合",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 240,
+        "reward_set_id": 300148,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 36,
+    "guide_mission_step_id": null,
+    "id": 360009,
+    "name": "進行270次調合",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 270,
+        "reward_set_id": 300148,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 36,
+    "guide_mission_step_id": null,
+    "id": 360010,
+    "name": "進行300次調合",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300,
+        "reward_set_id": 300148,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
   },
   {
     "category": 3,
@@ -16430,6 +17220,1451 @@
     }
   },
   {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 37,
+    "guide_mission_step_id": null,
+    "id": 4000288,
+    "name": "「新たな売り」をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 100028042,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 43,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 37,
+    "guide_mission_step_id": null,
+    "id": 4000289,
+    "name": "海の家Lvを{}にしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 109,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 2,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 3,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 4,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 5,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 6,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 7,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 8,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 9,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 10,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 11,
+        "reward_set_id": 100028040,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      },
+      {
+        "count": 12,
+        "reward_set_id": 100028040,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      },
+      {
+        "count": 13,
+        "reward_set_id": 100028040,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      },
+      {
+        "count": 14,
+        "reward_set_id": 100028040,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      },
+      {
+        "count": 15,
+        "reward_set_id": 100028040,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      },
+      {
+        "count": 16,
+        "reward_set_id": 100028040,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      },
+      {
+        "count": 17,
+        "reward_set_id": 100028040,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      },
+      {
+        "count": 18,
+        "reward_set_id": 100028040,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      },
+      {
+        "count": 19,
+        "reward_set_id": 100028040,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      },
+      {
+        "count": 20,
+        "reward_set_id": 100028040,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      }
+    ],
+    "total_task_condition_id": 988,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 37,
+    "guide_mission_step_id": null,
+    "id": 4000290,
+    "name": "潮騒のパラソルを{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 100028041,
+        "start_at": null
+      },
+      {
+        "count": 10,
+        "reward_set_id": 100028041,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 37,
+    "guide_mission_step_id": null,
+    "id": 4000291,
+    "name": "潮騒の水着を{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 100028041,
+        "start_at": null
+      },
+      {
+        "count": 10,
+        "reward_set_id": 100028041,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 37,
+    "guide_mission_step_id": null,
+    "id": 4000292,
+    "name": "潮騒の帽子を{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 100028041,
+        "start_at": null
+      },
+      {
+        "count": 10,
+        "reward_set_id": 100028041,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 37,
+    "guide_mission_step_id": null,
+    "id": 4000293,
+    "name": "消耗{}精力",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 104,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 300,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 500,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 1000,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 2000,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 3000,
+        "reward_set_id": 100028040,
+        "start_at": null
+      },
+      {
+        "count": 3500,
+        "reward_set_id": 100028040,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      },
+      {
+        "count": 4000,
+        "reward_set_id": 100028040,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      },
+      {
+        "count": 4500,
+        "reward_set_id": 100028040,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      },
+      {
+        "count": 5000,
+        "reward_set_id": 100028040,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      },
+      {
+        "count": 5500,
+        "reward_set_id": 100028040,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      },
+      {
+        "count": 6000,
+        "reward_set_id": 100028040,
+        "start_at": "2049-12-31T16:00:00.000Z"
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 3
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 38,
+    "guide_mission_step_id": null,
+    "id": 4000294,
+    "name": "挑戰羅曼大武鬥大會吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 100028043,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 37,
+    "guide_mission_step_id": null,
+    "id": 4000295,
+    "name": "「もう1つの豪華賞品」をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 110,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 100028042,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 43,
+      "transition": 30
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 37,
+    "guide_mission_step_id": null,
+    "id": 4000297,
+    "name": "盛夏のフィッシュソードを{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 107,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 100028100,
+        "start_at": null
+      },
+      {
+        "count": 10,
+        "reward_set_id": 100028041,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 37,
+    "guide_mission_step_id": null,
+    "id": 4000298,
+    "name": "盛夏の水着を{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 106,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 100028100,
+        "start_at": null
+      },
+      {
+        "count": 10,
+        "reward_set_id": 100028041,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 37,
+    "guide_mission_step_id": null,
+    "id": 4000299,
+    "name": "盛夏のシュノーケルを{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 105,
+    "reset_cycle": null,
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 100028100,
+        "start_at": null
+      },
+      {
+        "count": 10,
+        "reward_set_id": 100028041,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 38,
+    "guide_mission_step_id": null,
+    "id": 4000301,
+    "name": "在羅曼大武鬥大會中達成100,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 38,
+    "guide_mission_step_id": null,
+    "id": 4000302,
+    "name": "在羅曼大武鬥大會中達成200,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 200000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 38,
+    "guide_mission_step_id": null,
+    "id": 4000303,
+    "name": "在羅曼大武鬥大會中達成300,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 38,
+    "guide_mission_step_id": null,
+    "id": 4000304,
+    "name": "在羅曼大武鬥大會中達成400,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 400000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 38,
+    "guide_mission_step_id": null,
+    "id": 4000305,
+    "name": "在羅曼大武鬥大會中達成500,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 500000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 38,
+    "guide_mission_step_id": null,
+    "id": 4000306,
+    "name": "在羅曼大武鬥大會中達成500,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 500000,
+        "reward_set_id": 100028044,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 38,
+    "guide_mission_step_id": null,
+    "id": 4000307,
+    "name": "在羅曼大武鬥大會中達成600,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 600000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 38,
+    "guide_mission_step_id": null,
+    "id": 4000308,
+    "name": "在羅曼大武鬥大會中達成700,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 700000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 38,
+    "guide_mission_step_id": null,
+    "id": 4000309,
+    "name": "在羅曼大武鬥大會中達成800,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 800000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 38,
+    "guide_mission_step_id": null,
+    "id": 4000310,
+    "name": "在羅曼大武鬥大會中達成900,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 90,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 900000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 38,
+    "guide_mission_step_id": null,
+    "id": 4000311,
+    "name": "在羅曼大武鬥大會中達成1,000,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 89,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1000000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 38,
+    "guide_mission_step_id": null,
+    "id": 4000312,
+    "name": "在羅曼大武鬥大會中達成1,000,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 88,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1000000,
+        "reward_set_id": 100028044,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 39,
+    "guide_mission_step_id": null,
+    "id": 4000313,
+    "name": "挑戰羅曼大武鬥大會吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 100028043,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 39,
+    "guide_mission_step_id": null,
+    "id": 4000314,
+    "name": "在羅曼大武鬥大會中達成100,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 39,
+    "guide_mission_step_id": null,
+    "id": 4000315,
+    "name": "在羅曼大武鬥大會中達成200,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 200000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 39,
+    "guide_mission_step_id": null,
+    "id": 4000316,
+    "name": "在羅曼大武鬥大會中達成300,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 39,
+    "guide_mission_step_id": null,
+    "id": 4000317,
+    "name": "在羅曼大武鬥大會中達成400,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 400000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 39,
+    "guide_mission_step_id": null,
+    "id": 4000318,
+    "name": "在羅曼大武鬥大會中達成500,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 500000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 39,
+    "guide_mission_step_id": null,
+    "id": 4000319,
+    "name": "在羅曼大武鬥大會中達成500,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 500000,
+        "reward_set_id": 100028044,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 39,
+    "guide_mission_step_id": null,
+    "id": 4000320,
+    "name": "在羅曼大武鬥大會中達成600,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 600000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 39,
+    "guide_mission_step_id": null,
+    "id": 4000321,
+    "name": "在羅曼大武鬥大會中達成700,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 700000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 39,
+    "guide_mission_step_id": null,
+    "id": 4000322,
+    "name": "在羅曼大武鬥大會中達成800,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 800000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 39,
+    "guide_mission_step_id": null,
+    "id": 4000323,
+    "name": "在羅曼大武鬥大會中達成900,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 90,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 900000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 39,
+    "guide_mission_step_id": null,
+    "id": 4000324,
+    "name": "在羅曼大武鬥大會中達成1,000,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 89,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1000000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 39,
+    "guide_mission_step_id": null,
+    "id": 4000325,
+    "name": "在羅曼大武鬥大會中達成1,000,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 88,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1000000,
+        "reward_set_id": 100028044,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 41,
+    "guide_mission_step_id": null,
+    "id": 4000326,
+    "name": "挑戰羅曼大武鬥大會吧",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 100028043,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 41,
+    "guide_mission_step_id": null,
+    "id": 4000327,
+    "name": "在羅曼大武鬥大會中達成100,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 41,
+    "guide_mission_step_id": null,
+    "id": 4000328,
+    "name": "在羅曼大武鬥大會中達成200,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 200000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 41,
+    "guide_mission_step_id": null,
+    "id": 4000329,
+    "name": "在羅曼大武鬥大會中達成300,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 41,
+    "guide_mission_step_id": null,
+    "id": 4000330,
+    "name": "在羅曼大武鬥大會中達成400,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 400000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 41,
+    "guide_mission_step_id": null,
+    "id": 4000331,
+    "name": "在羅曼大武鬥大會中達成500,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 500000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 41,
+    "guide_mission_step_id": null,
+    "id": 4000332,
+    "name": "在羅曼大武鬥大會中達成500,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 500000,
+        "reward_set_id": 100028044,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 41,
+    "guide_mission_step_id": null,
+    "id": 4000333,
+    "name": "在羅曼大武鬥大會中達成600,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 600000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 41,
+    "guide_mission_step_id": null,
+    "id": 4000334,
+    "name": "在羅曼大武鬥大會中達成700,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 700000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 41,
+    "guide_mission_step_id": null,
+    "id": 4000335,
+    "name": "在羅曼大武鬥大會中達成800,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 800000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 41,
+    "guide_mission_step_id": null,
+    "id": 4000336,
+    "name": "在羅曼大武鬥大會中達成900,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 90,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 900000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 41,
+    "guide_mission_step_id": null,
+    "id": 4000337,
+    "name": "在羅曼大武鬥大會中達成1,000,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 89,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1000000,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 41,
+    "guide_mission_step_id": null,
+    "id": 4000338,
+    "name": "在羅曼大武鬥大會中達成1,000,000以上的總傷害吧！",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 88,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1000000,
+        "reward_set_id": 100028044,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 63
+    }
+  },
+  {
     "category": 4,
     "end_at": null,
     "event_tab_id": null,
@@ -22502,5 +24737,335 @@
       "focused_on": 1,
       "transition": 17
     }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000025,
+    "guide_mission_step_id": null,
+    "id": 1004000241,
+    "name": "通關雷之塔{}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1000301028,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 455,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000025,
+    "guide_mission_step_id": null,
+    "id": 1004000242,
+    "name": "通關雷之塔{}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 2,
+        "reward_set_id": 1000301028,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 455,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000025,
+    "guide_mission_step_id": null,
+    "id": 1004000243,
+    "name": "通關雷之塔{}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 1000301029,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 455,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000025,
+    "guide_mission_step_id": null,
+    "id": 1004000244,
+    "name": "通關雷之塔{}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 4,
+        "reward_set_id": 1000301030,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 455,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000025,
+    "guide_mission_step_id": null,
+    "id": 1004000245,
+    "name": "通關雷之塔{}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 1000301031,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 455,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000025,
+    "guide_mission_step_id": null,
+    "id": 1004000246,
+    "name": "通關雷之塔{}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 6,
+        "reward_set_id": 1000301032,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 455,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000025,
+    "guide_mission_step_id": null,
+    "id": 1004000247,
+    "name": "通關雷之塔{}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 7,
+        "reward_set_id": 1000301031,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 455,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000025,
+    "guide_mission_step_id": null,
+    "id": 1004000248,
+    "name": "通關雷之塔{}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 8,
+        "reward_set_id": 1000301033,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 455,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000025,
+    "guide_mission_step_id": null,
+    "id": 1004000249,
+    "name": "通關雷之塔{}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 9,
+        "reward_set_id": 1000301032,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 455,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000025,
+    "guide_mission_step_id": null,
+    "id": 1004000250,
+    "name": "通關雷之塔{}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 1000301029,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 455,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000025,
+    "guide_mission_step_id": null,
+    "id": 1004000251,
+    "name": "通關雷之塔{}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 90,
+    "reset_cycle": null,
+    "start_at": "2024-09-09T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 11,
+        "reward_set_id": 1000301031,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 455,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000025,
+    "guide_mission_step_id": null,
+    "id": 1004000252,
+    "name": "通關雷之塔{}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 89,
+    "reset_cycle": null,
+    "start_at": "2024-09-09T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 12,
+        "reward_set_id": 1000301031,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 455,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000025,
+    "guide_mission_step_id": null,
+    "id": 1004000253,
+    "name": "通關雷之塔{}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 88,
+    "reset_cycle": null,
+    "start_at": "2024-09-09T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 13,
+        "reward_set_id": 1000301031,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 455,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000025,
+    "guide_mission_step_id": null,
+    "id": 1004000254,
+    "name": "通關雷之塔{}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 87,
+    "reset_cycle": null,
+    "start_at": "2024-09-09T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 14,
+        "reward_set_id": 1000301031,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 455,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 1000000025,
+    "guide_mission_step_id": null,
+    "id": 1004000255,
+    "name": "通關雷之塔{}F",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "priority": 86,
+    "reset_cycle": null,
+    "start_at": "2024-09-09T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 15,
+        "reward_set_id": 1000301029,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 455,
+    "transition": null
   }
 ]

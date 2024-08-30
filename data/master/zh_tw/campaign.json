@@ -335,6 +335,60 @@
   },
   {
     "additional_reward": {
+      "id": 187,
+      "quantity": 0,
+      "quantity_per_mana": 0,
+      "quantity_table": [
+        {
+          "max_character_level": 1,
+          "quantity": 0,
+          "quantity_per_stamina": 0.2
+        },
+        {
+          "max_character_level": 21,
+          "quantity": 0,
+          "quantity_per_stamina": 0.3
+        },
+        {
+          "max_character_level": 31,
+          "quantity": 0,
+          "quantity_per_stamina": 0.4
+        },
+        {
+          "max_character_level": 41,
+          "quantity": 0,
+          "quantity_per_stamina": 0.5
+        },
+        {
+          "max_character_level": 51,
+          "quantity": 0,
+          "quantity_per_stamina": 0.6
+        },
+        {
+          "max_character_level": 61,
+          "quantity": 0,
+          "quantity_per_stamina": 0.7
+        },
+        {
+          "max_character_level": 71,
+          "quantity": 0,
+          "quantity_per_stamina": 0.8
+        }
+      ],
+      "type": 5
+    },
+    "bonus_rate": 0,
+    "category": 2,
+    "end_at": "2024-09-15T03:00:00.000Z",
+    "episode_categories": [2, 3, 4, 5, 8, 7, 12, 13, 11],
+    "id": 26,
+    "label": "挑戰券掉落中！",
+    "mission_rewards": [],
+    "start_at": "2024-09-06T03:00:00.000Z",
+    "target_resource": null
+  },
+  {
+    "additional_reward": {
       "id": 239,
       "quantity": 0,
       "quantity_per_mana": 0,
@@ -864,12 +918,12 @@
     },
     "bonus_rate": 0,
     "category": 2,
-    "end_at": "2050-01-01T04:00:00.000Z",
+    "end_at": "2024-09-13T03:00:00.000Z",
     "episode_categories": [2, 3, 4, 5, 8, 7, 12, 13, 11],
     "id": 38,
     "label": "挑戰券掉落中！",
     "mission_rewards": [],
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-09-02T03:00:00.000Z",
     "target_resource": null
   },
   {
@@ -942,6 +996,111 @@
     "mission_rewards": [],
     "start_at": "2049-12-31T16:00:00.000Z",
     "target_resource": null
+  },
+  {
+    "additional_reward": null,
+    "bonus_rate": 100,
+    "category": 1,
+    "end_at": "2050-01-01T04:00:00.000Z",
+    "episode_categories": [7, 8],
+    "id": 41,
+    "label": "調合素材掉落量2倍！",
+    "mission_rewards": [],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "target_resource": {
+      "drop_reward_set_ids": [],
+      "item_ids": [],
+      "item_types": [1],
+      "reward_set_ids": []
+    }
+  },
+  {
+    "additional_reward": {
+      "id": 588,
+      "quantity": 0,
+      "quantity_per_mana": 0,
+      "quantity_table": [
+        {
+          "max_character_level": 1,
+          "quantity": 0,
+          "quantity_per_stamina": 0.2
+        },
+        {
+          "max_character_level": 21,
+          "quantity": 0,
+          "quantity_per_stamina": 0.3
+        },
+        {
+          "max_character_level": 31,
+          "quantity": 0,
+          "quantity_per_stamina": 0.4
+        },
+        {
+          "max_character_level": 41,
+          "quantity": 0,
+          "quantity_per_stamina": 0.5
+        },
+        {
+          "max_character_level": 51,
+          "quantity": 0,
+          "quantity_per_stamina": 0.6
+        },
+        {
+          "max_character_level": 61,
+          "quantity": 0,
+          "quantity_per_stamina": 0.7
+        },
+        {
+          "max_character_level": 71,
+          "quantity": 0,
+          "quantity_per_stamina": 0.8
+        }
+      ],
+      "type": 5
+    },
+    "bonus_rate": 0,
+    "category": 2,
+    "end_at": "2050-01-01T04:00:00.000Z",
+    "episode_categories": [2, 3, 4, 5, 8, 7, 12, 13, 11],
+    "id": 42,
+    "label": "挑戰券掉落中！",
+    "mission_rewards": [],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "target_resource": null
+  },
+  {
+    "additional_reward": null,
+    "bonus_rate": 100,
+    "category": 1,
+    "end_at": "2050-01-01T04:00:00.000Z",
+    "episode_categories": [5, 4, 3, 2],
+    "id": 43,
+    "label": "ドロップ量＋100%！",
+    "mission_rewards": [],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "target_resource": {
+      "drop_reward_set_ids": [50100014, 50100015, 50100016, 50100017, 50100018, 50100019, 50100023, 50100024, 50100025, 50100026, 50100027, 50100028, 50100029, 50100030, 50100031, 50100032, 50100033, 50100034, 50100035, 50100036, 50100037, 50100038, 50100039, 50100040, 50100041, 50100042, 50100043, 50100044, 50100045, 50100046, 50100047, 50100010, 50100011, 50100012, 50100013, 50100343, 50100344, 50100345, 50100346, 50100347, 50100348, 50100349],
+      "item_ids": [],
+      "item_types": [],
+      "reward_set_ids": []
+    }
+  },
+  {
+    "additional_reward": null,
+    "bonus_rate": 100,
+    "category": 1,
+    "end_at": "2050-01-01T04:00:00.000Z",
+    "episode_categories": [7, 8],
+    "id": 44,
+    "label": "ドロップ量＋100%！",
+    "mission_rewards": [],
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "target_resource": {
+      "drop_reward_set_ids": [],
+      "item_ids": [],
+      "item_types": [1, 2, 3, 4],
+      "reward_set_ids": []
+    }
   },
   {
     "additional_reward": null,

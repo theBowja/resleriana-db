@@ -596,7 +596,7 @@
         }
       ]
     },
-    "start_at": "2049-12-31T16:00:00.000Z"
+    "start_at": "2024-09-02T03:00:00.000Z"
   },
   {
     "id": 10301,
@@ -5303,6 +5303,198 @@
     "start_at": "2024-03-07T03:00:00.000Z"
   },
   {
+    "id": 29302,
+    "name": "Wilbell",
+    "title": "Witch in the dark",
+    "full_name": "Wilbell Voll-Ersleid",
+    "base_character": "Wilbell",
+    "is_alchemist": false,
+    "gender": "Female",
+    "attribute": "BOLT",
+    "role": "SUPPORTER",
+    "initial_rarity": 3,
+    "acquisition_text": "An infiltration mission? Leave it to me! I'll light up the way to success with my magic!",
+    "profile": {
+      "voice_actor": "Asami Seto",
+      "voice_text": "I already live my life hiding my true identity as a witch. Infiltration will be a breeze for me!",
+      "description": "A young witch who aspires to become a full-fledged Great Witch. She often takes on a haughty attitude, but she has a kind heart and a lovable, cheerful personality. Although she tries to hide her identity as a witch, she actually dresses like one to avoid suspicion. She is particularly fond of this outfit, which allows her to blend perfectly into the darkness—ideal for a witch.",
+      "origin_game": "Atelier Shallie: Alchemists of the Dusk Sea"
+    },
+    "gift_color": {
+      "received": "Red",
+      "given": "Green"
+    },
+    "battle_item_trait": [
+      {
+        "id": 9,
+        "name": "Bolt Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Bolt damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "Boosts Bolt damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Bolt Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Bolt resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000068,
+            "description": "Boosts target's Bolt resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 41,
+        "name": "All Recovery Boost",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "Boosts HP recovery given to all allies by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 127,
+        "spd": 252,
+        "patk": 52,
+        "matk": 59,
+        "pdef": 56,
+        "mdef": 56
+      },
+      "growth": {
+        "hp": 1270,
+        "spd": 0,
+        "patk": 520,
+        "matk": 590,
+        "pdef": 560,
+        "mdef": 560
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 5,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "Shadow Shot",
+      "description": "After attacking, boosts critical damage of the ally with the highest M. ATK before this skill was used by {0}% for 1 turn.",
+      "summary": "After attack, boosts an ally's critical damage.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001323,
+          "description": "",
+          "value": 2500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [48, 51, 54, 57, 60],
+      "has_stun": true,
+      "stun_values": [5, 5, 5, 5, 6],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "Kiss Illusion",
+      "description": "After recovery, converts 1 panel for each ally other than critical-type and burst panels into a critical panel. (Creates a critical panel if the panel is empty)",
+      "summary": "After recovery, converts 1 panel for each ally other than critical-type and burst panels into a critical panel.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001321,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ALLY",
+      "range": "ALL",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": true,
+      "recovery_values": [85, 87, 89, 91, 93],
+      "wait": 200
+    },
+    "burst": {
+      "name": "Moonlight Arrows",
+      "description": "After attacking, reduces target's Bolt resistance by {0}% for 5 attacks. Reduces all allies' damage received by {1}% for 1 attack.",
+      "summary": "After attack, reduces target's Bolt resistance. Reduces all allies' damage received.",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001322,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001069,
+          "description": "",
+          "value": 3000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [400, 400, 400, 425, 450, 475, 500],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "It's Showtime",
+      "description": "When using a panel, boosts all allies' critical damage by {0}%. (MAX 30%)",
+      "effects": [
+        {
+          "id": 72001092,
+          "description": "[味方全体/クリティカルダメージアップ(上限30%)]",
+          "value": 1500
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "Destructive Overload Bolt II",
+      "description": "Boosts skill damage by {0}% for all allies with Bolt affinity.",
+      "effects": [
+        {
+          "id": 72000936,
+          "description": "",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
+  },
+  {
     "id": 29401,
     "name": "Regina",
     "title": "Excavation Expert",
@@ -6292,6 +6484,219 @@
     "start_at": "2024-01-25T03:00:00.000Z"
   },
   {
+    "id": 29702,
+    "name": "Marion",
+    "title": "Bullet of Ink",
+    "full_name": "Marion Quinn",
+    "base_character": "Marion",
+    "is_alchemist": false,
+    "gender": "Female",
+    "attribute": "FIRE",
+    "role": "DEFENDER",
+    "initial_rarity": 3,
+    "acquisition_text": "I can't just leave everything to the development team. I need to step up and help!",
+    "profile": {
+      "voice_actor": "Kana Ueda",
+      "voice_text": "I was the head of the development team in my world. Taking on too much work is a bad habit of mine.",
+      "description": "A diligent worker who investigates wanderers. Saskia has also entrusted her with management of the atelier. Due to her strong administrative skills and constant perseverance, more and more work is always sent her way. Since her arms are always covered with ink from all the documents she works on, this outfit with arm covers has proven to be very practical for her.",
+      "origin_game": "Atelier Escha & Logy ~Alchemists of the Dusk Sky~"
+    },
+    "gift_color": {
+      "received": "Blue",
+      "given": "Red"
+    },
+    "battle_item_trait": [
+      {
+        "id": 17,
+        "name": "Magic Curse",
+        "category": "WEAKENING",
+        "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "name": "Destructive Power Boost",
+        "category": "ATTACK",
+        "description": "Boosts damage of battle items by {0}%.",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "Boosts damage of battle items by {0}%.",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 35,
+        "name": "Magic Resistance Up [Full]",
+        "category": "ENHANCE",
+        "description": "Reduces magic damage received by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000104,
+            "description": "Boosts magic damage resistance by {0}% when at full HP.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 180,
+        "spd": 256,
+        "patk": 46,
+        "matk": 50,
+        "pdef": 68,
+        "mdef": 68
+      },
+      "growth": {
+        "hp": 1800,
+        "spd": 0,
+        "patk": 460,
+        "matk": 500,
+        "pdef": 680,
+        "mdef": 680
+      },
+      "resistance": {
+        "fire": 5,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "Roten Magnum",
+      "description": "After attacking, boosts own P. DEF and M. DEF by {0}% for 1 attack.",
+      "summary": "After attacking, boosts own stats.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001019,
+          "description": "Boosts P. DEF for 1 turn.",
+          "value": 1500
+        },
+        {
+          "id": 91001021,
+          "description": "Boosts M. DEF for 1 turn.",
+          "value": 1500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [45, 47, 50, 53, 56],
+      "has_stun": true,
+      "stun_values": [5, 5, 5, 5, 6],
+      "has_recovery": false,
+      "wait": 75
+    },
+    "skill_2": {
+      "name": "Swing Bullet",
+      "description": "After attacking, restores the item gauge by {0}% and reduces own damage received by {1}% for 2 attacks.",
+      "summary": "After attack, restores item gauge and reduces own damage received.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91002004,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91000997,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [182, 193, 204, 215, 227],
+      "has_stun": true,
+      "stun_values": [25, 26, 28, 29, 31],
+      "has_recovery": false,
+      "wait": 175
+    },
+    "burst": {
+      "name": "Perimeter Assault",
+      "description": "Before attacking, removes own negative effects. After attacking, restores the item gauge by {0}% and reduces own damage received by {1}% for 2 attacks.",
+      "summary": "Before attack, removes own negative effects. After attack, restores item gauge and reduces own damage received.",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91002004,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91000997,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001007,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "Prepared for Retaliation",
+      "description": "Becomes targeted by enemies much more easily. When hit by an attack, restores item gauge by {0}%.",
+      "effects": [
+        {
+          "id": 72001085,
+          "description": "[アイテムゲージ回復]",
+          "value": 500
+        },
+        {
+          "id": 72000914,
+          "description": "Raises odds of being targeted by 100%.",
+          "value": 10000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "Leader's Recovery Techniques",
+      "description": "After a party member uses a battle item, restores own HP by {0}%.<br>Note: Even when using multiple items at the same time, this effect will only activate once.",
+      "effects": [
+        {
+          "id": 72000950,
+          "description": "[Self/HP Recovery]",
+          "value": 1500
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
+  },
+  {
     "id": 29801,
     "name": "Odelia",
     "title": "Ancient Machina Doll",
@@ -7086,6 +7491,204 @@
       ]
     },
     "start_at": "2024-05-27T03:00:00.000Z"
+  },
+  {
+    "id": 30903,
+    "name": "Escha",
+    "title": "Challenging Worker",
+    "full_name": "Escha Malier",
+    "base_character": "Escha",
+    "is_alchemist": true,
+    "gender": "Female",
+    "attribute": "FIRE",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "A job request? Of course! Just leave it to me!",
+    "profile": {
+      "voice_actor": "Rie Murakawa",
+      "voice_text": "Wearing this outfit makes me feel ready for anything. I'll do my best to meet expectations!",
+      "description": "A hardworking and earnest alchemist. In her original world, she was a government official working under Marion. Even now, Marion often asks her for help. She is not very good at paperwork, but she finds that she gets more of it done than usual when she wears this outfit that Marion prepared for her.",
+      "origin_game": "Atelier Escha & Logy ~Alchemists of the Dusk Sky~"
+    },
+    "gift_color": {
+      "received": "Yellow",
+      "given": "Purple"
+    },
+    "battle_item_trait": [
+      {
+        "id": 18,
+        "name": "Fire Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "name": "Enhanced Last Attack",
+        "category": "ATTACK",
+        "description": "Boosts damage by {0}% on final use.",
+        "effects": [
+          {
+            "id": 3000108,
+            "description": "Boosts damage by {0}% on final use.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 28,
+        "name": "All-Target Attack Power Up",
+        "category": "ATTACK",
+        "description": "Boosts skill power by {0}% on attacks that hit all enemies.",
+        "effects": [
+          {
+            "id": 3000110,
+            "description": "Boosts skill power by {0}% on attacks that hit all enemies.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 142,
+        "spd": 244,
+        "patk": 57,
+        "matk": 64,
+        "pdef": 52,
+        "mdef": 48
+      },
+      "growth": {
+        "hp": 1420,
+        "spd": 0,
+        "patk": 570,
+        "matk": 640,
+        "pdef": 520,
+        "mdef": 480
+      },
+      "resistance": {
+        "fire": 5,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "Ether Bomb",
+      "description": "Before attacking, boosts own critical rate by {0}% (MAX 100%)",
+      "summary": "Before attack, boosts own critical rate.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001306,
+          "description": "",
+          "value": 2500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [68, 72, 76, 80, 85],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "Combat Etiquette",
+      "description": "Boosts this attack's critical damage by {0}%. If this attack defeats the target, converts own next panel into a burst panel. (Creates a burst panel if the panel is empty)",
+      "summary": "Boosts this attack's critical damage. If this attack defeats the target, converts own next panel into a burst panel.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000904,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001307,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [235, 249, 264, 278, 293],
+      "has_stun": true,
+      "stun_values": [28, 29, 31, 33, 35],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "Promised Seed",
+      "description": "Boosts this attack's critical damage by {0}%. After attacking, if own next panel is not a burst panel, converts it into a boost+ panel. (Creates a boost+ panel if the panel is empty)",
+      "summary": "Boosts this attack's critical damage. After attack, converts certain types of own panels into a boost+ panel.",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91000904,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001253,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "Counter Lockdown",
+      "description": "Nullifies damage received from counterattacks.",
+      "effects": [
+        {
+          "id": 72001083,
+          "description": "[自身/カウンター無効]",
+          "value": 0
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "Panel Up Plus III",
+      "description": "Boosts effects received from positive panels by {0}%.",
+      "effects": [
+        {
+          "id": 72001045,
+          "description": "state_change用",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
   },
   {
     "id": 31001,
@@ -8816,6 +9419,192 @@
       ]
     },
     "start_at": "2024-01-31T03:00:00.000Z"
+  },
+  {
+    "id": 33502,
+    "name": "Plachta",
+    "title": "Bewitching Vampire",
+    "full_name": "Plachta",
+    "base_character": "Plachta",
+    "is_alchemist": false,
+    "gender": "Female",
+    "attribute": "SLASH",
+    "role": "SUPPORTER",
+    "initial_rarity": 3,
+    "acquisition_text": "Everything in life is a challenge.\nSo come on, let's go collect some sweets!",
+    "profile": {
+      "voice_actor": "Yuka Iguchi",
+      "voice_text": "In this outfit, I seem more suited\nto practicing magic than alchemy.",
+      "description": "An alchemist who transferred her soul into a doll. The doll's body requires regular maintenance, which is usually done by Sophie. Updating her outfit and parts during this maintenance allows for various changes to Plachta's abilities. This outfit specializes in mischief, and when combined with the creativity fostered by alchemy, it is great at surprising those around her.",
+      "origin_game": "Atelier Sophie ~The Alchemist of the Mysterious Book~"
+    },
+    "gift_color": {
+      "received": "Blue",
+      "given": "Red"
+    },
+    "battle_item_trait": [
+      {
+        "id": 2,
+        "name": "Slash Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Slash damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000002,
+            "description": "Boosts Slash damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "Single Recovery Bonus",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to a single ally by {0}%.",
+        "effects": [
+          {
+            "id": 3000073,
+            "description": "Boosts HP recovery given to a single ally by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 10,
+        "name": "Physical Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts physical skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000008,
+            "description": "Boosts physical attack damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 133,
+        "spd": 257,
+        "patk": 59,
+        "matk": 50,
+        "pdef": 59,
+        "mdef": 50
+      },
+      "growth": {
+        "hp": 1330,
+        "spd": 0,
+        "patk": 590,
+        "matk": 500,
+        "pdef": 590,
+        "mdef": 500
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 5,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "Knock Slash",
+      "description": "After attacking, reduces all allies' physical attack damage received by {0}% for 1 attack.",
+      "summary": "After attacking, reduces all allies' physical attack damage received.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001045,
+          "description": "",
+          "value": 500
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [44, 46, 49, 52, 55],
+      "has_stun": true,
+      "stun_values": [5, 5, 5, 5, 6],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "Ghost Party",
+      "description": "Randomly grants one of the following effects to each ally 4 times: <br>- Boosts skill damage by {0}% for 1 turn.<br>- Boosts stun damage by {0}% for 1 turn.<br>- Reduces damage received by {0}% for one attack.",
+      "summary": "Grants a random effect to each ally 4 times.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001052,
+          "description": "",
+          "value": 600
+        }
+      ],
+      "attribute_type": "NONE",
+      "attribute": "SLASH",
+      "target": "ALLY",
+      "range": "ALL",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "Trick or Treat",
+      "description": "After attacking, randomly grants one of the following effects to each ally 4 times: <br>- Boosts skill damage by {0}% for 1 turn.<br>- Boosts stun damage by {0}% for 1 turn.<br>- Reduces damage received by {0}% for one attack.",
+      "summary": "After attacking, grants a random effect to each ally 4 times.",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001052,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [400, 400, 400, 425, 450, 475, 500],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "Destructive Overload II",
+      "description": "Boosts skill damage by {0}% for all allies.",
+      "effects": [
+        {
+          "id": 72000922,
+          "description": "",
+          "value": 2000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "Poison Resist Up",
+      "description": "Boosts Poison resistance by {0}%.",
+      "effects": [
+        {
+          "id": 72001062,
+          "description": "[自身/毒耐性上昇付与]",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2024-09-06T03:00:00.000Z"
   },
   {
     "id": 33601,
@@ -11353,6 +12142,224 @@
     "start_at": "2024-07-26T03:00:00.000Z"
   },
   {
+    "id": 39904,
+    "name": "ライザ",
+    "title": "【Sunlit Beach】",
+    "full_name": "ライザリン・シュタウト",
+    "base_character": "Ryza",
+    "is_alchemist": true,
+    "gender": "Female",
+    "attribute": "ICE",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "海の向こうの知らない世界、\n一緒に見に行こう！",
+    "profile": {
+      "voice_actor": "Yuri Noguchi",
+      "voice_text": "泳ぐ準備はバッチリ！\n海の底に眠る素材、いっぱい集めるぞー！",
+      "description": "自由奔放な錬金術士の少女。 \n好奇心旺盛な彼女は華やかな水着に身を包み、新たな夏へ飛び込んだ。 \nいつもの帽子を想起させるスカーフは、本人のこだわり。 \n太陽を反射してきらめく砂浜が、彼女の存在を引き立たせる。",
+      "origin_game": "Atelier Ryza: Ever Darkness & the Secret Hideout"
+    },
+    "gift_color": {
+      "received": "Purple",
+      "given": "Green"
+    },
+    "battle_item_trait": [
+      {
+        "id": 7,
+        "name": "Ice Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Ice damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "Boosts Ice damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "Critical Finish",
+        "category": "ENHANCE",
+        "description": "Boosts critical rate by {0}% for 1 turn.",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "Boosts critical rate by {0}% for 1 turn.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 7,
+        "name": "Ice Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Ice skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "Boosts Ice damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 150,
+        "spd": 243,
+        "patk": 53,
+        "matk": 67,
+        "pdef": 47,
+        "mdef": 47
+      },
+      "growth": {
+        "hp": 1500,
+        "spd": 0,
+        "patk": 530,
+        "matk": 670,
+        "pdef": 470,
+        "mdef": 470
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 5,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "サマーソルト",
+      "description": "攻撃後、アイテムゲージを{0}%回復し、<br>自身に「魔攻+{1}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、アイテムゲージを回復<br>自身の魔攻アップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91002004,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91001020,
+          "description": "Boosts M. ATK for 1 turn.",
+          "value": 1500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [69, 73, 77, 81, 86],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "トリプルスピア",
+      "description": "攻撃前、対象に「氷属性耐性-{0}%」を2回攻撃を受けるまで付与<br>「トリプルスピア」はスキルランプを持ち、点灯数が2個の時、効果内容が変化する<br>スキルランプは最大2個点灯できる<br><br>スキルランプの点灯数が2個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が2個の時、<br>この攻撃の貫通力+{1}し、<br>攻撃後、スキルランプを全て消灯する",
+      "summary": "攻撃前、対象の氷属性耐性ダウン<br>スキルランプの点灯数が2個未満の時、攻撃後、スキルランプを1個点灯する<br>スキルランプの点灯数が2個の時、この攻撃の貫通力アップし、攻撃後、スキルランプを全て消灯する",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000935,
+          "description": "",
+          "value": 3500
+        },
+        {
+          "id": 91001328,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001329,
+          "description": "",
+          "value": 100
+        },
+        {
+          "id": 91001330,
+          "description": "",
+          "value": 200
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [141, 149, 158, 167, 176],
+      "has_stun": true,
+      "stun_values": [11, 11, 12, 12, 13],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "サンシャインスプラッシュ",
+      "description": "この攻撃の貫通力+{0}<br>攻撃前、自身に「スキルダメージ+{1}%」を付与(上限100%)",
+      "summary": "この攻撃の貫通力アップ<br>攻撃前、自身のスキルダメージアップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001337,
+          "description": "",
+          "value": 20000
+        },
+        {
+          "id": 91001331,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "ひと夏のハイジャンプ",
+      "description": "バトル開始時、「トリプルスピア」のスキルランプを2個点灯する<br>パーティの誰かが戦闘アイテム使用後、「トリプルスピア」のスキルランプを1個点灯する<br>※アイテムを複数同時に使用しても点灯は1個",
+      "effects": [
+        {
+          "id": 72001094,
+          "description": "[スキルランプ点灯]",
+          "value": 200
+        },
+        {
+          "id": 72001094,
+          "description": "[スキルランプ点灯]",
+          "value": 100
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "トドメのサーブ",
+      "description": "When attack target is stunned, boosts skill damage by {0}%.",
+      "effects": [
+        {
+          "id": 72000954,
+          "description": "[自身/攻撃対象がブレイク中/与ダメージアップ]",
+          "value": 5000
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
+  },
+  {
     "id": 40001,
     "name": "Klaudia",
     "title": "One Summer Melody",
@@ -13491,6 +14498,209 @@
     "start_at": "2024-07-16T03:00:00.000Z"
   },
   {
+    "id": 43105,
+    "name": "レスナ",
+    "title": "【Pretty Summer】",
+    "full_name": "レスナ・シュテルネンリヒト",
+    "base_character": "Resna",
+    "is_alchemist": true,
+    "gender": "Female",
+    "attribute": "BOLT",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "燦々と照らす太陽にも負けないくらい\n私ももっと輝いてみせます！",
+    "profile": {
+      "voice_actor": "Saho Shirasu",
+      "voice_text": "強い日差しは得意じゃなかったけど……\nこの水着で乗り切ってみせる！",
+      "description": "駆け出しの錬金術士。\n錬金術復興を夢見て、日々奔走中。\n夏を楽しむため、親友のイザナに選んでもらった宝物の水着を身につけた。\n妖精を思わせる可憐な姿でも、日差し対策の麦わら帽子は欠かせない。",
+      "origin_game": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
+    },
+    "gift_color": {
+      "received": "Blue",
+      "given": "Yellow"
+    },
+    "battle_item_trait": [
+      {
+        "id": 21,
+        "name": "Bolt Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Bolt resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000061,
+            "description": "Reduces target's Bolt resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Bolt Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Bolt resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000068,
+            "description": "Boosts target's Bolt resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 13,
+        "name": "Stun Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts stun damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000012,
+            "description": "Boosts stun damage by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 142,
+        "spd": 250,
+        "patk": 51,
+        "matk": 62,
+        "pdef": 47,
+        "mdef": 47
+      },
+      "growth": {
+        "hp": 1420,
+        "spd": 0,
+        "patk": 510,
+        "matk": 620,
+        "pdef": 470,
+        "mdef": 470
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 5,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "ブリッツワンド",
+      "description": "After attacking, boosts own stun damage by {0}% (MAX 20%) and boosts own stun damage by {1}% for 1 turn.",
+      "summary": "After attacking, boosts own stun damage.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001343,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91000908,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [38, 40, 42, 44, 47],
+      "has_stun": true,
+      "stun_values": [16, 17, 18, 19, 20],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "ライトニングケージ",
+      "description": "攻撃前、対象に「雷属性耐性-{0}%」を2回攻撃を受けるまで付与し、<br>攻撃後、対象に「受けるクリティカルダメージ+{1}%」を1回攻撃を受けるまで付与",
+      "summary": "攻撃前、対象の雷属性耐性ダウン<br>攻撃後、対象の受けるクリティカルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001326,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001327,
+          "description": "",
+          "value": 3500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [88, 93, 99, 104, 110],
+      "has_stun": true,
+      "stun_values": [46, 48, 51, 54, 57],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "波乗りマリンウェーブ",
+      "description": "攻撃後、対象に「受ける魔法攻撃ダメージ+{0}%」を1回攻撃を受けるまで付与<br>対象がブレイク時、魔攻が最も高い味方1人に「魔攻+{1}%」を1回行動終了するまで付与",
+      "summary": "After attack, boosts target's magic attack damage received. When target is stunned, boosts an ally's M. ATK.",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001344,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001264,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [172, 172, 172, 182, 193, 204, 215],
+      "has_stun": true,
+      "stun_values": [110, 110, 110, 116, 123, 130, 137],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "禍を転じて福と為す",
+      "description": "バトル中、タイムラインに出現する弱体系パネル全てを麦わらパネルに変換する(変換・生成されたパネルは除く)<br>自身が麦わらパネル獲得時、バーストスキルを発動できる",
+      "effects": [
+        {
+          "id": 72001096,
+          "description": "[出現する弱体系パネル/麦わらパネルに変換]",
+          "value": 0
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "サマーマジック",
+      "description": "攻撃対象がブレイク時、味方全員に「魔攻+{0}%」を1回行動終了するまで付与",
+      "effects": [
+        {
+          "id": 72001093,
+          "description": "[味方全員/ブレイク時/1回/魔攻アップ]",
+          "value": 2000
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
+  },
+  {
     "id": 43201,
     "name": "Valeria",
     "title": "Dreamer of the Past",
@@ -14125,6 +15335,199 @@
     "start_at": "2024-06-10T03:00:00.000Z"
   },
   {
+    "id": 43204,
+    "name": "ヴァレリア",
+    "title": "【Radiant Summer】",
+    "full_name": "ヴァレリア",
+    "base_character": "Valeria",
+    "is_alchemist": true,
+    "gender": "Female",
+    "attribute": "BOLT",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "さ、泳ぎに行きましょ！\n水場に潜む敵だって、私が倒してみせるわ！",
+    "profile": {
+      "voice_actor": "Manami Numakura",
+      "voice_text": "泳ぎは得意なのよ。水中での戦闘も任せて！\n我ながら適応力あるぅー",
+      "description": "美しき記憶喪失の戦士。\n水着の必要性を特に感じていなかったが、見事に着こなす姿に、周囲の人々の視線は釘付け。\n着てみるととても身軽で動きやすく、先手必勝を信条とする本人もその機能性に満足している。",
+      "origin_game": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
+    },
+    "gift_color": {
+      "received": "Yellow",
+      "given": "Red"
+    },
+    "battle_item_trait": [
+      {
+        "id": 9,
+        "name": "Bolt Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Bolt damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "Boosts Bolt damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "P. DEF Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts P. DEF by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "Boosts P. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 9,
+        "name": "Bolt Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Bolt skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "Boosts Bolt damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 142,
+        "spd": 238,
+        "patk": 55,
+        "matk": 63,
+        "pdef": 54,
+        "mdef": 50
+      },
+      "growth": {
+        "hp": 1420,
+        "spd": 0,
+        "patk": 550,
+        "matk": 630,
+        "pdef": 540,
+        "mdef": 500
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 5,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "ゾマクリンゲ",
+      "description": "Before attacking, boosts own critical rate by {0}% (MAX 100%)",
+      "summary": "Before attack, boosts own critical rate.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001332,
+          "description": "",
+          "value": 2500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [74, 78, 83, 87, 92],
+      "has_stun": true,
+      "stun_values": [7, 7, 7, 7, 8],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "シーセンフラッター",
+      "description": "強化系パネル獲得時、この攻撃のクリティカル確率+{0}%<br>クリティカル攻撃後、自身に「スキルダメージ+{1}%」を付与(上限100%)",
+      "summary": "強化系パネル獲得時、この攻撃のクリティカル確率アップ。クリティカル攻撃後、自身のスキルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001247,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001334,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [342, 363, 384, 405, 427],
+      "has_stun": true,
+      "stun_values": [42, 44, 47, 49, 52],
+      "has_recovery": false,
+      "wait": 300
+    },
+    "burst": {
+      "name": "オーツェアーンスピナー",
+      "description": "この攻撃はクリティカル確率+100%<br>攻撃後、自身に「大はしゃぎ」を1回行動終了するまで付与<br>※大はしゃぎは戦闘アイテムから受ける強化効果量+50%",
+      "summary": "この攻撃のクリティカル確率アップ<br>攻撃後、自身に「大はしゃぎ」を付与",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001335,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 300
+    },
+    "passive_1": {
+      "name": "イイ波乗ってこう！",
+      "description": "バトル中、タイムラインに出現する強化系パネル全てを浮き輪パネルに変換する(変換・生成されたパネルは除く)<br>自身が浮き輪パネル獲得時、バーストスキルを発動できる",
+      "effects": [
+        {
+          "id": 72001097,
+          "description": "[自然発生した強化系パネル/浮き輪パネルに変換]",
+          "value": 0
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "超えるホットリミット",
+      "description": "自身のクリティカル確率が100%を超えている場合、攻撃時、100%を超えたクリティカル確率の上昇量をクリティカルダメージアップに変換(変換上限300%)",
+      "effects": [
+        {
+          "id": 72001098,
+          "description": "[自身/余剰クリティカル率変換]",
+          "value": 30000
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
+  },
+  {
     "id": 43301,
     "name": "Roman",
     "title": "Romance Hearts",
@@ -14321,6 +15724,209 @@
       ]
     },
     "start_at": "2024-05-06T03:00:00.000Z"
+  },
+  {
+    "id": 43302,
+    "name": "Roman",
+    "title": "Secret Fellow",
+    "full_name": "Roman Kalman",
+    "base_character": "Roman",
+    "is_alchemist": false,
+    "gender": "Male",
+    "attribute": "ICE",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "I'll even go under the cover of darkness if it means achieving my goal. That's just the way I do it.",
+    "profile": {
+      "voice_actor": "Yuya Hirose",
+      "voice_text": "I'm known for my stealth. I'll prove it by succeeding in this mission.",
+      "description": "A playful and kind young man. He is a kindred spirit to Resna and aims to revive alchemy alongside her. He claims to be skilled at hiding his identity and volunteered to infiltrate the Moonlight Society. He often tells others, \"This outfit also suits me, don't you think? A handsome man looks good in anything,\" but no one has agreed with him just yet.",
+      "origin_game": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
+    },
+    "gift_color": {
+      "received": "Red",
+      "given": "Purple"
+    },
+    "battle_item_trait": [
+      {
+        "id": 19,
+        "name": "Ice Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000060,
+            "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "M. DEF Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts M. DEF by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000051,
+            "description": "Boosts M. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 15,
+        "name": "Magic Stun Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts magic stun damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000014,
+            "description": "Boosts magic stun damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 142,
+        "spd": 246,
+        "patk": 51,
+        "matk": 62,
+        "pdef": 51,
+        "mdef": 46
+      },
+      "growth": {
+        "hp": 1420,
+        "spd": 0,
+        "patk": 510,
+        "matk": 620,
+        "pdef": 510,
+        "mdef": 460
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 5,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "Glaçon",
+      "description": "After attacking, boosts own stun damage by {0}% (MAX 20%) and boosts own stun damage by {1}% for 1 turn.",
+      "summary": "After attacking, boosts own stun damage.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001317,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91000908,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [42, 44, 47, 49, 52],
+      "has_stun": true,
+      "stun_values": [16, 17, 18, 19, 20],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "Lame Fatale",
+      "description": "Before attacking, reduces the target's Ice resistance by {0}% for 2 attacks. After attacking, inflicts panel immunity on target for 1 turn.<br>Note: Panel immunity causes all panels other than burst panels to have no effect.",
+      "summary": "Before attack, reduces the target's Ice resistance. After attack, inflicts panel immunity on target.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000935,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001256,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [91, 96, 102, 107, 113],
+      "has_stun": true,
+      "stun_values": [47, 49, 52, 55, 58],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "Fantômes d'un Blizzard",
+      "description": "Before attacking, reduces target's Ice resistance by {0}% for 2 attacks. After attacking, boosts target's magic attack damage received by {1}% for 2 attacks.",
+      "summary": "Before attack, reduces target's Ice resistance. After attack, boosts target's magic attack damage received.",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91000935,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001263,
+          "description": "",
+          "value": 3000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [320, 320, 320, 340, 360, 380, 400],
+      "has_stun": true,
+      "stun_values": [300, 300, 300, 318, 337, 356, 375],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "Phantom Magic",
+      "description": "When attack target is stunned, boosts target's damage received from magic attacks by {0}% for 2 attacks.",
+      "effects": [
+        {
+          "id": 72001089,
+          "description": "[敵対象/ブレイク時/2回/被魔法ダメージアップ]",
+          "value": 2500
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "Royal Technique",
+      "description": "When using a positive panel, boosts own stun damage by {0}% for 1 turn.",
+      "effects": [
+        {
+          "id": 72001090,
+          "description": "[自身/1回/プラスパネル獲得時/ブレイクダメージアップ]",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2049-12-31T16:00:00.000Z"
   },
   {
     "id": 43401,

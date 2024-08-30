@@ -10042,6 +10042,234 @@
     "end_at": null
   },
   {
+    "id": 189,
+    "name": "萬聖節南瓜",
+    "rarity": 2,
+    "color": "紅",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 49,
+        "name": "物理/魔法耐性上升強化",
+        "category": "ENHANCE",
+        "description": "目標賦予的「所受物理傷害下降」與「所受魔法傷害下降」的效果量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000028,
+            "description": "目標賦予的「所受物理傷害下降」與「所受魔法傷害下降」的效果量上升{0}%。",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "name": "魔法傷害上升【滿血】",
+        "category": "ATTACK",
+        "description": "HP全滿時，魔法攻擊傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000100,
+            "description": "HP為最大值時，給予的魔法屬性傷害上升{0}%。",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 4,
+      "name": "決戰！萬聖節噗尼"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 404001,
+        "quest_name": "決戰！萬聖節噗尼1",
+        "episode_id": 404,
+        "episode_name": "決戰！萬聖節噗尼"
+      },
+      {
+        "quest_id": 404002,
+        "quest_name": "決戰！萬聖節噗尼2",
+        "episode_id": 404,
+        "episode_name": "決戰！萬聖節噗尼"
+      },
+      {
+        "quest_id": 404003,
+        "quest_name": "決戰！萬聖節噗尼3",
+        "episode_id": 404,
+        "episode_name": "決戰！萬聖節噗尼"
+      },
+      {
+        "quest_id": 404004,
+        "quest_name": "決戰！萬聖節噗尼4",
+        "episode_id": 404,
+        "episode_name": "決戰！萬聖節噗尼"
+      },
+      {
+        "quest_id": 404005,
+        "quest_name": "決戰！萬聖節噗尼5",
+        "episode_id": 404,
+        "episode_name": "決戰！萬聖節噗尼"
+      },
+      {
+        "quest_id": 404006,
+        "quest_name": "決戰！萬聖節噗尼6",
+        "episode_id": 404,
+        "episode_name": "決戰！萬聖節噗尼"
+      },
+      {
+        "quest_id": 404007,
+        "quest_name": "決戰！萬聖節噗尼7",
+        "episode_id": 404,
+        "episode_name": "決戰！萬聖節噗尼"
+      },
+      {
+        "quest_id": 404008,
+        "quest_name": "決戰！萬聖節噗尼8",
+        "episode_id": 404,
+        "episode_name": "決戰！萬聖節噗尼"
+      },
+      {
+        "quest_id": 404009,
+        "quest_name": "決戰！萬聖節噗尼9",
+        "episode_id": 404,
+        "episode_name": "決戰！萬聖節噗尼"
+      },
+      {
+        "quest_id": 404010,
+        "quest_name": "決戰！萬聖節噗尼1０",
+        "episode_id": 404,
+        "episode_name": "決戰！萬聖節噗尼"
+      }
+    ],
+    "image_small": "Ingredient_0189_S",
+    "image_medium": "Ingredient_0189_M",
+    "start_at": "2024-09-06T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 190,
+    "name": "萬聖節樹",
+    "rarity": 3,
+    "color": "紫",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [
+      {
+        "id": 34,
+        "name": "噗尼特防",
+        "category": "ENHANCE",
+        "description": "賦予目標「來自噗尼種族的傷害下降{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000089,
+            "description": "賦予目標「來自噗尼種族的傷害下降{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "強大的回復量",
+        "category": "RECOVERY",
+        "description": "賦予HP回復量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000075,
+            "description": "賦予HP回復量上升{0}%。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 4,
+      "name": "決戰！萬聖節噗尼"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 404008,
+        "quest_name": "決戰！萬聖節噗尼8",
+        "episode_id": 404,
+        "episode_name": "決戰！萬聖節噗尼"
+      },
+      {
+        "quest_id": 404010,
+        "quest_name": "決戰！萬聖節噗尼1０",
+        "episode_id": 404,
+        "episode_name": "決戰！萬聖節噗尼"
+      }
+    ],
+    "image_small": "Ingredient_0190_S",
+    "image_medium": "Ingredient_0190_M",
+    "start_at": "2024-09-06T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 191,
+    "name": "萬聖節蟲",
+    "rarity": 3,
+    "color": "黃",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [
+      {
+        "id": 29,
+        "name": "噗尼特攻",
+        "category": "ATTACK",
+        "description": "給予噗尼種族的傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000079,
+            "description": "給予噗尼種族的傷害上升{0}%。",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "斬之詛咒",
+        "category": "WEAKENING",
+        "description": "賦予目標「斬屬性耐性下降{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000063,
+            "description": "賦予目標「斬屬性耐性下降{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 4,
+      "name": "決戰！萬聖節噗尼"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 404009,
+        "quest_name": "決戰！萬聖節噗尼9",
+        "episode_id": 404,
+        "episode_name": "決戰！萬聖節噗尼"
+      },
+      {
+        "quest_id": 404010,
+        "quest_name": "決戰！萬聖節噗尼1０",
+        "episode_id": 404,
+        "episode_name": "決戰！萬聖節噗尼"
+      }
+    ],
+    "image_small": "Ingredient_0191_S",
+    "image_medium": "Ingredient_0191_M",
+    "start_at": "2024-09-06T03:00:00.000Z",
+    "end_at": null
+  },
+  {
     "id": 199,
     "name": "赤曜礦",
     "rarity": 1,
@@ -12261,14 +12489,20 @@
         "episode_name": "莉迪＆蘇瑞的日常～兩人描繪的家族回憶～"
       },
       {
-        "quest_id": 503007,
-        "quest_name": "莉迪＆蘇瑞的日常7",
+        "quest_id": 503005,
+        "quest_name": "莉迪＆蘇瑞的日常5",
         "episode_id": 503,
         "episode_name": "莉迪＆蘇瑞的日常～兩人描繪的家族回憶～"
       },
       {
-        "quest_id": 503010,
-        "quest_name": "莉迪＆蘇瑞的日常10",
+        "quest_id": 503008,
+        "quest_name": "莉迪＆蘇瑞的日常8",
+        "episode_id": 503,
+        "episode_name": "莉迪＆蘇瑞的日常～兩人描繪的家族回憶～"
+      },
+      {
+        "quest_id": 503009,
+        "quest_name": "莉迪＆蘇瑞的日常9",
         "episode_id": 503,
         "episode_name": "莉迪＆蘇瑞的日常～兩人描繪的家族回憶～"
       }
@@ -12327,8 +12561,14 @@
         "episode_name": "莉迪＆蘇瑞的日常～兩人描繪的家族回憶～"
       },
       {
-        "quest_id": 503005,
-        "quest_name": "莉迪＆蘇瑞的日常5",
+        "quest_id": 503004,
+        "quest_name": "莉迪＆蘇瑞的日常4",
+        "episode_id": 503,
+        "episode_name": "莉迪＆蘇瑞的日常～兩人描繪的家族回憶～"
+      },
+      {
+        "quest_id": 503006,
+        "quest_name": "莉迪＆蘇瑞的日常6",
         "episode_id": 503,
         "episode_name": "莉迪＆蘇瑞的日常～兩人描繪的家族回憶～"
       },
@@ -12399,20 +12639,20 @@
         "episode_name": "莉迪＆蘇瑞的日常～兩人描繪的家族回憶～"
       },
       {
-        "quest_id": 503006,
-        "quest_name": "莉迪＆蘇瑞的日常6",
+        "quest_id": 503004,
+        "quest_name": "莉迪＆蘇瑞的日常4",
         "episode_id": 503,
         "episode_name": "莉迪＆蘇瑞的日常～兩人描繪的家族回憶～"
       },
       {
-        "quest_id": 503009,
-        "quest_name": "莉迪＆蘇瑞的日常9",
+        "quest_id": 503007,
+        "quest_name": "莉迪＆蘇瑞的日常7",
         "episode_id": 503,
         "episode_name": "莉迪＆蘇瑞的日常～兩人描繪的家族回憶～"
       },
       {
-        "quest_id": 503010,
-        "quest_name": "莉迪＆蘇瑞的日常10",
+        "quest_id": 503008,
+        "quest_name": "莉迪＆蘇瑞的日常8",
         "episode_id": 503,
         "episode_name": "莉迪＆蘇瑞的日常～兩人描繪的家族回憶～"
       }
@@ -12465,14 +12705,8 @@
     "available_from": "SCORE_BATTLES",
     "source_locations": [
       {
-        "quest_id": 503007,
-        "quest_name": "莉迪＆蘇瑞的日常7",
-        "episode_id": 503,
-        "episode_name": "莉迪＆蘇瑞的日常～兩人描繪的家族回憶～"
-      },
-      {
-        "quest_id": 503010,
-        "quest_name": "莉迪＆蘇瑞的日常10",
+        "quest_id": 503009,
+        "quest_name": "莉迪＆蘇瑞的日常9",
         "episode_id": 503,
         "episode_name": "莉迪＆蘇瑞的日常～兩人描繪的家族回憶～"
       }
@@ -12524,12 +12758,6 @@
     },
     "available_from": "SCORE_BATTLES",
     "source_locations": [
-      {
-        "quest_id": 503008,
-        "quest_name": "莉迪＆蘇瑞的日常8",
-        "episode_id": 503,
-        "episode_name": "莉迪＆蘇瑞的日常～兩人描繪的家族回憶～"
-      },
       {
         "quest_id": 503010,
         "quest_name": "莉迪＆蘇瑞的日常10",
@@ -12583,20 +12811,7 @@
       "name": "莉迪＆蘇瑞的日常～兩人描繪的家族回憶～"
     },
     "available_from": "SCORE_BATTLES",
-    "source_locations": [
-      {
-        "quest_id": 503009,
-        "quest_name": "莉迪＆蘇瑞的日常9",
-        "episode_id": 503,
-        "episode_name": "莉迪＆蘇瑞的日常～兩人描繪的家族回憶～"
-      },
-      {
-        "quest_id": 503010,
-        "quest_name": "莉迪＆蘇瑞的日常10",
-        "episode_id": 503,
-        "episode_name": "莉迪＆蘇瑞的日常～兩人描繪的家族回憶～"
-      }
-    ],
+    "source_locations": [],
     "image_small": "Ingredient_0236_S",
     "image_medium": "Ingredient_0236_M",
     "start_at": "2024-03-15T03:00:00.000Z",
@@ -15947,6 +16162,12 @@
         "quest_name": "瑪莉的招福大作戰！10",
         "episode_id": 904,
         "episode_name": "瑪莉的招福大作戰！"
+      },
+      {
+        "quest_id": 4304100,
+        "quest_name": "夜空に笑顔が咲いた夏１",
+        "episode_id": 4304,
+        "episode_name": "海の家"
       }
     ],
     "image_small": "Ingredient_0299_S",
@@ -29908,7 +30129,7 @@
     ],
     "image_small": "Ingredient_0545_S",
     "image_medium": "Ingredient_0545_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-09-02T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -29980,7 +30201,7 @@
     ],
     "image_small": "Ingredient_0546_S",
     "image_medium": "Ingredient_0546_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-09-02T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -30052,7 +30273,7 @@
     ],
     "image_small": "Ingredient_0547_S",
     "image_medium": "Ingredient_0547_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-09-02T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -30112,7 +30333,7 @@
     ],
     "image_small": "Ingredient_0548_S",
     "image_medium": "Ingredient_0548_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-09-02T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -30172,7 +30393,7 @@
     ],
     "image_small": "Ingredient_0549_S",
     "image_medium": "Ingredient_0549_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-09-02T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -30232,7 +30453,7 @@
     ],
     "image_small": "Ingredient_0550_S",
     "image_medium": "Ingredient_0550_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-09-02T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -32594,6 +32815,3132 @@
     ],
     "image_small": "Ingredient_0584_S",
     "image_medium": "Ingredient_0584_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 589,
+    "name": "黏芋",
+    "rarity": 2,
+    "color": "黃",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [
+      {
+        "id": 6,
+        "name": "火之祝福",
+        "category": "ATTACK",
+        "description": "火屬性傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "火屬性傷害上升{0}%。",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "火之盾",
+        "category": "ENHANCE",
+        "description": "賦予目標「火屬性耐性上升{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000066,
+            "description": "賦予目標「火屬性耐性上升{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 41,
+      "name": "發生事件！奔出辦公室！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 410301,
+        "quest_name": "發生事件！奔出辦公室！1",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      },
+      {
+        "quest_id": 410304,
+        "quest_name": "發生事件！奔出辦公室！4",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      },
+      {
+        "quest_id": 410305,
+        "quest_name": "發生事件！奔出辦公室！5",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      },
+      {
+        "quest_id": 410308,
+        "quest_name": "發生事件！奔出辦公室！8",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      },
+      {
+        "quest_id": 410309,
+        "quest_name": "發生事件！奔出辦公室！9",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      },
+      {
+        "quest_id": 410312,
+        "quest_name": "發生事件！奔出辦公室！12",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      }
+    ],
+    "image_small": "Ingredient_0589_S",
+    "image_medium": "Ingredient_0589_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 590,
+    "name": "蒼白黏土",
+    "rarity": 2,
+    "color": "藍",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 35,
+        "name": "魔法耐性上升【滿血】",
+        "category": "ENHANCE",
+        "description": "HP全滿時，所受魔法攻擊傷害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000104,
+            "description": "HP為最大值時，魔法屬性傷害耐性上升{0}%。",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "name": "精靈傷害減輕",
+        "category": "ENHANCE",
+        "description": "來自精靈種族的傷害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000087,
+            "description": "賦予目標來自精靈種族的傷害下降{0}%（1次）。",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 41,
+      "name": "發生事件！奔出辦公室！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 410302,
+        "quest_name": "發生事件！奔出辦公室！2",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      },
+      {
+        "quest_id": 410304,
+        "quest_name": "發生事件！奔出辦公室！4",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      },
+      {
+        "quest_id": 410306,
+        "quest_name": "發生事件！奔出辦公室！6",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      },
+      {
+        "quest_id": 410308,
+        "quest_name": "發生事件！奔出辦公室！8",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      },
+      {
+        "quest_id": 410310,
+        "quest_name": "發生事件！奔出辦公室！10",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      },
+      {
+        "quest_id": 410312,
+        "quest_name": "發生事件！奔出辦公室！12",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      }
+    ],
+    "image_small": "Ingredient_0590_S",
+    "image_medium": "Ingredient_0590_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 591,
+    "name": "螢光石",
+    "rarity": 2,
+    "color": "綠",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [
+      {
+        "id": 46,
+        "name": "全體回復獎勵",
+        "category": "RECOVERY",
+        "description": "全體回復時賦予的HP回復量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全體回復時賦予的HP回復量上升{0}%。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "火之詛咒",
+        "category": "WEAKENING",
+        "description": "賦予目標「火屬性耐性下降{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "賦予目標「火屬性耐性下降{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 41,
+      "name": "發生事件！奔出辦公室！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 410303,
+        "quest_name": "發生事件！奔出辦公室！3",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      },
+      {
+        "quest_id": 410304,
+        "quest_name": "發生事件！奔出辦公室！4",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      },
+      {
+        "quest_id": 410307,
+        "quest_name": "發生事件！奔出辦公室！7",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      },
+      {
+        "quest_id": 410308,
+        "quest_name": "發生事件！奔出辦公室！8",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      },
+      {
+        "quest_id": 410311,
+        "quest_name": "發生事件！奔出辦公室！11",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      },
+      {
+        "quest_id": 410312,
+        "quest_name": "發生事件！奔出辦公室！12",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      }
+    ],
+    "image_small": "Ingredient_0591_S",
+    "image_medium": "Ingredient_0591_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 592,
+    "name": "活黏土",
+    "rarity": 3,
+    "color": "紅",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 60,
+        "name": "重擊傷害上升",
+        "category": "ATTACK",
+        "description": "重擊傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 13000011,
+            "description": "重擊傷害上升。",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "name": "魔法傷害上升【殘血】",
+        "category": "ATTACK",
+        "description": "HP在50%以下時，魔法攻擊傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000099,
+            "description": "HP在50%以下時，給予的魔法屬性傷害上升{0}%。",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 41,
+      "name": "發生事件！奔出辦公室！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 410309,
+        "quest_name": "發生事件！奔出辦公室！9",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      },
+      {
+        "quest_id": 410312,
+        "quest_name": "發生事件！奔出辦公室！12",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      }
+    ],
+    "image_small": "Ingredient_0592_S",
+    "image_medium": "Ingredient_0592_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 593,
+    "name": "蜂蜜罌粟花",
+    "rarity": 3,
+    "color": "藍",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [
+      {
+        "id": 18,
+        "name": "火之詛咒",
+        "category": "WEAKENING",
+        "description": "賦予目標「火屬性耐性下降{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "賦予目標「火屬性耐性下降{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "重擊成果",
+        "category": "ENHANCE",
+        "description": "賦予「重擊率上升{0}%」，直到行動結束1次為止。",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "賦予「重擊率上升{0}%」，直到行動結束1次為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 41,
+      "name": "發生事件！奔出辦公室！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 410310,
+        "quest_name": "發生事件！奔出辦公室！10",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      },
+      {
+        "quest_id": 410312,
+        "quest_name": "發生事件！奔出辦公室！12",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      }
+    ],
+    "image_small": "Ingredient_0593_S",
+    "image_medium": "Ingredient_0593_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 594,
+    "name": "灼熱熔礦石",
+    "rarity": 3,
+    "color": "紫",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 45,
+        "name": "傷害增益強化【A】",
+        "category": "ENHANCE",
+        "description": "賦予攻擊者的傷害強化效果量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000017,
+            "description": "對攻擊者的傷害增益上升{0}%。",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "name": "魔法傷害上升【滿血】",
+        "category": "ATTACK",
+        "description": "HP全滿時，魔法攻擊傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000100,
+            "description": "HP為最大值時，給予的魔法屬性傷害上升{0}%。",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 41,
+      "name": "發生事件！奔出辦公室！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 410311,
+        "quest_name": "發生事件！奔出辦公室！11",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      },
+      {
+        "quest_id": 410312,
+        "quest_name": "發生事件！奔出辦公室！12",
+        "episode_id": 4103,
+        "episode_name": "發生事件！奔出辦公室！"
+      }
+    ],
+    "image_small": "Ingredient_0594_S",
+    "image_medium": "Ingredient_0594_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 597,
+    "name": "黏銀絲",
+    "rarity": 2,
+    "color": "藍",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 42,
+        "name": "魔法耐性上升【D】",
+        "category": "ENHANCE",
+        "description": "對防禦者的魔法攻擊傷害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000034,
+            "description": "防禦者的魔法屬性傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "全體回復量上升",
+        "category": "RECOVERY",
+        "description": "我方全體回復時賦予的HP回復量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全體回復時賦予的HP回復量上升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204114001,
+        "quest_name": "一探大洞【藍】",
+        "difficulty": "NORMAL",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204114005,
+        "quest_name": "一探大洞【藍】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0597_S",
+    "image_medium": "Ingredient_0597_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 598,
+    "name": "焦菇",
+    "rarity": 2,
+    "color": "綠",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 7,
+        "name": "冰傷害上升",
+        "category": "ATTACK",
+        "description": "冰屬性技能傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "冰屬性傷害上升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "物理耐性上升",
+        "category": "ENHANCE",
+        "description": "所受物理攻擊傷害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "物理屬性傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204114002,
+        "quest_name": "消滅看門犬【綠】",
+        "difficulty": "NORMAL",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204114006,
+        "quest_name": "消滅看門犬【綠】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0598_S",
+    "image_medium": "Ingredient_0598_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 599,
+    "name": "土薯",
+    "rarity": 2,
+    "color": "黃",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 33,
+        "name": "魔法傷害上升【滿血】",
+        "category": "ATTACK",
+        "description": "HP全滿時，魔法攻擊傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000100,
+            "description": "HP為最大值時，給予的魔法屬性傷害上升{0}%。",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "斬耐性上升",
+        "category": "ENHANCE",
+        "description": "斬屬性耐性上升{0}%。",
+        "effects": [
+          {
+            "id": 3000020,
+            "description": "斬屬性傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204114003,
+        "quest_name": "熱情的衝突【黃】",
+        "difficulty": "NORMAL",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204114007,
+        "quest_name": "熱情的衝突【黃】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0599_S",
+    "image_medium": "Ingredient_0599_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 600,
+    "name": "海綿果實",
+    "rarity": 2,
+    "color": "紫",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [
+      {
+        "id": 9,
+        "name": "雷之祝福",
+        "category": "ATTACK",
+        "description": "雷屬性傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "雷屬性傷害上升{0}%。",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "魔力之詛咒",
+        "category": "WEAKENING",
+        "description": "賦予目標「所受魔法攻擊傷害上升{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "賦予目標「所受魔法攻擊傷害上升{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204114004,
+        "quest_name": "照亮黑影【紅/紫】",
+        "difficulty": "NORMAL",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204114008,
+        "quest_name": "照亮黑影【紅/紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0600_S",
+    "image_medium": "Ingredient_0600_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 601,
+    "name": "黏金鋼絲",
+    "rarity": 3,
+    "color": "紅",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 17,
+        "name": "破防傷害上升【滿血】",
+        "category": "ATTACK",
+        "description": "HP全滿時，破防傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000016,
+            "description": "HP達最大值時，破防傷害上升{0}%。",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "打耐性上升",
+        "category": "ENHANCE",
+        "description": "打屬性耐性上升{0}%。",
+        "effects": [
+          {
+            "id": 3000021,
+            "description": "打屬性傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204114005,
+        "quest_name": "一探大洞【藍】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0601_S",
+    "image_medium": "Ingredient_0601_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 602,
+    "name": "祭壇蘚",
+    "rarity": 3,
+    "color": "紫",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 15,
+        "name": "魔法破防傷害上升",
+        "category": "ATTACK",
+        "description": "魔法攻擊的破防傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000014,
+            "description": "魔法屬性攻擊破防傷害上升{0}%。",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "name": "物理/魔法耐性下降強化",
+        "category": "WEAKENING",
+        "description": "目標賦予的「所受物理傷害上升」與「所受魔法傷害上升」的效果量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000030,
+            "description": "目標賦予的「所受物理傷害上升」與「所受魔法傷害上升」的效果量上升{0}%。",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204114006,
+        "quest_name": "消滅看門犬【綠】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0602_S",
+    "image_medium": "Ingredient_0602_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 603,
+    "name": "作夢蘑菇",
+    "rarity": 3,
+    "color": "黃",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 34,
+        "name": "全耐性上升【殘血】",
+        "category": "ENHANCE",
+        "description": "HP在50%以下時，所受傷害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000103,
+            "description": "HP在50%以下時，傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "name": "接受回復量上升",
+        "category": "RECOVERY",
+        "description": "所受HP回復量+{0}%。",
+        "effects": [
+          {
+            "id": 13000002,
+            "description": "接受回復量上升。",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204114007,
+        "quest_name": "熱情的衝突【黃】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0603_S",
+    "image_medium": "Ingredient_0603_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 604,
+    "name": "高貴果實",
+    "rarity": 3,
+    "color": "紅",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 27,
+        "name": "單體攻擊威力上升",
+        "category": "ATTACK",
+        "description": "單體攻擊的技能威力上升{0}%。",
+        "effects": [
+          {
+            "id": 3000111,
+            "description": "單體攻擊的技能威力上升{0}％。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "雷耐性上升",
+        "category": "ENHANCE",
+        "description": "雷屬性耐性上升{0}%。",
+        "effects": [
+          {
+            "id": 3000024,
+            "description": "雷屬性傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204114008,
+        "quest_name": "照亮黑影【紅/紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204114,
+        "episode_name": "スコアバトル14章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0604_S",
+    "image_medium": "Ingredient_0604_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 605,
+    "name": "河石",
+    "rarity": 2,
+    "color": "黃",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [
+      {
+        "id": 22,
+        "name": "斬之盾",
+        "category": "ENHANCE",
+        "description": "賦予目標「斬屬性耐性上升{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000070,
+            "description": "賦予目標「斬屬性耐性上升{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "一次性回復強化",
+        "category": "RECOVERY",
+        "description": "使用次數為1次時，HP回復量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000109,
+            "description": "使用次數為1次時，HP回復量上升{0}%。",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204230001,
+        "quest_name": "無底地獄[危險度：I]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230002,
+        "quest_name": "無底地獄[危險度：II]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230003,
+        "quest_name": "無底地獄[危險度：III]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230004,
+        "quest_name": "無底地獄[危險度：IV]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230005,
+        "quest_name": "無底地獄[危險度：V]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230006,
+        "quest_name": "無底地獄[危險度：VI]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230007,
+        "quest_name": "無底地獄[危險度：VII]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230008,
+        "quest_name": "無底地獄[危險度：VIII]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230009,
+        "quest_name": "無底地獄[危險度：IX]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204231001,
+        "quest_name": "通往異界的螺旋[危險度：I]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231002,
+        "quest_name": "通往異界的螺旋[危險度：II]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231003,
+        "quest_name": "通往異界的螺旋[危險度：III]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231004,
+        "quest_name": "通往異界的螺旋[危險度：IV]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231005,
+        "quest_name": "通往異界的螺旋[危險度：V]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231006,
+        "quest_name": "通往異界的螺旋[危險度：VI]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231007,
+        "quest_name": "通往異界的螺旋[危險度：VII]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231008,
+        "quest_name": "通往異界的螺旋[危險度：VIII]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231009,
+        "quest_name": "通往異界的螺旋[危險度：IX]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      }
+    ],
+    "image_small": "Ingredient_0605_S",
+    "image_medium": "Ingredient_0605_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 606,
+    "name": "冷輝棘岩",
+    "rarity": 3,
+    "color": "紫",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 5,
+        "name": "突傷害上升",
+        "category": "ATTACK",
+        "description": "突屬性技能傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "突屬性傷害上升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "name": "回復量上升",
+        "category": "RECOVERY",
+        "description": "賦予的回復量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000031,
+            "description": "回復量上升{0}%。",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204230001,
+        "quest_name": "無底地獄[危險度：I]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230002,
+        "quest_name": "無底地獄[危險度：II]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230003,
+        "quest_name": "無底地獄[危險度：III]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230004,
+        "quest_name": "無底地獄[危險度：IV]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230005,
+        "quest_name": "無底地獄[危險度：V]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230006,
+        "quest_name": "無底地獄[危險度：VI]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230007,
+        "quest_name": "無底地獄[危險度：VII]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230008,
+        "quest_name": "無底地獄[危險度：VIII]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230009,
+        "quest_name": "無底地獄[危險度：IX]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      }
+    ],
+    "image_small": "Ingredient_0606_S",
+    "image_medium": "Ingredient_0606_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 607,
+    "name": "河石‧蒼炎",
+    "rarity": 3,
+    "color": "紅",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 61,
+        "name": "爆發技能威力上升",
+        "category": "ATTACK",
+        "description": "爆發技能的技能威力上升{0}%。",
+        "effects": [
+          {
+            "id": 3000165,
+            "description": "爆發技能威力上升{0}%。",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "冰耐性上升",
+        "category": "ENHANCE",
+        "description": "冰屬性耐性上升{0}%。",
+        "effects": [
+          {
+            "id": 3000023,
+            "description": "冰屬性傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204230005,
+        "quest_name": "無底地獄[危險度：V]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230006,
+        "quest_name": "無底地獄[危險度：VI]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230007,
+        "quest_name": "無底地獄[危險度：VII]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230008,
+        "quest_name": "無底地獄[危險度：VIII]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230009,
+        "quest_name": "無底地獄[危險度：IX]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      }
+    ],
+    "image_small": "Ingredient_0607_S",
+    "image_medium": "Ingredient_0607_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 608,
+    "name": "斑石",
+    "rarity": 3,
+    "color": "綠",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 23,
+        "name": "風耐性上升",
+        "category": "ENHANCE",
+        "description": "風屬性耐性上升{0}%。",
+        "effects": [
+          {
+            "id": 3000025,
+            "description": "風屬性傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "回復量上升【D】",
+        "category": "RECOVERY",
+        "description": "賦予防禦者的回復量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000076,
+            "description": "對防禦者的回復量上升{0}%。",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204231001,
+        "quest_name": "通往異界的螺旋[危險度：I]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231002,
+        "quest_name": "通往異界的螺旋[危險度：II]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231003,
+        "quest_name": "通往異界的螺旋[危險度：III]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231004,
+        "quest_name": "通往異界的螺旋[危險度：IV]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231005,
+        "quest_name": "通往異界的螺旋[危險度：V]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231006,
+        "quest_name": "通往異界的螺旋[危險度：VI]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231007,
+        "quest_name": "通往異界的螺旋[危險度：VII]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231008,
+        "quest_name": "通往異界的螺旋[危險度：VIII]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231009,
+        "quest_name": "通往異界的螺旋[危險度：IX]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      }
+    ],
+    "image_small": "Ingredient_0608_S",
+    "image_medium": "Ingredient_0608_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 609,
+    "name": "變異石碎片",
+    "rarity": 3,
+    "color": "藍",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [
+      {
+        "id": 49,
+        "name": "追擊強化",
+        "category": "ATTACK",
+        "description": "對破防狀態的敵人傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "對破防狀態的敵人傷害上升{0}%。",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "尋找獸類弱點",
+        "category": "WEAKENING",
+        "description": "賦予目標「獸類種族所受傷害上升{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000095,
+            "description": "賦予目標「獸類種族所受傷害上升{0}%」，直到受1次攻擊為止。",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204231005,
+        "quest_name": "通往異界的螺旋[危險度：V]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231006,
+        "quest_name": "通往異界的螺旋[危險度：VI]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231007,
+        "quest_name": "通往異界的螺旋[危險度：VII]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231008,
+        "quest_name": "通往異界的螺旋[危險度：VIII]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231009,
+        "quest_name": "通往異界的螺旋[危險度：IX]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      }
+    ],
+    "image_small": "Ingredient_0609_S",
+    "image_medium": "Ingredient_0609_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 610,
+    "name": "泰然樹頭",
+    "rarity": 2,
+    "color": "綠",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 10,
+        "name": "物理傷害上升",
+        "category": "ATTACK",
+        "description": "物理攻擊技能傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000008,
+            "description": "物理攻擊傷害上升{0}%。",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "突耐性上升",
+        "category": "ENHANCE",
+        "description": "突屬性耐性上升{0}%。",
+        "effects": [
+          {
+            "id": 3000019,
+            "description": "突屬性傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204230001,
+        "quest_name": "無底地獄[危險度：I]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230002,
+        "quest_name": "無底地獄[危險度：II]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230003,
+        "quest_name": "無底地獄[危險度：III]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230004,
+        "quest_name": "無底地獄[危險度：IV]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230005,
+        "quest_name": "無底地獄[危險度：V]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230006,
+        "quest_name": "無底地獄[危險度：VI]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230007,
+        "quest_name": "無底地獄[危險度：VII]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230008,
+        "quest_name": "無底地獄[危險度：VIII]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230009,
+        "quest_name": "無底地獄[危險度：IX]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204231001,
+        "quest_name": "通往異界的螺旋[危險度：I]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231002,
+        "quest_name": "通往異界的螺旋[危險度：II]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231003,
+        "quest_name": "通往異界的螺旋[危險度：III]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231004,
+        "quest_name": "通往異界的螺旋[危險度：IV]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231005,
+        "quest_name": "通往異界的螺旋[危險度：V]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231006,
+        "quest_name": "通往異界的螺旋[危險度：VI]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231007,
+        "quest_name": "通往異界的螺旋[危險度：VII]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231008,
+        "quest_name": "通往異界的螺旋[危險度：VIII]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231009,
+        "quest_name": "通往異界的螺旋[危險度：IX]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      }
+    ],
+    "image_small": "Ingredient_0610_S",
+    "image_medium": "Ingredient_0610_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 611,
+    "name": "腐爛之木的枯枝",
+    "rarity": 3,
+    "color": "黃",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 16,
+        "name": "破防傷害上升【殘血】",
+        "category": "ATTACK",
+        "description": "HP在50%以下時，破防傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000015,
+            "description": "HP在50%以下時，破防傷害上升{0}%。",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "打耐性上升",
+        "category": "ENHANCE",
+        "description": "打屬性耐性上升{0}%。",
+        "effects": [
+          {
+            "id": 3000021,
+            "description": "打屬性傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204230001,
+        "quest_name": "無底地獄[危險度：I]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230002,
+        "quest_name": "無底地獄[危險度：II]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230003,
+        "quest_name": "無底地獄[危險度：III]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230004,
+        "quest_name": "無底地獄[危險度：IV]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230005,
+        "quest_name": "無底地獄[危險度：V]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230006,
+        "quest_name": "無底地獄[危險度：VI]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230007,
+        "quest_name": "無底地獄[危險度：VII]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230008,
+        "quest_name": "無底地獄[危險度：VIII]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230009,
+        "quest_name": "無底地獄[危險度：IX]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      }
+    ],
+    "image_small": "Ingredient_0611_S",
+    "image_medium": "Ingredient_0611_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 612,
+    "name": "自若樹頭",
+    "rarity": 3,
+    "color": "綠",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "技能威力上升",
+        "category": "ATTACK",
+        "description": "技能威力上升{0}%。",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "技能威力上升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "物理/魔法耐性上升強化",
+        "category": "ENHANCE",
+        "description": "目標賦予的「所受物理傷害下降」與「所受魔法傷害下降」的效果量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000028,
+            "description": "目標賦予的「所受物理傷害下降」與「所受魔法傷害下降」的效果量上升{0}%。",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204230005,
+        "quest_name": "無底地獄[危險度：V]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230006,
+        "quest_name": "無底地獄[危險度：VI]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230007,
+        "quest_name": "無底地獄[危險度：VII]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230008,
+        "quest_name": "無底地獄[危險度：VIII]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230009,
+        "quest_name": "無底地獄[危險度：IX]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      }
+    ],
+    "image_small": "Ingredient_0612_S",
+    "image_medium": "Ingredient_0612_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 613,
+    "name": "古老樹根",
+    "rarity": 3,
+    "color": "藍",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 7,
+        "name": "冰傷害上升",
+        "category": "ATTACK",
+        "description": "冰屬性技能傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "冰屬性傷害上升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "火耐性上升",
+        "category": "ENHANCE",
+        "description": "火屬性耐性上升{0}%。",
+        "effects": [
+          {
+            "id": 3000022,
+            "description": "火屬性傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204231001,
+        "quest_name": "通往異界的螺旋[危險度：I]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231002,
+        "quest_name": "通往異界的螺旋[危險度：II]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231003,
+        "quest_name": "通往異界的螺旋[危險度：III]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231004,
+        "quest_name": "通往異界的螺旋[危險度：IV]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231005,
+        "quest_name": "通往異界的螺旋[危險度：V]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231006,
+        "quest_name": "通往異界的螺旋[危險度：VI]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231007,
+        "quest_name": "通往異界的螺旋[危險度：VII]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231008,
+        "quest_name": "通往異界的螺旋[危險度：VIII]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231009,
+        "quest_name": "通往異界的螺旋[危險度：IX]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      }
+    ],
+    "image_small": "Ingredient_0613_S",
+    "image_medium": "Ingredient_0613_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 614,
+    "name": "魔木屑",
+    "rarity": 3,
+    "color": "紫",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [
+      {
+        "id": 19,
+        "name": "冰之詛咒",
+        "category": "WEAKENING",
+        "description": "賦予目標「冰屬性耐性下降{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000060,
+            "description": "賦予目標「冰屬性耐性下降{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "單體回復獎勵",
+        "category": "RECOVERY",
+        "description": "單體回復時賦予的HP回復量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000073,
+            "description": "單體回復時賦予的HP回復量上升{0}%。",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204231005,
+        "quest_name": "通往異界的螺旋[危險度：V]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231006,
+        "quest_name": "通往異界的螺旋[危險度：VI]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231007,
+        "quest_name": "通往異界的螺旋[危險度：VII]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231008,
+        "quest_name": "通往異界的螺旋[危險度：VIII]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231009,
+        "quest_name": "通往異界的螺旋[危險度：IX]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      }
+    ],
+    "image_small": "Ingredient_0614_S",
+    "image_medium": "Ingredient_0614_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 615,
+    "name": "超常湧泉",
+    "rarity": 2,
+    "color": "黃",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 31,
+        "name": "物理傷害上升【滿血】",
+        "category": "ATTACK",
+        "description": "HP全滿時，物理攻擊傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000102,
+            "description": "HP為最大值時，給予的物理屬性傷害上升{0}%。",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "物理耐性上升",
+        "category": "ENHANCE",
+        "description": "所受物理攻擊傷害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "物理屬性傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204230001,
+        "quest_name": "無底地獄[危險度：I]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230002,
+        "quest_name": "無底地獄[危險度：II]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230003,
+        "quest_name": "無底地獄[危險度：III]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230004,
+        "quest_name": "無底地獄[危險度：IV]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230005,
+        "quest_name": "無底地獄[危險度：V]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230006,
+        "quest_name": "無底地獄[危險度：VI]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230007,
+        "quest_name": "無底地獄[危險度：VII]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230008,
+        "quest_name": "無底地獄[危險度：VIII]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230009,
+        "quest_name": "無底地獄[危險度：IX]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      }
+    ],
+    "image_small": "Ingredient_0615_S",
+    "image_medium": "Ingredient_0615_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 616,
+    "name": "奇異之水",
+    "rarity": 3,
+    "color": "紅",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 18,
+        "name": "斬耐性上升",
+        "category": "ENHANCE",
+        "description": "斬屬性耐性上升{0}%。",
+        "effects": [
+          {
+            "id": 3000020,
+            "description": "斬屬性傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "name": "單體回復量上升",
+        "category": "RECOVERY",
+        "description": "我方單體回復時賦予的HP回復量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000032,
+            "description": "單體回復時的回復量上升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204230001,
+        "quest_name": "無底地獄[危險度：I]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230002,
+        "quest_name": "無底地獄[危險度：II]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230003,
+        "quest_name": "無底地獄[危險度：III]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230004,
+        "quest_name": "無底地獄[危險度：IV]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230005,
+        "quest_name": "無底地獄[危險度：V]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230006,
+        "quest_name": "無底地獄[危險度：VI]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230007,
+        "quest_name": "無底地獄[危險度：VII]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230008,
+        "quest_name": "無底地獄[危險度：VIII]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230009,
+        "quest_name": "無底地獄[危險度：IX]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      }
+    ],
+    "image_small": "Ingredient_0616_S",
+    "image_medium": "Ingredient_0616_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 617,
+    "name": "混濁泥水",
+    "rarity": 3,
+    "color": "綠",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 60,
+        "name": "重擊傷害上升",
+        "category": "ATTACK",
+        "description": "重擊傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 13000011,
+            "description": "重擊傷害上升。",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "物理/魔法耐性上升強化【D】",
+        "category": "ENHANCE",
+        "description": "目標賦予防禦者的「所受物理傷害下降」與「所受魔法傷害下降」的效果量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000029,
+            "description": "目標賦予防禦者的「所受物理傷害下降」與「所受魔法傷害下降」的效果量上升{0}%。",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204230005,
+        "quest_name": "無底地獄[危險度：V]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230006,
+        "quest_name": "無底地獄[危險度：VI]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230007,
+        "quest_name": "無底地獄[危險度：VII]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230008,
+        "quest_name": "無底地獄[危險度：VIII]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      },
+      {
+        "quest_id": 204230009,
+        "quest_name": "無底地獄[危險度：IX]",
+        "episode_id": 204230,
+        "episode_name": "無底地獄"
+      }
+    ],
+    "image_small": "Ingredient_0617_S",
+    "image_medium": "Ingredient_0617_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 618,
+    "name": "霧化蝶",
+    "rarity": 2,
+    "color": "紅",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [
+      {
+        "id": 4,
+        "name": "突之祝福",
+        "category": "ATTACK",
+        "description": "突屬性傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "突屬性傷害上升{0}%。",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "冰之盾",
+        "category": "ENHANCE",
+        "description": "賦予目標「冰屬性耐性上升{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000067,
+            "description": "賦予目標「冰屬性耐性上升{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204231001,
+        "quest_name": "通往異界的螺旋[危險度：I]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231002,
+        "quest_name": "通往異界的螺旋[危險度：II]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231003,
+        "quest_name": "通往異界的螺旋[危險度：III]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231004,
+        "quest_name": "通往異界的螺旋[危險度：IV]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231005,
+        "quest_name": "通往異界的螺旋[危險度：V]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231006,
+        "quest_name": "通往異界的螺旋[危險度：VI]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231007,
+        "quest_name": "通往異界的螺旋[危險度：VII]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231008,
+        "quest_name": "通往異界的螺旋[危險度：VIII]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231009,
+        "quest_name": "通往異界的螺旋[危險度：IX]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      }
+    ],
+    "image_small": "Ingredient_0618_S",
+    "image_medium": "Ingredient_0618_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 619,
+    "name": "無重力蚱蜢",
+    "rarity": 3,
+    "color": "紫",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 6,
+        "name": "火傷害上升",
+        "category": "ATTACK",
+        "description": "火屬性技能傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "火屬性傷害上升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "name": "物理耐性上升【D】",
+        "category": "ENHANCE",
+        "description": "對防禦者的物理攻擊傷害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000033,
+            "description": "防禦者的物理屬性傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204231001,
+        "quest_name": "通往異界的螺旋[危險度：I]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231002,
+        "quest_name": "通往異界的螺旋[危險度：II]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231003,
+        "quest_name": "通往異界的螺旋[危險度：III]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231004,
+        "quest_name": "通往異界的螺旋[危險度：IV]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231005,
+        "quest_name": "通往異界的螺旋[危險度：V]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231006,
+        "quest_name": "通往異界的螺旋[危險度：VI]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231007,
+        "quest_name": "通往異界的螺旋[危險度：VII]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231008,
+        "quest_name": "通往異界的螺旋[危險度：VIII]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231009,
+        "quest_name": "通往異界的螺旋[危險度：IX]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      }
+    ],
+    "image_small": "Ingredient_0619_S",
+    "image_medium": "Ingredient_0619_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 620,
+    "name": "甕蟻",
+    "rarity": 3,
+    "color": "藍",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 63,
+        "name": "技能2威力上升",
+        "category": "ATTACK",
+        "description": "技能2的技能威力上升{0}%。",
+        "effects": [
+          {
+            "id": 3000168,
+            "description": "技能2威力上升{0}%。",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "name": "接受回復量上升",
+        "category": "RECOVERY",
+        "description": "所受HP回復量+{0}%。",
+        "effects": [
+          {
+            "id": 13000002,
+            "description": "接受回復量上升。",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 204231005,
+        "quest_name": "通往異界的螺旋[危險度：V]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231006,
+        "quest_name": "通往異界的螺旋[危險度：VI]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231007,
+        "quest_name": "通往異界的螺旋[危險度：VII]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231008,
+        "quest_name": "通往異界的螺旋[危險度：VIII]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      },
+      {
+        "quest_id": 204231009,
+        "quest_name": "通往異界的螺旋[危險度：IX]",
+        "episode_id": 204231,
+        "episode_name": "通往異界的螺旋"
+      }
+    ],
+    "image_small": "Ingredient_0620_S",
+    "image_medium": "Ingredient_0620_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 624,
+    "name": "海の星",
+    "rarity": 2,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 6,
+        "name": "火之祝福",
+        "category": "ATTACK",
+        "description": "火屬性傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "火屬性傷害上升{0}%。",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "火之盾",
+        "category": "ENHANCE",
+        "description": "賦予目標「火屬性耐性上升{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000066,
+            "description": "賦予目標「火屬性耐性上升{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 430301,
+        "quest_name": "水着DEリゾート！１",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430304,
+        "quest_name": "水着DEリゾート！４",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430305,
+        "quest_name": "水着DEリゾート！５",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430308,
+        "quest_name": "水着DEリゾート！８",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430309,
+        "quest_name": "水着DEリゾート！９",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430312,
+        "quest_name": "水着DEリゾート！１２",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      }
+    ],
+    "image_small": "Ingredient_0624_S",
+    "image_medium": "Ingredient_0624_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 625,
+    "name": "虹珊瑚",
+    "rarity": 2,
+    "color": "黃",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 11,
+        "name": "魔法傷害上升",
+        "category": "ATTACK",
+        "description": "魔法攻擊技能傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻擊傷害上升{0}%。",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "name": "精靈傷害減輕",
+        "category": "ENHANCE",
+        "description": "來自精靈種族的傷害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000087,
+            "description": "賦予目標來自精靈種族的傷害下降{0}%（1次）。",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 430302,
+        "quest_name": "水着DEリゾート！２",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430304,
+        "quest_name": "水着DEリゾート！４",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430306,
+        "quest_name": "水着DEリゾート！６",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430308,
+        "quest_name": "水着DEリゾート！８",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430310,
+        "quest_name": "水着DEリゾート！１０",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430312,
+        "quest_name": "水着DEリゾート！１２",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      }
+    ],
+    "image_small": "Ingredient_0625_S",
+    "image_medium": "Ingredient_0625_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 626,
+    "name": "マーメイドの涙",
+    "rarity": 2,
+    "color": "綠",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 46,
+        "name": "全體回復獎勵",
+        "category": "RECOVERY",
+        "description": "全體回復時賦予的HP回復量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全體回復時賦予的HP回復量上升{0}%。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "火之詛咒",
+        "category": "WEAKENING",
+        "description": "賦予目標「火屬性耐性下降{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "賦予目標「火屬性耐性下降{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 430303,
+        "quest_name": "水着DEリゾート！３",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430304,
+        "quest_name": "水着DEリゾート！４",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430307,
+        "quest_name": "水着DEリゾート！７",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430308,
+        "quest_name": "水着DEリゾート！８",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430311,
+        "quest_name": "水着DEリゾート！１１",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430312,
+        "quest_name": "水着DEリゾート！１２",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      }
+    ],
+    "image_small": "Ingredient_0626_S",
+    "image_medium": "Ingredient_0626_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 627,
+    "name": "サマータイムうに",
+    "rarity": 3,
+    "color": "黃",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 67,
+        "name": "WEAK時ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "WEAK攻擊時，破防傷害上升{0}%",
+        "effects": [
+          {
+            "id": 3000213,
+            "description": "WEAK攻撃時、ブレイクダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 65,
+        "name": "耐性減益強化",
+        "category": "WEAKENING",
+        "description": "対象が与える「雷属性耐性ダウン」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000211,
+            "description": "対象が与える「雷属性耐性ダウン」の効果量{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 430309,
+        "quest_name": "水着DEリゾート！９",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430312,
+        "quest_name": "水着DEリゾート！１２",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      }
+    ],
+    "image_small": "Ingredient_0627_S",
+    "image_medium": "Ingredient_0627_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 628,
+    "name": "サマータイムフィッシュ",
+    "rarity": 3,
+    "color": "藍",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 46,
+        "name": "全體回復獎勵",
+        "category": "RECOVERY",
+        "description": "全體回復時賦予的HP回復量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全體回復時賦予的HP回復量上升{0}%。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "雷之盾",
+        "category": "ENHANCE",
+        "description": "賦予目標「雷屬性耐性上升{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000068,
+            "description": "賦予目標「雷屬性耐性上升{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 430310,
+        "quest_name": "水着DEリゾート！１０",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430312,
+        "quest_name": "水着DEリゾート！１２",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      }
+    ],
+    "image_small": "Ingredient_0628_S",
+    "image_medium": "Ingredient_0628_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 629,
+    "name": "サマータイムツリー",
+    "rarity": 3,
+    "color": "紅",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 66,
+        "name": "單體攻擊強化",
+        "category": "WEAKENING",
+        "description": "対象が与える「氷属性耐性ダウン」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000212,
+            "description": "対象が与える「氷属性耐性ダウン」の効果量{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "技能威力上升",
+        "category": "ATTACK",
+        "description": "技能威力上升{0}%。",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "技能威力上升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 430311,
+        "quest_name": "水着DEリゾート！１１",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      },
+      {
+        "quest_id": 430312,
+        "quest_name": "水着DEリゾート！１２",
+        "episode_id": 4303,
+        "episode_name": "水着DEリゾート！　海の家を盛り上げろ！？"
+      }
+    ],
+    "image_small": "Ingredient_0629_S",
+    "image_medium": "Ingredient_0629_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 638,
+    "name": "水樹の実",
+    "rarity": 2,
+    "color": "藍",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 9,
+        "name": "雷之祝福",
+        "category": "ATTACK",
+        "description": "雷屬性傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "雷屬性傷害上升{0}%。",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "一次性回復強化",
+        "category": "RECOVERY",
+        "description": "使用次數為1次時，HP回復量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000109,
+            "description": "使用次數為1次時，HP回復量上升{0}%。",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0638_S",
+    "image_medium": "Ingredient_0638_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 639,
+    "name": "石サンゴ",
+    "rarity": 2,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 32,
+        "name": "魔法傷害上升【殘血】",
+        "category": "ATTACK",
+        "description": "HP在50%以下時，魔法攻擊傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000099,
+            "description": "HP在50%以下時，給予的魔法屬性傷害上升{0}%。",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "name": "水棲傷害減輕",
+        "category": "ENHANCE",
+        "description": "來自水棲種族的傷害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000088,
+            "description": "賦予目標來自水棲種族的傷害下降{0}%（1次）。",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0639_S",
+    "image_medium": "Ingredient_0639_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 640,
+    "name": "セイレーンの涙",
+    "rarity": 2,
+    "color": "黃",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 21,
+        "name": "雷之詛咒",
+        "category": "WEAKENING",
+        "description": "賦予目標「雷屬性耐性下降{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000061,
+            "description": "賦予目標「雷屬性耐性下降{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "追擊強化",
+        "category": "ATTACK",
+        "description": "對破防狀態的敵人傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "對破防狀態的敵人傷害上升{0}%。",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0640_S",
+    "image_medium": "Ingredient_0640_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 641,
+    "name": "サマータイムきのこ",
+    "rarity": 3,
+    "color": "紅",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 61,
+        "name": "爆發技能威力上升",
+        "category": "ATTACK",
+        "description": "爆發技能的技能威力上升{0}%。",
+        "effects": [
+          {
+            "id": 3000165,
+            "description": "爆發技能威力上升{0}%。",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 60,
+        "name": "重擊傷害上升",
+        "category": "ATTACK",
+        "description": "重擊傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 13000011,
+            "description": "重擊傷害上升。",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0641_S",
+    "image_medium": "Ingredient_0641_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 642,
+    "name": "サマータイムオクトパス",
+    "rarity": 3,
+    "color": "綠",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 51,
+        "name": "破壞力上升",
+        "category": "ATTACK",
+        "description": "戰鬥道具賦予的傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "戰鬥道具賦予的傷害上升{0}%。",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "name": "尋找水棲弱點",
+        "category": "WEAKENING",
+        "description": "賦予目標「水棲種族所受傷害上升{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000098,
+            "description": "賦予目標「水棲種族所受傷害上升{0}%」，直到受1次攻擊為止。",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0642_S",
+    "image_medium": "Ingredient_0642_M",
+    "start_at": "2049-12-31T16:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 643,
+    "name": "サマータイムシェル",
+    "rarity": 3,
+    "color": "藍",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "技能威力上升",
+        "category": "ATTACK",
+        "description": "技能威力上升{0}%。",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "技能威力上升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "傷害增益強化【A】",
+        "category": "ENHANCE",
+        "description": "賦予攻擊者的傷害強化效果量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000017,
+            "description": "對攻擊者的傷害增益上升{0}%。",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": true,
+    "event": {
+      "id": 43,
+      "name": "アトリエサマー2024 水着DEリゾート！"
+    },
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0643_S",
+    "image_medium": "Ingredient_0643_M",
     "start_at": "2049-12-31T16:00:00.000Z",
     "end_at": null
   }

@@ -1,5 +1,15 @@
 [
   {
+    "description": "- Heals allies",
+    "enemy_id": 10002011,
+    "id": 10002011
+  },
+  {
+    "description": "- Sleep attack",
+    "enemy_id": 10025003,
+    "id": 10025003
+  },
+  {
     "description": "- At the start of a wave, reduces own damage received\n- At the start of a wave, reduces own damage dealt",
     "enemy_id": 10027001,
     "id": 10027001
@@ -35,6 +45,11 @@
     "id": 10110001
   },
   {
+    "description": "- Restores allies' HP and stun gauge\n- Restores all allies' stun gauges\n- While stunned, boosts received critical rate\n- Receives increased critical damage\n- When hit by a non-critical attack while HP is below a certain level, reduces own damage received (MAX 1 time)\n- Boosts all allies' damage dealt under certain conditions",
+    "enemy_id": 10131001,
+    "id": 10131001
+  },
+  {
     "description": "- When an ally is KO'd, converts positive panels into burst panels\n- When no other allies remain, creates burst panels\n- When using positive panels, inflicts Blindness on all enemies and allies\n- When using negative panels, inflicts multiple negative effects on self\n- Boosts own SPD each turn",
     "enemy_id": 10140001,
     "id": 10140001
@@ -63,6 +78,46 @@
     "description": "- When KO'd, creates boost+ panels",
     "enemy_id": 10146002,
     "id": 10146002
+  },
+  {
+    "description": "- Receives increased critical damage\n- Heals allies",
+    "enemy_id": 10148002,
+    "id": 10148002
+  },
+  {
+    "description": "- Receives increased critical damage",
+    "enemy_id": 10149002,
+    "id": 10149002
+  },
+  {
+    "description": "- When an ally is KO'd, grants self a guaranteed critical\n- When stunned, removes all positive effects from self\n- Boosts own critical rate\n- Boosts critical damage",
+    "enemy_id": 10153005,
+    "id": 10153005
+  },
+  {
+    "description": "- Boosts allies' damage dealt\n- Restores allies' stun gauge\n- Reduces allies' damage received\n- Grants a guaranteed critical to allies\n- Grants Regen to allies\n- When KO'd, removes positive effects from all allies and opponents",
+    "enemy_id": 10156001,
+    "id": 10156001
+  },
+  {
+    "description": "- Boosts allies' damage dealt\n- Restores allies' stun gauge\n- Reduces allies' damage received\n- Grants a guaranteed critical to allies\n- Grants Regen to allies\n- When KO'd, removes positive effects from all allies and opponents",
+    "enemy_id": 10156002,
+    "id": 10156002
+  },
+  {
+    "description": "- Removes own positive effects when stunned\n- After being hit by a non-critical attack, counters\n- Reduces all opponents' critical rates",
+    "enemy_id": 10157001,
+    "id": 10157001
+  },
+  {
+    "description": "- At the start of a wave, reduces own damage received\n- When stunned, reduces all of own attribute resistances (MAX 3 times)\n- Restores own HP when HP reaches a certain level (MAX 3 times)\n- Restores own stun gauge when HP reaches a certain level (MAX 1 time)\n- Inflicts Poison on self when HP reaches a certain level (MAX 1 time)\n- Boosts own damage dealt each turn when HP reaches a certain level\n- Boosts own damage received each turn when HP reaches a certain level",
+    "enemy_id": 10159002,
+    "id": 10159002
+  },
+  {
+    "description": "- Restores own HP when HP reaches a certain level (MAX 1 time)\n- Inflicts Poison on self when HP reaches a certain level (MAX 1 time)\n- Boosts own damage dealt each turn when HP reaches a certain level\n- Boosts own damage received each turn when HP reaches a certain level",
+    "enemy_id": 10159003,
+    "id": 10159003
   },
   {
     "description": "- Heals allies\n- Counter\n- Boosts one enemy's damage received with each attack",
@@ -115,9 +170,29 @@
     "id": 50020005
   },
   {
+    "description": "- Inflicts Blindness\n- Grants self Evasion each turn",
+    "enemy_id": 50023001,
+    "id": 50023001
+  },
+  {
+    "description": "- When KO'd, boosts all allies' damage dealt\n- When KO'd, boosts all allies' damage received",
+    "enemy_id": 50026001,
+    "id": 50026001
+  },
+  {
     "description": "- Protection\n- Converts allies' panels into burst panels\n- Reduces SPD\n- Inflicts Sleep on opponents that have reduced SPD",
     "enemy_id": 50034005,
     "id": 50034005
+  },
+  {
+    "description": "- When stunned, grants Regen to all opponents\n- Boosts own damage dealt after being hit by an attack when HP reaches a certain level",
+    "enemy_id": 50035001,
+    "id": 50035001
+  },
+  {
+    "description": "- Inflicts Taunt\n- Inflicts Paralysis\n- Deals increased damage to opponents with Taunt",
+    "enemy_id": 50039002,
+    "id": 50039002
   },
   {
     "description": "- Taunts\n- Dealt damage is increased against taunted targets",
@@ -143,6 +218,11 @@
     "description": "- Poisonous attack\n- Dealt damage is increased against targets with negative effects",
     "enemy_id": 50079001,
     "id": 50079001
+  },
+  {
+    "description": "- At the start of a wave, reduces own damage received\n- Boosts burst skill damage based on the number of different positive effects\n- Grants Evasion to all allies",
+    "enemy_id": 50091002,
+    "id": 50091002
   },
   {
     "description": "- Dealt damage is increased against targets with negative effects",
@@ -220,6 +300,51 @@
     "id": 50151001
   },
   {
+    "description": "- After being hit by a critical attack, removes all positive effects from self\n- After being hit by a non-critical attack, counters\n- Reduces all opponents' critical rates",
+    "enemy_id": 50152001,
+    "id": 50152001
+  },
+  {
+    "description": "- After being hit by a critical attack, boosts own damage received\n- While stunned, boosts own received critical rate\n- Creates weaken+ panels",
+    "enemy_id": 50154001,
+    "id": 50154001
+  },
+  {
+    "description": "- After being hit by a critical attack, boosts own damage received\n- While stunned, boosts own received critical rate\n- Creates weaken+ panels",
+    "enemy_id": 50154002,
+    "id": 50154002
+  },
+  {
+    "description": "- When an ally is KO'd, grants self a guaranteed critical and Evasion\n- When stunned, removes all positive effects from self\n- Boosts all allies' critical rates\n- Boosts critical damage",
+    "enemy_id": 50155001,
+    "id": 50155001
+  },
+  {
+    "description": "- Boosts allies' damage dealt\n- Restores allies' stun gauge\n- Reduces allies' damage received\n- Grants a guaranteed critical to allies\n- Grants Regen to allies\n- When KO'd, removes positive effects from all allies and opponents",
+    "enemy_id": 50156010,
+    "id": 50156010
+  },
+  {
+    "description": "- When an ally is KO'd, grants self a guaranteed critical and Evasion\n- Removes own positive effects when stunned\n- Boosts all allies' critical rates\n- Boosts critical damage",
+    "enemy_id": 50161000,
+    "id": 50161000
+  },
+  {
+    "description": "- Reduces damage dealt\n- Heals allies",
+    "enemy_id": 60001002,
+    "id": 60001002
+  },
+  {
+    "description": "・仲間を回復\n・氷・斬属性攻撃またはカウンター攻撃を受けた後、自身に被ダメージUPを付与",
+    "enemy_id": 60002001,
+    "id": 60002001
+  },
+  {
+    "description": "- Reduces damage dealt\n- Heals allies",
+    "enemy_id": 60002002,
+    "id": 60002002
+  },
+  {
     "description": "- Receives increased critical damage when attacked while Brittle\n- Increases critical rate for Ice attacks received while stunned\n- Receives increased critical damage from Ice attacks while stunned",
     "enemy_id": 60003001,
     "id": 60003001
@@ -238,6 +363,21 @@
     "description": "- Boosts own damage dealt each turn\n- Removes all of own positive effects when stunned",
     "enemy_id": 60011020,
     "id": 60011020
+  },
+  {
+    "description": "- Deals significant damage to all targets",
+    "enemy_id": 60013008,
+    "id": 60013008
+  },
+  {
+    "description": "- Deals significant damage to all targets",
+    "enemy_id": 60013013,
+    "id": 60013013
+  },
+  {
+    "description": "- Receives increased damage from burst skills\n- Shorter stun time\n- Boosts damage dealt with each turn\n- Heals allies",
+    "enemy_id": 60016004,
+    "id": 60016004
   },
   {
     "description": "- Inflicts Nullify Recovery\n- Moderate chance to inflict Poison when hit by an attack\n- Grants Regen to allies",
@@ -260,6 +400,11 @@
     "id": 60017005
   },
   {
+    "description": "- Receives increased damage from burst skills\n- Shorter stun time\n- Boosts damage dealt with each turn\n- Heals allies",
+    "enemy_id": 60019001,
+    "id": 60019001
+  },
+  {
     "description": "- Counters",
     "enemy_id": 60020001,
     "id": 60020001
@@ -268,6 +413,21 @@
     "description": "- Receives increased damage from Fire attacks while stunned\n- Counters",
     "enemy_id": 60020003,
     "id": 60020003
+  },
+  {
+    "description": "- Receives increased damage from burst skills\n- Shorter stun time\n- Boosts damage dealt with each turn\n- Protection",
+    "enemy_id": 60021003,
+    "id": 60021003
+  },
+  {
+    "description": "- Receives increased damage from burst skills\n- Shorter stun time\n- Boosts damage dealt with each turn\n- Delays turn of opponents\n- Restores own stun gauge",
+    "enemy_id": 60022001,
+    "id": 60022001
+  },
+  {
+    "description": "・相手全員に火傷を付与\n・自身が戦闘不能時、仲間全体に与ダメージUPを付与\n・自身が戦闘不能時、仲間全体に被ダメージUPを付与\n・氷・斬属性攻撃またはカウンター攻撃を受けた後、自身に被ダメージUPを付与",
+    "enemy_id": 60026001,
+    "id": 60026001
   },
   {
     "description": "- When KO'd, boosts all allies' damage dealt\n- When KO'd, boosts all allies' damage received\n- Reduces own damage received each turn",
@@ -280,9 +440,29 @@
     "id": 60030001
   },
   {
+    "description": "- Protection\n- Converts allies' panels into burst panels\n- Weak to physical attacks\n- When hit by an attack, boosts own damage received",
+    "enemy_id": 60034002,
+    "id": 60034002
+  },
+  {
+    "description": "- Protection\n- Converts allies' panels into burst panels\n- Inflicts Sleep on opponents that have reduced SPD",
+    "enemy_id": 60034007,
+    "id": 60034007
+  },
+  {
     "description": "- When stunned, grants Regen to all enemies and inflicts Reduced Damage Dealt\n- Delays turn",
     "enemy_id": 60035003,
     "id": 60035003
+  },
+  {
+    "description": "- When stunned, grants Regen to all opponents\n- Boosts damage dealt after being hit by an attack when HP reaches a certain level",
+    "enemy_id": 60035004,
+    "id": 60035004
+  },
+  {
+    "description": "・ターンを遅らせる\n・氷・斬属性攻撃またはカウンター攻撃を受けた後、自身に被ダメージUPを付与",
+    "enemy_id": 60035005,
+    "id": 60035005
   },
   {
     "description": "- Inflicts Nullify Recovery\n- Restores allies' stun damage each turn\n- Receives increased stun damage from Bolt attacks\n- Reduces damage dealt when hit by Air attacks\n- Boosts potency of negative effects on self after stun\n- Grants Regen and increased damage dealt to allies\n- Reduces HP recovery received",
@@ -293,6 +473,31 @@
     "description": "- Deals significant damage to single targets\n- Protection\n- Restores own stun gauge each turn",
     "enemy_id": 60054001,
     "id": 60054001
+  },
+  {
+    "description": "- Deals significant damage to all targets\n- Grants Damage Immunity to allies\n- Removes own negative effects each turn\n- Received damage is increased while stunned",
+    "enemy_id": 60055003,
+    "id": 60055003
+  },
+  {
+    "description": "- Deals significant damage to all targets\n- Poisonous attack\n- Inflicts Nullify Positive Effects\n- Dealt damage is increased against targets with status effects\n- Counters\n- Inflicts Nullify Recovery",
+    "enemy_id": 60056004,
+    "id": 60056004
+  },
+  {
+    "description": "- Inflicts Taunt on target",
+    "enemy_id": 60081001,
+    "id": 60081001
+  },
+  {
+    "description": "- Inflicts Taunt on target\n- Restores own HP at the start of a turn\n- Restores own stun gauge at the start of a turn",
+    "enemy_id": 60081002,
+    "id": 60081002
+  },
+  {
+    "description": "- Restores own HP at the start of a turn\n- Restores own stun gauge at the start of a turn",
+    "enemy_id": 60083002,
+    "id": 60083002
   },
   {
     "description": "- Weak to attribute resistance debuffs\n- Boosts damage dealt when HP is at a certain level\n- Recovers stun damage with each turn\n- Receives increased stun damage from Strike or Bolt attacks",
@@ -335,6 +540,16 @@
     "id": 60093003
   },
   {
+    "description": "- Grants Initiative\n- Attacks all enemies with a powerful attack on the 1st turn\n- Weak to physical attacks\n- When hit, boosts own damage received",
+    "enemy_id": 60093005,
+    "id": 60093005
+  },
+  {
+    "description": "- Receives increased damage from burst skills\n- Shorter stun time\n- Boosts damage dealt with each turn\n- Nullifies Attribute Resistance Down\n- Each stun reduces stun damage received\n- Creates a burst panel when hit by an attack while the stun gauge is full\n- Inflicts Sleep to opponents\n- Advances owns turns",
+    "enemy_id": 60096001,
+    "id": 60096001
+  },
+  {
     "description": "- When KO'd, boosts all opponents' critical rate\n- Delays turn\n- Heals allies",
     "enemy_id": 60097001,
     "id": 60097001
@@ -345,14 +560,39 @@
     "id": 60098065
   },
   {
+    "description": "- Reduces P. ATK and M. ATK\n- Delays turn of opponents with negative effects\n- Removes positive effects from opponents\n- Inflicts Nullify Positive Effects",
+    "enemy_id": 60099001,
+    "id": 60099001
+  },
+  {
     "description": "- Attacks ignore odds of being targeted\n- Dealt damage is increased against targets with negative effects\n- Restores all allies' HP\n- Inflicts Negative Effect Potency Up on an enemy",
     "enemy_id": 60100001,
     "id": 60100001
   },
   {
+    "description": "・状態異常の場合、仲間全体を弱体化\n・状態異常の場合、相手全体を強化\n・自身がカチコチの時、攻撃を受けた時、暗闇を自身に付与\n・氷・斬属性攻撃またはカウンター攻撃を受けた後、自身に被ダメージUPを付与",
+    "enemy_id": 60103001,
+    "id": 60103001
+  },
+  {
+    "description": "- Before turn, if a positive effect is active on self, converts weaken panels into boost panels",
+    "enemy_id": 60104001,
+    "id": 60104001
+  },
+  {
     "description": "- Receives reduced damage while with allies\n- At the start of battle, reduces stun damage received\n- When hit by an attack with only a single ally, removes buffs from self",
     "enemy_id": 60105001,
     "id": 60105001
+  },
+  {
+    "description": "- When not stunned, reduces damage received from magic attacks\n- Before turn, if 2 or more positive effects are active on self, converts weaken panels into boost panels",
+    "enemy_id": 60105004,
+    "id": 60105004
+  },
+  {
+    "description": "- When stunned, grants Regen to all opponents\n- Boosts damage dealt after being hit by an attack when HP reaches a certain level",
+    "enemy_id": 60106001,
+    "id": 60106001
   },
   {
     "description": "- When hit by an attack while stun gauge is full, converts weaken panels to boost panels\n- When hit by an attack while stun gauge is full, converts boost panels to weaken panels\n- Boosts damage received and reduces damage dealt and stun damage of opponents with high M. ATK\n- Inflicts Nullify Positive Effects on opponents with high HP\n- Delays turn",
@@ -365,6 +605,11 @@
     "id": 60107004
   },
   {
+    "description": "- After being hit by an attack while the stun gauge is full, converts weaken panels into boost panels\n- After being hit by an attack while the stun gauge is full, converts boost panels into weaken panels",
+    "enemy_id": 60108002,
+    "id": 60108002
+  },
+  {
     "description": "- Receives increased damage when enemies have 10 or more positive effects (Higher boost for more effects)\n- When hit by an attack while stun gauge is full, converts negative panels to positive panels\n- When hit by an attack while stun gauge is full, converts positive panels to negative panels",
     "enemy_id": 60108009,
     "id": 60108009
@@ -375,9 +620,19 @@
     "id": 60109001
   },
   {
+    "description": "- Taunts",
+    "enemy_id": 60109014,
+    "id": 60109014
+  },
+  {
     "description": "- Boosts all allies' damage dealt\n- Reduces all allies' damage received",
     "enemy_id": 60110003,
     "id": 60110003
+  },
+  {
+    "description": "- Boosts allies' damage dealt\n- Restores allies' HP\n- Weak to physical attacks\n- When hit by an attack, boosts own damage received",
+    "enemy_id": 60110011,
+    "id": 60110011
   },
   {
     "description": "- When stunned, converts boost panels into burst panels\n- When stunned, converts weaken panels into boost panels\n- Receives increased damage the fewer allies are alive",
@@ -405,6 +660,11 @@
     "id": 60122003
   },
   {
+    "description": "- When stunned, converts positive panels to burst panels\n- Protection\n- Reduces all allies' damage received\n- Heals allies\n- Recovers own HP and stun gauge",
+    "enemy_id": 60122006,
+    "id": 60122006
+  },
+  {
     "description": "No tips available.",
     "enemy_id": 60123003,
     "id": 60123003
@@ -420,9 +680,44 @@
     "id": 60132001
   },
   {
+    "description": "- When an ally is KO'd, converts positive panels into burst panels\n- When using positive panels, inflicts Blindness on all enemies and allies\n- When using negative panels, inflicts multiple negative effects on self",
+    "enemy_id": 60140004,
+    "id": 60140004
+  },
+  {
+    "description": "- Receives increased critical damage\n- Boosts own SPD each turn\n- Restores all allies' HP",
+    "enemy_id": 60140007,
+    "id": 60140007
+  },
+  {
+    "description": "- At the start of a wave, reduces own damage received\n- At the start of a wave, reduces own stun damage received\n- At the start of a wave, reduces own damage dealt",
+    "enemy_id": 60141001,
+    "id": 60141001
+  },
+  {
+    "description": "- At the start of a wave, reduces own damage received\n- At the start of a wave, reduces own stun damage received\n- At the start of a wave, reduces own damage dealt",
+    "enemy_id": 60141002,
+    "id": 60141002
+  },
+  {
+    "description": "・戦闘不能時、強化+パネルを出現させる\n・相手のプラス効果を全て解除\n・加護弱化パネルを出現させる\n・氷・斬属性攻撃またはカウンター攻撃を受けた後、自身に被ダメージUPを付与",
+    "enemy_id": 60146001,
+    "id": 60146001
+  },
+  {
     "description": "- While granted Skill Evasion, after taking damage from a battle item, inflicts Dazed on self\n- When stunned, removes all positive effects from self\n- Grants self Skill Evasion\n- Grants self Negative Panel Immunity",
     "enemy_id": 60150001,
     "id": 60150001
+  },
+  {
+    "description": "・バーストスキルを受けた後、自身に暗闇を付与\n・バーストスキルを受けた後、自身に被ダメージUPを付与\n・自身の状態異常、マイナス効果を解除\n・ブレイク中、被ダメージ上昇\n・自身を回復し、再生を付与",
+    "enemy_id": 60158004,
+    "id": 60158004
+  },
+  {
+    "description": "・バーストスキルを受けた後、自身に暗闇を付与\n・バーストスキルを受けた後、自身に被ダメージUPを付与\n・自身の状態異常、マイナス効果を解除\n・仲間を回復し、再生を付与",
+    "enemy_id": 60162002,
+    "id": 60162002
   },
   {
     "description": "No tips available.",
@@ -670,6 +965,41 @@
     "id": 80004044
   },
   {
+    "description": "- When inflicted with a status effect, boosts damage received\n- Delays turn",
+    "enemy_id": 80004048,
+    "id": 80004048
+  },
+  {
+    "description": "- When inflicted with a status effect, boosts damage received\n- Delays turn",
+    "enemy_id": 80004050,
+    "id": 80004050
+  },
+  {
+    "description": "- When inflicted with a status effect, boosts damage received\n- Delays turn",
+    "enemy_id": 80004053,
+    "id": 80004053
+  },
+  {
+    "description": "- When inflicted with a status effect, boosts damage received\n- Delays turn",
+    "enemy_id": 80004054,
+    "id": 80004054
+  },
+  {
+    "description": "- When inflicted with a status effect, boosts damage received\n- Delays turn",
+    "enemy_id": 80004057,
+    "id": 80004057
+  },
+  {
+    "description": "- When inflicted with a status effect, boosts damage received\n- Delays turn",
+    "enemy_id": 80004059,
+    "id": 80004059
+  },
+  {
+    "description": "- When inflicted with a status effect, boosts damage received\n- Delays turn",
+    "enemy_id": 80004060,
+    "id": 80004060
+  },
+  {
     "description": "- Delays turn\n- Increases action speed with each turn",
     "enemy_id": 80005001,
     "id": 80005001
@@ -790,6 +1120,41 @@
     "id": 80006030
   },
   {
+    "description": "- After turn, boosts own SPD\n- Deals increased damage to paralyzed opponents\n- Boosts damage dealt when HP is at a certain level\n- When inflicted with a status effect, boosts own damage received",
+    "enemy_id": 80006032,
+    "id": 80006032
+  },
+  {
+    "description": "- After turn, boosts own SPD\n- Deals increased damage to paralyzed opponents\n- Boosts damage dealt when HP is at a certain level\n- When inflicted with a status effect, boosts damage received",
+    "enemy_id": 80006033,
+    "id": 80006033
+  },
+  {
+    "description": "- After turn, boosts own SPD\n- Deals increased damage to paralyzed opponents\n- Boosts damage dealt when HP is at a certain level\n- When inflicted with a status effect, boosts damage received",
+    "enemy_id": 80006034,
+    "id": 80006034
+  },
+  {
+    "description": "- After turn, boosts own SPD\n- Deals increased damage to paralyzed opponents\n- Boosts damage dealt when HP is at a certain level\n- When inflicted with a status effect, boosts damage received",
+    "enemy_id": 80006035,
+    "id": 80006035
+  },
+  {
+    "description": "- After turn, boosts own SPD\n- Deals increased damage to paralyzed opponents\n- Boosts damage dealt when HP is at a certain level\n- When inflicted with a status effect, boosts damage received",
+    "enemy_id": 80006036,
+    "id": 80006036
+  },
+  {
+    "description": "- After turn, boosts own SPD\n- Deals increased damage to paralyzed opponents\n- Boosts damage dealt when HP is at a certain level\n- When inflicted with a status effect, boosts damage received",
+    "enemy_id": 80006037,
+    "id": 80006037
+  },
+  {
+    "description": "- After turn, boosts own SPD\n- Deals increased damage to paralyzed opponents\n- Boosts damage dealt when HP is at a certain level\n- When inflicted with a status effect, boosts damage received",
+    "enemy_id": 80006038,
+    "id": 80006038
+  },
+  {
     "description": "- When 3 or more positive effects are active on self, action becomes a burst skill\n- If opponent has multiple negative effects, inflicts Paralysis\n- If opponent has 3 or more status effects, inflicts Dazed\n- Receives increased damage from critical attacks and positive effects are removed when hit by critical attacks",
     "enemy_id": 80007001,
     "id": 80007001
@@ -813,6 +1178,41 @@
     "description": "- Poisonous attack\n- Removes own negative effects. Grants Negative Effects Immunity on self\n- Restores stun gauge during turn if stun gauge is at or below a certain level",
     "enemy_id": 80007009,
     "id": 80007009
+  },
+  {
+    "description": "- Inflicts Poison\n- Removes own negative effects. Grants Negative Effects Immunity on self\n- Restores stun gauge during turn if stun gauge is at or below a certain level",
+    "enemy_id": 80007011,
+    "id": 80007011
+  },
+  {
+    "description": "- Inflicts Poison\n- Removes own negative effects. Grants Negative Effects Immunity on self\n- Restores stun gauge during turn if stun gauge is at or below a certain level",
+    "enemy_id": 80007012,
+    "id": 80007012
+  },
+  {
+    "description": "- Inflicts Poison\n- Removes own negative effects. Grants Negative Effects Immunity on self\n- Restores stun gauge during turn if stun gauge is at or below a certain level",
+    "enemy_id": 80007013,
+    "id": 80007013
+  },
+  {
+    "description": "- Inflicts Poison\n- Removes own negative effects. Grants Negative Effects Immunity on self\n- Restores stun gauge during turn if stun gauge is at or below a certain level",
+    "enemy_id": 80007014,
+    "id": 80007014
+  },
+  {
+    "description": "- Inflicts Poison\n- Removes own negative effects. Grants Negative Effects Immunity on self\n- Restores stun gauge during turn if stun gauge is at or below a certain level",
+    "enemy_id": 80007015,
+    "id": 80007015
+  },
+  {
+    "description": "- Inflicts Poison\n- Removes own negative effects. Grants Negative Effects Immunity on self\n- Restores stun gauge during turn if stun gauge is at or below a certain level",
+    "enemy_id": 80007016,
+    "id": 80007016
+  },
+  {
+    "description": "- Inflicts Poison\n- Removes own negative effects. Grants Negative Effects Immunity on self\n- Restores stun gauge during turn if stun gauge is at or below a certain level",
+    "enemy_id": 80007017,
+    "id": 80007017
   },
   {
     "description": "- Counters\n- Protection",
@@ -1220,6 +1620,41 @@
     "id": 80018074
   },
   {
+    "description": "- Heals allies\n- Heals allies when KO'd\n- When KO'd, removes all allies' positive effects\n- Counters",
+    "enemy_id": 80018101,
+    "id": 80018101
+  },
+  {
+    "description": "- Heals allies\n- Heals allies when KO'd\n- When KO'd, removes all allies' positive effects\n- Counters",
+    "enemy_id": 80018102,
+    "id": 80018102
+  },
+  {
+    "description": "- Heals allies\n- Heals allies when KO'd\n- When KO'd, removes all allies' positive effects\n- Counters",
+    "enemy_id": 80018103,
+    "id": 80018103
+  },
+  {
+    "description": "- Heals allies\n- Heals allies when KO'd\n- When KO'd, removes all allies' positive effects\n- Counters",
+    "enemy_id": 80018104,
+    "id": 80018104
+  },
+  {
+    "description": "- Heals allies\n- Heals allies when KO'd\n- When KO'd, removes all allies' positive effects\n- Counters",
+    "enemy_id": 80018105,
+    "id": 80018105
+  },
+  {
+    "description": "- Heals allies\n- Heals allies when KO'd\n- When KO'd, removes all allies' positive effects\n- Counters",
+    "enemy_id": 80018106,
+    "id": 80018106
+  },
+  {
+    "description": "- Heals allies\n- Heals allies when KO'd\n- When KO'd, removes all allies' positive effects\n- Counters",
+    "enemy_id": 80018107,
+    "id": 80018107
+  },
+  {
     "description": "- Heals allies",
     "enemy_id": 80019001,
     "id": 80019001
@@ -1445,6 +1880,41 @@
     "id": 80022025
   },
   {
+    "description": "- When inflicted with 4 or fewer negative effects, significantly reduces damage received",
+    "enemy_id": 80022027,
+    "id": 80022027
+  },
+  {
+    "description": "- When inflicted with 4 or fewer negative effects, significantly reduces damage received",
+    "enemy_id": 80022028,
+    "id": 80022028
+  },
+  {
+    "description": "- When inflicted with 4 or fewer negative effects, significantly reduces damage received",
+    "enemy_id": 80022029,
+    "id": 80022029
+  },
+  {
+    "description": "- When inflicted with 4 or fewer negative effects, significantly reduces damage received",
+    "enemy_id": 80022030,
+    "id": 80022030
+  },
+  {
+    "description": "- When inflicted with 4 or fewer negative effects, significantly reduces damage received",
+    "enemy_id": 80022031,
+    "id": 80022031
+  },
+  {
+    "description": "- When inflicted with 4 or fewer negative effects, significantly reduces damage received",
+    "enemy_id": 80022032,
+    "id": 80022032
+  },
+  {
+    "description": "- When inflicted with 4 or fewer negative effects, significantly reduces damage received",
+    "enemy_id": 80022033,
+    "id": 80022033
+  },
+  {
     "description": "- Inflicts Blindness\n- Gains Evasion after turn",
     "enemy_id": 80023001,
     "id": 80023001
@@ -1573,6 +2043,76 @@
     "description": "- Reduces damage dealt\n- Boosts all allies' damage dealt when KO'd\n- Boosts all allies' damage received when KO'd",
     "enemy_id": 80026037,
     "id": 80026037
+  },
+  {
+    "description": "- When KO'd, removes Counter from all allies\n- Inflicts Burn",
+    "enemy_id": 80026052,
+    "id": 80026052
+  },
+  {
+    "description": "- When KO'd, removes Counter from all allies\n- Inflicts Burn",
+    "enemy_id": 80026057,
+    "id": 80026057
+  },
+  {
+    "description": "- Reduces damage dealt\n- When KO'd, boosts all allies' damage dealt",
+    "enemy_id": 80026058,
+    "id": 80026058
+  },
+  {
+    "description": "- Reduces damage dealt\n- When KO'd, boosts all allies' damage dealt",
+    "enemy_id": 80026062,
+    "id": 80026062
+  },
+  {
+    "description": "- When KO'd, removes Counter from all allies\n- Inflicts Burn",
+    "enemy_id": 80026066,
+    "id": 80026066
+  },
+  {
+    "description": "- Reduces damage dealt\n- When KO'd, boosts all allies' damage dealt",
+    "enemy_id": 80026067,
+    "id": 80026067
+  },
+  {
+    "description": "- When KO'd, removes Counter from all allies\n- Inflicts Burn",
+    "enemy_id": 80026071,
+    "id": 80026071
+  },
+  {
+    "description": "- Reduces damage dealt\n- When KO'd, boosts all allies' damage dealt",
+    "enemy_id": 80026072,
+    "id": 80026072
+  },
+  {
+    "description": "- When KO'd, removes Counter from all allies\n- Inflicts Burn",
+    "enemy_id": 80026076,
+    "id": 80026076
+  },
+  {
+    "description": "- Reduces damage dealt\n- When KO'd, boosts all allies' damage dealt",
+    "enemy_id": 80026077,
+    "id": 80026077
+  },
+  {
+    "description": "- When KO'd, removes Counter from all allies\n- Inflicts Burn",
+    "enemy_id": 80026081,
+    "id": 80026081
+  },
+  {
+    "description": "- Reduces damage dealt\n- When KO'd, boosts all allies' damage dealt",
+    "enemy_id": 80026082,
+    "id": 80026082
+  },
+  {
+    "description": "- When KO'd, removes Counter from all allies\n- Inflicts Burn",
+    "enemy_id": 80026086,
+    "id": 80026086
+  },
+  {
+    "description": "- Reduces damage dealt\n- When KO'd, boosts all allies' damage dealt",
+    "enemy_id": 80026090,
+    "id": 80026090
   },
   {
     "description": "- Boosts damage dealt when hit by a physical attack\n- Receives increased damage from physical attacks\n- Reduces damage dealt when hit by a magic attack\n- Reduces damage received when hit by a magic attack",
@@ -1730,9 +2270,44 @@
     "id": 80035001
   },
   {
+    "description": "- Grants self Magic Attack Reflect\n- Significantly reduces damage received while an Extra Large Mushroom is alive\n- If not granted Magic Attack Reflect, force stuns self after being hit by an attack\n- When stunned, remove all opponents' status effects\n- Advances allies' turns",
+    "enemy_id": 80035029,
+    "id": 80035029
+  },
+  {
+    "description": "- Grants self Magic Attack Reflect\n- Significantly reduces damage received while an Extra Large Mushroom is alive\n- If not granted Magic Attack Reflect, force stuns self after being hit by an attack\n- When stunned, remove all opponents' status effects\n- Advances allies' turns",
+    "enemy_id": 80035030,
+    "id": 80035030
+  },
+  {
+    "description": "- Grants self Magic Attack Reflect\n- Significantly reduces damage received while an Extra Large Mushroom is alive\n- If not granted Magic Attack Reflect, force stuns self after being hit by an attack\n- When stunned, remove all opponents' status effects\n- Advances allies' turns",
+    "enemy_id": 80035032,
+    "id": 80035032
+  },
+  {
     "description": "No tips available.",
     "enemy_id": 80035034,
     "id": 80035034
+  },
+  {
+    "description": "- Grants self Magic Attack Reflect\n- Significantly reduces damage received while an Extra Large Mushroom is alive\n- If not granted Magic Attack Reflect, force stuns self after being hit by an attack\n- When stunned, remove all opponents' status effects\n- Advances allies' turns",
+    "enemy_id": 80035035,
+    "id": 80035035
+  },
+  {
+    "description": "- Grants self Magic Attack Reflect\n- Significantly reduces damage received while an Extra Large Mushroom is alive\n- If not granted Magic Attack Reflect, force stuns self after being hit by an attack\n- When stunned, remove all opponents' status effects\n- Advances allies' turns",
+    "enemy_id": 80035038,
+    "id": 80035038
+  },
+  {
+    "description": "- Grants self Magic Attack Reflect\n- Significantly reduces damage received while an Extra Large Mushroom is alive\n- If not granted Magic Attack Reflect, force stuns self after being hit by an attack\n- When stunned, remove all opponents' status effects\n- Advances allies' turns",
+    "enemy_id": 80035039,
+    "id": 80035039
+  },
+  {
+    "description": "- Grants self Magic Attack Reflect\n- Significantly reduces damage received while an Extra Large Mushroom is alive\n- If not granted Magic Attack Reflect, force stuns self after being hit by an attack\n- When stunned, remove all opponents' status effects\n- Advances allies' turns",
+    "enemy_id": 80035041,
+    "id": 80035041
   },
   {
     "description": "- Taunts\n- Paralyzing strike\n- Increases damage dealt to taunted targets",
@@ -1818,6 +2393,11 @@
     "description": "- Deals significant damage to all targets",
     "enemy_id": 80042007,
     "id": 80042007
+  },
+  {
+    "description": "- Grants Initiative\n- Before turn, boosts own damage dealt\n- Heals self each turn\n- Immune to damage equal to 20% or less of own max HP\n- When hit by an attack that deals damage equal to 21% or higher of max HP, removes conditional damage immunity\n- Uses attacks that remove positive effects",
+    "enemy_id": 80042009,
+    "id": 80042009
   },
   {
     "description": "- Taunts with each turn\n- Attacks ignore odds of being targeted",
@@ -2160,6 +2740,41 @@
     "id": 80052029
   },
   {
+    "description": "- Inflicts Nullify Recovery\n- Grants allies Regen and boosts their damage dealt",
+    "enemy_id": 80052032,
+    "id": 80052032
+  },
+  {
+    "description": "- Inflicts Nullify Recovery\n- Grants allies Regen and boosts their damage dealt",
+    "enemy_id": 80052033,
+    "id": 80052033
+  },
+  {
+    "description": "- Inflicts Nullify Recovery\n- Grants allies Regen and boosts their damage dealt",
+    "enemy_id": 80052034,
+    "id": 80052034
+  },
+  {
+    "description": "- Inflicts Nullify Recovery\n- Grants allies Regen and boosts their damage dealt",
+    "enemy_id": 80052035,
+    "id": 80052035
+  },
+  {
+    "description": "- Inflicts Nullify Recovery\n- Grants allies Regen and boosts their damage dealt",
+    "enemy_id": 80052036,
+    "id": 80052036
+  },
+  {
+    "description": "- Inflicts Nullify Recovery\n- Grants allies Regen and boosts their damage dealt",
+    "enemy_id": 80052037,
+    "id": 80052037
+  },
+  {
+    "description": "- Inflicts Nullify Recovery\n- Grants allies Regen and boosts their damage dealt",
+    "enemy_id": 80052038,
+    "id": 80052038
+  },
+  {
     "description": "- Counters\n- Delays turn\n- Protection",
     "enemy_id": 80053001,
     "id": 80053001
@@ -2218,6 +2833,41 @@
     "description": "- Counters\n- Protection\n- Restores stun damage after turn",
     "enemy_id": 80053020,
     "id": 80053020
+  },
+  {
+    "description": "- Counters\n- Delays turn\n- Protection",
+    "enemy_id": 80053022,
+    "id": 80053022
+  },
+  {
+    "description": "- Counters\n- Delays turn\n- Protection",
+    "enemy_id": 80053023,
+    "id": 80053023
+  },
+  {
+    "description": "- Counters\n- Delays turn\n- Protection",
+    "enemy_id": 80053024,
+    "id": 80053024
+  },
+  {
+    "description": "- Counters\n- Delays turn\n- Protection",
+    "enemy_id": 80053025,
+    "id": 80053025
+  },
+  {
+    "description": "- Counters\n- Delays turn\n- Protection",
+    "enemy_id": 80053026,
+    "id": 80053026
+  },
+  {
+    "description": "- Counters\n- Delays turn\n- Protection",
+    "enemy_id": 80053027,
+    "id": 80053027
+  },
+  {
+    "description": "- Counters\n- Delays turn\n- Protection",
+    "enemy_id": 80053028,
+    "id": 80053028
   },
   {
     "description": "- Restores stun damage after turn\n- Removes positive effects after stun",
@@ -3050,6 +3700,41 @@
     "id": 80085009
   },
   {
+    "description": "- Before turn, grants self Evasion\n- When no allies remain, boosts damage dealt and SPD",
+    "enemy_id": 80085010,
+    "id": 80085010
+  },
+  {
+    "description": "- Before turn, grants self Evasion\n- When no allies remain, boosts damage dealt and SPD",
+    "enemy_id": 80085011,
+    "id": 80085011
+  },
+  {
+    "description": "- Before turn, grants self Evasion\n- When no allies remain, boosts damage dealt and SPD",
+    "enemy_id": 80085012,
+    "id": 80085012
+  },
+  {
+    "description": "- Before turn, grants self Evasion\n- When no allies remain, boosts damage dealt and SPD",
+    "enemy_id": 80085013,
+    "id": 80085013
+  },
+  {
+    "description": "- Before turn, grants self Evasion\n- When no allies remain, boosts damage dealt and SPD",
+    "enemy_id": 80085014,
+    "id": 80085014
+  },
+  {
+    "description": "- Before turn, grants self Evasion\n- When no allies remain, boosts damage dealt and SPD",
+    "enemy_id": 80085015,
+    "id": 80085015
+  },
+  {
+    "description": "- Before turn, grants self Evasion\n- When no allies remain, boosts damage dealt and SPD",
+    "enemy_id": 80085016,
+    "id": 80085016
+  },
+  {
     "description": "- Restores HP and stun damage each turn\n- Boosts damage dealt depending on the amount of negative effects on opponent",
     "enemy_id": 80086001,
     "id": 80086001
@@ -3088,6 +3773,41 @@
     "description": "- Restores HP and stun damage each turn\n- Boosts damage dealt depending on the amount of negative effects on opponent",
     "enemy_id": 80086011,
     "id": 80086011
+  },
+  {
+    "description": "- Grants self Damage Immunity after being hit by an attack when HP reaches a certain level (MAX 1 time)",
+    "enemy_id": 80086013,
+    "id": 80086013
+  },
+  {
+    "description": "- Grants self Damage Immunity after being hit by an attack when HP reaches a certain level (MAX 1 time)",
+    "enemy_id": 80086014,
+    "id": 80086014
+  },
+  {
+    "description": "- Grants self Damage Immunity after being hit by an attack when HP reaches a certain level (MAX 1 time)",
+    "enemy_id": 80086015,
+    "id": 80086015
+  },
+  {
+    "description": "- Grants self Damage Immunity after being hit by an attack when HP reaches a certain level (MAX 1 time)",
+    "enemy_id": 80086016,
+    "id": 80086016
+  },
+  {
+    "description": "- Grants self Damage Immunity after being hit by an attack when HP reaches a certain level (MAX 1 time)",
+    "enemy_id": 80086017,
+    "id": 80086017
+  },
+  {
+    "description": "- Grants self Damage Immunity after being hit by an attack when HP reaches a certain level (MAX 1 time)",
+    "enemy_id": 80086018,
+    "id": 80086018
+  },
+  {
+    "description": "- Grants self Damage Immunity after being hit by an attack when HP reaches a certain level (MAX 1 time)",
+    "enemy_id": 80086019,
+    "id": 80086019
   },
   {
     "description": "- Boosts damage received from opponents with Dealt Damage Up \n- Boosts stun damage received from opponents with Stun Damage Up \n- Reduces damage dealt to opponents with Received Damage Down \n- Receives increased stun damage from Slash attacks\n- Moderate chance to reduce damage dealt when hit by a Fire attack",
@@ -3213,6 +3933,11 @@
     "description": "- Receives significantly reduced damage from single-target attacks",
     "enemy_id": 80090035,
     "id": 80090035
+  },
+  {
+    "description": "- When not inflicted with a status effect, reduces stun damage received\n- When damaged by a battle item, has a chance to inflict Brittle on self",
+    "enemy_id": 80090046,
+    "id": 80090046
   },
   {
     "description": "- At the start of a wave, reduces damage received\n- Boosts burst power based on the number of different positive effects\n- Grants Evasion to all allies",
@@ -3375,6 +4100,11 @@
     "id": 80099051
   },
   {
+    "description": "- Boosts effects received from panels by 100%\n- At the start of a wave, reduces damage received",
+    "enemy_id": 80099052,
+    "id": 80099052
+  },
+  {
     "description": "- Boosts damage dealt to opponents with negative effects\n- Restores all allies' HP \n- Inflicts Negative Effect Potency Up",
     "enemy_id": 80100020,
     "id": 80100020
@@ -3398,6 +4128,11 @@
     "description": "- Shorter stun time\n- Protection\n- Grants self Physical Damage Immunity\n- Boosts damage dealt and reduces damage received when HP reaches a certain level\n- Inflicts Reduced Damage Dealt",
     "enemy_id": 80101038,
     "id": 80101038
+  },
+  {
+    "description": "- At the start of a wave, reduces damage received\n- After being hit by a critical attack, boosts own damage received",
+    "enemy_id": 80101040,
+    "id": 80101040
   },
   {
     "description": "- Strong attack that targets all enemies\n- Restores stun gauge after turn\n- Stunned when hit by an attack while inflicted with a status effect",
@@ -3435,6 +4170,41 @@
     "id": 80104009
   },
   {
+    "description": "No tips available.",
+    "enemy_id": 80104020,
+    "id": 80104020
+  },
+  {
+    "description": "No tips available.",
+    "enemy_id": 80104023,
+    "id": 80104023
+  },
+  {
+    "description": "No tips available.",
+    "enemy_id": 80104024,
+    "id": 80104024
+  },
+  {
+    "description": "No tips available.",
+    "enemy_id": 80104027,
+    "id": 80104027
+  },
+  {
+    "description": "No tips available.",
+    "enemy_id": 80104028,
+    "id": 80104028
+  },
+  {
+    "description": "No tips available.",
+    "enemy_id": 80104031,
+    "id": 80104031
+  },
+  {
+    "description": "No tips available.",
+    "enemy_id": 80104033,
+    "id": 80104033
+  },
+  {
     "description": "- If 2 or more positive effects are active on self, converts negative panels to positive panels before the start of turn",
     "enemy_id": 80105001,
     "id": 80105001
@@ -3468,6 +4238,46 @@
     "description": "- Restores own HP\n- Grants self multiple positive effects\n- Receives increased damage from opponents with high HP",
     "enemy_id": 80105011,
     "id": 80105011
+  },
+  {
+    "description": "- When not inflicted with a status effect, reduces stun damage received\n- When damaged by a battle item, has a chance to inflict Brittle on self",
+    "enemy_id": 80105012,
+    "id": 80105012
+  },
+  {
+    "description": "- When stunned, boosts Breakers' damage dealt",
+    "enemy_id": 80105013,
+    "id": 80105013
+  },
+  {
+    "description": "- When stunned, boosts Breakers' damage dealt",
+    "enemy_id": 80105014,
+    "id": 80105014
+  },
+  {
+    "description": "- When stunned, boosts Breakers' damage dealt",
+    "enemy_id": 80105015,
+    "id": 80105015
+  },
+  {
+    "description": "- When stunned, boosts Breakers' damage dealt",
+    "enemy_id": 80105016,
+    "id": 80105016
+  },
+  {
+    "description": "- When stunned, boosts Breakers' damage dealt",
+    "enemy_id": 80105017,
+    "id": 80105017
+  },
+  {
+    "description": "- When stunned, boosts Breakers' damage dealt",
+    "enemy_id": 80105018,
+    "id": 80105018
+  },
+  {
+    "description": "- When stunned, boosts Breakers' damage dealt",
+    "enemy_id": 80105019,
+    "id": 80105019
   },
   {
     "description": "- When stunned, grants Regen to all enemies\n- When hit by an attack while HP is 50% or lower, boosts damage dealt",
@@ -3510,6 +4320,16 @@
     "id": 80107002
   },
   {
+    "description": "- After being hit by an attack while the stun gauge is full, converts weaken panels into boost panels\n- After being hit by an attack while the stun gauge is full, converts boost panels into weaken panels",
+    "enemy_id": 80107055,
+    "id": 80107055
+  },
+  {
+    "description": "- Boosts effects received from panels by 100%",
+    "enemy_id": 80108001,
+    "id": 80108001
+  },
+  {
     "description": "- When hit by an attack while stun gauge is full, converts negative panels to positive panels\n- When hit by an attack while stun gauge is full, converts positive panels to negative panels",
     "enemy_id": 80108004,
     "id": 80108004
@@ -3535,6 +4355,11 @@
     "id": 80109034
   },
   {
+    "description": "- When not inflicted with a status effect, reduces stun damage received\n- When damaged by a battle item, has a chance to inflict Brittle on self",
+    "enemy_id": 80109035,
+    "id": 80109035
+  },
+  {
     "description": "- Shorter stun time\n- Taunts",
     "enemy_id": 80109038,
     "id": 80109038
@@ -3553,6 +4378,41 @@
     "description": "- Heals allies and boosts allies' damage dealt\n- Boosts all allies' damage dealt\n- Reduces all allies' damage received\n- After stun, removes all positive effects from self",
     "enemy_id": 80110046,
     "id": 80110046
+  },
+  {
+    "description": "- Heals allies, boosts allies' damage dealt, and removes negative effects\n- Grants allies Regen, reduces allies' damage received, and removes negative effects\n- Boosts all allies' damage dealt\n- Reduces all allies' damage received",
+    "enemy_id": 80110053,
+    "id": 80110053
+  },
+  {
+    "description": "- Heals allies, boosts allies' damage dealt, and removes negative effects\n- Grants allies Regen, reduces allies' damage received, and removes negative effects\n- Boosts all allies' damage dealt\n- Reduces all allies' damage received",
+    "enemy_id": 80110055,
+    "id": 80110055
+  },
+  {
+    "description": "- Heals allies, boosts allies' damage dealt, and removes negative effects\n- Grants allies Regen, reduces allies' damage received, and removes negative effects\n- Boosts all allies' damage dealt\n- Reduces all allies' damage received",
+    "enemy_id": 80110057,
+    "id": 80110057
+  },
+  {
+    "description": "- Heals allies, boosts allies' damage dealt, and removes negative effects\n- Grants allies Regen, reduces allies' damage received, and removes negative effects\n- Boosts all allies' damage dealt\n- Reduces all allies' damage received",
+    "enemy_id": 80110060,
+    "id": 80110060
+  },
+  {
+    "description": "- Heals allies, boosts allies' damage dealt, and removes negative effects\n- Grants allies Regen, reduces allies' damage received, and removes negative effects\n- Boosts all allies' damage dealt\n- Reduces all allies' damage received",
+    "enemy_id": 80110061,
+    "id": 80110061
+  },
+  {
+    "description": "- Heals allies, boosts allies' damage dealt, and removes negative effects\n- Grants allies Regen, reduces allies' damage received, and removes negative effects\n- Boosts all allies' damage dealt\n- Reduces all allies' damage received",
+    "enemy_id": 80110063,
+    "id": 80110063
+  },
+  {
+    "description": "- Heals allies, boosts allies' damage dealt, and removes negative effects\n- Grants allies Regen, reduces allies' damage received, and removes negative effects\n- Boosts all allies' damage dealt\n- Reduces all allies' damage received",
+    "enemy_id": 80110066,
+    "id": 80110066
   },
   {
     "description": "- Heals allies and boosts damage dealt\n- Boosts all allies' damage dealt\n- Reduces all allies' damage received",
@@ -3595,14 +4455,64 @@
     "id": 80116008
   },
   {
+    "description": "- After being hit by an attack other than a Fire attack, boosts own damage received",
+    "enemy_id": 80116009,
+    "id": 80116009
+  },
+  {
+    "description": "- At the start of a wave, reduces damage received\n- After being hit by a critical attack, boosts own damage received",
+    "enemy_id": 80116010,
+    "id": 80116010
+  },
+  {
+    "description": "- Boosts effects received from panels by 300%",
+    "enemy_id": 80116011,
+    "id": 80116011
+  },
+  {
     "description": "- After stun by magic attack, receives increased damage from magic attacks\n- After stun by physical attack, receives increased damage from physical attacks",
     "enemy_id": 80117001,
     "id": 80117001
   },
   {
+    "description": "- Grants Initiative\n- Nullifies effects that delay turns\n- Reduces SPD",
+    "enemy_id": 80117005,
+    "id": 80117005
+  },
+  {
+    "description": "- Grants Initiative\n- Nullifies effects that delay turns\n- Reduces SPD",
+    "enemy_id": 80117006,
+    "id": 80117006
+  },
+  {
     "description": "- After stun by magic attack, receives increased damage from magic attacks\n- After stun by physical attack, receives increased damage from physical attacks",
     "enemy_id": 80117007,
     "id": 80117007
+  },
+  {
+    "description": "- Grants Initiative\n- Nullifies effects that delay turns\n- Reduces SPD",
+    "enemy_id": 80117010,
+    "id": 80117010
+  },
+  {
+    "description": "- Grants Initiative\n- Nullifies effects that delay turns\n- Reduces SPD",
+    "enemy_id": 80117011,
+    "id": 80117011
+  },
+  {
+    "description": "- Grants Initiative\n- Nullifies effects that delay turns\n- Reduces SPD",
+    "enemy_id": 80117012,
+    "id": 80117012
+  },
+  {
+    "description": "- Grants Initiative\n- Nullifies effects that delay turns\n- Reduces SPD",
+    "enemy_id": 80117013,
+    "id": 80117013
+  },
+  {
+    "description": "- Grants Initiative\n- Nullifies effects that delay turns\n- Reduces SPD",
+    "enemy_id": 80117014,
+    "id": 80117014
   },
   {
     "description": "- Reduces damage dealt while inflicted with a status effect\n- Receives increased damage while inflicted with a status effect\n- Receives reduced damage from physical attacks while not stunned\n- Advances allies' turns",
@@ -3630,6 +4540,11 @@
     "id": 80118011
   },
   {
+    "description": "- Reduces damage received when the number of allies remaining is above a certain number",
+    "enemy_id": 80118012,
+    "id": 80118012
+  },
+  {
     "description": "- Creates positive panel when hit by a critical attack\n- Heals allies\n- Restores allies' stun gauge",
     "enemy_id": 80119001,
     "id": 80119001
@@ -3643,6 +4558,11 @@
     "description": "- When not stunned, immune to critical attacks\n- When stunned, removes negative effects from all enemies\n- When hit by a critical attack, creates positive panels\n- Heals allies\n- Restores allies' stun gauge\n- Reduces all enemies' damage dealt\n- Reduces all enemies' stun damage dealt",
     "enemy_id": 80119006,
     "id": 80119006
+  },
+  {
+    "description": "- Creates boost panels when hit by a critical attack\n- Restores allies' HP and stun gauge",
+    "enemy_id": 80119007,
+    "id": 80119007
   },
   {
     "description": "- When KO'd, converts negative panels to Paralysis panels\n- Poisonous attack\n- Advances allies' turns",
@@ -3670,6 +4590,41 @@
     "id": 80122001
   },
   {
+    "description": "- When stunned, boosts Breakers' damage dealt\n- Protection\n- Removes own status effects",
+    "enemy_id": 80122008,
+    "id": 80122008
+  },
+  {
+    "description": "- When stunned, boosts Breakers' damage dealt\n- Protection\n- Removes own status effects",
+    "enemy_id": 80122011,
+    "id": 80122011
+  },
+  {
+    "description": "- When stunned, boosts Breakers' damage dealt\n- Protection\n- Removes own status effects",
+    "enemy_id": 80122014,
+    "id": 80122014
+  },
+  {
+    "description": "- When stunned, boosts Breakers' damage dealt\n- Protection\n- Removes own status effects",
+    "enemy_id": 80122019,
+    "id": 80122019
+  },
+  {
+    "description": "- When stunned, boosts Breakers' damage dealt\n- Protection\n- Removes own status effects",
+    "enemy_id": 80122020,
+    "id": 80122020
+  },
+  {
+    "description": "- When stunned, boosts Breakers' damage dealt\n- Protection\n- Removes own status effects",
+    "enemy_id": 80122025,
+    "id": 80122025
+  },
+  {
+    "description": "- When stunned, boosts Breakers' damage dealt\n- Protection\n- Removes own status effects",
+    "enemy_id": 80122028,
+    "id": 80122028
+  },
+  {
     "description": "No tips available.",
     "enemy_id": 80123001,
     "id": 80123001
@@ -3678,6 +4633,11 @@
     "description": "- Extended duration of negative effects",
     "enemy_id": 80123012,
     "id": 80123012
+  },
+  {
+    "description": "- Immune to all damage received below a certain level",
+    "enemy_id": 80123015,
+    "id": 80123015
   },
   {
     "description": "- Receives increased damage while Brittle\n- Receives increased damage from critical attacks",
@@ -3718,6 +4678,41 @@
     "description": "- Removes all of own negative effects, boosts damage for each effect removed\n- When KO'd, boosts all allies' damage dealt and SPD and reduces all allies' damage received\n- Grants Evasion to all allies\n- Blindness attack",
     "enemy_id": 80130004,
     "id": 80130002
+  },
+  {
+    "description": "- When KO'd, boosts all allies' damage dealt",
+    "enemy_id": 80130006,
+    "id": 80130006
+  },
+  {
+    "description": "- When KO'd, boosts all allies' damage dealt",
+    "enemy_id": 80130007,
+    "id": 80130007
+  },
+  {
+    "description": "- When KO'd, boosts all allies' damage dealt",
+    "enemy_id": 80130008,
+    "id": 80130008
+  },
+  {
+    "description": "- When KO'd, boosts all allies' damage dealt",
+    "enemy_id": 80130009,
+    "id": 80130009
+  },
+  {
+    "description": "- When KO'd, boosts all allies' damage dealt",
+    "enemy_id": 80130010,
+    "id": 80130010
+  },
+  {
+    "description": "- When KO'd, boosts all allies' damage dealt",
+    "enemy_id": 80130011,
+    "id": 80130011
+  },
+  {
+    "description": "- When KO'd, boosts all allies' damage dealt",
+    "enemy_id": 80130012,
+    "id": 80130012
   },
   {
     "description": "- Recovers an ally's HP and stun gauge\n- Restores all allies' stun gauges\n- When HP is reduced below a certain level, reduces own damage received\n- Boosts damage dealt by all allies, based on their remaining HP",

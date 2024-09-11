@@ -12143,20 +12143,20 @@
   },
   {
     "id": 39904,
-    "name": "ライザ",
-    "title": "【Sunlit Beach】",
-    "full_name": "ライザリン・シュタウト",
+    "name": "Ryza",
+    "title": "Sunlit Beach",
+    "full_name": "Reisalin Stout",
     "base_character": "Ryza",
     "is_alchemist": true,
     "gender": "Female",
     "attribute": "ICE",
     "role": "ATTACKER",
     "initial_rarity": 3,
-    "acquisition_text": "海の向こうの知らない世界、\n一緒に見に行こう！",
+    "acquisition_text": "Across the seas to a world unknown—let's go see it together!",
     "profile": {
       "voice_actor": "Yuri Noguchi",
-      "voice_text": "泳ぐ準備はバッチリ！\n海の底に眠る素材、いっぱい集めるぞー！",
-      "description": "自由奔放な錬金術士の少女。 \n好奇心旺盛な彼女は華やかな水着に身を包み、新たな夏へ飛び込んだ。 \nいつもの帽子を想起させるスカーフは、本人のこだわり。 \n太陽を反射してきらめく砂浜が、彼女の存在を引き立たせる。",
+      "voice_text": "All set for swimming! I'm going to gather all sorts of materials from the seafloor!",
+      "description": "A free-spirited young alchemist who is full of curiosity. She has donned a dazzling swimsuit and jumped into a fresh new summer. The headband, reminiscent of her usual hat, is her favorite little detail. The sparkling sandy beach reflecting the sun makes her outfit look even more striking!",
       "origin_game": "Atelier Ryza: Ever Darkness & the Secret Hideout"
     },
     "gift_color": {
@@ -12234,9 +12234,9 @@
       }
     },
     "skill_1": {
-      "name": "サマーソルト",
-      "description": "攻撃後、アイテムゲージを{0}%回復し、<br>自身に「魔攻+{1}%」を1回行動終了するまで付与",
-      "summary": "攻撃後、アイテムゲージを回復<br>自身の魔攻アップ",
+      "name": "Summersault",
+      "description": "After attacking, restores the item gauge by {0}% and boosts own M. ATK by {1}% for 1 turn.",
+      "summary": "After attack, restores the item gauge and boosts own M. ATK.",
       "max_level": 5,
       "skill_type": "SKILL",
       "effects": [
@@ -12263,9 +12263,9 @@
       "wait": 100
     },
     "skill_2": {
-      "name": "トリプルスピア",
-      "description": "攻撃前、対象に「氷属性耐性-{0}%」を2回攻撃を受けるまで付与<br>「トリプルスピア」はスキルランプを持ち、点灯数が2個の時、効果内容が変化する<br>スキルランプは最大2個点灯できる<br><br>スキルランプの点灯数が2個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が2個の時、<br>この攻撃の貫通力+{1}し、<br>攻撃後、スキルランプを全て消灯する",
-      "summary": "攻撃前、対象の氷属性耐性ダウン<br>スキルランプの点灯数が2個未満の時、攻撃後、スキルランプを1個点灯する<br>スキルランプの点灯数が2個の時、この攻撃の貫通力アップし、攻撃後、スキルランプを全て消灯する",
+      "name": "Triple Spear",
+      "description": "Before attacking, reduces target's Ice resistance by {0}% for 2 attacks.<br>Triple Spear has charge indicators, and once 2 indicators are charged, the skill effect changes.<br>There are a maximum of 2 charges.<br><br>When there are less than 2 charges, after attacking, charges 1 of the indicators.<br><br>When there are 2 charges, boosts this attack's penetration by {1} and after attacking removes all charges from this skill.",
+      "summary": "Before attack, reduces target's Ice resistance.<br>When there are less than 2 charges, after attack, charges 1 of the indicators.<br>When there are 2 charges, boosts this attack's penetration and after attack removes all charges.",
       "max_level": 5,
       "skill_type": "SKILL",
       "effects": [
@@ -12302,9 +12302,9 @@
       "wait": 200
     },
     "burst": {
-      "name": "サンシャインスプラッシュ",
-      "description": "この攻撃の貫通力+{0}<br>攻撃前、自身に「スキルダメージ+{1}%」を付与(上限100%)",
-      "summary": "この攻撃の貫通力アップ<br>攻撃前、自身のスキルダメージアップ",
+      "name": "Sunshine Splash",
+      "description": "Boosts this attack's penetration by {0}. Before attacking, boosts own skill damage by {1}%. (MAX 100%)",
+      "summary": "Boosts this attack's penetration. Before attack, boosts own skill damage.",
       "max_level": 7,
       "skill_type": "BURST",
       "effects": [
@@ -12331,8 +12331,8 @@
       "wait": 200
     },
     "passive_1": {
-      "name": "ひと夏のハイジャンプ",
-      "description": "バトル開始時、「トリプルスピア」のスキルランプを2個点灯する<br>パーティの誰かが戦闘アイテム使用後、「トリプルスピア」のスキルランプを1個点灯する<br>※アイテムを複数同時に使用しても点灯は1個",
+      "name": "Summer High Jump",
+      "description": "At the start of battle, charges 2 of Triple Spear's charge indicators.<br>After a party member uses a battle item, charges 1 of Triple Spear's charge indicators.<br>Note: Even when using multiple items at the same time, this effect will only activate once.",
       "effects": [
         {
           "id": 72001094,
@@ -12347,7 +12347,7 @@
       ]
     },
     "passive_2": {
-      "name": "トドメのサーブ",
+      "name": "Finishing Serve",
       "description": "When attack target is stunned, boosts skill damage by {0}%.",
       "effects": [
         {
@@ -14499,20 +14499,20 @@
   },
   {
     "id": 43105,
-    "name": "レスナ",
-    "title": "【Pretty Summer】",
-    "full_name": "レスナ・シュテルネンリヒト",
+    "name": "Resna",
+    "title": "Pretty Summer",
+    "full_name": "Resna Sternenlicht",
     "base_character": "Resna",
     "is_alchemist": true,
     "gender": "Female",
     "attribute": "BOLT",
     "role": "BREAKER",
     "initial_rarity": 3,
-    "acquisition_text": "燦々と照らす太陽にも負けないくらい\n私ももっと輝いてみせます！",
+    "acquisition_text": "I'll shine even brighter than the sun!",
     "profile": {
       "voice_actor": "Saho Shirasu",
-      "voice_text": "強い日差しは得意じゃなかったけど……\nこの水着で乗り切ってみせる！",
-      "description": "駆け出しの錬金術士。\n錬金術復興を夢見て、日々奔走中。\n夏を楽しむため、親友のイザナに選んでもらった宝物の水着を身につけた。\n妖精を思わせる可憐な姿でも、日差し対策の麦わら帽子は欠かせない。",
+      "voice_text": "I've never been great with being out under the sun...but I'll get through it with this swimsuit!",
+      "description": "A novice alchemist who dreams of reviving alchemy and works tirelessly every day. To enjoy the summer, she is wearing a swimsuit that she treasures, as it was chosen by her best friend, Izana. With a delicate, fairy-like appearance, she always makes sure to wear her straw hat to protect herself from the sun.",
       "origin_game": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
     },
     "gift_color": {
@@ -14590,7 +14590,7 @@
       }
     },
     "skill_1": {
-      "name": "ブリッツワンド",
+      "name": "Blitz Wand",
       "description": "After attacking, boosts own stun damage by {0}% (MAX 20%) and boosts own stun damage by {1}% for 1 turn.",
       "summary": "After attacking, boosts own stun damage.",
       "max_level": 5,
@@ -14619,9 +14619,9 @@
       "wait": 100
     },
     "skill_2": {
-      "name": "ライトニングケージ",
-      "description": "攻撃前、対象に「雷属性耐性-{0}%」を2回攻撃を受けるまで付与し、<br>攻撃後、対象に「受けるクリティカルダメージ+{1}%」を1回攻撃を受けるまで付与",
-      "summary": "攻撃前、対象の雷属性耐性ダウン<br>攻撃後、対象の受けるクリティカルダメージアップ",
+      "name": "Lightning Cage",
+      "description": "Before attacking, reduces target's Bolt resistance by {0}% for 2 attacks. After attacking, boosts target's critical damage received by {1}% for 1 attack.",
+      "summary": "Before attack, reduces target's Bolt resistance. After attack, boosts target's critical damage received.",
       "max_level": 5,
       "skill_type": "SKILL",
       "effects": [
@@ -14648,8 +14648,8 @@
       "wait": 200
     },
     "burst": {
-      "name": "波乗りマリンウェーブ",
-      "description": "攻撃後、対象に「受ける魔法攻撃ダメージ+{0}%」を1回攻撃を受けるまで付与<br>対象がブレイク時、魔攻が最も高い味方1人に「魔攻+{1}%」を1回行動終了するまで付与",
+      "name": "Surfing Marine Wave",
+      "description": "After attacking, boosts target's magic attack damage received by {0}% for 1 attack. When target is stunned, boosts M. ATK of the ally with the highest M. ATK by {1}% for 1 turn.",
       "summary": "After attack, boosts target's magic attack damage received. When target is stunned, boosts an ally's M. ATK.",
       "max_level": 7,
       "skill_type": "BURST",
@@ -14677,8 +14677,8 @@
       "wait": 200
     },
     "passive_1": {
-      "name": "禍を転じて福と為す",
-      "description": "バトル中、タイムラインに出現する弱体系パネル全てを麦わらパネルに変換する(変換・生成されたパネルは除く)<br>自身が麦わらパネル獲得時、バーストスキルを発動できる",
+      "name": "From Misfortune to Fortune",
+      "description": "During battle, all weaken-type panels on the timeline are converted into straw hat panels. (Excludes panels that are otherwise converted or created)<br>Can activate burst skill when using a straw hat panel.",
       "effects": [
         {
           "id": 72001096,
@@ -14688,8 +14688,8 @@
       ]
     },
     "passive_2": {
-      "name": "サマーマジック",
-      "description": "攻撃対象がブレイク時、味方全員に「魔攻+{0}%」を1回行動終了するまで付与",
+      "name": "Summer Magic",
+      "description": "When attack target is stunned, boosts all allies' M. ATK by {0}% for 1 turn.",
       "effects": [
         {
           "id": 72001093,
@@ -15336,20 +15336,20 @@
   },
   {
     "id": 43204,
-    "name": "ヴァレリア",
-    "title": "【Radiant Summer】",
-    "full_name": "ヴァレリア",
+    "name": "Valeria",
+    "title": "Radiant Summer",
+    "full_name": "Valeria",
     "base_character": "Valeria",
     "is_alchemist": true,
     "gender": "Female",
     "attribute": "BOLT",
     "role": "ATTACKER",
     "initial_rarity": 3,
-    "acquisition_text": "さ、泳ぎに行きましょ！\n水場に潜む敵だって、私が倒してみせるわ！",
+    "acquisition_text": "Come on, let's go swimming! I'll take care of any enemies lurking in the water!",
     "profile": {
       "voice_actor": "Manami Numakura",
-      "voice_text": "泳ぎは得意なのよ。水中での戦闘も任せて！\n我ながら適応力あるぅー",
-      "description": "美しき記憶喪失の戦士。\n水着の必要性を特に感じていなかったが、見事に着こなす姿に、周囲の人々の視線は釘付け。\n着てみるととても身軽で動きやすく、先手必勝を信条とする本人もその機能性に満足している。",
+      "voice_text": "I'm a great swimmer! Leave any battles in the water to me! I can adapt to almost any situation!",
+      "description": "A beautiful warrior with amnesia. She didn't see the need for a swimsuit, but still captivated everyone with how great it looked on her. Once she tried it on, she found it very light and easy to move in, which was perfect for her as she believes that striking first is the key to victory.",
       "origin_game": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
     },
     "gift_color": {
@@ -15427,7 +15427,7 @@
       }
     },
     "skill_1": {
-      "name": "ゾマクリンゲ",
+      "name": "Sommer Klinge",
       "description": "Before attacking, boosts own critical rate by {0}% (MAX 100%)",
       "summary": "Before attack, boosts own critical rate.",
       "max_level": 5,
@@ -15451,9 +15451,9 @@
       "wait": 100
     },
     "skill_2": {
-      "name": "シーセンフラッター",
-      "description": "強化系パネル獲得時、この攻撃のクリティカル確率+{0}%<br>クリティカル攻撃後、自身に「スキルダメージ+{1}%」を付与(上限100%)",
-      "summary": "強化系パネル獲得時、この攻撃のクリティカル確率アップ。クリティカル攻撃後、自身のスキルダメージアップ",
+      "name": "Schießen Flutter",
+      "description": "When using boost-type panels, boosts this attack's critical rate by {0}%. After making a critical attack, boosts own skill damage by{1}%. (MAX 100%)",
+      "summary": "When using boost-type panels, boosts this attack's critical rate. After making a critical attack, boosts own skill damage.",
       "max_level": 5,
       "skill_type": "SKILL",
       "effects": [
@@ -15480,9 +15480,9 @@
       "wait": 300
     },
     "burst": {
-      "name": "オーツェアーンスピナー",
-      "description": "この攻撃はクリティカル確率+100%<br>攻撃後、自身に「大はしゃぎ」を1回行動終了するまで付与<br>※大はしゃぎは戦闘アイテムから受ける強化効果量+50%",
-      "summary": "この攻撃のクリティカル確率アップ<br>攻撃後、自身に「大はしゃぎ」を付与",
+      "name": "Ozean Spinner",
+      "description": "Boosts this attack's critical rate by 100%. After attacking, grants self Make a Splash for 1 turn.<br>Note: Make a Splash boosts the potency of buff effects from battle items by 50%.",
+      "summary": "Boosts this attack's critical rate. After attack, grants self Make a Splash.",
       "max_level": 7,
       "skill_type": "BURST",
       "effects": [
@@ -15504,8 +15504,8 @@
       "wait": 300
     },
     "passive_1": {
-      "name": "イイ波乗ってこう！",
-      "description": "バトル中、タイムラインに出現する強化系パネル全てを浮き輪パネルに変換する(変換・生成されたパネルは除く)<br>自身が浮き輪パネル獲得時、バーストスキルを発動できる",
+      "name": "Riding Good Waves!",
+      "description": "During battle, all boost-type panels on the timeline are converted into tube panels. (Excludes panels that are otherwise converted or created)<br>Can activate burst skill when using a tube panel.",
       "effects": [
         {
           "id": 72001097,
@@ -15515,8 +15515,8 @@
       ]
     },
     "passive_2": {
-      "name": "超えるホットリミット",
-      "description": "自身のクリティカル確率が100%を超えている場合、攻撃時、100%を超えたクリティカル確率の上昇量をクリティカルダメージアップに変換(変換上限300%)",
+      "name": "Breaking the Hot Limit",
+      "description": "When attacking while own critical rate exceeds 100%, boosts critical damage by the critical rate amount exceeding 100%. (MAX 300% converted)",
       "effects": [
         {
           "id": 72001098,

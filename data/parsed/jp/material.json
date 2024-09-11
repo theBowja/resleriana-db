@@ -5604,6 +5604,66 @@
         "episode_name": "1周年記念プレゼントバトル 第1弾"
       },
       {
+        "quest_id": 5804001,
+        "quest_name": "チャレンジバトル ジェロン１",
+        "episode_id": 5804,
+        "episode_name": "チャレンジバトル ジェロン"
+      },
+      {
+        "quest_id": 5804002,
+        "quest_name": "チャレンジバトル ジェロン２",
+        "episode_id": 5804,
+        "episode_name": "チャレンジバトル ジェロン"
+      },
+      {
+        "quest_id": 5804003,
+        "quest_name": "チャレンジバトル ジェロン３",
+        "episode_id": 5804,
+        "episode_name": "チャレンジバトル ジェロン"
+      },
+      {
+        "quest_id": 6004001,
+        "quest_name": "1周年記念プレゼントバトル 第2弾１",
+        "episode_id": 6004,
+        "episode_name": "1周年記念プレゼントバトル 第2弾"
+      },
+      {
+        "quest_id": 6004002,
+        "quest_name": "1周年記念プレゼントバトル 第2弾２",
+        "episode_id": 6004,
+        "episode_name": "1周年記念プレゼントバトル 第2弾"
+      },
+      {
+        "quest_id": 6004003,
+        "quest_name": "1周年記念プレゼントバトル 第2弾３",
+        "episode_id": 6004,
+        "episode_name": "1周年記念プレゼントバトル 第2弾"
+      },
+      {
+        "quest_id": 6004004,
+        "quest_name": "1周年記念プレゼントバトル 第2弾４",
+        "episode_id": 6004,
+        "episode_name": "1周年記念プレゼントバトル 第2弾"
+      },
+      {
+        "quest_id": 6004005,
+        "quest_name": "1周年記念プレゼントバトル 第2弾５",
+        "episode_id": 6004,
+        "episode_name": "1周年記念プレゼントバトル 第2弾"
+      },
+      {
+        "quest_id": 6004006,
+        "quest_name": "1周年記念プレゼントバトル 第2弾６",
+        "episode_id": 6004,
+        "episode_name": "1周年記念プレゼントバトル 第2弾"
+      },
+      {
+        "quest_id": 6004007,
+        "quest_name": "1周年記念プレゼントバトル 第2弾７",
+        "episode_id": 6004,
+        "episode_name": "1周年記念プレゼントバトル 第2弾"
+      },
+      {
         "quest_id": 204101002,
         "quest_name": "湿地の前の森で",
         "difficulty": "NORMAL",
@@ -39746,6 +39806,419 @@
     "image_small": "Ingredient_0686_S",
     "image_medium": "Ingredient_0686_M",
     "start_at": "2024-08-30T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 700,
+    "name": "ラインヴァイス",
+    "rarity": 2,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 31,
+        "name": "獣特攻",
+        "category": "ATTACK",
+        "description": "獣種族に与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000080,
+            "description": "獣種族に与えるダメージ{0}%アップ",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "物防の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117001,
+        "quest_name": "一斉攻撃・１【緑】",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117004,
+        "quest_name": "狼藉に終止符を【青/黄】",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117005,
+        "quest_name": "一斉攻撃・１【緑】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "狼藉に終止符を【青/黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0700_S",
+    "image_medium": "Ingredient_0700_M",
+    "start_at": "2024-09-11T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 701,
+    "name": "六花魚",
+    "rarity": 2,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 25,
+        "name": "物理耐性上昇",
+        "category": "ENHANCE",
+        "description": "物理攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "物理属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "name": "獣ダメージ上昇",
+        "category": "ATTACK",
+        "description": "獣種族に与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000080,
+            "description": "獣種族に与えるダメージ{0}%アップ",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117002,
+        "quest_name": "一斉攻撃・２【赤】",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117004,
+        "quest_name": "狼藉に終止符を【青/黄】",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117006,
+        "quest_name": "一斉攻撃・２【赤】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "狼藉に終止符を【青/黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0701_S",
+    "image_medium": "Ingredient_0701_M",
+    "start_at": "2024-09-11T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 702,
+    "name": "黒の魔石",
+    "rarity": 2,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 6,
+        "name": "火の祝福",
+        "category": "ATTACK",
+        "description": "火属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "火属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "単体回復ボーナス",
+        "category": "RECOVERY",
+        "description": "単体回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000073,
+            "description": "単体回復が与えるHP回復量{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117003,
+        "quest_name": "これ以上進ませないために【紫】",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117004,
+        "quest_name": "狼藉に終止符を【青/黄】",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117007,
+        "quest_name": "これ以上進ませないために【紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "狼藉に終止符を【青/黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0702_S",
+    "image_medium": "Ingredient_0702_M",
+    "start_at": "2024-09-11T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 703,
+    "name": "ひかりクラゲ",
+    "rarity": 3,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 10,
+        "name": "守護の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "火の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117005,
+        "quest_name": "一斉攻撃・１【緑】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "狼藉に終止符を【青/黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0703_S",
+    "image_medium": "Ingredient_0703_M",
+    "start_at": "2024-09-11T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 704,
+    "name": "閃光水",
+    "rarity": 3,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 29,
+        "name": "全体攻撃耐性上昇",
+        "category": "ENHANCE",
+        "description": "全体攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000112,
+            "description": "全体攻撃で受けるダメージ{0}％ダウン",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "全体回復量上昇",
+        "category": "RECOVERY",
+        "description": "味方全員回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体回復が与えるHP回復量{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117006,
+        "quest_name": "一斉攻撃・２【赤】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "狼藉に終止符を【青/黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0704_S",
+    "image_medium": "Ingredient_0704_M",
+    "start_at": "2024-09-11T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 705,
+    "name": "忘れ去られた宝石",
+    "rarity": 3,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 69,
+        "name": "属性耐性ダウン強化【火】",
+        "category": "WEAKENING",
+        "description": "対象が与える「火属性耐性ダウン」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000225,
+            "description": "対象が与える「火属性耐性ダウン」の効果量{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "ダメージバフ強化【B】",
+        "category": "ENHANCE",
+        "description": "ブレイカーへ与えるダメージ強化の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000018,
+            "description": "ブレイカーへのダメージバフ{0}%アップ",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117007,
+        "quest_name": "これ以上進ませないために【紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "狼藉に終止符を【青/黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0705_S",
+    "image_medium": "Ingredient_0705_M",
+    "start_at": "2024-09-11T03:00:00.000Z",
     "end_at": null
   }
 ]

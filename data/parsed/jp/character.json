@@ -16614,6 +16614,427 @@
     "start_at": "2024-07-19T03:00:00.000Z"
   },
   {
+    "id": 43205,
+    "name": "ヴァレリア",
+    "title": "【Awakened Past】",
+    "full_name": "ヴァレリア",
+    "base_character": "ヴァレリア",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "FIRE",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "身体の奥から溢れるこの力で――\n邪魔するヤツはぶっ飛ばす！",
+    "profile": {
+      "voice_actor": "沼倉愛美",
+      "voice_text": "これを着てると、不思議と力が湧いてくる。\nちゃんと、制御できるようにならなきゃね",
+      "description": "新たな力を手に入れた美しき戦士。 \nハイディたちと出会う以前の記憶はないものの、戦闘の腕前は達人の域に達している。 \nマナを模した意匠や金をあしらったこの装いは、彼女の美しさを際立たせ、秘められた力をも目覚めさせる。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "紫",
+      "given": "黄"
+    },
+    "battle_item_trait": [
+      {
+        "id": 5,
+        "name": "魔力の祝福",
+        "category": "ATTACK",
+        "description": "魔法攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "火の盾",
+        "category": "ENHANCE",
+        "description": "対象に「火属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000066,
+            "description": "対象に「火属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "スキル威力上昇",
+        "category": "ATTACK",
+        "description": "スキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "スキル威力{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 150,
+        "spd": 254,
+        "patk": 51,
+        "matk": 64,
+        "pdef": 42,
+        "mdef": 50
+      },
+      "growth": {
+        "hp": 1500,
+        "spd": 0,
+        "patk": 510,
+        "matk": 640,
+        "pdef": 420,
+        "mdef": 500
+      },
+      "resistance": {
+        "fire": 5,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "ヒッツェドンスト",
+      "description": "攻撃後、自身に「ブレイクダメージ+{0}%」を2回行動終了するまで付与し、<br>自身に「スキルダメージ+{1}%」を2回行動終了するまで付与",
+      "summary": "攻撃後、自身のブレイクダメージアップ<br>自身のスキルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001387,
+          "description": "",
+          "value": 4000
+        },
+        {
+          "id": 91001378,
+          "description": "",
+          "value": 4000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [34, 36, 38, 40, 42],
+      "has_stun": true,
+      "stun_values": [15, 15, 16, 17, 18],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "フランメテオア",
+      "description": "攻撃前、対象に「火属性耐性-{0}%」を2回攻撃を受けるまで付与<br>WEAK攻撃時、ブレイクダメージ+{1}%<br>攻撃後、自身に「マイナス効果無効」を1回行動終了するまで付与",
+      "summary": "攻撃前、対象の火属性耐性ダウン<br>WEAK攻撃時、ブレイクダメージアップ<br>攻撃後、マイナス効果無効を付与",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001298,
+          "description": "",
+          "value": 3500
+        },
+        {
+          "id": 91000907,
+          "description": "",
+          "value": 4000
+        },
+        {
+          "id": 91001022,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [143, 151, 160, 169, 178],
+      "has_stun": true,
+      "stun_values": [115, 122, 129, 136, 143],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "グランツアーンスト",
+      "description": "この攻撃の貫通力+{0}<br>WEAK攻撃時、対象を「強制ブレイク」<br>攻撃後、敵全体に「受けるダメージ+{2}%」を1回攻撃を受けるまで付与",
+      "summary": "この攻撃の貫通力アップ<br>WEAK攻撃時、対象を強制ブレイク<br>攻撃後、敵全体の受けるダメージアップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001337,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001187,
+          "description": "",
+          "value": 0
+        },
+        {
+          "id": 91001060,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [360, 360, 360, 382, 405, 427, 450],
+      "has_stun": true,
+      "stun_values": [300, 300, 300, 318, 337, 356, 375],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "目覚める闘魂",
+      "description": "カウンター攻撃から受けるダメージを無効",
+      "effects": [
+        {
+          "id": 72001124,
+          "description": "",
+          "value": 0
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "覚悟はできてる？",
+      "description": "スキル発動後、自身に「魔攻+{0}%」を付与(上限50%)<br>WEAK攻撃時、スキルダメージ+{1}%",
+      "effects": [
+        {
+          "id": 72001119,
+          "description": "[自身/魔攻上昇(上限50%)]",
+          "value": 500
+        },
+        {
+          "id": 72001120,
+          "description": "",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2024-09-11T03:00:00.000Z"
+  },
+  {
+    "id": 43206,
+    "name": "ヴァレリア",
+    "title": "【Awakened Past】",
+    "full_name": "ヴァレリア",
+    "base_character": "ヴァレリア",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "FIRE",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "身体の奥から溢れるこの力で――\n邪魔するヤツはぶっ飛ばす！",
+    "profile": {
+      "voice_actor": "沼倉愛美",
+      "voice_text": "これを着てると、不思議と力が湧いてくる。\nちゃんと、制御できるようにならなきゃね",
+      "description": "新たな力を手に入れた美しき戦士。 \nハイディたちと出会う以前の記憶はないものの、戦闘の腕前は達人の域に達している。 \nマナを模した意匠や金をあしらったこの装いは、彼女の美しさを際立たせ、秘められた力をも目覚めさせる。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "紫",
+      "given": "黄"
+    },
+    "battle_item_trait": [
+      {
+        "id": 5,
+        "name": "魔力の祝福",
+        "category": "ATTACK",
+        "description": "魔法攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "火の盾",
+        "category": "ENHANCE",
+        "description": "対象に「火属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000066,
+            "description": "対象に「火属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "スキル威力上昇",
+        "category": "ATTACK",
+        "description": "スキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "スキル威力{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 150,
+        "spd": 254,
+        "patk": 51,
+        "matk": 64,
+        "pdef": 42,
+        "mdef": 50
+      },
+      "growth": {
+        "hp": 1500,
+        "spd": 0,
+        "patk": 510,
+        "matk": 640,
+        "pdef": 420,
+        "mdef": 500
+      },
+      "resistance": {
+        "fire": 5,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "カッツェバイセン",
+      "description": "攻撃後、自身に「ブレイクダメージ+{0}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、自身のブレイクダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000908,
+          "description": "",
+          "value": 4000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [34, 36, 38, 40, 42],
+      "has_stun": true,
+      "stun_values": [15, 15, 16, 17, 18],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "メッサーベント",
+      "description": "攻撃前、対象に「火属性耐性-{0}%」を2回攻撃を受けるまで付与<br>WEAK攻撃時、ブレイクダメージ+{1}%<br>「メッサーベント」はスキルランプを持ち、点灯数が2個の時、効果内容が変化する<br>スキルランプは最大2個点灯できる<br><br>スキルランプの点灯数が2個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が2個の時<br>攻撃前に変身する",
+      "summary": "攻撃前、対象の火属性耐性ダウン<br>WEAK攻撃時、ブレイクダメージアップ<br>スキルランプの点灯数が2個未満の時、攻撃後、スキルランプを1個点灯する<br>スキルランプの点灯数が2個の時、攻撃前に変身",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001298,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91000907,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001379,
+          "description": "",
+          "value": 0
+        },
+        {
+          "id": 91001329,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [143, 151, 160, 169, 178],
+      "has_stun": true,
+      "stun_values": [115, 122, 129, 136, 143],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "エンデフィンスタニス",
+      "description": "WEAK攻撃時、対象を「強制ブレイク」",
+      "summary": "WEAK攻撃時、対象を強制ブレイク",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001187,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [360, 360, 360, 382, 405, 427, 450],
+      "has_stun": true,
+      "stun_values": [300, 300, 300, 318, 337, 356, 375],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "目覚める闘魂",
+      "description": "いずれかのスキル使用後「メッサーベント」のスキルランプを1個点灯する",
+      "effects": [
+        {
+          "id": 72001094,
+          "description": "[スキルランプ点灯]",
+          "value": 100
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "覚悟はできてる？",
+      "description": "スキル発動後、自身に「魔攻+{0}%」を付与(上限50%)",
+      "effects": [
+        {
+          "id": 72001119,
+          "description": "[自身/魔攻上昇(上限50%)]",
+          "value": 500
+        }
+      ]
+    },
+    "start_at": "2024-09-11T03:00:00.000Z"
+  },
+  {
     "id": 43301,
     "name": "ロマン",
     "title": "【Romance Hearts】",
@@ -19281,6 +19702,244 @@
       ]
     },
     "start_at": "2024-08-13T03:00:00.000Z"
+  },
+  {
+    "id": 44101,
+    "name": "ジェロン",
+    "title": "【Beastly Fencer】",
+    "full_name": "ジェロン・ディーゼル",
+    "base_character": "ジェロン",
+    "is_alchemist": true,
+    "gender": "男性",
+    "attribute": "SLASH",
+    "role": "DEFENDER",
+    "initial_rarity": 3,
+    "acquisition_text": "――お前たちには大きな借りがある\nこの腕、好きに使うといい",
+    "profile": {
+      "voice_actor": "中村悠一",
+      "voice_text": "錬金術士のジェロン・ディーゼルだ。\n俺たちの未来のため、この剣を振るう",
+      "description": "体の一部が獣化した錬金術士。 \n己の渇望のために相手を力でねじ伏せることをいとわなかった。 \n多くを語らないが、唯一の肉親である弟の話に関しては別。 \n兄という立場ゆえか、面倒見の良い性格をしている。\nただし、女性の扱いは苦手である。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "赤",
+      "given": "青"
+    },
+    "battle_item_trait": [
+      {
+        "id": 50,
+        "name": "会心の出来",
+        "category": "ENHANCE",
+        "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "物防の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 34,
+        "name": "全耐性上昇【背水】",
+        "category": "ENHANCE",
+        "description": "HPが50%以下の時、受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000103,
+            "description": "HPが50%以下の時、ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 199,
+        "spd": 262,
+        "patk": 57,
+        "matk": 47,
+        "pdef": 62,
+        "mdef": 60
+      },
+      "growth": {
+        "hp": 1990,
+        "spd": 0,
+        "patk": 570,
+        "matk": 470,
+        "pdef": 620,
+        "mdef": 600
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 5,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "バイトスラッシュ",
+      "description": "攻撃後、自身のHPを{0}%消費し、自身に「受けるダメージ-{1}%」を1回攻撃を受けるまで付与",
+      "summary": "攻撃後、自身のHPを消費し、自身の受けるダメージダウン",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001380,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91001038,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [50, 53, 56, 59, 62],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "バイティングストリーク",
+      "description": "自身のHPに応じ、ダメージ+5〜30%(HP20〜100%で少ないほど増加)<br>攻撃後、対象に「暗闇」を1回行動終了するまで付与し、自身のHPが50%以上の時は、味方全員に「受けるダメージ-{0}%」を2回攻撃を受けるまで付与<br>自身のHPが50%未満の時は、味方全員に「受けるダメージ-{1}%」を3回攻撃を受けるまで付与",
+      "summary": "自身のHPが少ないほどダメージアップ<br>攻撃後、対象に「暗闇」を付与<br>自身のHPが50%以上の時、味方全員の受けるダメージダウン<br>自身のHPが50%未満の時、味方全員の受けるダメージをさらにダウン",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001382,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001383,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91000943,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91000927,
+          "description": "",
+          "value": 500
+        },
+        {
+          "id": 91001388,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [242, 257, 272, 287, 302],
+      "has_stun": true,
+      "stun_values": [30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "アタラクシアファング",
+      "description": "攻撃前、自身のマイナス効果を解除し、<br>自身のHPに応じ、ダメージ+20〜100%(HP20〜100%で少ないほど増加)<br>攻撃後、自身のHPを{3}%回復",
+      "summary": "攻撃前、自身のマイナス効果を解除<br>自身のHPが少ないほどダメージアップ<br>攻撃後、自身のHPを回復",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001007,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91000943,
+          "description": "",
+          "value": 8000
+        },
+        {
+          "id": 91000927,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91000926,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [400, 400, 400, 425, 450, 475, 500],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "ヘイト&物防&魔防アップ",
+      "description": "敵にとても狙われやすくなる<br>自身の物防・魔防+{0}%",
+      "effects": [
+        {
+          "id": 72001113,
+          "description": "[自身/常時/物防上昇]",
+          "value": 3000
+        },
+        {
+          "id": 72001114,
+          "description": "[自身/常時/魔防上昇]",
+          "value": 3000
+        },
+        {
+          "id": 72000914,
+          "description": "狙われやすさ+100％",
+          "value": 10000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "レジストアップオール状態異常",
+      "description": "味方全員の全状態異常耐性＋{0}%",
+      "effects": [
+        {
+          "id": 72001115,
+          "description": "[味方全員/状態異常耐性上昇付与]",
+          "value": 5000
+        }
+      ]
+    },
+    "start_at": "2024-09-11T03:00:00.000Z"
   },
   {
     "id": 44201,

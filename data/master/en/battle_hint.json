@@ -50,7 +50,7 @@
     "id": 10131001
   },
   {
-    "description": "- When an ally is KO'd, converts positive panels into burst panels\n- When no other allies remain, creates burst panels\n- When using positive panels, inflicts Blindness on all enemies and allies\n- When using negative panels, inflicts multiple negative effects on self\n- Boosts own SPD each turn",
+    "description": "- When an ally is KO'd, converts boost-type panels into burst panels\n- When no other allies remain, creates burst panels\n- When using boost-type panels, inflicts Blindness on all enemies and allies\n- When using weaken panels, inflicts multiple negative effects on self\n- Boosts own SPD each turn",
     "enemy_id": 10140001,
     "id": 10140001
   },
@@ -60,7 +60,7 @@
     "id": 10141001
   },
   {
-    "description": "- When using negative panels, inflicts Paralysis on self\n- When using negative panels, boosts own damage received",
+    "description": "- When using weaken panels, inflicts Paralysis on self\n- When using weaken panels, boosts own damage received",
     "enemy_id": 10142001,
     "id": 10142001
   },
@@ -70,7 +70,7 @@
     "id": 10143001
   },
   {
-    "description": "- When using a positive panel, converts positive panels into negative panels\n- When using a negative panel, converts negative panels into positive panels",
+    "description": "- When using a boost-type panel, converts boost-type panels into weaken panels\n- When using weaken panels, converts weaken panels into boost panels",
     "enemy_id": 10144001,
     "id": 10144001
   },
@@ -250,7 +250,7 @@
     "id": 50137002
   },
   {
-    "description": "- When an ally is KO'd, converts positive panels into burst panels\n- When no other allies remain, creates burst panels\n- When using positive panels, inflicts Blindness on all enemies and allies\n- When using negative panels, inflicts multiple negative effects on self\n- Boosts own SPD each turn",
+    "description": "- When an ally is KO'd, converts boost-type panels into burst panels\n- When no other allies remain, creates burst panels\n- When using boost-type panels, inflicts Blindness on all enemies and allies\n- When using weaken panels, inflicts multiple negative effects on self\n- Boosts own SPD each turn",
     "enemy_id": 50140001,
     "id": 50140001
   },
@@ -260,12 +260,12 @@
     "id": 50141001
   },
   {
-    "description": "- When using negative panels, inflicts Paralysis on self\n- When using negative panels, boosts own damage received",
+    "description": "- When using weaken panels, inflicts Paralysis on self\n- When using weaken panels, boosts own damage received",
     "enemy_id": 50142001,
     "id": 50142001
   },
   {
-    "description": "- When using a positive panel, converts positive panels into negative panels\n- When using a negative panel, converts negative panels into positive panels",
+    "description": "- When using a boost-type panel, converts boost-type panels into weaken panels\n- When using a weaken panel, converts weaken panels into boost panels",
     "enemy_id": 50144001,
     "id": 50144001
   },
@@ -335,7 +335,7 @@
     "id": 60001002
   },
   {
-    "description": "・仲間を回復\n・氷・斬属性攻撃またはカウンター攻撃を受けた後、自身に被ダメージUPを付与",
+    "description": "- Heals allies\n- Boosts own damage received after being hit by an Ice attack, Slash attack, or counterattack",
     "enemy_id": 60002001,
     "id": 60002001
   },
@@ -425,7 +425,7 @@
     "id": 60022001
   },
   {
-    "description": "・相手全員に火傷を付与\n・自身が戦闘不能時、仲間全体に与ダメージUPを付与\n・自身が戦闘不能時、仲間全体に被ダメージUPを付与\n・氷・斬属性攻撃またはカウンター攻撃を受けた後、自身に被ダメージUPを付与",
+    "description": "- Inflicts Burn to all opponents\n- When KO'd, boosts all allies' damage dealt\n- When KO'd, boosts all allies' damage received\n- Boosts own damage received after being hit by an Ice attack, Slash attack, or counterattack",
     "enemy_id": 60026001,
     "id": 60026001
   },
@@ -460,7 +460,7 @@
     "id": 60035004
   },
   {
-    "description": "・ターンを遅らせる\n・氷・斬属性攻撃またはカウンター攻撃を受けた後、自身に被ダメージUPを付与",
+    "description": "- Delays turn\n- Boosts own damage received after being hit by an Ice attack, Slash attack, or counterattack",
     "enemy_id": 60035005,
     "id": 60035005
   },
@@ -545,7 +545,7 @@
     "id": 60093005
   },
   {
-    "description": "- Receives increased damage from burst skills\n- Shorter stun time\n- Boosts damage dealt with each turn\n- Nullifies Attribute Resistance Down\n- Each stun reduces stun damage received\n- Creates a burst panel when hit by an attack while the stun gauge is full\n- Inflicts Sleep to opponents\n- Advances owns turns",
+    "description": "- Receives increased damage from burst skills\n- Shorter stun time\n- Boosts damage dealt with each turn\n- Nullifies Attribute Resistance Decreased\n- Each stun reduces stun damage received\n- Creates a burst panel when hit by an attack while the stun gauge is full\n- Inflicts Sleep to opponents\n- Advances owns turns",
     "enemy_id": 60096001,
     "id": 60096001
   },
@@ -570,7 +570,7 @@
     "id": 60100001
   },
   {
-    "description": "・状態異常の場合、仲間全体を弱体化\n・状態異常の場合、相手全体を強化\n・自身がカチコチの時、攻撃を受けた時、暗闇を自身に付与\n・氷・斬属性攻撃またはカウンター攻撃を受けた後、自身に被ダメージUPを付与",
+    "description": "- When inflicted with a status effect, debuffs all allies\n- When inflicted with a status effect, buffs all enemies\n- When inflicted with Brittle and hit by an attack, inflicts Blindness on self\n- Boosts own damage received after being hit by an Ice attack, Slash attack, or counterattack",
     "enemy_id": 60103001,
     "id": 60103001
   },
@@ -595,22 +595,22 @@
     "id": 60106001
   },
   {
-    "description": "- When hit by an attack while stun gauge is full, converts weaken panels to boost panels\n- When hit by an attack while stun gauge is full, converts boost panels to weaken panels\n- Boosts damage received and reduces damage dealt and stun damage of opponents with high M. ATK\n- Inflicts Nullify Positive Effects on opponents with high HP\n- Delays turn",
+    "description": "- When hit by an attack while stun gauge is full, converts weaken panels to boost panels\n- When hit by an attack while stun gauge is full, converts boost-type panels to weaken panels\n- Boosts damage received and reduces damage dealt and stun damage of opponents with high M. ATK\n- Inflicts Nullify Positive Effects on opponents with high HP\n- Delays turn",
     "enemy_id": 60107001,
     "id": 60107001
   },
   {
-    "description": "- When hit by an attack while stun gauge is full, converts weaken panels to boost panels\n- When hit by an attack while stun gauge is full, converts boost panels to weaken panels\n- Delays turn\n- Inflicts Nullify Positive Effects",
+    "description": "- When hit by an attack while stun gauge is full, converts weaken panels to boost panels\n- When hit by an attack while stun gauge is full, converts boost-type panels to weaken panels\n- Delays turn\n- Inflicts Nullify Positive Effects",
     "enemy_id": 60107004,
     "id": 60107004
   },
   {
-    "description": "- After being hit by an attack while the stun gauge is full, converts weaken panels into boost panels\n- After being hit by an attack while the stun gauge is full, converts boost panels into weaken panels",
+    "description": "- After being hit by an attack while the stun gauge is full, converts weaken panels into boost panels\n- After being hit by an attack while the stun gauge is full, converts boost-type panels into weaken panels",
     "enemy_id": 60108002,
     "id": 60108002
   },
   {
-    "description": "- Receives increased damage when enemies have 10 or more positive effects (Higher boost for more effects)\n- When hit by an attack while stun gauge is full, converts negative panels to positive panels\n- When hit by an attack while stun gauge is full, converts positive panels to negative panels",
+    "description": "- Receives increased damage when enemies have 10 or more positive effects (Higher boost for more effects)\n- When hit by an attack while stun gauge is full, converts weaken panels to boost panels\n- When hit by an attack while stun gauge is full, converts boost-type panels to weaken panels",
     "enemy_id": 60108009,
     "id": 60108009
   },
@@ -655,12 +655,12 @@
     "id": 60119004
   },
   {
-    "description": "- When stunned, converts boost panels into Paralysis panels\n- Protection",
+    "description": "- When stunned, converts boost-type panels into Paralysis panels\n- Protection",
     "enemy_id": 60122003,
     "id": 60122003
   },
   {
-    "description": "- When stunned, converts positive panels to burst panels\n- Protection\n- Reduces all allies' damage received\n- Heals allies\n- Recovers own HP and stun gauge",
+    "description": "- When stunned, converts boost-type panels to burst panels\n- Protection\n- Reduces all allies' damage received\n- Heals allies\n- Recovers own HP and stun gauge",
     "enemy_id": 60122006,
     "id": 60122006
   },
@@ -680,7 +680,7 @@
     "id": 60132001
   },
   {
-    "description": "- When an ally is KO'd, converts positive panels into burst panels\n- When using positive panels, inflicts Blindness on all enemies and allies\n- When using negative panels, inflicts multiple negative effects on self",
+    "description": "- When an ally is KO'd, converts boost-type panels into burst panels\n- When using boost-type panels, inflicts Blindness on all enemies and allies\n- When using weaken panels, inflicts multiple negative effects on self",
     "enemy_id": 60140004,
     "id": 60140004
   },
@@ -700,22 +700,22 @@
     "id": 60141002
   },
   {
-    "description": "・戦闘不能時、強化+パネルを出現させる\n・相手のプラス効果を全て解除\n・加護弱化パネルを出現させる\n・氷・斬属性攻撃またはカウンター攻撃を受けた後、自身に被ダメージUPを付与",
+    "description": "- When KO'd, creates boost+ panels\n- Removes all of opponent's positive effects\n- Creates protection weaken panels\n- Boosts own damage received after being hit by an Ice attack, Slash attack, or counterattack",
     "enemy_id": 60146001,
     "id": 60146001
   },
   {
-    "description": "- While granted Skill Evasion, after taking damage from a battle item, inflicts Dazed on self\n- When stunned, removes all positive effects from self\n- Grants self Skill Evasion\n- Grants self Negative Panel Immunity",
+    "description": "- While granted Skill Evasion, after taking damage from a battle item, inflicts Dazed on self\n- When stunned, removes all positive effects from self\n- Grants self Skill Evasion\n- Grants self Weaken Panel Immunity",
     "enemy_id": 60150001,
     "id": 60150001
   },
   {
-    "description": "・バーストスキルを受けた後、自身に暗闇を付与\n・バーストスキルを受けた後、自身に被ダメージUPを付与\n・自身の状態異常、マイナス効果を解除\n・ブレイク中、被ダメージ上昇\n・自身を回復し、再生を付与",
+    "description": "- After being hit by a burst skill, inflicts Blindness on self\n- After being hit by a burst skill, boosts own damage received\n- Removes own status effects and negative effects\n- Receives increased damage while stunned\n- Heals self and grants Regen to self",
     "enemy_id": 60158004,
     "id": 60158004
   },
   {
-    "description": "・バーストスキルを受けた後、自身に暗闇を付与\n・バーストスキルを受けた後、自身に被ダメージUPを付与\n・自身の状態異常、マイナス効果を解除\n・仲間を回復し、再生を付与",
+    "description": "- After being hit by a burst skill, inflicts Blindness on self\n- After being hit by a burst skill, boosts own damage received\n- Removes own status effects and negative effects\n- Heals allies and grants Regen to allies",
     "enemy_id": 60162002,
     "id": 60162002
   },
@@ -2310,7 +2310,7 @@
     "id": 80035041
   },
   {
-    "description": "- Taunts\n- Paralyzing strike\n- Increases damage dealt to taunted targets",
+    "description": "- Inflicts Taunt\n- Paralyzing strike\n- Increases damage dealt to taunted targets",
     "enemy_id": 80039001,
     "id": 80039001
   },
@@ -4160,12 +4160,12 @@
     "id": 80103008
   },
   {
-    "description": "- If a positive effect is active on self, converts negative panels to positive panels before the start of turn",
+    "description": "- If a positive effect is active on self, converts weaken panels to boost panels before the start of turn",
     "enemy_id": 80104001,
     "id": 80104001
   },
   {
-    "description": "- Receives reduced damage from opponents with low HP\n- If a positive effect is active on self, converts negative panels to positive panels before the start of turn",
+    "description": "- Receives reduced damage from opponents with low HP\n- If a positive effect is active on self, converts weaken panels to boost panels before the start of turn",
     "enemy_id": 80104009,
     "id": 80104009
   },
@@ -4205,32 +4205,32 @@
     "id": 80104033
   },
   {
-    "description": "- If 2 or more positive effects are active on self, converts negative panels to positive panels before the start of turn",
+    "description": "- If 2 or more positive effects are active on self, converts weaken panels to boost panels before the start of turn",
     "enemy_id": 80105001,
     "id": 80105001
   },
   {
-    "description": "- Receives reduced damage from magic attacks while not stunned\n- If 2 or more positive effects are active on self, converts negative panels to positive panels before the start of turn",
+    "description": "- Receives reduced damage from magic attacks while not stunned\n- If 2 or more positive effects are active on self, converts weaken panels to boost panels before the start of turn",
     "enemy_id": 80105002,
     "id": 80105002
   },
   {
-    "description": "- If 2 or more positive effects are active on self, converts negative panels to positive panels before the start of turn\n- Receives reduced damage from opponents with low HP\n- After stun, removes all own positive effects\n- Receives increased stun damage from attacks that target all enemies",
+    "description": "- If 2 or more positive effects are active on self, converts weaken panels to boost panels before the start of turn\n- Receives reduced damage from opponents with low HP\n- After stun, removes all own positive effects\n- Receives increased stun damage from attacks that target all enemies",
     "enemy_id": 80105003,
     "id": 80105003
   },
   {
-    "description": "- If 2 or more positive effects are active on self, converts negative panels to positive panels before the start of turn\n- Receives reduced damage from opponents with low HP\n- After stun, removes all own positive effects\n- Receives increased stun damage from attacks that target all enemies",
+    "description": "- If 2 or more positive effects are active on self, converts weaken panels to boost panels before the start of turn\n- Receives reduced damage from opponents with low HP\n- After stun, removes all own positive effects\n- Receives increased stun damage from attacks that target all enemies",
     "enemy_id": 80105004,
     "id": 80105004
   },
   {
-    "description": "- Receives reduced damage from magic attacks while not stunned\n- If 2 or more positive effects are active on self, converts negative panels to positive panels before the start of turn",
+    "description": "- Receives reduced damage from magic attacks while not stunned\n- If 2 or more positive effects are active on self, converts weaken panels to boost panels before the start of turn",
     "enemy_id": 80105007,
     "id": 80105007
   },
   {
-    "description": "- Receives reduced damage from magic attacks while not stunned\n- If 2 or more positive effects are active on self, converts negative panels to positive panels before the start of turn",
+    "description": "- Receives reduced damage from magic attacks while not stunned\n- If 2 or more positive effects are active on self, converts weaken panels to boost panels before the start of turn",
     "enemy_id": 80105008,
     "id": 80105008
   },
@@ -4320,7 +4320,7 @@
     "id": 80107002
   },
   {
-    "description": "- After being hit by an attack while the stun gauge is full, converts weaken panels into boost panels\n- After being hit by an attack while the stun gauge is full, converts boost panels into weaken panels",
+    "description": "- After being hit by an attack while the stun gauge is full, converts weaken panels into boost panels\n- After being hit by an attack while the stun gauge is full, converts boost-type panels into weaken panels",
     "enemy_id": 80107055,
     "id": 80107055
   },
@@ -4330,7 +4330,7 @@
     "id": 80108001
   },
   {
-    "description": "- When hit by an attack while stun gauge is full, converts negative panels to positive panels\n- When hit by an attack while stun gauge is full, converts positive panels to negative panels",
+    "description": "- When hit by an attack while stun gauge is full, converts weaken panels to boost panels\n- When hit by an attack while stun gauge is full, converts boost panels to weaken panels",
     "enemy_id": 80108004,
     "id": 80108004
   },
@@ -4445,12 +4445,12 @@
     "id": 80115002
   },
   {
-    "description": "- When stunned, converts positive panels to burst panels\n- When stunned, converts negative panels to positive panels\n- After turn, reduces own damage received",
+    "description": "- When stunned, converts boost-type panels to burst panels\n- When stunned, converts weaken panels to boost panels\n- After turn, reduces own damage received",
     "enemy_id": 80116001,
     "id": 80116001
   },
   {
-    "description": "- When stunned, converts positive panels to burst panels\n- When stunned, converts negative panels to positive panels\n- After turn, reduces own damage received\n- Boosts an enemy's damage received\n- Reduces all allies' damage received\n- Reduces all allies' stun damage received\n- Reduces all enemies' stun damage dealt",
+    "description": "- When stunned, converts boost-type panels to burst panels\n- When stunned, converts weaken panels to boost panels\n- After turn, reduces own damage received\n- Boosts an enemy's damage received\n- Reduces all allies' damage received\n- Reduces all allies' stun damage received\n- Reduces all enemies' stun damage dealt",
     "enemy_id": 80116008,
     "id": 80116008
   },
@@ -4545,7 +4545,7 @@
     "id": 80118012
   },
   {
-    "description": "- Creates positive panel when hit by a critical attack\n- Heals allies\n- Restores allies' stun gauge",
+    "description": "- Creates boost panel when hit by a critical attack\n- Heals allies\n- Restores allies' stun gauge",
     "enemy_id": 80119001,
     "id": 80119001
   },
@@ -4555,7 +4555,7 @@
     "id": 80119004
   },
   {
-    "description": "- When not stunned, immune to critical attacks\n- When stunned, removes negative effects from all enemies\n- When hit by a critical attack, creates positive panels\n- Heals allies\n- Restores allies' stun gauge\n- Reduces all enemies' damage dealt\n- Reduces all enemies' stun damage dealt",
+    "description": "- When not stunned, immune to critical attacks\n- When stunned, removes negative effects from all enemies\n- When hit by a critical attack, creates boost panels\n- Heals allies\n- Restores allies' stun gauge\n- Reduces all enemies' damage dealt\n- Reduces all enemies' stun damage dealt",
     "enemy_id": 80119006,
     "id": 80119006
   },
@@ -4565,17 +4565,17 @@
     "id": 80119007
   },
   {
-    "description": "- When KO'd, converts negative panels to Paralysis panels\n- Poisonous attack\n- Advances allies' turns",
+    "description": "- When KO'd, converts weaken panels to Paralysis panels\n- Poisonous attack\n- Advances allies' turns",
     "enemy_id": 80120009,
     "id": 80120009
   },
   {
-    "description": "- When KO'd, converts negative panels to Blindness panels",
+    "description": "- When KO'd, converts weaken panels to Blindness panels",
     "enemy_id": 80121001,
     "id": 80121001
   },
   {
-    "description": "- When KO'd, converts negative panels to Blindness panels\n- Receives increased damage from battle items",
+    "description": "- When KO'd, converts weaken panels to Blindness panels\n- Receives increased damage from battle items",
     "enemy_id": 80121004,
     "id": 80121004
   },
@@ -4585,7 +4585,7 @@
     "id": 80121007
   },
   {
-    "description": "- When stunned, converts positive panels to burst panels\n- Protection",
+    "description": "- When stunned, converts boost-type panels to burst panels\n- Protection",
     "enemy_id": 80122001,
     "id": 80122001
   },
@@ -4770,7 +4770,7 @@
     "id": 80136005
   },
   {
-    "description": "- Counters\n- Protection\n- When damaged by a battle item, boosts own damage received once\n- After being hit by a female character, reduces own damage dealt\n- Grants self Damage Immunity and reduces damage received when HP reaches a certain level\n- Boosts effects received from panels by 50%\n- Increases appearance of negative panels\n- Increases appearance of HP recovery panels",
+    "description": "- Counters\n- Protection\n- When damaged by a battle item, boosts own damage received once\n- After being hit by a female character, reduces own damage dealt\n- Grants self Damage Immunity and reduces damage received when HP reaches a certain level\n- Boosts effects received from panels by 50%\n- Increases appearance of weaken panels\n- Increases appearance of HP recovery panels",
     "enemy_id": 80138002,
     "id": 80138002
   },

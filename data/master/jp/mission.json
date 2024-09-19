@@ -5067,7 +5067,7 @@
     "prev_mission_id": null,
     "priority": 7000,
     "reset_cycle": null,
-    "start_at": null,
+    "start_at": "2024-09-19T03:00:00.000Z",
     "steps": [
       {
         "count": 10,
@@ -5106,6 +5106,11 @@
       },
       {
         "count": 80,
+        "reward_set_id": 30039,
+        "start_at": null
+      },
+      {
+        "count": 90,
         "reward_set_id": 30039,
         "start_at": null
       }
@@ -8914,6 +8919,11 @@
         "count": 315,
         "reward_set_id": 30017,
         "start_at": null
+      },
+      {
+        "count": 320,
+        "reward_set_id": 30017,
+        "start_at": null
       }
     ],
     "total_task_condition_id": 134,
@@ -11938,6 +11948,60 @@
     "transition": null
   },
   {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 300160,
+    "label": null,
+    "name": "メインストーリー17-76をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 7167,
+    "reset_cycle": null,
+    "start_at": "2024-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1136,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 300161,
+    "label": null,
+    "name": "レベル90のキャラを{}人にしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 6438,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 30017,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 388,
+    "transition": null
+  },
+  {
     "category": 3,
     "end_at": null,
     "event_tab_id": 32,
@@ -14082,6 +14146,33 @@
       }
     ],
     "total_task_condition_id": 1114,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 42,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 420019,
+    "label": null,
+    "name": "メインストーリー17-76をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 82,
+    "reset_cycle": null,
+    "start_at": "2024-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 300182,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1136,
     "transition": null
   },
   {
@@ -25705,6 +25796,36 @@
         "count": 4000,
         "reward_set_id": 100040040,
         "start_at": "2024-09-11T03:00:00.000Z"
+      },
+      {
+        "count": 4100,
+        "reward_set_id": 100040045,
+        "start_at": "2024-09-19T03:00:00.000Z"
+      },
+      {
+        "count": 4400,
+        "reward_set_id": 100040045,
+        "start_at": "2024-09-19T03:00:00.000Z"
+      },
+      {
+        "count": 4500,
+        "reward_set_id": 100040045,
+        "start_at": "2024-09-19T03:00:00.000Z"
+      },
+      {
+        "count": 5000,
+        "reward_set_id": 100040045,
+        "start_at": "2024-09-19T03:00:00.000Z"
+      },
+      {
+        "count": 5100,
+        "reward_set_id": 100040045,
+        "start_at": "2024-09-19T03:00:00.000Z"
+      },
+      {
+        "count": 5400,
+        "reward_set_id": 100040045,
+        "start_at": "2024-09-19T03:00:00.000Z"
       }
     ],
     "total_task_condition_id": null,
@@ -25777,6 +25898,21 @@
         "count": 500,
         "reward_set_id": 100040041,
         "start_at": null
+      },
+      {
+        "count": 600,
+        "reward_set_id": 100040041,
+        "start_at": "2024-09-19T03:00:00.000Z"
+      },
+      {
+        "count": 700,
+        "reward_set_id": 100040041,
+        "start_at": "2024-09-19T03:00:00.000Z"
+      },
+      {
+        "count": 800,
+        "reward_set_id": 100040041,
+        "start_at": "2024-09-19T03:00:00.000Z"
       }
     ],
     "total_task_condition_id": null,
@@ -25866,6 +26002,191 @@
       "equipment_slot_type": null,
       "focused_on": 1,
       "transition": 3
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 45,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 4500011,
+    "label": null,
+    "name": "パステートドリームを{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 119,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 100040041,
+        "start_at": null
+      },
+      {
+        "count": 10,
+        "reward_set_id": 100040043,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 45,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 4500012,
+    "label": null,
+    "name": "クリスタルロッドを{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 118,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 100040041,
+        "start_at": null
+      },
+      {
+        "count": 10,
+        "reward_set_id": 100040043,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 45,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 4500013,
+    "label": null,
+    "name": "星へのツバサを{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 117,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 100040041,
+        "start_at": null
+      },
+      {
+        "count": 10,
+        "reward_set_id": 100040043,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 45,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 4500015,
+    "label": null,
+    "name": "アンブロシアの花冠を{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 116,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 100040041,
+        "start_at": null
+      },
+      {
+        "count": 10,
+        "reward_set_id": 100040043,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 45,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 4500016,
+    "label": null,
+    "name": "特性レベル合計が7以上の装備アイテムを{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 115,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 100040041,
+        "start_at": null
+      },
+      {
+        "count": 2,
+        "reward_set_id": 100040041,
+        "start_at": null
+      },
+      {
+        "count": 3,
+        "reward_set_id": 100040044,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
     }
   },
   {

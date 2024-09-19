@@ -5664,6 +5664,66 @@
         "episode_name": "1周年記念プレゼントバトル 第2弾"
       },
       {
+        "quest_id": 6204001,
+        "quest_name": "1周年記念プレゼントバトル 第3弾１",
+        "episode_id": 6204,
+        "episode_name": "1周年記念プレゼントバトル 第3弾"
+      },
+      {
+        "quest_id": 6204002,
+        "quest_name": "1周年記念プレゼントバトル 第3弾２",
+        "episode_id": 6204,
+        "episode_name": "1周年記念プレゼントバトル 第3弾"
+      },
+      {
+        "quest_id": 6204003,
+        "quest_name": "1周年記念プレゼントバトル 第3弾３",
+        "episode_id": 6204,
+        "episode_name": "1周年記念プレゼントバトル 第3弾"
+      },
+      {
+        "quest_id": 6204004,
+        "quest_name": "1周年記念プレゼントバトル 第3弾４",
+        "episode_id": 6204,
+        "episode_name": "1周年記念プレゼントバトル 第3弾"
+      },
+      {
+        "quest_id": 6204005,
+        "quest_name": "1周年記念プレゼントバトル 第3弾５",
+        "episode_id": 6204,
+        "episode_name": "1周年記念プレゼントバトル 第3弾"
+      },
+      {
+        "quest_id": 6204006,
+        "quest_name": "1周年記念プレゼントバトル 第3弾６",
+        "episode_id": 6204,
+        "episode_name": "1周年記念プレゼントバトル 第3弾"
+      },
+      {
+        "quest_id": 6204007,
+        "quest_name": "1周年記念プレゼントバトル 第3弾７",
+        "episode_id": 6204,
+        "episode_name": "1周年記念プレゼントバトル 第3弾"
+      },
+      {
+        "quest_id": 6304001,
+        "quest_name": "チャレンジバトル 錬金党１",
+        "episode_id": 6304,
+        "episode_name": "チャレンジバトル 錬金党"
+      },
+      {
+        "quest_id": 6304002,
+        "quest_name": "チャレンジバトル 錬金党２",
+        "episode_id": 6304,
+        "episode_name": "チャレンジバトル 錬金党"
+      },
+      {
+        "quest_id": 6304003,
+        "quest_name": "チャレンジバトル 錬金党３",
+        "episode_id": 6304,
+        "episode_name": "チャレンジバトル 錬金党"
+      },
+      {
         "quest_id": 204101002,
         "quest_name": "湿地の前の森で",
         "difficulty": "NORMAL",
@@ -40219,6 +40279,342 @@
     "image_small": "Ingredient_0705_S",
     "image_medium": "Ingredient_0705_M",
     "start_at": "2024-09-11T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 716,
+    "name": "プルプルーム",
+    "rarity": 2,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 5,
+        "name": "魔力の祝福",
+        "category": "ATTACK",
+        "description": "魔法攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "魔力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6104001,
+        "quest_name": "爆裂！！ マリーからの試練１",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！ マリーからの試練"
+      },
+      {
+        "quest_id": 6104003,
+        "quest_name": "爆裂！！ マリーからの試練３",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！ マリーからの試練"
+      }
+    ],
+    "image_small": "Ingredient_0716_S",
+    "image_medium": "Ingredient_0716_M",
+    "start_at": "2024-09-19T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 717,
+    "name": "ブラウシュメーレ",
+    "rarity": 2,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 26,
+        "name": "魔法耐性上昇",
+        "category": "ENHANCE",
+        "description": "魔法攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000027,
+            "description": "魔法属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "与ダメージ上昇",
+        "category": "ATTACK",
+        "description": "スキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000011,
+            "description": "スキルダメージ{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6104001,
+        "quest_name": "爆裂！！ マリーからの試練１",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！ マリーからの試練"
+      },
+      {
+        "quest_id": 6104003,
+        "quest_name": "爆裂！！ マリーからの試練３",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！ マリーからの試練"
+      }
+    ],
+    "image_small": "Ingredient_0717_S",
+    "image_medium": "Ingredient_0717_M",
+    "start_at": "2024-09-19T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 718,
+    "name": "ヨロイガニ",
+    "rarity": 2,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 18,
+        "name": "火の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "対象に「火属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "会心の出来",
+        "category": "ENHANCE",
+        "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6104001,
+        "quest_name": "爆裂！！ マリーからの試練１",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！ マリーからの試練"
+      },
+      {
+        "quest_id": 6104003,
+        "quest_name": "爆裂！！ マリーからの試練３",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！ マリーからの試練"
+      }
+    ],
+    "image_small": "Ingredient_0718_S",
+    "image_medium": "Ingredient_0718_M",
+    "start_at": "2024-09-19T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 719,
+    "name": "人縛草",
+    "rarity": 3,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 60,
+        "name": "クリティカルダメージ上昇",
+        "category": "ATTACK",
+        "description": "クリティカルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 13000011,
+            "description": "クリティカルダメージアップ",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "ブレイク中ダメージ上昇",
+        "category": "ATTACK",
+        "description": "ブレイク中の敵へのダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "ブレイク中の敵へのダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6104002,
+        "quest_name": "爆裂！！ マリーからの試練２",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！ マリーからの試練"
+      },
+      {
+        "quest_id": 6104003,
+        "quest_name": "爆裂！！ マリーからの試練３",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！ マリーからの試練"
+      }
+    ],
+    "image_small": "Ingredient_0719_S",
+    "image_medium": "Ingredient_0719_M",
+    "start_at": "2024-09-19T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 720,
+    "name": "クレールコキール",
+    "rarity": 3,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 63,
+        "name": "スキル2威力上昇",
+        "category": "ATTACK",
+        "description": "スキル2のスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000168,
+            "description": "スキル2威力{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "氷耐性上昇",
+        "category": "ENHANCE",
+        "description": "氷属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000023,
+            "description": "氷属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6104002,
+        "quest_name": "爆裂！！ マリーからの試練２",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！ マリーからの試練"
+      },
+      {
+        "quest_id": 6104003,
+        "quest_name": "爆裂！！ マリーからの試練３",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！ マリーからの試練"
+      }
+    ],
+    "image_small": "Ingredient_0720_S",
+    "image_medium": "Ingredient_0720_M",
+    "start_at": "2024-09-19T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 721,
+    "name": "ブラックスポーン",
+    "rarity": 3,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 62,
+        "name": "被回復量上昇",
+        "category": "RECOVERY",
+        "description": "受けるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 13000002,
+            "description": "被回復量上昇",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "物理耐性上昇",
+        "category": "ENHANCE",
+        "description": "物理攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "物理属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6104002,
+        "quest_name": "爆裂！！ マリーからの試練２",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！ マリーからの試練"
+      },
+      {
+        "quest_id": 6104003,
+        "quest_name": "爆裂！！ マリーからの試練３",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！ マリーからの試練"
+      }
+    ],
+    "image_small": "Ingredient_0721_S",
+    "image_medium": "Ingredient_0721_M",
+    "start_at": "2024-09-19T03:00:00.000Z",
     "end_at": null
   }
 ]

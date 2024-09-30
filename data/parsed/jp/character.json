@@ -17862,6 +17862,239 @@
     "start_at": "2024-06-28T03:00:00.000Z"
   },
   {
+    "id": 43303,
+    "name": "ロマン",
+    "title": "【Reassuring Shielder】",
+    "full_name": "ロマン・カルマン",
+    "base_character": "ロマン",
+    "is_alchemist": false,
+    "gender": "男性",
+    "attribute": "STRIKE",
+    "role": "DEFENDER",
+    "initial_rarity": 3,
+    "acquisition_text": "民の平穏を守るため――\nこの身をかけて戦うと誓う！",
+    "profile": {
+      "voice_actor": "広瀬裕也",
+      "voice_text": "ランターナ王国第二王子、リヒャルト。\nその名に恥じぬ戦いをしてみせる",
+      "description": "気安い雰囲気をまとう陽気な青年。\nレスナと同じく、錬金術の復興を目指している。\n錬金党との決着に向けて作られたこの衣装は、騎士の鎧を参考にしており、高い防御力と機能性を誇る。\nお調子者な面もあるが、大抵のことは器用にこなすため、戦闘においてとても頼れる存在である。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "緑",
+      "given": "赤"
+    },
+    "battle_item_trait": [
+      {
+        "id": 10,
+        "name": "守護の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "打の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000064,
+            "description": "対象に「打属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 62,
+        "name": "被回復量上昇",
+        "category": "RECOVERY",
+        "description": "受けるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 13000002,
+            "description": "被回復量上昇",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 183,
+        "spd": 265,
+        "patk": 57,
+        "matk": 47,
+        "pdef": 61,
+        "mdef": 70
+      },
+      "growth": {
+        "hp": 1830,
+        "spd": 0,
+        "patk": 570,
+        "matk": 470,
+        "pdef": 610,
+        "mdef": 700
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 5,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "ドゥフラッペ",
+      "description": "攻撃後、自身に「物防・魔防+{0}%」を付与(上限30%)し、<br>自身に「かばう」を2回発動するまで付与し、<br>自身に「カウンター(クリールエンボル)」を2回カウンターするまで付与(重複不可)",
+      "summary": "攻撃後、自身にステータスアップ<br>自身にかばうとカウンターを付与",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001396,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91001397,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91001398,
+          "description": "",
+          "value": 0
+        },
+        {
+          "id": 91001086,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [49, 52, 55, 58, 61],
+      "has_stun": true,
+      "stun_values": [5, 5, 5, 5, 6],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "クリールエンボル",
+      "description": "攻撃後、味方全員のHPを{0}%回復し、<br>味方全員に「受けるダメージ-{1}%」を1回攻撃を受けるまで付与(上限2個)<br>対象に「ダメージ-{2}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、味方全員のHPを回復<br>味方全員の受けるダメージダウン<br>対象のダメージダウン",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000925,
+          "description": "",
+          "value": 500
+        },
+        {
+          "id": 91001399,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91000914,
+          "description": "",
+          "value": 1500
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [118, 125, 132, 139, 147],
+      "has_stun": true,
+      "stun_values": [9, 9, 10, 10, 11],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "レ・グラン・ブークリエ",
+      "description": "攻撃後、味方全員のHPを{0}%回復し、<br>味方全員に「マイナス効果無効」を1回行動終了するまで付与し、<br>味方全員に「受けるダメージ-{1}%」を1回攻撃を受けるまで付与",
+      "summary": "攻撃後、味方全員のHPを回復<br>味方全員にマイナス効果無効を付与<br>味方全員の受けるダメージダウン",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91000925,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91001069,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001392,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [420, 420, 420, 446, 472, 498, 525],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "背中で語る王家の誇り",
+      "description": "敵が全体攻撃を除くカウンター使用時、カウンター対象の味方をかばい、<br>受けるダメージ-{0}%",
+      "effects": [
+        {
+          "id": 72001072,
+          "description": "[自身/カウンター対象の味方をかばう時被ダメージDOWN付与]",
+          "value": 2000
+        },
+        {
+          "id": 72000930,
+          "description": "",
+          "value": 0
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "ロマン式応急術",
+      "description": "攻撃を受けた時、自身のHPを{0}%回復",
+      "effects": [
+        {
+          "id": 72000950,
+          "description": "[自身/HP回復]",
+          "value": 1500
+        }
+      ]
+    },
+    "start_at": "2024-09-30T03:00:00.000Z"
+  },
+  {
     "id": 43401,
     "name": "ユナ",
     "title": "【White Royal Guard】",
@@ -19689,6 +19922,214 @@
       ]
     },
     "start_at": "2024-06-10T03:00:00.000Z"
+  },
+  {
+    "id": 43803,
+    "name": "イザナ",
+    "title": "【Stormy Smite】",
+    "full_name": "イザナ・ココシュカ",
+    "base_character": "イザナ",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "STRIKE",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "大切な人を守るため――\nアタシは止まるわけにはいかないんだ！",
+    "profile": {
+      "voice_actor": "田中美海",
+      "voice_text": "新調したハンマー……\nいい輝き、いい重さ、いい振り心地！",
+      "description": "レスナの親友にして、騎士を称する獣人の少女。\n錬金党との決着に向けて作られたこの衣装は、軽くて動きやすく、今までよりも速くハンマーを振り回せるとのこと。\n父の手を借りて作ったハンマーと共に、幼い頃からの夢である最強の騎士を目指す。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "黄",
+      "given": "紫"
+    },
+    "battle_item_trait": [
+      {
+        "id": 50,
+        "name": "会心の出来",
+        "category": "ENHANCE",
+        "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "打の祝福",
+        "category": "ATTACK",
+        "description": "打属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "打属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 63,
+        "name": "スキル2威力上昇",
+        "category": "ATTACK",
+        "description": "スキル2のスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000168,
+            "description": "スキル2威力{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 158,
+        "spd": 251,
+        "patk": 70,
+        "matk": 50,
+        "pdef": 47,
+        "mdef": 45
+      },
+      "growth": {
+        "hp": 1580,
+        "spd": 0,
+        "patk": 700,
+        "matk": 500,
+        "pdef": 470,
+        "mdef": 450
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 5,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "茜ノ鎚",
+      "description": "攻撃前、自身のマイナス効果を解除し、<br>攻撃後、対象に「受けるクリティカルダメージ+{0}%」を2回攻撃を受けるまで付与",
+      "summary": "攻撃前、自身のマイナス効果を解除<br>攻撃後、対象の受けるクリティカルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001311,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001007,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [42, 44, 47, 49, 52],
+      "has_stun": true,
+      "stun_values": [2, 2, 2, 2, 2],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "武迅ノ激震",
+      "description": "攻撃後、自身に「クリティカル確率+{0}%」を付与(上限100%)し、<br>自身に「物攻+{1}%」を2回行動終了するまで付与",
+      "summary": "攻撃後、自身のクリティカル確率アップ<br>自身の物攻アップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001395,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001384,
+          "description": "物攻アップ(2回)",
+          "value": 4000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [294, 312, 330, 348, 367],
+      "has_stun": true,
+      "stun_values": [26, 27, 29, 30, 32],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "錦秋勇躍",
+      "description": "攻撃後、対象に「スタン」を1回行動開始するまで超高確率で付与し、<br>対象に「受けるクリティカルダメージ+{0}%」を2回攻撃を受けるまで付与",
+      "summary": "攻撃後、対象にスタンを超高確率で付与<br>対象の受けるクリティカルダメージアップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001311,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001064,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [420, 420, 420, 446, 472, 498, 525],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "新しいアタシ！",
+      "description": "スキルで撃破時、自身に「クリティカルダメージ+{0}%」を付与(上限100%)し、<br>自身に「バーストスキルダメージ+{0}%」を付与(上限100%)",
+      "effects": [
+        {
+          "id": 72001123,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 72001126,
+          "description": "",
+          "value": 5000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "ハンマーとひとつになる！",
+      "description": "自身のクリティカル確率が100%を超えている場合、攻撃時、100%を超えたクリティカル確率の上昇量をクリティカルダメージアップに変換(変換上限300%)",
+      "effects": [
+        {
+          "id": 72001098,
+          "description": "[自身/余剰クリティカル率変換]",
+          "value": 30000
+        }
+      ]
+    },
+    "start_at": "2024-09-30T03:00:00.000Z"
   },
   {
     "id": 43901,

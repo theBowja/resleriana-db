@@ -1795,6 +1795,204 @@
     "start_at": "2023-09-23T03:00:00.000Z"
   },
   {
+    "id": 15102,
+    "name": "ユーディー",
+    "title": "【Heroic Assault】",
+    "full_name": "ユーディット・フォルトーネ",
+    "base_character": "ユーディー",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "FIRE",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "あたしはへこたれない！\nこのくらいの逆境、跳ね返してみせる！",
+    "profile": {
+      "voice_actor": "神田理江",
+      "voice_text": "戦いに備えて、色んな手を用意してる\nからね。楽しみにしてて！",
+      "description": "おっちょこちょいな錬金術士。 \nキースグリフと共に各地を巡り、「竜の砂時計」の情報を集めていた。 \nこの衣装は突撃と戦闘に特化して作られており、持ち前の決断力に任せて突っ走ってしまうこともある彼女を支えるものとなっている。",
+      "origin_game": "ユーディーのアトリエ ～グラムナートの錬金術士～"
+    },
+    "gift_color": {
+      "received": "緑",
+      "given": "黄"
+    },
+    "battle_item_trait": [
+      {
+        "id": 51,
+        "name": "破壊力上昇",
+        "category": "ATTACK",
+        "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "魔力の祝福",
+        "category": "ATTACK",
+        "description": "魔法攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 27,
+        "name": "単体攻撃威力上昇",
+        "category": "ATTACK",
+        "description": "単体攻撃のスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000111,
+            "description": "単体攻撃のスキル威力{0}％アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 144,
+        "spd": 249,
+        "patk": 53,
+        "matk": 68,
+        "pdef": 48,
+        "mdef": 52
+      },
+      "growth": {
+        "hp": 1440,
+        "spd": 0,
+        "patk": 530,
+        "matk": 680,
+        "pdef": 480,
+        "mdef": 520
+      },
+      "resistance": {
+        "fire": 5,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "スフィアファイア",
+      "description": "攻撃後、対象に「受けるクリティカルダメージ+{0}%」を2回攻撃を受けるまで付与",
+      "summary": "攻撃後、対象の受けるクリティカルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001311,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [72, 76, 81, 85, 90],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "フェスターリーシュ",
+      "description": "攻撃後、アタッカーの味方全員に「クリティカル確率+{0}%」を付与(上限100%)し、<br>アタッカーの味方全員に「クリティカルダメージ+{1}%」を付与(上限50%)",
+      "summary": "攻撃後、アタッカーの味方全員のクリティカル確率アップとクリティカルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001402,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001403,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [265, 281, 298, 314, 331],
+      "has_stun": true,
+      "stun_values": [27, 28, 30, 31, 33],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "秘策・ハイパーメテオール",
+      "description": "攻撃後、対象に「受けるクリティカルダメージ+{0}%」を2回攻撃を受けるまで付与<br>クリティカル攻撃時、このスキル使用前にタイムラインに並んでいる、次の味方のパネル1つをバーストパネルに変換(空パネルの時は生成)",
+      "summary": "攻撃後、対象の受けるクリティカルダメージアップ<br>クリティカル攻撃時、次の味方のパネルをバーストパネルに変換",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001311,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001283,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [252, 252, 252, 267, 283, 299, 315],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "前のめりおてんば娘",
+      "description": "自身が受ける、与えるダメージ強化の効果量+{0}%",
+      "effects": [
+        {
+          "id": 72001058,
+          "description": "[自身/受けるダメージ強化の効果量アップ]",
+          "value": 2000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "一矢報いてやるわ！",
+      "description": "スキル発動後、自身に「魔攻+{0}%」を付与(上限50%)",
+      "effects": [
+        {
+          "id": 72001127,
+          "description": "[自身/魔攻上昇(上限50%)]",
+          "value": 1000
+        }
+      ]
+    },
+    "start_at": "2024-10-11T03:00:00.000Z"
+  },
+  {
     "id": 16501,
     "name": "ヴィオラート",
     "title": "【カロッテ・キャロット】",
@@ -13226,6 +13424,204 @@
       ]
     },
     "start_at": "2024-07-10T03:00:00.000Z"
+  },
+  {
+    "id": 39905,
+    "name": "ライザ",
+    "title": "【Brave Blaze】",
+    "full_name": "ライザリン・シュタウト",
+    "base_character": "ライザ",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "STRIKE",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "大事な場所を守るため――\nあたしもみんなと一緒に戦うよ！",
+    "profile": {
+      "voice_actor": "のぐちゆり",
+      "voice_text": "戦う覚悟はできてる。\n期待に応えられるよう、頑張るよ！",
+      "description": "冒険好きな錬金術士。 \n普段は情報収集も兼ねて、王都にあるカフェ「星の繭」で働いている。 \nこの衣装は身軽かつ丈夫な作りになっており、素早い動きが可能。 \n自分の正義感に従い、錬金党と対立するレスナたちをサポートする。",
+      "origin_game": "ライザのアトリエ ～常闇の女王と秘密の隠れ家～"
+    },
+    "gift_color": {
+      "received": "赤",
+      "given": "青"
+    },
+    "battle_item_trait": [
+      {
+        "id": 48,
+        "name": "使い切り攻撃強化",
+        "category": "ATTACK",
+        "description": "使用回数が1回の時、ダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000108,
+            "description": "使用回数が1回の時、ダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "魔防の祝福",
+        "category": "ENHANCE",
+        "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 68,
+        "name": "スキル2ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "スキル2のブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 13000160,
+            "description": "スキル2ブレイクダメージ+{0}%",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 146,
+        "spd": 246,
+        "patk": 65,
+        "matk": 50,
+        "pdef": 45,
+        "mdef": 47
+      },
+      "growth": {
+        "hp": 1460,
+        "spd": 0,
+        "patk": 650,
+        "matk": 500,
+        "pdef": 450,
+        "mdef": 470
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 5,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "レディシュクラッシュ",
+      "description": "攻撃後、自身に「ブレイクダメージ+{0}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、自身のブレイクダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000908,
+          "description": "",
+          "value": 4000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [48, 51, 54, 57, 60],
+      "has_stun": true,
+      "stun_values": [16, 17, 18, 19, 20],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "ジェミニストライク",
+      "description": "攻撃後、対象に「受ける物理攻撃ダメージ+{0}%」を付与(上限30%)<br>このスキル使用前にタイムラインに並んでいる、次の味方のパネル1つがバーストパネルでない時、強化パネルに変換(空パネルの時は生成)",
+      "summary": "攻撃後、対象の受ける物理攻撃ダメージアップ<br>次の味方のバーストパネルを除いたパネルを強化パネルに変換",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001400,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91001401,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [100, 106, 112, 118, 125],
+      "has_stun": true,
+      "stun_values": [47, 49, 52, 55, 58],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "セレスティアルアトラクター",
+      "description": "攻撃後、対象に「受ける物理攻撃ダメージ+{0}%」を3回攻撃を受けるまで付与<br>対象がブレイク時、物攻が最も高い味方1人に「物攻+{1}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、対象の受ける物理攻撃ダメージアップ<br>対象がブレイク時、味方1人の物攻アップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001404,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001162,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [336, 336, 336, 357, 378, 399, 420],
+      "has_stun": true,
+      "stun_values": [300, 300, 300, 318, 337, 356, 375],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "アドバンスオール物攻Ⅱ",
+      "description": "味方全員の物攻+{0}%",
+      "effects": [
+        {
+          "id": 72000907,
+          "description": "[味方全体/常時/物攻上昇]",
+          "value": 1000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "破壊の力",
+      "description": "ブレイクダメージ+{0}%",
+      "effects": [
+        {
+          "id": 72000959,
+          "description": "[自身/常時/ブレイクダメージアップ]",
+          "value": 1500
+        }
+      ]
+    },
+    "start_at": "2024-10-11T03:00:00.000Z"
   },
   {
     "id": 40001,

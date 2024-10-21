@@ -54,15 +54,15 @@
     "still_path_hash": 0
   },
   {
-    "description": "You can unlock new recipes when you meet certain conditions. Tap on the recipe icons to check the Idea Requirements for each recipe.",
+    "description": "You can unlock new recipes when you meet certain conditions. You will also earn rewards when unlocking new recipes. Tap on the recipe icons to check the Idea Requirements for each recipe.",
     "id": 501,
     "name": "Recipes",
     "still_path_hash": "2262818999805194550"
   },
   {
-    "description": "You will unlock more recipes as you progress through the main story.",
+    "description": "There are also rewards based on the total number of recipes you have unlocked.",
     "id": 502,
-    "name": "Unlocking New Recipes",
+    "name": "Total Recipe Rewards",
     "still_path_hash": "355577368604519980"
   },
   {
@@ -84,22 +84,34 @@
     "still_path_hash": "435632689558531729"
   },
   {
-    "description": "Tap the button on the lower left of the screen to select the battle items you will take into battle. Normal quests and dungeons will allow for different quantities.",
+    "description": "Tap the button on the top right of the screen to change your Characters' equipment. Any equipment changed here will not affect other parties.",
     "id": 603,
-    "name": "Editing Your Items",
+    "name": "Equipment",
     "still_path_hash": "6496120304273395407"
   },
   {
-    "description": "By tapping the Auto Select button, you can automatically select characters, items, and equipment for your party.",
+    "description": "By using the \"Saved Set\" button on the far right of the equipment change dialog, you can load and equip a saved set of Memoria and equipment.",
     "id": 604,
-    "name": "Auto Select",
+    "name": "Saved Set",
     "still_path_hash": "6646242076385735120"
   },
   {
-    "description": "You can swap between 10 different party setups for normal quests and dungeons. You can switch parties by tapping the tabs on the top right of the screen.",
+    "description": "Tap the button on the lower left of the screen to select the battle items you will take into battle. Normal quests and dungeons will allow for different quantities.",
     "id": 605,
-    "name": "Swapping Parties",
+    "name": "Editing Your Items",
     "still_path_hash": "4862679126495630"
+  },
+  {
+    "description": "By tapping the Auto Select button, you can automatically select characters, items, and equipment for your party.",
+    "id": 606,
+    "name": "Auto Select",
+    "still_path_hash": "1988656767219682964"
+  },
+  {
+    "description": "You can swap between 10 different party setups for normal quests and dungeons. You can switch parties by tapping the tabs on the top right of the screen.",
+    "id": 607,
+    "name": "Swapping Parties",
+    "still_path_hash": "5166851065215872718"
   },
   {
     "description": "Here, you can check character information, level them up through Training, as well as change their equipment.",
@@ -178,6 +190,12 @@
     "id": 907,
     "name": "Display Recommended",
     "still_path_hash": "7742355472414298519"
+  },
+  {
+    "description": "The equipment you set here will be equipped when the character is added to the party lineup. Make sure to set equipment that suits the character.",
+    "id": 908,
+    "name": "Character Equipment and Party Equipment",
+    "still_path_hash": "4281513939376771063"
   },
   {
     "description": "On the Board tab, you can enhance characters by unlocking their panels.",
@@ -642,13 +660,13 @@
     "still_path_hash": "5138300879338983574"
   },
   {
-    "description": "Once you clear a dungeon in Material Quests, it becomes available as an Exploration location.",
+    "description": "As you progress through the main story, more locations will become available.",
     "id": 3901,
     "name": "Location Selection",
     "still_path_hash": "7066010639431069738"
   },
   {
-    "description": "The items that drop and the chances of them dropping vary based on the following:\n- Dungeon and Score Battle completion status\n- Player Rank",
+    "description": "The items that drop and the chances of them dropping vary based on the following:\n- Score Battle completion status\n- Player Rank",
     "id": 3902,
     "name": "Dropped Items",
     "still_path_hash": "8757220212028796728"
@@ -756,19 +774,19 @@
     "still_path_hash": "1688378331021325077"
   },
   {
-    "description": "In this game mode, you use synthesis items to improve the performance of a mini rocket, with the goal of flying it as far as possible. \nDepending on the record distance you fly, you can earn various rewards.",
+    "description": "In this game mode, you use synthesis items to aim for higher scores. Depending on the scores you achieve, you can earn various rewards.",
     "id": 4901,
-    "name": "Fireworks Festival",
+    "name": "Item Challenge",
     "still_path_hash": "3616172203470918571"
   },
   {
-    "description": "Changing the items used in your rocket increases its performance parameters, which vary depending on the type and traits of the items. \nIt would seem that different parameters are more important depending on the wind direction...",
+    "description": "Changing the items used increases the performance parameters, which vary depending on the type and traits of the items.\nParameters that are considered more important will be highlighted.",
     "id": 4902,
     "name": "Parameters",
     "still_path_hash": "3001472311081897143"
   },
   {
-    "description": "Items synthesized using event recipes from Resleriana Academy can more effectively enhance the parameters of the mini rocket.",
+    "description": "Each Item Challenge has designated items that can be used.These items can more effectively boost parameters, so use them wisely to aim for a high score.",
     "id": 4903,
     "name": "Special Effects",
     "still_path_hash": "8469626348236778729"
@@ -850,6 +868,36 @@
     "id": 5303,
     "name": "Beach Flag Runners",
     "still_path_hash": "6281069361151669242"
+  },
+  {
+    "description": "You can now set different equipment for each party! Use the button in the top right to change the equipment of the characters in your current lineup.",
+    "id": 5401,
+    "name": "Party Equipment Feature Added!",
+    "still_path_hash": "6710399444946652171"
+  },
+  {
+    "description": "On the Equip All screen, you can change the equipment for characters in your party lineup.\nNote: Equipment changes made here won't affect other parties.",
+    "id": 5402,
+    "name": "Equip All Screen",
+    "still_path_hash": "5091397316740748055"
+  },
+  {
+    "description": "You can also now save your favorite combinations of Memoria and equipment to Saved Sets, allowing you to quickly load them when needed.",
+    "id": 5403,
+    "name": "Saved Set",
+    "still_path_hash": "1910988053073212233"
+  },
+  {
+    "description": "While editing a party lineup, you can open the Equip All screen by tapping the Equip button at the bottom of the screen.",
+    "id": 5404,
+    "name": "Equipment in the Party Lineup Screen",
+    "still_path_hash": "2062607437866945622"
+  },
+  {
+    "description": "When you add a character to a party lineup, their initial equipment will be the equipment set on their Character screen.",
+    "id": 5405,
+    "name": "Character Equipment and Party Equipment",
+    "still_path_hash": "4661979782381530120"
   },
   {
     "description": "- Marie's strength lies in the damage of her Skill 2!\n- However, the same skill also lowers her own skill damage.\nNote: Trial battles are played with a max level, fully awakened party with\nfully unlocked Growboards.",
@@ -1042,6 +1090,30 @@
     "id": 2920203,
     "name": "Ayesha \"Noble Flower\" Bolt | Defender",
     "still_path_hash": "1436779957449256486"
+  },
+  {
+    "description": "Has an ability that reduces own damage received by 2% each time an attack is received, up to 20%!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
+    "id": 2920301,
+    "name": "Ayesha \"Twilight Fairy\" Ice | Defender",
+    "still_path_hash": "8148151566883811802"
+  },
+  {
+    "description": "Skill 2 grants self a buff that restores all allies' HP each time an attack is received for 2 attacks! It also boosts all allies' max HP for 2 turns and reduces all allies' damage received for 1 attack, based on own current HP. (Higher boost for lower HP, cannot be stacked)",
+    "id": 2920302,
+    "name": "Ayesha \"Twilight Fairy\" Ice | Defender",
+    "still_path_hash": "7682132653135720136"
+  },
+  {
+    "description": "After attacking with Burst Skill, removes all allies' status effects and also reduces all allies' damage received from attacks that target all allies by 100% for 1 attack!",
+    "id": 2920303,
+    "name": "Ayesha \"Twilight Fairy\" Ice | Defender",
+    "still_path_hash": "3940963663712702106"
+  },
+  {
+    "description": "- How to Fight -\n- Use Skill 2 to reduce damage received while also restoring HP!\n- Use Burst Skill to defend allies from enemies' attacks that target all allies!",
+    "id": 2920304,
+    "name": "Ayesha \"Twilight Fairy\" Ice | Defender",
+    "still_path_hash": "3507167872969585031"
   },
   {
     "description": "- After attacking with skill 2, boosts own skill damage depending on the number of enemies!\n- Has an ability that boosts the skill damage of all allies with Fire affinity!\nNote: Trial battles are played with a max level, fully awakened party with\nfully unlocked Growboards.",
@@ -1284,6 +1356,30 @@
     "still_path_hash": "9118410134444786371"
   },
   {
+    "description": "Has an ability that boosts all allies' P. ATK, M. ATK, P. DEF, and M. ATK by 10%! Also boosts all Fire allies' skill damage by 30%!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.\nNote: The Leader for this battle is Wilbell \"Magical Trick Star\".",
+    "id": 3340301,
+    "name": "Sophie \"Pure Angel\" Fire | Supporter",
+    "still_path_hash": "5069081412817027712"
+  },
+  {
+    "description": "Skill 2 boosts an ally's M. ATK by 5% and Fire damage by 20% while also granting them a buff that reduces enemies' Fire resistance before attack!\nNote: These numbers reflect the effects at skill level 5.",
+    "id": 3340302,
+    "name": "Sophie \"Pure Angel\" Fire | Supporter",
+    "still_path_hash": "6760071196165610850"
+  },
+  {
+    "description": "Before attacking with Burst Skill, boosts all allies' skill damage when attacking a weakness by 50% (MAX 100%)! After attacking, boosts the M. ATK of the ally with the highest M. ATK by 50% for 1 turn!",
+    "id": 3340303,
+    "name": "Sophie \"Pure Angel\" Fire | Supporter",
+    "still_path_hash": "143534162954501436"
+  },
+  {
+    "description": "- How to Fight -\n- Use Skill 2 to grant an ally the ability to reduce enemy's Fire resistance before attacking!\n- Use Burst Skill to boost allies' skill damage when attacking a weakness to quickly take out your enemies!",
+    "id": 3340304,
+    "name": "Sophie \"Pure Angel\" Fire | Supporter",
+    "still_path_hash": "569428845960872483"
+  },
+  {
     "description": "- After using a battle item, her attacks have a very high chance to inflict Brittle on enemies!\n- Her ability Final Battle Gear: Schwarz Rose makes her immune to all status effects!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
     "id": 3500201,
     "name": "Firis \"Crystaler of Rose\" Ice | Supporter",
@@ -1482,6 +1578,30 @@
     "still_path_hash": "2960754818867381179"
   },
   {
+    "description": "Skill 2 boosts all enemies' magic attack damage received! Skill 2 has 2 charge indicators, and if all indicators are charged, boosts the M. ATK of the ally with the highest M. ATK! (Note: All charge indicators will reset after activation.)\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
+    "id": 4000301,
+    "name": "Klaudia \"Moonlit Beach\" Ice | Breaker",
+    "still_path_hash": "5613779501759603544"
+  },
+  {
+    "description": "- Has an ability that lights up 2 charge indicators on Skill 2 at the start of battle!\n- If Skill 2 has less than 2 charge indicators lit, they can be lit by attacking with Skill 2 or using battle items!",
+    "id": 4000302,
+    "name": "Klaudia \"Moonlit Beach\" Ice | Breaker",
+    "still_path_hash": "6224046054807157830"
+  },
+  {
+    "description": "Burst skill reduces all enemies' Ice resistance by 50% for 2 attacks before attacking, and after attacking, boosts their magic attack damage received by 50% for 1 attack!",
+    "id": 4000303,
+    "name": "Klaudia \"Moonlit Beach\" Ice | Breaker",
+    "still_path_hash": "742310575701728284"
+  },
+  {
+    "description": "- How to Fight -\n- Use Burst skill to reduce all enemies' Ice resistance and boost enemies' magic attack damage received!\n- Charge the indicators on Skill 2 to boost the magic attack of one of your Attackers!",
+    "id": 4000304,
+    "name": "Klaudia \"Moonlit Beach\" Ice | Breaker",
+    "still_path_hash": "889421902700176133"
+  },
+  {
     "description": "- Boosts all allies' M. ATK with abilities.\n- Skill 2 reduces Ice resistance and deals more stun damage when attacking a weakness!\nNote: Trial battles are played with a max level, fully awakened party with\nfully unlocked Growboards.",
     "id": 4010101,
     "name": "Lila \"Jet Black Bodyguard\" Ice | Breaker",
@@ -1612,6 +1732,36 @@
     "id": 4310505,
     "name": "Resna \"Pretty Summer\" Bolt | Breaker",
     "still_path_hash": "8182958100282848795"
+  },
+  {
+    "description": "Skill 2 has 2 charge indicators, and if both indicators are charged, transforms before attacking! Once transformed, all skills and abilities are enhanced!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
+    "id": 4310601,
+    "name": "Resna \"Awakened Future\" Fire | Attacker",
+    "still_path_hash": "7996658432794613411"
+  },
+  {
+    "description": "If Skill 2 has less than 2 charge indicators lit, they can be lit by attacking with Skill 2 or by receiving HP recovery!",
+    "id": 4310602,
+    "name": "Resna \"Awakened Future\" Fire | Attacker",
+    "still_path_hash": "8462738853527636415"
+  },
+  {
+    "description": "After transforming, Skill 2 reduces target's Fire resistance by 25% for 5 attacks before attacking, and boosts own M. ATK by 40% for 2 turns after attacking!",
+    "id": 4310603,
+    "name": "Resna \"Awakened Future\" Fire | Attacker",
+    "still_path_hash": "2980476158563150305"
+  },
+  {
+    "description": "After transforming, Burst Skill boosts the attack's penetration by 100! When attacking a weakness, also boosts the attack's damage by 100% and converts the next ally's panel into a burst panel!",
+    "id": 4310604,
+    "name": "Resna \"Awakened Future\" Fire | Attacker",
+    "still_path_hash": "3406458878735390462"
+  },
+  {
+    "description": "- How to Fight -\n- Charge the charge indicators on Skill 2 to transform!\n- After transforming, deal massive damage to enemies with Skill 2 and Burst Skill!",
+    "id": 4310605,
+    "name": "Resna \"Awakened Future\" Fire | Attacker",
+    "still_path_hash": "8316841387366266528"
   },
   {
     "description": "- All skills other than Skill 1 boost critical rate by 100% for the attack! \n- Her ability Final Battle Gear: Schwarz Rose makes her immune to all status effects!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
@@ -1876,6 +2026,78 @@
     "id": 4380204,
     "name": "Izana \"Dragon's Bride\" Slash | Breaker",
     "still_path_hash": "1999420389038207229"
+  },
+  {
+    "description": "After using a battle item, grants Negative Effects Immunity to all allies for 1 turn! (MAX 3 times)\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
+    "id": 4390101,
+    "name": "Saskia \"Master of Alchemy\" Ice | Supporter",
+    "still_path_hash": "793701197009818669"
+  },
+  {
+    "description": "Skill 2 restores the item gauge by 10% and boosts all allies' M. ATK by 9%! (MAX 27%)\nNote: These numbers reflect the effects at skill level 5.\nIn addition, the skill also converts the next ally's panel into a boost+ panel! (Excludes burst panels)",
+    "id": 4390102,
+    "name": "Saskia \"Master of Alchemy\" Ice | Supporter",
+    "still_path_hash": "1192237116518632241"
+  },
+  {
+    "description": "Burst skill restores the item gauge by 40% and converts all enemies' panels into weaken+ panels!",
+    "id": 4390103,
+    "name": "Saskia \"Master of Alchemy\" Ice | Supporter",
+    "still_path_hash": "5523341922940562287"
+  },
+  {
+    "description": "- How to Fight -\n- Use Skill 2 to convert your allies' panels into boost+ panels!\n- Use your ability and Burst Skill to protect your allies!",
+    "id": 4390104,
+    "name": "Saskia \"Master of Alchemy\" Ice | Supporter",
+    "still_path_hash": "5385233389231527026"
+  },
+  {
+    "description": "Skill 2 has 3 charge indicators, and if all indicators are charged, grants self Evasion (100% chance) and boosts P. ATK by 50% and SPD by 50%! (Note: All charge indicators will reset after activation.)\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
+    "id": 4400101,
+    "name": "Johanna \"Battle Phenom\" Slash | Attacker",
+    "still_path_hash": "5540103369454764033"
+  },
+  {
+    "description": "- Has an ability that lights up 3 charge indicators on Skill 2 at the start of battle!\n- If Skill 2 has less than 3 charge indicators lit, they can be lit by attacking with Skill 2 or using battle items!",
+    "id": 4400102,
+    "name": "Johanna \"Battle Phenom\" Slash | Attacker",
+    "still_path_hash": "6298848088630517533"
+  },
+  {
+    "description": "Removes all negative effects on self before attacking with Burst Skill, and after attacking, converts the panel of the next ally in turn order at the time of skill use into a critical panel! (Excludes burst panels)",
+    "id": 4400103,
+    "name": "Johanna \"Battle Phenom\" Slash | Attacker",
+    "still_path_hash": "812749747973291843"
+  },
+  {
+    "description": "- How to Fight -\n- Charge the charge indicators on Skill 2 to boost your own P. ATK and SPD!\n- Your increased SPD will further boost your damage through your ability, allowing you to really press the attack!",
+    "id": 4400104,
+    "name": "Johanna \"Battle Phenom\" Slash | Attacker",
+    "still_path_hash": "963098096796860510"
+  },
+  {
+    "description": "After using a battle item, the next attack has a very high chance to inflict Paralysis! Defeating an enemy with a skill restores 15% HP to all allies!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",
+    "id": 4420101,
+    "name": "Lara \"Queen's Grace\" Slash | Attacker",
+    "still_path_hash": "1500433041866946451"
+  },
+  {
+    "description": "When target has a status effect, boosts Skill 2's damage by 30%! After attacking, boosts own P. ATK by 5%!\nSkill 2 also has a charge indicator, and if the indicator is not charged, it becomes charged when using Skill 2! When the indicator is charged, the attack also delays the target's turn by 1 turn! (Note: All charge indicators reset after activation.)",
+    "id": 4420102,
+    "name": "Lara \"Queen's Grace\" Slash | Attacker",
+    "still_path_hash": "1106475630793287823"
+  },
+  {
+    "description": "After attacking with Burst Skill, inflicts targets with Royal Authority for 1 turn and boosts their damage received by 50% for 2 attacks!\nNote: Enemies inflicted with Royal Authority have a chance to become immobilized at the start of the turn.",
+    "id": 4420103,
+    "name": "Lara \"Queen's Grace\" Slash | Attacker",
+    "still_path_hash": "6014428494099597521"
+  },
+  {
+    "description": "- How to Fight -\n- Make use of Skill 2 and Burst Skill to disrupt the enemy's turns!\n- Use Burst Skill to boost damage received by enemies, then press the attack!",
+    "id": 4420104,
+    "name": "Lara \"Queen's Grace\" Slash | Attacker",
+    "still_path_hash": "6155683821491173326"
   },
   {
     "description": "The ability \"Kitty Cat Team\" grants her immunity to negative panels, while also boosting the potency of the positive panels she uses by 10%!\nNote: Trial battles are played with a max level, fully awakened party with fully unlocked Growboards.",

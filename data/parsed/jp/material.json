@@ -41360,5 +41360,341 @@
     "image_medium": "Ingredient_0746_M",
     "start_at": "2024-10-11T03:00:00.000Z",
     "end_at": null
+  },
+  {
+    "id": 750,
+    "name": "虹魚",
+    "rarity": 2,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 13,
+        "name": "ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "ブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000012,
+            "description": "ブレイクダメージ{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "name": "物理耐性上昇【渾身】",
+        "category": "ENHANCE",
+        "description": "HP満タン時、受ける物理攻撃のダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000105,
+            "description": "HPが最大の時、物理属性ダメージ耐性{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204119001,
+        "quest_name": "極夜の魔物たち・３【黄】",
+        "difficulty": "NORMAL",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204119004,
+        "quest_name": "極夜の魔物たち・３【黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0750_S",
+    "image_medium": "Ingredient_0750_M",
+    "start_at": "2024-10-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 751,
+    "name": "ハーブフレグランス",
+    "rarity": 2,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 47,
+        "name": "回復量上昇【D】",
+        "category": "RECOVERY",
+        "description": "ディフェンダーへ与える回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000076,
+            "description": "ディフェンダーへの回復量{0}%アップ",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "打耐性上昇",
+        "category": "ENHANCE",
+        "description": "打属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000021,
+            "description": "打属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204119002,
+        "quest_name": "極上の餌を作ろう！・２【青/紫】",
+        "difficulty": "NORMAL",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204119005,
+        "quest_name": "極上の餌を作ろう！・２【青/紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0751_S",
+    "image_medium": "Ingredient_0751_M",
+    "start_at": "2024-10-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 752,
+    "name": "純粋なパウダー",
+    "rarity": 2,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 17,
+        "name": "魔力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "使い切り回復強化",
+        "category": "RECOVERY",
+        "description": "使用回数が1回の時、HP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000109,
+            "description": "使用回数が1回の時、HP回復量{0}%アップ",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204119002,
+        "quest_name": "極上の餌を作ろう！・２【青/紫】",
+        "difficulty": "NORMAL",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204119005,
+        "quest_name": "極上の餌を作ろう！・２【青/紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0752_S",
+    "image_medium": "Ingredient_0752_M",
+    "start_at": "2024-10-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 753,
+    "name": "オムニアオリウンツル",
+    "rarity": 3,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "スキル威力上昇",
+        "category": "ATTACK",
+        "description": "スキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "スキル威力{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "単体攻撃威力上昇",
+        "category": "ATTACK",
+        "description": "単体攻撃のスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000111,
+            "description": "単体攻撃のスキル威力{0}％アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204119004,
+        "quest_name": "極夜の魔物たち・３【黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0753_S",
+    "image_medium": "Ingredient_0753_M",
+    "start_at": "2024-10-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 754,
+    "name": "きらめく原砂",
+    "rarity": 3,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 3,
+        "name": "打の祝福",
+        "category": "ATTACK",
+        "description": "打属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "打属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "会心の出来",
+        "category": "ENHANCE",
+        "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204119005,
+        "quest_name": "極上の餌を作ろう！・２【青/紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0754_S",
+    "image_medium": "Ingredient_0754_M",
+    "start_at": "2024-10-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 755,
+    "name": "琥珀油",
+    "rarity": 3,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 26,
+        "name": "魔法耐性上昇",
+        "category": "ENHANCE",
+        "description": "魔法攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000027,
+            "description": "魔法属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "name": "物理耐性上昇【渾身】",
+        "category": "ENHANCE",
+        "description": "HP満タン時、受ける物理攻撃のダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000105,
+            "description": "HPが最大の時、物理属性ダメージ耐性{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204119005,
+        "quest_name": "極上の餌を作ろう！・２【青/紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0755_S",
+    "image_medium": "Ingredient_0755_M",
+    "start_at": "2024-10-31T03:00:00.000Z",
+    "end_at": null
   }
 ]

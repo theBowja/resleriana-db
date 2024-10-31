@@ -7864,6 +7864,54 @@
     "popup_text": ""
   },
   {
+    "description": "得意属性が風属性かつアタッカーの時、スキル発動後、自身に「魔攻アップ」を2回行動終了するまで付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000890,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がアタッカーの時、単体攻撃のスキルダメージアップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000891,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が風属性の時、HP回復を受けた時、自身に「スキルダメージアップ」を1回行動終了するまで付与(重複不可)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000892,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が突属性かつディフェンダーの時、攻撃を受けた時、自身に「物防アップ」を1回攻撃を受けるまで付与(重複不可)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000893,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自分がディフェンダーの時、スキル発動後、自身に「受けるダメージダウン」を2回攻撃を受けるまで付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000894,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が突属性の時、受けるHP回復量アップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000895,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "与回復量上昇",
     "effect_motion_id": null,
     "field_effect_id": null,
@@ -8820,6 +8868,14 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 13000228,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身が風属性の時、単体攻撃スキルダメージアップ＋{}%",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 13000230,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -10736,6 +10792,46 @@
     "popup_text": ""
   },
   {
+    "description": "スキル対象のパネルを弱体+パネルに変換する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71192001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身の次パネルを強化パネルに変換する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71192002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "与ダメージDOWN(100％/3回)を付与する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71192003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "被ダメージDOWN(100%/3回)を付与する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71192004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "HP回復量DOWN(100%/3回)を付与する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71192005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "[自身/常時/ダメージバフ]",
     "effect_motion_id": null,
     "field_effect_id": null,
@@ -11848,6 +11944,14 @@
     "popup_text": ""
   },
   {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72001138,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "[自身/常時/物攻上昇]",
     "effect_motion_id": null,
     "field_effect_id": null,
@@ -12876,6 +12980,62 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 76197013,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身の与ダメージアップ(2回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76201001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身の被ブレイクダメージダウン(2回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76201002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身の被ダメージダウン(2回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76201003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身の被ダメージダウン(1回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76201004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身のHP回復",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76201005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "味方全体の被マイナス効果量ダウン(2回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76201006,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "味方全体のクリティカル率UP(2回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76201007,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -13928,6 +14088,22 @@
     "popup_text": ""
   },
   {
+    "description": "行動後にかばう(100%/2回)を付与する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 81192001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "強化パネル獲得時、自身のHPを回復する",
+    "effect_motion_id": 1131,
+    "field_effect_id": null,
+    "id": 81192002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "カチコチ状態の時、被クリティカルダメージUP",
     "effect_motion_id": null,
     "field_effect_id": null,
@@ -14804,6 +14980,30 @@
     "effect_motion_id": 1130,
     "field_effect_id": null,
     "id": 86197012,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "ブレイク時、自身のプラス効果を全て解除",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86201001,
+    "is_positive_popup": false,
+    "popup_text": "プラス効果解除"
+  },
+  {
+    "description": "ブレイク中、自身の被ダメUP",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86201002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "ブレイク時、キャラ陣営の素早さUP(2回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86201003,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -17739,6 +17939,70 @@
     "description": "",
     "effect_motion_id": null,
     "field_effect_id": null,
+    "id": 91001405,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001406,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001408,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001409,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001410,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001438,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001439,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001440,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
     "id": 91002004,
     "is_positive_popup": null,
     "popup_text": ""
@@ -19020,6 +19284,14 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 95000146,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がディフェンダーの時、味方全員のクリティカルダメージアップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 95000147,
     "is_positive_popup": null,
     "popup_text": ""
   },

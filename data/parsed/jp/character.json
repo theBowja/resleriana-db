@@ -19311,6 +19311,234 @@
     "start_at": "2024-06-10T03:00:00.000Z"
   },
   {
+    "id": 43503,
+    "name": "ハイディ",
+    "title": "【Lucky Buddy】",
+    "full_name": "ハイディ",
+    "base_character": "ハイディ",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "AIR",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "私はもう、逃げない――\n仲間も、家族も、相棒も……守ってみせる！",
+    "profile": {
+      "voice_actor": "大空直美",
+      "voice_text": "私はハイディ。戦いはちょいと苦手だけど、\n相棒と一緒なら無敵だよ！",
+      "description": "ヴァレリアのお調子者な相棒。\n色んなものから逃げて王都にたどり着き、ヴァレリアたちと出会った。\n戦闘は得意ではないが立ち回りは上手いので、ヴァレリアの相棒として戦術面をサポートしてきた。\n手早く大金を稼ごうとすると上手くいかないが、肝心なときには幸運に恵まれることが多い。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "青",
+      "given": "緑"
+    },
+    "battle_item_trait": [
+      {
+        "id": 49,
+        "name": "追い打ち強化",
+        "category": "ATTACK",
+        "description": "ブレイク中の敵へのダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "ブレイク中の敵へのダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "風の盾",
+        "category": "ENHANCE",
+        "description": "対象に「風属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000069,
+            "description": "対象に「風属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "スキル威力上昇",
+        "category": "ATTACK",
+        "description": "スキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "スキル威力{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 159,
+        "spd": 246,
+        "patk": 53,
+        "matk": 65,
+        "pdef": 42,
+        "mdef": 49
+      },
+      "growth": {
+        "hp": 1590,
+        "spd": 0,
+        "patk": 530,
+        "matk": 650,
+        "pdef": 420,
+        "mdef": 490
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 5,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "ウィリデイクト",
+      "description": "攻撃後、自身に「スキルダメージ+{0}%」を1回行動終了するまで付与",
+      "summary": "攻撃後、自身のスキルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001270,
+          "description": "",
+          "value": 4000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [75, 79, 84, 88, 93],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "ファレインピタス",
+      "description": "敵の数に応じ、ダメージ+10〜30%(1〜4体で少ないほど増加)<br>「ファレインピタス」はスキルランプを持ち、点灯数が2個の時、効果内容が変化する<br>スキルランプは最大2個点灯できる<br><br>スキルランプの点灯数が2個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が2個の時、<br>攻撃後、自身に「魔攻+{0}%」を2回行動終了するまで付与し、<br>スキルランプを全て消灯する",
+      "summary": "敵が少ないほどダメージアップ\nスキルランプの点灯数が2個未満の時、攻撃後、スキルランプを1個点灯する\nスキルランプの点灯数が2個の時、攻撃後、自身の魔攻アップし、スキルランプを全て消灯する",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001405,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001329,
+          "description": "",
+          "value": 100
+        },
+        {
+          "id": 91001330,
+          "description": "",
+          "value": 200
+        },
+        {
+          "id": 91000950,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91000927,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [260, 276, 292, 308, 325],
+      "has_stun": true,
+      "stun_values": [28, 29, 31, 33, 35],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "サルタールテンペスタス",
+      "description": "この攻撃の貫通力+{0}<br>敵の数に応じ、ダメージ+10〜50%(1〜4体で少ないほど増加)<br>攻撃後、自身に「スキルダメージ+{1}%」を2回行動終了するまで付与",
+      "summary": "この攻撃の貫通力アップ\n敵が少ないほどダメージアップ\n攻撃後、自身のスキルダメージアップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001337,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001378,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91000950,
+          "description": "",
+          "value": 4000
+        },
+        {
+          "id": 91000927,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [420, 420, 420, 446, 472, 498, 525],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "もう逃げてばかりじゃない！",
+      "description": "バトル開始時、「ファレインピタス」のスキルランプを2個点灯する<br>HP回復を受けた時、<br>「ファレインピタス」のスキルランプを1個点灯する",
+      "effects": [
+        {
+          "id": 72001094,
+          "description": "[スキルランプ点灯]",
+          "value": 200
+        },
+        {
+          "id": 72001094,
+          "description": "[スキルランプ点灯]",
+          "value": 100
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "アドバンスオール魔攻Ⅱ",
+      "description": "味方全員の魔攻+{0}%",
+      "effects": [
+        {
+          "id": 72000908,
+          "description": "[味方全体/常時/魔攻上昇]",
+          "value": 1000
+        }
+      ]
+    },
+    "start_at": "2024-10-31T03:00:00.000Z"
+  },
+  {
     "id": 43599,
     "name": "ハイディ",
     "title": "【ログボ用】",
@@ -19729,6 +19957,239 @@
       ]
     },
     "start_at": "2024-03-22T03:00:00.000Z"
+  },
+  {
+    "id": 43602,
+    "name": "フロッケ",
+    "title": "【Earnest Angel】",
+    "full_name": "フロッケ・チェルハ",
+    "base_character": "フロッケ",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "STAB",
+    "role": "DEFENDER",
+    "initial_rarity": 3,
+    "acquisition_text": "今度は自分の手で――\n皆さんを守りたいんです！",
+    "profile": {
+      "voice_actor": "大野柚布子",
+      "voice_text": "フロッケ・チェルハです。行商を営んで\nいます。お魚の目利きには自信があります！",
+      "description": "行商を営む健気な少女。\nヴァレリアたちと共に暮らしており、だらしない彼女らの生活面を支えている。\n目利きがピカイチで、特に海産物に関しては顧客の満足度が高い。\n助けられて嬉しかった自身の経験から、困った人には手を差し伸べるようにしている。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "紫",
+      "given": "赤"
+    },
+    "battle_item_trait": [
+      {
+        "id": 4,
+        "name": "突の祝福",
+        "category": "ATTACK",
+        "description": "突属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "突属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "突の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000065,
+            "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 25,
+        "name": "物理耐性上昇",
+        "category": "ENHANCE",
+        "description": "物理攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "物理属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 182,
+        "spd": 241,
+        "patk": 50,
+        "matk": 49,
+        "pdef": 71,
+        "mdef": 64
+      },
+      "growth": {
+        "hp": 1820,
+        "spd": 0,
+        "patk": 500,
+        "matk": 490,
+        "pdef": 710,
+        "mdef": 640
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 5
+      }
+    },
+    "skill_1": {
+      "name": "ひらひらノック",
+      "description": "攻撃後、自身のHPに応じ、味方全員のHPを5〜20%回復(HP25〜100%で少ないほど増加)し、<br>敵全体に「素早さ-{0}%」を2回行動終了するまで付与",
+      "summary": "攻撃後、自身のHPが少ないほど味方全員のHPを回復\n敵全体の素早さダウン",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001438,
+          "description": "",
+          "value": 500
+        },
+        {
+          "id": 91001406,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [67, 71, 75, 79, 83],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "トゥインクリングペタルス",
+      "description": "攻撃後、味方全員に「スキルダメージ+{0}%」と「突属性ダメージ+{1}%」を2回行動終了するまで付与し、<br>自身に「受けるダメージ-{2}%」を2回攻撃を受けるまで付与",
+      "summary": "攻撃後、味方全員のスキルダメージアップ\n味方全員の突属性ダメージアップ\n自身の受けるダメージダウン",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001409,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91001410,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91000997,
+          "description": "",
+          "value": 3500
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [218, 231, 245, 258, 272],
+      "has_stun": true,
+      "stun_values": [29, 30, 32, 34, 36],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "フラワリングエンジェル",
+      "description": "攻撃後、味方全員のHPを{0}%回復し、<br>味方全員に「スキルダメージ+{1}%」と「突属性ダメージ+{2}%」を付与（どちらも上限30%）し、<br>自身に「受けるダメージ-{3}%」を1回攻撃を受けるまで付与",
+      "summary": "攻撃後、味方全員のHPを回復\n味方全員のスキルダメージアップ\n味方全員の突属性ダメージアップ\n自身の受けるダメージダウン",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91000925,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91001439,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91001440,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91001038,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [252, 252, 252, 267, 283, 299, 315],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "ヘイト&物防&魔防アップ",
+      "description": "敵にとても狙われやすくなる<br>自身の物防・魔防+{0}%",
+      "effects": [
+        {
+          "id": 72001113,
+          "description": "[自身/常時/物防上昇]",
+          "value": 3000
+        },
+        {
+          "id": 72001114,
+          "description": "[自身/常時/魔防上昇]",
+          "value": 3000
+        },
+        {
+          "id": 72000914,
+          "description": "狙われやすさ+100％",
+          "value": 10000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "フロッケが支えます！",
+      "description": "スキル発動後、自身のHPを{0}%回復<br>自身のHPが95%以上の状態で攻撃を受けた時、タイムラインに並んでいる、次の味方のパネル1つをバーストパネルに変換(空パネルの時は生成)",
+      "effects": [
+        {
+          "id": 72000950,
+          "description": "[自身/HP回復]",
+          "value": 500
+        },
+        {
+          "id": 72001138,
+          "description": "",
+          "value": 100
+        }
+      ]
+    },
+    "start_at": "2024-10-31T03:00:00.000Z"
   },
   {
     "id": 43701,

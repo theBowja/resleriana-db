@@ -21886,7 +21886,7 @@
         }
       ]
     },
-    "start_at": "2024-08-30T03:00:00.000Z"
+    "start_at": "2024-11-08T03:00:00.000Z"
   },
   {
     "id": 44301,
@@ -22090,5 +22090,471 @@
       ]
     },
     "start_at": "2024-04-22T03:00:00.000Z"
+  },
+  {
+    "id": 44401,
+    "name": "ミーケ",
+    "title": "【Fashionable Kitty】",
+    "full_name": "ミーケ・クロンメリン",
+    "base_character": "ミーケ",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "STAB",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "迷うくらいなら突き進んじゃえ！\n夢はでっかく！　ビーッグ！！",
+    "profile": {
+      "voice_actor": "千本木彩花",
+      "voice_text": "ララ・キングダム最高の装束方ミーケだよ！\n衣装のことなら、なんでもまっかせて！",
+      "description": "ララ・キングダム重臣。\nかつてはヴィアベル州で装飾屋を営んでおり、若い女性を中心に人気を集めていた。ララの器の大きさに惚れ込み、今までの地位をすべて捨て彼女に仕えている。\n芸人である父親に似て、明るく活発な性格。小さくまとまることを嫌い、大胆に前に進もうとする行動派。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "赤",
+      "given": "青"
+    },
+    "battle_item_trait": [
+      {
+        "id": 4,
+        "name": "突の祝福",
+        "category": "ATTACK",
+        "description": "突属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "突属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "会心の出来",
+        "category": "ENHANCE",
+        "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 27,
+        "name": "単体攻撃威力上昇",
+        "category": "ATTACK",
+        "description": "単体攻撃のスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000111,
+            "description": "単体攻撃のスキル威力{0}％アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 155,
+        "spd": 235,
+        "patk": 68,
+        "matk": 53,
+        "pdef": 47,
+        "mdef": 45
+      },
+      "growth": {
+        "hp": 1550,
+        "spd": 0,
+        "patk": 680,
+        "matk": 530,
+        "pdef": 470,
+        "mdef": 450
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 5
+      }
+    },
+    "skill_1": {
+      "name": "ぐるりんヒット",
+      "description": "攻撃後、アイテムゲージを{0}%回復し、<br>自身に「素早さ+{1}%」を付与(上限10%)し、<br>対象に「麻痺」を2回行動開始するまで超高確率で付与",
+      "summary": "攻撃後、アイテムゲージを回復<br>自身の素早さアップ<br>対象に麻痺を超高確率で付与",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91002004,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91001147,
+          "description": "",
+          "value": 500
+        },
+        {
+          "id": 91000931,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [88, 93, 99, 104, 110],
+      "has_stun": true,
+      "stun_values": [7, 7, 7, 7, 8],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "ホッピングトワール",
+      "description": "攻撃前、対象に「突属性耐性-{0}%」と「受ける物理攻撃ダメージ+{1}%」を2回攻撃を受けるまで付与<br>攻撃後、自身に「物攻+{2}%」を付与(上限30%)",
+      "summary": "攻撃前、対象の突属性耐性ダウン<br>対象の受ける物理攻撃ダメージアップ<br>攻撃後、自身の物攻アップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001430,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001148,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91001413,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [165, 175, 185, 195, 206],
+      "has_stun": true,
+      "stun_values": [12, 12, 13, 14, 15],
+      "has_recovery": false,
+      "wait": 175
+    },
+    "burst": {
+      "name": "ビーッグミーケインパクト",
+      "description": "この攻撃の貫通力+{0}<br>攻撃前、対象に「受ける物理攻撃ダメージ+{1}%」を付与(上限100%)<br>攻撃後、自身の次のパネルがバーストパネルでない時、強化+パネルに変換(空パネルの時は生成)",
+      "summary": "この攻撃の貫通力アップ<br>攻撃前、対象の受ける物理攻撃ダメージアップ<br>攻撃後、自身の一部パネルを除いた次のパネルを強化+パネルに変換",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001337,
+          "description": "",
+          "value": 15000
+        },
+        {
+          "id": 91001415,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001253,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [425, 425, 425, 451, 478, 504, 531],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "盛り上がり上昇中！",
+      "description": "自身がパネル獲得時またはHP回復を受けた時、自身に「物攻+{0}%」を付与(上限100%)し、<br>自身に「突属性ダメージ+{1}%」を<br>1回行動終了するまで付与(上限5個)",
+      "effects": [
+        {
+          "id": 72001128,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 72001136,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 72001128,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 72001136,
+          "description": "",
+          "value": 3000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "ビーッグチャーンス！",
+      "description": "プラスパネルから受ける効果量+{0}%<br>攻撃対象が麻痺・ねむり・スタン状態あるいは「王の威光」が付与された状態の時、ダメージ+{1}%",
+      "effects": [
+        {
+          "id": 72001045,
+          "description": "state_change用",
+          "value": 3000
+        },
+        {
+          "id": 72001137,
+          "description": "",
+          "value": 5000
+        }
+      ]
+    },
+    "start_at": "2024-11-08T03:00:00.000Z"
+  },
+  {
+    "id": 44501,
+    "name": "ディオーナ",
+    "title": "【Fervorous Diva】",
+    "full_name": "ディオーナ・グルンドベリ",
+    "base_character": "ディオーナ",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "SLASH",
+    "role": "SUPPORTER",
+    "initial_rarity": 3,
+    "acquisition_text": "私の中で激しく燃える炎――\n旋律に乗せて届けるわ",
+    "profile": {
+      "voice_actor": "佐々木李子",
+      "voice_text": "ディオーナよ。私の歌が聴きたい？\nでは、ララ様を称えるための歌を……",
+      "description": "ララ・キングダム重臣。\n音楽の才能に恵まれ、若き歌姫として名を成した。ミーケとは故郷のヴィアベル州で知り合い、互いに認め合う友人関係となった。ララの気品溢れる姿に惚れ込み、彼女に絶対の忠誠を誓っている。\n美意識に強いこだわりがあり、美観を損ねているものを見ると落ち着かない。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "紫",
+      "given": "緑"
+    },
+    "battle_item_trait": [
+      {
+        "id": 14,
+        "name": "斬の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「斬属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000063,
+            "description": "対象に「斬属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "剛力の祝福",
+        "category": "ATTACK",
+        "description": "物理攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000008,
+            "description": "物理攻撃のダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 28,
+        "name": "全体攻撃威力上昇",
+        "category": "ATTACK",
+        "description": "全体攻撃のスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000110,
+            "description": "全体攻撃のスキル威力{0}％アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 145,
+        "spd": 252,
+        "patk": 53,
+        "matk": 50,
+        "pdef": 51,
+        "mdef": 56
+      },
+      "growth": {
+        "hp": 1450,
+        "spd": 0,
+        "patk": 530,
+        "matk": 500,
+        "pdef": 510,
+        "mdef": 560
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 5,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "バタフライスラッシュ",
+      "description": "攻撃後、得意属性が斬属性の味方全員に「物攻+{0}%」を付与(上限20%)し、<br>対象に「受ける斬属性ダメージ+{1}%」を2回攻撃を受けるまで付与",
+      "summary": "攻撃後、得意属性が斬属性の味方全員の物攻アップ<br>対象の受ける斬属性ダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001441,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91001434,
+          "description": "",
+          "value": 1500
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [55, 58, 61, 64, 68],
+      "has_stun": true,
+      "stun_values": [5, 5, 5, 5, 6],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "デクラレイションブレイド",
+      "description": "攻撃後、得意属性が斬属性のアタッカーの味方全員に「スキル威力+{0}%」(上限60%)を1回行動終了するまで付与し、<br>対象に「斬属性耐性-{1}%」を2回攻撃を受けるまで付与<br><br>味方全員に以下の追加効果を1回行動終了するまで付与する<br>追加効果:「攻撃前、対象に状態異常耐性-{2}%(上限50%)を<br>1回行動開始するまで付与」<br>「攻撃後、対象に麻痺を1回行動開始するまで超高確率で付与」",
+      "summary": "攻撃後、得意属性が斬属性のアタッカーの味方全員のスキル威力アップ<br>対象の斬属性耐性ダウン<br>味方全員に追加効果を付与",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001435,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91000955,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001418,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001419,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [204, 216, 229, 242, 255],
+      "has_stun": true,
+      "stun_values": [26, 27, 29, 30, 32],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "グローリアスショータイム",
+      "description": "攻撃後、アイテムゲージを{0}%回復し、<br>このスキル使用前に物攻が最も高い味方1人に「物攻+{1}%」と<br>「スキル威力+{2}%」(上限100%)を1回行動終了するまで付与<br>攻撃対象が麻痺・ねむり・スタン状態あるいは「王の威光」が付与された状態の時、このスキル使用前にタイムラインに並んでいる、味方全員のパネル1つをバーストパネルに変換(空パネルの時は生成)",
+      "summary": "攻撃後、アイテムゲージを回復<br>物攻が最も高い味方1人の物攻アップ<br>物攻が最も高い味方1人のスキル威力アップ<br>対象が特定の状態異常時または特定のマイナス効果を持つ時、味方全員のパネル1つをバーストパネルに変換",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91002004,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001269,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001436,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001420,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [420, 420, 420, 446, 472, 498, 525],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "溢れ出る闘争の力Ⅱ",
+      "description": "味方全員のスキルダメージ+{0}%",
+      "effects": [
+        {
+          "id": 72000922,
+          "description": "",
+          "value": 2000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "心安らげる歌姫の旋律",
+      "description": "スキル発動後、アイテムゲージを{0}%回復し、<br>味方全員のHPを{1}%回復",
+      "effects": [
+        {
+          "id": 72001085,
+          "description": "[アイテムゲージ回復]",
+          "value": 1000
+        },
+        {
+          "id": 72001131,
+          "description": "",
+          "value": 500
+        }
+      ]
+    },
+    "start_at": "2024-11-08T03:00:00.000Z"
   }
 ]

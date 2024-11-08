@@ -34656,7 +34656,7 @@
       "wind": 0
     },
     "attack_attributes": [2],
-    "description": "得意属性が打属性の時、受ける強化効果量+{0}%<br>「約束と協力」の味方全員の受ける強化効果量+{1}%",
+    "description": "得意属性が打属性の時、受ける強化効果量+{0}%<br>「約束と協力」の味方全員に強化効果が付与されたとき、効果量+{1}%",
     "easy_synthesis_trait_lottery_id": 6,
     "id": 871,
     "large_still_path_hash": "3040912381561157127",
@@ -34698,7 +34698,7 @@
       "wind": 0
     },
     "attack_attributes": [2],
-    "description": "得意属性が打属性の時、受ける強化効果量+{0}%<br>「約束と協力」の味方全員の受ける強化効果量+{1}%",
+    "description": "得意属性が打属性の時、受ける強化効果量+{0}%<br>「約束と協力」の味方全員に強化効果が付与されたとき、効果量+{1}%",
     "easy_synthesis_trait_lottery_id": 6,
     "id": 872,
     "large_still_path_hash": "3040912381561157127",
@@ -36011,5 +36011,499 @@
       }
     ],
     "still_path_hash": "5484269053646860981"
+  },
+  {
+    "ability_ids": [300992],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 0,
+      "wind": 0
+    },
+    "attack_attributes": [3],
+    "description": "得意属性が突属性かつアタッカーの時、スキル発動後、自身に「物攻+{0}%」を1回行動終了するまで付与",
+    "easy_synthesis_trait_lottery_id": 6,
+    "id": 905,
+    "large_still_path_hash": "5544692660541315380",
+    "name": "クラーレン",
+    "quality_group_id": 6,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 100,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [1],
+    "slot_type": 1,
+    "small_still_path_hash": "182793795774601839",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 3,
+        "value": 95
+      }
+    ],
+    "still_path_hash": "3111176241802272641"
+  },
+  {
+    "ability_ids": [300993],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 0,
+      "wind": 0
+    },
+    "attack_attributes": [3],
+    "description": "得意属性が突属性かつアタッカーの時、スキル発動後、自身に「物攻+{0}%」を1回行動終了するまで付与",
+    "easy_synthesis_trait_lottery_id": 6,
+    "id": 906,
+    "large_still_path_hash": "5544692660541315380",
+    "name": "クラーレン",
+    "quality_group_id": 6,
+    "rarity": 2,
+    "role_combat_power_bonus": {
+      "attacker": 100,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [1],
+    "slot_type": 1,
+    "small_still_path_hash": "182793795774601839",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 3,
+        "value": 50
+      }
+    ],
+    "still_path_hash": "3111176241802272641"
+  },
+  {
+    "ability_ids": [300994],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 20,
+      "ice": 20,
+      "impact": 20,
+      "lightning": 20,
+      "piercing": 20,
+      "slashing": 20,
+      "wind": 20
+    },
+    "attack_attributes": [],
+    "description": "自身がアタッカーの時、対象が状態異常時、スキルダメージ+{0}%",
+    "easy_synthesis_trait_lottery_id": 2,
+    "id": 907,
+    "large_still_path_hash": "1215905899558992234",
+    "name": "ナチュナリシュツ",
+    "quality_group_id": 1,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 100,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [1],
+    "slot_type": 2,
+    "small_still_path_hash": "2334664112722886275",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 5,
+        "value": 50
+      },
+      {
+        "change_method": 1,
+        "status_type": 6,
+        "value": 45
+      }
+    ],
+    "still_path_hash": "703145484863880045"
+  },
+  {
+    "ability_ids": [300995],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 20,
+      "ice": 20,
+      "impact": 20,
+      "lightning": 20,
+      "piercing": 20,
+      "slashing": 20,
+      "wind": 20
+    },
+    "attack_attributes": [],
+    "description": "自身がアタッカーの時、対象が状態異常時、スキルダメージ+{0}%",
+    "easy_synthesis_trait_lottery_id": 2,
+    "id": 908,
+    "large_still_path_hash": "1215905899558992234",
+    "name": "ナチュナリシュツ",
+    "quality_group_id": 1,
+    "rarity": 2,
+    "role_combat_power_bonus": {
+      "attacker": 100,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [1],
+    "slot_type": 2,
+    "small_still_path_hash": "2334664112722886275",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 5,
+        "value": 45
+      },
+      {
+        "change_method": 1,
+        "status_type": 6,
+        "value": 20
+      }
+    ],
+    "still_path_hash": "703145484863880045"
+  },
+  {
+    "ability_ids": [300996],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 0,
+      "wind": 0
+    },
+    "attack_attributes": [3],
+    "description": "得意属性が突属性の時、受ける強化効果量+{0}%",
+    "easy_synthesis_trait_lottery_id": 6,
+    "id": 909,
+    "large_still_path_hash": "1640762659157640821",
+    "name": "獣の護符",
+    "quality_group_id": 6,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 100,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [1],
+    "slot_type": 3,
+    "small_still_path_hash": "3680771117357924345",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 135
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 10
+      }
+    ],
+    "still_path_hash": "1923263985410046487"
+  },
+  {
+    "ability_ids": [300997],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 0,
+      "wind": 0
+    },
+    "attack_attributes": [3],
+    "description": "得意属性が突属性の時、受ける強化効果量+{0}%",
+    "easy_synthesis_trait_lottery_id": 6,
+    "id": 910,
+    "large_still_path_hash": "1640762659157640821",
+    "name": "獣の護符",
+    "quality_group_id": 6,
+    "rarity": 2,
+    "role_combat_power_bonus": {
+      "attacker": 100,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [1],
+    "slot_type": 3,
+    "small_still_path_hash": "3680771117357924345",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 60
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 8
+      }
+    ],
+    "still_path_hash": "1923263985410046487"
+  },
+  {
+    "ability_ids": [300998],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [1],
+    "description": "得意属性が斬属性かつサポーターの時、スキル発動後、物攻が最も高い味方1人に「バーストスキルダメージ+{0}%」を1回行動終了するまで付与(重複不可)",
+    "easy_synthesis_trait_lottery_id": 9,
+    "id": 911,
+    "large_still_path_hash": "5397669234880095787",
+    "name": "叫びのハサミ",
+    "quality_group_id": 34,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 1,
+    "small_still_path_hash": "1295827836847495957",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 3,
+        "value": 50
+      },
+      {
+        "change_method": 1,
+        "status_type": 4,
+        "value": 45
+      }
+    ],
+    "still_path_hash": "4062180062505705211"
+  },
+  {
+    "ability_ids": [300999],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [1],
+    "description": "得意属性が斬属性かつサポーターの時、スキル発動後、物攻が最も高い味方1人に「バーストスキルダメージ+{0}%」を1回行動終了するまで付与(重複不可)",
+    "easy_synthesis_trait_lottery_id": 9,
+    "id": 912,
+    "large_still_path_hash": "5397669234880095787",
+    "name": "叫びのハサミ",
+    "quality_group_id": 34,
+    "rarity": 2,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 1,
+    "small_still_path_hash": "1295827836847495957",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 3,
+        "value": 45
+      },
+      {
+        "change_method": 1,
+        "status_type": 4,
+        "value": 20
+      }
+    ],
+    "still_path_hash": "4062180062505705211"
+  },
+  {
+    "ability_ids": [301000],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [1, 2, 3],
+    "description": "自身がサポーターの時、味方全員の物理攻撃スキルダメージ+{0}%",
+    "easy_synthesis_trait_lottery_id": 9,
+    "id": 913,
+    "large_still_path_hash": "5863750270078859575",
+    "name": "サイレンススタイル",
+    "quality_group_id": 93,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 2,
+    "small_still_path_hash": "8559833700459623969",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 5,
+        "value": 45
+      },
+      {
+        "change_method": 1,
+        "status_type": 6,
+        "value": 50
+      }
+    ],
+    "still_path_hash": "6876667695729226703"
+  },
+  {
+    "ability_ids": [301001],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [1, 2, 3],
+    "description": "自身がサポーターの時、味方全員の物理攻撃スキルダメージ+{0}%",
+    "easy_synthesis_trait_lottery_id": 9,
+    "id": 914,
+    "large_still_path_hash": "5863750270078859575",
+    "name": "サイレンススタイル",
+    "quality_group_id": 93,
+    "rarity": 2,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 2,
+    "small_still_path_hash": "8559833700459623969",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 5,
+        "value": 20
+      },
+      {
+        "change_method": 1,
+        "status_type": 6,
+        "value": 45
+      }
+    ],
+    "still_path_hash": "6876667695729226703"
+  },
+  {
+    "ability_ids": [301002],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [1],
+    "description": "自身が斬属性の時、与えるHP回復量+{0}%",
+    "easy_synthesis_trait_lottery_id": 8,
+    "id": 915,
+    "large_still_path_hash": "958508803461126505",
+    "name": "紫宝石の首飾り",
+    "quality_group_id": 34,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 3,
+    "small_still_path_hash": "6063444059881034445",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 150
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 8
+      }
+    ],
+    "still_path_hash": "9043748726327301923"
+  },
+  {
+    "ability_ids": [301003],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [1],
+    "description": "自身が斬属性の時、与えるHP回復量+{0}%",
+    "easy_synthesis_trait_lottery_id": 8,
+    "id": 916,
+    "large_still_path_hash": "958508803461126505",
+    "name": "紫宝石の首飾り",
+    "quality_group_id": 34,
+    "rarity": 2,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 3,
+    "small_still_path_hash": "6063444059881034445",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 135
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 4
+      }
+    ],
+    "still_path_hash": "9043748726327301923"
   }
 ]

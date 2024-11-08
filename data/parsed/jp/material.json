@@ -41408,8 +41408,24 @@
         "quantity": 8
       },
       {
+        "quest_id": 204119003,
+        "quest_name": "激闘！VSアンチュ＆ワルター【赤/緑】",
+        "difficulty": "NORMAL",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      },
+      {
         "quest_id": 204119004,
         "quest_name": "極夜の魔物たち・３【黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204119006,
+        "quest_name": "激闘！VSアンチュ＆ワルター【赤/緑】",
         "difficulty": "VERY_HARD",
         "episode_id": 204119,
         "episode_name": "スコアバトル19章",
@@ -41468,8 +41484,24 @@
         "quantity": 8
       },
       {
+        "quest_id": 204119003,
+        "quest_name": "激闘！VSアンチュ＆ワルター【赤/緑】",
+        "difficulty": "NORMAL",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      },
+      {
         "quest_id": 204119005,
         "quest_name": "極上の餌を作ろう！・２【青/紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204119006,
+        "quest_name": "激闘！VSアンチュ＆ワルター【赤/緑】",
         "difficulty": "VERY_HARD",
         "episode_id": 204119,
         "episode_name": "スコアバトル19章",
@@ -41528,8 +41560,24 @@
         "quantity": 8
       },
       {
+        "quest_id": 204119003,
+        "quest_name": "激闘！VSアンチュ＆ワルター【赤/緑】",
+        "difficulty": "NORMAL",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      },
+      {
         "quest_id": 204119005,
         "quest_name": "極上の餌を作ろう！・２【青/紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204119006,
+        "quest_name": "激闘！VSアンチュ＆ワルター【赤/緑】",
         "difficulty": "VERY_HARD",
         "episode_id": 204119,
         "episode_name": "スコアバトル19章",
@@ -41586,6 +41634,14 @@
         "episode_id": 204119,
         "episode_name": "スコアバトル19章",
         "quantity": 8
+      },
+      {
+        "quest_id": 204119006,
+        "quest_name": "激闘！VSアンチュ＆ワルター【赤/緑】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
       }
     ],
     "image_small": "Ingredient_0753_S",
@@ -41634,6 +41690,14 @@
       {
         "quest_id": 204119005,
         "quest_name": "極上の餌を作ろう！・２【青/紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204119006,
+        "quest_name": "激闘！VSアンチュ＆ワルター【赤/緑】",
         "difficulty": "VERY_HARD",
         "episode_id": 204119,
         "episode_name": "スコアバトル19章",
@@ -41690,11 +41754,373 @@
         "episode_id": 204119,
         "episode_name": "スコアバトル19章",
         "quantity": 8
+      },
+      {
+        "quest_id": 204119006,
+        "quest_name": "激闘！VSアンチュ＆ワルター【赤/緑】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
       }
     ],
     "image_small": "Ingredient_0755_S",
     "image_medium": "Ingredient_0755_M",
     "start_at": "2024-10-31T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 765,
+    "name": "ねむり花",
+    "rarity": 2,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 5,
+        "name": "突ダメージ上昇",
+        "category": "ATTACK",
+        "description": "突属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "突属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "name": "回復量上昇【背水】",
+        "category": "RECOVERY",
+        "description": "HPが50%以下の時、与える回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000107,
+            "description": "HPが50%以下の時、HP回復量{0}%アップ",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6804001,
+        "quest_name": "渇きの中で咲く花たち１",
+        "episode_id": 6804,
+        "episode_name": "渇きの中で咲く花たち"
+      },
+      {
+        "quest_id": 6804004,
+        "quest_name": "渇きの中で咲く花たち４",
+        "episode_id": 6804,
+        "episode_name": "渇きの中で咲く花たち"
+      },
+      {
+        "quest_id": 6804005,
+        "quest_name": "渇きの中で咲く花たち５",
+        "episode_id": 6804,
+        "episode_name": "渇きの中で咲く花たち"
+      }
+    ],
+    "image_small": "Ingredient_0765_S",
+    "image_medium": "Ingredient_0765_M",
+    "start_at": "2024-11-08T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 766,
+    "name": "カラナシマイマイ",
+    "rarity": 2,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 12,
+        "name": "ブレイク中ダメージ上昇",
+        "category": "ATTACK",
+        "description": "ブレイク中の敵へのダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "ブレイク中の敵へのダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "魔法耐性上昇",
+        "category": "ENHANCE",
+        "description": "魔法攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000027,
+            "description": "魔法属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6804002,
+        "quest_name": "渇きの中で咲く花たち２",
+        "episode_id": 6804,
+        "episode_name": "渇きの中で咲く花たち"
+      },
+      {
+        "quest_id": 6804004,
+        "quest_name": "渇きの中で咲く花たち４",
+        "episode_id": 6804,
+        "episode_name": "渇きの中で咲く花たち"
+      },
+      {
+        "quest_id": 6804005,
+        "quest_name": "渇きの中で咲く花たち５",
+        "episode_id": 6804,
+        "episode_name": "渇きの中で咲く花たち"
+      }
+    ],
+    "image_small": "Ingredient_0766_S",
+    "image_medium": "Ingredient_0766_M",
+    "start_at": "2024-11-08T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 767,
+    "name": "アルラウネの根",
+    "rarity": 2,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 14,
+        "name": "斬の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「斬属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000063,
+            "description": "対象に「斬属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "大きな回復量",
+        "category": "RECOVERY",
+        "description": "与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000075,
+            "description": "与えるHP回復量{0}%アップ",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6804003,
+        "quest_name": "渇きの中で咲く花たち３",
+        "episode_id": 6804,
+        "episode_name": "渇きの中で咲く花たち"
+      },
+      {
+        "quest_id": 6804004,
+        "quest_name": "渇きの中で咲く花たち４",
+        "episode_id": 6804,
+        "episode_name": "渇きの中で咲く花たち"
+      },
+      {
+        "quest_id": 6804005,
+        "quest_name": "渇きの中で咲く花たち５",
+        "episode_id": 6804,
+        "episode_name": "渇きの中で咲く花たち"
+      }
+    ],
+    "image_small": "Ingredient_0767_S",
+    "image_medium": "Ingredient_0767_M",
+    "start_at": "2024-11-08T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 768,
+    "name": "ヤミヨタケ",
+    "rarity": 3,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 51,
+        "name": "破壊力上昇",
+        "category": "ATTACK",
+        "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "剛力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000047,
+            "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6804004,
+        "quest_name": "渇きの中で咲く花たち４",
+        "episode_id": 6804,
+        "episode_name": "渇きの中で咲く花たち"
+      },
+      {
+        "quest_id": 6804005,
+        "quest_name": "渇きの中で咲く花たち５",
+        "episode_id": 6804,
+        "episode_name": "渇きの中で咲く花たち"
+      }
+    ],
+    "image_small": "Ingredient_0768_S",
+    "image_medium": "Ingredient_0768_M",
+    "start_at": "2024-11-08T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 769,
+    "name": "オドリダケ",
+    "rarity": 3,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "スキル威力上昇",
+        "category": "ATTACK",
+        "description": "スキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "スキル威力{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 60,
+        "name": "クリティカルダメージ上昇",
+        "category": "ATTACK",
+        "description": "クリティカルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 13000011,
+            "description": "クリティカルダメージアップ",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6804004,
+        "quest_name": "渇きの中で咲く花たち４",
+        "episode_id": 6804,
+        "episode_name": "渇きの中で咲く花たち"
+      },
+      {
+        "quest_id": 6804005,
+        "quest_name": "渇きの中で咲く花たち５",
+        "episode_id": 6804,
+        "episode_name": "渇きの中で咲く花たち"
+      }
+    ],
+    "image_small": "Ingredient_0769_S",
+    "image_medium": "Ingredient_0769_M",
+    "start_at": "2024-11-08T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 770,
+    "name": "エルトナイト",
+    "rarity": 3,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 45,
+        "name": "ダメージバフ強化【A】",
+        "category": "ENHANCE",
+        "description": "アタッカーへ与えるダメージ強化の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000017,
+            "description": "アタッカーへのダメージバフ{0}%アップ",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "全体回復量上昇",
+        "category": "RECOVERY",
+        "description": "味方全員回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体回復が与えるHP回復量{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6804004,
+        "quest_name": "渇きの中で咲く花たち４",
+        "episode_id": 6804,
+        "episode_name": "渇きの中で咲く花たち"
+      },
+      {
+        "quest_id": 6804005,
+        "quest_name": "渇きの中で咲く花たち５",
+        "episode_id": 6804,
+        "episode_name": "渇きの中で咲く花たち"
+      }
+    ],
+    "image_small": "Ingredient_0770_S",
+    "image_medium": "Ingredient_0770_M",
+    "start_at": "2024-11-08T03:00:00.000Z",
     "end_at": null
   }
 ]

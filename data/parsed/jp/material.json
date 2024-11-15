@@ -42122,5 +42122,191 @@
     "image_medium": "Ingredient_0770_M",
     "start_at": "2024-11-08T03:00:00.000Z",
     "end_at": null
+  },
+  {
+    "id": 778,
+    "name": "フレッシュミント",
+    "rarity": 2,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 48,
+        "name": "物理/魔法耐性ダウン強化",
+        "category": "WEAKENING",
+        "description": "対象が与える「物理被ダメージアップ」と「魔法被ダメージアップ」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000030,
+            "description": "対象が与える「物理被ダメージアップ」と「魔法被ダメージアップ」の効果量{0}%アップ",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "突ダメージ上昇",
+        "category": "ATTACK",
+        "description": "突属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "突属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6904001,
+        "quest_name": "混沌と規律の邂逅１",
+        "episode_id": 6904,
+        "episode_name": "混沌と規律の邂逅"
+      },
+      {
+        "quest_id": 6904002,
+        "quest_name": "混沌と規律の邂逅２",
+        "episode_id": 6904,
+        "episode_name": "混沌と規律の邂逅"
+      },
+      {
+        "quest_id": 6904003,
+        "quest_name": "混沌と規律の邂逅３",
+        "episode_id": 6904,
+        "episode_name": "混沌と規律の邂逅"
+      },
+      {
+        "quest_id": 6904004,
+        "quest_name": "混沌と規律の邂逅４",
+        "episode_id": 6904,
+        "episode_name": "混沌と規律の邂逅"
+      },
+      {
+        "quest_id": 6904005,
+        "quest_name": "混沌と規律の邂逅５",
+        "episode_id": 6904,
+        "episode_name": "混沌と規律の邂逅"
+      }
+    ],
+    "image_small": "Ingredient_0778_S",
+    "image_medium": "Ingredient_0778_M",
+    "start_at": "2024-11-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 779,
+    "name": "漆黒樹の原木",
+    "rarity": 3,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 70,
+        "name": "属性耐性ダウン強化【突】",
+        "category": "WEAKENING",
+        "description": "対象が与える「突属性耐性ダウン」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000232,
+            "description": "対象が与える「突属性耐性ダウン」の効果量{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "ブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000012,
+            "description": "ブレイクダメージ{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6904003,
+        "quest_name": "混沌と規律の邂逅３",
+        "episode_id": 6904,
+        "episode_name": "混沌と規律の邂逅"
+      },
+      {
+        "quest_id": 6904005,
+        "quest_name": "混沌と規律の邂逅５",
+        "episode_id": 6904,
+        "episode_name": "混沌と規律の邂逅"
+      }
+    ],
+    "image_small": "Ingredient_0779_S",
+    "image_medium": "Ingredient_0779_M",
+    "start_at": "2024-11-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 780,
+    "name": "ムカシヤシの実",
+    "rarity": 3,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 44,
+        "name": "大きな回復量",
+        "category": "RECOVERY",
+        "description": "与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000075,
+            "description": "与えるHP回復量{0}%アップ",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "突の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000065,
+            "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6904004,
+        "quest_name": "混沌と規律の邂逅４",
+        "episode_id": 6904,
+        "episode_name": "混沌と規律の邂逅"
+      },
+      {
+        "quest_id": 6904005,
+        "quest_name": "混沌と規律の邂逅５",
+        "episode_id": 6904,
+        "episode_name": "混沌と規律の邂逅"
+      }
+    ],
+    "image_small": "Ingredient_0780_S",
+    "image_medium": "Ingredient_0780_M",
+    "start_at": "2024-11-15T03:00:00.000Z",
+    "end_at": null
   }
 ]

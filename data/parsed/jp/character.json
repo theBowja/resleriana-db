@@ -22556,5 +22556,243 @@
       ]
     },
     "start_at": "2024-11-08T03:00:00.000Z"
+  },
+  {
+    "id": 44601,
+    "name": "マクダ",
+    "title": "【Pinkish Destroyer】",
+    "full_name": "マクダ・キュプカー",
+    "base_character": "マクダ",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "STAB",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "――いいぜ。どんな相手でも、\nこのマクダ様がぶっ飛ばしてやるよ！",
+    "profile": {
+      "voice_actor": "大久保瑠美",
+      "voice_text": "喧嘩屋やってるマクダだ。依頼があるなら\n引き受けるぜ。当然、高くつくけどな？",
+      "description": "「喧嘩屋マクダ」として名の通った凄腕。\nかつては月影の会に在籍しており、ヴァレリアたちとは顔見知り。腕っぷしには自信があり、自分の腕一つで稼いでいくことに生きがいを感じている。仕事に対しては自分なりの美学を持っており、気乗りのしない依頼は受けない。\n性格は荒っぽいが仲間思い。音楽鑑賞が趣味という一面も。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "緑",
+      "given": "紫"
+    },
+    "battle_item_trait": [
+      {
+        "id": 13,
+        "name": "剛力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000047,
+            "description": "対象に「受ける物理攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "突の盾",
+        "category": "ENHANCE",
+        "description": "対象に「突属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000072,
+            "description": "対象に「突属性耐性{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 67,
+        "name": "WEAK時ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "WEAK攻撃時、ブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000213,
+            "description": "WEAK攻撃時、ブレイクダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 136,
+        "spd": 246,
+        "patk": 65,
+        "matk": 51,
+        "pdef": 53,
+        "mdef": 45
+      },
+      "growth": {
+        "hp": 1360,
+        "spd": 0,
+        "patk": 650,
+        "matk": 510,
+        "pdef": 530,
+        "mdef": 450
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 5
+      }
+    },
+    "skill_1": {
+      "name": "スパイキークラッシュ",
+      "description": "攻撃後、味方全員に「物攻+{0}%」を2回行動終了するまで付与し、<br>自身の次のパネルがバーストパネルでない時、ブレイク強化パネルに変換(空パネルの時は生成)",
+      "summary": "攻撃後、味方全員の物攻アップ<br>次の自身のバーストパネルを除いたパネルをブレイク強化パネルに変換",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001416,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91001433,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [65, 69, 73, 77, 81],
+      "has_stun": true,
+      "stun_values": [16, 17, 18, 19, 20],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "ワイルドプリデーション",
+      "description": "WEAK攻撃時、ブレイクダメージ+{0}%<br>攻撃前、対象に「突属性耐性-{1}%」を2回攻撃を受けるまで付与<br>攻撃後、物攻が最も高い味方1人に「突属性ダメージ+{2}%」を2回行動終了するまで付与<br>対象がブレイク時、対象のターンを{3}ターン遅らせる",
+      "summary": "WEAK攻撃時、ブレイクダメージアップ<br>攻撃前、対象の突属性耐性ダウン<br>攻撃後、物攻が最も高い味方1人の突属性ダメージアップ<br>対象がブレイク時、対象のターンを遅らせる",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000907,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001430,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001442,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001431,
+          "description": "",
+          "value": 200
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [234, 248, 263, 277, 292],
+      "has_stun": true,
+      "stun_values": [260, 276, 292, 308, 325],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "ブルータルデストロイ",
+      "description": "WEAK攻撃時、ブレイクダメージ+{0}%<br>攻撃前、対象に「突属性耐性-{1}%」を3回攻撃を受けるまで付与<br>攻撃後、物攻が最も高い味方1人に「物攻+{2}%」を1回行動終了するまで付与<br>対象がブレイク時、味方全員に「スキルダメージ+{3}%」を1回行動終了するまで付与し、対象に「喧嘩屋の一撃」を1回行動終了するまで付与<br>※「喧嘩屋の一撃」はターン開始時に行動不能",
+      "summary": "WEAK攻撃時、ブレイクダメージアップ<br>攻撃前、対象の突属性耐性ダウン<br>攻撃後、物攻が最も高い味方1人の物攻アップ<br>対象がブレイク時、味方全員のスキルダメージアップ<br>対象がブレイク時、対象に「喧嘩屋の一撃」を付与",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91000907,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91000934,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001196,
+          "description": "",
+          "value": 3500
+        },
+        {
+          "id": 91001443,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001432,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [420, 420, 420, 446, 472, 498, 525],
+      "has_stun": true,
+      "stun_values": [500, 500, 500, 531, 562, 593, 625],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "来たぜ、好機！",
+      "description": "攻撃対象がブレイク時、自身に「スキルダメージ+{0}%」を2回行動終了するまで付与し、<br>味方全員に「スキル2の貫通力+{1}」を付与（上限100）",
+      "effects": [
+        {
+          "id": 72001141,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 72001133,
+          "description": "",
+          "value": 2000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "喧嘩屋マクダ様につづけぇ！",
+      "description": "バトル開始時、自身に「素早さ+{0}%」と「強制ブレイク」を1回行動終了するまで付与",
+      "effects": [
+        {
+          "id": 72001142,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 72001140,
+          "description": "",
+          "value": 0
+        }
+      ]
+    },
+    "start_at": "2024-11-15T03:00:00.000Z"
   }
 ]

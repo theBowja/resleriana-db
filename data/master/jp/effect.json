@@ -1016,6 +1016,14 @@
     "popup_text": ""
   },
   {
+    "description": "対象が与える「突属性耐性ダウン」の効果量{0}%アップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 3000232,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "次のターン終了時まで敵全体の風耐性を10%減少させる",
     "effect_motion_id": null,
     "field_effect_id": null,
@@ -7984,6 +7992,38 @@
     "popup_text": ""
   },
   {
+    "description": "得意属性が突属性の時、攻撃後、対象に「突属性耐性ダウン」を2回攻撃を受けるまで付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000905,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が突属性の時、攻撃対象がブレイク時、対象に「ダメージダウン」を付与(上限12%)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000906,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が突属性の時、攻撃対象がブレイク時、対象に「ダメージダウン」を付与(上限9%)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000907,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が突属性かつブレイカーの時、WEAK攻撃時、ブレイクダメージアップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000908,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "与回復量上昇",
     "effect_motion_id": null,
     "field_effect_id": null,
@@ -8960,10 +9000,34 @@
     "popup_text": ""
   },
   {
+    "description": "受けた攻撃のクリティカル発生率+{}%",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 13000231,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "スキル2貫通力+{0}",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 13000233,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "自身が突属性の時、スキルダメージ+{}%",
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 13000234,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身が突属性の時、受けるHP回復量上昇+{}%",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 13000235,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -9044,6 +9108,14 @@
     "effect_motion_id": 1101,
     "field_effect_id": null,
     "id": 26185006,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "非クリティカル攻撃被弾時、100%の確率でカウンター発動",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 26202022,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -12131,6 +12203,14 @@
     "description": "",
     "effect_motion_id": null,
     "field_effect_id": null,
+    "id": 72001133,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
     "id": 72001136,
     "is_positive_popup": null,
     "popup_text": ""
@@ -12148,6 +12228,30 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 72001138,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72001140,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72001141,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72001142,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -13276,6 +13380,134 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 76197013,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "対象にクリティカル率DOWN(2回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76200001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に与ダメージUP(2回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76200002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "仲間全体に再生(3回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76200003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "仲間全体に被ダメージDOWN(3回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76200004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体に挑発(2回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76200005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体に与ダメージDOWN(2回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76200006,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体にクリティカル率DOWN(2回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76200007,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に被ダメージDOWN(2回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76200008,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "対象にクリティカル率DOWN(3回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76200009,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に与ダメージUP(3回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76200010,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "仲間全体に再生(4回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76200011,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "仲間全体に被ダメージDOWN(4回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76200012,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体に挑発(3回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76200013,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体に与ダメージDOWN(3回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76200014,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体にクリティカル率DOWN(3回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76200015,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に被ダメージDOWN(3回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76200016,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -15464,6 +15696,46 @@
     "popup_text": ""
   },
   {
+    "description": "HP50％以下で被弾時、自身に与ダメージUP",
+    "effect_motion_id": 1133,
+    "field_effect_id": null,
+    "id": 86200017,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "HP50％以下で被弾時、受ける攻撃のクリティカル発生率UP",
+    "effect_motion_id": 1133,
+    "field_effect_id": null,
+    "id": 86200018,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "HP50％以下で被弾時、素早さUPを付与",
+    "effect_motion_id": 1133,
+    "field_effect_id": null,
+    "id": 86200019,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "ブレイク時、自身に防御力低下を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86200020,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "ブレイク復帰時、自身の防御力低下デバフを解除",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86200023,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "ブレイク時、自身のプラス効果を全て解除",
     "effect_motion_id": null,
     "field_effect_id": null,
@@ -15484,6 +15756,14 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 86201003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "ブレイク時、自身のバフを全て解除",
+    "effect_motion_id": 1134,
+    "field_effect_id": null,
+    "id": 86202021,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -18475,6 +18755,14 @@
     "description": "",
     "effect_motion_id": null,
     "field_effect_id": null,
+    "id": 91001416,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
     "id": 91001418,
     "is_positive_popup": null,
     "popup_text": ""
@@ -18516,6 +18804,30 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 91001430,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001431,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001432,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001433,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -18572,6 +18884,22 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 91001441,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001442,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001443,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -19892,6 +20220,14 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 95000150,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が突属性かつWEAK攻撃時、対象に「受けるダメージアップ」を2回攻撃を受けるまで付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 95000151,
     "is_positive_popup": null,
     "popup_text": ""
   },

@@ -225,6 +225,7 @@
 080_sidetabicon_recommend
 080_sidetabicon_specialpass
 08_00000_omake_gem
+08_00001_characterpack_gem
 08_00126_pack_item
 08_00127_pack_item
 08_00128_pack_item
@@ -319,6 +320,7 @@
 08_BLD_VILLAIN_C_PC_pack_piece
 08_P_A01_MARIE_03_pack_piece
 08_P_A11_RORONA_03_pack_piece
+08_P_BLD_NPC11_pack_piece
 08_P_BLD_NPC4_pack_piece
 08_P_BLD_NPC5_pack_piece
 08_P_BLD_NPC8_pack_piece
@@ -333,6 +335,7 @@
 08_icon_3.5_BLD_VILLAIN_C_PC
 08_icon_3.5_P_A01_MARIE_03
 08_icon_3.5_P_A11_RORONA_03
+08_icon_3.5_P_BLD_NPC11
 08_icon_3.5_P_BLD_NPC4
 08_icon_3.5_P_BLD_NPC5
 08_icon_3.5_P_BLD_NPC8
@@ -347,6 +350,7 @@
 08_icon_4.0_BLD_VILLAIN_C_PC
 08_icon_4.0_P_A01_MARIE_03
 08_icon_4.0_P_A11_RORONA_03
+08_icon_4.0_P_BLD_NPC11
 08_icon_4.0_P_BLD_NPC4
 08_icon_4.0_P_BLD_NPC5
 08_icon_4.0_P_BLD_NPC8
@@ -599,6 +603,10 @@
 090_trial_battle_image_44501_03
 090_trial_battle_image_44501_04
 090_trial_battle_image_44501_05
+090_trial_battle_image_44601_01
+090_trial_battle_image_44601_02
+090_trial_battle_image_44601_03
+090_trial_battle_image_44601_04
 200_00_tutorial_help_image_05_01
 200_00_tutorial_help_image_05_02
 200_00_tutorial_help_image_05_03
@@ -1295,6 +1303,15 @@
 20241108_03_00068_loginbonus_title
 20241108_04_00056_mission_banner
 20241108_recipe_event_01
+20241114_01_00084_gacha_tickt_M
+20241114_01_00084_gacha_tickt_S
+20241114_01_00084_gacha_tickt_SS
+20241114_02_00069_event_banner_portal
+20241114_02_00069_event_banner_top
+20241114_02_00069_event_logo
+20241114_03_00069_loginbonus_banner
+20241114_03_00069_loginbonus_title
+20241114_recipe_event_01
 999_00_base_item_00
 999_00_base_item_02
 999_00_base_item_05
@@ -1368,6 +1385,7 @@ ICON_ANOMALY_FROZEN
 ICON_ANOMALY_HATE_DOWN
 ICON_ANOMALY_HATE_UP
 ICON_ANOMALY_KILL
+ICON_ANOMALY_NPC11
 ICON_ANOMALY_PARALYZE
 ICON_ANOMALY_POISON
 ICON_ANOMALY_SLEEP
@@ -2564,6 +2582,12 @@ Ingredient_0572_M
 Ingredient_0572_S
 Ingredient_0573_M
 Ingredient_0573_S
+Ingredient_0574_M
+Ingredient_0574_S
+Ingredient_0575_M
+Ingredient_0575_S
+Ingredient_0576_M
+Ingredient_0576_S
 P_BLD_MCHARA_A_05_P_HAT
 STL_BG_20231023_1_1
 STL_BG_20231023_1_2
@@ -3213,6 +3237,10 @@ STL_MEM_02_00095
 STL_MEM_02_00095_M
 STL_MEM_02_00095_long
 STL_MEM_02_00095_square
+STL_MEM_02_00096
+STL_MEM_02_00096_M
+STL_MEM_02_00096_long
+STL_MEM_02_00096_square
 STL_MEM_02_00102
 STL_MEM_02_00102_M
 STL_MEM_02_00102_long
@@ -4099,7 +4127,10 @@ STL_P_BLD_MCHARA_B_long
 STL_P_BLD_MCHARA_B_long_L
 STL_P_BLD_MCHARA_B_mini
 STL_P_BLD_NPC10_FACE_S
+STL_P_BLD_NPC11_FACE_M
 STL_P_BLD_NPC11_FACE_S
+STL_P_BLD_NPC11_long
+STL_P_BLD_NPC11_long_L
 STL_P_BLD_NPC1_01_FACE_M
 STL_P_BLD_NPC1_01_FACE_S
 STL_P_BLD_NPC1_01_long
@@ -5194,6 +5225,7 @@ STL_SCORE_20241010_1_1
 STL_SCORE_20241030_1_1
 STL_SCORE_20241030_1_2
 STL_SCORE_20241108_1_1
+STL_SCORE_20241114_1_1
 STL_SCORE_C10_SCORE_1
 STL_SCORE_C10_SCORE_2
 STL_SCORE_C11_SCORE_1
@@ -5438,6 +5470,7 @@ Skill_P_BLD_MCHARA_B_02_burst
 Skill_P_BLD_MCHARA_B_03_burst
 Skill_P_BLD_MCHARA_B_burst
 Skill_P_BLD_MCHARA_b_05_burst
+Skill_P_BLD_NPC11_burst
 Skill_P_BLD_NPC1_01_burst
 Skill_P_BLD_NPC1_02_burst
 Skill_P_BLD_NPC1_burst
@@ -6092,6 +6125,9 @@ emblem_0066_3
 emblem_0067_1
 emblem_0067_2
 emblem_0067_3
+emblem_0068_1
+emblem_0068_2
+emblem_0068_3
 emblem_0133
 emblem_0134
 emblem_0135
@@ -7535,6 +7571,15 @@ equipment_tool_0476_S
 equipment_tool_0477
 equipment_tool_0477_M
 equipment_tool_0477_S
+equipment_tool_0480
+equipment_tool_0480_M
+equipment_tool_0480_S
+equipment_tool_0481
+equipment_tool_0481_M
+equipment_tool_0481_S
+equipment_tool_0482
+equipment_tool_0482_M
+equipment_tool_0482_S
 frame_001
 item_asset_001_M
 item_asset_001_S
@@ -7564,6 +7609,9 @@ item_asset_008_SS
 item_asset_013_M
 item_asset_013_S
 item_asset_013_SS
+item_asset_014_M
+item_asset_014_S
+item_asset_014_SS
 item_exchange_001_M
 item_exchange_001_S
 item_exchange_001_SS

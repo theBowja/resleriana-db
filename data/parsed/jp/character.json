@@ -22794,5 +22794,206 @@
       ]
     },
     "start_at": "2024-11-15T03:00:00.000Z"
+  },
+  {
+    "id": 44701,
+    "name": "ブラッド",
+    "title": "【Passionate Blood】",
+    "full_name": "ブラッドリー・カーン",
+    "base_character": "ブラッド",
+    "is_alchemist": true,
+    "gender": "男性",
+    "attribute": "STAB",
+    "role": "SUPPORTER",
+    "initial_rarity": 3,
+    "acquisition_text": "君の働き、この目で見定めさせてもらおう。\nそれが、私の役目だからな",
+    "profile": {
+      "voice_actor": "田丸篤志",
+      "voice_text": "ブラッドリー・カーンだ。このたび、\n錬金爵の位を授かった。よろしく頼む",
+      "description": "若くして「錬金爵」に任命された青年。\n錬金術復興を成し遂げられるかどうか監査する立場として、王国からレスナたちの元へ出向してきた。ロマンとは学生時代からの友人だが、ブラッドは彼を一方的にライバル視している。\n常に冷静に振る舞っているが、心の内には熱い想いを抱いている。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "黄",
+      "given": "赤"
+    },
+    "battle_item_trait": [
+      {
+        "id": 16,
+        "name": "突の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000065,
+            "description": "対象に「突属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "使い切り回復強化",
+        "category": "RECOVERY",
+        "description": "使用回数が1回の時、HP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000109,
+            "description": "使用回数が1回の時、HP回復量{0}%アップ",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 5,
+        "name": "突ダメージ上昇",
+        "category": "ATTACK",
+        "description": "突属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "突属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 127,
+        "spd": 240,
+        "patk": 58,
+        "matk": 50,
+        "pdef": 51,
+        "mdef": 64
+      },
+      "growth": {
+        "hp": 1270,
+        "spd": 0,
+        "patk": 580,
+        "matk": 500,
+        "pdef": 510,
+        "mdef": 640
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 5
+      }
+    },
+    "skill_1": {
+      "name": "エクラテ",
+      "description": "攻撃後、このスキル使用前に物攻が最も高い味方1人に「物攻+{0}%」を付与(上限30%)",
+      "summary": "攻撃後、物攻が最も高い味方1人の物攻アップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001437,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [69, 73, 77, 81, 86],
+      "has_stun": true,
+      "stun_values": [7, 7, 7, 7, 8],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "ジュジェオンブル",
+      "description": "敵全体に「ダメージ-{0}%」を1回行動終了するまで付与し、<br>対象に「受ける突属性ダメージ+{1}%」を2回攻撃を受けるまで付与(上限4個)",
+      "summary": "敵全体のダメージダウン<br>対象が受ける突属性ダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000914,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91001426,
+          "description": "",
+          "value": 7000
+        }
+      ],
+      "attribute_type": "NONE",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "ル・メトル・パンセ",
+      "description": "攻撃後、対象に「受ける物理攻撃ダメージ+{0}%」を2回攻撃を受けるまで付与し、<br>味方全員に「強化系パネルから受ける効果量+{1}%」を付与(重複不可)",
+      "summary": "攻撃後、対象の受ける物理攻撃ダメージアップ<br>味方全員の強化系パネルから受ける効果量アップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001148,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001427,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [420, 420, 420, 446, 472, 498, 525],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "錬金爵の計略",
+      "description": "味方全員の与えるマイナス効果量+{0}%",
+      "effects": [
+        {
+          "id": 72001057,
+          "description": "[味方全員/与えるマイナス効果量アップ]",
+          "value": 1500
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "ブラッド式突撃戦術",
+      "description": "得意属性が突属性の味方全員のスキルダメージ・ブレイクダメージ+{0}%",
+      "effects": [
+        {
+          "id": 72001129,
+          "description": "",
+          "value": 4000
+        },
+        {
+          "id": 72001130,
+          "description": "",
+          "value": 4000
+        }
+      ]
+    },
+    "start_at": "2024-11-22T03:00:00.000Z"
   }
 ]

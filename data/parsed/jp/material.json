@@ -42308,5 +42308,179 @@
     "image_medium": "Ingredient_0780_M",
     "start_at": "2024-11-15T03:00:00.000Z",
     "end_at": null
+  },
+  {
+    "id": 788,
+    "name": "ラーメル麦",
+    "rarity": 2,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 4,
+        "name": "突の祝福",
+        "category": "ATTACK",
+        "description": "突属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "突属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "魔防の祝福",
+        "category": "ENHANCE",
+        "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 7002001,
+        "quest_name": "調査地：ベルク州高地[危険度：Ⅰ]",
+        "episode_id": 7002,
+        "episode_name": "調査地：ベルク州高地"
+      },
+      {
+        "quest_id": 7002003,
+        "quest_name": "調査地：ベルク州高地[危険度：Ⅲ]",
+        "episode_id": 7002,
+        "episode_name": "調査地：ベルク州高地"
+      },
+      {
+        "quest_id": 7002004,
+        "quest_name": "調査地：ベルク州高地[危険度：Ⅳ]",
+        "episode_id": 7002,
+        "episode_name": "調査地：ベルク州高地"
+      }
+    ],
+    "image_small": "Ingredient_0788_S",
+    "image_medium": "Ingredient_0788_M",
+    "start_at": "2024-11-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 789,
+    "name": "蒸留石",
+    "rarity": 2,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 27,
+        "name": "単体攻撃威力上昇",
+        "category": "ATTACK",
+        "description": "単体攻撃のスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000111,
+            "description": "単体攻撃のスキル威力{0}％アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "ダメージバフ強化【B】",
+        "category": "ENHANCE",
+        "description": "ブレイカーへ与えるダメージ強化の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000018,
+            "description": "ブレイカーへのダメージバフ{0}%アップ",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 7002002,
+        "quest_name": "調査地：ベルク州高地[危険度：Ⅱ]",
+        "episode_id": 7002,
+        "episode_name": "調査地：ベルク州高地"
+      },
+      {
+        "quest_id": 7002003,
+        "quest_name": "調査地：ベルク州高地[危険度：Ⅲ]",
+        "episode_id": 7002,
+        "episode_name": "調査地：ベルク州高地"
+      },
+      {
+        "quest_id": 7002004,
+        "quest_name": "調査地：ベルク州高地[危険度：Ⅳ]",
+        "episode_id": 7002,
+        "episode_name": "調査地：ベルク州高地"
+      }
+    ],
+    "image_small": "Ingredient_0789_S",
+    "image_medium": "Ingredient_0789_M",
+    "start_at": "2024-11-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 790,
+    "name": "リュウグウオウムガイ",
+    "rarity": 3,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 26,
+        "name": "魔法耐性上昇",
+        "category": "ENHANCE",
+        "description": "魔法攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000027,
+            "description": "魔法属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "name": "被回復量上昇",
+        "category": "RECOVERY",
+        "description": "受けるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 13000002,
+            "description": "被回復量上昇",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "DUNGEONS",
+    "source_locations": [
+      {
+        "quest_id": 7002004,
+        "quest_name": "調査地：ベルク州高地[危険度：Ⅳ]",
+        "episode_id": 7002,
+        "episode_name": "調査地：ベルク州高地"
+      }
+    ],
+    "image_small": "Ingredient_0790_S",
+    "image_medium": "Ingredient_0790_M",
+    "start_at": "2024-11-22T03:00:00.000Z",
+    "end_at": null
   }
 ]

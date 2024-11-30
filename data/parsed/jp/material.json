@@ -42482,5 +42482,552 @@
     "image_medium": "Ingredient_0790_M",
     "start_at": "2024-11-22T03:00:00.000Z",
     "end_at": null
+  },
+  {
+    "id": 794,
+    "name": "大きな原石",
+    "rarity": 2,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 47,
+        "name": "回復量上昇【D】",
+        "category": "RECOVERY",
+        "description": "ディフェンダーへ与える回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000076,
+            "description": "ディフェンダーへの回復量{0}%アップ",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "雷耐性上昇",
+        "category": "ENHANCE",
+        "description": "雷属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000024,
+            "description": "雷属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204120001,
+        "quest_name": "ヴィアベル州への道のり・３【緑】",
+        "difficulty": "NORMAL",
+        "episode_id": 204120,
+        "episode_name": "スコアバトル20章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204120004,
+        "quest_name": "復帰戦【青/黄】",
+        "difficulty": "NORMAL",
+        "episode_id": 204120,
+        "episode_name": "スコアバトル20章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204120005,
+        "quest_name": "ヴィアベル州への道のり・３【緑】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204120,
+        "episode_name": "スコアバトル20章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204120008,
+        "quest_name": "復帰戦【青/黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204120,
+        "episode_name": "スコアバトル20章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0794_S",
+    "image_medium": "Ingredient_0794_M",
+    "start_at": "2024-11-29T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 795,
+    "name": "オオカブト",
+    "rarity": 2,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 9,
+        "name": "雷の祝福",
+        "category": "ATTACK",
+        "description": "雷属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "雷属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "追い打ち強化",
+        "category": "ATTACK",
+        "description": "ブレイク中の敵へのダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "ブレイク中の敵へのダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204120002,
+        "quest_name": "群島のヌシ【赤】",
+        "difficulty": "NORMAL",
+        "episode_id": 204120,
+        "episode_name": "スコアバトル20章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204120004,
+        "quest_name": "復帰戦【青/黄】",
+        "difficulty": "NORMAL",
+        "episode_id": 204120,
+        "episode_name": "スコアバトル20章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204120006,
+        "quest_name": "群島のヌシ【赤】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204120,
+        "episode_name": "スコアバトル20章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204120008,
+        "quest_name": "復帰戦【青/黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204120,
+        "episode_name": "スコアバトル20章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0795_S",
+    "image_medium": "Ingredient_0795_M",
+    "start_at": "2024-11-29T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 796,
+    "name": "ニトロ水",
+    "rarity": 2,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 49,
+        "name": "物理/魔法耐性アップ強化",
+        "category": "ENHANCE",
+        "description": "対象が与える「物理被ダメージダウン」と「魔法被ダメージダウン」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000028,
+            "description": "対象が与える「物理被ダメージダウン」と「魔法被ダメージダウン」の効果量{0}%アップ",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "name": "単体回復量上昇",
+        "category": "RECOVERY",
+        "description": "味方単体回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000032,
+            "description": "単体回復時の回復量{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204120003,
+        "quest_name": "家族ゲンカ【紫】",
+        "difficulty": "NORMAL",
+        "episode_id": 204120,
+        "episode_name": "スコアバトル20章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204120004,
+        "quest_name": "復帰戦【青/黄】",
+        "difficulty": "NORMAL",
+        "episode_id": 204120,
+        "episode_name": "スコアバトル20章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204120007,
+        "quest_name": "家族ゲンカ【紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204120,
+        "episode_name": "スコアバトル20章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204120008,
+        "quest_name": "復帰戦【青/黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204120,
+        "episode_name": "スコアバトル20章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0796_S",
+    "image_medium": "Ingredient_0796_M",
+    "start_at": "2024-11-29T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 797,
+    "name": "臭い石",
+    "rarity": 3,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 29,
+        "name": "全体攻撃耐性上昇",
+        "category": "ENHANCE",
+        "description": "全体攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000112,
+            "description": "全体攻撃で受けるダメージ{0}％ダウン",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "雷ダメージ上昇",
+        "category": "ATTACK",
+        "description": "雷属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "雷属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204120007,
+        "quest_name": "家族ゲンカ【紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204120,
+        "episode_name": "スコアバトル20章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204120008,
+        "quest_name": "復帰戦【青/黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204120,
+        "episode_name": "スコアバトル20章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0797_S",
+    "image_medium": "Ingredient_0797_M",
+    "start_at": "2024-11-29T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 798,
+    "name": "古代樹の欠片",
+    "rarity": 3,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 10,
+        "name": "守護の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "大きな回復量",
+        "category": "RECOVERY",
+        "description": "与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000075,
+            "description": "与えるHP回復量{0}%アップ",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204120006,
+        "quest_name": "群島のヌシ【赤】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204120,
+        "episode_name": "スコアバトル20章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204120008,
+        "quest_name": "復帰戦【青/黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204120,
+        "episode_name": "スコアバトル20章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0798_S",
+    "image_medium": "Ingredient_0798_M",
+    "start_at": "2024-11-29T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 799,
+    "name": "イラストリアスウッド",
+    "rarity": 3,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 65,
+        "name": "属性耐性ダウン強化【雷】",
+        "category": "WEAKENING",
+        "description": "対象が与える「雷属性耐性ダウン」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000211,
+            "description": "対象が与える「雷属性耐性ダウン」の効果量{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "全体回復量上昇",
+        "category": "RECOVERY",
+        "description": "味方全員回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体回復が与えるHP回復量{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204120005,
+        "quest_name": "ヴィアベル州への道のり・３【緑】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204120,
+        "episode_name": "スコアバトル20章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204120008,
+        "quest_name": "復帰戦【青/黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204120,
+        "episode_name": "スコアバトル20章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0799_S",
+    "image_medium": "Ingredient_0799_M",
+    "start_at": "2024-11-29T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 807,
+    "name": "ケモノ肉",
+    "rarity": 2,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 50,
+        "name": "会心の出来",
+        "category": "ENHANCE",
+        "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "守護の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0807_S",
+    "image_medium": "Ingredient_0807_M",
+    "start_at": "2024-11-29T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 808,
+    "name": "新鮮な肉",
+    "rarity": 3,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 48,
+        "name": "物理/魔法耐性ダウン強化",
+        "category": "WEAKENING",
+        "description": "対象が与える「物理被ダメージアップ」と「魔法被ダメージアップ」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000030,
+            "description": "対象が与える「物理被ダメージアップ」と「魔法被ダメージアップ」の効果量{0}%アップ",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      },
+      {
+        "id": 65,
+        "name": "属性耐性ダウン強化【雷】",
+        "category": "WEAKENING",
+        "description": "対象が与える「雷属性耐性ダウン」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000211,
+            "description": "対象が与える「雷属性耐性ダウン」の効果量{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0808_S",
+    "image_medium": "Ingredient_0808_M",
+    "start_at": "2024-11-29T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 809,
+    "name": "霜降りの肉",
+    "rarity": 3,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 60,
+        "name": "クリティカルダメージ上昇",
+        "category": "ATTACK",
+        "description": "クリティカルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 13000011,
+            "description": "クリティカルダメージアップ",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "ダメージバフ強化【A】",
+        "category": "ENHANCE",
+        "description": "アタッカーへ与えるダメージ強化の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000017,
+            "description": "アタッカーへのダメージバフ{0}%アップ",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [],
+    "image_small": "Ingredient_0809_S",
+    "image_medium": "Ingredient_0809_M",
+    "start_at": "2024-11-29T03:00:00.000Z",
+    "end_at": null
   }
 ]

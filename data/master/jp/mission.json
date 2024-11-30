@@ -6518,6 +6518,11 @@
         "count": 190,
         "reward_set_id": 30017,
         "start_at": null
+      },
+      {
+        "count": 200,
+        "reward_set_id": 30017,
+        "start_at": "2024-11-29T03:00:00.000Z"
       }
     ],
     "total_task_condition_id": 46,
@@ -8944,6 +8949,16 @@
         "count": 330,
         "reward_set_id": 30017,
         "start_at": null
+      },
+      {
+        "count": 335,
+        "reward_set_id": 30017,
+        "start_at": "2024-11-29T03:00:00.000Z"
+      },
+      {
+        "count": 340,
+        "reward_set_id": 30017,
+        "start_at": "2024-11-29T03:00:00.000Z"
       }
     ],
     "total_task_condition_id": 134,
@@ -12100,6 +12115,33 @@
       }
     ],
     "total_task_condition_id": 1226,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 300166,
+    "label": null,
+    "name": "メインストーリー20-52をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 7163,
+    "reset_cycle": null,
+    "start_at": "2024-11-29T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1330,
     "transition": null
   },
   {
@@ -16042,6 +16084,517 @@
     ],
     "total_task_condition_id": 1317,
     "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 63,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 630001,
+    "label": null,
+    "name": "調合を30回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 30,
+        "reward_set_id": 630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 63,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 630002,
+    "label": null,
+    "name": "調合を60回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 60,
+        "reward_set_id": 630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 63,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 630003,
+    "label": null,
+    "name": "調合を90回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 90,
+        "reward_set_id": 630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 63,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 630004,
+    "label": null,
+    "name": "調合を120回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 120,
+        "reward_set_id": 630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 63,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 630005,
+    "label": null,
+    "name": "調合を150回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 150,
+        "reward_set_id": 630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 63,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 630006,
+    "label": null,
+    "name": "調合を180回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 180,
+        "reward_set_id": 630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 63,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 630007,
+    "label": null,
+    "name": "調合を210回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 210,
+        "reward_set_id": 630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 63,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 630008,
+    "label": null,
+    "name": "調合を240回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 240,
+        "reward_set_id": 630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 63,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 630009,
+    "label": null,
+    "name": "調合を270回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 270,
+        "reward_set_id": 630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 63,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 630010,
+    "label": null,
+    "name": "調合を300回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300,
+        "reward_set_id": 630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 64,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 640001,
+    "label": null,
+    "name": "武器を{}回調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 640002,
+        "start_at": null
+      },
+      {
+        "count": 20,
+        "reward_set_id": 640007,
+        "start_at": null
+      },
+      {
+        "count": 30,
+        "reward_set_id": 640001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": 1,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 64,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 640002,
+    "label": null,
+    "name": "防具を{}回調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 640003,
+        "start_at": null
+      },
+      {
+        "count": 20,
+        "reward_set_id": 640008,
+        "start_at": null
+      },
+      {
+        "count": 30,
+        "reward_set_id": 640001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": 2,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 64,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 640003,
+    "label": null,
+    "name": "装飾品を{}回調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 640004,
+        "start_at": null
+      },
+      {
+        "count": 20,
+        "reward_set_id": 640009,
+        "start_at": null
+      },
+      {
+        "count": 30,
+        "reward_set_id": 640001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": 3,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 64,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 640004,
+    "label": null,
+    "name": "戦闘アイテム（弱体）を{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 640005,
+        "start_at": null
+      },
+      {
+        "count": 20,
+        "reward_set_id": 640010,
+        "start_at": null
+      },
+      {
+        "count": 30,
+        "reward_set_id": 640001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 123,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 64,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 640005,
+    "label": null,
+    "name": "調合を{}回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 50,
+        "reward_set_id": 640006,
+        "start_at": null
+      },
+      {
+        "count": 100,
+        "reward_set_id": 640011,
+        "start_at": null
+      },
+      {
+        "count": 150,
+        "reward_set_id": 640001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
   },
   {
     "category": 3,

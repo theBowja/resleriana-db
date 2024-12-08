@@ -42897,6 +42897,230 @@
     "end_at": null
   },
   {
+    "id": 801,
+    "name": "水結晶",
+    "rarity": 2,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 44,
+        "name": "物理/魔法耐性アップ強化【D】",
+        "category": "ENHANCE",
+        "description": "対象がディフェンダーへ与える「物理被ダメージダウン」と「魔法被ダメージダウン」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000029,
+            "description": "対象がディフェンダーへ与える「物理被ダメージダウン」と「魔法被ダメージダウン」の効果量{0}%アップ",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      },
+      {
+        "id": 57,
+        "name": "精霊ダメージ上昇",
+        "category": "ATTACK",
+        "description": "精霊種族に与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000082,
+            "description": "精霊種族に与えるダメージ{0}%アップ",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204121001,
+        "quest_name": "荒ぶる魔物たち・３【青】",
+        "difficulty": "NORMAL",
+        "episode_id": 204121,
+        "episode_name": "スコアバトル21章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204121003,
+        "quest_name": "荒ぶる魔物たち・３【青】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204121,
+        "episode_name": "スコアバトル21章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0801_S",
+    "image_medium": "Ingredient_0801_M",
+    "start_at": "2024-12-06T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 802,
+    "name": "フローズンジンビオーズ",
+    "rarity": 2,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 8,
+        "name": "風ダメージ上昇",
+        "category": "ATTACK",
+        "description": "風属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "風属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "風耐性上昇",
+        "category": "ENHANCE",
+        "description": "風属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000025,
+            "description": "風属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204121002,
+        "quest_name": "雪山の最奥【紫】",
+        "difficulty": "NORMAL",
+        "episode_id": 204121,
+        "episode_name": "スコアバトル21章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204121004,
+        "quest_name": "雪山の最奥【紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204121,
+        "episode_name": "スコアバトル21章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0802_S",
+    "image_medium": "Ingredient_0802_M",
+    "start_at": "2024-12-06T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 803,
+    "name": "氷塊トカゲ",
+    "rarity": 3,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 45,
+        "name": "ダメージバフ強化【A】",
+        "category": "ENHANCE",
+        "description": "アタッカーへ与えるダメージ強化の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000017,
+            "description": "アタッカーへのダメージバフ{0}%アップ",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      },
+      {
+        "id": 60,
+        "name": "クリティカルダメージ上昇",
+        "category": "ATTACK",
+        "description": "クリティカルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 13000011,
+            "description": "クリティカルダメージアップ",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204121003,
+        "quest_name": "荒ぶる魔物たち・３【青】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204121,
+        "episode_name": "スコアバトル21章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0803_S",
+    "image_medium": "Ingredient_0803_M",
+    "start_at": "2024-12-06T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 804,
+    "name": "ウィスプストーン",
+    "rarity": 3,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 20,
+        "name": "風の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「風属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000062,
+            "description": "対象に「風属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "会心の出来",
+        "category": "ENHANCE",
+        "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204121004,
+        "quest_name": "雪山の最奥【紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204121,
+        "episode_name": "スコアバトル21章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0804_S",
+    "image_medium": "Ingredient_0804_M",
+    "start_at": "2024-12-06T03:00:00.000Z",
+    "end_at": null
+  },
+  {
     "id": 807,
     "name": "ケモノ肉",
     "rarity": 2,

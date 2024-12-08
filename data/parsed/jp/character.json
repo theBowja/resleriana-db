@@ -17857,6 +17857,214 @@
     "start_at": "2024-09-11T03:00:00.000Z"
   },
   {
+    "id": 43207,
+    "name": "ヴァレリア",
+    "title": "【Dark Warrior】",
+    "full_name": "ヴァレリア",
+    "base_character": "ヴァレリア",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "AIR",
+    "role": "SUPPORTER",
+    "initial_rarity": 3,
+    "acquisition_text": "もう、迷ったりなんかしない。\n信じてくれる仲間のため、私は戦う！",
+    "profile": {
+      "voice_actor": "沼倉愛美",
+      "voice_text": "どんな服を着てたって、私は私。\nみんなを守るために、戦うだけよ",
+      "description": "黒を纏った美しき戦士。\n自分が何者なのかを知るために、そしてレスナの夢を手助けするために、彼女は剣を振るう。\n黒を基調としたこの衣装は、おそらくクリセルダの趣味によるものだろうと本人は推測している。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "青",
+      "given": "黄"
+    },
+    "battle_item_trait": [
+      {
+        "id": 20,
+        "name": "風の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「風属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000062,
+            "description": "対象に「風属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "会心の出来",
+        "category": "ENHANCE",
+        "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 63,
+        "name": "スキル2威力上昇",
+        "category": "ATTACK",
+        "description": "スキル2のスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000168,
+            "description": "スキル2威力{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 130,
+        "spd": 261,
+        "patk": 52,
+        "matk": 56,
+        "pdef": 57,
+        "mdef": 59
+      },
+      "growth": {
+        "hp": 1300,
+        "spd": 0,
+        "patk": 520,
+        "matk": 560,
+        "pdef": 570,
+        "mdef": 590
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 5,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "ドゥンケルシュタヘル",
+      "description": "攻撃後、味方全員のHPを{0}％回復<br>味方全員に「魔攻+{1}%」を付与(上限30%)",
+      "summary": "攻撃後、味方全員のHPを回復<br>味方全員の魔攻アップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000925,
+          "description": "",
+          "value": 500
+        },
+        {
+          "id": 91001458,
+          "description": "",
+          "value": 1500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [46, 48, 51, 54, 57],
+      "has_stun": true,
+      "stun_values": [5, 5, 5, 5, 6],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "シャッテンタンツェン",
+      "description": "攻撃後、得意属性が風属性の味方全員に、「クリティカル確率＋{0}％」と「クリティカルダメージ＋{1}％」を1回行動終了するまで付与",
+      "summary": "攻撃後、得意属性が風属性の味方全員のクリティカル確率アップ<br>得意属性が風属性の味方全員のクリティカルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001459,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001460,
+          "description": "",
+          "value": 4000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [193, 205, 217, 229, 241],
+      "has_stun": true,
+      "stun_values": [24, 25, 27, 28, 30],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "シュヴァルツヴィント",
+      "description": "攻撃後、味方全員に「風属性スキルダメージ+{0}％」(上限100％)を付与し、<br>このスキル使用前に魔攻が最も高い味方に「クリティカル確率+{1}%」と以下の追加効果を2回行動終了するまで付与<br>追加効果:「自身のクリティカル確率が100%を超えている場合、攻撃時、100%を超えたクリティカル確率の上昇量をクリティカルダメージアップに変換(変換上限200%)」",
+      "summary": "攻撃後、味方全員の風属性スキルダメージアップ<br>魔攻が最も高い味方1人に追加効果を付与",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001461,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001462,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001463,
+          "description": "",
+          "value": 20000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [420, 420, 420, 446, 472, 498, 525],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "風に乗ってガンガンいくわよ！",
+      "description": "得意属性が風属性の味方全員のスキルダメージ+{0}%",
+      "effects": [
+        {
+          "id": 72001153,
+          "description": "",
+          "value": 4000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "思いっきり戦うために",
+      "description": "スキル発動後、得意属性が風属性の味方全員に「ターン開始時、HP回復+{0}%」を2回行動開始するまで付与",
+      "effects": [
+        {
+          "id": 72001154,
+          "description": "",
+          "value": 300
+        }
+      ]
+    },
+    "start_at": "2024-12-06T03:00:00.000Z"
+  },
+  {
     "id": 43301,
     "name": "ロマン",
     "title": "【Romance Hearts】",

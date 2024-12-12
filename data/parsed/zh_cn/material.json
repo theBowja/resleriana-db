@@ -5604,6 +5604,66 @@
         "episode_name": "1周年纪念赠礼战斗 第1弹"
       },
       {
+        "quest_id": 5804001,
+        "quest_name": "挑战战斗 杰隆1",
+        "episode_id": 5804,
+        "episode_name": "挑战战斗 杰隆"
+      },
+      {
+        "quest_id": 5804002,
+        "quest_name": "挑战战斗 杰隆2",
+        "episode_id": 5804,
+        "episode_name": "挑战战斗 杰隆"
+      },
+      {
+        "quest_id": 5804003,
+        "quest_name": "挑战战斗 杰隆3",
+        "episode_id": 5804,
+        "episode_name": "挑战战斗 杰隆"
+      },
+      {
+        "quest_id": 6004001,
+        "quest_name": "1周年纪念赠礼战斗 第2弹1",
+        "episode_id": 6004,
+        "episode_name": "1周年纪念赠礼战斗 第2弹"
+      },
+      {
+        "quest_id": 6004002,
+        "quest_name": "1周年纪念赠礼战斗 第2弹2",
+        "episode_id": 6004,
+        "episode_name": "1周年纪念赠礼战斗 第2弹"
+      },
+      {
+        "quest_id": 6004003,
+        "quest_name": "1周年纪念赠礼战斗 第2弹3",
+        "episode_id": 6004,
+        "episode_name": "1周年纪念赠礼战斗 第2弹"
+      },
+      {
+        "quest_id": 6004004,
+        "quest_name": "1周年纪念赠礼战斗 第2弹4",
+        "episode_id": 6004,
+        "episode_name": "1周年纪念赠礼战斗 第2弹"
+      },
+      {
+        "quest_id": 6004005,
+        "quest_name": "1周年纪念赠礼战斗 第2弹5",
+        "episode_id": 6004,
+        "episode_name": "1周年纪念赠礼战斗 第2弹"
+      },
+      {
+        "quest_id": 6004006,
+        "quest_name": "1周年纪念赠礼战斗 第2弹6",
+        "episode_id": 6004,
+        "episode_name": "1周年纪念赠礼战斗 第2弹"
+      },
+      {
+        "quest_id": 6004007,
+        "quest_name": "1周年纪念赠礼战斗 第2弹7",
+        "episode_id": 6004,
+        "episode_name": "1周年纪念赠礼战斗 第2弹"
+      },
+      {
         "quest_id": 204101002,
         "quest_name": "湿地前的森林",
         "difficulty": "NORMAL",
@@ -39364,7 +39424,7 @@
     ],
     "image_small": "Ingredient_0681_S",
     "image_medium": "Ingredient_0681_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-12-12T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -39440,7 +39500,7 @@
     ],
     "image_small": "Ingredient_0682_S",
     "image_medium": "Ingredient_0682_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-12-12T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -39516,7 +39576,7 @@
     ],
     "image_small": "Ingredient_0683_S",
     "image_medium": "Ingredient_0683_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-12-12T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -39576,7 +39636,7 @@
     ],
     "image_small": "Ingredient_0684_S",
     "image_medium": "Ingredient_0684_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-12-12T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -39636,7 +39696,7 @@
     ],
     "image_small": "Ingredient_0685_S",
     "image_medium": "Ingredient_0685_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-12-12T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -39696,7 +39756,420 @@
     ],
     "image_small": "Ingredient_0686_S",
     "image_medium": "Ingredient_0686_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-12-12T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 700,
+    "name": "银白草",
+    "rarity": 2,
+    "color": "黄",
+    "description": "执行调合所需的素材。",
+    "battle_item_trait": [
+      {
+        "id": 31,
+        "name": "野兽特攻",
+        "category": "ATTACK",
+        "description": "对野兽种族造成的伤害提升{0}%。",
+        "effects": [
+          {
+            "id": 3000080,
+            "description": "对野兽种族造成的伤害提升{0}%。",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "物防之祝福",
+        "category": "ENHANCE",
+        "description": "赋予“物防提升{0}%”，受到1次攻击后失效。",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "赋予“物防提升{0}%”，受到1次攻击后失效。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117001,
+        "quest_name": "一齐进攻·1【绿】",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117004,
+        "quest_name": "为骚乱画上句号【蓝/黄】",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117005,
+        "quest_name": "一齐进攻·1【绿】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "为骚乱画上句号【蓝/黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0700_S",
+    "image_medium": "Ingredient_0700_M",
+    "start_at": "2024-12-24T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 701,
+    "name": "六花鱼",
+    "rarity": 2,
+    "color": "绿",
+    "description": "执行调合所需的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 25,
+        "name": "物理耐性提升",
+        "category": "ENHANCE",
+        "description": "来自物理攻击的伤害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "物理属性伤害耐性提升{0}%。",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "name": "野兽伤害提升",
+        "category": "ATTACK",
+        "description": "对野兽种族造成的伤害提升{0}%。",
+        "effects": [
+          {
+            "id": 3000080,
+            "description": "对野兽种族造成的伤害提升{0}%。",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117002,
+        "quest_name": "一齐进攻·2【红】",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117004,
+        "quest_name": "为骚乱画上句号【蓝/黄】",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117006,
+        "quest_name": "一齐进攻·2【红】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "为骚乱画上句号【蓝/黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0701_S",
+    "image_medium": "Ingredient_0701_M",
+    "start_at": "2024-12-24T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 702,
+    "name": "黑之魔石",
+    "rarity": 2,
+    "color": "蓝",
+    "description": "执行调合所需的素材。",
+    "battle_item_trait": [
+      {
+        "id": 6,
+        "name": "火之祝福",
+        "category": "ATTACK",
+        "description": "火属性的伤害提升{0}%。",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "火属性的伤害提升{0}%。",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "单体恢复奖励",
+        "category": "RECOVERY",
+        "description": "单体恢复给予的HP恢复量提升{0}%。",
+        "effects": [
+          {
+            "id": 3000073,
+            "description": "单体恢复给予的HP恢复量提升{0}%。",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117003,
+        "quest_name": "不会再让你们前进【紫】",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117004,
+        "quest_name": "为骚乱画上句号【蓝/黄】",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117007,
+        "quest_name": "不会再让你们前进【紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "为骚乱画上句号【蓝/黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0702_S",
+    "image_medium": "Ingredient_0702_M",
+    "start_at": "2024-12-24T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 703,
+    "name": "发光水母",
+    "rarity": 3,
+    "color": "紫",
+    "description": "执行调合所需的素材。",
+    "battle_item_trait": [
+      {
+        "id": 10,
+        "name": "守护之祝福",
+        "category": "ENHANCE",
+        "description": "赋予“物防提升{0}%”和“魔防提升{1}%”，受到1次攻击后失效",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "赋予“物防提升{0}%”，受到1次攻击后失效。",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "赋予“魔防提升{0}%”，受到1次攻击后失效。",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "火之诅咒",
+        "category": "WEAKENING",
+        "description": "赋予目标“火属性耐性下降{0}%”，受到1次攻击后失效。",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "赋予目标“火属性耐性下降{0}%”，受到1次攻击后失效。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117005,
+        "quest_name": "一齐进攻·1【绿】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "为骚乱画上句号【蓝/黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0703_S",
+    "image_medium": "Ingredient_0703_M",
+    "start_at": "2024-12-24T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 704,
+    "name": "闪光水",
+    "rarity": 3,
+    "color": "红",
+    "description": "执行调合所需的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 29,
+        "name": "全体攻击耐性提升",
+        "category": "ENHANCE",
+        "description": "来自全体攻击的伤害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000112,
+            "description": "所受全体攻击伤害下降{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "全体恢复量提升",
+        "category": "RECOVERY",
+        "description": "我方全体恢复给予的HP恢复量提升{0}%。",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体恢复给予的HP恢复量提升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117006,
+        "quest_name": "一齐进攻·2【红】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "为骚乱画上句号【蓝/黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0704_S",
+    "image_medium": "Ingredient_0704_M",
+    "start_at": "2024-12-24T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 705,
+    "name": "被遗忘的宝石",
+    "rarity": 3,
+    "color": "紫",
+    "description": "执行调合所需的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 69,
+        "name": "属性耐性下降强化【火】",
+        "category": "WEAKENING",
+        "description": "目标给予的“火属性耐性下降”的效果量提升{0}%。",
+        "effects": [
+          {
+            "id": 3000225,
+            "description": "目标给予的“火属性耐性下降”的效果量提升{0}%。",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "伤害增益强化【B】",
+        "category": "ENHANCE",
+        "description": "给予破坏者的伤害强化效果量提升{0}%。",
+        "effects": [
+          {
+            "id": 3000018,
+            "description": "对破坏者的伤害增益提升{0}%。",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117007,
+        "quest_name": "不会再让你们前进【紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "为骚乱画上句号【蓝/黄】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0705_S",
+    "image_medium": "Ingredient_0705_M",
+    "start_at": "2024-12-24T03:00:00.000Z",
     "end_at": null
   }
 ]

@@ -5604,6 +5604,66 @@
         "episode_name": "1st Anniversary Present Battle Part 1"
       },
       {
+        "quest_id": 5804001,
+        "quest_name": "Challenge Battle: Geron - 1",
+        "episode_id": 5804,
+        "episode_name": "Challenge Battle: Geron"
+      },
+      {
+        "quest_id": 5804002,
+        "quest_name": "Challenge Battle: Geron - 2",
+        "episode_id": 5804,
+        "episode_name": "Challenge Battle: Geron"
+      },
+      {
+        "quest_id": 5804003,
+        "quest_name": "Challenge Battle: Geron - 3",
+        "episode_id": 5804,
+        "episode_name": "Challenge Battle: Geron"
+      },
+      {
+        "quest_id": 6004001,
+        "quest_name": "1st Anniversary Present Battle Part 2 - 1",
+        "episode_id": 6004,
+        "episode_name": "1st Anniversary Present Battle Part 2"
+      },
+      {
+        "quest_id": 6004002,
+        "quest_name": "1st Anniversary Present Battle Part 2 - 2",
+        "episode_id": 6004,
+        "episode_name": "1st Anniversary Present Battle Part 2"
+      },
+      {
+        "quest_id": 6004003,
+        "quest_name": "1st Anniversary Present Battle Part 2 - 3",
+        "episode_id": 6004,
+        "episode_name": "1st Anniversary Present Battle Part 2"
+      },
+      {
+        "quest_id": 6004004,
+        "quest_name": "1st Anniversary Present Battle Part 2 - 4",
+        "episode_id": 6004,
+        "episode_name": "1st Anniversary Present Battle Part 2"
+      },
+      {
+        "quest_id": 6004005,
+        "quest_name": "1st Anniversary Present Battle Part 2 - 5",
+        "episode_id": 6004,
+        "episode_name": "1st Anniversary Present Battle Part 2"
+      },
+      {
+        "quest_id": 6004006,
+        "quest_name": "1st Anniversary Present Battle Part 2 - 6",
+        "episode_id": 6004,
+        "episode_name": "1st Anniversary Present Battle Part 2"
+      },
+      {
+        "quest_id": 6004007,
+        "quest_name": "1st Anniversary Present Battle Part 2 - 7",
+        "episode_id": 6004,
+        "episode_name": "1st Anniversary Present Battle Part 2"
+      },
+      {
         "quest_id": 204101002,
         "quest_name": "The Forest by the Wetlands",
         "difficulty": "NORMAL",
@@ -39364,7 +39424,7 @@
     ],
     "image_small": "Ingredient_0681_S",
     "image_medium": "Ingredient_0681_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-12-12T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -39440,7 +39500,7 @@
     ],
     "image_small": "Ingredient_0682_S",
     "image_medium": "Ingredient_0682_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-12-12T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -39516,7 +39576,7 @@
     ],
     "image_small": "Ingredient_0683_S",
     "image_medium": "Ingredient_0683_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-12-12T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -39576,7 +39636,7 @@
     ],
     "image_small": "Ingredient_0684_S",
     "image_medium": "Ingredient_0684_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-12-12T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -39636,7 +39696,7 @@
     ],
     "image_small": "Ingredient_0685_S",
     "image_medium": "Ingredient_0685_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-12-12T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -39696,7 +39756,420 @@
     ],
     "image_small": "Ingredient_0686_S",
     "image_medium": "Ingredient_0686_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-12-12T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 700,
+    "name": "Reinweiss",
+    "rarity": 2,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 31,
+        "name": "Beast Slayer",
+        "category": "ATTACK",
+        "description": "Boosts damage to Beast enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000080,
+            "description": "Boosts damage to Beast enemies by {0}%.",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "P. DEF Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts P. DEF by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "Boosts P. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117001,
+        "quest_name": "Concerted Assault - 1 [Green]",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117004,
+        "quest_name": "Ending the Chaos [Blue/Yellow]",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117005,
+        "quest_name": "Concerted Assault - 1 [Green]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "Ending the Chaos [Blue/Yellow]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0700_S",
+    "image_medium": "Ingredient_0700_M",
+    "start_at": "2024-12-24T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 701,
+    "name": "Snowflake Fish",
+    "rarity": 2,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 25,
+        "name": "Physical Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from physical attacks by {0}%.",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "Boosts physical damage resistance by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "name": "Beast Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts damage to Beast enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000080,
+            "description": "Boosts damage to Beast enemies by {0}%.",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117002,
+        "quest_name": "Concerted Assault - 2 [Red]",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117004,
+        "quest_name": "Ending the Chaos [Blue/Yellow]",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117006,
+        "quest_name": "Concerted Assault - 2 [Red]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "Ending the Chaos [Blue/Yellow]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0701_S",
+    "image_medium": "Ingredient_0701_M",
+    "start_at": "2024-12-24T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 702,
+    "name": "Black Runestone",
+    "rarity": 2,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 6,
+        "name": "Fire Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Fire damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "Boosts Fire damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "Single Recovery Bonus",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to a single ally by {0}%.",
+        "effects": [
+          {
+            "id": 3000073,
+            "description": "Boosts HP recovery given to a single ally by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117003,
+        "quest_name": "To Halt Their Advance [Purple]",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117004,
+        "quest_name": "Ending the Chaos [Blue/Yellow]",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117007,
+        "quest_name": "To Halt Their Advance [Purple]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "Ending the Chaos [Blue/Yellow]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0702_S",
+    "image_medium": "Ingredient_0702_M",
+    "start_at": "2024-12-24T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 703,
+    "name": "Luminous Jellyfish",
+    "rarity": 3,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 10,
+        "name": "Guardian's Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts P. DEF by {0}% and M. DEF by {1}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "Boosts P. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "Boosts M. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Fire Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117005,
+        "quest_name": "Concerted Assault - 1 [Green]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "Ending the Chaos [Blue/Yellow]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0703_S",
+    "image_medium": "Ingredient_0703_M",
+    "start_at": "2024-12-24T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 704,
+    "name": "Flashwater",
+    "rarity": 3,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 29,
+        "name": "All-Target Attack Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from attacks that hit all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000112,
+            "description": "Reduces received damage by {0}% from attacks that hit all enemies.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "All Recovery Boost",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "Boosts HP recovery given to all allies by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117006,
+        "quest_name": "Concerted Assault - 2 [Red]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "Ending the Chaos [Blue/Yellow]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0704_S",
+    "image_medium": "Ingredient_0704_M",
+    "start_at": "2024-12-24T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 705,
+    "name": "Forgotten Gem",
+    "rarity": 3,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 69,
+        "name": "Enhanced Resistance Down [Fire]",
+        "category": "WEAKENING",
+        "description": "Boosts potency of Fire Resistance Down applied by {0}%.",
+        "effects": [
+          {
+            "id": 3000225,
+            "description": "Boosts potency of Fire Resistance Down applied by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "Enhanced Damage Buff [B]",
+        "category": "ENHANCE",
+        "description": "Boosts potency of damage buffs given to Breakers by {0}%.",
+        "effects": [
+          {
+            "id": 3000018,
+            "description": "Boosts effects of damage buffs to Breakers by {0}%.",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117007,
+        "quest_name": "To Halt Their Advance [Purple]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "Ending the Chaos [Blue/Yellow]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0705_S",
+    "image_medium": "Ingredient_0705_M",
+    "start_at": "2024-12-24T03:00:00.000Z",
     "end_at": null
   }
 ]

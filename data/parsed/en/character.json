@@ -15576,7 +15576,7 @@
         }
       ]
     },
-    "start_at": "2049-12-31T16:00:00.000Z"
+    "start_at": "2024-12-12T03:00:00.000Z"
   },
   {
     "id": 43107,
@@ -15784,7 +15784,7 @@
         }
       ]
     },
-    "start_at": "2049-12-31T16:00:00.000Z"
+    "start_at": "2024-12-12T03:00:00.000Z"
   },
   {
     "id": 43201,
@@ -16612,6 +16612,427 @@
       ]
     },
     "start_at": "2024-11-01T03:00:00.000Z"
+  },
+  {
+    "id": 43205,
+    "name": "Valeria",
+    "title": "Awakened Past",
+    "full_name": "Valeria",
+    "base_character": "Valeria",
+    "is_alchemist": true,
+    "gender": "Female",
+    "attribute": "FIRE",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "Power is surging from deep inside me... Anyone in my way is getting sent flying!",
+    "profile": {
+      "voice_actor": "Manami Numakura",
+      "voice_text": "Wearing this outfit, I can feel a mysterious power welling up inside me. I need to make sure I can control it properly.",
+      "description": "A beautiful warrior who has gained new strength. Though she has no memories before meeting Heidi and the others, her fighting skills have advanced to near-master level. Her outfit, adorned with gold and mana-inspired designs, enhances her beauty while also awakening her hidden powers.",
+      "origin_game": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
+    },
+    "gift_color": {
+      "received": "Purple",
+      "given": "Yellow"
+    },
+    "battle_item_trait": [
+      {
+        "id": 5,
+        "name": "Magic Blessing",
+        "category": "ATTACK",
+        "description": "Boosts magic attack damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "Boosts magic attack damage by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Fire Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000066,
+            "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "Skill Power Up",
+        "category": "ATTACK",
+        "description": "Boosts skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "Boosts skill power by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 150,
+        "spd": 254,
+        "patk": 51,
+        "matk": 64,
+        "pdef": 42,
+        "mdef": 50
+      },
+      "growth": {
+        "hp": 1500,
+        "spd": 0,
+        "patk": 510,
+        "matk": 640,
+        "pdef": 420,
+        "mdef": 500
+      },
+      "resistance": {
+        "fire": 5,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "Hitzedonst",
+      "description": "After attacking, boosts own stun damage by {0}% for 2 turns and boosts own skill damage by {1}% for 2 turns.",
+      "summary": "After attacking, boosts own stun damage and boosts own skill damage.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001387,
+          "description": "",
+          "value": 4000
+        },
+        {
+          "id": 91001378,
+          "description": "",
+          "value": 4000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [34, 36, 38, 40, 42],
+      "has_stun": true,
+      "stun_values": [15, 15, 16, 17, 18],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "Flamme Meteor",
+      "description": "Before attacking, reduces target's Fire resistance by {0}% for 2 attacks. Boosts stun damage by {1}% when attacking a weakness. After attacking, grants Negative Effects Immunity to self for 1 turn.",
+      "summary": "Before attack, reduces target's Fire resistance. Boosts stun damage when attacking a weakness. After attacking, grants Negative Effects Immunity.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001298,
+          "description": "",
+          "value": 3500
+        },
+        {
+          "id": 91000907,
+          "description": "",
+          "value": 4000
+        },
+        {
+          "id": 91001022,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [143, 151, 160, 169, 178],
+      "has_stun": true,
+      "stun_values": [115, 122, 129, 136, 143],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "Glanzarnst",
+      "description": "Boosts this attack's penetration by {0}. When attacking a weakness, force stuns the target.<br>After attacking, boosts all enemies' damage received by {2}% for 1 attack.",
+      "summary": "Boosts this attack's penetration. When attacking a weakness, force stuns the target.<br>After attack, boosts all enemies' damage received.",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001337,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001187,
+          "description": "",
+          "value": 0
+        },
+        {
+          "id": 91001060,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [360, 360, 360, 382, 405, 427, 450],
+      "has_stun": true,
+      "stun_values": [300, 300, 300, 318, 337, 356, 375],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "Awakening Fighting Spirit",
+      "description": "Nullifies damage received from counterattacks.",
+      "effects": [
+        {
+          "id": 72001124,
+          "description": "",
+          "value": 0
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "Are You Ready?",
+      "description": "After using a skill, boosts own M. ATK by {0}%. (MAX 50%)<br>Boosts skill damage by {0}% when attacking a weakness.",
+      "effects": [
+        {
+          "id": 72001119,
+          "description": "[自身/魔攻上昇(上限50%)]",
+          "value": 500
+        },
+        {
+          "id": 72001120,
+          "description": "",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2024-12-24T03:00:00.000Z"
+  },
+  {
+    "id": 43206,
+    "name": "Valeria",
+    "title": "Awakened Past",
+    "full_name": "Valeria",
+    "base_character": "Valeria",
+    "is_alchemist": true,
+    "gender": "Female",
+    "attribute": "FIRE",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "Power is surging from deep inside me... Anyone in my way is getting sent flying!",
+    "profile": {
+      "voice_actor": "Manami Numakura",
+      "voice_text": "Wearing this outfit, I can feel a mysterious power welling up inside me. I need to make sure I can control it properly.",
+      "description": "A beautiful warrior who has gained new strength. Though she has no memories before meeting Heidi and the others, her fighting skills have advanced to near-master level. Her outfit, adorned with gold and mana-inspired designs, enhances her beauty while also awakening her hidden powers.",
+      "origin_game": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
+    },
+    "gift_color": {
+      "received": "Purple",
+      "given": "Yellow"
+    },
+    "battle_item_trait": [
+      {
+        "id": 5,
+        "name": "Magic Blessing",
+        "category": "ATTACK",
+        "description": "Boosts magic attack damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "Boosts magic attack damage by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Fire Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000066,
+            "description": "Boosts target's Fire resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "Skill Power Up",
+        "category": "ATTACK",
+        "description": "Boosts skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "Boosts skill power by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 150,
+        "spd": 254,
+        "patk": 51,
+        "matk": 64,
+        "pdef": 42,
+        "mdef": 50
+      },
+      "growth": {
+        "hp": 1500,
+        "spd": 0,
+        "patk": 510,
+        "matk": 640,
+        "pdef": 420,
+        "mdef": 500
+      },
+      "resistance": {
+        "fire": 5,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "Katzenbeisen",
+      "description": "After attacking, boosts own stun damage by {0}% for 1 turn.",
+      "summary": "After attacking, boosts own stun damage.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000908,
+          "description": "",
+          "value": 4000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [34, 36, 38, 40, 42],
+      "has_stun": true,
+      "stun_values": [15, 15, 16, 17, 18],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "Messer Vento",
+      "description": "Before attacking, reduces target's Fire resistance by {0}% for 2 attacks. When attacking a weakness, boosts stun damage by {1}%.<br>Messer Vento has charge indicators, and once 2 indicators are charged, the skill effect changes.<br>There are a maximum of 2 charges.<br><br>When there are less than 2 charges, after attacking, charges 1 of the indicators.<br><br>When there are 2 charges, transforms before attacking.",
+      "summary": "Before attack, reduces target's Fire resistance. When attacking a weakness, boosts stun damage.<br>When there are less than 2 charges, after attack, charges 1 of the indicators.<br>When there are 2 charges, transforms before attack.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001298,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91000907,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001379,
+          "description": "",
+          "value": 0
+        },
+        {
+          "id": 91001329,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [143, 151, 160, 169, 178],
+      "has_stun": true,
+      "stun_values": [115, 122, 129, 136, 143],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "Ende Finsternis",
+      "description": "When attacking a weakness, force stuns the target.",
+      "summary": "When attacking a weakness, force stuns the target.",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001187,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [360, 360, 360, 382, 405, 427, 450],
+      "has_stun": true,
+      "stun_values": [300, 300, 300, 318, 337, 356, 375],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "Awakening Fighting Spirit",
+      "description": "Charges 1 of Messer Vento's charge indicators after using any skill.",
+      "effects": [
+        {
+          "id": 72001094,
+          "description": "[スキルランプ点灯]",
+          "value": 100
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "Are You Ready?",
+      "description": "After using a skill, boosts own M. ATK by {0}%. (MAX 50%)",
+      "effects": [
+        {
+          "id": 72001119,
+          "description": "[自身/魔攻上昇(上限50%)]",
+          "value": 500
+        }
+      ]
+    },
+    "start_at": "2024-12-24T03:00:00.000Z"
   },
   {
     "id": 43301,
@@ -19283,6 +19704,244 @@
     "start_at": "2024-11-26T03:00:00.000Z"
   },
   {
+    "id": 44101,
+    "name": "Geron",
+    "title": "Beastly Fencer",
+    "full_name": "Geron Diezel",
+    "base_character": "Geron",
+    "is_alchemist": true,
+    "gender": "Male",
+    "attribute": "SLASH",
+    "role": "DEFENDER",
+    "initial_rarity": 3,
+    "acquisition_text": "I owe you all a great debt. Feel free to make use of my skills.",
+    "profile": {
+      "voice_actor": "Yuichi Nakamura",
+      "voice_text": "I am Geron Diezel, an alchemist. I wield this sword for the sake of our future.",
+      "description": "An alchemist whose body has been partially transformed into that of a beast. He has no qualms about using his strength to force others into submission, so long as it helps fulfill his desires. Though he doesn't talk much, he changes when it comes to his younger brother, his only family. As an older brother, he's surprisingly caring and responsible, but when it comes to dealing with women, he's rather hopeless.",
+      "origin_game": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
+    },
+    "gift_color": {
+      "received": "Red",
+      "given": "Blue"
+    },
+    "battle_item_trait": [
+      {
+        "id": 50,
+        "name": "Critical Finish",
+        "category": "ENHANCE",
+        "description": "Boosts critical rate by {0}% for 1 turn.",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "Boosts critical rate by {0}% for 1 turn.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "P. DEF Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts P. DEF by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "Boosts P. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 34,
+        "name": "All Resistances Up [Resolve]",
+        "category": "ENHANCE",
+        "description": "Reduces damage taken by {0}% when HP is 50% or lower.",
+        "effects": [
+          {
+            "id": 3000103,
+            "description": "Boosts damage resistance by {0}% when HP is 50% or lower.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 199,
+        "spd": 262,
+        "patk": 57,
+        "matk": 47,
+        "pdef": 62,
+        "mdef": 60
+      },
+      "growth": {
+        "hp": 1990,
+        "spd": 0,
+        "patk": 570,
+        "matk": 470,
+        "pdef": 620,
+        "mdef": 600
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 5,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "Biting Slash",
+      "description": "After attacking, consumes {0}% of own HP and reduces own damage received by {1}% for 1 attack.",
+      "summary": "After attack, consumes own HP and reduces own damage received.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001380,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91001038,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [50, 53, 56, 59, 62],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "Biting Strike",
+      "description": "Boosts damage by 5–30%, depending on own HP. (Higher boost for lower HP, range: 20–100% HP)<br>After attacking, inflicts Blindness on target for 1 turn, and if own HP is 50% or higher, reduces all allies' damage received by {0}% for 2 attacks.<br>If own HP is lower than 50%, reduces all allies' damage received by {1}% for 3 attacks.",
+      "summary": "Boosts damage the lower own HP is.<br>After attack, inflicts Blindness on target.<br>If own HP is 50% or higher, reduces all allies' damage received.<br>If own HP is lower than 50%, reduces all allies' damage received even more.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001382,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001383,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91000943,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91000927,
+          "description": "",
+          "value": 500
+        },
+        {
+          "id": 91001388,
+          "description": "",
+          "value": 2500
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [242, 257, 272, 287, 302],
+      "has_stun": true,
+      "stun_values": [30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "Ataraxia Fang",
+      "description": "Before attacking, removes own negative effects.<br>Boosts damage by 20–100%, depending on own HP. (Higher boost for lower HP, range: 20–100% HP)<br>After attacking, restores own HP by {3}%.",
+      "summary": "Before attack, removes own negative effects.<br>Boosts damage the lower own HP is.<br>After attack, restores own HP.",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001007,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91000943,
+          "description": "",
+          "value": 8000
+        },
+        {
+          "id": 91000927,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91000926,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "SLASH",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [400, 400, 400, 425, 450, 475, 500],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "Hate & P. DEF & M. DEF Up",
+      "description": "Becomes targeted by enemies much more easily.<br>Boosts own P. DEF & M. DEF by {0}%.",
+      "effects": [
+        {
+          "id": 72001113,
+          "description": "[自身/常時/物防上昇]",
+          "value": 3000
+        },
+        {
+          "id": 72001114,
+          "description": "[自身/常時/魔防上昇]",
+          "value": 3000
+        },
+        {
+          "id": 72000914,
+          "description": "Raises odds of being targeted by 100%.",
+          "value": 10000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "Status Effect Resist Up (All)",
+      "description": "Boosts all allies' status effect resistance by {0}%.",
+      "effects": [
+        {
+          "id": 72001115,
+          "description": "[味方全員/状態異常耐性上昇付与]",
+          "value": 5000
+        }
+      ]
+    },
+    "start_at": "2024-12-24T03:00:00.000Z"
+  },
+  {
     "id": 44201,
     "name": "Lara",
     "title": "Queen's Grace",
@@ -19503,7 +20162,7 @@
         }
       ]
     },
-    "start_at": "2049-12-31T16:00:00.000Z"
+    "start_at": "2024-12-12T03:00:00.000Z"
   },
   {
     "id": 44301,

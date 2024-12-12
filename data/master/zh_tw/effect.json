@@ -1008,6 +1008,14 @@
     "popup_text": ""
   },
   {
+    "description": "目標賦予的「火屬性耐性下降」的效果量上升{0}%。",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 3000225,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "直至下一回合結束時，使敵方全體的風耐性減少10%。",
     "effect_motion_id": null,
     "field_effect_id": null,
@@ -7552,6 +7560,62 @@
     "popup_text": ""
   },
   {
+    "description": "得意属性が火属性かつブレイカーの時、WEAK攻撃時、ブレイクダメージアップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000852,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が火属性の時、与えるマイナス効果量アップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000853,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が斬属性かつディフェンダーの時、スキルダメージアップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000854,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がディフェンダーの時、HPが50%以下の時、受けるダメージダウン",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000855,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "味方全員の物理攻撃ダメージアップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000856,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が火属性の時、WEAK攻撃後、自身に「ブレイクダメージアップ」を付与(上限25%)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000857,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が火属性の時、WEAK攻撃後、自身に「ブレイクダメージアップ」を付与(上限20%)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000858,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "提供回復量上升。",
     "effect_motion_id": null,
     "field_effect_id": null,
@@ -8468,6 +8532,14 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 13000222,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身的HP在50%以下時，所受傷害-{0}%。",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 13000223,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -9928,6 +10000,318 @@
     "popup_text": ""
   },
   {
+    "description": "敵単体に『火傷(付与率70%/回数無制限)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71179001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体に『被ダメージUP(付与率100%/3回)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71179002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体の頭上の空白パネルを火傷パネルに変換する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71179003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵単体に『素早さDOWN(付与率100%/3回)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71179004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵単体に『被ダメージUP(付与率100%/3回)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71179005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身のHPを消費",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71179006,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に『与ダメージUP(付与率100%/3回)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71179007,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に『素早さUP(付与率100%/3回)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71179008,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身のブレイクゲージを回復",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71179009,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に『被ダメージDOWN(付与率100%/3回)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71179010,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵単体に『カチコチ付与率70%/回数無制限)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71180011,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体の頭上のBSパネル以外のパネルを弱体化パネルに変換する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71180012,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に『被ダメージDOWN(付与率100%/3回)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71180013,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体に『与ダメージDOWN(付与率100%/3回)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71180014,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵単体の手番を遅らせる",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71180015,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に『与ダメージUP(付与率100%/3回)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71180016,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵かつスキル対象に『受けるプラス効果量DOWN(付与率100%/3回)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71180017,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身のブレイクゲージ回復",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71180018,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体の頭上の空白パネルを弱体化パネルに変換する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71181019,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵単体に『麻痺(付与率50%/2回)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71181020,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に『与ダメージUP(付与率100%/3回)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71181021,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体に『与ダメージDOWN(付与率100%/3回)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71181022,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵単体の頭上のBSパネル以外のパネルを弱体化パネルに変換する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71181024,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に『被ダメージDOWN(付与率100%/3回)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71181025,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体に『素早さDOWN(付与率100%/3回)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71181026,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体の頭上のBSパネル以外のパネルを弱体化パネルに変換する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71181027,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身のブレイクゲージ回復",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71181028,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵単体の手番を遅らせる",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71182029,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自分の次手番に強化パネルを作成(BSパネル以外)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71182030,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に『被ブレイクダメージDOWN(付与率100%/3回)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71182031,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体に『素早さDOWN(付与率100%/3回)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71182032,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体に『被ダメージUP(付与率100%/3回)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71182033,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に『与ダメージUP(付与率100%/3回)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71182034,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に『被ダメージDOWN(付与率100%/3回)』を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71182035,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身のブレイクゲージ回復",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71182036,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に再生を付与(3回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71183001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体に挑発付与(3回)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71183002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に被ダメージDOWN(5回)付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71183003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "BSパネル以外のパネルを弱体化パネルに変換",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 71183004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "[自身/時常/傷害增益]",
     "effect_motion_id": null,
     "field_effect_id": null,
@@ -10920,6 +11304,30 @@
     "popup_text": ""
   },
   {
+    "description": "[自身/常時/物防上昇]",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72001113,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "[自身/常時/魔防上昇]",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72001114,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "[味方全員/状態異常耐性上昇付与]",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72001115,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "[自身/1回/火属性ダメージアップ/やや高確率]",
     "effect_motion_id": null,
     "field_effect_id": null,
@@ -10940,6 +11348,38 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 72001118,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "[自身/魔攻上昇(上限50%)]",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72001119,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72001120,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72001124,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "state_change用(1周年決戦ヴァレリア(覚醒後))",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72001125,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -11888,6 +12328,14 @@
     "popup_text": ""
   },
   {
+    "description": "ブレイク後、自身に与ダメージUP(30％/3回)付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 81048007,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "火傷状態の時、Weak被弾時のダメージUP",
     "effect_motion_id": null,
     "field_effect_id": null,
@@ -12638,6 +13086,142 @@
     "id": 81178003,
     "is_positive_popup": false,
     "popup_text": "解除加強效果"
+  },
+  {
+    "description": "自身に『与ダメージUP(付与率100%/1回)』を付与",
+    "effect_motion_id": 1116,
+    "field_effect_id": null,
+    "id": 81179037,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に『素早さUP(付与率100%/3回)』を付与",
+    "effect_motion_id": 1117,
+    "field_effect_id": null,
+    "id": 81179038,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身の行動順を再抽選する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 81179039,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がブレイクした時、行動を再抽選する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 81179045,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "回復後、与ダメージアップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 81179046,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "アイテムゲージ回復量を減少",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 81180002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に『与ダメージUP(付与率100%/1回)』を付与",
+    "effect_motion_id": 1118,
+    "field_effect_id": null,
+    "id": 81180040,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に『被ダメージDOWN(付与率100%/3回)』を付与",
+    "effect_motion_id": 1119,
+    "field_effect_id": null,
+    "id": 81180041,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体の頭上の弱体化パネルを空パネルに変換する",
+    "effect_motion_id": 1120,
+    "field_effect_id": null,
+    "id": 81181042,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身の頭上のパネルをバーストパネルに変換する",
+    "effect_motion_id": 1121,
+    "field_effect_id": null,
+    "id": 81181043,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に「カウンター(回数制限なし)」を付与する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 81181048,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "味方の強化効果量を減少",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 81182004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "非ブレイク時、自身の受けるデバフ効果量ダウン",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 81182044,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に「非ブレイク時、デバフ効果量ダウン」を付与する",
+    "effect_motion_id": 1122,
+    "field_effect_id": null,
+    "id": 81182047,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身の頭上のパネルをバーストパネルに変換する",
+    "effect_motion_id": 1123,
+    "field_effect_id": null,
+    "id": 81182049,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "味方全体を回復",
+    "effect_motion_id": 1124,
+    "field_effect_id": null,
+    "id": 81183005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵全体を回復",
+    "effect_motion_id": 1124,
+    "field_effect_id": null,
+    "id": 81183006,
+    "is_positive_popup": null,
+    "popup_text": ""
   },
   {
     "description": "カチコチ状態の時、被クリティカルダメージUP",
@@ -16131,7 +16715,47 @@
     "description": "",
     "effect_motion_id": null,
     "field_effect_id": null,
+    "id": 91001378,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001379,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001380,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
     "id": 91001381,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001382,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001383,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -16156,6 +16780,22 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 91001386,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001387,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001388,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -17380,6 +18020,22 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 95000138,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が火属性かつWEAK攻撃時、ブレイクダメージアップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 95000139,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がディフェンダーの時、物理攻撃スキルダメージアップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 95000140,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -29092,6 +29748,70 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 790002007,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "味方カウント：5ターン味方にスリップダメージ10％",
+    "effect_motion_id": null,
+    "field_effect_id": 11,
+    "id": 814000009,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "味方カウント：3ターンアイテムゲージ増加量-99％",
+    "effect_motion_id": null,
+    "field_effect_id": 12,
+    "id": 814000010,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "全体カウント：味方にスリップダメージ3％",
+    "effect_motion_id": null,
+    "field_effect_id": 13,
+    "id": 814000011,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "全体カウント：アイテムゲージ増加量-20％",
+    "effect_motion_id": null,
+    "field_effect_id": 14,
+    "id": 814000012,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "全体カウント：物防＆魔防-5％",
+    "effect_motion_id": null,
+    "field_effect_id": 15,
+    "id": 814000013,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "味方カウント：3ターン物防＆魔防＆雷耐性-10％",
+    "effect_motion_id": null,
+    "field_effect_id": 16,
+    "id": 814000014,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "全体カウント：味方の受ける強化効果量-30％",
+    "effect_motion_id": null,
+    "field_effect_id": 17,
+    "id": 814000015,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "味方カウント：3ターン味方の受ける強化効果量-90％",
+    "effect_motion_id": null,
+    "field_effect_id": 18,
+    "id": 814000016,
     "is_positive_popup": null,
     "popup_text": ""
   },

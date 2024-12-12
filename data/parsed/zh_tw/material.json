@@ -5604,6 +5604,66 @@
         "episode_name": "1週年紀念獻禮戰鬥 第1彈"
       },
       {
+        "quest_id": 5804001,
+        "quest_name": "挑戰戰鬥 傑隆1",
+        "episode_id": 5804,
+        "episode_name": "挑戰戰鬥 傑隆"
+      },
+      {
+        "quest_id": 5804002,
+        "quest_name": "挑戰戰鬥 傑隆2",
+        "episode_id": 5804,
+        "episode_name": "挑戰戰鬥 傑隆"
+      },
+      {
+        "quest_id": 5804003,
+        "quest_name": "挑戰戰鬥 傑隆3",
+        "episode_id": 5804,
+        "episode_name": "挑戰戰鬥 傑隆"
+      },
+      {
+        "quest_id": 6004001,
+        "quest_name": "1週年紀念獻禮戰鬥 第2彈1",
+        "episode_id": 6004,
+        "episode_name": "1週年紀念獻禮戰鬥 第2彈"
+      },
+      {
+        "quest_id": 6004002,
+        "quest_name": "1週年紀念獻禮戰鬥 第2彈2",
+        "episode_id": 6004,
+        "episode_name": "1週年紀念獻禮戰鬥 第2彈"
+      },
+      {
+        "quest_id": 6004003,
+        "quest_name": "1週年紀念獻禮戰鬥 第2彈3",
+        "episode_id": 6004,
+        "episode_name": "1週年紀念獻禮戰鬥 第2彈"
+      },
+      {
+        "quest_id": 6004004,
+        "quest_name": "1週年紀念獻禮戰鬥 第2彈4",
+        "episode_id": 6004,
+        "episode_name": "1週年紀念獻禮戰鬥 第2彈"
+      },
+      {
+        "quest_id": 6004005,
+        "quest_name": "1週年紀念獻禮戰鬥 第2彈5",
+        "episode_id": 6004,
+        "episode_name": "1週年紀念獻禮戰鬥 第2彈"
+      },
+      {
+        "quest_id": 6004006,
+        "quest_name": "1週年紀念獻禮戰鬥 第2彈6",
+        "episode_id": 6004,
+        "episode_name": "1週年紀念獻禮戰鬥 第2彈"
+      },
+      {
+        "quest_id": 6004007,
+        "quest_name": "1週年紀念獻禮戰鬥 第2彈7",
+        "episode_id": 6004,
+        "episode_name": "1週年紀念獻禮戰鬥 第2彈"
+      },
+      {
         "quest_id": 204101002,
         "quest_name": "在濕地前方的森林",
         "difficulty": "NORMAL",
@@ -39364,7 +39424,7 @@
     ],
     "image_small": "Ingredient_0681_S",
     "image_medium": "Ingredient_0681_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-12-12T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -39440,7 +39500,7 @@
     ],
     "image_small": "Ingredient_0682_S",
     "image_medium": "Ingredient_0682_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-12-12T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -39516,7 +39576,7 @@
     ],
     "image_small": "Ingredient_0683_S",
     "image_medium": "Ingredient_0683_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-12-12T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -39576,7 +39636,7 @@
     ],
     "image_small": "Ingredient_0684_S",
     "image_medium": "Ingredient_0684_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-12-12T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -39636,7 +39696,7 @@
     ],
     "image_small": "Ingredient_0685_S",
     "image_medium": "Ingredient_0685_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-12-12T03:00:00.000Z",
     "end_at": null
   },
   {
@@ -39696,7 +39756,420 @@
     ],
     "image_small": "Ingredient_0686_S",
     "image_medium": "Ingredient_0686_M",
-    "start_at": "2049-12-31T16:00:00.000Z",
+    "start_at": "2024-12-12T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 700,
+    "name": "雪白鈴花",
+    "rarity": 2,
+    "color": "黃",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [
+      {
+        "id": 31,
+        "name": "獸類特攻",
+        "category": "ATTACK",
+        "description": "給予獸類種族的傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000080,
+            "description": "給予獸類種族的傷害上升{0}%。",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "物防之祝福",
+        "category": "ENHANCE",
+        "description": "賦予「物防上升{0}%」，直到被攻擊1次為止。",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "賦予「物防上升{0}%」，直到被攻擊1次為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117001,
+        "quest_name": "一齊攻擊‧1【綠】",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117004,
+        "quest_name": "為暴行劃上句點【藍/黃】",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117005,
+        "quest_name": "一齊攻擊‧1【綠】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "為暴行劃上句點【藍/黃】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0700_S",
+    "image_medium": "Ingredient_0700_M",
+    "start_at": "2024-12-24T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 701,
+    "name": "六花魚",
+    "rarity": 2,
+    "color": "綠",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 25,
+        "name": "物理耐性上升",
+        "category": "ENHANCE",
+        "description": "所受物理攻擊傷害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "物理屬性傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "name": "獸類傷害上升",
+        "category": "ATTACK",
+        "description": "給予獸類種族的傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000080,
+            "description": "給予獸類種族的傷害上升{0}%。",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117002,
+        "quest_name": "一齊攻擊‧2【紅】",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117004,
+        "quest_name": "為暴行劃上句點【藍/黃】",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117006,
+        "quest_name": "一齊攻擊‧2【紅】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "為暴行劃上句點【藍/黃】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0701_S",
+    "image_medium": "Ingredient_0701_M",
+    "start_at": "2024-12-24T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 702,
+    "name": "黑之魔石",
+    "rarity": 2,
+    "color": "藍",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [
+      {
+        "id": 6,
+        "name": "火之祝福",
+        "category": "ATTACK",
+        "description": "火屬性傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000004,
+            "description": "火屬性傷害上升{0}%。",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "單體回復獎勵",
+        "category": "RECOVERY",
+        "description": "單體回復時賦予的HP回復量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000073,
+            "description": "單體回復時賦予的HP回復量上升{0}%。",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117003,
+        "quest_name": "為了攔阻前進的步伐【紫】",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117004,
+        "quest_name": "為暴行劃上句點【藍/黃】",
+        "difficulty": "NORMAL",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117007,
+        "quest_name": "為了攔阻前進的步伐【紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "為暴行劃上句點【藍/黃】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0702_S",
+    "image_medium": "Ingredient_0702_M",
+    "start_at": "2024-12-24T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 703,
+    "name": "光水母",
+    "rarity": 3,
+    "color": "紫",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [
+      {
+        "id": 10,
+        "name": "守護之祝福",
+        "category": "ENHANCE",
+        "description": "賦予「物防上升{0}%」與「魔防上升{1}%」，直到被攻擊1次為止。",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "賦予「物防上升{0}%」，直到被攻擊1次為止。",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "賦予「魔防上升{0}%」，直到被攻擊1次為止。",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "火之詛咒",
+        "category": "WEAKENING",
+        "description": "賦予目標「火屬性耐性下降{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "賦予目標「火屬性耐性下降{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117005,
+        "quest_name": "一齊攻擊‧1【綠】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "為暴行劃上句點【藍/黃】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0703_S",
+    "image_medium": "Ingredient_0703_M",
+    "start_at": "2024-12-24T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 704,
+    "name": "閃光水",
+    "rarity": 3,
+    "color": "紅",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 29,
+        "name": "全體攻擊耐性上升",
+        "category": "ENHANCE",
+        "description": "所受全體攻擊傷害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000112,
+            "description": "全體攻擊的所受傷害下降{0}％。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "全體回復量上升",
+        "category": "RECOVERY",
+        "description": "我方全體回復時賦予的HP回復量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全體回復時賦予的HP回復量上升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117006,
+        "quest_name": "一齊攻擊‧2【紅】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "為暴行劃上句點【藍/黃】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0704_S",
+    "image_medium": "Ingredient_0704_M",
+    "start_at": "2024-12-24T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 705,
+    "name": "被遺忘的寶石",
+    "rarity": 3,
+    "color": "紫",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 69,
+        "name": "屬性耐性下降強化【火】",
+        "category": "WEAKENING",
+        "description": "目標賦予的「火屬性耐性下降」的效果量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000225,
+            "description": "目標賦予的「火屬性耐性下降」的效果量上升{0}%。",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "傷害增益強化【B】",
+        "category": "ENHANCE",
+        "description": "賦予破壞者的傷害強化效果量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000018,
+            "description": "對破壞者的傷害增益上升{0}%。",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204117007,
+        "quest_name": "為了攔阻前進的步伐【紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204117008,
+        "quest_name": "為暴行劃上句點【藍/黃】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204117,
+        "episode_name": "スコアバトル17章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0705_S",
+    "image_medium": "Ingredient_0705_M",
+    "start_at": "2024-12-24T03:00:00.000Z",
     "end_at": null
   }
 ]

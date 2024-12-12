@@ -5,6 +5,16 @@
     "id": 10002011
   },
   {
+    "description": "- Delays turn",
+    "enemy_id": 10004004,
+    "id": 10004004
+  },
+  {
+    "description": "- Chance to inflict Paralysis\n- When stunned, boosts own damage dealt\n- When stunned, reduces own damage received",
+    "enemy_id": 10009011,
+    "id": 10009011
+  },
+  {
     "description": "- Chance to counter\n- Grants Regen to allies\n- Inflicts Nullify Recovery on opponents",
     "enemy_id": 10017004,
     "id": 10017004
@@ -63,6 +73,11 @@
     "description": "- Gains multiple positive effects when HP reaches a certain level\n- Multiple panels appear when HP reaches a certain level\n- Nullifies effects of Paralysis+ panels\n- Heals allies",
     "enemy_id": 10045005,
     "id": 10045005
+  },
+  {
+    "description": "- Inflicts Poison\n- When stunned, boosts damage dealt",
+    "enemy_id": 10048001,
+    "id": 10048001
   },
   {
     "description": "- Counters\n- Deals significant damage to all targets\n- Poisonous attack\n- Inflicts Nullify Positive Effects\n- Dealt damage is increased against targets with status effects",
@@ -263,6 +278,31 @@
     "description": "- Boosts own damage dealt each time HP is restored\n- When stunned, removes all positive effects from self\n- Heals self\n- Heals all allies",
     "enemy_id": 10178001,
     "id": 10178001
+  },
+  {
+    "description": "- Chance to inflict Burn\n- Restores own HP and stun gauge\n- Applies a Field Effect after using burst skill\n- After restoring stun gauge, enters an empowered state and attacks with a powerful attack\n- When stunned, removes empowered state\n- When HP reaches a certain level, reduces own damage received and attacks with a powerful attack (MAX 1 time)",
+    "enemy_id": 10179000,
+    "id": 10179000
+  },
+  {
+    "description": "- Chance to inflict Brittle\n- Recovers own HP and stun gauge\n- Applies a Field Effect after using burst skill\n- After restoring stun gauge, enters an empowered state and attacks with a powerful attack\n- When stunned, removes empowered state\n- When HP reaches a certain level, reduces own damage received and attacks with a powerful attack (MAX 1 time)",
+    "enemy_id": 10180000,
+    "id": 10180000
+  },
+  {
+    "description": "- Chance to inflict Paralysis\n- Counters\n- Restores own HP and stun gauge\n- Applies a Field Effect after using burst skill\n- When stunned, converts weaken panels into empty panels\n- Creates burst panels when HP reaches a certain level (MAX 1 time)",
+    "enemy_id": 10181000,
+    "id": 10181000
+  },
+  {
+    "description": "- Restores own HP and stun gauge\n- Applies a Field Effect after using burst skill\n- Reduces potency of received negative effects while not stunned\n- Creates burst panels when HP reaches a certain level (MAX 1 time)",
+    "enemy_id": 10182000,
+    "id": 10182000
+  },
+  {
+    "description": "- Taunts\n- Heals all allies\n- When KO'd, heals all opponents and all allies",
+    "enemy_id": 10183001,
+    "id": 10183001
   },
   {
     "description": "- Heals allies\n- Counter\n- Boosts one enemy's damage received with each attack",

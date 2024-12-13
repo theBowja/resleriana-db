@@ -19120,6 +19120,264 @@
     "start_at": "2024-05-31T03:00:00.000Z"
   },
   {
+    "id": 43403,
+    "name": "ユナ",
+    "title": "【Starry Beauty】",
+    "full_name": "ユナ・ヴァイツ",
+    "base_character": "ユナ",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "BOLT",
+    "role": "DEFENDER",
+    "initial_rarity": 3,
+    "acquisition_text": "さあ、パーティーの時間だ。\n……たまには、手を引かれるのも悪くないか",
+    "profile": {
+      "voice_actor": "長谷川育美",
+      "voice_text": "ユナ・ヴァイツだ。騎士の身には不相応だと\n思うが、ありがたく着させていただこう",
+      "description": "王国騎士の精鋭、「白夜の騎士」の一人。\n王国主催のパーティーに出席するため、普段の白い鎧を脱ぎ去り、真っ赤なドレスに身を包んだ。不測の事態に対応できるよう、動きやすさも兼ね備えた装いとなっている。\nその優美なドレス姿を目にした者は、誰もが白夜の騎士ユナの新たな魅力に気付かされたという。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "青",
+      "given": "緑"
+    },
+    "battle_item_trait": [
+      {
+        "id": 21,
+        "name": "雷の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000061,
+            "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "守護の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 71,
+        "name": "雷スキル威力上昇",
+        "category": "ATTACK",
+        "description": "雷スキルのスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000240,
+            "description": "雷スキル威力{0}%アップ",
+            "values": [400, 800, 1200, 2200, 3500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 198,
+        "spd": 250,
+        "patk": 51,
+        "matk": 55,
+        "pdef": 63,
+        "mdef": 60
+      },
+      "growth": {
+        "hp": 1980,
+        "spd": 0,
+        "patk": 510,
+        "matk": 550,
+        "pdef": 630,
+        "mdef": 600
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 5,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "スイングスター",
+      "description": "攻撃前、自身のマイナス効果を解除<br>攻撃後、自身のHPを{0}%回復し、<br>対象に「ダメージ-{1}%」を2回行動終了するまで付与",
+      "summary": "攻撃前、自身のマイナス効果を解除<br>攻撃後、自身のHPを回復<br>対象のダメージダウン",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000926,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91000916,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91001007,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [57, 60, 64, 67, 71],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "エレクトリカルワルツ",
+      "description": "攻撃後、自身のHPを{0}%回復<br>「エレクトリカルワルツ」はスキルランプを持ち、点灯数が3個の時、効果内容が変化する<br>スキルランプは最大3個点灯できる<br><br>スキルランプの点灯数が3個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が3個の時、<br>攻撃後、味方全員に「回避(確率{1}%固定)」を1回攻撃されるまで付与し、<br>味方全員に「スキルダメージ+{2}%」と「雷属性ダメージ+{3}%」を2回行動終了するまで付与<br>スキルランプを全て消灯する",
+      "summary": "攻撃後、自身のHPを回復<br>スキルランプの点灯数が3個未満の時、攻撃後、スキルランプを1個点灯する<br>スキルランプの点灯数が3個の時、攻撃後、味方全員に回避を付与し、スキルダメージアップと雷属性ダメージアップし、スキルランプを全て消灯する",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000948,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001465,
+          "description": "",
+          "value": 7000
+        },
+        {
+          "id": 91001466,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001467,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001340,
+          "description": "",
+          "value": 100
+        },
+        {
+          "id": 91001341,
+          "description": "",
+          "value": 300
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [206, 218, 231, 244, 257],
+      "has_stun": true,
+      "stun_values": [27, 28, 30, 31, 33],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "ヴァリアントイルミネート",
+      "description": "攻撃前、味方全員のマイナス効果を解除<br>攻撃後、味方全員のHPを{0}%回復し、<br>味方全員に「回避(確率{1}%固定)」を1回攻撃されるまで付与",
+      "summary": "攻撃前、自身のマイナス効果を解除<br>攻撃後、味方全員のHPを回復<br>味方全員に回避を付与",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91000925,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91001474,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001469,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [420, 420, 420, 446, 472, 498, 525],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "魅惑の曲線美",
+      "description": "敵にとても狙われやすくなる<br>自身の物防・魔防+{0}%",
+      "effects": [
+        {
+          "id": 72001113,
+          "description": "[自身/常時/物防上昇]",
+          "value": 3000
+        },
+        {
+          "id": 72001114,
+          "description": "[自身/常時/魔防上昇]",
+          "value": 3000
+        },
+        {
+          "id": 72000914,
+          "description": "狙われやすさ+100％",
+          "value": 10000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "星の輝きをこの手に",
+      "description": "バトル開始時、「エレクトリカルワルツ」のスキルランプを3個点灯する<br>自身がパネル獲得時または攻撃を受けた時、「エレクトリカルワルツ」のスキルランプを1個点灯する",
+      "effects": [
+        {
+          "id": 72001094,
+          "description": "[スキルランプ点灯]",
+          "value": 300
+        },
+        {
+          "id": 72001094,
+          "description": "[スキルランプ点灯]",
+          "value": 100
+        },
+        {
+          "id": 72001094,
+          "description": "[スキルランプ点灯]",
+          "value": 100
+        }
+      ]
+    },
+    "start_at": "2024-12-13T03:00:00.000Z"
+  },
+  {
     "id": 43501,
     "name": "ハイディ",
     "title": "【Thief of Rose】",
@@ -21786,7 +22044,7 @@
         {
           "id": 91001388,
           "description": "",
-          "value": 0
+          "value": 2500
         }
       ],
       "attribute_type": "PHYSICAL",

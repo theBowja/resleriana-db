@@ -43253,5 +43253,197 @@
     "image_medium": "Ingredient_0809_M",
     "start_at": "2024-11-29T03:00:00.000Z",
     "end_at": null
+  },
+  {
+    "id": 816,
+    "name": "星夜のレイム",
+    "rarity": 2,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 44,
+        "name": "物理/魔法耐性アップ強化【D】",
+        "category": "ENHANCE",
+        "description": "対象がディフェンダーへ与える「物理被ダメージダウン」と「魔法被ダメージダウン」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000029,
+            "description": "対象がディフェンダーへ与える「物理被ダメージダウン」と「魔法被ダメージダウン」の効果量{0}%アップ",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "全体回復量上昇",
+        "category": "RECOVERY",
+        "description": "味方全員回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体回復が与えるHP回復量{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 7203001,
+        "quest_name": "キラキラセキララ星誕祭！１",
+        "episode_id": 7203,
+        "episode_name": "キラキラセキララ星誕祭！スコアバトル"
+      },
+      {
+        "quest_id": 7203003,
+        "quest_name": "キラキラセキララ星誕祭！３",
+        "episode_id": 7203,
+        "episode_name": "キラキラセキララ星誕祭！スコアバトル"
+      },
+      {
+        "quest_id": 7203004,
+        "quest_name": "キラキラセキララ星誕祭！４",
+        "episode_id": 7203,
+        "episode_name": "キラキラセキララ星誕祭！スコアバトル"
+      },
+      {
+        "quest_id": 7203005,
+        "quest_name": "キラキラセキララ星誕祭！５",
+        "episode_id": 7203,
+        "episode_name": "キラキラセキララ星誕祭！スコアバトル"
+      }
+    ],
+    "image_small": "Ingredient_0816_S",
+    "image_medium": "Ingredient_0816_M",
+    "start_at": "2024-12-13T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 817,
+    "name": "星夜のガーネル",
+    "rarity": 2,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 51,
+        "name": "破壊力上昇",
+        "category": "ATTACK",
+        "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "雷の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000061,
+            "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 7203002,
+        "quest_name": "キラキラセキララ星誕祭！２",
+        "episode_id": 7203,
+        "episode_name": "キラキラセキララ星誕祭！スコアバトル"
+      },
+      {
+        "quest_id": 7203003,
+        "quest_name": "キラキラセキララ星誕祭！３",
+        "episode_id": 7203,
+        "episode_name": "キラキラセキララ星誕祭！スコアバトル"
+      },
+      {
+        "quest_id": 7203004,
+        "quest_name": "キラキラセキララ星誕祭！４",
+        "episode_id": 7203,
+        "episode_name": "キラキラセキララ星誕祭！スコアバトル"
+      },
+      {
+        "quest_id": 7203005,
+        "quest_name": "キラキラセキララ星誕祭！５",
+        "episode_id": 7203,
+        "episode_name": "キラキラセキララ星誕祭！スコアバトル"
+      }
+    ],
+    "image_small": "Ingredient_0817_S",
+    "image_medium": "Ingredient_0817_M",
+    "start_at": "2024-12-13T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 818,
+    "name": "星夜のフラジルローズ",
+    "rarity": 3,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 29,
+        "name": "全体攻撃耐性上昇",
+        "category": "ENHANCE",
+        "description": "全体攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000112,
+            "description": "全体攻撃で受けるダメージ{0}％ダウン",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "回復量上昇【D】",
+        "category": "RECOVERY",
+        "description": "ディフェンダーへ与える回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000076,
+            "description": "ディフェンダーへの回復量{0}%アップ",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 7203004,
+        "quest_name": "キラキラセキララ星誕祭！４",
+        "episode_id": 7203,
+        "episode_name": "キラキラセキララ星誕祭！スコアバトル"
+      },
+      {
+        "quest_id": 7203005,
+        "quest_name": "キラキラセキララ星誕祭！５",
+        "episode_id": 7203,
+        "episode_name": "キラキラセキララ星誕祭！スコアバトル"
+      }
+    ],
+    "image_small": "Ingredient_0818_S",
+    "image_medium": "Ingredient_0818_M",
+    "start_at": "2024-12-13T03:00:00.000Z",
+    "end_at": null
   }
 ]

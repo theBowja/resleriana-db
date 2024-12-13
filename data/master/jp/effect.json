@@ -1024,6 +1024,14 @@
     "popup_text": ""
   },
   {
+    "description": "雷スキル威力{0}%アップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 3000240,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "次のターン終了時まで敵全体の風耐性を10%減少させる",
     "effect_motion_id": null,
     "field_effect_id": null,
@@ -8144,6 +8152,46 @@
     "popup_text": ""
   },
   {
+    "description": "自身がディフェンダーの時、バトル開始時、味方全員に「攻撃を受けた時、自身のHPを回復」を1回攻撃を受けるまで付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000924,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "「ランターナ」の味方全員の魔防アップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000925,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が雷属性の時、攻撃後、対象に「ダメージダウン」を1回行動終了するまで付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000926,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が雷属性かつディフェンダーの時、攻撃を受ける時、回避する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000927,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が雷属性かつディフェンダーの時、受けるダメージダウン",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000928,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "魔攻が最も高い味方1人に「魔法攻撃スキルダメージアップ」を1回行動終了するまで付与(重複不可)",
     "effect_motion_id": null,
     "field_effect_id": null,
@@ -9196,6 +9244,14 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 13000238,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身が雷属性の時、受けるHP回復量上昇+{}%",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 13000239,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -14112,6 +14168,46 @@
     "popup_text": ""
   },
   {
+    "description": "自身に与ダメージUP(永続)を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76207001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に素早さDOWN(1回)を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76207002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身にダメージ無効が付与されていないとき、自身にダメージ無効(1回)を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76207003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身にダメージ無効(2回)を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76207004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に与ダメージUP(永続)を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76207005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "",
     "effect_motion_id": 1032,
     "field_effect_id": null,
@@ -15616,6 +15712,14 @@
     "popup_text": ""
   },
   {
+    "description": "相手が挑発の状態異常を受けている時、与ダメージ上昇",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86039001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "自身に非弱点属性攻撃カウンター(1回)を付与",
     "effect_motion_id": null,
     "field_effect_id": null,
@@ -15936,6 +16040,30 @@
     "popup_text": ""
   },
   {
+    "description": "雷属性攻撃被弾時、自身に被ダメージUP(20%/3回))を付与(被ダメージUP(クリスマスゴーレム_雷属性被弾時)が付与されている時は発動しない)",
+    "effect_motion_id": 1018,
+    "field_effect_id": null,
+    "id": 86103010,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "氷属性攻撃被弾時、自身に被ダメージUP(10%/5回)を付与(被ダメージUP(クリスマスゴーレム_氷属性被弾時)が付与されている時は発動しない)",
+    "effect_motion_id": 1018,
+    "field_effect_id": null,
+    "id": 86103011,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "ブレイク時、自身にカチコチを付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86103012,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "戦闘不能時、特定のバフ解除",
     "effect_motion_id": 1103,
     "field_effect_id": null,
@@ -16068,6 +16196,22 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 86119002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がブレイク中、クリティカル攻撃被弾時にバースト以外のパネルを強化パネルに変更する",
+    "effect_motion_id": 1027,
+    "field_effect_id": null,
+    "id": 86119003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "ブレイク時、強化系パネルをバーストパネルに変更",
+    "effect_motion_id": 1030,
+    "field_effect_id": null,
+    "id": 86122001,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -16420,6 +16564,38 @@
     "effect_motion_id": 1134,
     "field_effect_id": null,
     "id": 86202021,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "相手全員にHP上限UP(永続)を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86207001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "相手全員に魔攻UP(永続)を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86207002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "相手全員のHPを回復する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86207004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "effect_motionの表示用",
+    "effect_motion_id": 1136,
+    "field_effect_id": null,
+    "id": 86207005,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -19699,6 +19875,38 @@
     "description": "",
     "effect_motion_id": null,
     "field_effect_id": null,
+    "id": 91001465,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001466,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001467,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001469,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
     "id": 91001470,
     "is_positive_popup": null,
     "popup_text": ""
@@ -19724,6 +19932,14 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 91001473,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001474,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -21092,6 +21308,14 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 95000156,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が雷属性の時、与える強化効果量アップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 95000157,
     "is_positive_popup": null,
     "popup_text": ""
   },

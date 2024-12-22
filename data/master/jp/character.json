@@ -7815,7 +7815,7 @@
     "start_at": "2024-09-11T03:00:00.000Z",
     "still_path_hash": "6398968499954469286",
     "support_color_id": 4,
-    "tag_ids": [7, 28, 30],
+    "tag_ids": [7, 33, 28, 30],
     "trait_color_id": 1,
     "voice_actor_id": 3
   },
@@ -7883,10 +7883,10 @@
     "result_timeline_hash": "3107005472777429764",
     "role": 1,
     "series_id": 10,
-    "start_at": "2024-11-08T03:00:00.000Z",
+    "start_at": "2024-08-30T03:00:00.000Z",
     "still_path_hash": "1328706129982295513",
     "support_color_id": 1,
-    "tag_ids": [7, 15, 19, 32],
+    "tag_ids": [7, 33, 15, 19, 32],
     "trait_color_id": 2,
     "voice_actor_id": 58
   },
@@ -8312,7 +8312,7 @@
     "start_at": "2024-11-29T03:00:00.000Z",
     "still_path_hash": "3623196163129163432",
     "support_color_id": 3,
-    "tag_ids": [7, 15, 30],
+    "tag_ids": [7, 33, 15, 30],
     "trait_color_id": 1,
     "voice_actor_id": 63
   },
@@ -8383,8 +8383,79 @@
     "start_at": "2024-11-29T03:00:00.000Z",
     "still_path_hash": "7725975117834676314",
     "support_color_id": 4,
-    "tag_ids": [7, 20, 27],
+    "tag_ids": [7, 33, 20, 27],
     "trait_color_id": 2,
     "voice_actor_id": 64
+  },
+  {
+    "ability_ids": [1990280, 1990281],
+    "acquisition_movie_path_hash": "8086862038317710651",
+    "acquisition_text": "私のすべてを、あなたに預けるわ\n――ふふっ、たっぷり楽しませてね",
+    "another_name": "【Ambitious Alchemist】",
+    "attack_attributes": [7],
+    "base_character_id": 450,
+    "battle_tool_trait_ids": [21, 50],
+    "burst_skill_ids": [14002114, 14002114, 14002114, 14002115, 14002116, 14002117, 14002118],
+    "change": null,
+    "character_growth_id": 945001,
+    "character_size_id": 2,
+    "description": "「極夜の錬金党」の党首。\n各地で素材の独占・強奪を繰り返し、己の渇望を満たすために錬金術の研究をしていた。\n敵対する者に対しては非情に振る舞うが、協力的な人間には惜しみない援助を送る。料理が得意で、意外と面倒見のいい一面も。",
+    "equipment_tool_trait_ids": [15],
+    "ex_growboard_id": 450012,
+    "extra_skill_ids": [],
+    "fullname": "クリセルダ・アメルハウザー",
+    "growboard_id": 450011,
+    "id": 45001,
+    "initial_rarity": 3,
+    "initial_status": {
+      "attack": 50,
+      "defense": 49,
+      "hp": 127,
+      "magic": 62,
+      "mental": 59,
+      "speed": 249
+    },
+    "is_alchemist": true,
+    "large_narrow_still_path_hash": "8096412484552963397",
+    "large_still_path_hash": "4420178045322961542",
+    "leader_skill": {
+      "abilities": [
+        {
+          "ability_id": 1980168,
+          "combat_power_coefficient": 2500,
+          "condition_ids": [10]
+        }
+      ],
+      "description": "得意属性が雷属性のキャラは「攻撃対象がブレイク状態の時、スキルダメージ+100%」",
+      "name": "私たちの渇望のために"
+    },
+    "model_path_hash": "2151939577384561833",
+    "motion_type": 2,
+    "name": "クリセルダ",
+    "narrow_still_path_hash": "961325957320565876",
+    "normal1_skill_ids": [11002104, 11002105, 11002106, 11002107, 11002108],
+    "normal2_skill_ids": [12002109, 12002110, 12002111, 12002112, 12002113],
+    "original_title_id": 26,
+    "overlay_name": "Criselda Amelhauser",
+    "personality": 2,
+    "profile_voice_text": "私はクリセルダ。紆余曲折はあったけど……\nふふっ、仲良くしてくれると嬉しいわ",
+    "resistance": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 5,
+      "piercing": 0,
+      "slashing": 0,
+      "wind": 0
+    },
+    "result_timeline_hash": "3314433246884809564",
+    "role": 2,
+    "series_id": 10,
+    "start_at": "2024-12-20T03:00:00.000Z",
+    "still_path_hash": "2415369427152481317",
+    "support_color_id": 3,
+    "tag_ids": [7, 33, 16, 23],
+    "trait_color_id": 2,
+    "voice_actor_id": 65
   }
 ]

@@ -42949,6 +42949,22 @@
         "episode_id": 204121,
         "episode_name": "スコアバトル21章",
         "quantity": 8
+      },
+      {
+        "quest_id": 204121005,
+        "quest_name": "極夜の解放者【黄/緑】",
+        "difficulty": "NORMAL",
+        "episode_id": 204121,
+        "episode_name": "スコアバトル21章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204121006,
+        "quest_name": "極夜の解放者【黄/緑】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204121,
+        "episode_name": "スコアバトル21章",
+        "quantity": 8
       }
     ],
     "image_small": "Ingredient_0801_S",
@@ -43009,6 +43025,22 @@
         "episode_id": 204121,
         "episode_name": "スコアバトル21章",
         "quantity": 8
+      },
+      {
+        "quest_id": 204121005,
+        "quest_name": "極夜の解放者【黄/緑】",
+        "difficulty": "NORMAL",
+        "episode_id": 204121,
+        "episode_name": "スコアバトル21章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204121006,
+        "quest_name": "極夜の解放者【黄/緑】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204121,
+        "episode_name": "スコアバトル21章",
+        "quantity": 8
       }
     ],
     "image_small": "Ingredient_0802_S",
@@ -43061,6 +43093,14 @@
         "episode_id": 204121,
         "episode_name": "スコアバトル21章",
         "quantity": 8
+      },
+      {
+        "quest_id": 204121006,
+        "quest_name": "極夜の解放者【黄/緑】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204121,
+        "episode_name": "スコアバトル21章",
+        "quantity": 8
       }
     ],
     "image_small": "Ingredient_0803_S",
@@ -43109,6 +43149,14 @@
       {
         "quest_id": 204121004,
         "quest_name": "雪山の最奥【紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204121,
+        "episode_name": "スコアバトル21章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204121006,
+        "quest_name": "極夜の解放者【黄/緑】",
         "difficulty": "VERY_HARD",
         "episode_id": 204121,
         "episode_name": "スコアバトル21章",
@@ -43444,6 +43492,118 @@
     "image_small": "Ingredient_0818_S",
     "image_medium": "Ingredient_0818_M",
     "start_at": "2024-12-13T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 823,
+    "name": "白霊岩",
+    "rarity": 2,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 9,
+        "name": "雷の祝福",
+        "category": "ATTACK",
+        "description": "雷属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "雷属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "雷の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000061,
+            "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204121005,
+        "quest_name": "極夜の解放者【黄/緑】",
+        "difficulty": "NORMAL",
+        "episode_id": 204121,
+        "episode_name": "スコアバトル21章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204121006,
+        "quest_name": "極夜の解放者【黄/緑】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204121,
+        "episode_name": "スコアバトル21章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0823_S",
+    "image_medium": "Ingredient_0823_M",
+    "start_at": "2024-12-20T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 824,
+    "name": "陽晶石",
+    "rarity": 3,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 68,
+        "name": "スキル2ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "スキル2のブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 13000160,
+            "description": "スキル2ブレイクダメージ+{0}%",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "雷ダメージ上昇",
+        "category": "ATTACK",
+        "description": "雷属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "雷属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204121006,
+        "quest_name": "極夜の解放者【黄/緑】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204121,
+        "episode_name": "スコアバトル21章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0824_S",
+    "image_medium": "Ingredient_0824_M",
+    "start_at": "2024-12-20T03:00:00.000Z",
     "end_at": null
   }
 ]

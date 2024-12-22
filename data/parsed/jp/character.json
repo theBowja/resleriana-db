@@ -22352,7 +22352,7 @@
         }
       ]
     },
-    "start_at": "2024-11-08T03:00:00.000Z"
+    "start_at": "2024-08-30T03:00:00.000Z"
   },
   {
     "id": 44301,
@@ -23900,5 +23900,228 @@
       ]
     },
     "start_at": "2024-11-29T03:00:00.000Z"
+  },
+  {
+    "id": 45001,
+    "name": "クリセルダ",
+    "title": "【Ambitious Alchemist】",
+    "full_name": "クリセルダ・アメルハウザー",
+    "base_character": "クリセルダ",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "BOLT",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "私のすべてを、あなたに預けるわ\n――ふふっ、たっぷり楽しませてね",
+    "profile": {
+      "voice_actor": "伊藤静",
+      "voice_text": "私はクリセルダ。紆余曲折はあったけど……\nふふっ、仲良くしてくれると嬉しいわ",
+      "description": "「極夜の錬金党」の党首。\n各地で素材の独占・強奪を繰り返し、己の渇望を満たすために錬金術の研究をしていた。\n敵対する者に対しては非情に振る舞うが、協力的な人間には惜しみない援助を送る。料理が得意で、意外と面倒見のいい一面も。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "黄",
+      "given": "紫"
+    },
+    "battle_item_trait": [
+      {
+        "id": 21,
+        "name": "雷の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000061,
+            "description": "対象に「雷属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "会心の出来",
+        "category": "ENHANCE",
+        "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 15,
+        "name": "魔法ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000014,
+            "description": "魔法属性攻撃のブレイクダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 127,
+        "spd": 249,
+        "patk": 50,
+        "matk": 62,
+        "pdef": 49,
+        "mdef": 59
+      },
+      "growth": {
+        "hp": 1270,
+        "spd": 0,
+        "patk": 500,
+        "matk": 620,
+        "pdef": 490,
+        "mdef": 590
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 5,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "サピエンティア",
+      "description": "攻撃後、アイテムゲージを{0}%回復し、<br>自身に「ブレイクダメージ+{1}%」を付与(上限40%)",
+      "summary": "攻撃後、アイテムゲージを回復<br>自身のブレイクダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91002004,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91001475,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [62, 65, 69, 73, 77],
+      "has_stun": true,
+      "stun_values": [16, 17, 18, 19, 20],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "フルグルハスタ",
+      "description": "WEAK攻撃時、ブレイクダメージ+{0}%<br>攻撃前、対象に「雷属性耐性-{1}%」を2回攻撃を受けるまで付与<br>攻撃後、対象に「受ける魔法攻撃ダメージ+{2}%」を1回攻撃を受けるまで付与",
+      "summary": "WEAK攻撃時、ブレイクダメージアップ<br>攻撃前、対象の雷属性耐性ダウン<br>攻撃後、対象の受ける魔法攻撃ダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000907,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001326,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001344,
+          "description": "",
+          "value": 4000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [230, 244, 258, 272, 287],
+      "has_stun": true,
+      "stun_values": [259, 275, 291, 307, 323],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "ファトゥムノティシア",
+      "description": "WEAK攻撃時、ブレイクダメージ+{0}%<br>攻撃前、対象に「雷属性耐性-{1}%」を3回攻撃を受けるまで付与<br>攻撃後、対象に「受ける雷属性ダメージ+{2}%」を付与(上限150%)<br>対象がブレイク時、味方全員に「強化系パネルから受ける効果量+{3}%」を付与(重複不可)",
+      "summary": "WEAK攻撃時、ブレイクダメージアップ<br>攻撃前、対象の雷属性耐性ダウン<br>攻撃後、対象の受ける雷属性ダメージアップ<br>対象がブレイク時、味方全員の強化系パネルから受ける効果量アップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91000907,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001478,
+          "description": "",
+          "value": 3500
+        },
+        {
+          "id": 91001476,
+          "description": "",
+          "value": 7500
+        },
+        {
+          "id": 91001477,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [420, 420, 420, 446, 472, 498, 525],
+      "has_stun": true,
+      "stun_values": [500, 500, 500, 531, 562, 593, 625],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "破壊の天稟",
+      "description": "「サピエンティア」または「フルグルハスタ」で攻撃対象がブレイク時、味方全員のバーストパネルを除いたパネル全てを、叡智解放パネルに変換(空パネルの時は生成)<br>自身が叡智解放パネル獲得時、バーストスキルを発動できる",
+      "effects": [
+        {
+          "id": 72001162,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 72001163,
+          "description": "",
+          "value": 1000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "「解放」を始めましょう",
+      "description": "パーティの誰かがアイテム使用後、自身に「強制ブレイク」を1回行動終了するまで付与(発動上限3回)<br>※アイテムを複数同時に使用しても発動は1回",
+      "effects": [
+        {
+          "id": 72001156,
+          "description": "",
+          "value": 0
+        }
+      ]
+    },
+    "start_at": "2024-12-20T03:00:00.000Z"
   }
 ]

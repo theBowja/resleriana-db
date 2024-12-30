@@ -43605,5 +43605,191 @@
     "image_medium": "Ingredient_0824_M",
     "start_at": "2024-12-20T03:00:00.000Z",
     "end_at": null
+  },
+  {
+    "id": 828,
+    "name": "黄金うに",
+    "rarity": 2,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 7,
+        "name": "氷ダメージ上昇",
+        "category": "ATTACK",
+        "description": "氷属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "氷属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "氷耐性上昇",
+        "category": "ENHANCE",
+        "description": "氷属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000023,
+            "description": "氷属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 7403001,
+        "quest_name": "縁結ぶ者　星照らす道１",
+        "episode_id": 7403,
+        "episode_name": "縁結ぶ者、星照らす道スコアバトル"
+      },
+      {
+        "quest_id": 7403002,
+        "quest_name": "縁結ぶ者　星照らす道２",
+        "episode_id": 7403,
+        "episode_name": "縁結ぶ者、星照らす道スコアバトル"
+      },
+      {
+        "quest_id": 7403003,
+        "quest_name": "縁結ぶ者　星照らす道３",
+        "episode_id": 7403,
+        "episode_name": "縁結ぶ者、星照らす道スコアバトル"
+      },
+      {
+        "quest_id": 7403004,
+        "quest_name": "縁結ぶ者　星照らす道４",
+        "episode_id": 7403,
+        "episode_name": "縁結ぶ者、星照らす道スコアバトル"
+      },
+      {
+        "quest_id": 7403005,
+        "quest_name": "縁結ぶ者　星照らす道５",
+        "episode_id": 7403,
+        "episode_name": "縁結ぶ者、星照らす道スコアバトル"
+      }
+    ],
+    "image_small": "Ingredient_0828_S",
+    "image_medium": "Ingredient_0828_M",
+    "start_at": "2024-12-31T15:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 829,
+    "name": "おいわいの黒豆",
+    "rarity": 3,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 17,
+        "name": "魔力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "全体回復ボーナス",
+        "category": "RECOVERY",
+        "description": "全体回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全体回復が与えるHP回復量{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 7403004,
+        "quest_name": "縁結ぶ者　星照らす道４",
+        "episode_id": 7403,
+        "episode_name": "縁結ぶ者、星照らす道スコアバトル"
+      },
+      {
+        "quest_id": 7403005,
+        "quest_name": "縁結ぶ者　星照らす道５",
+        "episode_id": 7403,
+        "episode_name": "縁結ぶ者、星照らす道スコアバトル"
+      }
+    ],
+    "image_small": "Ingredient_0829_S",
+    "image_medium": "Ingredient_0829_M",
+    "start_at": "2024-12-31T15:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 830,
+    "name": "おいわいの魚卵",
+    "rarity": 3,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 66,
+        "name": "属性耐性ダウン強化【氷】",
+        "category": "WEAKENING",
+        "description": "対象が与える「氷属性耐性ダウン」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000212,
+            "description": "対象が与える「氷属性耐性ダウン」の効果量{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 60,
+        "name": "クリティカルダメージ上昇",
+        "category": "ATTACK",
+        "description": "クリティカルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 13000011,
+            "description": "クリティカルダメージアップ",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 7403004,
+        "quest_name": "縁結ぶ者　星照らす道４",
+        "episode_id": 7403,
+        "episode_name": "縁結ぶ者、星照らす道スコアバトル"
+      },
+      {
+        "quest_id": 7403005,
+        "quest_name": "縁結ぶ者　星照らす道５",
+        "episode_id": 7403,
+        "episode_name": "縁結ぶ者、星照らす道スコアバトル"
+      }
+    ],
+    "image_small": "Ingredient_0830_S",
+    "image_medium": "Ingredient_0830_M",
+    "start_at": "2024-12-31T15:00:00.000Z",
+    "end_at": null
   }
 ]

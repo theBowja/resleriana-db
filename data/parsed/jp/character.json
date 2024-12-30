@@ -812,6 +812,211 @@
     "start_at": "2024-08-05T03:00:00.000Z"
   },
   {
+    "id": 10201,
+    "name": "シア",
+    "title": "【One And Only】",
+    "full_name": "シア・ドナースターク",
+    "base_character": "シア",
+    "is_alchemist": false,
+    "gender": "女性",
+    "attribute": "BOLT",
+    "role": "SUPPORTER",
+    "initial_rarity": 3,
+    "acquisition_text": "今までたくさんの人に助けてもらったわ。\n今度は、私が助ける番！",
+    "profile": {
+      "voice_actor": "吉住梢",
+      "voice_text": "私はシア。特別何かができるわけじゃない\nけど、お手伝いできることがあれば言ってね",
+      "description": "温和な名家のお嬢様。\nマリーの幼馴染で、無二の親友。この世界でもその関係性は変わらず、一緒に採取に出かけたり、マリーの部屋を掃除しに行ってあげたりしている。\n優しく大人しい性格だが、時折天然の毒舌が飛び出してしまうことも。",
+      "origin_game": "マリーのアトリエ ～ザールブルグの錬金術士～"
+    },
+    "gift_color": {
+      "received": "緑",
+      "given": "青"
+    },
+    "battle_item_trait": [
+      {
+        "id": 9,
+        "name": "雷の祝福",
+        "category": "ATTACK",
+        "description": "雷属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000006,
+            "description": "雷属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "単体回復ボーナス",
+        "category": "RECOVERY",
+        "description": "単体回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000073,
+            "description": "単体回復が与えるHP回復量{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 48,
+        "name": "物理/魔法耐性ダウン強化",
+        "category": "WEAKENING",
+        "description": "対象が与える「物理被ダメージアップ」と「魔法被ダメージアップ」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000030,
+            "description": "対象が与える「物理被ダメージアップ」と「魔法被ダメージアップ」の効果量{0}%アップ",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 144,
+        "spd": 253,
+        "patk": 52,
+        "matk": 57,
+        "pdef": 47,
+        "mdef": 56
+      },
+      "growth": {
+        "hp": 1440,
+        "spd": 0,
+        "patk": 520,
+        "matk": 570,
+        "pdef": 470,
+        "mdef": 560
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 5,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "花びらの導き",
+      "description": "味方1人のマイナス効果を解除し、<br>対象に「クリティカルダメージ+{0}%」を2回行動終了するまで付与",
+      "summary": "味方1人のマイナス効果を解除<br>対象のクリティカルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001491,
+          "description": "",
+          "value": 2100
+        },
+        {
+          "id": 91001492,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "NONE",
+      "attribute": "BOLT",
+      "target": "ALLY",
+      "range": "ONE",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "星片の祈り",
+      "description": "回復後、対象に「ターン開始時、HP回復+{0}%」を1回行動開始するまで付与し、<br>「スキルダメージ+{1}%」を1回行動終了するまで付与",
+      "summary": "回復後、対象に再生を付与<br>対象のスキルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001493,
+          "description": "",
+          "value": 500
+        },
+        {
+          "id": 91001041,
+          "description": "",
+          "value": 3500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ALLY",
+      "range": "ALL",
+      "has_damage": false,
+      "has_stun": false,
+      "has_recovery": true,
+      "recovery_values": [109, 111, 114, 116, 120],
+      "wait": 200
+    },
+    "burst": {
+      "name": "ビリビリ大・掃・除",
+      "description": "攻撃後、このスキル使用前にタイムラインに並んでいる、次の味方1人に「受ける強化効果量+{0}%」を2回行動終了するまで付与<br>得意属性が雷属性の味方全員に「クリティカルダメージ+{1}%」を付与(上限150%)",
+      "summary": "攻撃後、タイムラインに並んでいる次の味方の受ける強化効果量アップ<br>得意属性が雷属性の味方全員のクリティカルダメージアップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001494,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001495,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "BOLT",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [420, 420, 420, 446, 472, 498, 525],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "親友から学んだ使い方",
+      "description": "味方全員の戦闘アイテムから受ける強化効果量+{0}%",
+      "effects": [
+        {
+          "id": 72001168,
+          "description": "",
+          "value": 5000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "活力は電撃の如く",
+      "description": "得意属性が雷属性の味方全員のクリティカルダメージ・ブレイクダメージ+{0}%",
+      "effects": [
+        {
+          "id": 72001169,
+          "description": "",
+          "value": 4000
+        },
+        {
+          "id": 72001170,
+          "description": "",
+          "value": 4000
+        }
+      ]
+    },
+    "start_at": "2024-12-27T03:00:00.000Z"
+  },
+  {
     "id": 10301,
     "name": "ミュー",
     "title": "【南国の冒険者】",
@@ -21664,6 +21869,239 @@
       ]
     },
     "start_at": "2024-08-13T03:00:00.000Z"
+  },
+  {
+    "id": 43902,
+    "name": "ザスキア",
+    "title": "【Spring Wishes】",
+    "full_name": "ザスキア",
+    "base_character": "ザスキア",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "ICE",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "新たな年をみんなで祝えるなんて。\nふふっ……とっても嬉しいわね",
+    "profile": {
+      "voice_actor": "能登麻美子",
+      "voice_text": "ザスキアよ。一緒に新年を祝えて\n嬉しいわ。今年もよろしくね～",
+      "description": "レスナの錬金術の師匠。\n弟子が一人立ちしてからは、自分自身の目的のために世界中を旅している。人と人との繋がりを大事にしており、年の初めには世話になった人々の下へ挨拶に赴き、贈り物をするという律義な一面を持つ。\nそんな彼女がどこで生まれ、どう生きてきたのか。知る者は少ない。\n",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "紫",
+      "given": "青"
+    },
+    "battle_item_trait": [
+      {
+        "id": 44,
+        "name": "大きな回復量",
+        "category": "RECOVERY",
+        "description": "与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000075,
+            "description": "与えるHP回復量{0}%アップ",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "name": "破壊力上昇",
+        "category": "ATTACK",
+        "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 72,
+        "name": "氷スキル威力上昇",
+        "category": "ATTACK",
+        "description": "氷スキルのスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000244,
+            "description": "氷スキル威力{0}%アップ",
+            "values": [400, 800, 1200, 2200, 3500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 151,
+        "spd": 227,
+        "patk": 54,
+        "matk": 68,
+        "pdef": 45,
+        "mdef": 49
+      },
+      "growth": {
+        "hp": 1510,
+        "spd": 0,
+        "patk": 540,
+        "matk": 680,
+        "pdef": 450,
+        "mdef": 490
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 5,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "墜氷",
+      "description": "攻撃前、自身のマイナス効果を解除し、<br>自身に「素早さ+{0}%」を付与(上限20%)<br>攻撃後、対象に「受けるクリティカルダメージ+{1}%」を付与(上限60%)",
+      "summary": "攻撃前、自身のマイナス効果を解除<br>自身の素早さアップ<br>攻撃後、対象の受けるクリティカルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001479,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91001483,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001007,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [97, 103, 109, 115, 121],
+      "has_stun": true,
+      "stun_values": [8, 8, 9, 9, 10],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "招福氷祝の舞",
+      "description": "攻撃前、対象に「氷属性耐性-{0}%」を付与(上限50%)<br>クリティカル攻撃後、自身に「魔攻+{1}%」を2回行動終了するまで付与",
+      "summary": "攻撃前、対象の氷属性耐性ダウン<br>クリティカル攻撃後、自身の魔攻アップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001496,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001480,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [281, 298, 316, 333, 351],
+      "has_stun": true,
+      "stun_values": [33, 35, 37, 39, 41],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "豊寿フルクトゥス",
+      "description": "攻撃後、自身に「スキルダメージ+{0}%」を2回行動終了するまで付与し、<br>エクストラターン(エクストラスキル：{hyperlink_id 12})を{1}ターン後ろに生成し、<br>アイテムゲージを{2}%回復し、<br>自身に「開運招来」を1回行動終了するまで付与<br>※開運招来は戦闘アイテムから受ける強化効果量+50%",
+      "summary": "攻撃後、自身のスキルダメージアップ<br>エクストラターンを生成<br>アイテムゲージを回復<br>自身に「開運招来」を付与",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001006,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001175,
+          "description": "",
+          "value": 200
+        },
+        {
+          "id": 91002004,
+          "description": "",
+          "value": 4000
+        },
+        {
+          "id": 91001481,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [420, 420, 420, 446, 472, 498, 525],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "福招く一撃",
+      "description": "スキルで撃破時、自身に「魔攻+{0}%」を付与(上限100%)し、自身に「スキルダメージ+{1}%」を付与(上限200%)",
+      "effects": [
+        {
+          "id": 72001158,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 72001159,
+          "description": "",
+          "value": 5000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "一戦の計は初動にあり",
+      "description": "自身のクリティカル確率+{0}%<br>バトル開始時、自身に「自身のHPが50%以上の時、クリティカルダメージ+{1}%」と「自身のHPが70%以上の時、スキルダメージ+{2}%」を付与",
+      "effects": [
+        {
+          "id": 72001160,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 72001171,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 72001172,
+          "description": "",
+          "value": 5000
+        }
+      ]
+    },
+    "start_at": "2024-12-31T15:00:00.000Z"
   },
   {
     "id": 44001,

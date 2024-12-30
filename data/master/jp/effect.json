@@ -1032,6 +1032,14 @@
     "popup_text": ""
   },
   {
+    "description": "氷スキル威力{0}%アップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 3000244,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "次のターン終了時まで敵全体の風耐性を10%減少させる",
     "effect_motion_id": null,
     "field_effect_id": null,
@@ -8264,6 +8272,38 @@
     "popup_text": ""
   },
   {
+    "description": "得意属性が氷属性かつアタッカーの時、単体攻撃のクリティカルダメージアップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000938,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が氷属性かつアタッカーの時、クリティカル攻撃時、自身に「魔攻アップ」を1回行動終了まで付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000939,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が氷属性かつアタッカーの時、クリティカル攻撃時、自身に「スキルダメージアップ」を1回行動終了まで付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000940,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が氷属性かつ自身のHPが70%以上の時、自身のスキルダメージアップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000941,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "得意属性が斬属性かつサポーターの時、スキル発動後、物攻が最も高い味方1人に「バーストスキルダメージアップ」を1回行動終了するまで付与(重複不可)",
     "effect_motion_id": null,
     "field_effect_id": null,
@@ -9348,6 +9388,14 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 13000243,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "敵の数が1体の時、クリティカルダメージ+{0}%",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 13000245,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -12971,6 +13019,38 @@
     "description": "",
     "effect_motion_id": null,
     "field_effect_id": null,
+    "id": 72001158,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72001159,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72001160,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72001161,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
     "id": 72001162,
     "is_positive_popup": null,
     "popup_text": ""
@@ -12980,6 +13060,54 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 72001163,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72001164,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72001168,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72001169,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72001170,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72001171,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72001172,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -13488,10 +13616,50 @@
     "popup_text": ""
   },
   {
+    "description": "相手にマイナス効果が3つあるとき、麻痺を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76007001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "相手にマイナス効果が5つあるとき、麻痺を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76007002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "相手に状態異常があるとき、スタン(1回/付与率30%)を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76007003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "相手に状態異常があるとき、対象のターンを遅らせる",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76007004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "自身をかばう状態(2回)にする",
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 76008001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "仲間全体にあたえるマイナス効果量UP(2回)を付与する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76013001,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -13508,6 +13676,14 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 76017002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "仲間対象に素早さUP(3回)を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76082001,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -14356,6 +14532,94 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 76207005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "仲間全体に回避(2回)を付与する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76210001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に与ダメージUP(3回)を付与する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76210002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "スキル対象に被ダメージUP(3回)を付与する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76210003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "仲間全体に被ダメージDOWN(1回)を付与する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76210005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "仲間全体に受ける強化効果量UP(2回)を付与する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76211001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "スキル対象に素早さDOWN(2回)を付与する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76211002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "スキル対象に被ダメージUP(3回)を付与する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76211003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に与ダメージUP(3回)を付与する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76211004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に被ダメージDOWN(2回)を付与する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76211005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "スキル対象に受ける強化効果量DOWN(2回)を付与する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76211006,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "仲間全体に素早さUP(2回)を付与する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76211007,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -15816,6 +16080,22 @@
     "popup_text": ""
   },
   {
+    "description": "ブレイク時、敵全体に受ける強化効果量UP(2回)を付与する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86013001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "ブレイク時、味方全体に受ける強化効果量UP(2回)を付与する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86013002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "戦闘不能時、特定のバフ解除",
     "effect_motion_id": 1105,
     "field_effect_id": null,
@@ -15940,6 +16220,22 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 86039001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "ブレイク時、敵全体に与えるクリティカルダメージUP(2回)を付与する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86039002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "ブレイク時、敵全体に与える与ダメージUP(2回)を付与する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86039003,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -16472,6 +16768,14 @@
     "popup_text": ""
   },
   {
+    "description": "相手全員に毒を2回付与",
+    "effect_motion_id": 1047,
+    "field_effect_id": null,
+    "id": 86132002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "敵対象にクリティカルダメージDOWN3回付与",
     "effect_motion_id": null,
     "field_effect_id": null,
@@ -16820,6 +17124,62 @@
     "effect_motion_id": 1136,
     "field_effect_id": null,
     "id": 86207005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "ブレイク中に戦闘不能時、相手全体に受けるマイナス効果量UP(3回)を付与する",
+    "effect_motion_id": 1145,
+    "field_effect_id": null,
+    "id": 86210001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "ブレイク中に戦闘不能時、仲間全体に受けるマイナス効果量UP(3回)を付与する",
+    "effect_motion_id": 1145,
+    "field_effect_id": null,
+    "id": 86210002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "氷属性の攻撃を受けるたび、与ダメージDOWN(上限30％)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86211001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "氷属性の攻撃を受けるたび、被ダメージUP(上限50％)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86211002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "ブレイク時、相手全体のデバフ効果をすべて解除する",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86211003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "氷属性のクリティカル攻撃で自身のHPの5％以上のダメージを受けた時、自身に与ダメージDOWN(2回)付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86211004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "氷属性のクリティカル攻撃で自身のHPの5％以上のダメージを受けた時、被ダメージUP(上限100％)ずつ付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86211005,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -20203,6 +20563,94 @@
     "description": "",
     "effect_motion_id": null,
     "field_effect_id": null,
+    "id": 91001479,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001480,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001481,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001482,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001483,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001491,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001492,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001493,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001494,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001495,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001496,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
     "id": 91002004,
     "is_positive_popup": null,
     "popup_text": ""
@@ -21584,10 +22032,50 @@
     "popup_text": ""
   },
   {
+    "description": "自身がサポーターの時、味方全員のスキル威力アップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 95000159,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がサポーターの時、敵の数が1体の時、味方全員のスキルダメージアップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 95000160,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身がディフェンダーの時、攻撃を受けた時、敵全体に「受けるダメージアップ」を1回攻撃を受けるまで付与(上限4個)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 95000161,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が氷属性かつWEAK攻撃時、自身に「クリティカルダメージアップ」を2回行動終了するまで付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 95000162,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "攻撃後、対象に「受ける魔法攻撃ダメージアップ」を2回攻撃を受けるまで付与(上限4個)",
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 95000163,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が雷属性の時、与えるHP回復量アップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 95000167,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -31305,7 +31793,7 @@
   },
   {
     "description": "敵全体に与ダメージDOWN(2回)",
-    "effect_motion_id": null,
+    "effect_motion_id": 1015,
     "field_effect_id": null,
     "id": 780097007,
     "is_positive_popup": null,

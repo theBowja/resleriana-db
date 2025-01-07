@@ -5664,6 +5664,66 @@
         "episode_name": "1週年紀念獻禮戰鬥 第2彈"
       },
       {
+        "quest_id": 6204001,
+        "quest_name": "1週年紀念獻禮戰鬥 第3彈1",
+        "episode_id": 6204,
+        "episode_name": "1週年紀念獻禮戰鬥 第3彈"
+      },
+      {
+        "quest_id": 6204002,
+        "quest_name": "1週年紀念獻禮戰鬥 第3彈2",
+        "episode_id": 6204,
+        "episode_name": "1週年紀念獻禮戰鬥 第3彈"
+      },
+      {
+        "quest_id": 6204003,
+        "quest_name": "1週年紀念獻禮戰鬥 第3彈3",
+        "episode_id": 6204,
+        "episode_name": "1週年紀念獻禮戰鬥 第3彈"
+      },
+      {
+        "quest_id": 6204004,
+        "quest_name": "1週年紀念獻禮戰鬥 第3彈4",
+        "episode_id": 6204,
+        "episode_name": "1週年紀念獻禮戰鬥 第3彈"
+      },
+      {
+        "quest_id": 6204005,
+        "quest_name": "1週年紀念獻禮戰鬥 第3彈5",
+        "episode_id": 6204,
+        "episode_name": "1週年紀念獻禮戰鬥 第3彈"
+      },
+      {
+        "quest_id": 6204006,
+        "quest_name": "1週年紀念獻禮戰鬥 第3彈6",
+        "episode_id": 6204,
+        "episode_name": "1週年紀念獻禮戰鬥 第3彈"
+      },
+      {
+        "quest_id": 6204007,
+        "quest_name": "1週年紀念獻禮戰鬥 第3彈7",
+        "episode_id": 6204,
+        "episode_name": "1週年紀念獻禮戰鬥 第3彈"
+      },
+      {
+        "quest_id": 6304001,
+        "quest_name": "挑戰戰鬥 鍊金黨1",
+        "episode_id": 6304,
+        "episode_name": "挑戰戰鬥 鍊金黨"
+      },
+      {
+        "quest_id": 6304002,
+        "quest_name": "挑戰戰鬥 鍊金黨2",
+        "episode_id": 6304,
+        "episode_name": "挑戰戰鬥 鍊金黨"
+      },
+      {
+        "quest_id": 6304003,
+        "quest_name": "挑戰戰鬥 鍊金黨3",
+        "episode_id": 6304,
+        "episode_name": "挑戰戰鬥 鍊金黨"
+      },
+      {
         "quest_id": 204101002,
         "quest_name": "在濕地前方的森林",
         "difficulty": "NORMAL",
@@ -40170,6 +40230,1422 @@
     "image_small": "Ingredient_0705_S",
     "image_medium": "Ingredient_0705_M",
     "start_at": "2024-12-24T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 716,
+    "name": "黏糊糊菇",
+    "rarity": 2,
+    "color": "紅",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [
+      {
+        "id": 5,
+        "name": "魔力之祝福",
+        "category": "ATTACK",
+        "description": "魔法攻擊傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻擊傷害上升{0}%。",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "魔力之詛咒",
+        "category": "WEAKENING",
+        "description": "賦予目標「所受魔法攻擊傷害上升{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "賦予目標「所受魔法攻擊傷害上升{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6104001,
+        "quest_name": "爆裂！！瑪莉給予的試煉1",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！瑪莉給予的試煉"
+      },
+      {
+        "quest_id": 6104003,
+        "quest_name": "爆裂！！瑪莉給予的試煉3",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！瑪莉給予的試煉"
+      }
+    ],
+    "image_small": "Ingredient_0716_S",
+    "image_medium": "Ingredient_0716_M",
+    "start_at": "2025-01-07T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 717,
+    "name": "藍熔泥鰍",
+    "rarity": 2,
+    "color": "紫",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 26,
+        "name": "魔法耐性上升",
+        "category": "ENHANCE",
+        "description": "所受魔法攻擊傷害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000027,
+            "description": "魔法屬性傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "給予傷害上升",
+        "category": "ATTACK",
+        "description": "技能傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000011,
+            "description": "技能傷害上升{0}%。",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6104001,
+        "quest_name": "爆裂！！瑪莉給予的試煉1",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！瑪莉給予的試煉"
+      },
+      {
+        "quest_id": 6104003,
+        "quest_name": "爆裂！！瑪莉給予的試煉3",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！瑪莉給予的試煉"
+      }
+    ],
+    "image_small": "Ingredient_0717_S",
+    "image_medium": "Ingredient_0717_M",
+    "start_at": "2025-01-07T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 718,
+    "name": "鎧甲蟹",
+    "rarity": 2,
+    "color": "綠",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [
+      {
+        "id": 18,
+        "name": "火之詛咒",
+        "category": "WEAKENING",
+        "description": "賦予目標「火屬性耐性下降{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "賦予目標「火屬性耐性下降{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "重擊成果",
+        "category": "ENHANCE",
+        "description": "賦予「重擊率上升{0}%」，直到行動結束1次為止。",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "賦予「重擊率上升{0}%」，直到行動結束1次為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6104001,
+        "quest_name": "爆裂！！瑪莉給予的試煉1",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！瑪莉給予的試煉"
+      },
+      {
+        "quest_id": 6104003,
+        "quest_name": "爆裂！！瑪莉給予的試煉3",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！瑪莉給予的試煉"
+      }
+    ],
+    "image_small": "Ingredient_0718_S",
+    "image_medium": "Ingredient_0718_M",
+    "start_at": "2025-01-07T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 719,
+    "name": "人縛草",
+    "rarity": 3,
+    "color": "藍",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 60,
+        "name": "重擊傷害上升",
+        "category": "ATTACK",
+        "description": "重擊傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 13000011,
+            "description": "重擊傷害上升。",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "破防中傷害上升",
+        "category": "ATTACK",
+        "description": "對破防狀態的敵人傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "對破防狀態的敵人傷害上升{0}%。",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6104002,
+        "quest_name": "爆裂！！瑪莉給予的試煉2",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！瑪莉給予的試煉"
+      },
+      {
+        "quest_id": 6104003,
+        "quest_name": "爆裂！！瑪莉給予的試煉3",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！瑪莉給予的試煉"
+      }
+    ],
+    "image_small": "Ingredient_0719_S",
+    "image_medium": "Ingredient_0719_M",
+    "start_at": "2025-01-07T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 720,
+    "name": "晶透貝",
+    "rarity": 3,
+    "color": "黃",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 63,
+        "name": "技能2威力上升",
+        "category": "ATTACK",
+        "description": "技能2的技能威力上升{0}%。",
+        "effects": [
+          {
+            "id": 3000168,
+            "description": "技能2威力上升{0}%。",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "冰耐性上升",
+        "category": "ENHANCE",
+        "description": "冰屬性耐性上升{0}%。",
+        "effects": [
+          {
+            "id": 3000023,
+            "description": "冰屬性傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6104002,
+        "quest_name": "爆裂！！瑪莉給予的試煉2",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！瑪莉給予的試煉"
+      },
+      {
+        "quest_id": 6104003,
+        "quest_name": "爆裂！！瑪莉給予的試煉3",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！瑪莉給予的試煉"
+      }
+    ],
+    "image_small": "Ingredient_0720_S",
+    "image_medium": "Ingredient_0720_M",
+    "start_at": "2025-01-07T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 721,
+    "name": "闇之卵",
+    "rarity": 3,
+    "color": "黃",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 62,
+        "name": "接受回復量上升",
+        "category": "RECOVERY",
+        "description": "所受HP回復量+{0}%。",
+        "effects": [
+          {
+            "id": 13000002,
+            "description": "接受回復量上升。",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "物理耐性上升",
+        "category": "ENHANCE",
+        "description": "所受物理攻擊傷害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "物理屬性傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6104002,
+        "quest_name": "爆裂！！瑪莉給予的試煉2",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！瑪莉給予的試煉"
+      },
+      {
+        "quest_id": 6104003,
+        "quest_name": "爆裂！！瑪莉給予的試煉3",
+        "episode_id": 6104,
+        "episode_name": "爆裂！！瑪莉給予的試煉"
+      }
+    ],
+    "image_small": "Ingredient_0721_S",
+    "image_medium": "Ingredient_0721_M",
+    "start_at": "2025-01-07T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 728,
+    "name": "螢火草",
+    "rarity": 2,
+    "color": "紅",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 55,
+        "name": "噗尼傷害上升",
+        "category": "ATTACK",
+        "description": "給予噗尼種族的傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000079,
+            "description": "給予噗尼種族的傷害上升{0}%。",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "name": "接受回復量上升",
+        "category": "RECOVERY",
+        "description": "所受HP回復量+{0}%。",
+        "effects": [
+          {
+            "id": 13000002,
+            "description": "接受回復量上升。",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204118001,
+        "quest_name": "盧庫魯克州的魔物群‧1【藍】",
+        "difficulty": "NORMAL",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118004,
+        "quest_name": "愕然與憤慨【黃/綠】",
+        "difficulty": "NORMAL",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118005,
+        "quest_name": "盧庫魯克州的魔物群‧1【藍】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118008,
+        "quest_name": "愕然與憤慨【黃/綠】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0728_S",
+    "image_medium": "Ingredient_0728_M",
+    "start_at": "2025-01-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 729,
+    "name": "鹹水",
+    "rarity": 2,
+    "color": "黃",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 30,
+        "name": "物理傷害上升【殘血】",
+        "category": "ATTACK",
+        "description": "HP在50%以下時，物理攻擊傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000101,
+            "description": "HP在50%以下時，給予的物理屬性傷害上升{0}%。",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "name": "精靈傷害減輕",
+        "category": "ENHANCE",
+        "description": "來自精靈種族的傷害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000087,
+            "description": "賦予目標來自精靈種族的傷害下降{0}%（1次）。",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204118002,
+        "quest_name": "盧庫魯克州的魔物群‧2【紅】",
+        "difficulty": "NORMAL",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118004,
+        "quest_name": "愕然與憤慨【黃/綠】",
+        "difficulty": "NORMAL",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118006,
+        "quest_name": "盧庫魯克州的魔物群‧2【紅】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118008,
+        "quest_name": "愕然與憤慨【黃/綠】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0729_S",
+    "image_medium": "Ingredient_0729_M",
+    "start_at": "2025-01-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 730,
+    "name": "沉積物",
+    "rarity": 2,
+    "color": "紫",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [
+      {
+        "id": 43,
+        "name": "尋找水棲弱點",
+        "category": "WEAKENING",
+        "description": "賦予目標「水棲種族所受傷害上升{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000098,
+            "description": "賦予目標「水棲種族所受傷害上升{0}%」，直到受1次攻擊為止。",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "物防之祝福",
+        "category": "ENHANCE",
+        "description": "賦予「物防上升{0}%」，直到被攻擊1次為止。",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "賦予「物防上升{0}%」，直到被攻擊1次為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204118003,
+        "quest_name": "極夜的奴僕們‧2【紫】",
+        "difficulty": "NORMAL",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118004,
+        "quest_name": "愕然與憤慨【黃/綠】",
+        "difficulty": "NORMAL",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118007,
+        "quest_name": "極夜的奴僕們‧2【紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118008,
+        "quest_name": "愕然與憤慨【黃/綠】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0730_S",
+    "image_medium": "Ingredient_0730_M",
+    "start_at": "2025-01-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 731,
+    "name": "金輝魚",
+    "rarity": 3,
+    "color": "藍",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [
+      {
+        "id": 23,
+        "name": "打之盾",
+        "category": "ENHANCE",
+        "description": "賦予目標「打屬性耐性上升{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000071,
+            "description": "賦予目標「打屬性耐性上升{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "剛力之詛咒",
+        "category": "WEAKENING",
+        "description": "賦予目標「所受物理攻擊傷害上升{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000047,
+            "description": "賦予目標「所受物理攻擊傷害上升{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204118005,
+        "quest_name": "盧庫魯克州的魔物群‧1【藍】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118008,
+        "quest_name": "愕然與憤慨【黃/綠】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0731_S",
+    "image_medium": "Ingredient_0731_M",
+    "start_at": "2025-01-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 732,
+    "name": "禮服菇",
+    "rarity": 3,
+    "color": "黃",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "技能威力上升",
+        "category": "ATTACK",
+        "description": "技能威力上升{0}%。",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "技能威力上升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "打傷害上升",
+        "category": "ATTACK",
+        "description": "打屬性技能傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "打屬性傷害上升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204118006,
+        "quest_name": "盧庫魯克州的魔物群‧2【紅】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118008,
+        "quest_name": "愕然與憤慨【黃/綠】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0732_S",
+    "image_medium": "Ingredient_0732_M",
+    "start_at": "2025-01-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 733,
+    "name": "斷崖鬚木",
+    "rarity": 3,
+    "color": "綠",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 27,
+        "name": "單體攻擊威力上升",
+        "category": "ATTACK",
+        "description": "單體攻擊的技能威力上升{0}%。",
+        "effects": [
+          {
+            "id": 3000111,
+            "description": "單體攻擊的技能威力上升{0}％。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "物理耐性上升",
+        "category": "ENHANCE",
+        "description": "所受物理攻擊傷害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "物理屬性傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204118007,
+        "quest_name": "極夜的奴僕們‧2【紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118008,
+        "quest_name": "愕然與憤慨【黃/綠】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0733_S",
+    "image_medium": "Ingredient_0733_M",
+    "start_at": "2025-01-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 741,
+    "name": "可燃土",
+    "rarity": 2,
+    "color": "綠",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 47,
+        "name": "回復量上升【D】",
+        "category": "RECOVERY",
+        "description": "賦予防禦者的回復量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000076,
+            "description": "對防禦者的回復量上升{0}%。",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "火耐性上升",
+        "category": "ENHANCE",
+        "description": "火屬性耐性上升{0}%。",
+        "effects": [
+          {
+            "id": 3000022,
+            "description": "火屬性傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6504001,
+        "quest_name": "旋風！！優蒂給予的試煉1",
+        "episode_id": 6504,
+        "episode_name": "旋風！！優蒂給予的試煉"
+      },
+      {
+        "quest_id": 6504003,
+        "quest_name": "旋風！！優蒂給予的試煉3",
+        "episode_id": 6504,
+        "episode_name": "旋風！！優蒂給予的試煉"
+      }
+    ],
+    "image_small": "Ingredient_0741_S",
+    "image_medium": "Ingredient_0741_M",
+    "start_at": "2025-01-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 742,
+    "name": "活著的尾巴",
+    "rarity": 2,
+    "color": "紫",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 41,
+        "name": "全體回復量上升",
+        "category": "RECOVERY",
+        "description": "我方全體回復時賦予的HP回復量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "全體回復時賦予的HP回復量上升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "傷害增益強化【B】",
+        "category": "ENHANCE",
+        "description": "賦予破壞者的傷害強化效果量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000018,
+            "description": "對破壞者的傷害增益上升{0}%。",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6504001,
+        "quest_name": "旋風！！優蒂給予的試煉1",
+        "episode_id": 6504,
+        "episode_name": "旋風！！優蒂給予的試煉"
+      },
+      {
+        "quest_id": 6504003,
+        "quest_name": "旋風！！優蒂給予的試煉3",
+        "episode_id": 6504,
+        "episode_name": "旋風！！優蒂給予的試煉"
+      }
+    ],
+    "image_small": "Ingredient_0742_S",
+    "image_medium": "Ingredient_0742_M",
+    "start_at": "2025-01-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 743,
+    "name": "劣作的碎片",
+    "rarity": 2,
+    "color": "紅",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [
+      {
+        "id": 51,
+        "name": "破壞力上升",
+        "category": "ATTACK",
+        "description": "戰鬥道具賦予的傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "戰鬥道具賦予的傷害上升{0}%。",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "魔力之詛咒",
+        "category": "WEAKENING",
+        "description": "賦予目標「所受魔法攻擊傷害上升{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "賦予目標「所受魔法攻擊傷害上升{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6504001,
+        "quest_name": "旋風！！優蒂給予的試煉1",
+        "episode_id": 6504,
+        "episode_name": "旋風！！優蒂給予的試煉"
+      },
+      {
+        "quest_id": 6504003,
+        "quest_name": "旋風！！優蒂給予的試煉3",
+        "episode_id": 6504,
+        "episode_name": "旋風！！優蒂給予的試煉"
+      }
+    ],
+    "image_small": "Ingredient_0743_S",
+    "image_medium": "Ingredient_0743_M",
+    "start_at": "2025-01-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 744,
+    "name": "驅散病魔藥葉",
+    "rarity": 3,
+    "color": "綠",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [
+      {
+        "id": 48,
+        "name": "一次性攻擊強化",
+        "category": "ATTACK",
+        "description": "使用次數為1次時，傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000108,
+            "description": "使用次數為1次時，傷害上升{0}%。",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "剛力之詛咒",
+        "category": "WEAKENING",
+        "description": "賦予目標「所受物理攻擊傷害上升{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000047,
+            "description": "賦予目標「所受物理攻擊傷害上升{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6504002,
+        "quest_name": "旋風！！優蒂給予的試煉2",
+        "episode_id": 6504,
+        "episode_name": "旋風！！優蒂給予的試煉"
+      },
+      {
+        "quest_id": 6504003,
+        "quest_name": "旋風！！優蒂給予的試煉3",
+        "episode_id": 6504,
+        "episode_name": "旋風！！優蒂給予的試煉"
+      }
+    ],
+    "image_small": "Ingredient_0744_S",
+    "image_medium": "Ingredient_0744_M",
+    "start_at": "2025-01-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 745,
+    "name": "樹籠妖花",
+    "rarity": 3,
+    "color": "藍",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 14,
+        "name": "物理破防傷害上升",
+        "category": "ATTACK",
+        "description": "物理攻擊的破防傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000013,
+            "description": "物理屬性攻擊破防傷害上升{0}%。",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "name": "物理/魔法耐性下降強化",
+        "category": "WEAKENING",
+        "description": "目標賦予的「所受物理傷害上升」與「所受魔法傷害上升」的效果量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000030,
+            "description": "目標賦予的「所受物理傷害上升」與「所受魔法傷害上升」的效果量上升{0}%。",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6504002,
+        "quest_name": "旋風！！優蒂給予的試煉2",
+        "episode_id": 6504,
+        "episode_name": "旋風！！優蒂給予的試煉"
+      },
+      {
+        "quest_id": 6504003,
+        "quest_name": "旋風！！優蒂給予的試煉3",
+        "episode_id": 6504,
+        "episode_name": "旋風！！優蒂給予的試煉"
+      }
+    ],
+    "image_small": "Ingredient_0745_S",
+    "image_medium": "Ingredient_0745_M",
+    "start_at": "2025-01-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 746,
+    "name": "橙淨冰石",
+    "rarity": 3,
+    "color": "黃",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "技能威力上升",
+        "category": "ATTACK",
+        "description": "技能威力上升{0}%。",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "技能威力上升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "name": "全體攻擊耐性上升",
+        "category": "ENHANCE",
+        "description": "所受全體攻擊傷害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000112,
+            "description": "全體攻擊的所受傷害下降{0}％。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6504002,
+        "quest_name": "旋風！！優蒂給予的試煉2",
+        "episode_id": 6504,
+        "episode_name": "旋風！！優蒂給予的試煉"
+      },
+      {
+        "quest_id": 6504003,
+        "quest_name": "旋風！！優蒂給予的試煉3",
+        "episode_id": 6504,
+        "episode_name": "旋風！！優蒂給予的試煉"
+      }
+    ],
+    "image_small": "Ingredient_0746_S",
+    "image_medium": "Ingredient_0746_M",
+    "start_at": "2025-01-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 750,
+    "name": "虹魚",
+    "rarity": 2,
+    "color": "藍",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 13,
+        "name": "破防傷害上升",
+        "category": "ATTACK",
+        "description": "破防傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000012,
+            "description": "破防傷害上升{0}%。",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "name": "物理耐性上升【滿血】",
+        "category": "ENHANCE",
+        "description": "HP全滿時，所受物理攻擊傷害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000105,
+            "description": "HP為最大值時，物理屬性傷害耐性上升{0}%。",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204119001,
+        "quest_name": "極夜的魔物群‧3【黃】",
+        "difficulty": "NORMAL",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204119004,
+        "quest_name": "極夜的魔物群‧3【黃】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0750_S",
+    "image_medium": "Ingredient_0750_M",
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 751,
+    "name": "香草香水",
+    "rarity": 2,
+    "color": "紅",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 47,
+        "name": "回復量上升【D】",
+        "category": "RECOVERY",
+        "description": "賦予防禦者的回復量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000076,
+            "description": "對防禦者的回復量上升{0}%。",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "打耐性上升",
+        "category": "ENHANCE",
+        "description": "打屬性耐性上升{0}%。",
+        "effects": [
+          {
+            "id": 3000021,
+            "description": "打屬性傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204119002,
+        "quest_name": "做出頂級飼料吧！‧2【藍/紫】",
+        "difficulty": "NORMAL",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204119005,
+        "quest_name": "做出頂級飼料吧！‧2【藍/紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0751_S",
+    "image_medium": "Ingredient_0751_M",
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 752,
+    "name": "純粹粉末",
+    "rarity": 2,
+    "color": "黃",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [
+      {
+        "id": 17,
+        "name": "魔力之詛咒",
+        "category": "WEAKENING",
+        "description": "賦予目標「所受魔法攻擊傷害上升{0}%」，直到受1次攻擊為止。",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "賦予目標「所受魔法攻擊傷害上升{0}%」，直到受1次攻擊為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "一次性回復強化",
+        "category": "RECOVERY",
+        "description": "使用次數為1次時，HP回復量上升{0}%。",
+        "effects": [
+          {
+            "id": 3000109,
+            "description": "使用次數為1次時，HP回復量上升{0}%。",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204119002,
+        "quest_name": "做出頂級飼料吧！‧2【藍/紫】",
+        "difficulty": "NORMAL",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204119005,
+        "quest_name": "做出頂級飼料吧！‧2【藍/紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0752_S",
+    "image_medium": "Ingredient_0752_M",
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 753,
+    "name": "萬象巨藤",
+    "rarity": 3,
+    "color": "綠",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "技能威力上升",
+        "category": "ATTACK",
+        "description": "技能威力上升{0}%。",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "技能威力上升{0}%。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "單體攻擊威力上升",
+        "category": "ATTACK",
+        "description": "單體攻擊的技能威力上升{0}%。",
+        "effects": [
+          {
+            "id": 3000111,
+            "description": "單體攻擊的技能威力上升{0}％。",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204119004,
+        "quest_name": "極夜的魔物群‧3【黃】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0753_S",
+    "image_medium": "Ingredient_0753_M",
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 754,
+    "name": "輝耀原砂",
+    "rarity": 3,
+    "color": "藍",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [
+      {
+        "id": 3,
+        "name": "打之祝福",
+        "category": "ATTACK",
+        "description": "打屬性傷害上升{0}%。",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "打屬性傷害上升{0}%。",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "重擊成果",
+        "category": "ENHANCE",
+        "description": "賦予「重擊率上升{0}%」，直到行動結束1次為止。",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "賦予「重擊率上升{0}%」，直到行動結束1次為止。",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204119005,
+        "quest_name": "做出頂級飼料吧！‧2【藍/紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0754_S",
+    "image_medium": "Ingredient_0754_M",
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 755,
+    "name": "琥珀油",
+    "rarity": 3,
+    "color": "紫",
+    "description": "執行調合時不可或缺的素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 26,
+        "name": "魔法耐性上升",
+        "category": "ENHANCE",
+        "description": "所受魔法攻擊傷害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000027,
+            "description": "魔法屬性傷害耐性上升{0}%。",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "name": "物理耐性上升【滿血】",
+        "category": "ENHANCE",
+        "description": "HP全滿時，所受物理攻擊傷害下降{0}%。",
+        "effects": [
+          {
+            "id": 3000105,
+            "description": "HP為最大值時，物理屬性傷害耐性上升{0}%。",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204119005,
+        "quest_name": "做出頂級飼料吧！‧2【藍/紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0755_S",
+    "image_medium": "Ingredient_0755_M",
+    "start_at": "2025-02-12T03:00:00.000Z",
     "end_at": null
   }
 ]

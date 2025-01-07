@@ -599,6 +599,219 @@
     "start_at": "2024-09-02T03:00:00.000Z"
   },
   {
+    "id": 10104,
+    "name": "Marie",
+    "title": "Bomber Cat",
+    "full_name": "Marlone",
+    "base_character": "Marie",
+    "is_alchemist": true,
+    "gender": "Female",
+    "attribute": "ICE",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "Just leave this to me! I'll clear the way for everyone!",
+    "profile": {
+      "voice_actor": "Haruna Ikezawa",
+      "voice_text": "When it comes to handling bombs, I'm your girl! Let me show you the fruits of my research!",
+      "description": "A cheerful and easygoing alchemist. Though she was once a school dropout known as the Bomberwoman, she has since become a skilled alchemist. This outfit was designed for the battle against the Polar Night Alchemists, making it easier to handle bombs. Thanks to her experience, her bomb synthesis and recipe adjustments are second to none.",
+      "origin_game": "Atelier Marie: The Alchemist of Salburg"
+    },
+    "gift_color": {
+      "received": "Green",
+      "given": "Blue"
+    },
+    "battle_item_trait": [
+      {
+        "id": 19,
+        "name": "Ice Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000060,
+            "description": "Reduces target's Ice resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "Chaser Charge",
+        "category": "ATTACK",
+        "description": "Boosts damage to stunned enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "Boosts damage to stunned enemies by {0}%.",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 7,
+        "name": "Ice Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Ice skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "Boosts Ice damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 150,
+        "spd": 230,
+        "patk": 53,
+        "matk": 67,
+        "pdef": 49,
+        "mdef": 45
+      },
+      "growth": {
+        "hp": 1500,
+        "spd": 0,
+        "patk": 530,
+        "matk": 670,
+        "pdef": 490,
+        "mdef": 450
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 5,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "Ice Rod",
+      "description": "Before attacking, removes own negative effects. After attacking, boosts own M. ATK by {0}% for 2 turns.",
+      "summary": "Before attack, removes own negative effects. After attack, boosts own M. ATK.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001376,
+          "description": "魔攻アップ(2回)",
+          "value": 1500
+        },
+        {
+          "id": 91001007,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [82, 87, 92, 97, 102],
+      "has_stun": true,
+      "stun_values": [11, 11, 12, 12, 13],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "Crystal Ice Bomb: MK II",
+      "description": "When target is stunned, boosts damage by {0}%. After attacking, boosts own skill damage by {1}% for 2 turns and boosts target's stun damage received by {2}% for 2 attacks.",
+      "summary": "Boosts damage while target is stunned. After attack, boosts own skill damage and boosts target's stun damage received.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000906,
+          "description": "",
+          "value": 4000
+        },
+        {
+          "id": 91001006,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91000973,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [160, 170, 180, 190, 200],
+      "has_stun": true,
+      "stun_values": [18, 19, 20, 21, 22],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "Explosive Hail Blast",
+      "description": "Boosts damage by {0}% while target is stunned. Before attacking, boosts own skill damage by {1}%. (MAX 100%) After attacking, if own next panel is not a burst panel, converts it into a boost+ panel. (Creates a boost+ panel if the panel is empty)",
+      "summary": "Boosts damage while target is stunned. Before attack, boosts own skill damage. After attack, converts certain types of own panels into a boost+ panel.",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91000906,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001390,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001253,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [288, 288, 288, 306, 324, 342, 360],
+      "has_stun": true,
+      "stun_values": [48, 48, 48, 51, 54, 57, 60],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "Marie, Assault Leader",
+      "description": "Boosts own M. ATK by {0}% when defeating an enemy with a skill. (MAX 30%)",
+      "effects": [
+        {
+          "id": 72001121,
+          "description": "",
+          "value": 1000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "I'll Get It Done and Dusted!",
+      "description": "When attack target is stunned, boosts own skill damage by {0}%. (MAX 60%)",
+      "effects": [
+        {
+          "id": 72001122,
+          "description": "",
+          "value": 2000
+        }
+      ]
+    },
+    "start_at": "2024-11-18T03:00:00.000Z"
+  },
+  {
     "id": 10301,
     "name": "Mu",
     "title": "The Southern Adventurer",
@@ -1580,6 +1793,204 @@
       ]
     },
     "start_at": "2024-01-25T03:00:00.000Z"
+  },
+  {
+    "id": 15102,
+    "name": "Judie",
+    "title": "Heroic Assault",
+    "full_name": "Judith Volltone",
+    "base_character": "Judie",
+    "is_alchemist": true,
+    "gender": "Female",
+    "attribute": "FIRE",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "I won't give up! Whatever setbacks come my way, I'll flip them right around!",
+    "profile": {
+      "voice_actor": "Rie Kanda",
+      "voice_text": "I've got a few tricks up my sleeve for battle. Watch out for them!",
+      "description": "A clumsy alchemist who has been traveling with Keithgriff to gather information about the Dragon Hourglass. Her outfit is designed for frontal assault, supporting her as she charges into battle, relying on her innate ability to make quick decisions.",
+      "origin_game": "Atelier Judie: The Alchemist of Gramnad"
+    },
+    "gift_color": {
+      "received": "Green",
+      "given": "Yellow"
+    },
+    "battle_item_trait": [
+      {
+        "id": 51,
+        "name": "Destructive Power Boost",
+        "category": "ATTACK",
+        "description": "Boosts damage of battle items by {0}%.",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "Boosts damage of battle items by {0}%.",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Magic Blessing",
+        "category": "ATTACK",
+        "description": "Boosts magic attack damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "Boosts magic attack damage by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 27,
+        "name": "Single Attack Power Up",
+        "category": "ATTACK",
+        "description": "Boosts single-target skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000111,
+            "description": "Boosts skill power of single-target attacks by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 144,
+        "spd": 249,
+        "patk": 53,
+        "matk": 68,
+        "pdef": 48,
+        "mdef": 52
+      },
+      "growth": {
+        "hp": 1440,
+        "spd": 0,
+        "patk": 530,
+        "matk": 680,
+        "pdef": 480,
+        "mdef": 520
+      },
+      "resistance": {
+        "fire": 5,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "Sphere of Fire",
+      "description": "After attacking, boosts target's critical damage received by {0}% for 2 attacks.",
+      "summary": "After attack, boosts target's critical damage received.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001311,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [72, 76, 81, 85, 90],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "Burning Leash",
+      "description": "After attacking, boosts all allied Attackers' critical rate by {0}% (MAX 100%) and boosts all allied Attackers' critical damage by {1}%. (MAX 50%)",
+      "summary": "After attack, boosts all allied Attackers' critical rate and critical damage.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001402,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001403,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [265, 281, 298, 314, 331],
+      "has_stun": true,
+      "stun_values": [27, 28, 30, 31, 33],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "Hidden Tactic: Hyper Meteor",
+      "description": "After attacking, boosts target's critical damage received by {0}% for 2 attacks. On critical attack, converts the panel of the next ally in turn order at the time of skill use into a burst panel. (Creates a burst panel if the panel is empty)",
+      "summary": "After attack, boosts target's critical damage received. On critical attack, converts the panel of the next ally into a burst panel.",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001311,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001283,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [252, 252, 252, 267, 283, 299, 315],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "Overeager Tomboy",
+      "description": "Boosts potency of damage buffs received and given by {0}%.",
+      "effects": [
+        {
+          "id": 72001058,
+          "description": "[自身/受けるダメージ強化の効果量アップ]",
+          "value": 2000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "I'll Get You for That!",
+      "description": "After using a skill, boosts own M. ATK by {0}%. (MAX 50%)",
+      "effects": [
+        {
+          "id": 72001127,
+          "description": "[自身/魔攻上昇(上限50%)]",
+          "value": 1000
+        }
+      ]
+    },
+    "start_at": "2025-01-22T03:00:00.000Z"
   },
   {
     "id": 16501,
@@ -2767,6 +3178,219 @@
       ]
     },
     "start_at": "2024-08-05T03:00:00.000Z"
+  },
+  {
+    "id": 25504,
+    "name": "Rorona",
+    "title": "Sweetie Rabbit",
+    "full_name": "Rorolina Frixell",
+    "base_character": "Rorona",
+    "is_alchemist": true,
+    "gender": "Female",
+    "attribute": "FIRE",
+    "role": "DEFENDER",
+    "initial_rarity": 3,
+    "acquisition_text": "Ready for battle! Rorona the alchemist, prepared to give it my all!",
+    "profile": {
+      "voice_actor": "Mai Kadowaki",
+      "voice_text": "This outfit makes me feel like a really capable alchemist, and I think it's rather stylish, too!",
+      "description": "A bright and energetic alchemist. She loves alchemy and is very particular when it comes to pies. She is wearing a functional and sturdy outfit as she works alongside Marie to synthesize bombs in preparation for the battle with the Polar Night Alchemists. Even while synthesizing bombs, her unique ideas never fail to surprise those around her.",
+      "origin_game": "Atelier Rorona ~The Alchemist of Arland~"
+    },
+    "gift_color": {
+      "received": "Yellow",
+      "given": "Red"
+    },
+    "battle_item_trait": [
+      {
+        "id": 10,
+        "name": "Guardian's Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts P. DEF by {0}% and M. DEF by {1}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "Boosts P. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "Boosts M. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Mighty Curse",
+        "category": "WEAKENING",
+        "description": "Boosts physical damage target receives by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000047,
+            "description": "Boosts physical damage target receives by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 21,
+        "name": "Fire Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Fire resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000022,
+            "description": "Boosts Fire damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 200,
+        "spd": 242,
+        "patk": 49,
+        "matk": 55,
+        "pdef": 62,
+        "mdef": 63
+      },
+      "growth": {
+        "hp": 2000,
+        "spd": 0,
+        "patk": 490,
+        "matk": 550,
+        "pdef": 620,
+        "mdef": 630
+      },
+      "resistance": {
+        "fire": 5,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "Fire Beat",
+      "description": "After attacking, reduces target's damage by {0}% for 2 turns, and restores own HP by {1}%.",
+      "summary": "After attacking, reduces target's damage and restores own HP.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000916,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91000926,
+          "description": "",
+          "value": 1500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [34, 36, 38, 40, 42],
+      "has_stun": true,
+      "stun_values": [2, 2, 2, 2, 2],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "Sizzling Delivery",
+      "description": "After attacking, boosts skill damage of the ally with the highest M. ATK before this skill was used by {0}% for 2 turns and reduces all allies' damage received by {1}% for 2 attacks.",
+      "summary": "After attack, boosts skill damage of the ally with the highest M. ATK and reduces all allies' damage received.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001393,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91002029,
+          "description": "",
+          "value": 2500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [197, 209, 221, 233, 246],
+      "has_stun": true,
+      "stun_values": [29, 30, 32, 34, 36],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "Final Weapon: Fresh-Baked Pie Button",
+      "description": "After attacking, reduces target's damage by {0}% for 2 turns, and reduces target's SPD by {1}% for 2 turns.",
+      "summary": "After attack, reduces target's damage and reduces target's SPD.",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91000916,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001394,
+          "description": "",
+          "value": 500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "FIRE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [240, 240, 240, 255, 270, 285, 300],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "Sweet Smell of Pie",
+      "description": "Becomes targeted by enemies much more easily.<br> Reduces all allies' damage received by {0}%.",
+      "effects": [
+        {
+          "id": 72000951,
+          "description": "[All Allies/Constant/Received Damage Down]",
+          "value": 1000
+        },
+        {
+          "id": 72000914,
+          "description": "Raises odds of being targeted by 100%.",
+          "value": 10000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "So Hungry!",
+      "description": "When attacked while own HP is not full, converts all of own panels other than burst panels into HP recovery panels. (Creates an HP recovery panel if the panel is empty)",
+      "effects": [
+        {
+          "id": 72001055,
+          "description": "[自身/被弾時/自身のHPが100%未満/バーストパネル以外を回復パネルに変換or生成]",
+          "value": 1000
+        }
+      ]
+    },
+    "start_at": "2024-11-18T03:00:00.000Z"
   },
   {
     "id": 25601,
@@ -12802,6 +13426,204 @@
     "start_at": "2024-10-21T03:00:00.000Z"
   },
   {
+    "id": 39905,
+    "name": "Ryza",
+    "title": "Brave Blaze",
+    "full_name": "Reisalin Stout",
+    "base_character": "Ryza",
+    "is_alchemist": true,
+    "gender": "Female",
+    "attribute": "STRIKE",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "I'll stand and fight with everyone to protect the places I love!",
+    "profile": {
+      "voice_actor": "Yuri Noguchi",
+      "voice_text": "I'm ready to fight. I'll do my best to meet everyone's expectations!",
+      "description": "An adventurous alchemist who usually works at the Star's Cocoon Cafe in the capital, gathering information on the side. Her outfit is both light and durable, allowing for agile movement. Following her sense of justice, she supports Resna and the others in their fight against the Polar Night Alchemists.",
+      "origin_game": "Atelier Ryza: Ever Darkness & the Secret Hideout"
+    },
+    "gift_color": {
+      "received": "Red",
+      "given": "Blue"
+    },
+    "battle_item_trait": [
+      {
+        "id": 48,
+        "name": "Enhanced Last Attack",
+        "category": "ATTACK",
+        "description": "Boosts damage by {0}% on final use.",
+        "effects": [
+          {
+            "id": 3000108,
+            "description": "Boosts damage by {0}% on final use.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "M. DEF Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts M. DEF by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000051,
+            "description": "Boosts M. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 68,
+        "name": "Skill 2 Stun Damage Up",
+        "category": "ATTACK",
+        "description": "Boosts Skill 2's stun damage by {0}%.",
+        "effects": [
+          {
+            "id": 13000160,
+            "description": "Boosts Skill 2 stun damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 146,
+        "spd": 246,
+        "patk": 65,
+        "matk": 50,
+        "pdef": 45,
+        "mdef": 47
+      },
+      "growth": {
+        "hp": 1460,
+        "spd": 0,
+        "patk": 650,
+        "matk": 500,
+        "pdef": 450,
+        "mdef": 470
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 5,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "Reddish Crash",
+      "description": "After attacking, boosts own stun damage by {0}% for 1 turn.",
+      "summary": "After attacking, boosts own stun damage.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000908,
+          "description": "",
+          "value": 4000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [48, 51, 54, 57, 60],
+      "has_stun": true,
+      "stun_values": [16, 17, 18, 19, 20],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "Gemini Strike",
+      "description": "After attacking, boosts target's physical attack damage received by {0}%. (MAX 30%)<br>If the panel of the next ally in turn order at the time of skill use is not a burst panel, converts the panel into a boost panel. (Creates a boost panel if the panel is empty)",
+      "summary": "After attack, boosts target's physical attack damage received.<br>If the panel of the next ally is not a burst panel, converts the panel into a boost panel.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001400,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91001401,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [100, 106, 112, 118, 125],
+      "has_stun": true,
+      "stun_values": [47, 49, 52, 55, 58],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "Celestial Attractor",
+      "description": "After attacking, boosts target's physical attack damage received by {0}% for 3 attacks. When target is stunned, boosts P. ATK of the ally with the highest P. ATK by {1}% for 1 turn.",
+      "summary": "After attacking, boosts target's physical attack damage received. When target is stunned, boosts an ally's P. ATK.",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001404,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001162,
+          "description": "",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [336, 336, 336, 357, 378, 399, 420],
+      "has_stun": true,
+      "stun_values": [300, 300, 300, 318, 337, 356, 375],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "Advance All - P. ATK II",
+      "description": "All allies gain P. ATK +{0}%.",
+      "effects": [
+        {
+          "id": 72000907,
+          "description": "[All Allies/Constant/P. ATK Up]",
+          "value": 1000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "Power of Destruction",
+      "description": "Boosts stun damage by {0}%.",
+      "effects": [
+        {
+          "id": 72000959,
+          "description": "[自身/常時/ブレイクダメージアップ]",
+          "value": 1500
+        }
+      ]
+    },
+    "start_at": "2025-01-22T03:00:00.000Z"
+  },
+  {
     "id": 40001,
     "name": "Klaudia",
     "title": "One Summer Melody",
@@ -17436,6 +18258,239 @@
     "start_at": "2024-10-10T03:00:00.000Z"
   },
   {
+    "id": 43303,
+    "name": "Roman",
+    "title": "Reassuring Shielder",
+    "full_name": "Roman Kalman",
+    "base_character": "Roman",
+    "is_alchemist": false,
+    "gender": "Male",
+    "attribute": "STRIKE",
+    "role": "DEFENDER",
+    "initial_rarity": 3,
+    "acquisition_text": "To protect the peace of my people—I swear to fight with all my strength!",
+    "profile": {
+      "voice_actor": "Yuya Hirose",
+      "voice_text": "I am Richard, the secondborn prince of the Kingdom of Lantarna. I will fight with honor, as my title demands.",
+      "description": "A cheerful young prince with a laid-back demeanor. Like Resna, he seeks to revive alchemy. This outfit, created for the final battle against the Polar Night Alchemists, is modeled after a knight's armor, providing both high defense and functionality. Though he can be a bit of a joker, he's highly capable and a reliable ally in battle.",
+      "origin_game": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
+    },
+    "gift_color": {
+      "received": "Green",
+      "given": "Red"
+    },
+    "battle_item_trait": [
+      {
+        "id": 10,
+        "name": "Guardian's Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts P. DEF by {0}% and M. DEF by {1}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "Boosts P. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "Boosts M. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Strike Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000064,
+            "description": "Reduces target's Strike resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 62,
+        "name": "Received Recovery Up",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery received by {0}%.",
+        "effects": [
+          {
+            "id": 13000002,
+            "description": "Boosts recovery received.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 183,
+        "spd": 265,
+        "patk": 57,
+        "matk": 47,
+        "pdef": 61,
+        "mdef": 70
+      },
+      "growth": {
+        "hp": 1830,
+        "spd": 0,
+        "patk": 570,
+        "matk": 470,
+        "pdef": 610,
+        "mdef": 700
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 5,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "Deux Frappe",
+      "description": "After attacking, boosts own P. DEF and M. DEF by {0}% (MAX 30%), grants Protection to self for 2 turns, and grants self Counter (Courir en Vol) for 2 counterattacks. (Cannot be stacked)",
+      "summary": "After attack, boosts own stats and grants self Protection and Counter.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001396,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91001397,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91001398,
+          "description": "",
+          "value": 0
+        },
+        {
+          "id": 91001086,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [49, 52, 55, 58, 61],
+      "has_stun": true,
+      "stun_values": [5, 5, 5, 5, 6],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "Courir en Vol",
+      "description": "After attacking, restores all allies' HP by {0}% and reduces all allies' damage received by {1}% for 1 attack (MAX 2 times). Reduces target's damage by {2}% for 1 turn.",
+      "summary": "After attack, restores all allies' HP and reduces all allies' damage received. Reduces target's damage.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000925,
+          "description": "",
+          "value": 500
+        },
+        {
+          "id": 91001399,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91000914,
+          "description": "",
+          "value": 1500
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [118, 125, 132, 139, 147],
+      "has_stun": true,
+      "stun_values": [9, 9, 10, 10, 11],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "Le Grand Bouclier",
+      "description": "After attacking, restores all allies' HP by {0}%, grants all allies Negative Effects Immunity for 1 turn, and reduces all allies' damage received by {1}% for 1 attack.",
+      "summary": "After attack, restores all allies' HP, grants all allies Negative Effects Immunity, and reduces all allies' damage received.",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91000925,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91001069,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001392,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [420, 420, 420, 446, 472, 498, 525],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "Bearing the Pride of Royalty",
+      "description": "When an enemy's Counter attack is single-target, takes the Counter instead of the targeted ally and reduces its damage by {0}%.",
+      "effects": [
+        {
+          "id": 72001072,
+          "description": "[自身/カウンター対象の味方をかばう時被ダメージDOWN付与]",
+          "value": 2000
+        },
+        {
+          "id": 72000930,
+          "description": "",
+          "value": 0
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "Roman's First Aid Technique",
+      "description": "When hit by an attack, restores own HP by {0}%.",
+      "effects": [
+        {
+          "id": 72000950,
+          "description": "[Self/HP Recovery]",
+          "value": 1500
+        }
+      ]
+    },
+    "start_at": "2025-01-15T03:00:00.000Z"
+  },
+  {
     "id": 43401,
     "name": "Juna",
     "title": "White Royal Guard",
@@ -18256,6 +19311,234 @@
     "start_at": "2024-09-20T03:00:00.000Z"
   },
   {
+    "id": 43503,
+    "name": "Heidi",
+    "title": "Lucky Buddy",
+    "full_name": "Heidi",
+    "base_character": "Heidi",
+    "is_alchemist": false,
+    "gender": "Female",
+    "attribute": "AIR",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "I won't run away anymore—I'll protect my friends, my family, my partner...everyone!",
+    "profile": {
+      "voice_actor": "Naomi Ohzora",
+      "voice_text": "I'm Heidi! I may not be the best at fighting, but with my partner by my side, we're unstoppable!",
+      "description": "Valeria's upbeat partner. She ran away from one thing after another until she ended up in the capital, where she met Valeria and the others. Although she's not skilled in direct combat, she's quick on her feet and provides tactical support as Valeria's trusty partner. While her attempts to make a quick profit don't always work out, she tends to be blessed with good luck when it matters most.",
+      "origin_game": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
+    },
+    "gift_color": {
+      "received": "Blue",
+      "given": "Green"
+    },
+    "battle_item_trait": [
+      {
+        "id": 49,
+        "name": "Chaser Charge",
+        "category": "ATTACK",
+        "description": "Boosts damage to stunned enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "Boosts damage to stunned enemies by {0}%.",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Air Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Air resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000069,
+            "description": "Boosts target's Air resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "Skill Power Up",
+        "category": "ATTACK",
+        "description": "Boosts skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "Boosts skill power by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 159,
+        "spd": 246,
+        "patk": 53,
+        "matk": 65,
+        "pdef": 42,
+        "mdef": 49
+      },
+      "growth": {
+        "hp": 1590,
+        "spd": 0,
+        "patk": 530,
+        "matk": 650,
+        "pdef": 420,
+        "mdef": 490
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 5,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "Veridict",
+      "description": "After attacking, boosts own skill damage by {0}% for 1 turn.",
+      "summary": "After attack, boosts own skill damage.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001270,
+          "description": "",
+          "value": 4000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [75, 79, 84, 88, 93],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "Pharein Pitas",
+      "description": "Boosts damage by 10–30% depending on the number of enemies. (Higher boost for fewer enemies, range: 1–4 enemies)<br>Pharein Pitas has charge indicators, and once 2 indicators are charged, the skill effect changes.<br>There are a maximum of 2 charges.<br><br>When there are less than 2 charges, after attacking, charges 1 of the indicators.<br><br>When there are 2 charges, after attacking, boosts own M. ATK by {0}% for 2 turns and removes all charges from this skill.",
+      "summary": "Boosts damage with fewer enemies.\nWhen there are less than 2 charges, after attack, charges 1 of the indicators.\nWhen there are 2 charges, after attack, boosts own M. ATK and removes all charges.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001405,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001329,
+          "description": "",
+          "value": 100
+        },
+        {
+          "id": 91001330,
+          "description": "",
+          "value": 200
+        },
+        {
+          "id": 91000950,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91000927,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [260, 276, 292, 308, 325],
+      "has_stun": true,
+      "stun_values": [28, 29, 31, 33, 35],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "Saltar Tempestas",
+      "description": "Boosts this attack's penetration by {0}.<br>Boosts damage by 10–50% depending on the number of enemies. (Higher boost for fewer enemies, range: 1–4 enemies)<br>After attacking, boosts own skill damage by {1}% for 2 turns.",
+      "summary": "Boosts this attack's penetration.\nBoosts damage with fewer enemies.\nAfter attack, boosts own skill damage.",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001337,
+          "description": "",
+          "value": 10000
+        },
+        {
+          "id": 91001378,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91000950,
+          "description": "",
+          "value": 4000
+        },
+        {
+          "id": 91000927,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [420, 420, 420, 446, 472, 498, 525],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "No More Running Away!",
+      "description": "At the start of battle, charges 2 of Pharein Pitas's charge indicators.<br>Charges 1 of Pharein Pitas's charge indicators when receiving HP recovery.",
+      "effects": [
+        {
+          "id": 72001094,
+          "description": "[スキルランプ点灯]",
+          "value": 200
+        },
+        {
+          "id": 72001094,
+          "description": "[スキルランプ点灯]",
+          "value": 100
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "Advance All - M. ATK II",
+      "description": "All allies gain M. ATK +{0}%.",
+      "effects": [
+        {
+          "id": 72000908,
+          "description": "[All Allies/Constant/M. ATK Up]",
+          "value": 1000
+        }
+      ]
+    },
+    "start_at": "2025-02-12T03:00:00.000Z"
+  },
+  {
     "id": 43599,
     "name": "Heidi",
     "title": "【ログボ用】",
@@ -18674,6 +19957,239 @@
       ]
     },
     "start_at": "2024-07-05T03:00:00.000Z"
+  },
+  {
+    "id": 43602,
+    "name": "Flocke",
+    "title": "Earnest Angel",
+    "full_name": "Flocke Cerha",
+    "base_character": "Flocke",
+    "is_alchemist": false,
+    "gender": "Female",
+    "attribute": "STAB",
+    "role": "DEFENDER",
+    "initial_rarity": 3,
+    "acquisition_text": "This time, I want to protect everyone—with my own two hands!",
+    "profile": {
+      "voice_actor": "Yuko Ono",
+      "voice_text": "I'm Flocke Cerha, a peddler. I'm quite confident in my eye for good fish!",
+      "description": "A spirited young peddler. She lives with Valeria and the others, supporting them whenever she can, especially when they get a bit careless. She has an exceptional eye for quality, most notably when it comes to seafood, which always leaves her customers very satisfied. Having experienced the joy of being helped when she needed it, she now strives to lend a hand to anyone else in need.",
+      "origin_game": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
+    },
+    "gift_color": {
+      "received": "Purple",
+      "given": "Red"
+    },
+    "battle_item_trait": [
+      {
+        "id": 4,
+        "name": "Stab Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Stab damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000001,
+            "description": "Boosts Stab damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Stab Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Stab resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000065,
+            "description": "Reduces target's Stab resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 25,
+        "name": "Physical Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from physical attacks by {0}%.",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "Boosts physical damage resistance by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 182,
+        "spd": 241,
+        "patk": 50,
+        "matk": 49,
+        "pdef": 71,
+        "mdef": 64
+      },
+      "growth": {
+        "hp": 1820,
+        "spd": 0,
+        "patk": 500,
+        "matk": 490,
+        "pdef": 710,
+        "mdef": 640
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 5
+      }
+    },
+    "skill_1": {
+      "name": "Fluttering Strike",
+      "description": "After attacking, restores all allies' HP by 5–20%, depending on own HP. (Higher boost for lower HP, range: 25–100% HP).<br>Reduces all enemies' SPD by {0}% for 2 turns.",
+      "summary": "After attack, restores a percentage of all allies' HP, depending on current HP.\nReduces all enemies' SPD.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001438,
+          "description": "",
+          "value": 500
+        },
+        {
+          "id": 91001406,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [67, 71, 75, 79, 83],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "Twinkling Petals",
+      "description": "After attacking, boosts all allies' skill damage by {0}% and Stab damage by {1}% for 2 turns.<br>Reduces own damage received by {2}% for 2 attacks.",
+      "summary": "After attack, boosts all allies' skill damage.\nBoosts all allies' Stab damage.\nReduces own damage received.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001409,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91001410,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91000997,
+          "description": "",
+          "value": 3500
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [218, 231, 245, 258, 272],
+      "has_stun": true,
+      "stun_values": [29, 30, 32, 34, 36],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "Flowering Angel",
+      "description": "After attacking, restores all allies' HP by {0}% and boosts all allies' skill damage by {1}% and Stab damage by {2}%. (Both MAX 30%)<br>Reduces own damage received by {3}% for 1 attack.",
+      "summary": "After attack, restores all allies' HP.\nBoosts all allies' skill damage.\nBoosts all allies' Stab damage.\nReduces own damage received.",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91000925,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91001439,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91001440,
+          "description": "",
+          "value": 1500
+        },
+        {
+          "id": 91001038,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STAB",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [252, 252, 252, 267, 283, 299, 315],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "Hate & P. DEF & M. DEF Up",
+      "description": "Becomes targeted by enemies much more easily.<br>Boosts own P. DEF & M. DEF by {0}%.",
+      "effects": [
+        {
+          "id": 72001113,
+          "description": "[自身/常時/物防上昇]",
+          "value": 3000
+        },
+        {
+          "id": 72001114,
+          "description": "[自身/常時/魔防上昇]",
+          "value": 3000
+        },
+        {
+          "id": 72000914,
+          "description": "Raises odds of being targeted by 100%.",
+          "value": 10000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "Flocke's Here to Help!",
+      "description": "After using a skill, restores own HP by {0}%.<br>When hit by an attack while own HP is 95% or higher, converts the panel of the next ally in turn order into a burst panel. (Creates a burst panel if the panel is empty)",
+      "effects": [
+        {
+          "id": 72000950,
+          "description": "[Self/HP Recovery]",
+          "value": 500
+        },
+        {
+          "id": 72001138,
+          "description": "",
+          "value": 100
+        }
+      ]
+    },
+    "start_at": "2025-02-12T03:00:00.000Z"
   },
   {
     "id": 43701,
@@ -19263,6 +20779,214 @@
       ]
     },
     "start_at": "2024-09-20T03:00:00.000Z"
+  },
+  {
+    "id": 43803,
+    "name": "Izana",
+    "title": "Stormy Smite",
+    "full_name": "Izana Kokoschka",
+    "base_character": "Izana",
+    "is_alchemist": false,
+    "gender": "Female",
+    "attribute": "STRIKE",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "To protect those I care about, I can't afford to stop!",
+    "profile": {
+      "voice_actor": "Minami Tanaka",
+      "voice_text": "My new hammer has a brilliant shine, the perfect weight, and it swings like a dream!",
+      "description": "A beast-girl who proclaims herself the knight of her best friend, Resna. This outfit, made for the battle against the Polar Night Alchemists, is lightweight and designed for easy movement, allowing her to swing her hammer faster than ever before. Using a hammer she made with her father's help, she continues to pursue her childhood dream of becoming the strongest knight.",
+      "origin_game": "Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator"
+    },
+    "gift_color": {
+      "received": "Yellow",
+      "given": "Purple"
+    },
+    "battle_item_trait": [
+      {
+        "id": 50,
+        "name": "Critical Finish",
+        "category": "ENHANCE",
+        "description": "Boosts critical rate by {0}% for 1 turn.",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "Boosts critical rate by {0}% for 1 turn.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Strike Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Strike damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "Boosts Strike damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 63,
+        "name": "Skill 2 Power Up",
+        "category": "ATTACK",
+        "description": "Boosts Skill 2's skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000168,
+            "description": "Boosts Skill 2 power by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 158,
+        "spd": 251,
+        "patk": 70,
+        "matk": 50,
+        "pdef": 47,
+        "mdef": 45
+      },
+      "growth": {
+        "hp": 1580,
+        "spd": 0,
+        "patk": 700,
+        "matk": 500,
+        "pdef": 470,
+        "mdef": 450
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 5,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "Scarlet Hammer",
+      "description": "Before attacking, removes own negative effects. After attacking, boosts target's critical damage received by {0}% for 2 attacks.",
+      "summary": "Before attack, removes own negative effects. After attack, boosts target's critical damage received.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001311,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001007,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [42, 44, 47, 49, 52],
+      "has_stun": true,
+      "stun_values": [2, 2, 2, 2, 2],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "Martial Quake",
+      "description": "After attacking, boosts own critical rate by {0}% (MAX 100%) and boosts own P. ATK by {1}% for 2 turns.",
+      "summary": "After attack, boosts own critical rate and boosts own P. ATK.",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001395,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001384,
+          "description": "物攻アップ(2回)",
+          "value": 4000
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [294, 312, 330, 348, 367],
+      "has_stun": true,
+      "stun_values": [26, 27, 29, 30, 32],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "Golden Valiant Leap",
+      "description": "After attacking, there is a very high chance to inflict Dazed on the target for 1 turn. Boosts target's critical damage received by {0}% for 2 attacks.",
+      "summary": "After attack, very high chance to inflict Dazed on target. Boosts target's critical damage received.",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001311,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001064,
+          "description": "",
+          "value": 0
+        }
+      ],
+      "attribute_type": "PHYSICAL",
+      "attribute": "STRIKE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [420, 420, 420, 446, 472, 498, 525],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "A Brand New Me!",
+      "description": "When defeating an enemy with a skill, boosts own critical damage by {0}% (MAX 100%) and boosts own burst skill damage by {0}%. (MAX 100%)",
+      "effects": [
+        {
+          "id": 72001123,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 72001126,
+          "description": "",
+          "value": 5000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "One with the Hammer!",
+      "description": "When attacking while own critical rate exceeds 100%, boosts critical damage by the critical rate amount exceeding 100%. (MAX 300% converted)",
+      "effects": [
+        {
+          "id": 72001098,
+          "description": "[自身/余剰クリティカル率変換]",
+          "value": 30000
+        }
+      ]
+    },
+    "start_at": "2025-01-15T03:00:00.000Z"
   },
   {
     "id": 43901,

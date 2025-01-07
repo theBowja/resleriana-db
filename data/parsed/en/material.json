@@ -5664,6 +5664,66 @@
         "episode_name": "1st Anniversary Present Battle Part 2"
       },
       {
+        "quest_id": 6204001,
+        "quest_name": "1st Anniversary Present Battle Part 3 - 1",
+        "episode_id": 6204,
+        "episode_name": "1st Anniversary Present Battle Part 3"
+      },
+      {
+        "quest_id": 6204002,
+        "quest_name": "1st Anniversary Present Battle Part 3 - 2",
+        "episode_id": 6204,
+        "episode_name": "1st Anniversary Present Battle Part 3"
+      },
+      {
+        "quest_id": 6204003,
+        "quest_name": "1st Anniversary Present Battle Part 3 - 3",
+        "episode_id": 6204,
+        "episode_name": "1st Anniversary Present Battle Part 3"
+      },
+      {
+        "quest_id": 6204004,
+        "quest_name": "1st Anniversary Present Battle Part 3 - 4",
+        "episode_id": 6204,
+        "episode_name": "1st Anniversary Present Battle Part 3"
+      },
+      {
+        "quest_id": 6204005,
+        "quest_name": "1st Anniversary Present Battle Part 3 - 5",
+        "episode_id": 6204,
+        "episode_name": "1st Anniversary Present Battle Part 3"
+      },
+      {
+        "quest_id": 6204006,
+        "quest_name": "1st Anniversary Present Battle Part 3 - 6",
+        "episode_id": 6204,
+        "episode_name": "1st Anniversary Present Battle Part 3"
+      },
+      {
+        "quest_id": 6204007,
+        "quest_name": "1st Anniversary Present Battle Part 3 - 7",
+        "episode_id": 6204,
+        "episode_name": "1st Anniversary Present Battle Part 3"
+      },
+      {
+        "quest_id": 6304001,
+        "quest_name": "Challenge Battle: Polar Night Alchemists - 1",
+        "episode_id": 6304,
+        "episode_name": "Challenge Battle: Polar Night Alchemists"
+      },
+      {
+        "quest_id": 6304002,
+        "quest_name": "Challenge Battle: Polar Night Alchemists - 2",
+        "episode_id": 6304,
+        "episode_name": "Challenge Battle: Polar Night Alchemists"
+      },
+      {
+        "quest_id": 6304003,
+        "quest_name": "Challenge Battle: Polar Night Alchemists - 3",
+        "episode_id": 6304,
+        "episode_name": "Challenge Battle: Polar Night Alchemists"
+      },
+      {
         "quest_id": 204101002,
         "quest_name": "The Forest by the Wetlands",
         "difficulty": "NORMAL",
@@ -40170,6 +40230,1422 @@
     "image_small": "Ingredient_0705_S",
     "image_medium": "Ingredient_0705_M",
     "start_at": "2024-12-24T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 716,
+    "name": "Pluproom",
+    "rarity": 2,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 5,
+        "name": "Magic Blessing",
+        "category": "ATTACK",
+        "description": "Boosts magic attack damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "Boosts magic attack damage by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Magic Curse",
+        "category": "WEAKENING",
+        "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6104001,
+        "quest_name": "Explosion Time!! Marie's Trial - 1",
+        "episode_id": 6104,
+        "episode_name": "Explosion Time!! Marie's Trial"
+      },
+      {
+        "quest_id": 6104003,
+        "quest_name": "Explosion Time!! Marie's Trial - 3",
+        "episode_id": 6104,
+        "episode_name": "Explosion Time!! Marie's Trial"
+      }
+    ],
+    "image_small": "Ingredient_0716_S",
+    "image_medium": "Ingredient_0716_M",
+    "start_at": "2025-01-07T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 717,
+    "name": "Blaushumere",
+    "rarity": 2,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 26,
+        "name": "Magic Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from magic attacks by {0}%.",
+        "effects": [
+          {
+            "id": 3000027,
+            "description": "Boosts magic damage resistance by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Dealt Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000011,
+            "description": "Boosts skill damage by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6104001,
+        "quest_name": "Explosion Time!! Marie's Trial - 1",
+        "episode_id": 6104,
+        "episode_name": "Explosion Time!! Marie's Trial"
+      },
+      {
+        "quest_id": 6104003,
+        "quest_name": "Explosion Time!! Marie's Trial - 3",
+        "episode_id": 6104,
+        "episode_name": "Explosion Time!! Marie's Trial"
+      }
+    ],
+    "image_small": "Ingredient_0717_S",
+    "image_medium": "Ingredient_0717_M",
+    "start_at": "2025-01-07T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 718,
+    "name": "Armor Crab",
+    "rarity": 2,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 18,
+        "name": "Fire Curse",
+        "category": "WEAKENING",
+        "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000059,
+            "description": "Reduces target's Fire resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "Critical Finish",
+        "category": "ENHANCE",
+        "description": "Boosts critical rate by {0}% for 1 turn.",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "Boosts critical rate by {0}% for 1 turn.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6104001,
+        "quest_name": "Explosion Time!! Marie's Trial - 1",
+        "episode_id": 6104,
+        "episode_name": "Explosion Time!! Marie's Trial"
+      },
+      {
+        "quest_id": 6104003,
+        "quest_name": "Explosion Time!! Marie's Trial - 3",
+        "episode_id": 6104,
+        "episode_name": "Explosion Time!! Marie's Trial"
+      }
+    ],
+    "image_small": "Ingredient_0718_S",
+    "image_medium": "Ingredient_0718_M",
+    "start_at": "2025-01-07T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 719,
+    "name": "Binding Grass",
+    "rarity": 3,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 60,
+        "name": "Critical Damage Up",
+        "category": "ATTACK",
+        "description": "Boosts critical damage by {0}%.",
+        "effects": [
+          {
+            "id": 13000011,
+            "description": "CRT Damage Up",
+            "values": [600, 1200, 1800, 3600, 6000]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Stunned Damage Up",
+        "category": "ATTACK",
+        "description": "Boosts damage to stunned enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000077,
+            "description": "Boosts damage to stunned enemies by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6104002,
+        "quest_name": "Explosion Time!! Marie's Trial - 2",
+        "episode_id": 6104,
+        "episode_name": "Explosion Time!! Marie's Trial"
+      },
+      {
+        "quest_id": 6104003,
+        "quest_name": "Explosion Time!! Marie's Trial - 3",
+        "episode_id": 6104,
+        "episode_name": "Explosion Time!! Marie's Trial"
+      }
+    ],
+    "image_small": "Ingredient_0719_S",
+    "image_medium": "Ingredient_0719_M",
+    "start_at": "2025-01-07T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 720,
+    "name": "Clair Coquille",
+    "rarity": 3,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 63,
+        "name": "Skill 2 Power Up",
+        "category": "ATTACK",
+        "description": "Boosts Skill 2's skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000168,
+            "description": "Boosts Skill 2 power by {0}%.",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Ice Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Ice resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000023,
+            "description": "Boosts Ice damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6104002,
+        "quest_name": "Explosion Time!! Marie's Trial - 2",
+        "episode_id": 6104,
+        "episode_name": "Explosion Time!! Marie's Trial"
+      },
+      {
+        "quest_id": 6104003,
+        "quest_name": "Explosion Time!! Marie's Trial - 3",
+        "episode_id": 6104,
+        "episode_name": "Explosion Time!! Marie's Trial"
+      }
+    ],
+    "image_small": "Ingredient_0720_S",
+    "image_medium": "Ingredient_0720_M",
+    "start_at": "2025-01-07T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 721,
+    "name": "Black Spawn",
+    "rarity": 3,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 62,
+        "name": "Received Recovery Up",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery received by {0}%.",
+        "effects": [
+          {
+            "id": 13000002,
+            "description": "Boosts recovery received.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Physical Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from physical attacks by {0}%.",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "Boosts physical damage resistance by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6104002,
+        "quest_name": "Explosion Time!! Marie's Trial - 2",
+        "episode_id": 6104,
+        "episode_name": "Explosion Time!! Marie's Trial"
+      },
+      {
+        "quest_id": 6104003,
+        "quest_name": "Explosion Time!! Marie's Trial - 3",
+        "episode_id": 6104,
+        "episode_name": "Explosion Time!! Marie's Trial"
+      }
+    ],
+    "image_small": "Ingredient_0721_S",
+    "image_medium": "Ingredient_0721_M",
+    "start_at": "2025-01-07T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 728,
+    "name": "Firefly Grass",
+    "rarity": 2,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 55,
+        "name": "Puni Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts damage to Puni enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000079,
+            "description": "Boosts damage to Puni enemies by {0}%.",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "name": "Received Recovery Up",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery received by {0}%.",
+        "effects": [
+          {
+            "id": 13000002,
+            "description": "Boosts recovery received.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204118001,
+        "quest_name": "Monsters of Lukluk 1 [Blue]",
+        "difficulty": "NORMAL",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118004,
+        "quest_name": "Anger and Frustration [Yellow/Green]",
+        "difficulty": "NORMAL",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118005,
+        "quest_name": "Monsters of Lukluk 1 [Blue]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118008,
+        "quest_name": "Anger and Frustration [Yellow/Green]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0728_S",
+    "image_medium": "Ingredient_0728_M",
+    "start_at": "2025-01-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 729,
+    "name": "Salty Water",
+    "rarity": 2,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 30,
+        "name": "Physical Damage Boost [Resolve]",
+        "category": "ATTACK",
+        "description": "Boosts physical damage by {0}% when HP is 50% or lower.",
+        "effects": [
+          {
+            "id": 3000101,
+            "description": "Boosts dealt physical damage by {0}% when HP is 50% or lower.",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "name": "Reduced Spirit Damage",
+        "category": "ENHANCE",
+        "description": "Reduces damage from Spirit enemies by {0}%.",
+        "effects": [
+          {
+            "id": 3000087,
+            "description": "Reduces damage received by target from Spirit enemies by {0}%. (1 turn)",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204118002,
+        "quest_name": "Monsters of Lukluk - 2 [Red]",
+        "difficulty": "NORMAL",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118004,
+        "quest_name": "Anger and Frustration [Yellow/Green]",
+        "difficulty": "NORMAL",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118006,
+        "quest_name": "Monsters of Lukluk - 2 [Red]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118008,
+        "quest_name": "Anger and Frustration [Yellow/Green]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0729_S",
+    "image_medium": "Ingredient_0729_M",
+    "start_at": "2025-01-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 730,
+    "name": "Sediment",
+    "rarity": 2,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 43,
+        "name": "Aquatic Weakness Radar",
+        "category": "WEAKENING",
+        "description": "Boosts damage to Aquatic enemies by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000098,
+            "description": "Boosts damage to Aquatic enemies by {0}% for 1 attack.",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "P. DEF Blessing",
+        "category": "ENHANCE",
+        "description": "Boosts P. DEF by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "Boosts P. DEF by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204118003,
+        "quest_name": "Servants of the Polar Night - 2 [Purple]",
+        "difficulty": "NORMAL",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118004,
+        "quest_name": "Anger and Frustration [Yellow/Green]",
+        "difficulty": "NORMAL",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118007,
+        "quest_name": "Servants of the Polar Night - 2 [Purple]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118008,
+        "quest_name": "Anger and Frustration [Yellow/Green]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0730_S",
+    "image_medium": "Ingredient_0730_M",
+    "start_at": "2025-01-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 731,
+    "name": "Poisson Doré",
+    "rarity": 3,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 23,
+        "name": "Strike Shield",
+        "category": "ENHANCE",
+        "description": "Boosts target's Strike resistance by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000071,
+            "description": "Boosts target's Strike resistance by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Mighty Curse",
+        "category": "WEAKENING",
+        "description": "Boosts physical damage target receives by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000047,
+            "description": "Boosts physical damage target receives by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204118005,
+        "quest_name": "Monsters of Lukluk 1 [Blue]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118008,
+        "quest_name": "Anger and Frustration [Yellow/Green]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0731_S",
+    "image_medium": "Ingredient_0731_M",
+    "start_at": "2025-01-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 732,
+    "name": "Dresshroom",
+    "rarity": 3,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "Skill Power Up",
+        "category": "ATTACK",
+        "description": "Boosts skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "Boosts skill power by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Strike Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts Strike skill damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "Boosts Strike damage by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204118006,
+        "quest_name": "Monsters of Lukluk - 2 [Red]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118008,
+        "quest_name": "Anger and Frustration [Yellow/Green]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0732_S",
+    "image_medium": "Ingredient_0732_M",
+    "start_at": "2025-01-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 733,
+    "name": "Cliff Beard",
+    "rarity": 3,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 27,
+        "name": "Single Attack Power Up",
+        "category": "ATTACK",
+        "description": "Boosts single-target skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000111,
+            "description": "Boosts skill power of single-target attacks by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Physical Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from physical attacks by {0}%.",
+        "effects": [
+          {
+            "id": 3000026,
+            "description": "Boosts physical damage resistance by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204118007,
+        "quest_name": "Servants of the Polar Night - 2 [Purple]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204118008,
+        "quest_name": "Anger and Frustration [Yellow/Green]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204118,
+        "episode_name": "スコアバトル18章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0733_S",
+    "image_medium": "Ingredient_0733_M",
+    "start_at": "2025-01-15T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 741,
+    "name": "Fuel Dirt",
+    "rarity": 2,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 47,
+        "name": "Recovery Boost [D]",
+        "category": "RECOVERY",
+        "description": "Boosts recovery given to Defenders by {0}%.",
+        "effects": [
+          {
+            "id": 3000076,
+            "description": "Boosts recovery for Defenders by {0}%.",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Fire Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Fire resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000022,
+            "description": "Boosts Fire damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6504001,
+        "quest_name": "Whirlwind!! Judie's Trial - 1",
+        "episode_id": 6504,
+        "episode_name": "Whirlwind!! Judie's Trial"
+      },
+      {
+        "quest_id": 6504003,
+        "quest_name": "Whirlwind!! Judie's Trial - 3",
+        "episode_id": 6504,
+        "episode_name": "Whirlwind!! Judie's Trial"
+      }
+    ],
+    "image_small": "Ingredient_0741_S",
+    "image_medium": "Ingredient_0741_M",
+    "start_at": "2025-01-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 742,
+    "name": "Living Tail",
+    "rarity": 2,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 41,
+        "name": "All Recovery Boost",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery given to all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000074,
+            "description": "Boosts HP recovery given to all allies by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "Enhanced Damage Buff [B]",
+        "category": "ENHANCE",
+        "description": "Boosts potency of damage buffs given to Breakers by {0}%.",
+        "effects": [
+          {
+            "id": 3000018,
+            "description": "Boosts effects of damage buffs to Breakers by {0}%.",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6504001,
+        "quest_name": "Whirlwind!! Judie's Trial - 1",
+        "episode_id": 6504,
+        "episode_name": "Whirlwind!! Judie's Trial"
+      },
+      {
+        "quest_id": 6504003,
+        "quest_name": "Whirlwind!! Judie's Trial - 3",
+        "episode_id": 6504,
+        "episode_name": "Whirlwind!! Judie's Trial"
+      }
+    ],
+    "image_small": "Ingredient_0742_S",
+    "image_medium": "Ingredient_0742_M",
+    "start_at": "2025-01-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 743,
+    "name": "Useless Fragment",
+    "rarity": 2,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 51,
+        "name": "Destructive Power Boost",
+        "category": "ATTACK",
+        "description": "Boosts damage of battle items by {0}%.",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "Boosts damage of battle items by {0}%.",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Magic Curse",
+        "category": "WEAKENING",
+        "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6504001,
+        "quest_name": "Whirlwind!! Judie's Trial - 1",
+        "episode_id": 6504,
+        "episode_name": "Whirlwind!! Judie's Trial"
+      },
+      {
+        "quest_id": 6504003,
+        "quest_name": "Whirlwind!! Judie's Trial - 3",
+        "episode_id": 6504,
+        "episode_name": "Whirlwind!! Judie's Trial"
+      }
+    ],
+    "image_small": "Ingredient_0743_S",
+    "image_medium": "Ingredient_0743_M",
+    "start_at": "2025-01-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 744,
+    "name": "Medicinal Leaf",
+    "rarity": 3,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 48,
+        "name": "Enhanced Last Attack",
+        "category": "ATTACK",
+        "description": "Boosts damage by {0}% on final use.",
+        "effects": [
+          {
+            "id": 3000108,
+            "description": "Boosts damage by {0}% on final use.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Mighty Curse",
+        "category": "WEAKENING",
+        "description": "Boosts physical damage target receives by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000047,
+            "description": "Boosts physical damage target receives by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6504002,
+        "quest_name": "Whirlwind!! Judie's Trial - 2",
+        "episode_id": 6504,
+        "episode_name": "Whirlwind!! Judie's Trial"
+      },
+      {
+        "quest_id": 6504003,
+        "quest_name": "Whirlwind!! Judie's Trial - 3",
+        "episode_id": 6504,
+        "episode_name": "Whirlwind!! Judie's Trial"
+      }
+    ],
+    "image_small": "Ingredient_0744_S",
+    "image_medium": "Ingredient_0744_M",
+    "start_at": "2025-01-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 745,
+    "name": "Caged Flower",
+    "rarity": 3,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 14,
+        "name": "Physical Stun Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts physical stun damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000013,
+            "description": "Boosts physical stun damage by {0}%.",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "name": "Enhanced P./M. Resistance Down",
+        "category": "WEAKENING",
+        "description": "Boosts potency of Received Physical Damage Up and Received Magic Damage Up applied by {0}%.",
+        "effects": [
+          {
+            "id": 3000030,
+            "description": "Boosts potency of Received Physical Damage Up and Received Magic Damage Up applied by {0}%.",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6504002,
+        "quest_name": "Whirlwind!! Judie's Trial - 2",
+        "episode_id": 6504,
+        "episode_name": "Whirlwind!! Judie's Trial"
+      },
+      {
+        "quest_id": 6504003,
+        "quest_name": "Whirlwind!! Judie's Trial - 3",
+        "episode_id": 6504,
+        "episode_name": "Whirlwind!! Judie's Trial"
+      }
+    ],
+    "image_small": "Ingredient_0745_S",
+    "image_medium": "Ingredient_0745_M",
+    "start_at": "2025-01-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 746,
+    "name": "Nareinja",
+    "rarity": 3,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "Skill Power Up",
+        "category": "ATTACK",
+        "description": "Boosts skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "Boosts skill power by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "name": "All-Target Attack Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from attacks that hit all allies by {0}%.",
+        "effects": [
+          {
+            "id": 3000112,
+            "description": "Reduces received damage by {0}% from attacks that hit all enemies.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 6504002,
+        "quest_name": "Whirlwind!! Judie's Trial - 2",
+        "episode_id": 6504,
+        "episode_name": "Whirlwind!! Judie's Trial"
+      },
+      {
+        "quest_id": 6504003,
+        "quest_name": "Whirlwind!! Judie's Trial - 3",
+        "episode_id": 6504,
+        "episode_name": "Whirlwind!! Judie's Trial"
+      }
+    ],
+    "image_small": "Ingredient_0746_S",
+    "image_medium": "Ingredient_0746_M",
+    "start_at": "2025-01-22T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 750,
+    "name": "Rainbow Fish",
+    "rarity": 2,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 13,
+        "name": "Stun Damage Boost",
+        "category": "ATTACK",
+        "description": "Boosts stun damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000012,
+            "description": "Boosts stun damage by {0}%.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Physical Resistance Up [Full]",
+        "category": "ENHANCE",
+        "description": "Reduces physical damage received by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000105,
+            "description": "Boosts physical damage resistance by {0}% when at full HP.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204119001,
+        "quest_name": "Polar Night Monsters 3 [Yellow]",
+        "difficulty": "NORMAL",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204119004,
+        "quest_name": "Polar Night Monsters 3 [Yellow]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0750_S",
+    "image_medium": "Ingredient_0750_M",
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 751,
+    "name": "Herb Fragrance",
+    "rarity": 2,
+    "color": "Red",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 47,
+        "name": "Recovery Boost [D]",
+        "category": "RECOVERY",
+        "description": "Boosts recovery given to Defenders by {0}%.",
+        "effects": [
+          {
+            "id": 3000076,
+            "description": "Boosts recovery for Defenders by {0}%.",
+            "values": [400, 700, 1100, 2100, 3500]
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Strike Resistance Up",
+        "category": "ENHANCE",
+        "description": "Boosts Strike resistance by {0}%.",
+        "effects": [
+          {
+            "id": 3000021,
+            "description": "Boosts Strike damage resistance by {0}%.",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204119002,
+        "quest_name": "Making Extra-Special Monster Food! 2 [Blue/Purple]",
+        "difficulty": "NORMAL",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204119005,
+        "quest_name": "Making Extra-Special Monster Food! 2 [Blue/Purple]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0751_S",
+    "image_medium": "Ingredient_0751_M",
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 752,
+    "name": "Pure Powder",
+    "rarity": 2,
+    "color": "Yellow",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 17,
+        "name": "Magic Curse",
+        "category": "WEAKENING",
+        "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "Boosts magic damage target receives by {0}% for 1 attack.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "Enhanced Last Recovery",
+        "category": "RECOVERY",
+        "description": "Boosts HP recovery by {0}% on final use.",
+        "effects": [
+          {
+            "id": 3000109,
+            "description": "Boosts HP recovery by {0}% on final use.",
+            "values": [200, 400, 600, 1100, 1800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204119002,
+        "quest_name": "Making Extra-Special Monster Food! 2 [Blue/Purple]",
+        "difficulty": "NORMAL",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204119005,
+        "quest_name": "Making Extra-Special Monster Food! 2 [Blue/Purple]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0752_S",
+    "image_medium": "Ingredient_0752_M",
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 753,
+    "name": "Omnia Oriuntur",
+    "rarity": 3,
+    "color": "Green",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 2,
+        "name": "Skill Power Up",
+        "category": "ATTACK",
+        "description": "Boosts skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000010,
+            "description": "Boosts skill power by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Single Attack Power Up",
+        "category": "ATTACK",
+        "description": "Boosts single-target skill power by {0}%.",
+        "effects": [
+          {
+            "id": 3000111,
+            "description": "Boosts skill power of single-target attacks by {0}%.",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204119004,
+        "quest_name": "Polar Night Monsters 3 [Yellow]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0753_S",
+    "image_medium": "Ingredient_0753_M",
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 754,
+    "name": "Sparkling Sand",
+    "rarity": 3,
+    "color": "Blue",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [
+      {
+        "id": 3,
+        "name": "Strike Blessing",
+        "category": "ATTACK",
+        "description": "Boosts Strike damage by {0}%.",
+        "effects": [
+          {
+            "id": 3000003,
+            "description": "Boosts Strike damage by {0}%.",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "Critical Finish",
+        "category": "ENHANCE",
+        "description": "Boosts critical rate by {0}% for 1 turn.",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "Boosts critical rate by {0}% for 1 turn.",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204119005,
+        "quest_name": "Making Extra-Special Monster Food! 2 [Blue/Purple]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0754_S",
+    "image_medium": "Ingredient_0754_M",
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 755,
+    "name": "Amber Oil",
+    "rarity": 3,
+    "color": "Purple",
+    "description": "Material needed for synthesis.",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 26,
+        "name": "Magic Resistance Up",
+        "category": "ENHANCE",
+        "description": "Reduces damage received from magic attacks by {0}%.",
+        "effects": [
+          {
+            "id": 3000027,
+            "description": "Boosts magic damage resistance by {0}%.",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Physical Resistance Up [Full]",
+        "category": "ENHANCE",
+        "description": "Reduces physical damage received by {0}% when at full HP.",
+        "effects": [
+          {
+            "id": 3000105,
+            "description": "Boosts physical damage resistance by {0}% when at full HP.",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204119005,
+        "quest_name": "Making Extra-Special Monster Food! 2 [Blue/Purple]",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204119,
+        "episode_name": "スコアバトル19章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0755_S",
+    "image_medium": "Ingredient_0755_M",
+    "start_at": "2025-02-12T03:00:00.000Z",
     "end_at": null
   }
 ]

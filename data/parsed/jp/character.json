@@ -15216,6 +15216,229 @@
     "start_at": "2023-11-29T23:00:00.000Z"
   },
   {
+    "id": 40402,
+    "name": "アンペル",
+    "title": "【Sweet Butler】",
+    "full_name": "アンペル・フォルマー",
+    "base_character": "アンペル",
+    "is_alchemist": true,
+    "gender": "男性",
+    "attribute": "ICE",
+    "role": "SUPPORTER",
+    "initial_rarity": 3,
+    "acquisition_text": "では友好のしるしに――\n私も一肌脱ぐとしようか",
+    "profile": {
+      "voice_actor": "野島裕史",
+      "voice_text": "アンペルだ。友好の証として服を\n贈られたが、なかなか嬉しいものだな",
+      "description": "流浪の錬金術士。\nライザに錬金術を教えた師。元極夜の錬金党のララとは浅からぬ因縁があるが、このたび協力関係を結ぶこととなり、友好の証としてこの衣装を贈られた。\n極度の甘党で、以前ララに振る舞ってもらった焼き菓子の味が忘れられず、もう一度食べたいと思っている。",
+      "origin_game": "ライザのアトリエ ～常闇の女王と秘密の隠れ家～"
+    },
+    "gift_color": {
+      "received": "青",
+      "given": "赤"
+    },
+    "battle_item_trait": [
+      {
+        "id": 51,
+        "name": "破壊力上昇",
+        "category": "ATTACK",
+        "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "会心の出来",
+        "category": "ENHANCE",
+        "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+        "effects": [
+          {
+            "id": 3000045,
+            "description": "「クリティカル確率{0}%アップ」を1回行動終了するまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 29,
+        "name": "全体攻撃耐性上昇",
+        "category": "ENHANCE",
+        "description": "全体攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000112,
+            "description": "全体攻撃で受けるダメージ{0}％ダウン",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 138,
+        "spd": 244,
+        "patk": 49,
+        "matk": 58,
+        "pdef": 51,
+        "mdef": 59
+      },
+      "growth": {
+        "hp": 1380,
+        "spd": 0,
+        "patk": 490,
+        "matk": 580,
+        "pdef": 510,
+        "mdef": 590
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 5,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "フロストビーム",
+      "description": "攻撃後、味方全員に「クリティカル確率+{0}%」を付与(上限100%)し、<br>対象に「受ける氷属性ダメージ+{1}%」を2回攻撃を受けるまで付与",
+      "summary": "攻撃後、味方全員のクリティカル確率アップ<br>対象の受ける氷属性ダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001498,
+          "description": "",
+          "value": 2000
+        },
+        {
+          "id": 91001487,
+          "description": "",
+          "value": 1500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [64, 68, 72, 76, 80],
+      "has_stun": true,
+      "stun_values": [6, 6, 6, 6, 7],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "バインドウィップ",
+      "description": "攻撃後、アイテムゲージを{0}%回復し、<br>対象に「受けるクリティカルダメージ+{1}%」と「氷属性耐性-{2}%」を2回攻撃を受けるまで付与し、<br>「素早さ-{3}%」を2回行動終了するまで付与",
+      "summary": "攻撃後、アイテムゲージを回復<br>対象の受けるクリティカルダメージアップ<br>対象の氷属性耐性ダウン<br>対象の素早さダウン",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91002004,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 91001311,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91000935,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001394,
+          "description": "",
+          "value": 1000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [214, 227, 240, 253, 267],
+      "has_stun": true,
+      "stun_values": [28, 29, 31, 33, 35],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "フリージングストリーム",
+      "description": "攻撃後、このスキル使用前に魔攻が最も高い味方1人に「魔攻+{0}%」を2回行動終了するまで付与し、<br>得意属性が氷属性の味方全員に「クリティカルダメージ+{1}％」を付与(上限150%)し、<br>味方全員に「強化系パネルから受ける効果量+{2}%」を付与(重複不可)",
+      "summary": "攻撃後、魔攻が最も高い味方1人の魔攻アップ<br>得意属性が氷属性の味方全員のクリティカルダメージアップ<br>味方全員の強化系パネルから受ける効果量アップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001501,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001499,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001488,
+          "description": "",
+          "value": 10000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [252, 252, 252, 267, 283, 299, 315],
+      "has_stun": true,
+      "stun_values": [30, 30, 30, 31, 33, 35, 37],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "凍りつかせてやろう",
+      "description": "得意属性が氷属性の味方全員のスキルダメージ・ブレイクダメージ+{0}%",
+      "effects": [
+        {
+          "id": 72001166,
+          "description": "",
+          "value": 4000
+        },
+        {
+          "id": 72001167,
+          "description": "",
+          "value": 4000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "錬金術で道を拓く",
+      "description": "強化系パネル獲得時、アイテムゲージを{0}%回復",
+      "effects": [
+        {
+          "id": 72001087,
+          "description": "[強化パネル獲得時/アイテムゲージ回復]",
+          "value": 1000
+        }
+      ]
+    },
+    "start_at": "2025-01-17T03:00:00.000Z"
+  },
+  {
     "id": 41501,
     "name": "パトリツィア",
     "title": "【届けホーリーナイト】",
@@ -22791,6 +23014,254 @@
       ]
     },
     "start_at": "2024-08-30T03:00:00.000Z"
+  },
+  {
+    "id": 44202,
+    "name": "ララ",
+    "title": "【Great Refinement】",
+    "full_name": "ララ・トロッケル",
+    "base_character": "ララ",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "ICE",
+    "role": "BREAKER",
+    "initial_rarity": 3,
+    "acquisition_text": "迷えるときは、この背中を追いなさい。\n理想の国へ導いて差し上げますわ",
+    "profile": {
+      "voice_actor": "愛原ありさ",
+      "voice_text": "ララ・トロッケル。王たる者として、\nより優美に、華麗に活躍いたしましょう",
+      "description": "ララ・キングダムの王にして錬金術士。\n各地で優秀な人物を見つけては、ララ・キングダムの臣下として登用しようとしている。少々強引なところはあるが、面倒見がよく臣下や国民からは慕われている。\nアンペルと揃いでこの衣装を着ていると、まるで彼を秘書として従えているように見えるため、ちょっと気分がいいらしい。",
+      "origin_game": "レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～"
+    },
+    "gift_color": {
+      "received": "紫",
+      "given": "黄"
+    },
+    "battle_item_trait": [
+      {
+        "id": 7,
+        "name": "氷の祝福",
+        "category": "ATTACK",
+        "description": "氷属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "氷属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "魔力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 66,
+        "name": "属性耐性ダウン強化【氷】",
+        "category": "WEAKENING",
+        "description": "対象が与える「氷属性耐性ダウン」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000212,
+            "description": "対象が与える「氷属性耐性ダウン」の効果量{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 137,
+        "spd": 251,
+        "patk": 54,
+        "matk": 61,
+        "pdef": 44,
+        "mdef": 54
+      },
+      "growth": {
+        "hp": 1370,
+        "spd": 0,
+        "patk": 540,
+        "matk": 610,
+        "pdef": 440,
+        "mdef": 540
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 5,
+        "bolt": 0,
+        "air": 0,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "王の剣戟",
+      "description": "攻撃後、自身に「ブレイクダメージ+{0}%」を1回行動終了するまで付与し、<br>対象に「氷属性耐性-{1}%」を1回攻撃を受けるまで付与",
+      "summary": "攻撃後、自身のブレイクダメージアップ<br>対象の氷属性耐性ダウン",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000908,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001482,
+          "description": "",
+          "value": 2500
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [59, 62, 66, 69, 73],
+      "has_stun": true,
+      "stun_values": [15, 15, 16, 17, 18],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "凍艶の一振",
+      "description": "WEAK攻撃時、ブレイクダメージ+{0}%<br>攻撃前、対象に「氷属性耐性-{1}%」を3回攻撃を受けるまで付与<br>攻撃後、対象に「受ける魔法攻撃ダメージ+{2}%」を1回攻撃を受けるまで付与し、<br>自身の次のパネルをバーストパネルに変換(空パネルの時は生成)<br>対象がブレイク時、このスキル使用前に魔攻が最も高い味方1人に「クリティカルダメージ+{3}%」と「魔攻+{4}%」を1回行動終了するまで付与",
+      "summary": "WEAK攻撃時、ブレイクダメージアップ<br>攻撃前、対象の氷属性耐性ダウン<br>攻撃後、対象の受ける魔法攻撃ダメージアップ<br>自身の次のパネルをバーストパネルに変換<br>対象がブレイク時、魔攻が最も高い味方1人のクリティカルダメージアップと魔攻アップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91000907,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001028,
+          "description": "",
+          "value": 3500
+        },
+        {
+          "id": 91001344,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001500,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001264,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001484,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [227, 241, 255, 269, 283],
+      "has_stun": true,
+      "stun_values": [258, 274, 290, 306, 322],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "ファビュラスローズアイシクル",
+      "description": "WEAK攻撃時、ブレイクダメージ+{0}%<br>攻撃前、対象に「氷属性耐性-{1}%」を2回攻撃を受けるまで付与<br>攻撃後、対象に「受ける氷属性ダメージ+{2}%」を付与(上限50%)し、<br>このスキル使用前に魔攻が最も高い味方1人に「魔攻+{3}%」を1回行動終了するまで付与<br>対象がブレイク時、味方全員に「クリティカルダメージ+{4}%」を1回行動終了するまで付与し、<br>味方のクリティカル系パネルとバーストパネルを除いたパネル1つをクリティカルパネルに変換(空パネルの時は生成)",
+      "summary": "WEAK攻撃時、ブレイクダメージアップ<br>攻撃前、対象の氷属性耐性ダウン<br>攻撃後、対象の受ける氷属性ダメージアップ<br>魔攻が最も高い味方1人の魔攻アップ<br>対象がブレイク時、味方全員のクリティカルダメージアップ<br>味方の次のパネル1つをクリティカルパネルに変換",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91000907,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91000935,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001497,
+          "description": "",
+          "value": 2500
+        },
+        {
+          "id": 91001356,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001485,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001490,
+          "description": "",
+          "value": 100
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "ICE",
+      "target": "ENEMY",
+      "range": "ALL",
+      "has_damage": true,
+      "damage_values": [252, 252, 252, 267, 283, 299, 315],
+      "has_stun": true,
+      "stun_values": [260, 260, 260, 276, 292, 308, 325],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "無駄な足掻きはおよし",
+      "description": "攻撃対象がブレイク時、対象に「受ける魔法攻撃ダメージ+{0}%」を2回攻撃を受けるまで付与<br>WEAK攻撃時、スキルダメージ+{1}%",
+      "effects": [
+        {
+          "id": 72001089,
+          "description": "[敵対象/ブレイク時/2回/被魔法ダメージアップ]",
+          "value": 2500
+        },
+        {
+          "id": 72001120,
+          "description": "",
+          "value": 3000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "刮目なさい！",
+      "description": "バーストパネル獲得時、自身に「ブレイクダメージ+{0}%」を1回行動終了するまで付与",
+      "effects": [
+        {
+          "id": 72001165,
+          "description": "",
+          "value": 5000
+        }
+      ]
+    },
+    "start_at": "2025-01-17T03:00:00.000Z"
   },
   {
     "id": 44301,

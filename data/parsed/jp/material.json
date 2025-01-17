@@ -43791,5 +43791,346 @@
     "image_medium": "Ingredient_0830_M",
     "start_at": "2024-12-31T15:00:00.000Z",
     "end_at": null
+  },
+  {
+    "id": 848,
+    "name": "キノコヤドシ",
+    "rarity": 2,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 26,
+        "name": "魔法耐性上昇",
+        "category": "ENHANCE",
+        "description": "魔法攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000027,
+            "description": "魔法属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "name": "物理/魔法耐性ダウン強化",
+        "category": "WEAKENING",
+        "description": "対象が与える「物理被ダメージアップ」と「魔法被ダメージアップ」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000030,
+            "description": "対象が与える「物理被ダメージアップ」と「魔法被ダメージアップ」の効果量{0}%アップ",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204122002,
+        "quest_name": "大穴に潜る【緑】",
+        "difficulty": "NORMAL",
+        "episode_id": 204122,
+        "episode_name": "スコアバトル22章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204122004,
+        "quest_name": "大穴に潜る【緑】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204122,
+        "episode_name": "スコアバトル22章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0848_S",
+    "image_medium": "Ingredient_0848_M",
+    "start_at": "2025-01-17T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 849,
+    "name": "トキシーモス",
+    "rarity": 2,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 11,
+        "name": "魔法ダメージ上昇",
+        "category": "ATTACK",
+        "description": "魔法攻撃のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [200, 400, 600, 1200, 2000]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "ダメージバフ強化【A】",
+        "category": "ENHANCE",
+        "description": "アタッカーへ与えるダメージ強化の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000017,
+            "description": "アタッカーへのダメージバフ{0}%アップ",
+            "values": [500, 1000, 1500, 3000, 5000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204122001,
+        "quest_name": "治療のための素材集め【赤】",
+        "difficulty": "NORMAL",
+        "episode_id": 204122,
+        "episode_name": "スコアバトル22章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204122003,
+        "quest_name": "治療のための素材集め【赤】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204122,
+        "episode_name": "スコアバトル22章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0849_S",
+    "image_medium": "Ingredient_0849_M",
+    "start_at": "2025-01-17T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 850,
+    "name": "大自然の湧水",
+    "rarity": 2,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 10,
+        "name": "守護の祝福",
+        "category": "ENHANCE",
+        "description": "「物防{0}%アップ」と「魔防{1}%アップ」を1回攻撃されるまで付与",
+        "effects": [
+          {
+            "id": 3000050,
+            "description": "「物防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          },
+          {
+            "id": 3000051,
+            "description": "「魔防{0}%アップ」を1回攻撃されるまで付与",
+            "values": [100, 200, 300, 400, 500]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "魔力の祝福",
+        "category": "ATTACK",
+        "description": "魔法攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204122002,
+        "quest_name": "大穴に潜る【緑】",
+        "difficulty": "NORMAL",
+        "episode_id": 204122,
+        "episode_name": "スコアバトル22章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204122004,
+        "quest_name": "大穴に潜る【緑】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204122,
+        "episode_name": "スコアバトル22章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0850_S",
+    "image_medium": "Ingredient_0850_M",
+    "start_at": "2025-01-17T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 851,
+    "name": "ブランシュソンブル",
+    "rarity": 3,
+    "color": "青",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 67,
+        "name": "WEAK時ブレイクダメージ上昇",
+        "category": "ATTACK",
+        "description": "WEAK攻撃時、ブレイクダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000213,
+            "description": "WEAK攻撃時、ブレイクダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "氷ダメージ上昇",
+        "category": "ATTACK",
+        "description": "氷属性のスキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000005,
+            "description": "氷属性のダメージ{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204122004,
+        "quest_name": "大穴に潜る【緑】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204122,
+        "episode_name": "スコアバトル22章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0851_S",
+    "image_medium": "Ingredient_0851_M",
+    "start_at": "2025-01-17T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 852,
+    "name": "森の恵み",
+    "rarity": 3,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 49,
+        "name": "物理/魔法耐性アップ強化",
+        "category": "ENHANCE",
+        "description": "対象が与える「物理被ダメージダウン」と「魔法被ダメージダウン」の効果量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000028,
+            "description": "対象が与える「物理被ダメージダウン」と「魔法被ダメージダウン」の効果量{0}%アップ",
+            "values": [400, 800, 1200, 2400, 4000]
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "火耐性上昇",
+        "category": "ENHANCE",
+        "description": "火属性耐性{0}%アップ",
+        "effects": [
+          {
+            "id": 3000022,
+            "description": "火属性ダメージ耐性{0}%アップ",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204122004,
+        "quest_name": "大穴に潜る【緑】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204122,
+        "episode_name": "スコアバトル22章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0852_S",
+    "image_medium": "Ingredient_0852_M",
+    "start_at": "2025-01-17T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 853,
+    "name": "石ギンチャク",
+    "rarity": 3,
+    "color": "紫",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 51,
+        "name": "破壊力上昇",
+        "category": "ATTACK",
+        "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000078,
+            "description": "戦闘アイテムが与えるダメージ{0}%アップ",
+            "values": [600, 1100, 1700, 3300, 5400]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "剛力の祝福",
+        "category": "ATTACK",
+        "description": "物理攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000008,
+            "description": "物理攻撃のダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 204122003,
+        "quest_name": "治療のための素材集め【赤】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204122,
+        "episode_name": "スコアバトル22章",
+        "quantity": 8
+      }
+    ],
+    "image_small": "Ingredient_0853_S",
+    "image_medium": "Ingredient_0853_M",
+    "start_at": "2025-01-17T03:00:00.000Z",
+    "end_at": null
   }
 ]

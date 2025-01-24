@@ -43845,6 +43845,22 @@
         "episode_id": 204122,
         "episode_name": "スコアバトル22章",
         "quantity": 8
+      },
+      {
+        "quest_id": 204122005,
+        "quest_name": "星に導かれた者たち【青/黄/紫】",
+        "difficulty": "NORMAL",
+        "episode_id": 204122,
+        "episode_name": "スコアバトル22章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204122006,
+        "quest_name": "星に導かれた者たち【青/黄/紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204122,
+        "episode_name": "スコアバトル22章",
+        "quantity": 8
       }
     ],
     "image_small": "Ingredient_0848_S",
@@ -43901,6 +43917,22 @@
       {
         "quest_id": 204122003,
         "quest_name": "治療のための素材集め【赤】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204122,
+        "episode_name": "スコアバトル22章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204122005,
+        "quest_name": "星に導かれた者たち【青/黄/紫】",
+        "difficulty": "NORMAL",
+        "episode_id": 204122,
+        "episode_name": "スコアバトル22章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204122006,
+        "quest_name": "星に導かれた者たち【青/黄/紫】",
         "difficulty": "VERY_HARD",
         "episode_id": 204122,
         "episode_name": "スコアバトル22章",
@@ -43970,6 +44002,22 @@
         "episode_id": 204122,
         "episode_name": "スコアバトル22章",
         "quantity": 8
+      },
+      {
+        "quest_id": 204122005,
+        "quest_name": "星に導かれた者たち【青/黄/紫】",
+        "difficulty": "NORMAL",
+        "episode_id": 204122,
+        "episode_name": "スコアバトル22章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204122006,
+        "quest_name": "星に導かれた者たち【青/黄/紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204122,
+        "episode_name": "スコアバトル22章",
+        "quantity": 8
       }
     ],
     "image_small": "Ingredient_0850_S",
@@ -44018,6 +44066,14 @@
       {
         "quest_id": 204122004,
         "quest_name": "大穴に潜る【緑】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204122,
+        "episode_name": "スコアバトル22章",
+        "quantity": 8
+      },
+      {
+        "quest_id": 204122006,
+        "quest_name": "星に導かれた者たち【青/黄/紫】",
         "difficulty": "VERY_HARD",
         "episode_id": 204122,
         "episode_name": "スコアバトル22章",
@@ -44074,6 +44130,14 @@
         "episode_id": 204122,
         "episode_name": "スコアバトル22章",
         "quantity": 8
+      },
+      {
+        "quest_id": 204122006,
+        "quest_name": "星に導かれた者たち【青/黄/紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204122,
+        "episode_name": "スコアバトル22章",
+        "quantity": 8
       }
     ],
     "image_small": "Ingredient_0852_S",
@@ -44126,11 +44190,211 @@
         "episode_id": 204122,
         "episode_name": "スコアバトル22章",
         "quantity": 8
+      },
+      {
+        "quest_id": 204122006,
+        "quest_name": "星に導かれた者たち【青/黄/紫】",
+        "difficulty": "VERY_HARD",
+        "episode_id": 204122,
+        "episode_name": "スコアバトル22章",
+        "quantity": 8
       }
     ],
     "image_small": "Ingredient_0853_S",
     "image_medium": "Ingredient_0853_M",
     "start_at": "2025-01-17T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 855,
+    "name": "うにゅう",
+    "rarity": 2,
+    "color": "赤",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 1,
+        "name": "与ダメージ上昇",
+        "category": "ATTACK",
+        "description": "スキルダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000011,
+            "description": "スキルダメージ{0}%アップ",
+            "values": [200, 300, 500, 900, 1500]
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "name": "単体回復量上昇",
+        "category": "RECOVERY",
+        "description": "味方単体回復が与えるHP回復量{0}%アップ",
+        "effects": [
+          {
+            "id": 3000032,
+            "description": "単体回復時の回復量{0}%アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 7703001,
+        "quest_name": "親友と歩む未来１",
+        "episode_id": 7703,
+        "episode_name": "親友と歩む未来スコアバトル"
+      },
+      {
+        "quest_id": 7703003,
+        "quest_name": "親友と歩む未来３",
+        "episode_id": 7703,
+        "episode_name": "親友と歩む未来スコアバトル"
+      },
+      {
+        "quest_id": 7703004,
+        "quest_name": "親友と歩む未来４",
+        "episode_id": 7703,
+        "episode_name": "親友と歩む未来スコアバトル"
+      },
+      {
+        "quest_id": 7703005,
+        "quest_name": "親友と歩む未来５",
+        "episode_id": 7703,
+        "episode_name": "親友と歩む未来スコアバトル"
+      }
+    ],
+    "image_small": "Ingredient_0855_S",
+    "image_medium": "Ingredient_0855_M",
+    "start_at": "2025-01-24T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 856,
+    "name": "ファーデンライト",
+    "rarity": 2,
+    "color": "緑",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [
+      {
+        "id": 8,
+        "name": "風の祝福",
+        "category": "ATTACK",
+        "description": "風属性のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000007,
+            "description": "風属性のダメージ{0}%アップ",
+            "values": [500, 900, 1400, 2700, 4500]
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "魔力の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000049,
+            "description": "対象に「受ける魔法攻撃のダメージ{0}%アップ」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 500, 800]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 7703002,
+        "quest_name": "親友と歩む未来２",
+        "episode_id": 7703,
+        "episode_name": "親友と歩む未来スコアバトル"
+      },
+      {
+        "quest_id": 7703003,
+        "quest_name": "親友と歩む未来３",
+        "episode_id": 7703,
+        "episode_name": "親友と歩む未来スコアバトル"
+      },
+      {
+        "quest_id": 7703004,
+        "quest_name": "親友と歩む未来４",
+        "episode_id": 7703,
+        "episode_name": "親友と歩む未来スコアバトル"
+      },
+      {
+        "quest_id": 7703005,
+        "quest_name": "親友と歩む未来５",
+        "episode_id": 7703,
+        "episode_name": "親友と歩む未来スコアバトル"
+      }
+    ],
+    "image_small": "Ingredient_0856_S",
+    "image_medium": "Ingredient_0856_M",
+    "start_at": "2025-01-24T03:00:00.000Z",
+    "end_at": null
+  },
+  {
+    "id": 857,
+    "name": "黄金いも",
+    "rarity": 3,
+    "color": "黄",
+    "description": "調合をするために必要な素材。",
+    "battle_item_trait": [],
+    "equipment_trait": [
+      {
+        "id": 27,
+        "name": "単体攻撃威力上昇",
+        "category": "ATTACK",
+        "description": "単体攻撃のスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000111,
+            "description": "単体攻撃のスキル威力{0}％アップ",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "name": "全体攻撃耐性上昇",
+        "category": "ENHANCE",
+        "description": "全体攻撃から受けるダメージ{0}%ダウン",
+        "effects": [
+          {
+            "id": 3000112,
+            "description": "全体攻撃で受けるダメージ{0}％ダウン",
+            "values": [300, 500, 800, 1500, 2500]
+          }
+        ]
+      }
+    ],
+    "is_from_event": false,
+    "available_from": "SCORE_BATTLES",
+    "source_locations": [
+      {
+        "quest_id": 7703004,
+        "quest_name": "親友と歩む未来４",
+        "episode_id": 7703,
+        "episode_name": "親友と歩む未来スコアバトル"
+      },
+      {
+        "quest_id": 7703005,
+        "quest_name": "親友と歩む未来５",
+        "episode_id": 7703,
+        "episode_name": "親友と歩む未来スコアバトル"
+      }
+    ],
+    "image_small": "Ingredient_0857_S",
+    "image_medium": "Ingredient_0857_M",
+    "start_at": "2025-01-24T03:00:00.000Z",
     "end_at": null
   }
 ]

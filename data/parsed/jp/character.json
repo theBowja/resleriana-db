@@ -12024,6 +12024,209 @@
     "start_at": "2024-03-12T03:00:00.000Z"
   },
   {
+    "id": 35003,
+    "name": "フィリス",
+    "title": "【Twinning Ribbon】",
+    "full_name": "フィリス・ミストルート",
+    "base_character": "フィリス",
+    "is_alchemist": true,
+    "gender": "女性",
+    "attribute": "AIR",
+    "role": "ATTACKER",
+    "initial_rarity": 3,
+    "acquisition_text": "さあ、準備はいいですか？\n不思議な旅にご招待！",
+    "profile": {
+      "voice_actor": "本渡楓",
+      "voice_text": "このリボンすっごくかわいくてお気に入り！\n動くとふわふわするんだよ、ふわふわー♪",
+      "description": "旅を愛する錬金術士。\n頭のリボンは、ライバルかつ親友であるイルメリアとお揃いになるようにと、姉のリアーネが用意したもの。\nこのリボンを付けていると、自分は天才錬金術士なのだと自信が湧いてくるらしい。",
+      "origin_game": "フィリスのアトリエ ～不思議な旅の錬金術士～"
+    },
+    "gift_color": {
+      "received": "黄",
+      "given": "赤"
+    },
+    "battle_item_trait": [
+      {
+        "id": 5,
+        "name": "魔力の祝福",
+        "category": "ATTACK",
+        "description": "魔法攻撃のダメージ{0}%アップ",
+        "effects": [
+          {
+            "id": 3000009,
+            "description": "魔法攻撃のダメージ{0}%アップ",
+            "values": [300, 600, 900, 1800, 3000]
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "風の呪詛",
+        "category": "WEAKENING",
+        "description": "対象に「風属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+        "effects": [
+          {
+            "id": 3000062,
+            "description": "対象に「風属性耐性{0}%ダウン」を1回攻撃を受けるまで付与",
+            "values": [100, 200, 300, 600, 1000]
+          }
+        ]
+      }
+    ],
+    "equipment_trait": [
+      {
+        "id": 73,
+        "name": "風スキル威力上昇",
+        "category": "ATTACK",
+        "description": "風スキルのスキル威力{0}%アップ",
+        "effects": [
+          {
+            "id": 3000246,
+            "description": "風スキル威力{0}%アップ",
+            "values": [400, 800, 1200, 2200, 3500]
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "base": {
+        "hp": 166,
+        "spd": 234,
+        "patk": 54,
+        "matk": 66,
+        "pdef": 37,
+        "mdef": 47
+      },
+      "growth": {
+        "hp": 1660,
+        "spd": 0,
+        "patk": 540,
+        "matk": 660,
+        "pdef": 370,
+        "mdef": 470
+      },
+      "resistance": {
+        "fire": 0,
+        "ice": 0,
+        "bolt": 0,
+        "air": 5,
+        "slash": 0,
+        "strike": 0,
+        "stab": 0
+      }
+    },
+    "skill_1": {
+      "name": "リボンシュート",
+      "description": "攻撃後、自身に「スキルダメージ+{0}%」を2回行動終了するまで付与",
+      "summary": "攻撃後、自身のスキルダメージアップ",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001378,
+          "description": "",
+          "value": 3000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [89, 94, 100, 105, 111],
+      "has_stun": true,
+      "stun_values": [7, 7, 7, 7, 8],
+      "has_recovery": false,
+      "wait": 100
+    },
+    "skill_2": {
+      "name": "トリックブラスター",
+      "description": "攻撃後、自身に「魔攻+{0}%」(上限60%)を付与し、<br>対象に「絡まりリボン」を付与<br>※絡まりリボンは受ける魔法攻撃ダメージ+{1}%(上限40%)",
+      "summary": "攻撃後、自身の魔攻アップ<br>対象に「絡まりリボン」を付与",
+      "max_level": 5,
+      "skill_type": "SKILL",
+      "effects": [
+        {
+          "id": 91001502,
+          "description": "",
+          "value": 3000
+        },
+        {
+          "id": 91001503,
+          "description": "",
+          "value": 2000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [271, 287, 304, 321, 338],
+      "has_stun": true,
+      "stun_values": [31, 32, 34, 36, 38],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "burst": {
+      "name": "ツイストリボンデコレーション",
+      "description": "この攻撃のクリティカル確率+100%<br>攻撃後、自身に「スキルダメージ+{0}%」(上限100%)を付与し、<br>「魔攻+{1}%」を1回行動終了するまで付与",
+      "summary": "この攻撃のクリティカル確率アップ<br>攻撃後、自身のスキルダメージアップ<br>自身の魔攻アップ",
+      "max_level": 7,
+      "skill_type": "BURST",
+      "effects": [
+        {
+          "id": 91001504,
+          "description": "",
+          "value": 5000
+        },
+        {
+          "id": 91001020,
+          "description": "魔攻アップ(1回)",
+          "value": 5000
+        }
+      ],
+      "attribute_type": "MAGIC",
+      "attribute": "AIR",
+      "target": "ENEMY",
+      "range": "ONE",
+      "has_damage": true,
+      "damage_values": [420, 420, 420, 446, 472, 498, 525],
+      "has_stun": true,
+      "stun_values": [75, 75, 75, 79, 84, 88, 93],
+      "has_recovery": false,
+      "wait": 200
+    },
+    "passive_1": {
+      "name": "友の支えが力になる！",
+      "description": "自身に付与されている強化効果の数に応じ、スキルダメージ+10〜100%(1〜20個で多いほど増加)<br>※バトル開始時に発動した回数制限のない強化効果は含まない",
+      "effects": [
+        {
+          "id": 72001173,
+          "description": "",
+          "value": 1000
+        },
+        {
+          "id": 72001174,
+          "description": "",
+          "value": 9000
+        }
+      ]
+    },
+    "passive_2": {
+      "name": "イタズラしちゃうよ！",
+      "description": "スキル使用前、攻撃対象に「絡まりリボン」が付与されている時、その攻撃のスキルダメージ+{0}%",
+      "effects": [
+        {
+          "id": 72001176,
+          "description": "",
+          "value": 3000
+        }
+      ]
+    },
+    "start_at": "2025-01-24T03:00:00.000Z"
+  },
+  {
     "id": 37401,
     "name": "リディー",
     "title": "【Rainbow Canvas】",

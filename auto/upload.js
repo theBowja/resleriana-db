@@ -24,6 +24,11 @@ module.exports = { uploadImageFromPath, sortSizeCache, saveSizeCache };
  * @returns {boolean} success or failure depending on if the image was uploaded or not
  */
 async function uploadImageFromPath(imagePath, folder, imageName=undefined) {
+    if (!fs.existsSync(imagePath)) {
+        console.error("Image doesn't exist at path: " + imagePath);
+        return false;
+    }
+    
     // Check if image already exists
     const imageSize = fs.statSync(imagePath).size;
     if (existsInSizeCache(imageName || imagePath, imageSize, folder)) {

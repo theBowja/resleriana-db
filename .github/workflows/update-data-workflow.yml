@@ -10,7 +10,7 @@ permissions:
 jobs:
     update-all-data:
       runs-on: ubuntu-latest
-      name: Update masterdata, parsed data, and fileassets.
+      name: Update masterdata and fileassets.
       steps:
         - uses: actions/checkout@v3
         - uses: actions/setup-node@v3

@@ -78,7 +78,7 @@ function runExtractor(extractor, language, dataset, file) {
  */
 function updateFileList(languages=config.languages) {
 	const files = require('../data/files.json');
-	for (const dataset of ['master', 'parsed', 'TextAsset']) {
+	for (const dataset of ['master']) {
 		if (!files[dataset]) files[dataset] = {};
 		for (const language of languages) {
 			if (fs.existsSync(path.resolve(__dirname, `../data/${dataset}/${language}`))) {

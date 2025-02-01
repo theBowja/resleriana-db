@@ -9,7 +9,7 @@ const files = require('./data/files.json');
  * @returns boolean
  */
 export function validateDataset(dataset) {
-	return dataset === 'master' || dataset === 'parsed';
+	return dataset === 'master';// || dataset === 'parsed';
 }
 
 /**

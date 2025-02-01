@@ -70,10 +70,10 @@ pip install -r requirements.txt
 
 ## Repository structure
 - `/api` - Contains the code for Vercel API.
-- `/auto` - Contains code used by Github Actions to auto-update data
-- `/data` - Contains the masterdata, parsed.
+- `/auto` - Contains code used by Github Actions to auto-update data.
+- `/data` - Contains the masterdata.
 - `/docs` - Extra documentation.
-- `/import` - Contains the helper scripts used to download catalog, extract resource metadata, extract and parse masterdata, and deserialize TextAssets.
+- `/import` - Contains the helper scripts used to download catalog, extract resource metadata, extract masterdata, and deserialize TextAssets.
 - `/resources` - TextAsset JSON organized by locales
 - `/tools` - Contains the non-Javascript scripts used for downloading bundles and extracting Unity assets.
 - `main.mjs` - Script contains the data retrieval and data searching functions.
@@ -82,17 +82,11 @@ pip install -r requirements.txt
 
 This dataset contains the original data directly used in the game.
 
-### parsed
-
-UNMAINTAINED
-
-This dataset contains files and data properties curated from the master data.
-
 ## Get data
 
 JSON data is divided into datasets and locale.  
 
-Datasets: master, parsed  
+Datasets: master  
 Locales: en, jp, zh-cn, zh-tw  
 
 Note: master data contains some properties that end in `_still_path_hash`. These can be mapped to actual image names using the JSON map at [/resources/Global/path_hash_to_name.json](./resources/Global/path_hash_to_name.json) or [/resources/Japan/path_hash_to_name.json](./resources/Japan/path_hash_to_name.json).

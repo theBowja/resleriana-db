@@ -46,4 +46,4 @@ Returned search object:
 
 Examples:  
 - https://resleriana-db.vercel.app/api/master/search?locale=en&file=character&key=name&query=resna  
-- https://resleriana-db.vercel.app/api/parsed/search?locale=en&file=material&key=equipment_trait.name,equipment_trait.name&query=physical%20res,%20magic%20res  
+<!-- - https://resleriana-db.vercel.app/api/parsed/search?locale=en&file=material&key=equipment_trait.name,equipment_trait.name&query=physical%20res,%20magic%20res   -->

@@ -22,15 +22,11 @@ const importconfig = require('../import/config.json');
 main();
 
 async function main() {
-    // await checkMasterdata('Global');
-    // await checkMasterdata('Japan');
+    await checkMasterdata('Global');
+    await checkMasterdata('Japan');
     
-    // await checkFileassets('Global', false, false);
-    // await checkFileassets('Japan', false, false);
-
-    const server = 'Global';
-    const version = importconfig.fileassets_version[server];
-    await extract.extractTextAsset(server, 'StandaloneWindows64', version);
+    await checkFileassets('Global', false, false);
+    await checkFileassets('Japan', false, false);
 
     console.log('done');
 }

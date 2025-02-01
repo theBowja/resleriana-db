@@ -31,7 +31,7 @@ async function extractReslerianaData(server) {
 		first = false;
 	}
 
-	parseMasterData(languages);
+	// parseMasterData(languages);
 
 	updateFileList(languages);
 }

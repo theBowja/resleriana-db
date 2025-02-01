@@ -4,25 +4,18 @@ This repository provides easy access to all the resources required for creating 
 
 Provided from repository, web API, and npm package:
 - masterdata data (contains game data)
-- parsed data (contains curated data from masterdata) (UNMAINTAINED)
 - TextAsset data (contains story dialogue, SystemText, etc.)
 
 Provided from repository:
 - built-in scripts to extract your own images, voiceclips, and videos
 - mapping for converting `_still_path_hash` in masterdata to extracted image names
-- upload images directly to Cloudinary CDN
 - preview newly added images
-
-Provided from Cloudinary CDN:
-- all images for Global version
-- all images for Japan version
 
 ## Table of Contents
 - [Local development](#local-development)
 - [Respository structure](#repository-structure)
 - [Get data](#get-data)
   - [from repository](#from-repository)
-  - [from npm package](#from-npm-package)
   - [from web API](#from-web-api)
 - [Extract resources](#extract-resources)
 - [Preview](#preview)
@@ -77,14 +70,12 @@ pip install -r requirements.txt
 
 ## Repository structure
 - `/api` - Contains the code for Vercel API.
-- `/auto` - Contains code used by Github Actions to auto-update data and auto-upload assets to Cloudinary CDN.
+- `/auto` - Contains code used by Github Actions to auto-update data
 - `/data` - Contains the masterdata, parsed.
-- `/dist` - TODO for npm publishing.
 - `/docs` - Extra documentation.
 - `/import` - Contains the helper scripts used to download catalog, extract resource metadata, extract and parse masterdata, and deserialize TextAssets.
 - `/resources` - TextAsset JSON organized by locales
 - `/tools` - Contains the non-Javascript scripts used for downloading bundles and extracting Unity assets.
-- `/types` - TODO
 - `main.mjs` - Script contains the data retrieval and data searching functions.
 
 ### master
@@ -117,43 +108,6 @@ Alternatively, you can import the following functions from the main.mjs file:
 
 Documentation for these functions can be found in the [next section](#from-npm-package).
 
-### From npm package
-
-UNIMPLEMENTED
-
-JSON data for master and parsed can be downloaded as an npm package for your JavaScript project. The size of the JSONs combined is 70MB+ or 5MB+ compressed. Please refrain from loading the entire package directly into your HTML because that will directly ruin your loading times.
-
-```
-PACKAGE ISN'T PUBLISHED AND DOESN'T EXIST YET
-npm install resleriana-db
-```
-
-You can directly load JSONs from your node_modules folder using the following path: `/node_modules/resleriana-db/data/[dataset]/[locale]/[file].json`.
-
-However it is recommended you import the `resleriana-db` module in order to access the JSON data.
-
-```js
-const reslerianaDb = require('resleriana-db');
-```
-
-The module exports the following helper functions:
-
-- [getFile(dataset, locale, file)](#getfile)
-- [getDataByKey(dataset, locale, file, key, value)]()
-- [searchData(dataset, locales, files, keys, query, options={})]()
-
-#### getFile
-
-TODO
-
-#### getDataByKey
-
-TODO
-
-#### searchData
-
-TODO
-
 ### From web API
 
 The web API is hosted on Vercel serverless functions and can be used to search and retrieval data in the /data folder.
@@ -179,17 +133,6 @@ Other scripts are also provided for supporting functionality.
 | Run-script | Description | Documentation|
 |---|---|---|
 | `updatePathHashMap` | Generates mapping between masterdata's still path hashes to their respective image names | [/docs/stillpathhash.md](./docs/stillpathhash.md) |
-
-## Preview
-
-TODO idk
-
-## Cloudinary
-
-Settings -> Account -> Product environment cloud name -> change this to whatever.
-
-If you are uploading images through their web interface, then consider disabling the following setting:  
-Settings -> Upload -> Upload presets -> ml_default -> Edit -> Unique filename -> off
 
 ## Contributing
 

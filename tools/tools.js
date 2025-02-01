@@ -7,11 +7,11 @@ module.exports = { executeAtelierToolBundleDownload, generateContainerToPathHash
 
 /**
  * Executes the AtelierTool.exe which downloads and decrypts bundles to the output folder. Requires net7.0 to be installed.
- * @param {string} server 
- * @param {string} platform 
- * @param {string} version 
+ * @param {string} server "Global" or "Japan" 
+ * @param {string} platform "StandaloneWindows64", "Android", or "iOS"
+ * @param {string} version fileassets_version
  * @param {string} outputDirectory if relative path, then it is relative to current working directory.
- * @param {string} [bundlePath] if relative path, then it is relative to current working directory.
+ * @param {string} [bundlePath] optional. if relative path, then it is relative to current working directory.
  */
 function executeAtelierToolBundleDownload(server, platform, version, outputDirectory, bundlePath=undefined) {
     const args = [

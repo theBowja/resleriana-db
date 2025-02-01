@@ -4,6 +4,7 @@ const path = require('path');
 
 const extract = require('./extract.js');
 const importconfig = require('../import/config.json');
+const tools = require('../tools/tools.js');
 
 const argv = require('yargs-parser')(process.argv.slice(2), {
     string: [ 'server', 'platform', 'version', 'script', 'outputFolder',
@@ -46,6 +47,13 @@ async function main() {
             break;
 
         case 'downloadbundles':
+            if (argv.outputFolder === undefined) {
+                argv.outputFolder = path.resolve(__dirname, `../resources/${argv.server}/${argv.platform}/bundles`);
+            }
+            if (argv.version === undefined) {
+                argv.version = importconfig.fileassets_version[argv.server];
+            }
+            tools.executeAtelierToolBundleDownload(argv.server, argv.platform, argv.version, argv.outputFolder);
             break;
 
         case 'updatepathhashmap':

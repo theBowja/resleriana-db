@@ -30,7 +30,7 @@ Clone the repository:
 git clone https://github.com/theBowja/resleriana-db.git
 ```
 
-Install Node.js v20+:  
+Install Node.js v20 (doesn't work with v22+):  
 https://nodejs.org/en/download
 
 Verify Node.js and npm installation:
@@ -54,8 +54,10 @@ dotnet --version
 dotnet --list-runtimes
 ```
 
-Install Python 3.7+ (required for UnityPy asset extraction):  
-https://www.python.org/downloads/
+Install Python 3.8 - 3.12 (required for UnityPy asset extraction):  
+https://www.python.org/downloads/   
+Use [pyenv](https://github.com/pyenv/pyenv) or [pyenv-win](https://github.com/pyenv-win/pyenv-win) to use multiple versions of Python
+If you are using pyenv-win, you might need to disable the built-in Python launcher via Start > "Manage App Execution Aliases" and turning off the "App Installer" aliases for Python
 
 Verify Python installation:
 ```

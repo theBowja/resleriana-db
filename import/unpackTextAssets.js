@@ -28,6 +28,12 @@ function unpackFolder(inputDir, outputDir, sorted=false) {
                 outputDirFolder = path.join(outputDir, 'SystemText');
             } else if (isDialogue(entries)) {
                 outputDirFolder = path.join(outputDir, 'Dialogue');
+                for (const subfolder of dialogueSubfolders) {
+                    if (filename.startsWith(subfolder)) {
+                        outputDirFolder = path.join(outputDirFolder, subfolder);
+                        break;
+                    }
+                }
             } else {
                 outputDirFolder = path.join(outputDir, 'Misc');
             }
@@ -42,11 +48,20 @@ function isDialogue(entries) {
     return entries && entries[0] && entries[0].text;
 }
 
+const dialogueSubfolders = [
+    'Atelier_Talk',
+    'CityTalkEvent',
+    'Date',
+    'LegendEvent',
+    'SeasonalTalkEvent',
+    'TalkEvent'
+];
+
 // Maps property keys to understandable keys
 const propNameMap = {
     4092729604: 'id',
-    2072370017: 'translated_name',
-    3013568853: 'idk_name',
+    2072370017: 'localized_name',
+    3013568853: 'romanized_name',
     2314468669: 'model_path_hash',
     999008199: 'text',
     1924308541: 'voice_file',

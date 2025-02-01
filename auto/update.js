@@ -88,6 +88,11 @@ async function checkFileassets(server, skipCheck=false, uploadImages=false) {
         // Generate mapping between still path hash and image name
         await extract.updatePathHashMap(server, 'Android', version);
 
+        // Dump list of bundlenames for each asset type
+        const bundleDir = path.resolve(__dirname, `../resources/${server}/${platform}/bundles`);
+        const bundleNamesDir = path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames`);
+        tools.dumpBundlenames(bundleDir, { output_folder: bundleNamesDir });
+
         // Export TextAsset to resources
         await extract.extractTextAsset(server, 'Android', version);
 

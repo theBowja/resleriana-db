@@ -3,7 +3,7 @@
 const path = require('path');
 const execSync = require('child_process').execFileSync;
 
-module.exports = { executeAtelierToolBundleDownload, generateContainerToPathHash, exportAssets };
+module.exports = { executeAtelierToolBundleDownload, generateContainerToPathHash, exportAssets, dumpBundlenames };
 
 /**
  * Executes the AtelierTool.exe which downloads and decrypts bundles to the output folder. Requires net7.0 to be installed.
@@ -96,6 +96,35 @@ function exportAssets(
     if (image_format) args.push('--image_format', image_format);
     if (regex) args.push('--regex', regex);
     if (bundlename_list) args.push('--bundlename_list', bundlename_list);
+    if (processes) args.push('--processes', processes);
+
+    execSync(`python`, args, { stdio: 'inherit' });
+}
+
+/**
+ * Executes the python script to extract assets. Requires Python3.7+ and UnityPy1.10.7+ to be installed.
+ * @param {string} bundle_folder if relative path, then it is relative to current working directory.
+ * @param {object} [args] optional extra arguments
+ * @param {string} [args.output_folder] if relative path, then it is relative to current working directory.
+ * @param {number} [args.processes] number of processes to use. defaults to cpu count.
+ */
+function dumpBundlenames(
+    bundle_folder,
+    {
+        output_folder=undefined,
+        processes=undefined
+    } = {}
+) {
+    const exePath = path.resolve(__dirname, `./UnityPyScripts/dumpBundlenames.py`);
+    bundle_folder = path.resolve(process.cwd(), bundle_folder);
+    if (output_folder) output_folder = path.resolve(process.cwd(), output_folder);
+    if (typeof processes !== 'number') processes = undefined;
+
+    const args = [
+        exePath,
+        bundle_folder,
+    ];
+    if (output_folder) args.push(output_folder);
     if (processes) args.push('--processes', processes);
 
     execSync(`python`, args, { stdio: 'inherit' });

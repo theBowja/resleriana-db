@@ -1,6 +1,7 @@
 // This script is the entry point for all npm run-scripts
 
 const path = require('path');
+const fs = require('fs');
 
 const extract = require('./extract.js');
 const importconfig = require('../import/config.json');
@@ -49,6 +50,7 @@ async function main() {
         case 'downloadbundles':
             if (argv.outputFolder === undefined) {
                 argv.outputFolder = path.resolve(__dirname, `../resources/${argv.server}/${argv.platform}/bundles`);
+                fs.mkdirSync(path.resolve(argv.outputFolder, 'Embed'), { recursive: true });
             }
             if (argv.version === undefined) {
                 argv.version = importconfig.fileassets_version[argv.server];

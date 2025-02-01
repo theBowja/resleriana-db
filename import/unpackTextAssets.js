@@ -11,6 +11,8 @@ module.exports = { unpackFolder };
  * @param {boolean} sorted whether or not to separate the TextAssets into the following folders: Dialogue, Misc, SystemText
  */
 function unpackFolder(inputDir, outputDir, sorted=false) {
+    console.log('Unpacking textassets');
+
     inputDir = path.resolve(process.cwd(), inputDir);
     outputDir = path.resolve(process.cwd(), outputDir);
 

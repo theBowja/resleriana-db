@@ -8,13 +8,13 @@ const importconfig = require('../import/config.json');
 const tools = require('../tools/tools.js');
 
 const argv = require('yargs-parser')(process.argv.slice(2), {
-    string: [ 'server', 'platform', 'version', 'script', 'outputFolder',
-        'imageFormat', 'imageNamesOutputPath', 'regexFilter' ],
+    string: [ 'server', 'platform', 'version', 'script', 'bundlesFolder', 'outputFolder',
+              'imageFormat', 'imageNamesOutputPath', 'regexFilter' ],
     boolean: [ 'skipDownloads', 'redoCache', 'skipOutputFolder' ],
     number: ['processes'],
 
-    coerce: { server: coerceServer, platform: coercePlatform, outputFolder: coerceOutputFolder, imageFormat: coerceImageFormat,
-        outputFolder: coerceOutputFolder, imageNamesOutputPath: coerceImageNamesOutputPath },
+    coerce: { server: coerceServer, platform: coercePlatform, imageFormat: coerceImageFormat,
+        bundlesFolder: coercePath, outputFolder: coercePath, imageNamesOutputPath: coercePath },
 
     default: { server: 'Global', platform: 'StandaloneWindows64', imageFormat: 'webp' },
 
@@ -29,20 +29,23 @@ function coercePlatform(platform) {
     return importconfig.platforms.includes(platform) ? platform : 'StandaloneWindows64';
 }
 
-function coerceOutputFolder(outputFolder) {
-    return outputFolder ? path.resolve(process.cwd(), outputFolder) : undefined;
+function coercePath(filepath) {
+    return filepath ? path.resolve(process.cwd(), filepath) : undefined;
 }
 
 function coerceImageFormat(imageFormat) {
     return imageFormat.toLowerCase() === 'png' ? imageFormat.toLowerCase() : 'webp';
 }
 
-function coerceImageNamesOutputPath(imageNamesOutputPath) {
-    return imageNamesOutputPath ? path.resolve(process.cwd(), imageNamesOutputPath) : undefined;
+function setArgvDefaults() {
+    if (argv.bundlesFolder === undefined)
+        argv.bundlesFolder = path.resolve(__dirname, `../resources/${argv.server}/${argv.platform}/bundles`);
 }
 
 main();
 async function main() {
+    setArgvDefaults();
+
     switch (argv.script.toLowerCase()) {
         case 'updatecatalogresources':
             break;
@@ -56,6 +59,14 @@ async function main() {
                 argv.version = importconfig.fileassets_version[argv.server];
             }
             tools.executeAtelierToolBundleDownload(argv.server, argv.platform, argv.version, argv.outputFolder);
+            break;
+        
+        case 'dumpbundlenames':
+            tools.dumpBundlenames(argv.bundlesFolder, argv);
+            break;
+
+        case 'dumpfilenames':
+            // tools.dumpFilenames(argv.bundl)
             break;
 
         case 'updatepathhashmap':

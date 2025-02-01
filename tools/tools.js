@@ -3,7 +3,7 @@
 const path = require('path');
 const execSync = require('child_process').execFileSync;
 
-module.exports = { executeAtelierToolBundleDownload, generateContainerToPathHash, exportAssets, dumpBundlenames };
+module.exports = { executeAtelierToolBundleDownload, generateContainerToPathHash, exportAssets, dumpBundlenames, dumpFilenames };
 
 /**
  * Executes the AtelierTool.exe which downloads and decrypts bundles to the output folder. Requires net7.0 to be installed.
@@ -125,6 +125,45 @@ function dumpBundlenames(
         bundle_folder,
     ];
     if (output_folder) args.push(output_folder);
+    if (processes) args.push('--processes', processes);
+
+    execSync(`python`, args, { stdio: 'inherit' });
+}
+
+/**
+ * Executes the python script to extract assets. Requires Python3.7+ and UnityPy1.10.7+ to be installed.
+ * @param {string} bundle_names if relative path, then it is relative to current working directory.
+ * @param {string} bundle_folder if relative path, then it is relative to current working directory.
+ * @param {string} asset_type listed in import/config.json under resources property.
+ * @param {object} [args] optional extra arguments
+ * @param {string} [args.filename_list] if relative path, then it is relative to current working directory.
+ * @param {string} [args.regex] regex to filter on file names.
+ * @param {number} [args.processes] number of processes to use. defaults to cpu count.
+ */
+function dumpFilenames(
+    bundle_names,
+    bundle_folder,
+    asset_type, 
+    {
+        filename_list=undefined,
+        regex=undefined,
+        processes=undefined
+    } = {}
+) {
+    const exePath = path.resolve(__dirname, `./UnityPyScripts/dumpFilenames.py`);
+    bundle_names = path.resolve(process.cwd(), bundle_names);
+    bundle_folder = path.resolve(process.cwd(), bundle_folder);
+    if (filename_list) filename_list = path.resolve(process.cwd(), filename_list);
+    if (typeof processes !== 'number') processes = undefined;
+
+    const args = [
+        exePath,
+        bundle_names,
+        bundle_folder,
+        asset_type
+    ];
+    if (filename_list) args.push(filename_list);
+    if (regex) args.push('--regex', regex);
     if (processes) args.push('--processes', processes);
 
     execSync(`python`, args, { stdio: 'inherit' });

@@ -41,7 +41,7 @@ async function updatePathHashMap(server="Global", platform="StandaloneWindows64"
 async function extractImages(server="Global", platform="StandaloneWindows64", version=importconfig.fileassets_version[server],
     {
         imageFormat="webp", outputFolder=undefined, skipOutputFolder=false, imageNamesOutputPath=undefined,
-        skipDownloads=false, regexFilter=undefined
+        skipDownloads=false, regexFilter=undefined, bundleNamesInputPath=undefined
     } = {}
 ) {
     console.log(`\n${server} | ${platform} | ${version}`);
@@ -50,11 +50,12 @@ async function extractImages(server="Global", platform="StandaloneWindows64", ve
         
     // Variables
     const bundleDir = path.resolve(__dirname, `../resources/${server}/${platform}/bundles`);
-    const bundleNamesTexture2D = path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames/Texture2D.txt`);
+    if (!bundleNamesInputPath)
+        bundleNamesInputPath = path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames/Texture2D.txt`);
     if (skipOutputFolder) outputFolder = undefined;
     else if (outputFolder === undefined) outputFolder = path.resolve(__dirname, `../resources/${server}/${platform}/Texture2D`);
     if (!imageNamesOutputPath)
-        imageNamesOutputPath = path.resolve(__dirname, `../resources/${server}/${platform}/filenames/Texture2D_${regexFilter ? 'regex' : 'extract'}.txt`);
+        imageNamesOutputPath = path.resolve(__dirname, `../resources/${server}/${platform}/filenames/Texture2D_extract${regexFilter ? '_filtered' : ''}.txt`);
 
     if (!skipDownloads) {
         // Download catalog
@@ -62,11 +63,11 @@ async function extractImages(server="Global", platform="StandaloneWindows64", ve
         catalog.getCatalogResources(server, catalogJSON, platform, 'Texture2D');
 
         // Download bundles
-        tools.executeAtelierToolBundleDownload(server, platform, version, bundleDir, bundleNamesTexture2D);
+        tools.executeAtelierToolBundleDownload(server, platform, version, bundleDir, bundleNamesInputPath);
     }
 
     // Export assets
-    tools.exportAssets(bundleNamesTexture2D, bundleDir, 'Texture2D',
+    tools.exportAssets(bundleNamesInputPath, bundleDir, 'Texture2D',
         { output_folder: outputFolder, filename_list: imageNamesOutputPath, image_format: imageFormat, regex: regexFilter });
     
     const t1 = performance.now();

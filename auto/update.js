@@ -82,23 +82,50 @@ async function checkFileassets(server, skipCheck=false, uploadImages=false) {
 
     // Do update
     try {
-        const platform = 'Android'; // smaller bundles
+        const platform = 'StandaloneWindows64'; // bigger bundles
         const version = importconfig.fileassets_version[server];
 
-        // Generate mapping between still path hash and image name
-        await extract.updatePathHashMap(server, 'Android', version);
-
-        // Dump list of bundlenames for each asset type
+        // Paths
+        const checkedBundlesPath = path.resolve(__dirname, `../resources/${server}/${platform}/checked_bundles.json`);
         const bundleDir = path.resolve(__dirname, `../resources/${server}/${platform}/bundles`);
         const bundleNamesDir = path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames`);
+        const fileNamesDir = path.resolve(__dirname, `../resources/${server}/${platform}/filenames`);
+        const bundlesnamesToProcessPath = path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames_to_process.txt`);
+
+        // Figure out which bundles we haven't checked yet
+        const checkedBundles = fs.existsSync(checkedBundlesPath) ? require(checkedBundlesPath) : {};
+        const catalogJSON = await catalog.getCatalogFromDownload(server, version, platform);
+        const bundlesToProcess = catalogJSON._fileCatalog._bundles.filter(bundle => {
+            return (checkedBundles[bundle._relativePath] === undefined || checkedBundles[bundle._relativePath] !== bundle._hash) && !bundle._relativePath.startsWith('Embed');
+        });
+        const bundlenamesToProcess = bundlesToProcess.map(b => b._relativePath);
+        fs.writeFileSync(bundlesnamesToProcessPath, bundlenamesToProcess.sort().join('\n'));
+
+        // Download new bundles we haven't checked yet
+        tools.executeAtelierToolBundleDownload(server, platform, version, bundleDir, bundlesnamesToProcessPath);
+
+        // Dump list of bundlenames for each asset type
         tools.dumpBundlenames(bundleDir, { output_folder: bundleNamesDir });
 
+        // Dump list of filenames for certain asset types
+        tools.dumpFilenames(path.join(bundleNamesDir, 'TextAsset.txt'), bundleDir, 'TextAsset', { filename_list: path.join(fileNamesDir, 'TextAsset.txt') })
+        // tools.dumpFilenames(path.join(bundleNamesDir, 'AudioClip.txt'), bundleDir, 'AudioClip', { filename_list: path.join(fileNamesDir, 'AudioClip.txt') })
+        tools.dumpFilenames(path.join(bundleNamesDir, 'Texture2D.txt'), bundleDir, 'Texture2D', { filename_list: path.join(fileNamesDir, 'Texture2D.txt') })
+
+        // Generate mapping between still path hash and image name
+        await extract.updatePathHashMap(server, platform, version);
+
         // Export TextAsset to resources
-        await extract.extractTextAsset(server, 'Android', version);
+        await extract.extractTextAsset(server, platform, version);
 
         // Update audio file names
-        await extract.extractAudioClip(server, 'StandaloneWindows64', version, 'SoundSetting', { skipOutputFolder: true });
-        await extract.extractAudioClip(server, 'StandaloneWindows64', version, 'VoiceSetScriptableObject', { skipOutputFolder: true });
+        await extract.extractAudioClip(server, platform, version, 'SoundSetting', { skipOutputFolder: true });
+        await extract.extractAudioClip(server, platform, version, 'VoiceSetScriptableObject', { skipOutputFolder: true });
+
+        // // Update image file names from 
+        const imagesBundlenames = path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames/Texture2D_catalog.txt`);
+        const imageNamesOutputPath = path.resolve(__dirname, `../resources/${server}/${platform}/filenames/Texture2D_catalog.txt`);
+        await extract.extractImages(server, platform, version, { skipOutputFolder: true, imageNamesOutputPath: imageNamesOutputPath, bundleNamesInputPath: imagesBundlenames });
 
         // Update images and upload them to Cloudinary
         // if (uploadImages) {
@@ -110,6 +137,12 @@ async function checkFileassets(server, skipCheck=false, uploadImages=false) {
         // for (const filename of fs.readdirSync(bundleDir)) {
         //     fs.unlinkSync(path.join(bundleDir, filename));
         // }
+        
+        // Update checked bundles
+        for (const bundle of bundlesToProcess) {
+            checkedBundles[bundle._relativePath] = bundle._hash;
+        }
+        fs.writeFileSync(checkedBundlesPath, JSON.stringify(checkedBundles, null, '\t'))
 
         // Update config
         autoconfig.fileassets_version[server] = version;

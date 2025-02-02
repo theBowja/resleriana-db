@@ -97,8 +97,8 @@ function getCatalogResources(server, catalogJSON, platform='StandaloneWindows64'
         }
     }
 
-    const subset = filterLabels ? '_filtered' : '';
-    fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames/${filterResourceTypes}_catalog${subset}.txt`),
+    const filename = `${filterResourceTypes}_catalog${filterLabels ? '_filtered' : ''}.txt`;
+    fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames/${filename}`),
                      Array.from(bundleNames).filter(e => e).sort().join('\n'));
 
     if (filterLabels) {

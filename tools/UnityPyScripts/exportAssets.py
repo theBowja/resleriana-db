@@ -30,6 +30,8 @@ def unpack_assets(bundle_name: str):
 
     # iterate over internal objects
     for obj in env.objects:
+        if obj.type.name != args.asset_type:
+            continue
 
         if obj.type.name == "AudioClip":
             clip = obj.read()

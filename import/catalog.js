@@ -65,22 +65,20 @@ function getFilterLabels(filterPath) {
  * @param {string} server
  * @param {string} catalogJSON
  * @param {string} platform 
- * @param {string|string[]} filterResourceTypes unity resource types to filter on
+ * @param {string} filterResourceTypes unity resource types to filter on
  * @param {string[]} [filterLabels] array of path hashes from the masterdata
  */
-function getCatalogResources(server, catalogJSON, platform='StandaloneWindows64', filterResourceTypes=['Texture2D'], filterLabels=undefined) {
+function getCatalogResources(server, catalogJSON, platform='StandaloneWindows64', filterResourceTypes='Texture2D', filterLabels=undefined) {
     validateServer('getCatalogResources', server);
     console.log('Extracting resource data from catalog');
     const t0 = performance.now();
-
-    if (filterResourceTypes && !Array.isArray(filterResourceTypes)) filterResourceTypes = [filterResourceTypes];
 
     const keys = getKeys(catalogJSON);
     const buckets = getBuckets(catalogJSON);
     const entries = getEntries(catalogJSON, keys, buckets);
     fixDependencyKey(entries, keys, buckets);
     // const extras = getExtras(catalogJSON);
-    const resources = getResources(catalogJSON, keys, buckets, entries, platform, filterResourceTypes, filterLabels, false, true);
+    const resources = getResources(catalogJSON, keys, buckets, entries, platform, [filterResourceTypes], filterLabels, false, true);
 
     // DEBUG
     // fs.mkdirSync(path.resolve(__dirname, `../resources/${server}/${platform}/catalog`), { recursive: true }); // debug
@@ -99,9 +97,8 @@ function getCatalogResources(server, catalogJSON, platform='StandaloneWindows64'
         }
     }
 
-    const filterString = filterResourceTypes.map(s => s.toLowerCase()).sort().join();
-    const subset = filterLabels ? 'filtered' : 'all';
-    fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames_${subset}_${filterString}.txt`),
+    const subset = filterLabels ? '_filtered' : '';
+    fs.writeFileSync(path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames/${filterResourceTypes}_catalog${subset}.txt`),
                      Array.from(bundleNames).filter(e => e).sort().join('\n'));
 
     if (filterLabels) {

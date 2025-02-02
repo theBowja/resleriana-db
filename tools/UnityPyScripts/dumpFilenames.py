@@ -75,8 +75,9 @@ if __name__ == "__main__":
         bundle_names = f.readlines()
     bundle_names = [name.rstrip() for name in bundle_names]
 
-    if args.output_folder:
-        os.makedirs(args.output_folder, exist_ok = True) 
+    if args.filename_list:
+        filename_dir = os.path.dirname(args.filename_list)
+        os.makedirs(filename_dir, exist_ok = True) 
 
     counter = multiprocessing.Value('i', 0)
 

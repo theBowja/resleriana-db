@@ -72,7 +72,7 @@ async function extractImages(server="Global", platform="StandaloneWindows64", ve
     console.log(`Completed script extractImages in ${(t1-t0)/1000} seconds`)
 }
 
-// Export TextAsset to resources folder
+// Download bundles listed in bundlenames/TextAsset.txt and export TextAsset to resources folder
 // see docs/text.md
 async function extractTextAsset(server="Global", platform="Android", version=importconfig.fileassets_version[server],
     {
@@ -84,13 +84,9 @@ async function extractTextAsset(server="Global", platform="Android", version=imp
     console.log(`Script started: extractTextAsset`);
     const t0 = performance.now();
 
-    // Download catalog
-    const catalogJSON = await catalog.getCatalogFromDownload(server, version, platform);
-    catalog.getCatalogResources(server, catalogJSON, platform, 'TextAsset');
-
     // Variables
     const bundleDir = path.resolve(__dirname, `../resources/${server}/${platform}/bundles`);
-    const bundleNamesTextAsset = path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames_all_textasset.txt`);
+    const bundleNamesTextAsset = path.resolve(__dirname, `../resources/${server}/${platform}/bundlenames/TextAsset.txt`);
     const textAssetByteDir = path.resolve(__dirname, `../resources/${server}/${platform}/TextAssetBytes`);
     if (outputFolder === undefined) outputFolder = path.resolve(__dirname, `../resources/${server}/TextAsset`);
 

@@ -88,7 +88,7 @@ if __name__ == "__main__":
                 asset_types_dict[asset_type].add(bundle_name)
 
     # Output asset types with bundle list
-    if args.out_folder:
+    if args.output_folder:
         for asset_type, bundle_names in asset_types_dict.items():
             filepath = os.path.join(args.output_folder, asset_type+".txt")
             outfilenames = list(bundle_names)

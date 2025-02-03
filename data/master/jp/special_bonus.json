@@ -866,6 +866,18 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "item_ids": [866],
+            "limit": null,
+            "targets": [
+              {
+                "character_scope_ids": [28],
+                "memoria_scope_ids": [],
+                "memoria_sp_bonus_ids": [],
+                "value": 1
+              }
+            ]
           }
         ],
         "name": "挑戦券増量ボーナス",
@@ -906,5 +918,33 @@
     "event_id": 77,
     "id": 32,
     "start_at": "2025-01-24T03:00:00.000Z"
+  },
+  {
+    "bonuses": [
+      {
+        "effects": [
+          {
+            "item_ids": [],
+            "limit": 200,
+            "targets": [
+              {
+                "character_scope_ids": [],
+                "memoria_scope_ids": [],
+                "memoria_sp_bonus_ids": [6],
+                "value": null
+              }
+            ]
+          }
+        ],
+        "name": "",
+        "type": 4,
+        "warning_text": ""
+      }
+    ],
+    "end_at": "2025-02-14T03:00:00.000Z",
+    "episode_categories": [12],
+    "event_id": 78,
+    "id": 34,
+    "start_at": "2025-01-31T03:00:00.000Z"
   }
 ]

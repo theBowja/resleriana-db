@@ -8464,6 +8464,30 @@
     "popup_text": ""
   },
   {
+    "description": "得意属性が風属性かつサポーターの時、与えるHP回復量アップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000961,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が風属性かつサポーターの時、バトル開始時、味方全員に「受けるダメージダウン」を3回攻撃を受けるまで付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000962,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が風属性かつサポーターの時、味方全員のブレイクダメージアップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 6000963,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "与回復量上昇",
     "effect_motion_id": null,
     "field_effect_id": null,
@@ -9524,6 +9548,14 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 13000245,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身が風属性の時、与えるHP回復量上昇+{}%",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 13000247,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -13435,6 +13467,14 @@
     "description": "",
     "effect_motion_id": null,
     "field_effect_id": null,
+    "id": 72001178,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
     "id": 72001179,
     "is_positive_popup": null,
     "popup_text": ""
@@ -13912,6 +13952,22 @@
     "popup_text": ""
   },
   {
+    "description": "[自身/対象がスタンの時スキルダメージアップ]",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72500155,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 72500156,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
     "description": "相手対象に悪性状態異常が付与されていないとき、対象に被ダメージUP(5回)を付与する",
     "effect_motion_id": null,
     "field_effect_id": null,
@@ -14052,6 +14108,54 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 76017002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "スキル対象の状態変化を3つ解除",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76052001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に被ダメージDOWN(2回)を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76052002,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "スキル対象に素早さDOWN(2回)を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76052003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "スキル対象に与ダメージDOWN(2回)を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76052004,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "スキル対象に風属性耐性DOWN(3回)を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76052005,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身に状態異常耐性DOWN(2回)を付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 76052006,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -16708,6 +16812,30 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 86039003,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "与ダメージUP(不思議)",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86052000,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "自身が状態異常時にWEAK攻撃を受けた時、強制ブレイク",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86052001,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "全体回復を受けた時、自身にバフが10個以上付与されているなら与ダメージUP(100％/1回)を自身に付与",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 86052002,
     "is_positive_popup": null,
     "popup_text": ""
   },
@@ -21235,6 +21363,78 @@
     "description": "",
     "effect_motion_id": null,
     "field_effect_id": null,
+    "id": 91001505,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001506,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001507,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001508,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001509,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001510,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001511,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001512,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 91001513,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "field_effect_id": null,
     "id": 91002004,
     "is_positive_popup": null,
     "popup_text": ""
@@ -22676,6 +22876,14 @@
     "effect_motion_id": null,
     "field_effect_id": null,
     "id": 95000169,
+    "is_positive_popup": null,
+    "popup_text": ""
+  },
+  {
+    "description": "得意属性が風属性の時、与える強化効果量アップ",
+    "effect_motion_id": null,
+    "field_effect_id": null,
+    "id": 95000170,
     "is_positive_popup": null,
     "popup_text": ""
   },

@@ -6,13 +6,13 @@ The APIs are split into two different types: [retrieval](#data-retrieval-api) an
 
 ## Data retrieval API
 
-### GET: /api/{dataset}/{locale}/{file}
-Returns the JSON data file for the given dataset, locale, and filename. Returns *undefined* if there is no result.
+### GET: /api/master/{locale}/{file}
+Returns the JSON data file for the given locale and filename. Returns *undefined* if there is no result.
 
 Examples:  
 - https://resleriana-db.vercel.app/api/master/en/base_character
 
-### GET: /api/{dataset}/{locale}/{file}/{key}
+### GET: /api/master/{locale}/{file}/{key}
 Returns the *first* subdata object that matches the same key and value. Returns *undefined* if there is no result.
 
 Required query parameters:  
@@ -25,7 +25,7 @@ Examples:
 
 Searching functionality uses fuzzy search from the [uFuzzy](https://github.com/leeoniya/uFuzzy) library which provides auto-complete functionality.
 
-### GET: /api/{dataset}/search
+### GET: /api/master/search
 Searches through multiple locales, files, and keys to find the best match for the search query. If **topResultOnly** is *true*, then returns the search object or *undefined* for no result. If **topResultOnly** is *false*, then returns ??? array of search objects or empty array for no result.
 
 Required query parameters:  

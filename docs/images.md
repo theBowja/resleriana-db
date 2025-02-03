@@ -43,8 +43,8 @@ Currently, png images are double the size of webp images. Webp images will go th
 ### Testing Regex Filters
 
 You can test your regex against the complete list of filenames found in these files:
-- [/resources/Global/StandaloneWindows64/filenames_all_texture2d.txt](../resources/Global/StandaloneWindows64/filenames_all_texture2d.txt)
-- [/resources/Japan/StandaloneWindows64/filenames_all_texture2d.txt](../resources/Japan/StandaloneWindows64/filenames_all_texture2d.txt)
+- [/resources/Global/StandaloneWindows64/filenames/Texture2D.txt](../resources/Global/StandaloneWindows64/filenames/Texture2D.txt)
+- [/resources/Japan/StandaloneWindows64/filenames/Texture2D.txt](../resources/Japan/StandaloneWindows64/filenames/Texture2D.txt)
 
 Or you can directly run the script and check the updated filenames list on your local file system:
 
@@ -65,9 +65,9 @@ The list of extracted image names is located in the /resources folder in the **f
 The mapping of masterdata image hashes to image names is located in the /resources folder in the **path_hash_to_name.json** file.  
 
 The following files are automatically updated after every version update:
-- [/resources/Global/StandaloneWindows64/bundlenames_all_texture2d.txt](./resources/Global/StandaloneWindows64/bundlenames_all_texture2d.txt)
-- [/resources/Global/StandaloneWindows64/filenames_all_texture2d.txt](./resources/Global/StandaloneWindows64/filenames_all_texture2d.txt)
+- [/resources/Global/StandaloneWindows64/bundlenames/Texture2D.txt](./resources/Global/StandaloneWindows64/bundlenames/Texture2D.txt)
+- [/resources/Global/StandaloneWindows64/filenames/Texture2D.txt](./resources/Global/StandaloneWindows64/filenames/Texture2D.txt)
 - [/resources/Global/path_hash_to_name.txt](./resources/Global/path_hash_to_name.txt)
-- [/resources/Japan/StandaloneWindows64/bundlenames_all_texture2d.txt](./resources/Japan/StandaloneWindows64/bundlenames_all_texture2d.txt)
-- [/resources/Japan/StandaloneWindows64/filenames_all_texture2d.txt](./resources/Japan/StandaloneWindows64/filenames_all_texture2d.txt)
+- [/resources/Japan/StandaloneWindows64/bundlenames/Texture2D.txt](./resources/Japan/StandaloneWindows64/bundlenames/Texture2D.txt)
+- [/resources/Japan/StandaloneWindows64/filenames/Texture2D.txt](./resources/Japan/StandaloneWindows64/filenames/Texture2D.txt)
 - [/resources/Japan/path_hash_to_name.txt](./resources/Japan/path_hash_to_name.txt)

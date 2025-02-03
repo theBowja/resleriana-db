@@ -109,7 +109,7 @@ async function checkFileassets(server, skipCheck=false, uploadImages=false) {
 
         // Dump list of filenames for certain asset types
         tools.dumpFilenames(path.join(bundleNamesDir, 'TextAsset.txt'), bundleDir, 'TextAsset', { filename_list: path.join(fileNamesDir, 'TextAsset.txt') })
-        // tools.dumpFilenames(path.join(bundleNamesDir, 'AudioClip.txt'), bundleDir, 'AudioClip', { filename_list: path.join(fileNamesDir, 'AudioClip.txt') })
+        tools.dumpFilenames(path.join(bundleNamesDir, 'AudioClip.txt'), bundleDir, 'AudioClip', { filename_list: path.join(fileNamesDir, 'AudioClip.txt') })
         tools.dumpFilenames(path.join(bundleNamesDir, 'Texture2D.txt'), bundleDir, 'Texture2D', { filename_list: path.join(fileNamesDir, 'Texture2D.txt') })
 
         // Generate mapping between still path hash and image name

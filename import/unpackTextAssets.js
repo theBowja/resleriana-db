@@ -56,7 +56,9 @@ const dialogueSubfolders = [
     'Date',
     'LegendEvent',
     'SeasonalTalkEvent',
-    'TalkEvent'
+    'TalkEvent',
+    'CharacterEvent',
+    'SeasonalEvent'
 ];
 
 // Maps property keys to understandable keys
@@ -82,12 +84,12 @@ function unpackTextAsset(file, debugName) {
     let offset = 0;
 
     // read metadata
-    const propCount = file.readUInt32LE(offset); // number of properties
+    const propCount = file.readUInt32LE(offset); // number of properties in each object
     offset+=4;
     const entryCount = file.readUInt32LE(offset); // array length
     offset+=4;
 
-    // read property metadata
+    // read property metadata (figure out the datatype of each property)
     const props = [];
     for (let i = 0; i < propCount; i++) {
         const prop = {};

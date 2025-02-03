@@ -172,6 +172,7 @@ async function extractAudioClip(server="Global", platform="StandaloneWindows64",
             console.log(`Failed to find catalog bundle for ${name}`);
         }
     }
+    fs.mkdirSync(path.dirname(cachedPath), { recursive: true });
     fs.writeFileSync(cachedPath, JSON.stringify(cached, null, '\t'));
 
     const t1 = performance.now();

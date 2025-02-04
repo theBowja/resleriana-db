@@ -142,12 +142,12 @@ Helpers are wanted for making sure the versions are updated in a timely manner. 
 5. For Japan, navigate to `AppData/LocalLow/KOEI TECMO GAMES CO_, LTD_/レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～/Library`
 6. Find the URL that starts with `https://asset.resleriana.com/master_data/en/` or `https://asset.resleriana.jp/master_data/` and extract only the version part
 
-~~1. Open Fiddler Classic and begin capturing traffic~~
-~~2. Open Steam version of Atelier Resleriana~~
-~~3. "Tap to start"~~
-~~4. An HTTPS call to asset.resleriana.com should show up in your Fiddler logs~~
-~~    - If this does not show up, then you will need to go back to the title screen and switch to a different language~~
-~~5. Copy the entire URL and extract only the version part~~
+~~1. Open Fiddler Classic and begin capturing traffic~~  
+~~2. Open Steam version of Atelier Resleriana~~  
+~~3. "Tap to start"~~  
+~~4. An HTTPS call to asset.resleriana.com should show up in your Fiddler logs~~  
+    ~~- If this does not show up, then you will need to go back to the title screen and switch to a different language~~  
+~~5. Copy the entire URL and extract only the version part~~  
 ~~6. Turn off Fiddler capturing traffic~~
 
 ### fileassets version

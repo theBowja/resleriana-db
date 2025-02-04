@@ -60,8 +60,8 @@ Contribute your own regex examples by opening a pull request or sending a messag
 
 ### Misc Files
 
-The list of Unity bundles downloaded is located in the /resources folder in the **bundlenames_all_texture2d.txt** file.  
-The list of extracted image names is located in the /resources folder in the **filenames_all_texture2d.txt** file.  
+The list of Unity bundles downloaded is located in the /resources folder in the **bundlenames/Texture2D.txt** file.  
+The list of extracted image names is located in the /resources folder in the **filenames/Texture2D.txt** file.  
 The mapping of masterdata image hashes to image names is located in the /resources folder in the **path_hash_to_name.json** file.  
 
 The following files are automatically updated after every version update:

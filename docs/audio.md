@@ -49,10 +49,10 @@ npm run extractBGM --% -- --regex "(^BGM.*_SONG_.*)" --skipOutputFolder
 ```
 ### Misc Files
 
-The list of Unity bundles downloaded for BGM is located in the /resources folder in the **bundlenames_cache_soundsetting.txt** file.  
-The list of Unity bundles downloaded for Voicelines is located in the /resources folder in the **bundlenames_cache_voicesetscriptableobject.txt** file.  
-The list of extracted BGM filenames is located in the /resources folder in the **filenames_all_soundsetting.txt** file.  
-The list of extracted Voiceline filenames is located in the /resources folder in the **filenames_all_voicesetscriptableobject.txt** file.  
+The list of Unity bundles downloaded for BGM is located in the /resources folder in the **bundlenames/SoundSetting_cache.txt** file.  
+The list of Unity bundles downloaded for Voicelines is located in the /resources folder in the **bundlenames/VoiceSetScriptableObject_cache.txt** file.  
+The list of extracted BGM filenames is located in the /resources folder in the **filenames/SoundSetting.txt** file.  
+The list of extracted Voiceline filenames is located in the /resources folder in the **filenames/VoiceSetScriptableObject.txt** file.  
 
 The following files are automatically updated after every version update:
 - [/resources/Global/StandaloneWindows64/bundlenames/SoundSetting_cache.txt](./resources/Global/StandaloneWindows64/bundlenames/SoundSetting_cache.txt)

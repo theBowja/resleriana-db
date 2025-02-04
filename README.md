@@ -9,7 +9,6 @@ Provided from repository, web API, and npm package:
 Provided from repository:
 - built-in scripts to extract your own images, voiceclips, and videos
 - mapping for converting `_still_path_hash` in masterdata to extracted image names
-- preview newly added images
 
 ## Table of Contents
 - [Local development](#local-development)
@@ -86,7 +85,7 @@ This dataset contains the original data directly used in the game.
 
 ## Get data
 
-JSON data is divided into datasets and locale.  
+JSON data is divided by locale.  
 
 Datasets: master  
 Locales: en, jp, zh-cn, zh-tw  
@@ -95,14 +94,12 @@ Note: master data contains some properties that end in `_still_path_hash`. These
 
 ### From repository
 
-JSON data is stored in the `/data/[dataset]/[locale]` folder and can be 
+JSON data for masterdata is stored in the `/data/master/[locale]` folder and can be accessed directly by using the `main.mjs` script.
 
-Alternatively, you can import the following functions from the main.mjs file:
+From the `main.mjs` file, you can import the following functions:
 - getFile(dataset, locale, file)
 - getDataByKey(dataset, locale, file, key, value)
 - searchData(dataset, locale, files, keys, query, options={})
-
-Documentation for these functions can be found in the [next section](#from-npm-package).
 
 ### From web API
 
@@ -138,13 +135,20 @@ Helpers are wanted for making sure the versions are updated in a timely manner. 
 
 ### masterdata version
 
-1. Open Fiddler Classic and begin capturing traffic
-2. Open Steam version of Atelier Resleriana
-3. "Tap to start"
-4. An HTTPS call to asset.resleriana.com should show up in your Fiddler logs
-    - If this does not show up, then you will need to go back to the title screen and switch to a different language
-5. Copy the entire URL and extract only the version part
-6. Turn off Fiddler capturing traffic
+1. Open Steam version of Atelier Resleriana
+2. "Tap to start"
+3. Use Windows search `%AppData%` to open up the AppData folder
+4. For Global, navigate to `AppData/LocalLow/KOEI TECMO GAMES CO_, LTD_/Atelier Resleriana_ Forgotten Alchemy and the Polar Night Liberator/Library`
+5. For Japan, navigate to `AppData/LocalLow/KOEI TECMO GAMES CO_, LTD_/レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～/Library`
+6. Find the URL that starts with `https://asset.resleriana.com/master_data/en/` or `https://asset.resleriana.jp/master_data/` and extract only the version part
+
+~~1. Open Fiddler Classic and begin capturing traffic~~
+~~2. Open Steam version of Atelier Resleriana~~
+~~3. "Tap to start"~~
+~~4. An HTTPS call to asset.resleriana.com should show up in your Fiddler logs~~
+~~    - If this does not show up, then you will need to go back to the title screen and switch to a different language~~
+~~5. Copy the entire URL and extract only the version part~~
+~~6. Turn off Fiddler capturing traffic~~
 
 ### fileassets version
 

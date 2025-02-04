@@ -7,17 +7,16 @@ Provided from repository, web API, and npm package:
 - TextAsset data (contains story dialogue, SystemText, etc.)
 
 Provided from repository:
-- built-in scripts to extract your own images, voiceclips, and videos
+- built-in scripts to extract your own images, BGM, voiceclips, and videos
 - mapping for converting `_still_path_hash` in masterdata to extracted image names
 
 ## Table of Contents
 - [Local development](#local-development)
 - [Respository structure](#repository-structure)
-- [Get data](#get-data)
+- [Get masterdata](#get-masterdata)
   - [from repository](#from-repository)
   - [from web API](#from-web-api)
 - [Extract resources](#extract-resources)
-- [Preview](#preview)
 - [Contributing](#contributing)
 
 ## Local Development
@@ -30,7 +29,8 @@ git clone https://github.com/theBowja/resleriana-db.git
 ```
 
 Install Node.js v20 (doesn't work with v22+):  
-https://nodejs.org/en/download
+https://nodejs.org/en/download  
+Use fnm in order to be able to install and use different versions of Node at the same time.
 
 Verify Node.js and npm installation:
 ```
@@ -55,7 +55,7 @@ dotnet --list-runtimes
 
 Install Python 3.8 - 3.12 (required for UnityPy asset extraction):  
 https://www.python.org/downloads/   
-Use [pyenv](https://github.com/pyenv/pyenv) or [pyenv-win](https://github.com/pyenv-win/pyenv-win) to use multiple versions of Python
+Use [pyenv](https://github.com/pyenv/pyenv) or [pyenv-win](https://github.com/pyenv-win/pyenv-win) to use multiple versions of Python  
 If you are using pyenv-win, you might need to disable the built-in Python launcher via Start > "Manage App Execution Aliases" and turning off the "App Installer" aliases for Python
 
 Verify Python installation:
@@ -79,15 +79,10 @@ pip install -r requirements.txt
 - `/tools` - Contains the non-Javascript scripts used for downloading bundles and extracting Unity assets.
 - `main.mjs` - Script contains the data retrieval and data searching functions.
 
-### master
+## Get masterdata
 
-This dataset contains the original data directly used in the game.
+JSON data for masterdata is divided by locale.  
 
-## Get data
-
-JSON data is divided by locale.  
-
-Datasets: master  
 Locales: en, jp, zh-cn, zh-tw  
 
 Note: master data contains some properties that end in `_still_path_hash`. These can be mapped to actual image names using the JSON map at [/resources/Global/path_hash_to_name.json](./resources/Global/path_hash_to_name.json) or [/resources/Japan/path_hash_to_name.json](./resources/Japan/path_hash_to_name.json).

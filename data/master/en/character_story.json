@@ -1,0 +1,1192 @@
+[
+  {
+    "asset_path_hash": 0,
+    "category_id": 7,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6801001,
+    "key_quest_id": null,
+    "key_stories": [],
+    "key_tasks": [],
+    "name": "A Day in the Life of Designer Mieke",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6801001
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 7,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6801002,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 6801001
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1229,
+        "count": 200,
+        "name": "Obtain 200 Event Points"
+      }
+    ],
+    "name": "Offer from an Official",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": true,
+    "talk_event_id": 6801002
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 7,
+    "continuous_playback": true,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6801003,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 3,
+        "id": 6801002
+      }
+    ],
+    "key_tasks": [],
+    "name": "[Alt] \"Mieke\"",
+    "rewards": [],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6801003
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 7,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6801004,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 2,
+        "id": 6801002
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1229,
+        "count": 400,
+        "name": "Obtain 400 Event Points"
+      }
+    ],
+    "name": "Storm",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6801004
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 7,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6801005,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 6801004
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1229,
+        "count": 600,
+        "name": "Obtain 600 Event Points"
+      }
+    ],
+    "name": "The Gamble",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": true,
+    "talk_event_id": 6801005
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 7,
+    "continuous_playback": true,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6801006,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 3,
+        "id": 6801005
+      }
+    ],
+    "key_tasks": [],
+    "name": "[Alt] An Ordinary Day",
+    "rewards": [],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6801006
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 8,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6801007,
+    "key_quest_id": null,
+    "key_stories": [],
+    "key_tasks": [],
+    "name": "A Day in the Life of Songstress Diona",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6801007
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 8,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6801008,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 6801007
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1229,
+        "count": 700,
+        "name": "Obtain 700 Event Points"
+      }
+    ],
+    "name": "Unfulfilled Days",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6801008
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 8,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6801009,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 6801008
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1229,
+        "count": 900,
+        "name": "Obtain 900 Event Points"
+      }
+    ],
+    "name": "Budding Rose",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": true,
+    "talk_event_id": 6801009
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 8,
+    "continuous_playback": true,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6801010,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 3,
+        "id": 6801009
+      }
+    ],
+    "key_tasks": [],
+    "name": "[Alt] A Bright Future",
+    "rewards": [],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6801010
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 8,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6801011,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 2,
+        "id": 6801009
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1229,
+        "count": 1100,
+        "name": "Obtain 1100 Event Points"
+      }
+    ],
+    "name": "True Identity",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6801011
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 8,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6801012,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 6801011
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1229,
+        "count": 1300,
+        "name": "Obtain 1300 Event Points"
+      }
+    ],
+    "name": "Time to Decide",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": true,
+    "talk_event_id": 6801012
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 8,
+    "continuous_playback": true,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6801013,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 3,
+        "id": 6801012
+      }
+    ],
+    "key_tasks": [],
+    "name": "[Alt] Dried Flowers",
+    "rewards": [],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6801013
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 9,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6801014,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 2,
+        "id": 6801005
+      },
+      {
+        "condition": 2,
+        "id": 6801012
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1229,
+        "count": 1600,
+        "name": "Obtain 1600 Event Points"
+      }
+    ],
+    "name": "A New Daily Life",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": true,
+    "talk_event_id": 6801014
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 9,
+    "continuous_playback": true,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6801015,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 3,
+        "id": 6801014
+      }
+    ],
+    "key_tasks": [],
+    "name": "[Alt] Just Getting Started!",
+    "rewards": [],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6801015
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 9,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6801016,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 2,
+        "id": 6801014
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1229,
+        "count": 1700,
+        "name": "Obtain 1700 Event Points"
+      }
+    ],
+    "name": "Flowers That Bloom in a Drought",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 100,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6801016
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 7,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6801017,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 2,
+        "id": 6801005
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1229,
+        "count": 1700,
+        "name": "Obtain 1700 Event Points"
+      }
+    ],
+    "name": "[Short Story] Majorly Big Parents",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6801017
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 7,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6801018,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 6801017
+      }
+    ],
+    "key_tasks": [],
+    "name": "[Short Story] A Sailor's Tale",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6801018
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 8,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6801019,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 2,
+        "id": 6801012
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1229,
+        "count": 1700,
+        "name": "Obtain 1700 Event Points"
+      }
+    ],
+    "name": "[Short Story] The Passionate Singer",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6801019
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 8,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6801020,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 6801019
+      }
+    ],
+    "key_tasks": [],
+    "name": "[Short Story] A Knight's Tale",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6801020
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 10,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901001,
+    "key_quest_id": null,
+    "key_stories": [],
+    "key_tasks": [],
+    "name": "A Day in the Life of Brawl Master Magda",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6901001
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 10,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901002,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 6901001
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1329,
+        "count": 200,
+        "name": "Obtain 200 Event Points"
+      }
+    ],
+    "name": "Oliver's Orders",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": true,
+    "talk_event_id": 6901002
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 10,
+    "continuous_playback": true,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901003,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 3,
+        "id": 6901002
+      }
+    ],
+    "key_tasks": [],
+    "name": "[Alt] I Wanted to Fight!",
+    "rewards": [],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6901003
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 10,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901004,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 2,
+        "id": 6901002
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1329,
+        "count": 400,
+        "name": "Obtain 400 Event Points"
+      }
+    ],
+    "name": "Where Is Everyone?",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": true,
+    "talk_event_id": 6901004
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 10,
+    "continuous_playback": true,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901005,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 3,
+        "id": 6901004
+      }
+    ],
+    "key_tasks": [],
+    "name": "[Alt] I'll Teach Them a Lesson!",
+    "rewards": [],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6901005
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 10,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901006,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 2,
+        "id": 6901004
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1329,
+        "count": 600,
+        "name": "Obtain 600 Event Points"
+      }
+    ],
+    "name": "A Suspicious Presence",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6901006
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 11,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901007,
+    "key_quest_id": null,
+    "key_stories": [],
+    "key_tasks": [],
+    "name": "A Day in the Life of Seneschal Brad",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6901007
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 11,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901008,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 6901007
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1329,
+        "count": 900,
+        "name": "Obtain 900 Event Points"
+      }
+    ],
+    "name": "A Story of Dreams",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": true,
+    "talk_event_id": 6901008
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 11,
+    "continuous_playback": true,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901009,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 3,
+        "id": 6901008
+      }
+    ],
+    "key_tasks": [],
+    "name": "[Alt] \"Icy Brad\"",
+    "rewards": [],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6901009
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 11,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901010,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 2,
+        "id": 6901008
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1329,
+        "count": 1000,
+        "name": "Obtain 1000 Event Points"
+      }
+    ],
+    "name": "The Scarred Bay Area",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": true,
+    "talk_event_id": 6901010
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 11,
+    "continuous_playback": true,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901011,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 3,
+        "id": 6901010
+      }
+    ],
+    "key_tasks": [],
+    "name": "[Alt] Stagnation",
+    "rewards": [],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6901011
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 11,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901012,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 2,
+        "id": 6901010
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1329,
+        "count": 1100,
+        "name": "Obtain 1100 Event Points"
+      }
+    ],
+    "name": "Valuable Talent",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6901012
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 12,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901013,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 6901006
+      },
+      {
+        "condition": null,
+        "id": 6901012
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1329,
+        "count": 1400,
+        "name": "Obtain 1400 Event Points"
+      }
+    ],
+    "name": "United Front",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6901013
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 12,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901014,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 6901013
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1329,
+        "count": 1500,
+        "name": "Obtain 1500 Event Points"
+      }
+    ],
+    "name": "Background Check",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6901014
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 12,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901015,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 6901014
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1329,
+        "count": 1600,
+        "name": "Obtain 1600 Event Points"
+      }
+    ],
+    "name": "An Invitation to Dine",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": true,
+    "talk_event_id": 6901015
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 12,
+    "continuous_playback": true,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901016,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 3,
+        "id": 6901015
+      }
+    ],
+    "key_tasks": [],
+    "name": "[Alt] A Professional Relationship",
+    "rewards": [],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6901016
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 12,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901017,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 2,
+        "id": 6901015
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1329,
+        "count": 1700,
+        "name": "Obtain 1700 Event Points"
+      }
+    ],
+    "name": "Convergence of Chaos and Order",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 100,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6901017
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 10,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901018,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 6901006
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1329,
+        "count": 1700,
+        "name": "Obtain 1700 Event Points"
+      }
+    ],
+    "name": "[Short Story] Music and Life",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6901018
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 10,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901019,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 6901018
+      }
+    ],
+    "key_tasks": [],
+    "name": "[Short Story] Surprisingly Homey?",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6901019
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 11,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901020,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 6901012
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1329,
+        "count": 1700,
+        "name": "Obtain 1700 Event Points"
+      }
+    ],
+    "name": "[Short Story] Hates to Lose",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6901020
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 11,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901021,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 6901020
+      }
+    ],
+    "key_tasks": [],
+    "name": "[Short Story] One Step Ahead",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6901021
+  },
+  {
+    "asset_path_hash": 0,
+    "category_id": 11,
+    "continuous_playback": false,
+    "end_at": "2025-03-28T03:00:00.000Z",
+    "id": 6901022,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 6901021
+      }
+    ],
+    "key_tasks": [],
+    "name": "[Short Story] Dealing With the Aftermath",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-02-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 6901022
+  }
+]

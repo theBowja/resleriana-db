@@ -7,6 +7,7 @@ module.exports = { executeAtelierToolBundleDownload, generateContainerToPathHash
 
 /**
  * Executes the AtelierTool.exe which downloads and decrypts bundles to the output folder. Requires net7.0 to be installed.
+ * This source code for AtelierTool.exe is located at https://github.com/theBowja/AtelierTool/tree/download-bundles
  * @param {string} server "Global" or "Japan" 
  * @param {string} platform "StandaloneWindows64", "Android", or "iOS"
  * @param {string} version fileassets_version

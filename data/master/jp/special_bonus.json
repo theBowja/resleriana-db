@@ -946,5 +946,67 @@
     "event_id": 78,
     "id": 34,
     "start_at": "2025-01-31T03:00:00.000Z"
+  },
+  {
+    "bonuses": [
+      {
+        "effects": [
+          {
+            "item_ids": [876],
+            "limit": 10,
+            "targets": [
+              {
+                "character_scope_ids": [29],
+                "memoria_scope_ids": [],
+                "memoria_sp_bonus_ids": [],
+                "value": 1
+              },
+              {
+                "character_scope_ids": [],
+                "memoria_scope_ids": [3],
+                "memoria_sp_bonus_ids": [],
+                "value": 2
+              }
+            ]
+          }
+        ],
+        "name": "挑戦券増量ボーナス",
+        "type": 3,
+        "warning_text": "挑戦券[あなたと夢見るトクベツ]の挑戦券増量ボーナスは\nパーティで合計＋10個までが上限となります。"
+      }
+    ],
+    "end_at": "2025-02-28T03:00:00.000Z",
+    "episode_categories": [2, 3, 4, 5, 7, 8, 12, 13, 11],
+    "event_id": null,
+    "id": 35,
+    "start_at": "2025-02-14T03:00:00.000Z"
+  },
+  {
+    "bonuses": [
+      {
+        "effects": [
+          {
+            "item_ids": [],
+            "limit": 200,
+            "targets": [
+              {
+                "character_scope_ids": [],
+                "memoria_scope_ids": [],
+                "memoria_sp_bonus_ids": [7],
+                "value": null
+              }
+            ]
+          }
+        ],
+        "name": "",
+        "type": 4,
+        "warning_text": ""
+      }
+    ],
+    "end_at": "2025-02-28T03:00:00.000Z",
+    "episode_categories": [12],
+    "event_id": 79,
+    "id": 36,
+    "start_at": "2025-02-14T03:00:00.000Z"
   }
 ]

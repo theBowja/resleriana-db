@@ -96,7 +96,7 @@ async function checkFileassets(server, skipCheck=false, uploadImages=false) {
         const checkedBundles = fs.existsSync(checkedBundlesPath) ? require(checkedBundlesPath) : {};
         const catalogJSON = await catalog.getCatalogFromDownload(server, version, platform);
         const bundlesToProcess = catalogJSON._fileCatalog._bundles.filter(bundle => {
-            return (checkedBundles[bundle._relativePath] === undefined || checkedBundles[bundle._relativePath] !== bundle._hash) && !bundle._relativePath.startsWith('Embed');
+            return (checkedBundles[bundle._relativePath] === undefined || checkedBundles[bundle._relativePath] !== bundle._hash);
         });
         const bundlenamesToProcess = bundlesToProcess.map(b => b._relativePath);
         fs.writeFileSync(bundlesnamesToProcessPath, bundlenamesToProcess.sort().join('\n'));

@@ -56,7 +56,15 @@ def readListFromFile(filepath):
 # Read the list of bundle names to open
 if __name__ == "__main__":
     all_entries = os.listdir(args.bundle_folder)
+    all_embed_entries = os.listdir(os.path.join(args.bundle_folder, "Embed"))
     input_bundle_names = [entry for entry in all_entries if os.path.isfile(os.path.join(args.bundle_folder, entry))]
+    print(f"Found {len(input_bundle_names)} bundles to process")
+
+    input_embed_bundle_names = [entry for entry in all_embed_entries if os.path.isfile(os.path.join(args.bundle_folder, "Embed", entry))]
+    print(f"Found {len(input_embed_bundle_names)} embed bundles to process")
+
+    # Add embed bundles to the list
+    input_bundle_names += input_embed_bundle_names
 
     if args.output_folder:
         os.makedirs(args.output_folder, exist_ok = True) 

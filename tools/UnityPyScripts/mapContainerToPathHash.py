@@ -5,6 +5,9 @@ from collections import OrderedDict
 
 import UnityPy
 
+UnityPy.config.FALLBACK_VERSION_WARNED = True
+UnityPy.config.FALLBACK_UNITY_VERSION = "2022.3.6f1"
+
 parser = argparse.ArgumentParser(description="Map containers to path hashes.")
 parser.add_argument("container_json", type=str, help="Path to the container JSON file.")
 parser.add_argument("bundle_folder", type=str, help="Path to the folder containing bundles.")

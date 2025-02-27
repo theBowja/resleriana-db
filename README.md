@@ -2,11 +2,11 @@
 
 This repository provides easy access to all the resources required for creating your own project for Atelier Resleriana.
 
-Provided from repository, web API, and npm package:
+Provided from repository and web API:
 - masterdata data (contains game data)
-- TextAsset data (contains story dialogue, SystemText, etc.)
 
 Provided from repository:
+- TextAsset data (contains story dialogue, SystemText, etc.)
 - built-in scripts to extract your own images, BGM, voiceclips, and videos
 - mapping for converting `_still_path_hash` in masterdata to extracted image names
 

@@ -6,7 +6,44 @@
     "duplicated_piece_count": 1,
     "expedition_bonus_rate": 100,
     "id": 1,
-    "rarity_enhance_piece_costs": [50, 50, 80, 150, 300, 500],
+    "rarity_enhance_additional_costs": [
+      {
+        "costs": [],
+        "required": false
+      },
+      {
+        "costs": [],
+        "required": false
+      },
+      {
+        "costs": [],
+        "required": false
+      },
+      {
+        "costs": [],
+        "required": false
+      },
+      {
+        "costs": [],
+        "required": false
+      },
+      {
+        "costs": [],
+        "required": false
+      },
+      {
+        "costs": [
+          {
+            "id": 896,
+            "quantity": 10,
+            "resource_params": null,
+            "type": 5
+          }
+        ],
+        "required": true
+      }
+    ],
+    "rarity_enhance_piece_costs": [50, 50, 80, 150, 300, 500, 600],
     "status_coefficients": {
       "attack": 100,
       "defense": 100,
@@ -24,7 +61,40 @@
     "duplicated_piece_count": 10,
     "expedition_bonus_rate": 300,
     "id": 2,
-    "rarity_enhance_piece_costs": [50, 80, 150, 300, 500],
+    "rarity_enhance_additional_costs": [
+      {
+        "costs": [],
+        "required": false
+      },
+      {
+        "costs": [],
+        "required": false
+      },
+      {
+        "costs": [],
+        "required": false
+      },
+      {
+        "costs": [],
+        "required": false
+      },
+      {
+        "costs": [],
+        "required": false
+      },
+      {
+        "costs": [
+          {
+            "id": 896,
+            "quantity": 10,
+            "resource_params": null,
+            "type": 5
+          }
+        ],
+        "required": true
+      }
+    ],
+    "rarity_enhance_piece_costs": [50, 80, 150, 300, 500, 600],
     "status_coefficients": {
       "attack": 106,
       "defense": 106,
@@ -42,7 +112,36 @@
     "duplicated_piece_count": 50,
     "expedition_bonus_rate": 500,
     "id": 3,
-    "rarity_enhance_piece_costs": [80, 150, 300, 500],
+    "rarity_enhance_additional_costs": [
+      {
+        "costs": [],
+        "required": false
+      },
+      {
+        "costs": [],
+        "required": false
+      },
+      {
+        "costs": [],
+        "required": false
+      },
+      {
+        "costs": [],
+        "required": false
+      },
+      {
+        "costs": [
+          {
+            "id": 896,
+            "quantity": 10,
+            "resource_params": null,
+            "type": 5
+          }
+        ],
+        "required": true
+      }
+    ],
+    "rarity_enhance_piece_costs": [80, 150, 300, 500, 600],
     "status_coefficients": {
       "attack": 112,
       "defense": 112,
@@ -60,7 +159,32 @@
     "duplicated_piece_count": 50,
     "expedition_bonus_rate": 600,
     "id": 4,
-    "rarity_enhance_piece_costs": [150, 300, 500],
+    "rarity_enhance_additional_costs": [
+      {
+        "costs": [],
+        "required": false
+      },
+      {
+        "costs": [],
+        "required": false
+      },
+      {
+        "costs": [],
+        "required": false
+      },
+      {
+        "costs": [
+          {
+            "id": 896,
+            "quantity": 10,
+            "resource_params": null,
+            "type": 5
+          }
+        ],
+        "required": true
+      }
+    ],
+    "rarity_enhance_piece_costs": [150, 300, 500, 600],
     "status_coefficients": {
       "attack": 116,
       "defense": 116,
@@ -78,7 +202,28 @@
     "duplicated_piece_count": 50,
     "expedition_bonus_rate": 800,
     "id": 5,
-    "rarity_enhance_piece_costs": [300, 500],
+    "rarity_enhance_additional_costs": [
+      {
+        "costs": [],
+        "required": false
+      },
+      {
+        "costs": [],
+        "required": false
+      },
+      {
+        "costs": [
+          {
+            "id": 896,
+            "quantity": 10,
+            "resource_params": null,
+            "type": 5
+          }
+        ],
+        "required": true
+      }
+    ],
+    "rarity_enhance_piece_costs": [300, 500, 600],
     "status_coefficients": {
       "attack": 118,
       "defense": 118,
@@ -96,7 +241,24 @@
     "duplicated_piece_count": 50,
     "expedition_bonus_rate": 900,
     "id": 6,
-    "rarity_enhance_piece_costs": [500],
+    "rarity_enhance_additional_costs": [
+      {
+        "costs": [],
+        "required": false
+      },
+      {
+        "costs": [
+          {
+            "id": 896,
+            "quantity": 10,
+            "resource_params": null,
+            "type": 5
+          }
+        ],
+        "required": true
+      }
+    ],
+    "rarity_enhance_piece_costs": [500, 600],
     "status_coefficients": {
       "attack": 120,
       "defense": 120,
@@ -114,7 +276,20 @@
     "duplicated_piece_count": 50,
     "expedition_bonus_rate": 1000,
     "id": 7,
-    "rarity_enhance_piece_costs": [],
+    "rarity_enhance_additional_costs": [
+      {
+        "costs": [
+          {
+            "id": 896,
+            "quantity": 10,
+            "resource_params": null,
+            "type": 5
+          }
+        ],
+        "required": true
+      }
+    ],
+    "rarity_enhance_piece_costs": [600],
     "status_coefficients": {
       "attack": 125,
       "defense": 125,
@@ -124,5 +299,24 @@
       "speed": 100
     },
     "trait_rank_weight_bonus": 5000
+  },
+  {
+    "ability_count": 3,
+    "display_rarity": 6,
+    "duplicated_generic_piece_count": 50,
+    "duplicated_piece_count": 50,
+    "expedition_bonus_rate": 1500,
+    "id": 8,
+    "rarity_enhance_additional_costs": [],
+    "rarity_enhance_piece_costs": [],
+    "status_coefficients": {
+      "attack": 150,
+      "defense": 150,
+      "hp": 150,
+      "magic": 150,
+      "mental": 150,
+      "speed": 100
+    },
+    "trait_rank_weight_bonus": 10000
   }
 ]

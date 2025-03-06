@@ -602,7 +602,7 @@
     "name_when_count_one": "",
     "navigation_task_url_id": null,
     "prev_mission_id": null,
-    "priority": 10,
+    "priority": 11,
     "reset_cycle": 2,
     "start_at": null,
     "steps": [
@@ -633,7 +633,7 @@
     "name_when_count_one": "",
     "navigation_task_url_id": null,
     "prev_mission_id": null,
-    "priority": 9,
+    "priority": 10,
     "reset_cycle": 2,
     "start_at": null,
     "steps": [
@@ -664,7 +664,7 @@
     "name_when_count_one": "",
     "navigation_task_url_id": null,
     "prev_mission_id": null,
-    "priority": 8,
+    "priority": 9,
     "reset_cycle": 2,
     "start_at": null,
     "steps": [
@@ -695,7 +695,7 @@
     "name_when_count_one": "",
     "navigation_task_url_id": null,
     "prev_mission_id": null,
-    "priority": 7,
+    "priority": 8,
     "reset_cycle": 2,
     "start_at": null,
     "steps": [
@@ -726,7 +726,7 @@
     "name_when_count_one": "",
     "navigation_task_url_id": null,
     "prev_mission_id": null,
-    "priority": 6,
+    "priority": 7,
     "reset_cycle": 2,
     "start_at": null,
     "steps": [
@@ -757,7 +757,7 @@
     "name_when_count_one": "",
     "navigation_task_url_id": null,
     "prev_mission_id": null,
-    "priority": 5,
+    "priority": 6,
     "reset_cycle": 2,
     "start_at": null,
     "steps": [
@@ -788,7 +788,7 @@
     "name_when_count_one": "",
     "navigation_task_url_id": null,
     "prev_mission_id": null,
-    "priority": 4,
+    "priority": 5,
     "reset_cycle": 2,
     "start_at": null,
     "steps": [
@@ -819,7 +819,7 @@
     "name_when_count_one": "",
     "navigation_task_url_id": null,
     "prev_mission_id": null,
-    "priority": 3,
+    "priority": 4,
     "reset_cycle": 2,
     "start_at": null,
     "steps": [
@@ -927,6 +927,37 @@
       "equipment_slot_type": null,
       "focused_on": 1,
       "transition": 63
+    }
+  },
+  {
+    "category": 2,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 20014,
+    "label": null,
+    "name": "ピースクエストを{}回クリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 3,
+    "reset_cycle": 2,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 30022,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 15
     }
   },
   {
@@ -2056,7 +2087,7 @@
     "guide_mission_tab_id": 1,
     "id": 51015,
     "label": null,
-    "name": "経験値クエスト中級をクリアしよう",
+    "name": "経験値クエスト難易度：Ⅱをクリアしよう",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
     "prev_mission_id": 50024,
@@ -2272,7 +2303,7 @@
     "guide_mission_tab_id": 1,
     "id": 51023,
     "label": null,
-    "name": "経験値クエスト上級をクリアしよう",
+    "name": "経験値クエスト難易度：Ⅲをクリアしよう",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
     "prev_mission_id": 51022,
@@ -2574,7 +2605,7 @@
     "guide_mission_tab_id": 1,
     "id": 51034,
     "label": null,
-    "name": "経験値クエスト超級をクリアしよう",
+    "name": "経験値クエスト難易度：Ⅳをクリアしよう",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
     "prev_mission_id": 51033,
@@ -3123,6 +3154,454 @@
     "transition": null
   },
   {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": "12章クリアで獲得！",
+    "guide_mission_pickup_reward": {
+      "id": 915,
+      "quantity": 10,
+      "resource_params": null,
+      "type": 5
+    },
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": 2,
+    "id": 60016,
+    "label": null,
+    "name": "メインストーリー12-60をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": 60015,
+    "priority": 17,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30136,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 865,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": "13章クリアで獲得！",
+    "guide_mission_pickup_reward": {
+      "id": 916,
+      "quantity": 10,
+      "resource_params": null,
+      "type": 5
+    },
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": 2,
+    "id": 60017,
+    "label": null,
+    "name": "メインストーリー13-52をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": 60016,
+    "priority": 18,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30137,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 916,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": "14章クリアで獲得！",
+    "guide_mission_pickup_reward": {
+      "id": 917,
+      "quantity": 10,
+      "resource_params": null,
+      "type": 5
+    },
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": 2,
+    "id": 60018,
+    "label": null,
+    "name": "メインストーリー14-58をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": 60017,
+    "priority": 19,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30138,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 980,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": "15章クリアで獲得！",
+    "guide_mission_pickup_reward": {
+      "id": 918,
+      "quantity": 10,
+      "resource_params": null,
+      "type": 5
+    },
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": 2,
+    "id": 60019,
+    "label": null,
+    "name": "メインストーリー15-52をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": 60018,
+    "priority": 20,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30139,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1040,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": "15章追加シナリオクリアで獲得",
+    "guide_mission_pickup_reward": {
+      "id": 919,
+      "quantity": 10,
+      "resource_params": null,
+      "type": 5
+    },
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": 2,
+    "id": 60020,
+    "label": null,
+    "name": "メインストーリー15-74をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": 60019,
+    "priority": 21,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30140,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1058,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": "16章クリアで獲得！",
+    "guide_mission_pickup_reward": {
+      "id": 920,
+      "quantity": 10,
+      "resource_params": null,
+      "type": 5
+    },
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": 2,
+    "id": 60021,
+    "label": null,
+    "name": "メインストーリー16-53をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": 60020,
+    "priority": 22,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30141,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1070,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": "17章クリアで獲得！",
+    "guide_mission_pickup_reward": {
+      "id": 921,
+      "quantity": 10,
+      "resource_params": null,
+      "type": 5
+    },
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": 2,
+    "id": 60022,
+    "label": null,
+    "name": "メインストーリー17-54をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": 60021,
+    "priority": 23,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30142,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1114,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": "17章追加シナリオクリアで獲得",
+    "guide_mission_pickup_reward": {
+      "id": 922,
+      "quantity": 10,
+      "resource_params": null,
+      "type": 5
+    },
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": 2,
+    "id": 60023,
+    "label": null,
+    "name": "メインストーリー17-76をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": 60022,
+    "priority": 24,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30143,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1136,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": "18章クリアで獲得！",
+    "guide_mission_pickup_reward": {
+      "id": 923,
+      "quantity": 10,
+      "resource_params": null,
+      "type": 5
+    },
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": 2,
+    "id": 60024,
+    "label": null,
+    "name": "メインストーリー18-53をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": 60023,
+    "priority": 25,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30144,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1142,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": "18章追加シナリオクリアで獲得",
+    "guide_mission_pickup_reward": {
+      "id": 924,
+      "quantity": 10,
+      "resource_params": null,
+      "type": 5
+    },
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": 2,
+    "id": 60025,
+    "label": null,
+    "name": "メインストーリー18-73をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": 60024,
+    "priority": 26,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30145,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1197,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": "19章クリアで獲得！",
+    "guide_mission_pickup_reward": {
+      "id": 925,
+      "quantity": 10,
+      "resource_params": null,
+      "type": 5
+    },
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": 2,
+    "id": 60026,
+    "label": null,
+    "name": "メインストーリー19-53をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": 60025,
+    "priority": 27,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30146,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1226,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": "20章クリアで獲得！",
+    "guide_mission_pickup_reward": {
+      "id": 926,
+      "quantity": 10,
+      "resource_params": null,
+      "type": 5
+    },
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": 2,
+    "id": 60027,
+    "label": null,
+    "name": "メインストーリー20-52をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": 60026,
+    "priority": 28,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30147,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1330,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": "21章前編クリアで獲得！",
+    "guide_mission_pickup_reward": {
+      "id": 927,
+      "quantity": 10,
+      "resource_params": null,
+      "type": 5
+    },
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": 2,
+    "id": 60028,
+    "label": null,
+    "name": "メインストーリー21-29をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": 60027,
+    "priority": 29,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30148,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1517,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": "21章後編クリアで獲得！",
+    "guide_mission_pickup_reward": {
+      "id": 928,
+      "quantity": 10,
+      "resource_params": null,
+      "type": 5
+    },
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": 2,
+    "id": 60029,
+    "label": null,
+    "name": "メインストーリー21-53をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": 60028,
+    "priority": 30,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30149,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1376,
+    "transition": null
+  },
+  {
     "category": 3,
     "end_at": null,
     "event_tab_id": 106,
@@ -3565,6 +4044,141 @@
       }
     ],
     "total_task_condition_id": 1497,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 111,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 111001,
+    "label": null,
+    "name": "踏破せよ！連続バトル βば～じょん：初級をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1111001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1527,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 111,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 111002,
+    "label": null,
+    "name": "踏破せよ！連続バトル βば～じょん：中級をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1111002,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1528,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 111,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 111003,
+    "label": null,
+    "name": "踏破せよ！連続バトル βば～じょん：中級をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1111003,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1528,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 111,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 111004,
+    "label": null,
+    "name": "踏破せよ！連続バトル βば～じょん：上級をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1111004,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1529,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 111,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 111005,
+    "label": null,
+    "name": "踏破せよ！連続バトル βば～じょん：上級をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1111005,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1529,
     "transition": null
   },
   {
@@ -9558,6 +10172,11 @@
         "count": 360,
         "reward_set_id": 30017,
         "start_at": null
+      },
+      {
+        "count": 365,
+        "reward_set_id": 30017,
+        "start_at": null
       }
     ],
     "total_task_condition_id": 134,
@@ -12927,6 +13546,33 @@
       }
     ],
     "total_task_condition_id": 1489,
+    "transition": null
+  },
+  {
+    "category": 4,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 300170,
+    "label": null,
+    "name": "メインストーリー24-40をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 7159,
+    "reset_cycle": null,
+    "start_at": "2025-03-06T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30016,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1514,
     "transition": null
   },
   {
@@ -24391,6 +25037,699 @@
     ],
     "total_task_condition_id": 1489,
     "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 108,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1080014,
+    "label": null,
+    "name": "スコアバトル24-1Normalをクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 87,
+    "reset_cycle": null,
+    "start_at": "2025-03-06T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1081001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1515,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 108,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1080015,
+    "label": null,
+    "name": "スコアバトル24-2Normalをクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 86,
+    "reset_cycle": null,
+    "start_at": "2025-03-06T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1081003,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1516,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 108,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1080016,
+    "label": null,
+    "name": "メインストーリー24章をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 85,
+    "reset_cycle": null,
+    "start_at": "2025-03-06T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1081004,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1514,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 109,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1090006,
+    "label": null,
+    "name": "新たなる導き アルビーナ LEGEND FESを{}回回そう※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 1090001,
+        "start_at": null
+      },
+      {
+        "count": 20,
+        "reward_set_id": 1090001,
+        "start_at": null
+      },
+      {
+        "count": 30,
+        "reward_set_id": 1090001,
+        "start_at": null
+      },
+      {
+        "count": 40,
+        "reward_set_id": 1090001,
+        "start_at": null
+      },
+      {
+        "count": 50,
+        "reward_set_id": 1090002,
+        "start_at": null
+      },
+      {
+        "count": 60,
+        "reward_set_id": 1090002,
+        "start_at": null
+      },
+      {
+        "count": 70,
+        "reward_set_id": 1090002,
+        "start_at": null
+      },
+      {
+        "count": 80,
+        "reward_set_id": 1090002,
+        "start_at": null
+      },
+      {
+        "count": 90,
+        "reward_set_id": 1090002,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 109,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1090007,
+    "label": null,
+    "name": "新たなる導き アルビーナ LEGEND FESを{}回回そう※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 1090010,
+        "start_at": null
+      },
+      {
+        "count": 110,
+        "reward_set_id": 1090003,
+        "start_at": null
+      },
+      {
+        "count": 120,
+        "reward_set_id": 1090003,
+        "start_at": null
+      },
+      {
+        "count": 130,
+        "reward_set_id": 1090003,
+        "start_at": null
+      },
+      {
+        "count": 140,
+        "reward_set_id": 1090003,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 109,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1090008,
+    "label": null,
+    "name": "新たなる導き アルビーナ LEGEND FESを{}回回そう※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 150,
+        "reward_set_id": 1090007,
+        "start_at": null
+      },
+      {
+        "count": 160,
+        "reward_set_id": 1090004,
+        "start_at": null
+      },
+      {
+        "count": 170,
+        "reward_set_id": 1090004,
+        "start_at": null
+      },
+      {
+        "count": 180,
+        "reward_set_id": 1090004,
+        "start_at": null
+      },
+      {
+        "count": 190,
+        "reward_set_id": 1090004,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 109,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1090009,
+    "label": null,
+    "name": "新たなる導き アルビーナ LEGEND FESを{}回回そう※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 200,
+        "reward_set_id": 1090011,
+        "start_at": null
+      },
+      {
+        "count": 210,
+        "reward_set_id": 1090005,
+        "start_at": null
+      },
+      {
+        "count": 220,
+        "reward_set_id": 1090005,
+        "start_at": null
+      },
+      {
+        "count": 230,
+        "reward_set_id": 1090005,
+        "start_at": null
+      },
+      {
+        "count": 240,
+        "reward_set_id": 1090005,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 109,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1090010,
+    "label": null,
+    "name": "新たなる導き アルビーナ LEGEND FESを{}回回そう※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 250,
+        "reward_set_id": 1090008,
+        "start_at": null
+      },
+      {
+        "count": 260,
+        "reward_set_id": 1090006,
+        "start_at": null
+      },
+      {
+        "count": 270,
+        "reward_set_id": 1090006,
+        "start_at": null
+      },
+      {
+        "count": 280,
+        "reward_set_id": 1090006,
+        "start_at": null
+      },
+      {
+        "count": 290,
+        "reward_set_id": 1090006,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 109,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1090011,
+    "label": null,
+    "name": "新たなる導き アルビーナ LEGEND FESを{}回回そう※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 90,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300,
+        "reward_set_id": 1090009,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 110,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1100006,
+    "label": null,
+    "name": " 弔いの双刃 ベップ LEGEND FESを{}回回そう※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 1110001,
+        "start_at": null
+      },
+      {
+        "count": 20,
+        "reward_set_id": 1110001,
+        "start_at": null
+      },
+      {
+        "count": 30,
+        "reward_set_id": 1110001,
+        "start_at": null
+      },
+      {
+        "count": 40,
+        "reward_set_id": 1110001,
+        "start_at": null
+      },
+      {
+        "count": 50,
+        "reward_set_id": 1110002,
+        "start_at": null
+      },
+      {
+        "count": 60,
+        "reward_set_id": 1110002,
+        "start_at": null
+      },
+      {
+        "count": 70,
+        "reward_set_id": 1110002,
+        "start_at": null
+      },
+      {
+        "count": 80,
+        "reward_set_id": 1110002,
+        "start_at": null
+      },
+      {
+        "count": 90,
+        "reward_set_id": 1110002,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 110,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1100007,
+    "label": null,
+    "name": " 弔いの双刃 ベップ LEGEND FESを{}回回そう※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 1090010,
+        "start_at": null
+      },
+      {
+        "count": 110,
+        "reward_set_id": 1110003,
+        "start_at": null
+      },
+      {
+        "count": 120,
+        "reward_set_id": 1110003,
+        "start_at": null
+      },
+      {
+        "count": 130,
+        "reward_set_id": 1110003,
+        "start_at": null
+      },
+      {
+        "count": 140,
+        "reward_set_id": 1110003,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 110,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1100008,
+    "label": null,
+    "name": " 弔いの双刃 ベップ LEGEND FESを{}回回そう※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 150,
+        "reward_set_id": 1110007,
+        "start_at": null
+      },
+      {
+        "count": 160,
+        "reward_set_id": 1110004,
+        "start_at": null
+      },
+      {
+        "count": 170,
+        "reward_set_id": 1110004,
+        "start_at": null
+      },
+      {
+        "count": 180,
+        "reward_set_id": 1110004,
+        "start_at": null
+      },
+      {
+        "count": 190,
+        "reward_set_id": 1110004,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 110,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1100009,
+    "label": null,
+    "name": " 弔いの双刃 ベップ LEGEND FESを{}回回そう※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 200,
+        "reward_set_id": 1090011,
+        "start_at": null
+      },
+      {
+        "count": 210,
+        "reward_set_id": 1110005,
+        "start_at": null
+      },
+      {
+        "count": 220,
+        "reward_set_id": 1110005,
+        "start_at": null
+      },
+      {
+        "count": 230,
+        "reward_set_id": 1110005,
+        "start_at": null
+      },
+      {
+        "count": 240,
+        "reward_set_id": 1110005,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 110,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1100010,
+    "label": null,
+    "name": " 弔いの双刃 ベップ LEGEND FESを{}回回そう※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 250,
+        "reward_set_id": 1110008,
+        "start_at": null
+      },
+      {
+        "count": 260,
+        "reward_set_id": 1110006,
+        "start_at": null
+      },
+      {
+        "count": 270,
+        "reward_set_id": 1110006,
+        "start_at": null
+      },
+      {
+        "count": 280,
+        "reward_set_id": 1110006,
+        "start_at": null
+      },
+      {
+        "count": 290,
+        "reward_set_id": 1110006,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 110,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1100011,
+    "label": null,
+    "name": " 弔いの双刃 ベップ LEGEND FESを{}回回そう※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 90,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300,
+        "reward_set_id": 1110009,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
   },
   {
     "category": 3,

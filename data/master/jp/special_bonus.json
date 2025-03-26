@@ -1132,5 +1132,67 @@
     "event_id": 84,
     "id": 40,
     "start_at": "2025-03-12T03:00:00.000Z"
+  },
+  {
+    "bonuses": [
+      {
+        "effects": [
+          {
+            "item_ids": [938],
+            "limit": 10,
+            "targets": [
+              {
+                "character_scope_ids": [32],
+                "memoria_scope_ids": [],
+                "memoria_sp_bonus_ids": [],
+                "value": 1
+              },
+              {
+                "character_scope_ids": [],
+                "memoria_scope_ids": [6],
+                "memoria_sp_bonus_ids": [],
+                "value": 2
+              }
+            ]
+          }
+        ],
+        "name": "挑戦券増量ボーナス",
+        "type": 3,
+        "warning_text": "挑戦券[ヤンネ・リンデマンの愛と過去]の挑戦券増量ボーナスは\nパーティで合計＋10個までが上限となります。"
+      }
+    ],
+    "end_at": "2025-03-31T03:00:00.000Z",
+    "episode_categories": [2, 3, 4, 5, 7, 8, 12, 13, 11],
+    "event_id": null,
+    "id": 41,
+    "start_at": "2025-03-17T03:00:00.000Z"
+  },
+  {
+    "bonuses": [
+      {
+        "effects": [
+          {
+            "item_ids": [],
+            "limit": 200,
+            "targets": [
+              {
+                "character_scope_ids": [],
+                "memoria_scope_ids": [],
+                "memoria_sp_bonus_ids": [10],
+                "value": null
+              }
+            ]
+          }
+        ],
+        "name": "",
+        "type": 4,
+        "warning_text": ""
+      }
+    ],
+    "end_at": "2025-03-31T03:00:00.000Z",
+    "episode_categories": [12],
+    "event_id": 87,
+    "id": 42,
+    "start_at": "2025-03-17T03:00:00.000Z"
   }
 ]

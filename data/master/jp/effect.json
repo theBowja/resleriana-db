@@ -11420,6 +11420,66 @@
     "summons_effect_id": null
   },
   {
+    "description": "自身がニーナ【ミステリアスな実力者】の時、スキル発動後、味方全員のHPを回復",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001038,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "得意属性が火属性かつサポーターの時、スキル発動後、魔攻が最も高い味方1人に「スキルダメージアップ」を1回行動終了するまで付与(重複不可)",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001039,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "得意属性が火属性かつサポーターの時、スキル発動後、魔攻が最も高い味方1人に「スキルダメージアップ」を1回行動終了するまで付与(重複不可)",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001040,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "得意属性が火属性かつサポーターの時、与える強化効果量アップ",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001041,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "最大HPが最も高い敵1体に、「状態異常耐性ダウン」を2回行動終了するまで付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001042,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "最大HPが最も高い敵1体に、「受ける魔法攻撃ダメージアップ」を2回攻撃を受けるまで付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001043,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
     "description": "与回復量上昇",
     "effect_motion_id": null,
     "enemy_hp_gauge": null,
@@ -18640,11 +18700,41 @@
     "summons_effect_id": null
   },
   {
+    "description": "state_change用",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001263,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001264,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
     "description": "",
     "effect_motion_id": null,
     "enemy_hp_gauge": null,
     "field_effect_id": null,
     "id": 72001265,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001266,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null
@@ -18695,6 +18785,26 @@
     "enemy_hp_gauge": null,
     "field_effect_id": null,
     "id": 72001271,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001272,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001273,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null
@@ -24526,6 +24636,46 @@
     "summons_effect_id": null
   },
   {
+    "description": "物理攻撃被弾時、自身に与ダメージUP(3回)を付与",
+    "effect_motion_id": 1011,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 86030010,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "物理攻撃被弾時、自身に被ダメージUP(3回)を付与",
+    "effect_motion_id": 1011,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 86030011,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "魔法攻撃被弾時、自身に与ダメージDOWN(3回)を付与",
+    "effect_motion_id": 1011,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 86030012,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "魔法攻撃被弾時、自身に被ダメージDOWN(3回)を付与",
+    "effect_motion_id": 1011,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 86030013,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
     "description": "自身に受けるマイナス効果量UP(上限1000％)付与",
     "effect_motion_id": null,
     "enemy_hp_gauge": null,
@@ -25671,6 +25821,26 @@
     "enemy_hp_gauge": null,
     "field_effect_id": null,
     "id": 86174001,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "得意属性が火属性以外の相手への与ダメージUPを自身に付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 86176000,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "得意属性が風属性以外の相手への与ダメージUPを自身に付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 86187000,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null
@@ -31820,6 +31990,36 @@
     "effect_motion_id": null,
     "enemy_hp_gauge": null,
     "field_effect_id": null,
+    "id": 91001661,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001663,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001664,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
     "id": 91001665,
     "is_positive_popup": null,
     "popup_text": "",
@@ -31831,6 +32031,26 @@
     "enemy_hp_gauge": null,
     "field_effect_id": null,
     "id": 91001666,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001667,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001668,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null
@@ -31940,6 +32160,86 @@
     "effect_motion_id": null,
     "enemy_hp_gauge": null,
     "field_effect_id": null,
+    "id": 91001679,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001680,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001681,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001682,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001683,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001684,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001685,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001686,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
     "id": 91001687,
     "is_positive_popup": null,
     "popup_text": "",
@@ -32030,6 +32330,26 @@
     "effect_motion_id": null,
     "enemy_hp_gauge": null,
     "field_effect_id": null,
+    "id": 91001696,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001697,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
     "id": 91001698,
     "is_positive_popup": null,
     "popup_text": "",
@@ -32061,6 +32381,16 @@
     "enemy_hp_gauge": null,
     "field_effect_id": null,
     "id": 91001701,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001716,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null
@@ -34241,6 +34571,16 @@
     "enemy_hp_gauge": null,
     "field_effect_id": null,
     "id": 95000205,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身がサポーターの時、味方全員の魔法攻撃スキルダメージアップ",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 95000206,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null

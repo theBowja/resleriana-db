@@ -1462,6 +1462,134 @@
       {
         "effects": [
           {
+            "item_ids": [995],
+            "limit": 10,
+            "targets": [
+              {
+                "character_scope_ids": [35],
+                "memoria_scope_ids": [],
+                "memoria_sp_bonus_ids": [],
+                "value": 1
+              },
+              {
+                "character_scope_ids": [],
+                "memoria_scope_ids": [9],
+                "memoria_sp_bonus_ids": [],
+                "value": 2
+              }
+            ]
+          }
+        ],
+        "name": "挑戦券増量ボーナス",
+        "type": 3,
+        "warning_text": "挑戦券[グループ実習　～素材採取編～]の挑戦券増量ボーナスは\nパーティで合計＋10個までが上限となります。"
+      }
+    ],
+    "difficulties": [],
+    "end_at": "2025-05-30T03:00:00.000Z",
+    "episode_categories": [2, 3, 4, 5, 7, 8, 13, 11],
+    "event_id": null,
+    "id": 50,
+    "start_at": "2025-05-07T03:00:00.000Z"
+  },
+  {
+    "bonuses": [
+      {
+        "effects": [
+          {
+            "item_ids": [],
+            "limit": 400,
+            "targets": [
+              {
+                "character_scope_ids": [],
+                "memoria_scope_ids": [],
+                "memoria_sp_bonus_ids": [15],
+                "value": null
+              }
+            ]
+          }
+        ],
+        "name": "",
+        "type": 4,
+        "warning_text": ""
+      }
+    ],
+    "difficulties": [5],
+    "end_at": "2025-05-07T03:00:00.000Z",
+    "episode_categories": [12],
+    "event_id": 95,
+    "id": 51,
+    "start_at": "2025-04-30T03:00:00.000Z"
+  },
+  {
+    "bonuses": [
+      {
+        "effects": [
+          {
+            "item_ids": [],
+            "limit": 400,
+            "targets": [
+              {
+                "character_scope_ids": [],
+                "memoria_scope_ids": [],
+                "memoria_sp_bonus_ids": [16],
+                "value": null
+              }
+            ]
+          }
+        ],
+        "name": "",
+        "type": 4,
+        "warning_text": ""
+      }
+    ],
+    "difficulties": [5],
+    "end_at": "2025-05-31T03:00:00.000Z",
+    "episode_categories": [12],
+    "event_id": 95,
+    "id": 52,
+    "start_at": "2025-05-07T03:00:00.000Z"
+  },
+  {
+    "bonuses": [
+      {
+        "effects": [
+          {
+            "item_ids": [995],
+            "limit": 10,
+            "targets": [
+              {
+                "character_scope_ids": [35],
+                "memoria_scope_ids": [],
+                "memoria_sp_bonus_ids": [],
+                "value": 1
+              },
+              {
+                "character_scope_ids": [],
+                "memoria_scope_ids": [9],
+                "memoria_sp_bonus_ids": [],
+                "value": 2
+              }
+            ]
+          }
+        ],
+        "name": "挑戦券増量ボーナス",
+        "type": 3,
+        "warning_text": "挑戦券[グループ実習　～素材採取編～]の挑戦券増量ボーナスは\nパーティで合計＋10個までが上限となります。"
+      }
+    ],
+    "difficulties": [],
+    "end_at": "2025-05-30T03:00:00.000Z",
+    "episode_categories": [12],
+    "event_id": 95,
+    "id": 53,
+    "start_at": "2025-05-07T03:00:00.000Z"
+  },
+  {
+    "bonuses": [
+      {
+        "effects": [
+          {
             "item_ids": [982],
             "limit": 10,
             "targets": [
@@ -1491,5 +1619,34 @@
     "event_id": 91,
     "id": 54,
     "start_at": "2025-04-23T03:00:00.000Z"
+  },
+  {
+    "bonuses": [
+      {
+        "effects": [
+          {
+            "item_ids": [],
+            "limit": 200,
+            "targets": [
+              {
+                "character_scope_ids": [],
+                "memoria_scope_ids": [],
+                "memoria_sp_bonus_ids": [17],
+                "value": null
+              }
+            ]
+          }
+        ],
+        "name": "",
+        "type": 4,
+        "warning_text": ""
+      }
+    ],
+    "difficulties": [],
+    "end_at": "2025-05-30T03:00:00.000Z",
+    "episode_categories": [12],
+    "event_id": 96,
+    "id": 55,
+    "start_at": "2025-05-07T03:00:00.000Z"
   }
 ]

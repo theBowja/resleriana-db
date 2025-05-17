@@ -13392,6 +13392,66 @@
     "name": "メカニックのゴーグル"
   },
   {
+    "description": "自身がフロッケ【ハートフルミライ】の時、与える強化効果量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001058,
+        "value": 2100
+      }
+    ],
+    "id": 301182,
+    "name": "サイバネティクスケース"
+  },
+  {
+    "description": "得意属性が風属性かつサポーターの時、攻撃後、対象に「受けるダメージ+{0}%」を2回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001059,
+        "value": 900
+      }
+    ],
+    "id": 301183,
+    "name": "サイエンティストの白衣"
+  },
+  {
+    "description": "得意属性が風属性かつサポーターの時、攻撃後、対象に「受けるダメージ+{0}%」を2回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001059,
+        "value": 600
+      }
+    ],
+    "id": 301184,
+    "name": "サイエンティストの白衣"
+  },
+  {
+    "description": "得意属性が風属性かつサポーターの時、スキル発動後、魔攻が最も高い味方1人に「WEAK攻撃ダメージ+{0}%」を1回行動終了するまで付与(重複不可)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001060,
+        "value": 2400
+      }
+    ],
+    "id": 301185,
+    "name": "サイエンティストの靴"
+  },
+  {
+    "description": "得意属性が風属性かつサポーターの時、スキル発動後、魔攻が最も高い味方1人に「WEAK攻撃ダメージ+{0}%」を1回行動終了するまで付与(重複不可)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001061,
+        "value": 1700
+      }
+    ],
+    "id": 301186,
+    "name": "サイエンティストの靴"
+  },
+  {
     "description": "魔攻・魔防+{0}%",
     "effects": [
       {
@@ -15843,6 +15903,23 @@
     ],
     "id": 1980191,
     "name": "良き学びを共に"
+  },
+  {
+    "description": "「レスレリ学園」は「魔攻・魔防+{0}%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500003,
+        "value": 4000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500005,
+        "value": 4000
+      }
+    ],
+    "id": 1980192,
+    "name": "みんなで一緒に過ごせる場所"
   },
   {
     "description": "味方全員の物攻+{0}%",
@@ -19365,7 +19442,7 @@
     "name": "冒険があたしを成長させる！"
   },
   {
-    "description": "攻撃対象がブレイク時、「レスレリ学園」のタグをもつキャラクターの数に応じ、敵全体に「受ける風属性ダメージ+20～100%」(上限100％)を付与",
+    "description": "攻撃対象がブレイク時、「レスレリ学園」タグを持つキャラ数に応じ、敵全体に「受ける風属性ダメージ+20～100%」を付与(上限100％)",
     "effects": [
       {
         "ability_timing_value": null,
@@ -20120,6 +20197,50 @@
     ],
     "id": 1990351,
     "name": "若き天才の観察眼"
+  },
+  {
+    "description": "状態異常が付与された対象を攻撃時、味方全員のHPを{0}%回復し、アイテムゲージを{1}%回復し、得意属性が風属性の味方全員に「魔攻+{2}%」を1回行動終了するまで付与(重複不可)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001298,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001299,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001300,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001304,
+        "value": 5000
+      }
+    ],
+    "id": 1990352,
+    "name": "科学のサポート力"
+  },
+  {
+    "description": "パーティの誰かが戦闘アイテム使用後、味方全員のHPを{0}%回復し、味方全員のマイナス効果を解除",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001131,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001301,
+        "value": 10000
+      }
+    ],
+    "id": 1990353,
+    "name": "予習済みです！"
   },
   {
     "description": "WEAK攻撃時、スキルダメージ+{0}%",
@@ -30730,6 +30851,66 @@
     ],
     "id": 4990882,
     "name": "風得・破者マイナスアップⅣ"
+  },
+  {
+    "description": "自身がサポーターかつ全体攻撃でダメージを与えた時、味方全員に「スキルダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000212,
+        "value": 500
+      }
+    ],
+    "id": 4990883,
+    "name": "術者・全体アタックダメアップオールⅣ"
+  },
+  {
+    "description": "自身がサポーターかつ全体攻撃でダメージを与えた時、味方全員に「スキルダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000212,
+        "value": 1500
+      }
+    ],
+    "id": 4990884,
+    "name": "術者・全体アタックダメアップオールⅣ"
+  },
+  {
+    "description": "自身がサポーターかつ全体攻撃でダメージを与えた時、味方全員に「スキルダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000212,
+        "value": 2500
+      }
+    ],
+    "id": 4990885,
+    "name": "術者・全体アタックダメアップオールⅣ"
+  },
+  {
+    "description": "自身がサポーターかつ全体攻撃でダメージを与えた時、味方全員に「スキルダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000212,
+        "value": 3500
+      }
+    ],
+    "id": 4990886,
+    "name": "術者・全体アタックダメアップオールⅣ"
+  },
+  {
+    "description": "自身がサポーターかつ全体攻撃でダメージを与えた時、味方全員に「スキルダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000212,
+        "value": 4500
+      }
+    ],
+    "id": 4990887,
+    "name": "術者・全体アタックダメアップオールⅣ"
   },
   {
     "description": "突属性のスキルダメージ{0}%アップ",
@@ -46272,6 +46453,216 @@
       }
     ],
     "id": 26235001,
+    "name": ""
+  },
+  {
+    "description": "パーティ内の「レスレリ学園」タグを持つキャラ数に応じ、行動後アイテムゲージを追加回復(最大10％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 126241009,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241013,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241017,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241021,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241025,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241029,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241033,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241037,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241041,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241045,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241053,
+        "value": 500
+      }
+    ],
+    "id": 26241001,
+    "name": ""
+  },
+  {
+    "description": "パーティ内の「レスレリ学園」タグを持つキャラ数に応じ、味方全員の戦闘アイテムダメージアップ(最大300％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 126241005,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241010,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241014,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241018,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241022,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241026,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241030,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241034,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241038,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241042,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241051,
+        "value": 15000
+      }
+    ],
+    "id": 26241002,
+    "name": ""
+  },
+  {
+    "description": "パーティ内の「レスレリ学園」タグを持つキャラ数に応じ、味方全員の戦闘アイテムのクリティカル率アップ(最大100％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 126241007,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241011,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241015,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241019,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241023,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241027,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241031,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241035,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241039,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241043,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241052,
+        "value": 5000
+      }
+    ],
+    "id": 26241003,
+    "name": ""
+  },
+  {
+    "description": "味方全員の戦闘アイテムスキル威力+700％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 126241006,
+        "value": 70000
+      }
+    ],
+    "id": 26241005,
+    "name": ""
+  },
+  {
+    "description": "味方全員に行動後アイテムゲージ10％追加回復",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 126241050,
+        "value": 1000
+      }
+    ],
+    "id": 26241006,
     "name": ""
   },
   {
@@ -63519,7 +63910,7 @@
     "name": "行動後アイテムゲージ回復量UP"
   },
   {
-    "description": "味方の「無数群島域」のタグを持つキャラクターにつき、戦闘アイテムダメージ+200%(上限3000%)",
+    "description": "味方の「無数群島域」タグを持つキャラ1人につき、戦闘アイテムダメージ+200%(上限3000%)",
     "effects": [
       {
         "ability_timing_value": null,

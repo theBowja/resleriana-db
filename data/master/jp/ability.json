@@ -13452,6 +13452,83 @@
     "name": "サイエンティストの靴"
   },
   {
+    "description": "自身がユナ【With Ideals】の時、スキル発動後、味方全員に「物理攻撃ダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001062,
+        "value": 1800
+      }
+    ],
+    "id": 301187,
+    "name": "正義と誇りの象徴"
+  },
+  {
+    "description": "自身が突属性かつサポーターの時、バトル開始時、味方全員に「ターン開始時、HP回復+{0}%」を5回行動開始するまで付与(重複不可)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001063,
+        "value": 500
+      }
+    ],
+    "id": 301188,
+    "name": "模範者の制服"
+  },
+  {
+    "description": "自身が突属性かつサポーターの時、バトル開始時、味方全員に「ターン開始時、HP回復+{0}%」を5回行動開始するまで付与(重複不可)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001067,
+        "value": 300
+      }
+    ],
+    "id": 301189,
+    "name": "模範者の制服"
+  },
+  {
+    "description": "自身が突属性かつサポーターの時、スキル発動後、味方全員に「突属性ダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001064,
+        "value": 1200
+      }
+    ],
+    "id": 301190,
+    "name": "模範者のネクタイ"
+  },
+  {
+    "description": "自身が突属性かつサポーターの時、スキル発動後、味方全員に「突属性ダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001064,
+        "value": 800
+      }
+    ],
+    "id": 301191,
+    "name": "模範者のネクタイ"
+  },
+  {
+    "description": "得意属性が突属性の時、強化系パネル獲得時、物攻が最も高い味方1人に「スキルダメージ+{0}%」を1回行動終了するまで付与(重複不可)<br>自身がサポーターの時、味方全員の受けるHP回復量+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001065,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 6001066,
+        "value": 500
+      }
+    ],
+    "id": 301192,
+    "name": "マイティチェーン"
+  },
+  {
     "description": "魔攻・魔防+{0}%",
     "effects": [
       {
@@ -15920,6 +15997,23 @@
     ],
     "id": 1980192,
     "name": "みんなで一緒に過ごせる場所"
+  },
+  {
+    "description": "「真面目」は「物防・魔防+{0}%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500004,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500005,
+        "value": 5000
+      }
+    ],
+    "id": 1980193,
+    "name": "類稀なリーダーシップ"
   },
   {
     "description": "味方全員の物攻+{0}%",
@@ -19442,6 +19536,33 @@
     "name": "冒険があたしを成長させる！"
   },
   {
+    "description": "スキル発動後、「レスレリ学園」タグを持つキャラ数に応じ、得意属性が突属性または「レスレリ学園」の味方全員に「バーストスキルダメージ+15～35%」を付与(上限140%) ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001306,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001307,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001308,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001309,
+        "value": 1500
+      }
+    ],
+    "id": 1990305,
+    "name": "あたしの特訓についてきて！"
+  },
+  {
     "description": "攻撃対象がブレイク時、「レスレリ学園」タグを持つキャラ数に応じ、敵全体に「受ける風属性ダメージ+20～100%」を付与(上限100％)",
     "effects": [
       {
@@ -20241,6 +20362,55 @@
     ],
     "id": 1990353,
     "name": "予習済みです！"
+  },
+  {
+    "description": "バトル開始時、「ドライシュネルシュトース」のスキルランプを3個点灯する<br>スキル発動後またはパーティの誰かが戦闘アイテムを使用後、「ドライシュネルシュトース」のスキルランプを1個点灯し、味方全員のHPを{0}%回復<br>※アイテムを複数同時に使用しても点灯は1個",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001131,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001094,
+        "value": 300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001094,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001094,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001131,
+        "value": 1000
+      }
+    ],
+    "id": 1990354,
+    "name": "皆の期待に応えよう"
+  },
+  {
+    "description": "得意属性が突属性の味方全員のスキルダメージ+30%<br>「レスレリ学園」タグを持つキャラ数に応じ、味方全員の「スキルダメージ+6%～30%」(1～5人で多いほど増加)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001129,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001317,
+        "value": 3000
+      }
+    ],
+    "id": 1990355,
+    "name": "ねこさんチームの優等生"
   },
   {
     "description": "WEAK攻撃時、スキルダメージ+{0}%",
@@ -30913,6 +31083,66 @@
     "name": "術者・全体アタックダメアップオールⅣ"
   },
   {
+    "description": "得意属性が突属性の時、与える強化効果量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000213,
+        "value": 600
+      }
+    ],
+    "id": 4990888,
+    "name": "突得エンハンスアップⅢ"
+  },
+  {
+    "description": "得意属性が突属性の時、与える強化効果量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000213,
+        "value": 2000
+      }
+    ],
+    "id": 4990889,
+    "name": "突得エンハンスアップⅢ"
+  },
+  {
+    "description": "得意属性が突属性の時、与える強化効果量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000213,
+        "value": 3300
+      }
+    ],
+    "id": 4990890,
+    "name": "突得エンハンスアップⅢ"
+  },
+  {
+    "description": "得意属性が突属性の時、与える強化効果量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000213,
+        "value": 4700
+      }
+    ],
+    "id": 4990891,
+    "name": "突得エンハンスアップⅢ"
+  },
+  {
+    "description": "得意属性が突属性の時、与える強化効果量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000213,
+        "value": 6000
+      }
+    ],
+    "id": 4990892,
+    "name": "突得エンハンスアップⅢ"
+  },
+  {
     "description": "突属性のスキルダメージ{0}%アップ",
     "effects": [
       {
@@ -39673,6 +39903,42 @@
     "name": "得意属性が風属性のキャラのスキルダメージ上昇(3)"
   },
   {
+    "description": "得意属性が突属性のキャラの単体攻撃のスキルダメージ{0}%アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 13000338,
+        "value": 100
+      }
+    ],
+    "id": 7000735,
+    "name": "得意属性が突属性のキャラの単体攻撃ダメージ上昇(1)"
+  },
+  {
+    "description": "得意属性が突属性のキャラの単体攻撃のスキルダメージ{0}%アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 13000338,
+        "value": 200
+      }
+    ],
+    "id": 7000736,
+    "name": "得意属性が突属性のキャラの単体攻撃ダメージ上昇(2)"
+  },
+  {
+    "description": "得意属性が突属性のキャラの単体攻撃のスキルダメージ{0}%アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 13000338,
+        "value": 300
+      }
+    ],
+    "id": 7000737,
+    "name": "得意属性が突属性のキャラの単体攻撃ダメージ上昇(3)"
+  },
+  {
     "description": "被クリティカル100%減少\n戦闘アイテムの被ダメージ90%減少",
     "effects": [
       {
@@ -43007,6 +43273,23 @@
       }
     ],
     "id": 26008001,
+    "name": ""
+  },
+  {
+    "description": "ブレイク時自身に被ダメージUP(15%/永続)と与ダメージUP(15%/永続)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86009001,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86009002,
+        "value": 1500
+      }
+    ],
+    "id": 26009001,
     "name": ""
   },
   {
@@ -46456,6 +46739,28 @@
     "name": ""
   },
   {
+    "description": "自身のHPが50%以下になった時、自身にパネル無効(2回)、与ダメージUP(20%/永続)、素早さUP(15%/永続)を付与",
+    "effects": [
+      {
+        "ability_timing_value": 5000,
+        "id": 86236001,
+        "value": 0
+      },
+      {
+        "ability_timing_value": 5000,
+        "id": 86236002,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": 5000,
+        "id": 86236003,
+        "value": 1500
+      }
+    ],
+    "id": 26236001,
+    "name": ""
+  },
+  {
     "description": "パーティ内の「レスレリ学園」タグを持つキャラ数に応じ、行動後アイテムゲージを追加回復(最大10％)",
     "effects": [
       {
@@ -46506,6 +46811,11 @@
       {
         "ability_timing_value": null,
         "id": 126241045,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241049,
         "value": 100
       },
       {
@@ -46572,6 +46882,11 @@
       },
       {
         "ability_timing_value": null,
+        "id": 126241046,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
         "id": 126241051,
         "value": 15000
       }
@@ -46630,6 +46945,11 @@
       {
         "ability_timing_value": null,
         "id": 126241043,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 126241047,
         "value": 1000
       },
       {

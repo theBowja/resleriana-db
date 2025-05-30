@@ -13529,6 +13529,71 @@
     "name": "マイティチェーン"
   },
   {
+    "description": "自身がイザナ【Knight's Beginning】の時、スキルダメージ+{0}%とクリティカルダメージ+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001068,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 6001069,
+        "value": 2500
+      }
+    ],
+    "id": 301193,
+    "name": "ケットシーブゥアル"
+  },
+  {
+    "description": "得意属性が風属性の時、攻撃を受けた時、自身に「魔攻+{0}%」を1回行動終了するまで付与(重複不可)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001070,
+        "value": 1800
+      }
+    ],
+    "id": 301194,
+    "name": "フェアリードレス"
+  },
+  {
+    "description": "得意属性が風属性の時、攻撃を受けた時、自身に「魔攻+{0}%」を1回行動終了するまで付与(重複不可)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001071,
+        "value": 1200
+      }
+    ],
+    "id": 301195,
+    "name": "フェアリードレス"
+  },
+  {
+    "description": "得意属性が風属性かつアタッカーの時、スキル発動後、自身に「WEAK攻撃ダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001072,
+        "value": 2400
+      }
+    ],
+    "id": 301196,
+    "name": "闘士のバングル"
+  },
+  {
+    "description": "得意属性が風属性かつアタッカーの時、スキル発動後、自身に「WEAK攻撃ダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001072,
+        "value": 1600
+      }
+    ],
+    "id": 301197,
+    "name": "闘士のバングル"
+  },
+  {
     "description": "魔攻・魔防+{0}%",
     "effects": [
       {
@@ -16014,6 +16079,23 @@
     ],
     "id": 1980193,
     "name": "類稀なリーダーシップ"
+  },
+  {
+    "description": "得意属性が風属性のキャラは「スキルダメージ・クリティカルダメージ+{0}%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500051,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500008,
+        "value": 5000
+      }
+    ],
+    "id": 1980194,
+    "name": "ハンマーの風を受けよっ！"
   },
   {
     "description": "味方全員の物攻+{0}%",
@@ -20411,6 +20493,40 @@
     ],
     "id": 1990355,
     "name": "ねこさんチームの優等生"
+  },
+  {
+    "description": "1回目のターン開始時、自身のパネルをバーストパネルに変換(空パネルの時は生成)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001318,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001319,
+        "value": 0
+      }
+    ],
+    "id": 1990356,
+    "name": "輝く騎士のハンマー"
+  },
+  {
+    "description": "自身のクリティカル確率が100%を超えている場合、攻撃時、100%を超えたクリティカル確率の上昇量をスキル威力に変換(変換上限200%)<br>WEAK攻撃時、自身に「クリティカル確率+{0}%」を付与(上限200%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001311,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001310,
+        "value": 20000
+      }
+    ],
+    "id": 1990357,
+    "name": "アタシの進化は止まらない！"
   },
   {
     "description": "WEAK攻撃時、スキルダメージ+{0}%",
@@ -31141,6 +31257,691 @@
     ],
     "id": 4990892,
     "name": "突得エンハンスアップⅢ"
+  },
+  {
+    "description": "得意属性が風属性かつアタッカーの時、クリティカルダメージ+{0}%<br>「騎士」の時、魔攻+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000214,
+        "value": 800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000215,
+        "value": 500
+      }
+    ],
+    "id": 4990893,
+    "name": "想力「騎士として」"
+  },
+  {
+    "description": "得意属性が風属性かつアタッカーの時、クリティカルダメージ+{0}%<br>「騎士」の時、魔攻+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000214,
+        "value": 2600
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000215,
+        "value": 1700
+      }
+    ],
+    "id": 4990894,
+    "name": "想力「騎士として」"
+  },
+  {
+    "description": "得意属性が風属性かつアタッカーの時、クリティカルダメージ+{0}%<br>「騎士」の時、魔攻+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000214,
+        "value": 4400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000215,
+        "value": 2800
+      }
+    ],
+    "id": 4990895,
+    "name": "想力「騎士として」"
+  },
+  {
+    "description": "得意属性が風属性かつアタッカーの時、クリティカルダメージ+{0}%<br>「騎士」の時、魔攻+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000214,
+        "value": 6200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000215,
+        "value": 3900
+      }
+    ],
+    "id": 4990896,
+    "name": "想力「騎士として」"
+  },
+  {
+    "description": "得意属性が風属性かつアタッカーの時、クリティカルダメージ+{0}%<br>「騎士」の時、魔攻+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000214,
+        "value": 8000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000215,
+        "value": 5000
+      }
+    ],
+    "id": 4990897,
+    "name": "想力「騎士として」"
+  },
+  {
+    "description": "味方全員の戦闘アイテムダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000216,
+        "value": 500
+      }
+    ],
+    "id": 4990898,
+    "name": "アイテムダメージアップオールⅢ"
+  },
+  {
+    "description": "味方全員の戦闘アイテムダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000216,
+        "value": 1100
+      }
+    ],
+    "id": 4990899,
+    "name": "アイテムダメージアップオールⅢ"
+  },
+  {
+    "description": "味方全員の戦闘アイテムダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000216,
+        "value": 1800
+      }
+    ],
+    "id": 4990900,
+    "name": "アイテムダメージアップオールⅢ"
+  },
+  {
+    "description": "味方全員の戦闘アイテムダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000216,
+        "value": 2400
+      }
+    ],
+    "id": 4990901,
+    "name": "アイテムダメージアップオールⅢ"
+  },
+  {
+    "description": "味方全員の戦闘アイテムダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000216,
+        "value": 3000
+      }
+    ],
+    "id": 4990902,
+    "name": "アイテムダメージアップオールⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「与える強化効果量+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000217,
+        "value": 200
+      }
+    ],
+    "id": 4990903,
+    "name": "戦闘開始時エンハンスアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「与える強化効果量+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000217,
+        "value": 400
+      }
+    ],
+    "id": 4990904,
+    "name": "戦闘開始時エンハンスアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「与える強化効果量+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000217,
+        "value": 600
+      }
+    ],
+    "id": 4990905,
+    "name": "戦闘開始時エンハンスアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「与える強化効果量+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000217,
+        "value": 800
+      }
+    ],
+    "id": 4990906,
+    "name": "戦闘開始時エンハンスアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「与える強化効果量+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000217,
+        "value": 1000
+      }
+    ],
+    "id": 4990907,
+    "name": "戦闘開始時エンハンスアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「受ける強化効果量+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000218,
+        "value": 200
+      }
+    ],
+    "id": 4990908,
+    "name": "戦闘開始時レシーブエンハンスアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「受ける強化効果量+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000218,
+        "value": 400
+      }
+    ],
+    "id": 4990909,
+    "name": "戦闘開始時レシーブエンハンスアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「受ける強化効果量+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000218,
+        "value": 600
+      }
+    ],
+    "id": 4990910,
+    "name": "戦闘開始時レシーブエンハンスアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「受ける強化効果量+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000218,
+        "value": 800
+      }
+    ],
+    "id": 4990911,
+    "name": "戦闘開始時レシーブエンハンスアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「受ける強化効果量+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000218,
+        "value": 1000
+      }
+    ],
+    "id": 4990912,
+    "name": "戦闘開始時レシーブエンハンスアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「クリティカル確率+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000219,
+        "value": 400
+      }
+    ],
+    "id": 4990913,
+    "name": "戦闘開始時会心アップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「クリティカル確率+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000219,
+        "value": 800
+      }
+    ],
+    "id": 4990914,
+    "name": "戦闘開始時会心アップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「クリティカル確率+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000219,
+        "value": 1200
+      }
+    ],
+    "id": 4990915,
+    "name": "戦闘開始時会心アップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「クリティカル確率+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000219,
+        "value": 1600
+      }
+    ],
+    "id": 4990916,
+    "name": "戦闘開始時会心アップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「クリティカル確率+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000219,
+        "value": 2000
+      }
+    ],
+    "id": 4990917,
+    "name": "戦闘開始時会心アップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「WEAK攻撃時、スキルダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000220,
+        "value": 500
+      }
+    ],
+    "id": 4990918,
+    "name": "戦闘開始時弱点ダメージアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「WEAK攻撃時、スキルダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000220,
+        "value": 1000
+      }
+    ],
+    "id": 4990919,
+    "name": "戦闘開始時弱点ダメージアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「WEAK攻撃時、スキルダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000220,
+        "value": 1500
+      }
+    ],
+    "id": 4990920,
+    "name": "戦闘開始時弱点ダメージアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「WEAK攻撃時、スキルダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000220,
+        "value": 2000
+      }
+    ],
+    "id": 4990921,
+    "name": "戦闘開始時弱点ダメージアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「WEAK攻撃時、スキルダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000220,
+        "value": 2500
+      }
+    ],
+    "id": 4990922,
+    "name": "戦闘開始時弱点ダメージアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「受けるダメージ-{0}%」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000221,
+        "value": 200
+      }
+    ],
+    "id": 4990923,
+    "name": "戦闘開始時ガードアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「受けるダメージ-{0}%」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000221,
+        "value": 400
+      }
+    ],
+    "id": 4990924,
+    "name": "戦闘開始時ガードアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「受けるダメージ-{0}%」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000221,
+        "value": 500
+      }
+    ],
+    "id": 4990925,
+    "name": "戦闘開始時ガードアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「受けるダメージ-{0}%」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000221,
+        "value": 700
+      }
+    ],
+    "id": 4990926,
+    "name": "戦闘開始時ガードアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「受けるダメージ-{0}%」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000221,
+        "value": 800
+      }
+    ],
+    "id": 4990927,
+    "name": "戦闘開始時ガードアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「受ける物理攻撃ダメージ-{0}%」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000222,
+        "value": 300
+      }
+    ],
+    "id": 4990928,
+    "name": "戦闘開始時物理ガードアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「受ける物理攻撃ダメージ-{0}%」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000222,
+        "value": 600
+      }
+    ],
+    "id": 4990929,
+    "name": "戦闘開始時物理ガードアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「受ける物理攻撃ダメージ-{0}%」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000222,
+        "value": 800
+      }
+    ],
+    "id": 4990930,
+    "name": "戦闘開始時物理ガードアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「受ける物理攻撃ダメージ-{0}%」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000222,
+        "value": 1100
+      }
+    ],
+    "id": 4990931,
+    "name": "戦闘開始時物理ガードアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「受ける物理攻撃ダメージ-{0}%」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000222,
+        "value": 1300
+      }
+    ],
+    "id": 4990932,
+    "name": "戦闘開始時物理ガードアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「スキルダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000223,
+        "value": 300
+      }
+    ],
+    "id": 4990933,
+    "name": "戦闘開始時ダメージアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「スキルダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000223,
+        "value": 600
+      }
+    ],
+    "id": 4990934,
+    "name": "戦闘開始時ダメージアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「スキルダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000223,
+        "value": 900
+      }
+    ],
+    "id": 4990935,
+    "name": "戦闘開始時ダメージアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「スキルダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000223,
+        "value": 1200
+      }
+    ],
+    "id": 4990936,
+    "name": "戦闘開始時ダメージアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「スキルダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000223,
+        "value": 1500
+      }
+    ],
+    "id": 4990937,
+    "name": "戦闘開始時ダメージアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「与えるHP回復量+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000224,
+        "value": 300
+      }
+    ],
+    "id": 4990938,
+    "name": "戦闘開始時ヒールアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「与えるHP回復量+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000224,
+        "value": 600
+      }
+    ],
+    "id": 4990939,
+    "name": "戦闘開始時ヒールアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「与えるHP回復量+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000224,
+        "value": 900
+      }
+    ],
+    "id": 4990940,
+    "name": "戦闘開始時ヒールアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「与えるHP回復量+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000224,
+        "value": 1200
+      }
+    ],
+    "id": 4990941,
+    "name": "戦闘開始時ヒールアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「与えるHP回復量+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000224,
+        "value": 1500
+      }
+    ],
+    "id": 4990942,
+    "name": "戦闘開始時ヒールアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「クリティカルダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000225,
+        "value": 400
+      }
+    ],
+    "id": 4990943,
+    "name": "戦闘開始時会心ダメージアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「クリティカルダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000225,
+        "value": 800
+      }
+    ],
+    "id": 4990944,
+    "name": "戦闘開始時会心ダメージアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「クリティカルダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000225,
+        "value": 1200
+      }
+    ],
+    "id": 4990945,
+    "name": "戦闘開始時会心ダメージアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「クリティカルダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000225,
+        "value": 1600
+      }
+    ],
+    "id": 4990946,
+    "name": "戦闘開始時会心ダメージアップⅢ"
+  },
+  {
+    "description": "バトル開始時、自身に「クリティカルダメージ+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000225,
+        "value": 2000
+      }
+    ],
+    "id": 4990947,
+    "name": "戦闘開始時会心ダメージアップⅢ"
   },
   {
     "description": "突属性のスキルダメージ{0}%アップ",
@@ -46122,6 +46923,101 @@
       }
     ],
     "id": 26178000,
+    "name": ""
+  },
+  {
+    "description": "クリティカル攻撃被弾時、自身に強化効果量DOWN(累積5％/上限50％)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86179001,
+        "value": 500
+      }
+    ],
+    "id": 26179001,
+    "name": ""
+  },
+  {
+    "description": "自身に「与ダメージアップ(17章討伐人造頂獣_炎)」が付与されたとき、行動再抽選\n自身がブレイク時、自身のプラス効果をすべて解除し、行動再抽選",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86179002,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81153002,
+        "value": 9900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81179045,
+        "value": 0
+      }
+    ],
+    "id": 26179002,
+    "name": ""
+  },
+  {
+    "description": "自身のHPが30％以下になった時、一度だけ、自身に素早さUP(15%/3回)を付与し、行動を再抽選する",
+    "effects": [
+      {
+        "ability_timing_value": 3000,
+        "id": 86179003,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": 3000,
+        "id": 86179004,
+        "value": 0
+      }
+    ],
+    "id": 26179003,
+    "name": ""
+  },
+  {
+    "description": "行動後、自身にカウントダウンバフ(不可視)を付与\nカウントダウンバフが2つ以上付与されたとき、行動再抽選",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86179008,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86179009,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86179010,
+        "value": 0
+      }
+    ],
+    "id": 26179004,
+    "name": ""
+  },
+  {
+    "description": "BS攻撃を受けた時、自身に付与されている「残り1ターン(騎士修行用不可視)」のバフを解除し、付与無効にする\n「残り1ターン(騎士修行用不可視)」を持っている状態でBS攻撃を受けた時、行動再抽選",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86179011,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86179012,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86179014,
+        "value": 0
+      }
+    ],
+    "id": 26179005,
     "name": ""
   },
   {

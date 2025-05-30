@@ -15,7 +15,7 @@
       "resource_params": null,
       "type": 2
     },
-    "priority": 2,
+    "priority": 3,
     "shop_category_id": 7,
     "start_at": "2023-12-22T03:00:00.000Z",
     "total_task_condition_id": 1,
@@ -37,7 +37,7 @@
       "resource_params": null,
       "type": 2
     },
-    "priority": 3,
+    "priority": 4,
     "shop_category_id": 7,
     "start_at": "2023-12-22T03:00:00.000Z",
     "total_task_condition_id": 51,
@@ -140,7 +140,7 @@
     "id": 111,
     "mission_event_tab_id": null,
     "name": "ミッションパス",
-    "pickup_still_path_hash": "6013995381974001820",
+    "pickup_still_path_hash": "8700913726867846097",
     "premium_cost": {
       "id": 1,
       "quantity": 1500,
@@ -152,5 +152,71 @@
     "start_at": "2025-05-01T03:00:00.000Z",
     "total_task_condition_id": 1672,
     "type": 3
+  },
+  {
+    "banner_path_hash": "5531360589527645119",
+    "condition_name": "ミッションPT",
+    "end_at": "2025-07-01T03:00:00.000Z",
+    "frame_still_path_hash": "6925749565934665838",
+    "icon_path_hash": "738158156845664370",
+    "id": 112,
+    "mission_event_tab_id": null,
+    "name": "ミッションパス",
+    "pickup_still_path_hash": "8700913726867846097",
+    "premium_cost": {
+      "id": 1,
+      "quantity": 1500,
+      "resource_params": null,
+      "type": 2
+    },
+    "priority": 1,
+    "shop_category_id": 7,
+    "start_at": "2025-06-01T03:00:00.000Z",
+    "total_task_condition_id": 1715,
+    "type": 3
+  },
+  {
+    "banner_path_hash": 0,
+    "condition_name": "イベントミッションPT",
+    "end_at": null,
+    "frame_still_path_hash": "470083182800298755",
+    "icon_path_hash": "5192682977501881382",
+    "id": 113,
+    "mission_event_tab_id": 143,
+    "name": "イベントミッションパス",
+    "pickup_still_path_hash": "9094787838551362250",
+    "premium_cost": {
+      "id": 1,
+      "quantity": 500,
+      "resource_params": null,
+      "type": 2
+    },
+    "priority": 2,
+    "shop_category_id": 7,
+    "start_at": null,
+    "total_task_condition_id": 1721,
+    "type": 4
+  },
+  {
+    "banner_path_hash": 0,
+    "condition_name": "星祈石ミッションPT",
+    "end_at": null,
+    "frame_still_path_hash": "4799978953511969657",
+    "icon_path_hash": "6535326168965979181",
+    "id": 114,
+    "mission_event_tab_id": 152,
+    "name": "星祈石ミッションパス",
+    "pickup_still_path_hash": "7162381473339433286",
+    "premium_cost": {
+      "id": 1,
+      "quantity": 250,
+      "resource_params": null,
+      "type": 2
+    },
+    "priority": 2,
+    "shop_category_id": 7,
+    "start_at": null,
+    "total_task_condition_id": 1760,
+    "type": 4
   }
 ]

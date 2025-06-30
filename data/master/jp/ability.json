@@ -13856,6 +13856,66 @@
     "name": "シュランクメートヒェン"
   },
   {
+    "description": "自身がロロナ【ワンダフルプリンセス】の時、バリア消失時、自身に「最大HP+{0}%」を付与(上限20%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001093,
+        "value": 500
+      }
+    ],
+    "id": 301219,
+    "name": "無敵のロッド"
+  },
+  {
+    "description": "得意属性が氷属性かつディフェンダーの時、スキル発動後、自身のHPを{0}%回復",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001094,
+        "value": 600
+      }
+    ],
+    "id": 301220,
+    "name": "ランシュ=ブラネージュ"
+  },
+  {
+    "description": "得意属性が氷属性かつディフェンダーの時、スキル発動後、自身のHPを{0}%回復",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001094,
+        "value": 500
+      }
+    ],
+    "id": 301221,
+    "name": "ランシュ=ブラネージュ"
+  },
+  {
+    "description": "得意属性が氷属性かつディフェンダーの時、魔法攻撃から受けるダメージ-{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001095,
+        "value": 1800
+      }
+    ],
+    "id": 301222,
+    "name": "ゲベートアンク"
+  },
+  {
+    "description": "得意属性が氷属性かつディフェンダーの時、魔法攻撃から受けるダメージ-{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001095,
+        "value": 1200
+      }
+    ],
+    "id": 301223,
+    "name": "ゲベートアンク"
+  },
+  {
     "description": "魔攻・魔防+{0}%",
     "effects": [
       {
@@ -16421,6 +16481,23 @@
     ],
     "id": 1980198,
     "name": "アーランドの名冒険者"
+  },
+  {
+    "description": "得意属性が氷属性のキャラは「物防・魔防+{0}%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500004,
+        "value": 3500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500005,
+        "value": 3500
+      }
+    ],
+    "id": 1980199,
+    "name": "ロロナ姫の祈り"
   },
   {
     "description": "味方全員の物攻+{0}%",
@@ -21025,6 +21102,95 @@
     ],
     "id": 1990366,
     "name": "パーティーはまだこれからだよ！"
+  },
+  {
+    "description": "敵にとても狙われやすくなる<br>得意属性が氷属性または「アーランド」の味方全員の最大HP+{0}％<br>バトル開始時、味方全員のHPを100%回復",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001333,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001334,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001131,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72000914,
+        "value": 10000
+      }
+    ],
+    "id": 1990367,
+    "name": "全員、ちゅうもーく！"
+  },
+  {
+    "description": "自身がパネル獲得時またはHP回復を受けた時、得意属性が氷属性または「アーランド」の味方全員に「物防・魔防+{0}%」を付与(上限30%)し、<br>アイテムゲージを{1}%回復<br>「バリア」の耐久値が消費されたとき、「受けるダメージ-10%」を付与(重複不可)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001335,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001085,
+        "value": 200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001337,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001336,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001335,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001336,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001085,
+        "value": 200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001340,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001341,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001340,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001341,
+        "value": 500
+      }
+    ],
+    "id": 1990368,
+    "name": "幸せのおすそ分け"
   },
   {
     "description": "WEAK攻撃時、スキルダメージ+{0}%",
@@ -32925,6 +33091,451 @@
     ],
     "id": 4990977,
     "name": "想力「採取日和です！」"
+  },
+  {
+    "description": "得意属性が氷属性かつディフェンダーの時、スキル発動後、魔攻が最も高い味方1人に「スキルダメージ+{0}%」を1回行動終了するまで付与(上限3個)<br>「天然」の時、スキル発動後、自身に「最大HP+{1}%」(固定)を2回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000237,
+        "value": 600
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000238,
+        "value": 200
+      }
+    ],
+    "id": 4990978,
+    "name": "想力「姫と騎士」"
+  },
+  {
+    "description": "得意属性が氷属性かつディフェンダーの時、スキル発動後、魔攻が最も高い味方1人に「スキルダメージ+{0}%」を1回行動終了するまで付与(上限3個)<br>「天然」の時、スキル発動後、自身に「最大HP+{1}%」(固定)を2回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000237,
+        "value": 1200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000238,
+        "value": 400
+      }
+    ],
+    "id": 4990979,
+    "name": "想力「姫と騎士」"
+  },
+  {
+    "description": "得意属性が氷属性かつディフェンダーの時、スキル発動後、魔攻が最も高い味方1人に「スキルダメージ+{0}%」を1回行動終了するまで付与(上限3個)<br>「天然」の時、スキル発動後、自身に「最大HP+{1}%」(固定)を2回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000237,
+        "value": 1800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000238,
+        "value": 600
+      }
+    ],
+    "id": 4990980,
+    "name": "想力「姫と騎士」"
+  },
+  {
+    "description": "得意属性が氷属性かつディフェンダーの時、スキル発動後、魔攻が最も高い味方1人に「スキルダメージ+{0}%」を1回行動終了するまで付与(上限3個)<br>「天然」の時、スキル発動後、自身に「最大HP+{1}%」(固定)を2回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000237,
+        "value": 2400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000238,
+        "value": 800
+      }
+    ],
+    "id": 4990981,
+    "name": "想力「姫と騎士」"
+  },
+  {
+    "description": "得意属性が氷属性かつディフェンダーの時、スキル発動後、魔攻が最も高い味方1人に「スキルダメージ+{0}%」を1回行動終了するまで付与(上限3個)<br>「天然」の時、スキル発動後、自身に「最大HP+{1}%」(固定)を2回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000237,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000238,
+        "value": 1000
+      }
+    ],
+    "id": 4990982,
+    "name": "想力「姫と騎士」"
+  },
+  {
+    "description": "スキル発動後、自身に以下の効果をランダムで付与<br>・「スキルダメージ+10%」を2回行動終了するまで付与<br>・「クリティカルダメージ+10%」を2回行動終了するまで付与<br>・「スキル威力+10%」を2回行動終了するまで付与<br>・「受けるダメージ-10%」(固定)を2回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000239,
+        "value": 1000
+      }
+    ],
+    "id": 4990983,
+    "name": "想力「開花する才能」"
+  },
+  {
+    "description": "スキル発動後、自身に以下の効果をランダムで付与<br>・「スキルダメージ+20%」を2回行動終了するまで付与<br>・「クリティカルダメージ+20%」を2回行動終了するまで付与<br>・「スキル威力+20%」を2回行動終了するまで付与<br>・「受けるダメージ-20%」(固定)を2回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000239,
+        "value": 2000
+      }
+    ],
+    "id": 4990984,
+    "name": "想力「開花する才能」"
+  },
+  {
+    "description": "スキル発動後、自身に以下の効果をランダムで付与<br>・「スキルダメージ+30%」を2回行動終了するまで付与<br>・「クリティカルダメージ+30%」を2回行動終了するまで付与<br>・「スキル威力+30%」を2回行動終了するまで付与<br>・「受けるダメージ-30%」(固定)を2回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000239,
+        "value": 3000
+      }
+    ],
+    "id": 4990985,
+    "name": "想力「開花する才能」"
+  },
+  {
+    "description": "スキル発動後、自身に以下の効果をランダムで付与<br>・「スキルダメージ+40%」を2回行動終了するまで付与<br>・「クリティカルダメージ+40%」を2回行動終了するまで付与<br>・「スキル威力+40%」を2回行動終了するまで付与<br>・「受けるダメージ-40%」(固定)を2回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000239,
+        "value": 4000
+      }
+    ],
+    "id": 4990986,
+    "name": "想力「開花する才能」"
+  },
+  {
+    "description": "スキル発動後、自身に以下の効果をランダムで付与<br>・「スキルダメージ+50%」を2回行動終了するまで付与<br>・「クリティカルダメージ+50%」を2回行動終了するまで付与<br>・「スキル威力+50%」を2回行動終了するまで付与<br>・「受けるダメージ-50%」(固定)を2回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000239,
+        "value": 5000
+      }
+    ],
+    "id": 4990987,
+    "name": "想力「開花する才能」"
+  },
+  {
+    "description": "攻撃後、対象に「受ける攻撃の貫通力+{0}」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000240,
+        "value": 2000
+      }
+    ],
+    "id": 4990988,
+    "name": "想力「彼女の使命」"
+  },
+  {
+    "description": "攻撃後、対象に「受ける攻撃の貫通力+{0}」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000240,
+        "value": 6500
+      }
+    ],
+    "id": 4990989,
+    "name": "想力「彼女の使命」"
+  },
+  {
+    "description": "攻撃後、対象に「受ける攻撃の貫通力+{0}」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000240,
+        "value": 11000
+      }
+    ],
+    "id": 4990990,
+    "name": "想力「彼女の使命」"
+  },
+  {
+    "description": "攻撃後、対象に「受ける攻撃の貫通力+{0}」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000240,
+        "value": 15500
+      }
+    ],
+    "id": 4990991,
+    "name": "想力「彼女の使命」"
+  },
+  {
+    "description": "攻撃後、対象に「受ける攻撃の貫通力+{0}」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000240,
+        "value": 20000
+      }
+    ],
+    "id": 4990992,
+    "name": "想力「彼女の使命」"
+  },
+  {
+    "description": "「季節の装い」の時、スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000241,
+        "value": 400
+      }
+    ],
+    "id": 4990993,
+    "name": "季節の装いダメージアップⅢ"
+  },
+  {
+    "description": "「季節の装い」の時、スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000241,
+        "value": 800
+      }
+    ],
+    "id": 4990994,
+    "name": "季節の装いダメージアップⅢ"
+  },
+  {
+    "description": "「季節の装い」の時、スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000241,
+        "value": 1200
+      }
+    ],
+    "id": 4990995,
+    "name": "季節の装いダメージアップⅢ"
+  },
+  {
+    "description": "「季節の装い」の時、スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000241,
+        "value": 1600
+      }
+    ],
+    "id": 4990996,
+    "name": "季節の装いダメージアップⅢ"
+  },
+  {
+    "description": "「季節の装い」の時、スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000241,
+        "value": 2000
+      }
+    ],
+    "id": 4990997,
+    "name": "季節の装いダメージアップⅢ"
+  },
+  {
+    "description": "「季節の装い」の時、ブレイクダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000242,
+        "value": 400
+      }
+    ],
+    "id": 4990998,
+    "name": "季節の装いブレイクアップⅢ"
+  },
+  {
+    "description": "「季節の装い」の時、ブレイクダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000242,
+        "value": 800
+      }
+    ],
+    "id": 4990999,
+    "name": "季節の装いブレイクアップⅢ"
+  },
+  {
+    "description": "「季節の装い」の時、ブレイクダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000242,
+        "value": 1200
+      }
+    ],
+    "id": 4991000,
+    "name": "季節の装いブレイクアップⅢ"
+  },
+  {
+    "description": "「季節の装い」の時、ブレイクダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000242,
+        "value": 1600
+      }
+    ],
+    "id": 4991001,
+    "name": "季節の装いブレイクアップⅢ"
+  },
+  {
+    "description": "「季節の装い」の時、ブレイクダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000242,
+        "value": 2000
+      }
+    ],
+    "id": 4991002,
+    "name": "季節の装いブレイクアップⅢ"
+  },
+  {
+    "description": "「季節の装い」の時、クリティカルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000243,
+        "value": 400
+      }
+    ],
+    "id": 4991003,
+    "name": "季節の装い会心ダメージアップⅢ"
+  },
+  {
+    "description": "「季節の装い」の時、クリティカルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000243,
+        "value": 800
+      }
+    ],
+    "id": 4991004,
+    "name": "季節の装い会心ダメージアップⅢ"
+  },
+  {
+    "description": "「季節の装い」の時、クリティカルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000243,
+        "value": 1200
+      }
+    ],
+    "id": 4991005,
+    "name": "季節の装い会心ダメージアップⅢ"
+  },
+  {
+    "description": "「季節の装い」の時、クリティカルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000243,
+        "value": 1600
+      }
+    ],
+    "id": 4991006,
+    "name": "季節の装い会心ダメージアップⅢ"
+  },
+  {
+    "description": "「季節の装い」の時、クリティカルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000243,
+        "value": 2000
+      }
+    ],
+    "id": 4991007,
+    "name": "季節の装い会心ダメージアップⅢ"
+  },
+  {
+    "description": "「季節の装い」の時、与えるHP回復量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000244,
+        "value": 400
+      }
+    ],
+    "id": 4991008,
+    "name": "季節の装いヒールアップⅢ"
+  },
+  {
+    "description": "「季節の装い」の時、与えるHP回復量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000244,
+        "value": 800
+      }
+    ],
+    "id": 4991009,
+    "name": "季節の装いヒールアップⅢ"
+  },
+  {
+    "description": "「季節の装い」の時、与えるHP回復量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000244,
+        "value": 1200
+      }
+    ],
+    "id": 4991010,
+    "name": "季節の装いヒールアップⅢ"
+  },
+  {
+    "description": "「季節の装い」の時、与えるHP回復量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000244,
+        "value": 1600
+      }
+    ],
+    "id": 4991011,
+    "name": "季節の装いヒールアップⅢ"
+  },
+  {
+    "description": "「季節の装い」の時、与えるHP回復量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000244,
+        "value": 2000
+      }
+    ],
+    "id": 4991012,
+    "name": "季節の装いヒールアップⅢ"
   },
   {
     "description": "突属性のスキルダメージ{0}%アップ",
@@ -49189,6 +49800,74 @@
     "name": ""
   },
   {
+    "description": "自身戦闘不能時、フィールド効果発動(相手全員に与ダメージDOWN(20%/5回を付与))",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 814000033,
+        "value": 2000
+      }
+    ],
+    "id": 26244001,
+    "name": ""
+  },
+  {
+    "description": "ブレイク復帰時、味方全体に与ダメージUP(30%/2回)と再生(10%/2回)付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86245001,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86245002,
+        "value": 1000
+      }
+    ],
+    "id": 26245001,
+    "name": ""
+  },
+  {
+    "description": "ブレイク時、自身のバフを全て解除",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86246001,
+        "value": 9900
+      }
+    ],
+    "id": 26246001,
+    "name": ""
+  },
+  {
+    "description": "HPが40％以下になった時、自身に与ダメージUP(100％/1回)とクリティカル率UP(100%/1回)を付与し、自身のターンを２ターン遅らせる\nその後、行動再抽選",
+    "effects": [
+      {
+        "ability_timing_value": 4000,
+        "id": 86246002,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": 4000,
+        "id": 86246003,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": 4000,
+        "id": 86246004,
+        "value": 200
+      },
+      {
+        "ability_timing_value": 4000,
+        "id": 86246005,
+        "value": 0
+      }
+    ],
+    "id": 26246002,
+    "name": ""
+  },
+  {
     "description": "ブレイク時、敵全体に再生10%(2回)を付与\nHP50%以下の時、被弾時与ダメージ20%UP(1回)付与",
     "effects": [
       {
@@ -59394,7 +60073,7 @@
       }
     ],
     "id": 600000050,
-    "name": "クリティカル率上昇"
+    "name": "クリティカル確率上昇"
   },
   {
     "description": "バーストスキルのクリティカル確率+100%",
@@ -59406,7 +60085,7 @@
       }
     ],
     "id": 600000051,
-    "name": "バーストスキルのクリティカル率上昇"
+    "name": "バーストスキルのクリティカル確率上昇"
   },
   {
     "description": "クリティカルダメージ+50%",
@@ -65340,7 +66019,7 @@
     "name": "味方全員の行動後アイテムゲージ追加回復"
   },
   {
-    "description": "自身が「ザールブルグ」のとき、自身に被ダメージ-40%",
+    "description": "ザールブルグシリーズのキャラは、被ダメージ-40%",
     "effects": [
       {
         "ability_timing_value": null,
@@ -65349,10 +66028,10 @@
       }
     ],
     "id": 600000572,
-    "name": "自身が「ザールブルグ」のとき、自身に被ダメージDOWN"
+    "name": "ザールブルグシリーズのキャラは、被ダメージDOWN"
   },
   {
-    "description": "自身が「ザールブルグ」のとき、行動後アイテムゲージ追加回復+25%",
+    "description": "ザールブルグシリーズのキャラは、行動後アイテムゲージ追加回復+25%",
     "effects": [
       {
         "ability_timing_value": null,
@@ -65361,10 +66040,10 @@
       }
     ],
     "id": 600000573,
-    "name": "自身が「ザールブルグ」のとき、行動後アイテムゲージ追加回復"
+    "name": "ザールブルグシリーズのキャラは、行動後アイテムゲージ追加回復"
   },
   {
-    "description": "打属性攻撃アイテムの与ダメージ+1000%",
+    "description": "味方全員の打属性戦闘アイテムダメージ+1000%",
     "effects": [
       {
         "ability_timing_value": null,
@@ -65373,10 +66052,10 @@
       }
     ],
     "id": 600000574,
-    "name": "アイテム大戦vsユーディーアビリティ1"
+    "name": "打属性戦闘アイテムダメージUP"
   },
   {
-    "description": "自身がグラムナートのとき、自身に被ダメDOWN(20%)を付与",
+    "description": "グラムナートシリーズのキャラは、被ダメージ-20%",
     "effects": [
       {
         "ability_timing_value": null,
@@ -65385,10 +66064,10 @@
       }
     ],
     "id": 600000575,
-    "name": "アイテム大戦vsユーディーアビリティ2"
+    "name": "グラムナートシリーズのキャラは、被ダメージDOWN"
   },
   {
-    "description": "自身がグラムナートのとき、自身にアイテムゲージUP(10%)",
+    "description": "グラムナートシリーズのキャラは、行動後アイテムゲージ追加回復+15%",
     "effects": [
       {
         "ability_timing_value": null,
@@ -65397,39 +66076,19 @@
       }
     ],
     "id": 600000576,
-    "name": "アイテム大戦vsユーディーアビリティ3"
+    "name": "グラムナートシリーズのキャラは、行動後アイテムゲージ追加回復"
   },
   {
-    "description": "戦闘アイテムのダメージ+1000%\n戦闘アイテムの回復量+30%\nアイテムゲージ追加回復(10%)を付与\n自身がザールブルグのとき、自身に被ダメDOWN(20%)を付与\n自身がザールブルグのとき、自身にアイテムゲージ追加回復(10%)を付与",
+    "description": "味方全員の戦闘アイテムダメージ+1000%",
     "effects": [
       {
         "ability_timing_value": null,
         "id": 120000542,
         "value": 100000
-      },
-      {
-        "ability_timing_value": null,
-        "id": 120000543,
-        "value": 3000
-      },
-      {
-        "ability_timing_value": null,
-        "id": 120000544,
-        "value": 1000
-      },
-      {
-        "ability_timing_value": null,
-        "id": 120000545,
-        "value": 2000
-      },
-      {
-        "ability_timing_value": null,
-        "id": 120000546,
-        "value": 1000
       }
     ],
     "id": 600000577,
-    "name": "アイテム大戦vsユーディーアビリティ4"
+    "name": "味方全員の戦闘アイテムダメージUP"
   },
   {
     "description": "WEAK攻撃時、ブレイクダメージ+20%",
@@ -66397,7 +67056,7 @@
     "name": "得意属性が突の時、ダメージ無効(5回)を付与"
   },
   {
-    "description": "戦闘アイテムでのクリティカル率+100%",
+    "description": "戦闘アイテムでのクリティカル確率+100%",
     "effects": [
       {
         "ability_timing_value": null,
@@ -66406,7 +67065,7 @@
       }
     ],
     "id": 600000648,
-    "name": "アイテムクリティカル率UP"
+    "name": "アイテムクリティカル確率UP"
   },
   {
     "description": "戦闘アイテムから受ける回復量+100%",
@@ -66653,7 +67312,7 @@
     "name": "バーストスキルダメージ上昇"
   },
   {
-    "description": "得意属性が風属性の時、クリティカル率+25％",
+    "description": "得意属性が風属性の時、クリティカル確率+25％",
     "effects": [
       {
         "ability_timing_value": null,
@@ -66662,10 +67321,10 @@
       }
     ],
     "id": 600000666,
-    "name": "得意属性が風の時、クリティカル率上昇"
+    "name": "得意属性が風の時、クリティカル確率上昇"
   },
   {
-    "description": "得意属性が打属性の時、クリティカル率+25％",
+    "description": "得意属性が打属性の時、クリティカル確率+25％",
     "effects": [
       {
         "ability_timing_value": null,
@@ -66674,7 +67333,7 @@
       }
     ],
     "id": 600000667,
-    "name": "得意属性が打の時、クリティカル率上昇"
+    "name": "得意属性が打の時、クリティカル確率上昇"
   },
   {
     "description": "攻撃対象が状態異常の時、スキルダメージ+40％",
@@ -66701,7 +67360,7 @@
     "name": "味方全員の戦闘アイテムスキル威力UP"
   },
   {
-    "description": "自身が「ザールブルグ」のとき、行動後アイテムゲージ追加回復+25%",
+    "description": "ザールブルグシリーズのキャラは、行動後アイテムゲージ追加回復+25%",
     "effects": [
       {
         "ability_timing_value": null,
@@ -66710,7 +67369,7 @@
       }
     ],
     "id": 600000670,
-    "name": "自身が「ザールブルグ」のとき、行動後アイテムゲージ追加回復"
+    "name": "ザールブルグシリーズのキャラは、行動後アイテムゲージ追加回復"
   },
   {
     "description": "ヨハナ【Phenom's Reborn】またはミミ【プラウドボイジャー】を編成時、被ダメージ-25％(上限25％)",
@@ -66829,6 +67488,83 @@
     ],
     "id": 600000680,
     "name": "トトリ【エンドレスボイジャー】の強化効果量UP"
+  },
+  {
+    "description": "味方全員の戦闘アイテムHP回復量+30%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000543,
+        "value": 3000
+      }
+    ],
+    "id": 600000681,
+    "name": "味方全員の戦闘アイテムHP回復量UP"
+  },
+  {
+    "description": "行動後、アイテムゲージ追加回復+10%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000544,
+        "value": 1000
+      }
+    ],
+    "id": 600000682,
+    "name": "味方全員の行動後アイテムゲージ追加回復"
+  },
+  {
+    "description": "ザールブルグシリーズのキャラは、被ダメージDOWN-20%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000545,
+        "value": 2000
+      }
+    ],
+    "id": 600000683,
+    "name": "ザールブルグシリーズのキャラは、被ダメージDOWN"
+  },
+  {
+    "description": "ザールブルグシリーズのキャラは、行動後アイテムゲージ追加回復+10%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000546,
+        "value": 1000
+      }
+    ],
+    "id": 600000684,
+    "name": "ザールブルグシリーズのキャラは、行動後アイテムゲージ追加回復"
+  },
+  {
+    "description": "ロロナ【ワンダフルプリンセス】 の被ダメージ-30％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000744,
+        "value": 3000
+      }
+    ],
+    "id": 600000690,
+    "name": "ロロナ【ワンダフルプリンセス】 の被ダメージDOWN"
+  },
+  {
+    "description": "ロロナ【ワンダフルプリンセス】またはトトリ【エンドレスボイジャー】を編成時、被ダメージ-25％(上限25％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000745,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000738,
+        "value": 2500
+      }
+    ],
+    "id": 600000691,
+    "name": "ロロナ【ワンダフルプリンセス】またはトトリ【エンドレスボイジャー】を編成時、被ダメージ減少"
   },
   {
     "description": "ディフェンダーの行動開始時、HP10%回復",

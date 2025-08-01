@@ -3602,6 +3602,269 @@
     "transition": null
   },
   {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": 4,
+    "guide_mission_tab_id": null,
+    "id": 70001,
+    "label": null,
+    "name": "5日ログインしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 1,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 30160,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": 4,
+    "guide_mission_tab_id": null,
+    "id": 70002,
+    "label": null,
+    "name": "光の先へをクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 2,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30161,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1795,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": 4,
+    "guide_mission_tab_id": null,
+    "id": 70003,
+    "label": null,
+    "name": "育成クエストを100回クリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 3,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 30161,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 10
+    }
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": 4,
+    "guide_mission_tab_id": null,
+    "id": 70004,
+    "label": null,
+    "name": "素材クエストを100回クリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 4,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 30161,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 17
+    }
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": 4,
+    "guide_mission_tab_id": null,
+    "id": 70005,
+    "label": null,
+    "name": "調合を100回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 5,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 30160,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": 4,
+    "guide_mission_tab_id": null,
+    "id": 70006,
+    "label": null,
+    "name": "人形遣いと水着の夏[危険度：III]を100回クリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 6,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 30161,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 10702003,
+      "transition": 31
+    }
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": 4,
+    "guide_mission_tab_id": null,
+    "id": 70007,
+    "label": null,
+    "name": "人形遣いと水着の夏ボスチャレンジをクリアしよう\t",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 7,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30162,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1789,
+    "transition": null
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": 4,
+    "guide_mission_tab_id": null,
+    "id": 70008,
+    "label": null,
+    "name": "人形遣いと水着の夏SPチャレンジに挑戦しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 8,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30163,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1080601,
+      "transition": 31
+    }
+  },
+  {
+    "category": 5,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": 4,
+    "guide_mission_tab_id": null,
+    "id": 70009,
+    "label": null,
+    "name": "アトリエサマー2025 前編レジェンドチャレンジをクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 9,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 30163,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1794,
+    "transition": null
+  },
+  {
     "category": 3,
     "end_at": null,
     "event_tab_id": 106,
@@ -5399,6 +5662,316 @@
     "guide_mission_step_id": null,
     "guide_mission_tab_id": null,
     "id": 134110,
+    "label": null,
+    "name": "調合を300回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300,
+        "reward_set_id": 630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 173,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 134201,
+    "label": null,
+    "name": "調合を30回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 30,
+        "reward_set_id": 630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 173,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 134202,
+    "label": null,
+    "name": "調合を60回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 60,
+        "reward_set_id": 630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 173,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 134203,
+    "label": null,
+    "name": "調合を90回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 90,
+        "reward_set_id": 630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 173,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 134204,
+    "label": null,
+    "name": "調合を120回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 120,
+        "reward_set_id": 630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 173,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 134205,
+    "label": null,
+    "name": "調合を150回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 150,
+        "reward_set_id": 630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 173,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 134206,
+    "label": null,
+    "name": "調合を180回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 180,
+        "reward_set_id": 630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 173,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 134207,
+    "label": null,
+    "name": "調合を210回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 210,
+        "reward_set_id": 630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 173,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 134208,
+    "label": null,
+    "name": "調合を240回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 240,
+        "reward_set_id": 630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 173,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 134209,
+    "label": null,
+    "name": "調合を270回しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 270,
+        "reward_set_id": 630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 173,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 134210,
     "label": null,
     "name": "調合を300回しよう",
     "name_when_count_one": "",
@@ -36002,6 +36575,1408 @@
   {
     "category": 3,
     "end_at": null,
+    "event_tab_id": 164,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1301801,
+    "label": null,
+    "name": "アトリエサマー2025 小悪魔アンチュ LEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 106,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 200,
+        "reward_set_id": 1301801,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 164,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1301802,
+    "label": null,
+    "name": "アトリエサマー2025 小悪魔アンチュ LEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 105,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 1301802,
+        "start_at": null
+      },
+      {
+        "count": 20,
+        "reward_set_id": 1301802,
+        "start_at": null
+      },
+      {
+        "count": 30,
+        "reward_set_id": 1301802,
+        "start_at": null
+      },
+      {
+        "count": 40,
+        "reward_set_id": 1301802,
+        "start_at": null
+      },
+      {
+        "count": 50,
+        "reward_set_id": 1301808,
+        "start_at": null
+      },
+      {
+        "count": 60,
+        "reward_set_id": 1301803,
+        "start_at": null
+      },
+      {
+        "count": 70,
+        "reward_set_id": 1301803,
+        "start_at": null
+      },
+      {
+        "count": 80,
+        "reward_set_id": 1301803,
+        "start_at": null
+      },
+      {
+        "count": 90,
+        "reward_set_id": 1301803,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 164,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1301803,
+    "label": null,
+    "name": "アトリエサマー2025 小悪魔アンチュ LEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 104,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 1301810,
+        "start_at": null
+      },
+      {
+        "count": 110,
+        "reward_set_id": 1301804,
+        "start_at": null
+      },
+      {
+        "count": 120,
+        "reward_set_id": 1301805,
+        "start_at": null
+      },
+      {
+        "count": 130,
+        "reward_set_id": 1301805,
+        "start_at": null
+      },
+      {
+        "count": 140,
+        "reward_set_id": 1301805,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 164,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1301804,
+    "label": null,
+    "name": "アトリエサマー2025 小悪魔アンチュ LEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 103,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 150,
+        "reward_set_id": 1301811,
+        "start_at": null
+      },
+      {
+        "count": 160,
+        "reward_set_id": 1301808,
+        "start_at": null
+      },
+      {
+        "count": 170,
+        "reward_set_id": 1301808,
+        "start_at": null
+      },
+      {
+        "count": 180,
+        "reward_set_id": 1301808,
+        "start_at": null
+      },
+      {
+        "count": 190,
+        "reward_set_id": 1301808,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 164,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1301805,
+    "label": null,
+    "name": "アトリエサマー2025 小悪魔アンチュ LEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 102,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 210,
+        "reward_set_id": 1301802,
+        "start_at": null
+      },
+      {
+        "count": 220,
+        "reward_set_id": 1301802,
+        "start_at": null
+      },
+      {
+        "count": 230,
+        "reward_set_id": 1301802,
+        "start_at": null
+      },
+      {
+        "count": 240,
+        "reward_set_id": 1301802,
+        "start_at": null
+      },
+      {
+        "count": 250,
+        "reward_set_id": 1301803,
+        "start_at": null
+      },
+      {
+        "count": 260,
+        "reward_set_id": 1301803,
+        "start_at": null
+      },
+      {
+        "count": 270,
+        "reward_set_id": 1301803,
+        "start_at": null
+      },
+      {
+        "count": 280,
+        "reward_set_id": 1301803,
+        "start_at": null
+      },
+      {
+        "count": 290,
+        "reward_set_id": 1301803,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 164,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1301806,
+    "label": null,
+    "name": "アトリエサマー2025 小悪魔アンチュ LEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 101,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300,
+        "reward_set_id": 1301810,
+        "start_at": null
+      },
+      {
+        "count": 310,
+        "reward_set_id": 1301804,
+        "start_at": null
+      },
+      {
+        "count": 320,
+        "reward_set_id": 1301804,
+        "start_at": null
+      },
+      {
+        "count": 330,
+        "reward_set_id": 1301805,
+        "start_at": null
+      },
+      {
+        "count": 340,
+        "reward_set_id": 1301805,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 164,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1301807,
+    "label": null,
+    "name": "アトリエサマー2025 小悪魔アンチュ LEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 350,
+        "reward_set_id": 1301811,
+        "start_at": null
+      },
+      {
+        "count": 360,
+        "reward_set_id": 1301806,
+        "start_at": null
+      },
+      {
+        "count": 370,
+        "reward_set_id": 1301806,
+        "start_at": null
+      },
+      {
+        "count": 380,
+        "reward_set_id": 1301807,
+        "start_at": null
+      },
+      {
+        "count": 390,
+        "reward_set_id": 1301807,
+        "start_at": null
+      },
+      {
+        "count": 400,
+        "reward_set_id": 1301809,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 166,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1301901,
+    "label": null,
+    "name": "アトリエサマー2025 水辺の女帝ララ LEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 106,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 200,
+        "reward_set_id": 1301901,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 166,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1301902,
+    "label": null,
+    "name": "アトリエサマー2025 水辺の女帝ララ LEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 105,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 1301902,
+        "start_at": null
+      },
+      {
+        "count": 20,
+        "reward_set_id": 1301902,
+        "start_at": null
+      },
+      {
+        "count": 30,
+        "reward_set_id": 1301902,
+        "start_at": null
+      },
+      {
+        "count": 40,
+        "reward_set_id": 1301902,
+        "start_at": null
+      },
+      {
+        "count": 50,
+        "reward_set_id": 1301908,
+        "start_at": null
+      },
+      {
+        "count": 60,
+        "reward_set_id": 1301903,
+        "start_at": null
+      },
+      {
+        "count": 70,
+        "reward_set_id": 1301903,
+        "start_at": null
+      },
+      {
+        "count": 80,
+        "reward_set_id": 1301903,
+        "start_at": null
+      },
+      {
+        "count": 90,
+        "reward_set_id": 1301903,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 166,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1301903,
+    "label": null,
+    "name": "アトリエサマー2025 水辺の女帝ララ LEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 104,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 1301910,
+        "start_at": null
+      },
+      {
+        "count": 110,
+        "reward_set_id": 1301904,
+        "start_at": null
+      },
+      {
+        "count": 120,
+        "reward_set_id": 1301905,
+        "start_at": null
+      },
+      {
+        "count": 130,
+        "reward_set_id": 1301905,
+        "start_at": null
+      },
+      {
+        "count": 140,
+        "reward_set_id": 1301905,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 166,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1301904,
+    "label": null,
+    "name": "アトリエサマー2025 水辺の女帝ララ LEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 103,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 150,
+        "reward_set_id": 1301911,
+        "start_at": null
+      },
+      {
+        "count": 160,
+        "reward_set_id": 1301908,
+        "start_at": null
+      },
+      {
+        "count": 170,
+        "reward_set_id": 1301908,
+        "start_at": null
+      },
+      {
+        "count": 180,
+        "reward_set_id": 1301908,
+        "start_at": null
+      },
+      {
+        "count": 190,
+        "reward_set_id": 1301908,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 166,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1301905,
+    "label": null,
+    "name": "アトリエサマー2025 水辺の女帝ララ LEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 102,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 210,
+        "reward_set_id": 1301902,
+        "start_at": null
+      },
+      {
+        "count": 220,
+        "reward_set_id": 1301902,
+        "start_at": null
+      },
+      {
+        "count": 230,
+        "reward_set_id": 1301902,
+        "start_at": null
+      },
+      {
+        "count": 240,
+        "reward_set_id": 1301902,
+        "start_at": null
+      },
+      {
+        "count": 250,
+        "reward_set_id": 1301903,
+        "start_at": null
+      },
+      {
+        "count": 260,
+        "reward_set_id": 1301903,
+        "start_at": null
+      },
+      {
+        "count": 270,
+        "reward_set_id": 1301903,
+        "start_at": null
+      },
+      {
+        "count": 280,
+        "reward_set_id": 1301903,
+        "start_at": null
+      },
+      {
+        "count": 290,
+        "reward_set_id": 1301903,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 166,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1301906,
+    "label": null,
+    "name": "アトリエサマー2025 水辺の女帝ララ LEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 101,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300,
+        "reward_set_id": 1301910,
+        "start_at": null
+      },
+      {
+        "count": 310,
+        "reward_set_id": 1301904,
+        "start_at": null
+      },
+      {
+        "count": 320,
+        "reward_set_id": 1301904,
+        "start_at": null
+      },
+      {
+        "count": 330,
+        "reward_set_id": 1301905,
+        "start_at": null
+      },
+      {
+        "count": 340,
+        "reward_set_id": 1301905,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 166,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1301907,
+    "label": null,
+    "name": "アトリエサマー2025 水辺の女帝ララ LEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 350,
+        "reward_set_id": 1301911,
+        "start_at": null
+      },
+      {
+        "count": 360,
+        "reward_set_id": 1301906,
+        "start_at": null
+      },
+      {
+        "count": 370,
+        "reward_set_id": 1301906,
+        "start_at": null
+      },
+      {
+        "count": 380,
+        "reward_set_id": 1301907,
+        "start_at": null
+      },
+      {
+        "count": 390,
+        "reward_set_id": 1301907,
+        "start_at": null
+      },
+      {
+        "count": 400,
+        "reward_set_id": 1301909,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 168,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1302001,
+    "label": null,
+    "name": "アトリエサマー2025のキャラが新登場するLEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 105,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 200,
+        "reward_set_id": 1302001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 168,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1302002,
+    "label": null,
+    "name": "アトリエサマー2025のキャラが新登場するLEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 104,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 20,
+        "reward_set_id": 1302002,
+        "start_at": null
+      },
+      {
+        "count": 40,
+        "reward_set_id": 1302002,
+        "start_at": null
+      },
+      {
+        "count": 60,
+        "reward_set_id": 1302002,
+        "start_at": null
+      },
+      {
+        "count": 80,
+        "reward_set_id": 1302002,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 168,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1302003,
+    "label": null,
+    "name": "アトリエサマー2025のキャラが新登場するLEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 103,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 1302002,
+        "start_at": null
+      },
+      {
+        "count": 120,
+        "reward_set_id": 1302002,
+        "start_at": null
+      },
+      {
+        "count": 140,
+        "reward_set_id": 1302002,
+        "start_at": null
+      },
+      {
+        "count": 160,
+        "reward_set_id": 1302002,
+        "start_at": null
+      },
+      {
+        "count": 180,
+        "reward_set_id": 1302002,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 168,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1302004,
+    "label": null,
+    "name": "アトリエサマー2025のキャラが新登場するLEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 102,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 220,
+        "reward_set_id": 1302002,
+        "start_at": null
+      },
+      {
+        "count": 240,
+        "reward_set_id": 1302002,
+        "start_at": null
+      },
+      {
+        "count": 260,
+        "reward_set_id": 1302002,
+        "start_at": null
+      },
+      {
+        "count": 280,
+        "reward_set_id": 1302002,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 168,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1302005,
+    "label": null,
+    "name": "アトリエサマー2025のキャラが新登場するLEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 101,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300,
+        "reward_set_id": 1302002,
+        "start_at": null
+      },
+      {
+        "count": 320,
+        "reward_set_id": 1302002,
+        "start_at": null
+      },
+      {
+        "count": 340,
+        "reward_set_id": 1302002,
+        "start_at": null
+      },
+      {
+        "count": 360,
+        "reward_set_id": 1302002,
+        "start_at": null
+      },
+      {
+        "count": 380,
+        "reward_set_id": 1302002,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 168,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1302006,
+    "label": null,
+    "name": "アトリエサマー2025のキャラが新登場するLEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 400,
+        "reward_set_id": 1302002,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 174,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1302101,
+    "label": null,
+    "name": "アトリエサマー2025 艶美な黒蝶クリセルダ LEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 106,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 200,
+        "reward_set_id": 1302101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 174,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1302102,
+    "label": null,
+    "name": "アトリエサマー2025 艶美な黒蝶クリセルダ LEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 105,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 1302102,
+        "start_at": null
+      },
+      {
+        "count": 20,
+        "reward_set_id": 1302102,
+        "start_at": null
+      },
+      {
+        "count": 30,
+        "reward_set_id": 1302102,
+        "start_at": null
+      },
+      {
+        "count": 40,
+        "reward_set_id": 1302102,
+        "start_at": null
+      },
+      {
+        "count": 50,
+        "reward_set_id": 1302108,
+        "start_at": null
+      },
+      {
+        "count": 60,
+        "reward_set_id": 1302103,
+        "start_at": null
+      },
+      {
+        "count": 70,
+        "reward_set_id": 1302103,
+        "start_at": null
+      },
+      {
+        "count": 80,
+        "reward_set_id": 1302103,
+        "start_at": null
+      },
+      {
+        "count": 90,
+        "reward_set_id": 1302103,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 174,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1302103,
+    "label": null,
+    "name": "アトリエサマー2025 艶美な黒蝶クリセルダ LEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 104,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 1302110,
+        "start_at": null
+      },
+      {
+        "count": 110,
+        "reward_set_id": 1302104,
+        "start_at": null
+      },
+      {
+        "count": 120,
+        "reward_set_id": 1302105,
+        "start_at": null
+      },
+      {
+        "count": 130,
+        "reward_set_id": 1302105,
+        "start_at": null
+      },
+      {
+        "count": 140,
+        "reward_set_id": 1302105,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 174,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1302104,
+    "label": null,
+    "name": "アトリエサマー2025 艶美な黒蝶クリセルダ LEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 103,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 150,
+        "reward_set_id": 1302111,
+        "start_at": null
+      },
+      {
+        "count": 160,
+        "reward_set_id": 1302108,
+        "start_at": null
+      },
+      {
+        "count": 170,
+        "reward_set_id": 1302108,
+        "start_at": null
+      },
+      {
+        "count": 180,
+        "reward_set_id": 1302108,
+        "start_at": null
+      },
+      {
+        "count": 190,
+        "reward_set_id": 1302108,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 174,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1302105,
+    "label": null,
+    "name": "アトリエサマー2025 艶美な黒蝶クリセルダ LEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 102,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 210,
+        "reward_set_id": 1302102,
+        "start_at": null
+      },
+      {
+        "count": 220,
+        "reward_set_id": 1302102,
+        "start_at": null
+      },
+      {
+        "count": 230,
+        "reward_set_id": 1302102,
+        "start_at": null
+      },
+      {
+        "count": 240,
+        "reward_set_id": 1302102,
+        "start_at": null
+      },
+      {
+        "count": 250,
+        "reward_set_id": 1302103,
+        "start_at": null
+      },
+      {
+        "count": 260,
+        "reward_set_id": 1302103,
+        "start_at": null
+      },
+      {
+        "count": 270,
+        "reward_set_id": 1302103,
+        "start_at": null
+      },
+      {
+        "count": 280,
+        "reward_set_id": 1302103,
+        "start_at": null
+      },
+      {
+        "count": 290,
+        "reward_set_id": 1302103,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 174,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1302106,
+    "label": null,
+    "name": "アトリエサマー2025 艶美な黒蝶クリセルダ LEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 101,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300,
+        "reward_set_id": 1302110,
+        "start_at": null
+      },
+      {
+        "count": 310,
+        "reward_set_id": 1302104,
+        "start_at": null
+      },
+      {
+        "count": 320,
+        "reward_set_id": 1302104,
+        "start_at": null
+      },
+      {
+        "count": 330,
+        "reward_set_id": 1302105,
+        "start_at": null
+      },
+      {
+        "count": 340,
+        "reward_set_id": 1302105,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 174,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1302107,
+    "label": null,
+    "name": "アトリエサマー2025 艶美な黒蝶クリセルダ LEGEND FESを{}回引こう\n※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 350,
+        "reward_set_id": 1302111,
+        "start_at": null
+      },
+      {
+        "count": 360,
+        "reward_set_id": 1302106,
+        "start_at": null
+      },
+      {
+        "count": 370,
+        "reward_set_id": 1302106,
+        "start_at": null
+      },
+      {
+        "count": 380,
+        "reward_set_id": 1302107,
+        "start_at": null
+      },
+      {
+        "count": 390,
+        "reward_set_id": 1302107,
+        "start_at": null
+      },
+      {
+        "count": 400,
+        "reward_set_id": 1302109,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
     "event_tab_id": 132,
     "guide_mission_home_label": null,
     "guide_mission_pickup_reward": null,
@@ -37699,6 +39674,1270 @@
       "focused_on": 100003125,
       "transition": 31
     }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 163,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630001,
+    "label": null,
+    "name": "人形遣いと水着の夏ボスチャレンジをスコアランクSSでクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 740001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1791,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 163,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630002,
+    "label": null,
+    "name": "ブルーナイトぷにカクテルを{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 1630001,
+        "start_at": null
+      },
+      {
+        "count": 20,
+        "reward_set_id": 1630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 163,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630003,
+    "label": null,
+    "name": "アトリエサマー2025 前編レジェンドチャレンジに挑戦しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1630002,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 100003226,
+      "transition": 31
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 163,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630006,
+    "label": null,
+    "name": "ララ・ビーチグランプリボスチャレンジをスコアランクSSでクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": "2025-07-22T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 740001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1798,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 163,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630007,
+    "label": null,
+    "name": "ララ・ビーチグランプリボスチャレンジをクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 999,
+    "reset_cycle": null,
+    "start_at": "2025-07-22T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1630005,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1796,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": "2025-07-17T03:00:00.000Z",
+    "event_tab_id": 163,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630008,
+    "label": null,
+    "name": "お宝メダルを1000枚入手しよう\n※お宝メダルは後日開催のイベントで獲得出来るようになります",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 1000,
+    "reset_cycle": null,
+    "start_at": "2025-07-11T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1000,
+        "reward_set_id": 1630006,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1812,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 163,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630009,
+    "label": null,
+    "name": "クリセルダ、真夏の陰謀ボスチャレンジをスコアランクSSでクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": "2025-07-31T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 740001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1820,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 163,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630010,
+    "label": null,
+    "name": "昔懐かし水爆弾を{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": "2025-07-31T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 1630001,
+        "start_at": null
+      },
+      {
+        "count": 20,
+        "reward_set_id": 1630001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 163,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630011,
+    "label": null,
+    "name": "アトリエサマー2025 後編レジェンドチャレンジに挑戦しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": "2025-07-31T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1630002,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 100003529,
+      "transition": 31
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630101,
+    "label": null,
+    "name": "熱き錬金術士の服を{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 50,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630102,
+    "label": null,
+    "name": "自由なる錬金術士の服を{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 50,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630103,
+    "label": null,
+    "name": "不動たる錬金術士の服を{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 50,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630104,
+    "label": null,
+    "name": "静かなる錬金術士の服を{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 50,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630105,
+    "label": null,
+    "name": "峡谷のお守りを{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 50,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630106,
+    "label": null,
+    "name": "砂塵のお守りを{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 50,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630107,
+    "label": null,
+    "name": "激浪のお守りを{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 50,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630108,
+    "label": null,
+    "name": "静天のお守りを{}個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 50,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630109,
+    "label": null,
+    "name": "特性レベルVのスキル威力上昇を持つ\n熱き錬金術士の服を1個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630110,
+    "label": null,
+    "name": "特性レベルVのダメージバフ強化【A】を持つ\n熱き錬金術士の服を1個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630111,
+    "label": null,
+    "name": "特性レベルVの物理/魔法耐性ダウン強化を持つ\n自由なる錬金術士の服を1個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 90,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630112,
+    "label": null,
+    "name": "特性レベルVのWEAK時ブレイクダメージ上昇を持つ\n自由なる錬金術士の服を1個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 89,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630113,
+    "label": null,
+    "name": "特性レベルVの物理耐性上昇を持つ\n不動たる錬金術士の服を1個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 88,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630114,
+    "label": null,
+    "name": "特性レベルVの魔法耐性上昇を持つ\n不動たる錬金術士の服を1個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 87,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630115,
+    "label": null,
+    "name": "特性レベルVの全体回復量上昇を持つ\n静かなる錬金術士の服を1個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 86,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630116,
+    "label": null,
+    "name": "特性レベルVのダメージバフ強化【A】を持つ\n静かなる錬金術士の服を1個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 85,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630117,
+    "label": null,
+    "name": "特性レベルVのスキル威力上昇を持つ\n峡谷のお守りを1個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 84,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630118,
+    "label": null,
+    "name": "特性レベルVのダメージバフ強化【A】を持つ\n峡谷のお守りを1個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 83,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630119,
+    "label": null,
+    "name": "特性レベルVの物理/魔法耐性ダウン強化を持つ\n砂塵のお守りを1個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 82,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630120,
+    "label": null,
+    "name": "特性レベルVのWEAK時ブレイクダメージ上昇を持つ\n砂塵のお守りを1個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 81,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630121,
+    "label": null,
+    "name": "特性レベルVの物理耐性上昇を持つ\n激浪のお守りを1個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 80,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630122,
+    "label": null,
+    "name": "特性レベルVの魔法耐性上昇を持つ\n激浪のお守りを1個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 79,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630123,
+    "label": null,
+    "name": "特性レベルVの全体回復量上昇を持つ\n静天のお守りを1個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 78,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 169,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1630124,
+    "label": null,
+    "name": "特性レベルVのダメージバフ強化【A】を持つ\n静天のお守りを1個調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 77,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1650101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 165,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1650001,
+    "label": null,
+    "name": "アトリエサマー2024レジェンドチャレンジに挑戦しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 1,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1650001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 100003327,
+      "transition": 31
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 170,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1700001,
+    "label": null,
+    "name": "総力戦β初級 中央をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 1,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1700101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1809,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 170,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1700002,
+    "label": null,
+    "name": "総力戦β初級のマスを1ライン揃えよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 2,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1700101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1810,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 171,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1710001,
+    "label": null,
+    "name": "総力戦β上級 中央をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 1,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1710101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1811,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 176,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1760001,
+    "label": null,
+    "name": "渇きの中で咲く花たちレジェンドチャレンジに挑戦しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 1,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1760001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 100003428,
+      "transition": 31
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 177,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1760101,
+    "label": null,
+    "name": "3階をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 102,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 3,
+        "reward_set_id": 1760101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1905,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 177,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1760102,
+    "label": null,
+    "name": "5階をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 101,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 5,
+        "reward_set_id": 1760101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1905,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 177,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1760103,
+    "label": null,
+    "name": "10階をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 1760101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1905,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 172,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1800001,
+    "label": null,
+    "name": "お宝メダルを1000枚入手しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 1000,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1000,
+        "reward_set_id": 1810011,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1812,
+    "transition": null
   },
   {
     "category": 3,
@@ -66786,6 +70025,1618 @@
     "transition": {
       "equipment_slot_type": null,
       "focused_on": 3,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000201,
+    "label": null,
+    "name": "ロマン大武闘大会に挑戦しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000202,
+    "label": null,
+    "name": "ロマン大武闘大会に挑戦しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 100028043,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000203,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ100,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100000,
+        "reward_set_id": 1070001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000204,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ200,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 200000,
+        "reward_set_id": 1070001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000205,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ300,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300000,
+        "reward_set_id": 1070001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000206,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ400,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 400000,
+        "reward_set_id": 1070001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000207,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ500,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 500000,
+        "reward_set_id": 1070001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000208,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ500,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 500000,
+        "reward_set_id": 100028044,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000209,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ600,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 600000,
+        "reward_set_id": 1070001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000210,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ700,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 700000,
+        "reward_set_id": 1070001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000211,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ800,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 90,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 800000,
+        "reward_set_id": 1070001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000212,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ900,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 89,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 900000,
+        "reward_set_id": 1070001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000213,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ1,000,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 88,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1000000,
+        "reward_set_id": 1070001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000214,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ1,000,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 87,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1000000,
+        "reward_set_id": 100028044,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000215,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ1,200,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 86,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1200000,
+        "reward_set_id": 5700001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000216,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ1,400,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 85,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1400000,
+        "reward_set_id": 5700001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000217,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ1,600,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 84,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1600000,
+        "reward_set_id": 5700001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000218,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ1,800,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 83,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1800000,
+        "reward_set_id": 5700001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000219,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ2,000,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 82,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 2000000,
+        "reward_set_id": 5700001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000220,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ2,000,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 81,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 2000000,
+        "reward_set_id": 100028044,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000221,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ2,200,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 80,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 2200000,
+        "reward_set_id": 5700001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000222,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ2,400,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 79,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 2400000,
+        "reward_set_id": 5700001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000223,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ2,600,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 78,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 2600000,
+        "reward_set_id": 5700001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000224,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ2,800,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 77,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 2800000,
+        "reward_set_id": 5700001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000225,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ3,000,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 76,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 3000000,
+        "reward_set_id": 5700001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 167,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000226,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ3,000,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 75,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 3000000,
+        "reward_set_id": 100028043,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000301,
+    "label": null,
+    "name": "ロマン大武闘大会に挑戦しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 100028045,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000302,
+    "label": null,
+    "name": "ロマン大武闘大会に挑戦しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 100028043,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000303,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ100,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100000,
+        "reward_set_id": 1070001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000304,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ200,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 200000,
+        "reward_set_id": 1070001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000305,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ300,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300000,
+        "reward_set_id": 1070001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000306,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ400,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 400000,
+        "reward_set_id": 1070001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000307,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ500,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 500000,
+        "reward_set_id": 1070001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000308,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ500,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 93,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 500000,
+        "reward_set_id": 100028044,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000309,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ600,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 92,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 600000,
+        "reward_set_id": 1070001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000310,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ700,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 91,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 700000,
+        "reward_set_id": 1070001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000311,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ800,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 90,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 800000,
+        "reward_set_id": 1070001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000312,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ900,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 89,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 900000,
+        "reward_set_id": 1070001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000313,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ1,000,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 88,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1000000,
+        "reward_set_id": 1070001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000314,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ1,000,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 87,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1000000,
+        "reward_set_id": 100028044,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000315,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ1,200,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 86,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1200000,
+        "reward_set_id": 5700001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000316,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ1,400,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 85,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1400000,
+        "reward_set_id": 5700001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000317,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ1,600,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 84,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1600000,
+        "reward_set_id": 5700001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000318,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ1,800,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 83,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1800000,
+        "reward_set_id": 5700001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000319,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ2,000,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 82,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 2000000,
+        "reward_set_id": 5700001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000320,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ2,000,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 81,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 2000000,
+        "reward_set_id": 100028044,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000321,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ2,200,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 80,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 2200000,
+        "reward_set_id": 5700001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000322,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ2,400,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 79,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 2400000,
+        "reward_set_id": 5700001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000323,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ2,600,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 78,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 2600000,
+        "reward_set_id": 5700001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000324,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ2,800,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 77,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 2800000,
+        "reward_set_id": 5700001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000325,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ3,000,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 76,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 3000000,
+        "reward_set_id": 5700001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
+      "transition": 63
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 175,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 130000326,
+    "label": null,
+    "name": "ロマン大武闘大会でトータルダメージ3,000,000ダメージ以上を出そう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 75,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 3000000,
+        "reward_set_id": 100028043,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 4,
       "transition": 63
     }
   },

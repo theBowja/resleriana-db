@@ -38348,7 +38348,7 @@
       "wind": 0
     },
     "attack_attributes": [6],
-    "description": "得意属性が氷属性かつアタッカーの時、クリティカル攻撃時、自身に「魔攻+{0}%」と「スキルダメージ+{1}%」を1回行動終了まで付与",
+    "description": "得意属性が氷属性かつアタッカーの時、クリティカル攻撃後、自身に「魔攻+{0}%」と「スキルダメージ+{1}%」を1回行動終了まで付与",
     "easy_synthesis_trait_lottery_id": 11,
     "id": 962,
     "large_still_path_hash": "8901845047234022319",
@@ -38390,7 +38390,7 @@
       "wind": 0
     },
     "attack_attributes": [6],
-    "description": "得意属性が氷属性かつアタッカーの時、クリティカル攻撃時、自身に「魔攻+{0}%」と「スキルダメージ+{1}%」を1回行動終了まで付与",
+    "description": "得意属性が氷属性かつアタッカーの時、クリティカル攻撃後、自身に「魔攻+{0}%」と「スキルダメージ+{1}%」を1回行動終了まで付与",
     "easy_synthesis_trait_lottery_id": 11,
     "id": 963,
     "large_still_path_hash": "8901845047234022319",
@@ -41940,7 +41940,7 @@
     "easy_synthesis_trait_lottery_id": 11,
     "id": 1052,
     "large_still_path_hash": "5726715971662835113",
-    "name": "サペンシアニュラス",
+    "name": "サペンシアアニュラス",
     "quality_group_id": 7,
     "rarity": 3,
     "role_combat_power_bonus": {
@@ -41982,7 +41982,7 @@
     "easy_synthesis_trait_lottery_id": 11,
     "id": 1053,
     "large_still_path_hash": "5726715971662835113",
-    "name": "サペンシアニュラス",
+    "name": "サペンシアアニュラス",
     "quality_group_id": 7,
     "rarity": 2,
     "role_combat_power_bonus": {
@@ -45430,5 +45430,1072 @@
       }
     ],
     "still_path_hash": "7936764677277937393"
+  },
+  {
+    "ability_ids": [301224],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 100,
+      "piercing": 0,
+      "slashing": 0,
+      "wind": 0
+    },
+    "attack_attributes": [7],
+    "description": "得意属性が雷属性かつアタッカーの時、強化系パネルから受ける効果量+{0}%<br>クリティカル攻撃後、自身に「クリティカルダメージ+{1}%」を1回行動終了するまで付与",
+    "easy_synthesis_trait_lottery_id": 11,
+    "id": 1139,
+    "large_still_path_hash": "945747407641737382",
+    "name": "レディアントハイビス",
+    "quality_group_id": 10,
+    "rarity": 4,
+    "role_combat_power_bonus": {
+      "attacker": 100,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [1],
+    "slot_type": 3,
+    "small_still_path_hash": "7308910665462550515",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 4,
+        "value": 50
+      }
+    ],
+    "still_path_hash": "5533235321488902685"
+  },
+  {
+    "ability_ids": [301225],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [1],
+    "description": "自身がアンチュ【マリンパペッティア】であり攻撃対象がブレイク状態の時、スキルダメージ+{0}%",
+    "easy_synthesis_trait_lottery_id": 6,
+    "id": 1140,
+    "large_still_path_hash": "7400557695052160577",
+    "name": "ベアーズシューター",
+    "quality_group_id": 4,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 100,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [1],
+    "slot_type": 1,
+    "small_still_path_hash": "1774183586343062972",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 3,
+        "value": 145
+      }
+    ],
+    "still_path_hash": "3547531530354460758"
+  },
+  {
+    "ability_ids": [301242],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 100,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 0,
+      "wind": 0
+    },
+    "attack_attributes": [5],
+    "description": "得意属性が火属性かつサポーターの時、与える強化効果量+{0}%<br>強化系パネル獲得時、味方全員に「受けるHP回復量+{1}%」を付与(上限15%)",
+    "easy_synthesis_trait_lottery_id": 9,
+    "id": 1141,
+    "large_still_path_hash": "7825898387943268192",
+    "name": "メイデンズ・ホープ",
+    "quality_group_id": 37,
+    "rarity": 4,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 3,
+    "small_still_path_hash": "4624948149936271181",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 16
+      }
+    ],
+    "still_path_hash": "7605289379304909475"
+  },
+  {
+    "ability_ids": [301243],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 0,
+      "wind": 0
+    },
+    "attack_attributes": [2],
+    "description": "得意属性が打属性かつ対象をブレイク時、物攻が最も高い味方1人に「クリティカル確率+{0}%」を1回行動終了するまで付与<br>ブレイカーの時、WEAK攻撃時、ブレイクダメージ+{1}%",
+    "easy_synthesis_trait_lottery_id": 7,
+    "id": 1142,
+    "large_still_path_hash": "4307288551622920693",
+    "name": "アンビシャス・トムボーイ",
+    "quality_group_id": 15,
+    "rarity": 4,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 100,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [2],
+    "slot_type": 3,
+    "small_still_path_hash": "1908335154262609153",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 3,
+        "value": 40
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 8
+      }
+    ],
+    "still_path_hash": "3737903051948591343"
+  },
+  {
+    "ability_ids": [301244],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [1],
+    "description": "自身がララ【Seaside Queen】でありHPが50%以下の時、味方全員に「スキルダメージ+{0}%」を2回行動終了するまで付与(上限4個)\t\t\t\t\t\t\t",
+    "easy_synthesis_trait_lottery_id": 10,
+    "id": 1143,
+    "large_still_path_hash": "7488333333035968939",
+    "name": "優雅なる王の潮騒",
+    "quality_group_id": 26,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 100,
+      "supporter": 0
+    },
+    "roles": [3],
+    "slot_type": 1,
+    "small_still_path_hash": "4077105592937736685",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 3,
+        "value": 145
+      }
+    ],
+    "still_path_hash": "1238699202906156035"
+  },
+  {
+    "ability_ids": [301226],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [],
+    "description": "クリティカルダメージ+{0}%",
+    "easy_synthesis_trait_lottery_id": 2,
+    "id": 1146,
+    "large_still_path_hash": "4222519803666644511",
+    "name": "熱き錬金術士の服",
+    "quality_group_id": 1,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 100,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [1],
+    "slot_type": 2,
+    "small_still_path_hash": "4210909406213695832",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 5,
+        "value": 75
+      },
+      {
+        "change_method": 1,
+        "status_type": 6,
+        "value": 75
+      }
+    ],
+    "still_path_hash": "1428855461007846586"
+  },
+  {
+    "ability_ids": [301227],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [],
+    "description": "クリティカルダメージ+{0}%",
+    "easy_synthesis_trait_lottery_id": 2,
+    "id": 1147,
+    "large_still_path_hash": "4222519803666644511",
+    "name": "熱き錬金術士の服",
+    "quality_group_id": 1,
+    "rarity": 2,
+    "role_combat_power_bonus": {
+      "attacker": 100,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [1],
+    "slot_type": 2,
+    "small_still_path_hash": "4210909406213695832",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 5,
+        "value": 50
+      },
+      {
+        "change_method": 1,
+        "status_type": 6,
+        "value": 50
+      }
+    ],
+    "still_path_hash": "1428855461007846586"
+  },
+  {
+    "ability_ids": [301228],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [],
+    "description": "ブレイクダメージ+{0}%",
+    "easy_synthesis_trait_lottery_id": 3,
+    "id": 1148,
+    "large_still_path_hash": "2382687035353309443",
+    "name": "自由なる錬金術士の服",
+    "quality_group_id": 11,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 100,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [2],
+    "slot_type": 2,
+    "small_still_path_hash": "6719705033945662564",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 5,
+        "value": 75
+      },
+      {
+        "change_method": 1,
+        "status_type": 6,
+        "value": 75
+      }
+    ],
+    "still_path_hash": "8423217378807267726"
+  },
+  {
+    "ability_ids": [301229],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [],
+    "description": "ブレイクダメージ+{0}%",
+    "easy_synthesis_trait_lottery_id": 3,
+    "id": 1149,
+    "large_still_path_hash": "2382687035353309443",
+    "name": "自由なる錬金術士の服",
+    "quality_group_id": 11,
+    "rarity": 2,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 100,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [2],
+    "slot_type": 2,
+    "small_still_path_hash": "6719705033945662564",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 5,
+        "value": 50
+      },
+      {
+        "change_method": 1,
+        "status_type": 6,
+        "value": 50
+      }
+    ],
+    "still_path_hash": "8423217378807267726"
+  },
+  {
+    "ability_ids": [301230],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [],
+    "description": "単体攻撃から受けるダメージ-{0}%(固定)",
+    "easy_synthesis_trait_lottery_id": 5,
+    "id": 1150,
+    "large_still_path_hash": "9024217891438690653",
+    "name": "不動たる錬金術士の服",
+    "quality_group_id": 23,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 100,
+      "supporter": 0
+    },
+    "roles": [3],
+    "slot_type": 2,
+    "small_still_path_hash": "9200358678719701136",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 5,
+        "value": 75
+      },
+      {
+        "change_method": 1,
+        "status_type": 6,
+        "value": 75
+      }
+    ],
+    "still_path_hash": "6199850071782925666"
+  },
+  {
+    "ability_ids": [301231],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [],
+    "description": "単体攻撃から受けるダメージ-{0}%(固定)",
+    "easy_synthesis_trait_lottery_id": 5,
+    "id": 1151,
+    "large_still_path_hash": "9024217891438690653",
+    "name": "不動たる錬金術士の服",
+    "quality_group_id": 23,
+    "rarity": 2,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 100,
+      "supporter": 0
+    },
+    "roles": [3],
+    "slot_type": 2,
+    "small_still_path_hash": "9200358678719701136",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 5,
+        "value": 50
+      },
+      {
+        "change_method": 1,
+        "status_type": 6,
+        "value": 50
+      }
+    ],
+    "still_path_hash": "6199850071782925666"
+  },
+  {
+    "ability_ids": [301232],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [],
+    "description": "味方全員のクリティカルダメージ+{0}%",
+    "easy_synthesis_trait_lottery_id": 4,
+    "id": 1152,
+    "large_still_path_hash": "8873953113149505092",
+    "name": "静かなる錬金術士の服",
+    "quality_group_id": 33,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 2,
+    "small_still_path_hash": "7844390982150054388",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 5,
+        "value": 75
+      },
+      {
+        "change_method": 1,
+        "status_type": 6,
+        "value": 75
+      }
+    ],
+    "still_path_hash": "5005917813968004122"
+  },
+  {
+    "ability_ids": [301233],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [],
+    "description": "味方全員のクリティカルダメージ+{0}%",
+    "easy_synthesis_trait_lottery_id": 4,
+    "id": 1153,
+    "large_still_path_hash": "8873953113149505092",
+    "name": "静かなる錬金術士の服",
+    "quality_group_id": 33,
+    "rarity": 2,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 2,
+    "small_still_path_hash": "7844390982150054388",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 5,
+        "value": 50
+      },
+      {
+        "change_method": 1,
+        "status_type": 6,
+        "value": 50
+      }
+    ],
+    "still_path_hash": "5005917813968004122"
+  },
+  {
+    "ability_ids": [301234],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [],
+    "description": "スキルダメージ+{0}%",
+    "easy_synthesis_trait_lottery_id": 2,
+    "id": 1154,
+    "large_still_path_hash": "2813599914795949598",
+    "name": "峡谷のお守り",
+    "quality_group_id": 1,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 100,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [1],
+    "slot_type": 3,
+    "small_still_path_hash": "5635108487809565976",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 250
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 12
+      }
+    ],
+    "still_path_hash": "7464605209296470262"
+  },
+  {
+    "ability_ids": [301235],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [],
+    "description": "スキルダメージ+{0}%",
+    "easy_synthesis_trait_lottery_id": 2,
+    "id": 1155,
+    "large_still_path_hash": "2813599914795949598",
+    "name": "峡谷のお守り",
+    "quality_group_id": 1,
+    "rarity": 2,
+    "role_combat_power_bonus": {
+      "attacker": 100,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [1],
+    "slot_type": 3,
+    "small_still_path_hash": "5635108487809565976",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 200
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 10
+      }
+    ],
+    "still_path_hash": "7464605209296470262"
+  },
+  {
+    "ability_ids": [301236],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [],
+    "description": "スキル発動後、対象に「受けるダメージ+{0}%」を1回攻撃を受けるまで付与(上限2個)",
+    "easy_synthesis_trait_lottery_id": 3,
+    "id": 1156,
+    "large_still_path_hash": "4360483244924780800",
+    "name": "砂塵のお守り",
+    "quality_group_id": 11,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 100,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [2],
+    "slot_type": 3,
+    "small_still_path_hash": "2955199987038169132",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 150
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 15
+      }
+    ],
+    "still_path_hash": "46879915352403394"
+  },
+  {
+    "ability_ids": [301237],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [],
+    "description": "スキル発動後、対象に「受けるダメージ+{0}%」を1回攻撃を受けるまで付与(上限2個)",
+    "easy_synthesis_trait_lottery_id": 3,
+    "id": 1157,
+    "large_still_path_hash": "4360483244924780800",
+    "name": "砂塵のお守り",
+    "quality_group_id": 11,
+    "rarity": 2,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 100,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [2],
+    "slot_type": 3,
+    "small_still_path_hash": "2955199987038169132",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 100
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 12
+      }
+    ],
+    "still_path_hash": "46879915352403394"
+  },
+  {
+    "ability_ids": [301238],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [],
+    "description": "味方全員の全体攻撃から受けるダメージ-{0}%(固定)",
+    "easy_synthesis_trait_lottery_id": 5,
+    "id": 1158,
+    "large_still_path_hash": "6966781688538784094",
+    "name": "激浪のお守り",
+    "quality_group_id": 23,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 100,
+      "supporter": 0
+    },
+    "roles": [3],
+    "slot_type": 3,
+    "small_still_path_hash": "859615654727077056",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 250
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 12
+      }
+    ],
+    "still_path_hash": "2470646959884945710"
+  },
+  {
+    "ability_ids": [301239],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [],
+    "description": "味方全員の全体攻撃から受けるダメージ-{0}%(固定)",
+    "easy_synthesis_trait_lottery_id": 5,
+    "id": 1159,
+    "large_still_path_hash": "6966781688538784094",
+    "name": "激浪のお守り",
+    "quality_group_id": 23,
+    "rarity": 2,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 100,
+      "supporter": 0
+    },
+    "roles": [3],
+    "slot_type": 3,
+    "small_still_path_hash": "859615654727077056",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 200
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 10
+      }
+    ],
+    "still_path_hash": "2470646959884945710"
+  },
+  {
+    "ability_ids": [301240],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [],
+    "description": "味方全員のスキルダメージ+{0}%",
+    "easy_synthesis_trait_lottery_id": 4,
+    "id": 1160,
+    "large_still_path_hash": "3510092460660178750",
+    "name": "静天のお守り",
+    "quality_group_id": 33,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 3,
+    "small_still_path_hash": "7115705620454722465",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 150
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 15
+      }
+    ],
+    "still_path_hash": "5432580559781776975"
+  },
+  {
+    "ability_ids": [301241],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [],
+    "description": "味方全員のスキルダメージ+{0}%",
+    "easy_synthesis_trait_lottery_id": 4,
+    "id": 1161,
+    "large_still_path_hash": "3510092460660178750",
+    "name": "静天のお守り",
+    "quality_group_id": 33,
+    "rarity": 2,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 3,
+    "small_still_path_hash": "7115705620454722465",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 100
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 12
+      }
+    ],
+    "still_path_hash": "5432580559781776975"
+  },
+  {
+    "ability_ids": [301245],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [1],
+    "description": "自身がクリセルダ【Seaside Butterfly】の時、スキル発動後、味方全員に「WEAK攻撃時、スキル威力+{0}%」を1回行動終了するまで付与(上限2個)",
+    "easy_synthesis_trait_lottery_id": 9,
+    "id": 1162,
+    "large_still_path_hash": "8963149668454299319",
+    "name": "リベルテ・パピヨン",
+    "quality_group_id": 34,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 1,
+    "small_still_path_hash": "6892158914323039449",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 3,
+        "value": 145
+      }
+    ],
+    "still_path_hash": "8503264178818793783"
+  },
+  {
+    "ability_ids": [301246],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 20,
+      "ice": 20,
+      "impact": 20,
+      "lightning": 20,
+      "piercing": 20,
+      "slashing": 20,
+      "wind": 20
+    },
+    "attack_attributes": [],
+    "description": "自身のHPが70%以上の時、受けるダメージ-{0}%(固定)",
+    "easy_synthesis_trait_lottery_id": 5,
+    "id": 1163,
+    "large_still_path_hash": "2328068821986105065",
+    "name": "アルバディキティア",
+    "quality_group_id": 23,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 100,
+      "supporter": 0
+    },
+    "roles": [3],
+    "slot_type": 2,
+    "small_still_path_hash": "9028260799859990581",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 5,
+        "value": 75
+      },
+      {
+        "change_method": 1,
+        "status_type": 6,
+        "value": 75
+      }
+    ],
+    "still_path_hash": "6120010289463502299"
+  },
+  {
+    "ability_ids": [301247],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 20,
+      "ice": 20,
+      "impact": 20,
+      "lightning": 20,
+      "piercing": 20,
+      "slashing": 20,
+      "wind": 20
+    },
+    "attack_attributes": [],
+    "description": "自身のHPが70%以上の時、受けるダメージ-{0}%(固定)",
+    "easy_synthesis_trait_lottery_id": 5,
+    "id": 1164,
+    "large_still_path_hash": "2328068821986105065",
+    "name": "アルバディキティア",
+    "quality_group_id": 23,
+    "rarity": 2,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 100,
+      "supporter": 0
+    },
+    "roles": [3],
+    "slot_type": 2,
+    "small_still_path_hash": "9028260799859990581",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 5,
+        "value": 50
+      },
+      {
+        "change_method": 1,
+        "status_type": 6,
+        "value": 50
+      }
+    ],
+    "still_path_hash": "6120010289463502299"
+  },
+  {
+    "ability_ids": [301248],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 20,
+      "ice": 20,
+      "impact": 20,
+      "lightning": 20,
+      "piercing": 20,
+      "slashing": 20,
+      "wind": 20
+    },
+    "attack_attributes": [],
+    "description": "与えるHP回復量+{0}%",
+    "easy_synthesis_trait_lottery_id": 9,
+    "id": 1165,
+    "large_still_path_hash": "2761864672993225206",
+    "name": "クレプスコ・ストラ",
+    "quality_group_id": 33,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 3,
+    "small_still_path_hash": "7942113531085513039",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 150
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 15
+      }
+    ],
+    "still_path_hash": "5160132995459638433"
+  },
+  {
+    "ability_ids": [301249],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 20,
+      "ice": 20,
+      "impact": 20,
+      "lightning": 20,
+      "piercing": 20,
+      "slashing": 20,
+      "wind": 20
+    },
+    "attack_attributes": [],
+    "description": "与えるHP回復量+{0}%",
+    "easy_synthesis_trait_lottery_id": 9,
+    "id": 1166,
+    "large_still_path_hash": "2761864672993225206",
+    "name": "クレプスコ・ストラ",
+    "quality_group_id": 33,
+    "rarity": 2,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 3,
+    "small_still_path_hash": "7942113531085513039",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 100
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 12
+      }
+    ],
+    "still_path_hash": "5160132995459638433"
   }
 ]

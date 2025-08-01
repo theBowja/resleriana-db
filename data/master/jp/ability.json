@@ -11733,7 +11733,7 @@
     "name": "福徳招来の扇"
   },
   {
-    "description": "得意属性が氷属性かつアタッカーの時、クリティカル攻撃時、自身に「魔攻+{0}%」と「スキルダメージ+{1}%」を1回行動終了まで付与",
+    "description": "得意属性が氷属性かつアタッカーの時、クリティカル攻撃後、自身に「魔攻+{0}%」と「スキルダメージ+{1}%」を1回行動終了まで付与",
     "effects": [
       {
         "ability_timing_value": null,
@@ -11750,7 +11750,7 @@
     "name": "福徳招来の晴れ着"
   },
   {
-    "description": "得意属性が氷属性かつアタッカーの時、クリティカル攻撃時、自身に「魔攻+{0}%」と「スキルダメージ+{1}%」を1回行動終了まで付与",
+    "description": "得意属性が氷属性かつアタッカーの時、クリティカル攻撃後、自身に「魔攻+{0}%」と「スキルダメージ+{1}%」を1回行動終了まで付与",
     "effects": [
       {
         "ability_timing_value": null,
@@ -13914,6 +13914,333 @@
     ],
     "id": 301223,
     "name": "ゲベートアンク"
+  },
+  {
+    "description": "得意属性が雷属性かつアタッカーの時、強化系パネルから受ける効果量+{0}%<br>クリティカル攻撃後、自身に「クリティカルダメージ+{1}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001099,
+        "value": 2300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 6001100,
+        "value": 3600
+      }
+    ],
+    "id": 301224,
+    "name": "レディアントハイビス"
+  },
+  {
+    "description": "自身がアンチュ【マリンパペッティア】であり攻撃対象がブレイク状態の時、スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001101,
+        "value": 6000
+      }
+    ],
+    "id": 301225,
+    "name": "ベアーズシューター"
+  },
+  {
+    "description": "クリティカルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001102,
+        "value": 4500
+      }
+    ],
+    "id": 301226,
+    "name": "熱き錬金術士の服"
+  },
+  {
+    "description": "クリティカルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001102,
+        "value": 3000
+      }
+    ],
+    "id": 301227,
+    "name": "熱き錬金術士の服"
+  },
+  {
+    "description": "ブレイクダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001103,
+        "value": 3600
+      }
+    ],
+    "id": 301228,
+    "name": "自由なる錬金術士の服"
+  },
+  {
+    "description": "ブレイクダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001103,
+        "value": 2400
+      }
+    ],
+    "id": 301229,
+    "name": "自由なる錬金術士の服"
+  },
+  {
+    "description": "単体攻撃から受けるダメージ-{0}%(固定)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001104,
+        "value": 1700
+      }
+    ],
+    "id": 301230,
+    "name": "不動たる錬金術士の服"
+  },
+  {
+    "description": "単体攻撃から受けるダメージ-{0}%(固定)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001104,
+        "value": 1200
+      }
+    ],
+    "id": 301231,
+    "name": "不動たる錬金術士の服"
+  },
+  {
+    "description": "味方全員のクリティカルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001105,
+        "value": 1200
+      }
+    ],
+    "id": 301232,
+    "name": "静かなる錬金術士の服"
+  },
+  {
+    "description": "味方全員のクリティカルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001105,
+        "value": 800
+      }
+    ],
+    "id": 301233,
+    "name": "静かなる錬金術士の服"
+  },
+  {
+    "description": "スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001106,
+        "value": 4500
+      }
+    ],
+    "id": 301234,
+    "name": "峡谷のお守り"
+  },
+  {
+    "description": "スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001106,
+        "value": 3000
+      }
+    ],
+    "id": 301235,
+    "name": "峡谷のお守り"
+  },
+  {
+    "description": "スキル発動後、対象に「受けるダメージ+{0}%」を1回攻撃を受けるまで付与(上限2個)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001107,
+        "value": 2500
+      }
+    ],
+    "id": 301236,
+    "name": "砂塵のお守り"
+  },
+  {
+    "description": "スキル発動後、対象に「受けるダメージ+{0}%」を1回攻撃を受けるまで付与(上限2個)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001110,
+        "value": 1800
+      }
+    ],
+    "id": 301237,
+    "name": "砂塵のお守り"
+  },
+  {
+    "description": "味方全員の全体攻撃から受けるダメージ-{0}%(固定)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001108,
+        "value": 900
+      }
+    ],
+    "id": 301238,
+    "name": "激浪のお守り"
+  },
+  {
+    "description": "味方全員の全体攻撃から受けるダメージ-{0}%(固定)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001108,
+        "value": 600
+      }
+    ],
+    "id": 301239,
+    "name": "激浪のお守り"
+  },
+  {
+    "description": "味方全員のスキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001109,
+        "value": 1200
+      }
+    ],
+    "id": 301240,
+    "name": "静天のお守り"
+  },
+  {
+    "description": "味方全員のスキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001109,
+        "value": 800
+      }
+    ],
+    "id": 301241,
+    "name": "静天のお守り"
+  },
+  {
+    "description": "得意属性が火属性かつサポーターの時、与える強化効果量+{0}%<br>強化系パネル獲得時、味方全員に「受けるHP回復量+{1}%」を付与(上限15%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001111,
+        "value": 1800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 6001112,
+        "value": 500
+      }
+    ],
+    "id": 301242,
+    "name": "メイデンズ・ホープ"
+  },
+  {
+    "description": "得意属性が打属性かつ対象をブレイク時、物攻が最も高い味方1人に「クリティカル確率+{0}%」を1回行動終了するまで付与<br>ブレイカーの時、WEAK攻撃時、ブレイクダメージ+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001113,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 6001114,
+        "value": 2400
+      }
+    ],
+    "id": 301243,
+    "name": "アンビシャス・トムボーイ"
+  },
+  {
+    "description": "自身がララ【Seaside Queen】でありHPが50%以下の時、味方全員に「スキルダメージ+{0}%」を2回行動終了するまで付与(上限4個)\t\t\t\t\t\t\t",
+    "effects": [
+      {
+        "ability_timing_value": 5000,
+        "id": 6001115,
+        "value": 4000
+      }
+    ],
+    "id": 301244,
+    "name": "優雅なる王の潮騒"
+  },
+  {
+    "description": "自身がクリセルダ【Seaside Butterfly】の時、スキル発動後、味方全員に「WEAK攻撃時、スキル威力+{0}%」を1回行動終了するまで付与(上限2個)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001117,
+        "value": 1200
+      }
+    ],
+    "id": 301245,
+    "name": "リベルテ・パピヨン"
+  },
+  {
+    "description": "自身のHPが70%以上の時、受けるダメージ-{0}%(固定)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001118,
+        "value": 1700
+      }
+    ],
+    "id": 301246,
+    "name": "アルバディキティア"
+  },
+  {
+    "description": "自身のHPが70%以上の時、受けるダメージ-{0}%(固定)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001118,
+        "value": 1200
+      }
+    ],
+    "id": 301247,
+    "name": "アルバディキティア"
+  },
+  {
+    "description": "与えるHP回復量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001119,
+        "value": 2000
+      }
+    ],
+    "id": 301248,
+    "name": "クレプスコ・ストラ"
+  },
+  {
+    "description": "与えるHP回復量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001119,
+        "value": 1400
+      }
+    ],
+    "id": 301249,
+    "name": "クレプスコ・ストラ"
   },
   {
     "description": "魔攻・魔防+{0}%",
@@ -16498,6 +16825,47 @@
     ],
     "id": 1980199,
     "name": "ロロナ姫の祈り"
+  },
+  {
+    "description": "「ランターナ」は「物攻+{0}%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500002,
+        "value": 4000
+      }
+    ],
+    "id": 1980200,
+    "name": "みんなと過ごす初めての海"
+  },
+  {
+    "description": "得意属性が斬属性のキャラは「受けるダメージ-{0}％」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500157,
+        "value": 2500
+      }
+    ],
+    "id": 1980201,
+    "name": "王があなたを支えますわ"
+  },
+  {
+    "description": "「ランターナ」1人につき「物攻・魔攻+{0}%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500169,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500170,
+        "value": 1000
+      }
+    ],
+    "id": 1980202,
+    "name": "立場は忘れて楽しみましょ"
   },
   {
     "description": "味方全員の物攻+{0}%",
@@ -19481,7 +19849,7 @@
       },
       {
         "ability_timing_value": null,
-        "id": 72001137,
+        "id": 72001364,
         "value": 5000
       }
     ],
@@ -20062,6 +20430,23 @@
     ],
     "id": 1990307,
     "name": "シャッターチャンス、逃さないで！"
+  },
+  {
+    "description": "浮き輪パネル獲得時、敵全体に「受けるクリティカルダメージ+{0}%」を付与(上限100%)し、<br>自身に「クリティカル確率+{1}%」を付与(上限200%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001339,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001342,
+        "value": 5000
+      }
+    ],
+    "id": 1990312,
+    "name": "絶好のイイ波が来たわ！"
   },
   {
     "description": "スキルで撃破時または強化系パネル獲得時またはHP回復を受けた時、自身に「連刃研磨」が付与されていない時、「連刃研磨(Lv1)」を付与<br>既に付与されている時、「連刃研磨」のLv+1(上限Lv10)<br>「連刃研磨」のLvに応じて以下のボーナスをそれぞれ獲得する<br>1Lvにつきクリティカル確率+{0}%<br>Lv3以上：クリティカルダメージ+{1}%<br>Lv5以上：クリティカルダメージ+{2}%<br>Lv10：クリティカルダメージ+{3}%<br><br>「商人」と「おてんば」はクリティカル確率+{4}%とクリティカルダメージ+{5}%",
@@ -21191,6 +21576,177 @@
     ],
     "id": 1990368,
     "name": "幸せのおすそ分け"
+  },
+  {
+    "description": "WEAK攻撃時またはブレイク状態の敵を攻撃時、追加攻撃：{hyperlink_id 149}を発動する",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001345,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001353,
+        "value": 0
+      }
+    ],
+    "id": 1990369,
+    "name": "逃がさないわ……"
+  },
+  {
+    "description": "ブレイク状態の対象を攻撃時、自身に「お楽しみステッカー」が付与されていない時、「お楽しみステッカー(Lv1)」を付与<br>既に付与されている時、「お楽しみステッカー」のLv+1(上限Lv5)<br>「お楽しみステッカー」のLvに応じて以下のボーナスをそれぞれ獲得する<br>1Lvにつき追加攻撃のダメージ+{0}%<br>Lv1以上：スキルダメージ+{1}%<br>Lv3以上：スキルダメージ+{2}%<br>Lv5：スキルダメージ+{3}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001343,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001347,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001349,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001351,
+        "value": 7000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001344,
+        "value": 0
+      }
+    ],
+    "id": 1990370,
+    "name": "アンチュのお楽しみ"
+  },
+  {
+    "description": "敵にとても狙われやすくなる<br>得意属性が斬属性または「ランターナ」の味方全員の最大HP+{0}%<br>バトル開始時、味方全員のHPを100%回復<br>HP回復を受けた時、得意属性が斬属性の味方全員に「物防・魔防+{1}%」を付与(上限50%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001354,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001369,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001370,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001355,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001131,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72000914,
+        "value": 10000
+      }
+    ],
+    "id": 1990371,
+    "name": "眩い王の輝き"
+  },
+  {
+    "description": "バトル開始時、味方全員に以下の追加効果を付与<br>追加効果：「攻撃対象がブレイク状態の時、自身に回避(確率{0}%固定)を2回攻撃を受けるまで付与(発動上限3回)」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001356,
+        "value": 8000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001358,
+        "value": 0
+      }
+    ],
+    "id": 1990372,
+    "name": "ララ式危機回避術"
+  },
+  {
+    "description": "WAVE開始時、敵全体に「マイナスパネルから受けるマイナス効果量+{0}%」を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001360,
+        "value": 3000
+      }
+    ],
+    "id": 1990373,
+    "name": "蝶の策略"
+  },
+  {
+    "description": "パーティの誰かが攻撃対象をブレイク時、味方全員に「バーストスキル以外の貫通力+{0}」を付与(上限150）",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001362,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001362,
+        "value": 5000
+      }
+    ],
+    "id": 1990374,
+    "name": "みんなの高揚を感じるわ"
+  },
+  {
+    "description": "味方全員の戦闘アイテムから受ける強化効果量+{0}%<br>「プライムシャイン」または「ミックスチア」を使用時、自身に「与えるHP回復量+{1}%」を付与(上限70%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001168,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001365,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001366,
+        "value": 1000
+      }
+    ],
+    "id": 1990375,
+    "name": "精一杯、応援します！"
+  },
+  {
+    "description": "攻撃対象がブレイク時、対象に「受ける物理攻撃ダメージ+{0}%」を2回攻撃を受けるまで付与し、<br>得意属性が打属性の味方全員に「クリティカル確率+{1}％」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001367,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001368,
+        "value": 5000
+      }
+    ],
+    "id": 1990376,
+    "name": "お仕置きしてあげるっ！"
   },
   {
     "description": "WEAK攻撃時、スキルダメージ+{0}%",
@@ -29323,7 +29879,7 @@
     "name": "防者被ダメ時被ダメアップオールⅢ"
   },
   {
-    "description": "得意属性が氷属性かつWEAK攻撃時、自身に「クリティカルダメージ+{0}%」を2回行動終了するまで付与",
+    "description": "得意属性が氷属性の時、WEAK攻撃後、自身に「クリティカルダメージ+{0}%」を2回行動終了するまで付与",
     "effects": [
       {
         "ability_timing_value": null,
@@ -29335,7 +29891,7 @@
     "name": "氷得・弱点会心ダメージアップⅢ"
   },
   {
-    "description": "得意属性が氷属性かつWEAK攻撃時、自身に「クリティカルダメージ+{0}%」を2回行動終了するまで付与",
+    "description": "得意属性が氷属性の時、WEAK攻撃後、自身に「クリティカルダメージ+{0}%」を2回行動終了するまで付与",
     "effects": [
       {
         "ability_timing_value": null,
@@ -29347,7 +29903,7 @@
     "name": "氷得・弱点会心ダメージアップⅢ"
   },
   {
-    "description": "得意属性が氷属性かつWEAK攻撃時、自身に「クリティカルダメージ+{0}%」を2回行動終了するまで付与",
+    "description": "得意属性が氷属性の時、WEAK攻撃後、自身に「クリティカルダメージ+{0}%」を2回行動終了するまで付与",
     "effects": [
       {
         "ability_timing_value": null,
@@ -29359,7 +29915,7 @@
     "name": "氷得・弱点会心ダメージアップⅢ"
   },
   {
-    "description": "得意属性が氷属性かつWEAK攻撃時、自身に「クリティカルダメージ+{0}%」を2回行動終了するまで付与",
+    "description": "得意属性が氷属性の時、WEAK攻撃後、自身に「クリティカルダメージ+{0}%」を2回行動終了するまで付与",
     "effects": [
       {
         "ability_timing_value": null,
@@ -29371,7 +29927,7 @@
     "name": "氷得・弱点会心ダメージアップⅢ"
   },
   {
-    "description": "得意属性が氷属性かつWEAK攻撃時、自身に「クリティカルダメージ+{0}%」を2回行動終了するまで付与",
+    "description": "得意属性が氷属性の時、WEAK攻撃後、自身に「クリティカルダメージ+{0}%」を2回行動終了するまで付与",
     "effects": [
       {
         "ability_timing_value": null,
@@ -33178,7 +33734,7 @@
     "name": "想力「姫と騎士」"
   },
   {
-    "description": "スキル発動後、自身に以下の効果をランダムで付与<br>・「スキルダメージ+10%」を2回行動終了するまで付与<br>・「クリティカルダメージ+10%」を2回行動終了するまで付与<br>・「スキル威力+10%」を2回行動終了するまで付与<br>・「受けるダメージ-10%」(固定)を2回攻撃を受けるまで付与",
+    "description": "スキル発動後、自身に以下の効果をランダムで付与<br>・「スキルダメージ+{0}%」を2回行動終了するまで付与<br>・「クリティカルダメージ+{0}%」を2回行動終了するまで付与<br>・「スキル威力+{0}%」を2回行動終了するまで付与<br>・「受けるダメージ-{0}%」(固定)を2回攻撃を受けるまで付与",
     "effects": [
       {
         "ability_timing_value": null,
@@ -33190,7 +33746,7 @@
     "name": "想力「開花する才能」"
   },
   {
-    "description": "スキル発動後、自身に以下の効果をランダムで付与<br>・「スキルダメージ+20%」を2回行動終了するまで付与<br>・「クリティカルダメージ+20%」を2回行動終了するまで付与<br>・「スキル威力+20%」を2回行動終了するまで付与<br>・「受けるダメージ-20%」(固定)を2回攻撃を受けるまで付与",
+    "description": "スキル発動後、自身に以下の効果をランダムで付与<br>・「スキルダメージ+{0}%」を2回行動終了するまで付与<br>・「クリティカルダメージ+{0}%」を2回行動終了するまで付与<br>・「スキル威力+{0}%」を2回行動終了するまで付与<br>・「受けるダメージ-{0}%」(固定)を2回攻撃を受けるまで付与",
     "effects": [
       {
         "ability_timing_value": null,
@@ -33202,7 +33758,7 @@
     "name": "想力「開花する才能」"
   },
   {
-    "description": "スキル発動後、自身に以下の効果をランダムで付与<br>・「スキルダメージ+30%」を2回行動終了するまで付与<br>・「クリティカルダメージ+30%」を2回行動終了するまで付与<br>・「スキル威力+30%」を2回行動終了するまで付与<br>・「受けるダメージ-30%」(固定)を2回攻撃を受けるまで付与",
+    "description": "スキル発動後、自身に以下の効果をランダムで付与<br>・「スキルダメージ+{0}%」を2回行動終了するまで付与<br>・「クリティカルダメージ+{0}%」を2回行動終了するまで付与<br>・「スキル威力+{0}%」を2回行動終了するまで付与<br>・「受けるダメージ-{0}%」(固定)を2回攻撃を受けるまで付与",
     "effects": [
       {
         "ability_timing_value": null,
@@ -33214,7 +33770,7 @@
     "name": "想力「開花する才能」"
   },
   {
-    "description": "スキル発動後、自身に以下の効果をランダムで付与<br>・「スキルダメージ+40%」を2回行動終了するまで付与<br>・「クリティカルダメージ+40%」を2回行動終了するまで付与<br>・「スキル威力+40%」を2回行動終了するまで付与<br>・「受けるダメージ-40%」(固定)を2回攻撃を受けるまで付与",
+    "description": "スキル発動後、自身に以下の効果をランダムで付与<br>・「スキルダメージ+{0}%」を2回行動終了するまで付与<br>・「クリティカルダメージ+{0}%」を2回行動終了するまで付与<br>・「スキル威力+{0}%」を2回行動終了するまで付与<br>・「受けるダメージ-{0}%」(固定)を2回攻撃を受けるまで付与",
     "effects": [
       {
         "ability_timing_value": null,
@@ -33226,7 +33782,7 @@
     "name": "想力「開花する才能」"
   },
   {
-    "description": "スキル発動後、自身に以下の効果をランダムで付与<br>・「スキルダメージ+50%」を2回行動終了するまで付与<br>・「クリティカルダメージ+50%」を2回行動終了するまで付与<br>・「スキル威力+50%」を2回行動終了するまで付与<br>・「受けるダメージ-50%」(固定)を2回攻撃を受けるまで付与",
+    "description": "スキル発動後、自身に以下の効果をランダムで付与<br>・「スキルダメージ+{0}%」を2回行動終了するまで付与<br>・「クリティカルダメージ+{0}%」を2回行動終了するまで付与<br>・「スキル威力+{0}%」を2回行動終了するまで付与<br>・「受けるダメージ-{0}%」(固定)を2回攻撃を受けるまで付与",
     "effects": [
       {
         "ability_timing_value": null,
@@ -33536,6 +34092,741 @@
     ],
     "id": 4991012,
     "name": "季節の装いヒールアップⅢ"
+  },
+  {
+    "description": "得意属性が斬属性かつアタッカーの時、スキルダメージ+{0}%<br>「読書」の時、物攻+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000246,
+        "value": 800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000247,
+        "value": 500
+      }
+    ],
+    "id": 4991013,
+    "name": "想力「スイカ割りの極意」"
+  },
+  {
+    "description": "得意属性が斬属性かつアタッカーの時、スキルダメージ+{0}%<br>「読書」の時、物攻+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000246,
+        "value": 2600
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000247,
+        "value": 1600
+      }
+    ],
+    "id": 4991014,
+    "name": "想力「スイカ割りの極意」"
+  },
+  {
+    "description": "得意属性が斬属性かつアタッカーの時、スキルダメージ+{0}%<br>「読書」の時、物攻+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000246,
+        "value": 4400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000247,
+        "value": 2800
+      }
+    ],
+    "id": 4991015,
+    "name": "想力「スイカ割りの極意」"
+  },
+  {
+    "description": "得意属性が斬属性かつアタッカーの時、スキルダメージ+{0}%<br>「読書」の時、物攻+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000246,
+        "value": 6200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000247,
+        "value": 3900
+      }
+    ],
+    "id": 4991016,
+    "name": "想力「スイカ割りの極意」"
+  },
+  {
+    "description": "得意属性が斬属性かつアタッカーの時、スキルダメージ+{0}%<br>「読書」の時、物攻+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000246,
+        "value": 8000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000247,
+        "value": 5000
+      }
+    ],
+    "id": 4991017,
+    "name": "想力「スイカ割りの極意」"
+  },
+  {
+    "description": "「錬金党」の時、味方全員のクリティカルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000248,
+        "value": 400
+      }
+    ],
+    "id": 4991018,
+    "name": "錬金党会心ダメアップオールⅢ"
+  },
+  {
+    "description": "「錬金党」の時、味方全員のクリティカルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000248,
+        "value": 1500
+      }
+    ],
+    "id": 4991019,
+    "name": "錬金党会心ダメアップオールⅢ"
+  },
+  {
+    "description": "「錬金党」の時、味方全員のクリティカルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000248,
+        "value": 2200
+      }
+    ],
+    "id": 4991020,
+    "name": "錬金党会心ダメアップオールⅢ"
+  },
+  {
+    "description": "「錬金党」の時、味方全員のクリティカルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000248,
+        "value": 2600
+      }
+    ],
+    "id": 4991021,
+    "name": "錬金党会心ダメアップオールⅢ"
+  },
+  {
+    "description": "「錬金党」の時、味方全員のクリティカルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000248,
+        "value": 3200
+      }
+    ],
+    "id": 4991022,
+    "name": "錬金党会心ダメアップオールⅢ"
+  },
+  {
+    "description": "自身がサポーターの時、得意属性が物理属性の味方全員のスキル威力+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000252,
+        "value": 500
+      }
+    ],
+    "id": 4991023,
+    "name": "想力「水平線を目指して」"
+  },
+  {
+    "description": "自身がサポーターの時、得意属性が物理属性の味方全員のスキル威力+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000252,
+        "value": 1400
+      }
+    ],
+    "id": 4991024,
+    "name": "想力「水平線を目指して」"
+  },
+  {
+    "description": "自身がサポーターの時、得意属性が物理属性の味方全員のスキル威力+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000252,
+        "value": 2300
+      }
+    ],
+    "id": 4991025,
+    "name": "想力「水平線を目指して」"
+  },
+  {
+    "description": "自身がサポーターの時、得意属性が物理属性の味方全員のスキル威力+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000252,
+        "value": 3100
+      }
+    ],
+    "id": 4991026,
+    "name": "想力「水平線を目指して」"
+  },
+  {
+    "description": "自身がサポーターの時、得意属性が物理属性の味方全員のスキル威力+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000252,
+        "value": 4000
+      }
+    ],
+    "id": 4991027,
+    "name": "想力「水平線を目指して」"
+  },
+  {
+    "description": "自身がブレイカーの時、与えるマイナス効果量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000249,
+        "value": 400
+      }
+    ],
+    "id": 4991028,
+    "name": "破者マイナスアップⅢ"
+  },
+  {
+    "description": "自身がブレイカーの時、与えるマイナス効果量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000249,
+        "value": 1200
+      }
+    ],
+    "id": 4991029,
+    "name": "破者マイナスアップⅢ"
+  },
+  {
+    "description": "自身がブレイカーの時、与えるマイナス効果量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000249,
+        "value": 1900
+      }
+    ],
+    "id": 4991030,
+    "name": "破者マイナスアップⅢ"
+  },
+  {
+    "description": "自身がブレイカーの時、与えるマイナス効果量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000249,
+        "value": 2700
+      }
+    ],
+    "id": 4991031,
+    "name": "破者マイナスアップⅢ"
+  },
+  {
+    "description": "自身がブレイカーの時、与えるマイナス効果量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000249,
+        "value": 3400
+      }
+    ],
+    "id": 4991032,
+    "name": "破者マイナスアップⅢ"
+  },
+  {
+    "description": "得意属性が斬属性かつディフェンダーの時、スキル発動後、味方全員に「WEAK攻撃時、スキルダメージ+{0}%」を2回行動終了するまで付与(上限3個)<br>「お嬢様」の時、受けるダメージ-{0}%(固定)\n",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000250,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000251,
+        "value": 500
+      }
+    ],
+    "id": 4991033,
+    "name": "想力「魅惑の王」"
+  },
+  {
+    "description": "得意属性が斬属性かつディフェンダーの時、スキル発動後、味方全員に「WEAK攻撃時、スキルダメージ+{0}%」を2回行動終了するまで付与(上限3個)<br>「お嬢様」の時、受けるダメージ-{0}%(固定)\n",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000250,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000251,
+        "value": 1000
+      }
+    ],
+    "id": 4991034,
+    "name": "想力「魅惑の王」"
+  },
+  {
+    "description": "得意属性が斬属性かつディフェンダーの時、スキル発動後、味方全員に「WEAK攻撃時、スキルダメージ+{0}%」を2回行動終了するまで付与(上限3個)<br>「お嬢様」の時、受けるダメージ-{0}%(固定)\n",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000250,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000251,
+        "value": 1500
+      }
+    ],
+    "id": 4991035,
+    "name": "想力「魅惑の王」"
+  },
+  {
+    "description": "得意属性が斬属性かつディフェンダーの時、スキル発動後、味方全員に「WEAK攻撃時、スキルダメージ+{0}%」を2回行動終了するまで付与(上限3個)<br>「お嬢様」の時、受けるダメージ-{0}%(固定)\n",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000250,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000251,
+        "value": 2000
+      }
+    ],
+    "id": 4991036,
+    "name": "想力「魅惑の王」"
+  },
+  {
+    "description": "得意属性が斬属性かつディフェンダーの時、スキル発動後、味方全員に「WEAK攻撃時、スキルダメージ+{0}%」を2回行動終了するまで付与(上限3個)<br>「お嬢様」の時、受けるダメージ-{0}%(固定)\n",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000250,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000251,
+        "value": 2500
+      }
+    ],
+    "id": 4991037,
+    "name": "想力「魅惑の王」"
+  },
+  {
+    "description": "自身がディフェンダーの時、受けるHP回復量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000253,
+        "value": 300
+      }
+    ],
+    "id": 4991038,
+    "name": "防者レシーブヒールアップⅡ"
+  },
+  {
+    "description": "自身がディフェンダーの時、受けるHP回復量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000253,
+        "value": 500
+      }
+    ],
+    "id": 4991039,
+    "name": "防者レシーブヒールアップⅡ"
+  },
+  {
+    "description": "自身がディフェンダーの時、受けるHP回復量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000253,
+        "value": 800
+      }
+    ],
+    "id": 4991040,
+    "name": "防者レシーブヒールアップⅡ"
+  },
+  {
+    "description": "自身がディフェンダーの時、受けるHP回復量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000253,
+        "value": 1000
+      }
+    ],
+    "id": 4991041,
+    "name": "防者レシーブヒールアップⅡ"
+  },
+  {
+    "description": "自身がディフェンダーの時、受けるHP回復量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000253,
+        "value": 1200
+      }
+    ],
+    "id": 4991042,
+    "name": "防者レシーブヒールアップⅡ"
+  },
+  {
+    "description": "自身がアタッカーの時、バーストスキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000254,
+        "value": 500
+      }
+    ],
+    "id": 4991043,
+    "name": "攻者バーストアップⅡ"
+  },
+  {
+    "description": "自身がアタッカーの時、バーストスキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000254,
+        "value": 1100
+      }
+    ],
+    "id": 4991044,
+    "name": "攻者バーストアップⅡ"
+  },
+  {
+    "description": "自身がアタッカーの時、バーストスキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000254,
+        "value": 1800
+      }
+    ],
+    "id": 4991045,
+    "name": "攻者バーストアップⅡ"
+  },
+  {
+    "description": "自身がアタッカーの時、バーストスキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000254,
+        "value": 2400
+      }
+    ],
+    "id": 4991046,
+    "name": "攻者バーストアップⅡ"
+  },
+  {
+    "description": "自身がアタッカーの時、バーストスキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000254,
+        "value": 3000
+      }
+    ],
+    "id": 4991047,
+    "name": "攻者バーストアップⅡ"
+  },
+  {
+    "description": "自身がブレイカーの時、単体攻撃のブレイクダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000255,
+        "value": 500
+      }
+    ],
+    "id": 4991048,
+    "name": "破者単体ブレイクアップⅡ"
+  },
+  {
+    "description": "自身がブレイカーの時、単体攻撃のブレイクダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000255,
+        "value": 1000
+      }
+    ],
+    "id": 4991049,
+    "name": "破者単体ブレイクアップⅡ"
+  },
+  {
+    "description": "自身がブレイカーの時、単体攻撃のブレイクダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000255,
+        "value": 1500
+      }
+    ],
+    "id": 4991050,
+    "name": "破者単体ブレイクアップⅡ"
+  },
+  {
+    "description": "自身がブレイカーの時、単体攻撃のブレイクダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000255,
+        "value": 2000
+      }
+    ],
+    "id": 4991051,
+    "name": "破者単体ブレイクアップⅡ"
+  },
+  {
+    "description": "自身がブレイカーの時、単体攻撃のブレイクダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000255,
+        "value": 2500
+      }
+    ],
+    "id": 4991052,
+    "name": "破者単体ブレイクアップⅡ"
+  },
+  {
+    "description": "自身がサポーターの時、味方全員の強化系パネルから受ける強化効果量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000256,
+        "value": 300
+      }
+    ],
+    "id": 4991053,
+    "name": "術者強化パネルアップオールⅡ"
+  },
+  {
+    "description": "自身がサポーターの時、味方全員の強化系パネルから受ける強化効果量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000256,
+        "value": 600
+      }
+    ],
+    "id": 4991054,
+    "name": "術者強化パネルアップオールⅡ"
+  },
+  {
+    "description": "自身がサポーターの時、味方全員の強化系パネルから受ける強化効果量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000256,
+        "value": 900
+      }
+    ],
+    "id": 4991055,
+    "name": "術者強化パネルアップオールⅡ"
+  },
+  {
+    "description": "自身がサポーターの時、味方全員の強化系パネルから受ける強化効果量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000256,
+        "value": 1200
+      }
+    ],
+    "id": 4991056,
+    "name": "術者強化パネルアップオールⅡ"
+  },
+  {
+    "description": "自身がサポーターの時、味方全員の強化系パネルから受ける強化効果量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000256,
+        "value": 1500
+      }
+    ],
+    "id": 4991057,
+    "name": "術者強化パネルアップオールⅡ"
+  },
+  {
+    "description": "得意属性が斬属性かつサポーターの時、味方全員の物理攻撃スキルダメージ+{0}%<br>「料理」の時、味方全員の物攻+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000257,
+        "value": 700
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000258,
+        "value": 500
+      }
+    ],
+    "id": 4991058,
+    "name": "想力「余裕が崩れるとき」"
+  },
+  {
+    "description": "得意属性が斬属性かつサポーターの時、味方全員の物理攻撃スキルダメージ+{0}%<br>「料理」の時、味方全員の物攻+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000257,
+        "value": 1400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000258,
+        "value": 1000
+      }
+    ],
+    "id": 4991059,
+    "name": "想力「余裕が崩れるとき」"
+  },
+  {
+    "description": "得意属性が斬属性かつサポーターの時、味方全員の物理攻撃スキルダメージ+{0}%<br>「料理」の時、味方全員の物攻+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000257,
+        "value": 2100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000258,
+        "value": 1500
+      }
+    ],
+    "id": 4991060,
+    "name": "想力「余裕が崩れるとき」"
+  },
+  {
+    "description": "得意属性が斬属性かつサポーターの時、味方全員の物理攻撃スキルダメージ+{0}%<br>「料理」の時、味方全員の物攻+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000257,
+        "value": 2800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000258,
+        "value": 2000
+      }
+    ],
+    "id": 4991061,
+    "name": "想力「余裕が崩れるとき」"
+  },
+  {
+    "description": "得意属性が斬属性かつサポーターの時、味方全員の物理攻撃スキルダメージ+{0}%<br>「料理」の時、味方全員の物攻+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000257,
+        "value": 3500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000258,
+        "value": 2500
+      }
+    ],
+    "id": 4991062,
+    "name": "想力「余裕が崩れるとき」"
+  },
+  {
+    "description": "「季節の装い」かつWEAK攻撃時、スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000259,
+        "value": 800
+      }
+    ],
+    "id": 4991063,
+    "name": "季節の装い弱点ダメージアップⅢ"
+  },
+  {
+    "description": "「季節の装い」かつWEAK攻撃時、スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000259,
+        "value": 3700
+      }
+    ],
+    "id": 4991064,
+    "name": "季節の装い弱点ダメージアップⅢ"
+  },
+  {
+    "description": "「季節の装い」かつWEAK攻撃時、スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000259,
+        "value": 5800
+      }
+    ],
+    "id": 4991065,
+    "name": "季節の装い弱点ダメージアップⅢ"
+  },
+  {
+    "description": "「季節の装い」かつWEAK攻撃時、スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000259,
+        "value": 6800
+      }
+    ],
+    "id": 4991066,
+    "name": "季節の装い弱点ダメージアップⅢ"
+  },
+  {
+    "description": "「季節の装い」かつWEAK攻撃時、スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000259,
+        "value": 8500
+      }
+    ],
+    "id": 4991067,
+    "name": "季節の装い弱点ダメージアップⅢ"
   },
   {
     "description": "突属性のスキルダメージ{0}%アップ",
@@ -42370,6 +43661,1182 @@
     "name": "得意属性が氷属性のキャラの与えるHP回復量上昇(3)"
   },
   {
+    "description": "得意属性が火属性のキャラのクリティカルダメージ{0}%アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 13000340,
+        "value": 100
+      }
+    ],
+    "id": 7000741,
+    "name": "得意属性が斬属性のキャラのクリティカルダメージ上昇(1)"
+  },
+  {
+    "description": "得意属性が火属性のキャラのクリティカルダメージ{0}%アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 13000340,
+        "value": 200
+      }
+    ],
+    "id": 7000742,
+    "name": "得意属性が斬属性のキャラのクリティカルダメージ上昇(2)"
+  },
+  {
+    "description": "得意属性が火属性のキャラのクリティカルダメージ{0}%アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 13000340,
+        "value": 400
+      }
+    ],
+    "id": 7000743,
+    "name": "得意属性が斬属性のキャラのクリティカルダメージ上昇(3)"
+  },
+  {
+    "description": "バトル開始時に「物攻+{0}％」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 91001018,
+        "value": 800
+      }
+    ],
+    "id": 7000744,
+    "name": "先行物攻アップ(1)"
+  },
+  {
+    "description": "バトル開始時に「物攻+{0}％」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 91001018,
+        "value": 1600
+      }
+    ],
+    "id": 7000745,
+    "name": "先行物攻アップ(2)"
+  },
+  {
+    "description": "バトル開始時に「物攻+{0}％」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 91001018,
+        "value": 2400
+      }
+    ],
+    "id": 7000746,
+    "name": "先行物攻アップ(3)"
+  },
+  {
+    "description": "バトル開始時に「物攻+{0}％」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 91001018,
+        "value": 4800
+      }
+    ],
+    "id": 7000747,
+    "name": "先行物攻アップ(4)"
+  },
+  {
+    "description": "バトル開始時に「物攻+{0}％」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 91001018,
+        "value": 8000
+      }
+    ],
+    "id": 7000748,
+    "name": "先行物攻アップ(5)"
+  },
+  {
+    "description": "バトル開始時に「魔攻+{0}％」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 91001020,
+        "value": 800
+      }
+    ],
+    "id": 7000749,
+    "name": "先行魔攻アップ(1)"
+  },
+  {
+    "description": "バトル開始時に「魔攻+{0}％」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 91001020,
+        "value": 1600
+      }
+    ],
+    "id": 7000750,
+    "name": "先行魔攻アップ(2)"
+  },
+  {
+    "description": "バトル開始時に「魔攻+{0}％」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 91001020,
+        "value": 2400
+      }
+    ],
+    "id": 7000751,
+    "name": "先行魔攻アップ(3)"
+  },
+  {
+    "description": "バトル開始時に「魔攻+{0}％」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 91001020,
+        "value": 4800
+      }
+    ],
+    "id": 7000752,
+    "name": "先行魔攻アップ(4)"
+  },
+  {
+    "description": "バトル開始時に「魔攻+{0}％」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 91001020,
+        "value": 8000
+      }
+    ],
+    "id": 7000753,
+    "name": "先行魔攻アップ(5)"
+  },
+  {
+    "description": "スキル使用時に「物攻＋{0}％」を付与（この特性共通で上限150%）",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000348,
+        "value": 200
+      }
+    ],
+    "id": 7000754,
+    "name": "装備特性用晩成物攻アップ(1)"
+  },
+  {
+    "description": "スキル使用時に「物攻＋{0}％」を付与（この特性共通で上限150%）",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000348,
+        "value": 300
+      }
+    ],
+    "id": 7000755,
+    "name": "装備特性用晩成物攻アップ(2)"
+  },
+  {
+    "description": "スキル使用時に「物攻＋{0}％」を付与（この特性共通で上限150%）",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000348,
+        "value": 500
+      }
+    ],
+    "id": 7000756,
+    "name": "装備特性用晩成物攻アップ(3)"
+  },
+  {
+    "description": "スキル使用時に「物攻＋{0}％」を付与（この特性共通で上限150%）",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000348,
+        "value": 900
+      }
+    ],
+    "id": 7000757,
+    "name": "装備特性用晩成物攻アップ(4)"
+  },
+  {
+    "description": "スキル使用時に「物攻＋{0}％」を付与（この特性共通で上限150%）",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000348,
+        "value": 1500
+      }
+    ],
+    "id": 7000758,
+    "name": "装備特性用晩成物攻アップ(5)"
+  },
+  {
+    "description": "スキル使用時に「魔攻＋{0}％」を付与（この特性共通で上限150%）",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000349,
+        "value": 200
+      }
+    ],
+    "id": 7000759,
+    "name": "装備特性用晩成魔攻アップ(1)"
+  },
+  {
+    "description": "スキル使用時に「魔攻＋{0}％」を付与（この特性共通で上限150%）",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000349,
+        "value": 300
+      }
+    ],
+    "id": 7000760,
+    "name": "装備特性用晩成魔攻アップ(2)"
+  },
+  {
+    "description": "スキル使用時に「魔攻＋{0}％」を付与（この特性共通で上限150%）",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000349,
+        "value": 500
+      }
+    ],
+    "id": 7000761,
+    "name": "装備特性用晩成魔攻アップ(3)"
+  },
+  {
+    "description": "スキル使用時に「魔攻＋{0}％」を付与（この特性共通で上限150%）",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000349,
+        "value": 900
+      }
+    ],
+    "id": 7000762,
+    "name": "装備特性用晩成魔攻アップ(4)"
+  },
+  {
+    "description": "スキル使用時に「魔攻＋{0}％」を付与（この特性共通で上限150%）",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000349,
+        "value": 1500
+      }
+    ],
+    "id": 7000763,
+    "name": "装備特性用晩成魔攻アップ(5)"
+  },
+  {
+    "description": "雷属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000351,
+        "value": 500
+      }
+    ],
+    "id": 7000764,
+    "name": "雷属性クリティカル確率上昇(1)"
+  },
+  {
+    "description": "雷属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000351,
+        "value": 1000
+      }
+    ],
+    "id": 7000765,
+    "name": "雷属性クリティカル確率上昇(2)"
+  },
+  {
+    "description": "雷属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000351,
+        "value": 1500
+      }
+    ],
+    "id": 7000766,
+    "name": "雷属性クリティカル確率上昇(3)"
+  },
+  {
+    "description": "雷属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000351,
+        "value": 3000
+      }
+    ],
+    "id": 7000767,
+    "name": "雷属性クリティカル確率上昇(4)"
+  },
+  {
+    "description": "雷属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000351,
+        "value": 5000
+      }
+    ],
+    "id": 7000768,
+    "name": "雷属性クリティカル確率上昇(5)"
+  },
+  {
+    "description": "氷属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000352,
+        "value": 500
+      }
+    ],
+    "id": 7000769,
+    "name": "氷属性クリティカル確率上昇(1)"
+  },
+  {
+    "description": "氷属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000352,
+        "value": 1000
+      }
+    ],
+    "id": 7000770,
+    "name": "氷属性クリティカル確率上昇(2)"
+  },
+  {
+    "description": "氷属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000352,
+        "value": 1500
+      }
+    ],
+    "id": 7000771,
+    "name": "氷属性クリティカル確率上昇(3)"
+  },
+  {
+    "description": "氷属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000352,
+        "value": 3000
+      }
+    ],
+    "id": 7000772,
+    "name": "氷属性クリティカル確率上昇(4)"
+  },
+  {
+    "description": "氷属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000352,
+        "value": 5000
+      }
+    ],
+    "id": 7000773,
+    "name": "氷属性クリティカル確率上昇(5)"
+  },
+  {
+    "description": "風属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000353,
+        "value": 500
+      }
+    ],
+    "id": 7000774,
+    "name": "風属性クリティカル確率上昇(1)"
+  },
+  {
+    "description": "風属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000353,
+        "value": 1000
+      }
+    ],
+    "id": 7000775,
+    "name": "風属性クリティカル確率上昇(2)"
+  },
+  {
+    "description": "風属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000353,
+        "value": 1500
+      }
+    ],
+    "id": 7000776,
+    "name": "風属性クリティカル確率上昇(3)"
+  },
+  {
+    "description": "風属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000353,
+        "value": 3000
+      }
+    ],
+    "id": 7000777,
+    "name": "風属性クリティカル確率上昇(4)"
+  },
+  {
+    "description": "風属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000353,
+        "value": 5000
+      }
+    ],
+    "id": 7000778,
+    "name": "風属性クリティカル確率上昇(5)"
+  },
+  {
+    "description": "斬属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000354,
+        "value": 500
+      }
+    ],
+    "id": 7000779,
+    "name": "斬属性クリティカル確率上昇(1)"
+  },
+  {
+    "description": "斬属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000354,
+        "value": 1000
+      }
+    ],
+    "id": 7000780,
+    "name": "斬属性クリティカル確率上昇(2)"
+  },
+  {
+    "description": "斬属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000354,
+        "value": 1500
+      }
+    ],
+    "id": 7000781,
+    "name": "斬属性クリティカル確率上昇(3)"
+  },
+  {
+    "description": "斬属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000354,
+        "value": 3000
+      }
+    ],
+    "id": 7000782,
+    "name": "斬属性クリティカル確率上昇(4)"
+  },
+  {
+    "description": "斬属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000354,
+        "value": 5000
+      }
+    ],
+    "id": 7000783,
+    "name": "斬属性クリティカル確率上昇(5)"
+  },
+  {
+    "description": "打属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000355,
+        "value": 500
+      }
+    ],
+    "id": 7000784,
+    "name": "打属性クリティカル確率上昇(1)"
+  },
+  {
+    "description": "打属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000355,
+        "value": 1000
+      }
+    ],
+    "id": 7000785,
+    "name": "打属性クリティカル確率上昇(2)"
+  },
+  {
+    "description": "打属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000355,
+        "value": 1500
+      }
+    ],
+    "id": 7000786,
+    "name": "打属性クリティカル確率上昇(3)"
+  },
+  {
+    "description": "打属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000355,
+        "value": 3000
+      }
+    ],
+    "id": 7000787,
+    "name": "打属性クリティカル確率上昇(4)"
+  },
+  {
+    "description": "打属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000355,
+        "value": 5000
+      }
+    ],
+    "id": 7000788,
+    "name": "打属性クリティカル確率上昇(5)"
+  },
+  {
+    "description": "突属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000356,
+        "value": 500
+      }
+    ],
+    "id": 7000789,
+    "name": "突属性クリティカル確率上昇(1)"
+  },
+  {
+    "description": "突属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000356,
+        "value": 1000
+      }
+    ],
+    "id": 7000790,
+    "name": "突属性クリティカル確率上昇(2)"
+  },
+  {
+    "description": "突属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000356,
+        "value": 1500
+      }
+    ],
+    "id": 7000791,
+    "name": "突属性クリティカル確率上昇(3)"
+  },
+  {
+    "description": "突属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000356,
+        "value": 3000
+      }
+    ],
+    "id": 7000792,
+    "name": "突属性クリティカル確率上昇(4)"
+  },
+  {
+    "description": "突属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000356,
+        "value": 5000
+      }
+    ],
+    "id": 7000793,
+    "name": "突属性クリティカル確率上昇(5)"
+  },
+  {
+    "description": "火属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000357,
+        "value": 500
+      }
+    ],
+    "id": 7000794,
+    "name": "火属性クリティカル確率上昇(1)"
+  },
+  {
+    "description": "火属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000357,
+        "value": 1000
+      }
+    ],
+    "id": 7000795,
+    "name": "火属性クリティカル確率上昇(2)"
+  },
+  {
+    "description": "火属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000357,
+        "value": 1500
+      }
+    ],
+    "id": 7000796,
+    "name": "火属性クリティカル確率上昇(3)"
+  },
+  {
+    "description": "火属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000357,
+        "value": 3000
+      }
+    ],
+    "id": 7000797,
+    "name": "火属性クリティカル確率上昇(4)"
+  },
+  {
+    "description": "火属性の時、クリティカル確率{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000357,
+        "value": 5000
+      }
+    ],
+    "id": 7000798,
+    "name": "火属性クリティカル確率上昇(5)"
+  },
+  {
+    "description": "雷属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000366,
+        "value": 800
+      }
+    ],
+    "id": 7000799,
+    "name": "雷属性クリティカルダメージ上昇(1)"
+  },
+  {
+    "description": "雷属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000366,
+        "value": 1600
+      }
+    ],
+    "id": 7000800,
+    "name": "雷属性クリティカルダメージ上昇(2)"
+  },
+  {
+    "description": "雷属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000366,
+        "value": 2400
+      }
+    ],
+    "id": 7000801,
+    "name": "雷属性クリティカルダメージ上昇(3)"
+  },
+  {
+    "description": "雷属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000366,
+        "value": 4800
+      }
+    ],
+    "id": 7000802,
+    "name": "雷属性クリティカルダメージ上昇(4)"
+  },
+  {
+    "description": "雷属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000366,
+        "value": 8000
+      }
+    ],
+    "id": 7000803,
+    "name": "雷属性クリティカルダメージ上昇(5)"
+  },
+  {
+    "description": "氷属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000367,
+        "value": 800
+      }
+    ],
+    "id": 7000804,
+    "name": "氷属性クリティカルダメージ上昇(1)"
+  },
+  {
+    "description": "氷属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000367,
+        "value": 1600
+      }
+    ],
+    "id": 7000805,
+    "name": "氷属性クリティカルダメージ上昇(2)"
+  },
+  {
+    "description": "氷属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000367,
+        "value": 2400
+      }
+    ],
+    "id": 7000806,
+    "name": "氷属性クリティカルダメージ上昇(3)"
+  },
+  {
+    "description": "氷属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000367,
+        "value": 4800
+      }
+    ],
+    "id": 7000807,
+    "name": "氷属性クリティカルダメージ上昇(4)"
+  },
+  {
+    "description": "氷属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000367,
+        "value": 8000
+      }
+    ],
+    "id": 7000808,
+    "name": "氷属性クリティカルダメージ上昇(5)"
+  },
+  {
+    "description": "風属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000368,
+        "value": 800
+      }
+    ],
+    "id": 7000809,
+    "name": "風属性クリティカルダメージ上昇(1)"
+  },
+  {
+    "description": "風属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000368,
+        "value": 1600
+      }
+    ],
+    "id": 7000810,
+    "name": "風属性クリティカルダメージ上昇(2)"
+  },
+  {
+    "description": "風属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000368,
+        "value": 2400
+      }
+    ],
+    "id": 7000811,
+    "name": "風属性クリティカルダメージ上昇(3)"
+  },
+  {
+    "description": "風属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000368,
+        "value": 4800
+      }
+    ],
+    "id": 7000812,
+    "name": "風属性クリティカルダメージ上昇(4)"
+  },
+  {
+    "description": "風属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000368,
+        "value": 8000
+      }
+    ],
+    "id": 7000813,
+    "name": "風属性クリティカルダメージ上昇(5)"
+  },
+  {
+    "description": "斬属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000369,
+        "value": 800
+      }
+    ],
+    "id": 7000814,
+    "name": "斬属性クリティカルダメージ上昇(1)"
+  },
+  {
+    "description": "斬属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000369,
+        "value": 1600
+      }
+    ],
+    "id": 7000815,
+    "name": "斬属性クリティカルダメージ上昇(2)"
+  },
+  {
+    "description": "斬属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000369,
+        "value": 2400
+      }
+    ],
+    "id": 7000816,
+    "name": "斬属性クリティカルダメージ上昇(3)"
+  },
+  {
+    "description": "斬属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000369,
+        "value": 4800
+      }
+    ],
+    "id": 7000817,
+    "name": "斬属性クリティカルダメージ上昇(4)"
+  },
+  {
+    "description": "斬属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000369,
+        "value": 8000
+      }
+    ],
+    "id": 7000818,
+    "name": "斬属性クリティカルダメージ上昇(5)"
+  },
+  {
+    "description": "打属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000365,
+        "value": 800
+      }
+    ],
+    "id": 7000819,
+    "name": "打属性クリティカルダメージ上昇(1)"
+  },
+  {
+    "description": "打属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000365,
+        "value": 1600
+      }
+    ],
+    "id": 7000820,
+    "name": "打属性クリティカルダメージ上昇(2)"
+  },
+  {
+    "description": "打属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000365,
+        "value": 2400
+      }
+    ],
+    "id": 7000821,
+    "name": "打属性クリティカルダメージ上昇(3)"
+  },
+  {
+    "description": "打属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000365,
+        "value": 4800
+      }
+    ],
+    "id": 7000822,
+    "name": "打属性クリティカルダメージ上昇(4)"
+  },
+  {
+    "description": "打属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000365,
+        "value": 8000
+      }
+    ],
+    "id": 7000823,
+    "name": "打属性クリティカルダメージ上昇(5)"
+  },
+  {
+    "description": "突属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000371,
+        "value": 800
+      }
+    ],
+    "id": 7000824,
+    "name": "突属性クリティカルダメージ上昇(1)"
+  },
+  {
+    "description": "突属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000371,
+        "value": 1600
+      }
+    ],
+    "id": 7000825,
+    "name": "突属性クリティカルダメージ上昇(2)"
+  },
+  {
+    "description": "突属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000371,
+        "value": 2400
+      }
+    ],
+    "id": 7000826,
+    "name": "突属性クリティカルダメージ上昇(3)"
+  },
+  {
+    "description": "突属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000371,
+        "value": 4800
+      }
+    ],
+    "id": 7000827,
+    "name": "突属性クリティカルダメージ上昇(4)"
+  },
+  {
+    "description": "突属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000371,
+        "value": 8000
+      }
+    ],
+    "id": 7000828,
+    "name": "突属性クリティカルダメージ上昇(5)"
+  },
+  {
+    "description": "火属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000370,
+        "value": 800
+      }
+    ],
+    "id": 7000829,
+    "name": "火属性クリティカルダメージ上昇(1)"
+  },
+  {
+    "description": "火属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000370,
+        "value": 1600
+      }
+    ],
+    "id": 7000830,
+    "name": "火属性クリティカルダメージ上昇(2)"
+  },
+  {
+    "description": "火属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000370,
+        "value": 2400
+      }
+    ],
+    "id": 7000831,
+    "name": "火属性クリティカルダメージ上昇(3)"
+  },
+  {
+    "description": "火属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000370,
+        "value": 4800
+      }
+    ],
+    "id": 7000832,
+    "name": "火属性クリティカルダメージ上昇(4)"
+  },
+  {
+    "description": "火属性の時、クリティカルダメージ{0}％アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000370,
+        "value": 8000
+      }
+    ],
+    "id": 7000833,
+    "name": "火属性クリティカルダメージ上昇(5)"
+  },
+  {
+    "description": "与える戦闘アイテムダメージ強化の効果量{0}%アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000373,
+        "value": 500
+      }
+    ],
+    "id": 7000834,
+    "name": "戦闘アイテムダメージバフ強化(1)"
+  },
+  {
+    "description": "与える戦闘アイテムダメージ強化の効果量{0}%アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000373,
+        "value": 1000
+      }
+    ],
+    "id": 7000835,
+    "name": "戦闘アイテムダメージバフ強化(2)"
+  },
+  {
+    "description": "与える戦闘アイテムダメージ強化の効果量{0}%アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000373,
+        "value": 1500
+      }
+    ],
+    "id": 7000836,
+    "name": "戦闘アイテムダメージバフ強化(3)"
+  },
+  {
+    "description": "与える戦闘アイテムダメージ強化の効果量{0}%アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000373,
+        "value": 3000
+      }
+    ],
+    "id": 7000837,
+    "name": "戦闘アイテムダメージバフ強化(4)"
+  },
+  {
+    "description": "与える戦闘アイテムダメージ強化の効果量{0}%アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 3000373,
+        "value": 5000
+      }
+    ],
+    "id": 7000838,
+    "name": "戦闘アイテムダメージバフ強化(5)"
+  },
+  {
     "description": "被クリティカル100%減少\n戦闘アイテムの被ダメージ90%減少",
     "effects": [
       {
@@ -46040,6 +48507,23 @@
     "name": ""
   },
   {
+    "description": "スキルによってブレイクした時、自身に物防DOWN(99%/永続)を付与\nブレイク復帰時、自身に付与されている物防DOWNを解除",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86028003,
+        "value": 9900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86028004,
+        "value": 9900
+      }
+    ],
+    "id": 26028003,
+    "name": ""
+  },
+  {
     "description": "物理属性攻撃を受けた時、自身に与ダメージUP(15%/3回)と被ダメージUP(15%/3回)を付与\n魔法属性攻撃を受けた時、自身に被ダメージDOWN(15%/3回)と与ダメージDOWN(15%/3回)を付与\neffect_motionつき",
     "effects": [
       {
@@ -46637,6 +49121,23 @@
     "name": ""
   },
   {
+    "description": "自身のスキル後HPとBGを10%回復する",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72000950,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86083010,
+        "value": 1000
+      }
+    ],
+    "id": 26083007,
+    "name": ""
+  },
+  {
     "description": "\"・攻撃被弾時、HP35%以下の時、自身に与ダメージUP(5回)を付与\n・攻撃被弾時、HP35%以下の時、自身に被ダメージUP(5回)を付与\n・行動後、自身のブレイクゲージを回復",
     "effects": [
       {
@@ -46984,6 +49485,33 @@
       }
     ],
     "id": 26092001,
+    "name": ""
+  },
+  {
+    "description": "自身のHPが60％以下の時、自身に素早さUP(20%/無期限)、被ダメージUP(15%/無期限)、与ダメージUP(30%/無期限)を付与し、自身のHPを50％回復",
+    "effects": [
+      {
+        "ability_timing_value": 6000,
+        "id": 86092001,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": 6000,
+        "id": 86092002,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": 6000,
+        "id": 86092003,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": 6000,
+        "id": 86092004,
+        "value": 5000
+      }
+    ],
+    "id": 26092002,
     "name": ""
   },
   {
@@ -47712,6 +50240,33 @@
     "name": ""
   },
   {
+    "description": "手番開始前に自身に与ダメージUP(30%/上限300％)と被ダメージDOWN(8%/上限80％)を付与\nブレイク時、自身に自身に与ダメージDOWN(30%/上限80％)と被ダメージUP(20%/上限150％)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86112002,
+        "value": 800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86112001,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86112003,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86112004,
+        "value": 2000
+      }
+    ],
+    "id": 26112001,
+    "name": ""
+  },
+  {
     "description": "ブレイク時、強化パネルをバーストパネルに書き換え(15マス)\nブレイク時、弱体パネルを強化パネルに書き換え(15マス)\n味方生存者が2人以下の時、被ダメージ+10%、1人以下の時さらに被ダメージ+15%",
     "effects": [
       {
@@ -48131,6 +50686,18 @@
     "name": ""
   },
   {
+    "description": "行動するたび、自身の素早さUP(2%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 81140008,
+        "value": 200
+      }
+    ],
+    "id": 26140001,
+    "name": ""
+  },
+  {
     "description": "ウェーブ開始時、自身に得意属性が突属性以外の敵への与ダメージUP(1000%)を付与",
     "effects": [
       {
@@ -48511,6 +51078,23 @@
     "name": ""
   },
   {
+    "description": "バーストスキル被弾時、自身に被ダメージUP(10%/上限50%)、暗闇(1回)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86162003,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86162004,
+        "value": 2500
+      }
+    ],
+    "id": 26162001,
+    "name": ""
+  },
+  {
     "description": "バーストスキル被弾時、自身に被ダメージUP(30%)(上限150%)を付与\nバーストスキル被弾時、自身に暗闇(2ターン)を付与",
     "effects": [
       {
@@ -48525,6 +51109,28 @@
       }
     ],
     "id": 26162002,
+    "name": ""
+  },
+  {
+    "description": "WEAK攻撃を5回被弾するごとに相手全員に与ダメージUP(50%/上限200%)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86231002,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86162005,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86162006,
+        "value": 99900
+      }
+    ],
+    "id": 26162003,
     "name": ""
   },
   {
@@ -49120,6 +51726,50 @@
     "name": ""
   },
   {
+    "description": "自身がブレイク時、被ダメージUP(40%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 880070003,
+        "value": 4000
+      }
+    ],
+    "id": 26205001,
+    "name": ""
+  },
+  {
+    "description": "火・斬以外の属性耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000716,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000718,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000720,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000722,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000721,
+        "value": 0
+      }
+    ],
+    "id": 26205002,
+    "name": ""
+  },
+  {
     "description": "ウェーブ開始時、相手全員にHP上限UP(100%/永続)を付与\nウェーブ開始時、相手全員に魔攻UP(100%/永続)を付与\nウェーブ開始時、相手全員のHPを100%回復\neffect_motionあり",
     "effects": [
       {
@@ -49326,6 +51976,18 @@
       }
     ],
     "id": 26217001,
+    "name": ""
+  },
+  {
+    "description": "攻撃を受けるたび、自身に被ダメージUP(3%/上限60％)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86224010,
+        "value": 300
+      }
+    ],
+    "id": 26224002,
     "name": ""
   },
   {
@@ -49866,6 +52528,205 @@
     ],
     "id": 26246002,
     "name": ""
+  },
+  {
+    "description": "WEAK攻撃を10回受けるごとに自身に被ダメージUP(累積)と被ブレイクダメージUP(累積)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86231002,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86247001,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86247002,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86247003,
+        "value": 99900
+      }
+    ],
+    "id": 26247001,
+    "name": ""
+  },
+  {
+    "description": "氷・雷・斬以外の属性耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000716,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000718,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000719,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000721,
+        "value": 0
+      }
+    ],
+    "id": 26247002,
+    "name": ""
+  },
+  {
+    "description": "攻撃被弾時、自身の与ダメージUP(最大Lv10 不可視)のレベルを1上昇させる\n戦闘不能時、自身の持つ与ダメージUPのレベルに応じてフィールドアビリティを発動",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86248000,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 814000034,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 814000035,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 814000036,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 814000037,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 814000038,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 814000039,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 814000040,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 814000041,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 814000042,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 814000043,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 814000044,
+        "value": 100
+      }
+    ],
+    "id": 26248000,
+    "name": ""
+  },
+  {
+    "description": "自身のHPが40%以下になったとき、自身にクリティカル率100%UPを付与",
+    "effects": [
+      {
+        "ability_timing_value": 4000,
+        "id": 86249009,
+        "value": 10000
+      }
+    ],
+    "id": 26249001,
+    "name": ""
+  },
+  {
+    "description": "突、風の属性耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000718,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000721,
+        "value": 0
+      }
+    ],
+    "id": 26249011,
+    "name": ""
+  },
+  {
+    "description": "斬以外の属性耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000722,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000720,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000719,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000716,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000718,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000721,
+        "value": 0
+      }
+    ],
+    "id": 26249201,
+    "name": ""
+  },
+  {
+    "description": "ララ【Seaside Queen】の被ダメージ-20%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 26252014,
+        "value": 2000
+      }
+    ],
+    "id": 26252009,
+    "name": "ララ【Seaside Queen】の被ダメージDOWN"
   },
   {
     "description": "ブレイク時、敵全体に再生10%(2回)を付与\nHP50%以下の時、被弾時与ダメージ20%UP(1回)付与",
@@ -67514,7 +70375,7 @@
     "name": "味方全員の行動後アイテムゲージ追加回復"
   },
   {
-    "description": "ザールブルグシリーズのキャラは、被ダメージDOWN-20%",
+    "description": "ザールブルグシリーズのキャラは、被ダメージ-20%",
     "effects": [
       {
         "ability_timing_value": null,
@@ -67536,6 +70397,59 @@
     ],
     "id": 600000684,
     "name": "ザールブルグシリーズのキャラは、行動後アイテムゲージ追加回復"
+  },
+  {
+    "description": "アンチュ【マリンパペッティア】のスキル威力+100%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000741,
+        "value": 10000
+      }
+    ],
+    "id": 600000685,
+    "name": "アンチュ【マリンパペッティア】のスキル威力UP"
+  },
+  {
+    "description": "ヴァレリア【Radiant Summer】のスキル威力+100%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000742,
+        "value": 10000
+      }
+    ],
+    "id": 600000686,
+    "name": "ヴァレリア【Radiant Summer】のスキル威力UP"
+  },
+  {
+    "description": "自身が「季節の装い」のときスキル威力+100%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000743,
+        "value": 10000
+      }
+    ],
+    "id": 600000687,
+    "name": "自身が「季節の装い」のとき、スキル威力UP"
+  },
+  {
+    "description": "アンチュ【マリンパペッティア】またはヴァレリア【Radiant Summer】を編成時、被ダメージ-25％(上限25％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000747,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000748,
+        "value": 2500
+      }
+    ],
+    "id": 600000688,
+    "name": "アンチュ【マリンパペッティア】またはヴァレリア【Radiant Summer】を編成時、被ダメージ減少"
   },
   {
     "description": "ロロナ【ワンダフルプリンセス】 の被ダメージ-30％",
@@ -67565,6 +70479,100 @@
     ],
     "id": 600000691,
     "name": "ロロナ【ワンダフルプリンセス】またはトトリ【エンドレスボイジャー】を編成時、被ダメージ減少"
+  },
+  {
+    "description": "得意属性が斬属性の時、ブレイクダメージ+40％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000749,
+        "value": 4000
+      }
+    ],
+    "id": 600000692,
+    "name": "得意属性が斬の時、ブレイクダメージ上昇"
+  },
+  {
+    "description": "スキル2ダメージ+50％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000750,
+        "value": 5000
+      }
+    ],
+    "id": 600000693,
+    "name": "スキル2ダメージ上昇"
+  },
+  {
+    "description": "戦闘アイテムで付与する強化効果量+50%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000751,
+        "value": 5000
+      }
+    ],
+    "id": 600000694,
+    "name": "戦闘アイテムの強化効果量上昇"
+  },
+  {
+    "description": "強化系パネルから受ける強化効果量+50％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000752,
+        "value": 5000
+      }
+    ],
+    "id": 600000695,
+    "name": "強化系パネル効果量上昇"
+  },
+  {
+    "description": "ララ【Seaside Queen】またはアンチュ【マリンパペッティア】を編成時、被ダメージ-25％(上限25％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000747,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000753,
+        "value": 2500
+      }
+    ],
+    "id": 600000696,
+    "name": "ララ【Seaside Queen】またはアンチュ【マリンパペッティア】を編成時、被ダメージ減少"
+  },
+  {
+    "description": "クリセルダ【Seaside Butterfly】 の与える強化効果量＋150%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 20000753,
+        "value": 15000
+      }
+    ],
+    "id": 600000697,
+    "name": "クリセルダ【Seaside Butterfly】 の強化効果量UP"
+  },
+  {
+    "description": "クリセルダ【Seaside Butterfly】またはララ【Seaside Queen】を編成時、被ダメージ減少",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000757,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000753,
+        "value": 2500
+      }
+    ],
+    "id": 600000700,
+    "name": "クリセルダ【Seaside Butterfly】またはララ【Seaside Queen】を編成時、被ダメージ減少"
   },
   {
     "description": "ディフェンダーの行動開始時、HP10%回復",

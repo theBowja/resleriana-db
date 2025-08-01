@@ -21,8 +21,8 @@
     "disable_duplicate_assign": false,
     "effects": [
       {
-        "id": 3000002,
-        "values": [500, 900, 1400, 2700, 4500]
+        "id": 3000321,
+        "values": [1000, 2000, 3000, 6000, 10000]
       }
     ],
     "filter_ids": [1],
@@ -37,8 +37,8 @@
     "disable_duplicate_assign": false,
     "effects": [
       {
-        "id": 3000003,
-        "values": [500, 900, 1400, 2700, 4500]
+        "id": 3000322,
+        "values": [1000, 2000, 3000, 6000, 10000]
       }
     ],
     "filter_ids": [1],
@@ -53,8 +53,8 @@
     "disable_duplicate_assign": false,
     "effects": [
       {
-        "id": 3000001,
-        "values": [500, 900, 1400, 2700, 4500]
+        "id": 3000323,
+        "values": [1000, 2000, 3000, 6000, 10000]
       }
     ],
     "filter_ids": [1],
@@ -85,8 +85,8 @@
     "disable_duplicate_assign": false,
     "effects": [
       {
-        "id": 3000004,
-        "values": [500, 900, 1400, 2700, 4500]
+        "id": 3000324,
+        "values": [1000, 2000, 3000, 6000, 10000]
       }
     ],
     "filter_ids": [1],
@@ -101,8 +101,8 @@
     "disable_duplicate_assign": false,
     "effects": [
       {
-        "id": 3000005,
-        "values": [500, 900, 1400, 2700, 4500]
+        "id": 3000244,
+        "values": [1000, 2000, 3000, 6000, 10000]
       }
     ],
     "filter_ids": [1],
@@ -117,8 +117,8 @@
     "disable_duplicate_assign": false,
     "effects": [
       {
-        "id": 3000007,
-        "values": [500, 900, 1400, 2700, 4500]
+        "id": 3000246,
+        "values": [1000, 2000, 3000, 6000, 10000]
       }
     ],
     "filter_ids": [1],
@@ -133,8 +133,8 @@
     "disable_duplicate_assign": false,
     "effects": [
       {
-        "id": 3000006,
-        "values": [500, 900, 1400, 2700, 4500]
+        "id": 3000240,
+        "values": [1000, 2000, 3000, 6000, 10000]
       }
     ],
     "filter_ids": [1],
@@ -817,6 +817,70 @@
     "id": 51,
     "name": "破壊力上昇",
     "quality_group_ids": [51, 52, 53, 54, 55],
+    "stimulator_rarity_id": 2
+  },
+  {
+    "category_id": 4,
+    "description": "",
+    "disable_duplicate_assign": false,
+    "effects": [
+      {
+        "id": 3000347,
+        "values": [100, 200, 300, 400, 500]
+      }
+    ],
+    "filter_ids": [4, 1, 2, 3],
+    "id": 52,
+    "name": "アイテムリチャージ",
+    "quality_group_ids": [136, 137, 138, 139, 140],
+    "stimulator_rarity_id": 2
+  },
+  {
+    "category_id": 3,
+    "description": "",
+    "disable_duplicate_assign": false,
+    "effects": [
+      {
+        "id": 3000359,
+        "values": [100, 200, 300, 600, 1000]
+      }
+    ],
+    "filter_ids": [3, 1],
+    "id": 53,
+    "name": "攻撃ダウン",
+    "quality_group_ids": [141, 142, 143, 144, 145],
+    "stimulator_rarity_id": 2
+  },
+  {
+    "category_id": 1,
+    "description": "",
+    "disable_duplicate_assign": false,
+    "effects": [
+      {
+        "id": 3000044,
+        "values": [1000, 2000, 3000, 6000, 10000]
+      }
+    ],
+    "filter_ids": [1],
+    "id": 54,
+    "name": "アイテム会心確率上昇",
+    "quality_group_ids": [146, 147, 148, 149, 150],
+    "stimulator_rarity_id": 2
+  },
+  {
+    "category_id": 1,
+    "description": "",
+    "disable_duplicate_assign": false,
+    "effects": [
+      {
+        "id": 3000372,
+        "values": [1000, 2000, 3000, 6000, 10000]
+      }
+    ],
+    "filter_ids": [1],
+    "id": 55,
+    "name": "アイテム会心ダメージ上昇",
+    "quality_group_ids": [151, 152, 153, 154, 155],
     "stimulator_rarity_id": 2
   }
 ]

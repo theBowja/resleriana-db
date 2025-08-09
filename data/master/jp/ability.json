@@ -14243,6 +14243,18 @@
     "name": "クレプスコ・ストラ"
   },
   {
+    "description": "自身がヨハナ【ブリリアントダイバー】かつ攻撃対象がブレイク時、敵全体に「受ける物理攻撃ダメージ+{0}％」を2回攻撃を受けるまで付与(上限4個)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001120,
+        "value": 2000
+      }
+    ],
+    "id": 301250,
+    "name": "ジーニアスショット"
+  },
+  {
     "description": "魔攻・魔防+{0}%",
     "effects": [
       {
@@ -16866,6 +16878,23 @@
     ],
     "id": 1980202,
     "name": "立場は忘れて楽しみましょ"
+  },
+  {
+    "description": "得意属性が斬属性のキャラは「スキルダメージ・ブレイクダメージ+{0}%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500051,
+        "value": 4000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500052,
+        "value": 4000
+      }
+    ],
+    "id": 1980203,
+    "name": "暑さなんか切り裂いてやるわ！"
   },
   {
     "description": "味方全員の物攻+{0}%",
@@ -21747,6 +21776,40 @@
     ],
     "id": 1990376,
     "name": "お仕置きしてあげるっ！"
+  },
+  {
+    "description": "攻撃対象がブレイク時、対象に「受ける物理攻撃ダメージ+{0}%」を2回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001367,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001371,
+        "value": 0
+      }
+    ],
+    "id": 1990377,
+    "name": "真夏の裂傷"
+  },
+  {
+    "description": "対象の現在のブレイクゲージが50%以上の時、ブレイクダメージ+{0}%<br>WEAK攻撃時、スキルダメージ+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72000956,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001120,
+        "value": 3000
+      }
+    ],
+    "id": 1990378,
+    "name": "天才の追い討ちよ！"
   },
   {
     "description": "WEAK攻撃時、スキルダメージ+{0}%",
@@ -34827,6 +34890,91 @@
     ],
     "id": 4991067,
     "name": "季節の装い弱点ダメージアップⅢ"
+  },
+  {
+    "description": "得意属性が斬属性かつブレイカーの時、単体攻撃のブレイクダメージ+{0}%<br>「おてんば」の時、攻撃後、対象に「斬属性耐性-{1}%」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000260,
+        "value": 600
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000261,
+        "value": 400
+      }
+    ],
+    "id": 4991068,
+    "name": "想力「渚の腕比べ」"
+  },
+  {
+    "description": "得意属性が斬属性かつブレイカーの時、単体攻撃のブレイクダメージ+{0}%<br>「おてんば」の時、攻撃後、対象に「斬属性耐性-{1}%」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000260,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000261,
+        "value": 900
+      }
+    ],
+    "id": 4991069,
+    "name": "想力「渚の腕比べ」"
+  },
+  {
+    "description": "得意属性が斬属性かつブレイカーの時、単体攻撃のブレイクダメージ+{0}%<br>「おてんば」の時、攻撃後、対象に「斬属性耐性-{1}%」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000260,
+        "value": 3500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000261,
+        "value": 1500
+      }
+    ],
+    "id": 4991070,
+    "name": "想力「渚の腕比べ」"
+  },
+  {
+    "description": "得意属性が斬属性かつブレイカーの時、単体攻撃のブレイクダメージ+{0}%<br>「おてんば」の時、攻撃後、対象に「斬属性耐性-{1}%」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000260,
+        "value": 4900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000261,
+        "value": 2000
+      }
+    ],
+    "id": 4991071,
+    "name": "想力「渚の腕比べ」"
+  },
+  {
+    "description": "得意属性が斬属性かつブレイカーの時、単体攻撃のブレイクダメージ+{0}%<br>「おてんば」の時、攻撃後、対象に「斬属性耐性-{1}%」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000260,
+        "value": 6300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000261,
+        "value": 2500
+      }
+    ],
+    "id": 4991072,
+    "name": "想力「渚の腕比べ」"
   },
   {
     "description": "突属性のスキルダメージ{0}%アップ",
@@ -51168,6 +51316,23 @@
     "name": ""
   },
   {
+    "description": "・非weak攻撃被弾時、自身に被ダメージDOWN(5%/上限80％)付与\n・ブレイク中、被ダメージ上昇(30%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86163003,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 880013003,
+        "value": 3000
+      }
+    ],
+    "id": 26163003,
+    "name": ""
+  },
+  {
     "description": "状態異常を持っている間、自身に与ダメージダウン(15%)、被クリティカル確率(15%)、被ダメージアップ(15%)を付与",
     "effects": [
       {
@@ -52714,6 +52879,77 @@
       }
     ],
     "id": 26249201,
+    "name": ""
+  },
+  {
+    "description": "特定のスキル使用後、自身に与ダメージUP(80％/1回)を付与し、自身のターンを２ターン遅らせ行動再抽選\nブレイク時、自身が「与ダメージUP(ハイドシャーク_高速潜水艦)」のバフをもっているなら自身のバフをすべて解除し、行動再抽選",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86250001,
+        "value": 8000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86250002,
+        "value": 200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86250003,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86250007,
+        "value": 9900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81179045,
+        "value": 0
+      }
+    ],
+    "id": 26250001,
+    "name": ""
+  },
+  {
+    "description": "攻撃をうけるたび自身に受けるマイナス効果量UP(10%/累積1000％)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86250004,
+        "value": 1000
+      }
+    ],
+    "id": 26250002,
+    "name": ""
+  },
+  {
+    "description": "火・斬・打以外の属性耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000722,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000720,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000721,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000718,
+        "value": 0
+      }
+    ],
+    "id": 26250003,
     "name": ""
   },
   {
@@ -70556,6 +70792,35 @@
     ],
     "id": 600000697,
     "name": "クリセルダ【Seaside Butterfly】 の強化効果量UP"
+  },
+  {
+    "description": "ヨハナ【ブリリアントダイバー】 のブレイクダメージ+200％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000755,
+        "value": 20000
+      }
+    ],
+    "id": 600000698,
+    "name": "ヨハナ【ブリリアントダイバー】 のブレイクダメージUP"
+  },
+  {
+    "description": "ヨハナ【ブリリアントダイバー】またはクリセルダ【Seaside Butterfly】を編成時、被ダメージ-25％(上限25％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000756,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000757,
+        "value": 2500
+      }
+    ],
+    "id": 600000699,
+    "name": "ヨハナ【ブリリアントダイバー】またはクリセルダ【Seaside Butterfly】を編成時、被ダメージ減少"
   },
   {
     "description": "クリセルダ【Seaside Butterfly】またはララ【Seaside Queen】を編成時、被ダメージ減少",

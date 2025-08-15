@@ -58,7 +58,8 @@ const dialogueSubfolders = [
     'SeasonalTalkEvent',
     'TalkEvent',
     'CharacterEvent',
-    'SeasonalEvent'
+    'SeasonalEvent',
+    'SideStoryEvent'
 ];
 
 // Maps property keys to understandable keys

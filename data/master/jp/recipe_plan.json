@@ -8,7 +8,7 @@
     "key_quest_id": null,
     "name": "第1章",
     "parent_recipe_plan_id": null,
-    "priority": 100,
+    "priority": 1,
     "recipe_count_rewards": [
       {
         "count": 3,
@@ -2488,7 +2488,7 @@
     "key_quest_id": null,
     "name": "第1章 グランド",
     "parent_recipe_plan_id": 1,
-    "priority": 1,
+    "priority": 2,
     "recipe_count_rewards": [
       {
         "count": 8,
@@ -2508,15 +2508,63 @@
     "key_quest_id": null,
     "name": "第2章 グランド",
     "parent_recipe_plan_id": 2,
-    "priority": 2,
+    "priority": 3,
     "recipe_count_rewards": [
       {
         "count": 2,
+        "reward_set_id": 10022
+      },
+      {
+        "count": 4,
         "reward_set_id": 10022
       }
     ],
     "recipe_plan_category_id": 1,
     "start_at": null,
     "tab_type": 4
+  },
+  {
+    "abbreviation": "クロガネ島魔物掃討作戦",
+    "banner_path_hash": "5335658769072459473",
+    "event_id": null,
+    "hide_unlearned_recipe": false,
+    "id": 106,
+    "key_quest_id": null,
+    "name": "クロガネ島魔物掃討作戦",
+    "parent_recipe_plan_id": null,
+    "priority": 54,
+    "recipe_count_rewards": [
+      {
+        "count": 1,
+        "reward_set_id": 10022
+      }
+    ],
+    "recipe_plan_category_id": 2,
+    "start_at": "2025-08-15T03:00:00.000Z",
+    "tab_type": 3
+  },
+  {
+    "abbreviation": "28",
+    "banner_path_hash": "6092967075694291554",
+    "event_id": null,
+    "hide_unlearned_recipe": false,
+    "id": 107,
+    "key_quest_id": null,
+    "name": "第28章",
+    "parent_recipe_plan_id": null,
+    "priority": 138,
+    "recipe_count_rewards": [
+      {
+        "count": 1,
+        "reward_set_id": 10001
+      },
+      {
+        "count": 2,
+        "reward_set_id": 10002
+      }
+    ],
+    "recipe_plan_category_id": 1,
+    "start_at": "2025-08-29T03:00:00.000Z",
+    "tab_type": 1
   }
 ]

@@ -1008,5 +1008,239 @@
     "start_at": "2024-11-22T03:00:00.000Z",
     "subsequent_branch": false,
     "talk_event_id": 6901022
+  },
+  {
+    "category_id": 13,
+    "continuous_playback": false,
+    "end_at": null,
+    "id": 12001001,
+    "key_quest_id": null,
+    "key_stories": [],
+    "key_tasks": [],
+    "name": "キカイ島",
+    "rewards": [
+      {
+        "id": 45402,
+        "quantity": 1,
+        "resource_params": null,
+        "type": 4
+      }
+    ],
+    "start_at": "2025-09-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 12001001
+  },
+  {
+    "category_id": 13,
+    "continuous_playback": false,
+    "end_at": null,
+    "id": 12001002,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 12001001
+      }
+    ],
+    "key_tasks": [],
+    "name": "様子のおかしい島民たち",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-09-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 12001002
+  },
+  {
+    "category_id": 13,
+    "continuous_playback": false,
+    "end_at": null,
+    "id": 12001003,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 12001002
+      }
+    ],
+    "key_tasks": [],
+    "name": "甘露に癒されて",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-09-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 12001003
+  },
+  {
+    "category_id": 13,
+    "continuous_playback": false,
+    "end_at": null,
+    "id": 12001004,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 12001003
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1973,
+        "count": 200,
+        "name": "イベントポイントを200入手\n"
+      }
+    ],
+    "name": "おもてなし",
+    "rewards": [
+      {
+        "id": 1139,
+        "quantity": 1,
+        "resource_params": null,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-09-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 12001004
+  },
+  {
+    "category_id": 14,
+    "continuous_playback": false,
+    "end_at": null,
+    "id": 12001005,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 12001004
+      }
+    ],
+    "key_tasks": [],
+    "name": "仙人の実を探しに",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-09-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 12001005
+  },
+  {
+    "category_id": 14,
+    "continuous_playback": false,
+    "end_at": null,
+    "id": 12001006,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 12001005
+      }
+    ],
+    "key_tasks": [],
+    "name": "イェルカの過去",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-09-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 12001006
+  },
+  {
+    "category_id": 14,
+    "continuous_playback": false,
+    "end_at": null,
+    "id": 12001007,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 12001006
+      }
+    ],
+    "key_tasks": [],
+    "name": "管理対象",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-09-12T03:00:00.000Z",
+    "subsequent_branch": true,
+    "talk_event_id": 12001007
+  },
+  {
+    "category_id": 14,
+    "continuous_playback": true,
+    "end_at": null,
+    "id": 12001008,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 3,
+        "id": 12001007
+      }
+    ],
+    "key_tasks": [],
+    "name": "親の仇",
+    "rewards": [],
+    "start_at": "2025-09-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 12001008
+  },
+  {
+    "category_id": 14,
+    "continuous_playback": false,
+    "end_at": null,
+    "id": 12001009,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 2,
+        "id": 12001007
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1973,
+        "count": 600,
+        "name": "イベントポイントを600入手\n"
+      }
+    ],
+    "name": "小さい命",
+    "rewards": [
+      {
+        "id": 1140,
+        "quantity": 1,
+        "resource_params": null,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-09-12T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 12001009
   }
 ]

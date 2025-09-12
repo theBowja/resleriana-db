@@ -15564,6 +15564,32 @@
   },
   {
     "ability_category_type": null,
+    "description": "自身がイェルカ【Nifty Rover】の時、猛る炎パネル獲得時、自身に「貫通力+{0}」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001138,
+        "value": 10000
+      }
+    ],
+    "id": 301262,
+    "name": "穢レ貫ク聖ナル蹄"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がイェルカ【九偉人 No.3】の時、強化系パネル獲得時、自身に「クリティカル確率+{0}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001139,
+        "value": 10000
+      }
+    ],
+    "id": 301263,
+    "name": "聖ナル蹄"
+  },
+  {
+    "ability_category_type": null,
     "description": "魔攻・魔防+{0}%",
     "effects": [
       {
@@ -18441,6 +18467,37 @@
     ],
     "id": 1980207,
     "name": "武を極めし領主"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が打属性のキャラは「物攻+{0}%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500002,
+        "value": 4000
+      }
+    ],
+    "id": 1980208,
+    "name": "いなせな風来坊"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「世話焼き」は「スキルダメージ・バーストスキルダメージ+{0}%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500051,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500054,
+        "value": 5000
+      }
+    ],
+    "id": 1980209,
+    "name": "受けた恩は返すものさ"
   },
   {
     "ability_category_type": null,
@@ -23941,6 +23998,42 @@
     "name": "錬金術の力、見せてみよ！"
   },
   {
+    "ability_category_type": null,
+    "description": "自身が猛る炎パネル獲得時、自身のHPを{0}%回復し、自身に「クリティカル確率+{1}%」を2回行動終了するまで付与し、バーストスキルを発動できる",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001448,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001405,
+        "value": 10000
+      }
+    ],
+    "id": 1990390,
+    "name": "龍鱗の猛る炎"
+  },
+  {
+    "ability_category_type": null,
+    "description": "クリティカル攻撃後、自身に「クリティカルダメージ+{0}%」を付与(上限150%)<br>スキルで撃破時、そのスキル使用前から自身に付与されている被ダメージDOWN効果を1回延長",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001407,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001408,
+        "value": 100
+      }
+    ],
+    "id": 1990391,
+    "name": "粋ってやつを見せてやるよ"
+  },
+  {
     "ability_category_type": 2,
     "description": "味方全員のスキルダメージ+{0}％",
     "effects": [
@@ -24914,6 +25007,42 @@
     ],
     "id": 1990466,
     "name": "魔攻アップⅠ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "WEAK攻撃後、自身に「スキルダメージ+{0}%」を付与(上限100%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001436,
+        "value": 2500
+      }
+    ],
+    "id": 1990467,
+    "name": "九偉人の力-Ⅲ-"
+  },
+  {
+    "ability_category_type": null,
+    "description": "WEAK攻撃後、自身に「ターン開始時、HP{0}%回復」を2回行動開始するまで付与<br>HP回復を受けた時、自身に「魔攻+{1}%」(上限70%)と「素早さ+{2}%」(上限30%)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001437,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001438,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001439,
+        "value": 300
+      }
+    ],
+    "id": 1990468,
+    "name": "アタシの心意気"
   },
   {
     "ability_category_type": null,
@@ -39707,6 +39836,96 @@
   },
   {
     "ability_category_type": null,
+    "description": "得意属性が打属性かつアタッカーの時、クリティカルダメージ+{0}%<br>「世話焼き」の時、全体攻撃のスキルダメージ+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000275,
+        "value": 800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000276,
+        "value": 500
+      }
+    ],
+    "id": 4991108,
+    "name": "想力「粋を嗜む」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が打属性かつアタッカーの時、クリティカルダメージ+{0}%<br>「世話焼き」の時、全体攻撃のスキルダメージ+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000275,
+        "value": 2600
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000276,
+        "value": 1500
+      }
+    ],
+    "id": 4991109,
+    "name": "想力「粋を嗜む」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が打属性かつアタッカーの時、クリティカルダメージ+{0}%<br>「世話焼き」の時、全体攻撃のスキルダメージ+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000275,
+        "value": 4400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000276,
+        "value": 2500
+      }
+    ],
+    "id": 4991110,
+    "name": "想力「粋を嗜む」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が打属性かつアタッカーの時、クリティカルダメージ+{0}%<br>「世話焼き」の時、全体攻撃のスキルダメージ+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000275,
+        "value": 6200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000276,
+        "value": 3500
+      }
+    ],
+    "id": 4991111,
+    "name": "想力「粋を嗜む」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が打属性かつアタッカーの時、クリティカルダメージ+{0}%<br>「世話焼き」の時、全体攻撃のスキルダメージ+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000275,
+        "value": 8000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000276,
+        "value": 4500
+      }
+    ],
+    "id": 4991112,
+    "name": "想力「粋を嗜む」"
+  },
+  {
+    "ability_category_type": null,
     "description": "突属性のスキルダメージ{0}%アップ",
     "effects": [
       {
@@ -50588,6 +50807,45 @@
   },
   {
     "ability_category_type": null,
+    "description": "得意属性が打属性のキャラのクリティカルダメージ{0}%アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 13000383,
+        "value": 100
+      }
+    ],
+    "id": 7000842,
+    "name": "得意属性が打属性のキャラのクリティカルダメージ上昇(1)"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が打属性のキャラのクリティカルダメージ{0}%アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 13000383,
+        "value": 200
+      }
+    ],
+    "id": 7000843,
+    "name": "得意属性が打属性のキャラのクリティカルダメージ上昇(2)"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が打属性のキャラのクリティカルダメージ{0}%アップ",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 13000383,
+        "value": 400
+      }
+    ],
+    "id": 7000844,
+    "name": "得意属性が打属性のキャラのクリティカルダメージ上昇(3)"
+  },
+  {
+    "ability_category_type": null,
     "description": "被クリティカル100%減少\n戦闘アイテムの被ダメージ90%減少",
     "effects": [
       {
@@ -54922,6 +55180,19 @@
   },
   {
     "ability_category_type": null,
+    "description": "ブレイク時、敵全体に再生5%(2回)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 880035001,
+        "value": 500
+      }
+    ],
+    "id": 26035020,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
     "description": "ブレイク復帰時、一度だけ以下の効果を得る\n・与えるマイナス効果量UP(2回)付与\n・再生(2回)付与",
     "effects": [
       {
@@ -57133,6 +57404,72 @@
       }
     ],
     "id": 26147001,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "雷、打属性以外の属性耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000719,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000720,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000721,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000717,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000718,
+        "value": 0
+      }
+    ],
+    "id": 26147002,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "ウェーブ開始時、味方全体に被ダメージDOWN(30%)付与 ブレイク時、味方全体の被ダメージDOWN解除 ブレイク復帰時、自身に与ダメージ+50%、被ダメージ+30%、状態異常耐性-50%\n",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 81147001,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81147002,
+        "value": 9900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86147001,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86147002,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86147003,
+        "value": 5000
+      }
+    ],
+    "id": 26147003,
     "name": ""
   },
   {
@@ -78943,6 +79280,19 @@
   },
   {
     "ability_category_type": null,
+    "description": "イェルカ【Nifty Rover】のスキル威力+100%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 20000004,
+        "value": 10000
+      }
+    ],
+    "id": 600000720,
+    "name": "イェルカ【Nifty Rover】のスキル威力UP"
+  },
+  {
+    "ability_category_type": null,
     "description": "鏑矢【地に輝ける一番星】または千歳【かんなぎの乙女】を編成時、被ダメージ-25％(上限25％)",
     "effects": [
       {
@@ -78958,6 +79308,37 @@
     ],
     "id": 600000722,
     "name": "鏑矢【地に輝ける一番星】または千歳【かんなぎの乙女】を編成時、被ダメージ減少"
+  },
+  {
+    "ability_category_type": null,
+    "description": "千歳【かんなぎの乙女】またはイェルカ【Nifty Rover】を編成時、被ダメージ-25％(上限25％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000790,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000787,
+        "value": 2500
+      }
+    ],
+    "id": 600000726,
+    "name": "千歳【かんなぎの乙女】またはイェルカ【Nifty Rover】を編成時、被ダメージ減少"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身が「九偉人」のとき、スキル威力+100%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 20000792,
+        "value": 10000
+      }
+    ],
+    "id": 600000731,
+    "name": "自身が「九偉人」のとき、スキル威力UP"
   },
   {
     "ability_category_type": null,

@@ -45068,7 +45068,7 @@
     "guide_mission_tab_id": null,
     "id": 1780105,
     "label": null,
-    "name": "奇々怪々なりやキカイ島スコアバトル1をクリアしよう",
+    "name": "奇々怪々なりやキカイ島　前編スコアバトル1をクリアしよう",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
     "prev_mission_id": null,
@@ -45095,7 +45095,7 @@
     "guide_mission_tab_id": null,
     "id": 1780106,
     "label": null,
-    "name": "奇々怪々なりやキカイ島スコアバトル2をクリアしよう",
+    "name": "奇々怪々なりやキカイ島　前編スコアバトル2をクリアしよう",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
     "prev_mission_id": null,
@@ -45122,7 +45122,7 @@
     "guide_mission_tab_id": null,
     "id": 1780107,
     "label": null,
-    "name": "奇々怪々なりやキカイ島スコアバトル3をクリアしよう",
+    "name": "奇々怪々なりやキカイ島　前編スコアバトル3をクリアしよう",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
     "prev_mission_id": null,
@@ -45149,7 +45149,7 @@
     "guide_mission_tab_id": null,
     "id": 1780108,
     "label": null,
-    "name": "奇々怪々なりやキカイ島ボスチャレンジに挑戦しよう",
+    "name": "奇々怪々なりやキカイ島　前編ボスチャレンジに挑戦しよう",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
     "prev_mission_id": null,
@@ -45180,7 +45180,7 @@
     "guide_mission_tab_id": null,
     "id": 1780109,
     "label": null,
-    "name": "奇々怪々なりやキカイ島SPチャレンジに挑戦しよう",
+    "name": "奇々怪々なりやキカイ島　前編SPチャレンジに挑戦しよう",
     "name_when_count_one": "",
     "navigation_task_url_id": null,
     "prev_mission_id": null,
@@ -45231,6 +45231,623 @@
       "focused_on": 1,
       "transition": 22
     }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 200,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780111,
+    "label": null,
+    "name": "奇々怪々なりやキカイ島後編ボスチャレンジをスコアランクSSでクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 82,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 2000101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1979,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": "2025-10-03T03:00:00.000Z",
+    "event_tab_id": 200,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780112,
+    "label": null,
+    "name": "奇々怪々なりやキカイ島　後編レジェンドチャレンジに挑戦しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 81,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 2000103,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 100004335,
+      "transition": 31
+    }
+  },
+  {
+    "category": 3,
+    "end_at": "2025-10-05T03:00:00.000Z",
+    "event_tab_id": 200,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780113,
+    "label": null,
+    "name": "スタミナを{}消費しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 80,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 2000107,
+        "start_at": null
+      },
+      {
+        "count": 200,
+        "reward_set_id": 2000107,
+        "start_at": null
+      },
+      {
+        "count": 300,
+        "reward_set_id": 2000107,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 3
+    }
+  },
+  {
+    "category": 3,
+    "end_at": "2025-10-05T03:00:00.000Z",
+    "event_tab_id": 200,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780114,
+    "label": null,
+    "name": "釣鐘草を{}個入手しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 79,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 50,
+        "reward_set_id": 2000108,
+        "start_at": null
+      },
+      {
+        "count": 100,
+        "reward_set_id": 2000108,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": "2025-10-05T03:00:00.000Z",
+    "event_tab_id": 200,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780115,
+    "label": null,
+    "name": "バトルコイン[奇々怪々なりやキカイ島後編]を{}枚獲得しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 78,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 2000107,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": null
+  },
+  {
+    "category": 6,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780116,
+    "label": null,
+    "name": "奇々怪々なりやキカイ島ミッションバトルを1回クリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 17,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 2000109,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1999,
+    "transition": null
+  },
+  {
+    "category": 6,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780117,
+    "label": null,
+    "name": "得意属性が打属性のキャラを\n2人以上編成してクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 16,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 2000110,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1984,
+    "transition": null
+  },
+  {
+    "category": 6,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780118,
+    "label": null,
+    "name": "得意属性が打属性のキャラを\n3人以上編成してクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 15,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 2000111,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1985,
+    "transition": null
+  },
+  {
+    "category": 6,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780119,
+    "label": null,
+    "name": "得意属性が打属性のキャラを\n4人以上編成してクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 14,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 2000112,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1986,
+    "transition": null
+  },
+  {
+    "category": 6,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780120,
+    "label": null,
+    "name": "得意属性が火属性のキャラを\n2人以上編成してクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 13,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 2000102,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1989,
+    "transition": null
+  },
+  {
+    "category": 6,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780121,
+    "label": null,
+    "name": "得意属性が火属性のキャラを\n3人以上編成してクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 12,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 2000115,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1990,
+    "transition": null
+  },
+  {
+    "category": 6,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780122,
+    "label": null,
+    "name": "得意属性が火属性のキャラを\n4人以上編成してクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 11,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 2000117,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1991,
+    "transition": null
+  },
+  {
+    "category": 6,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780123,
+    "label": null,
+    "name": "得意属性が風属性のキャラを\n2人以上編成してクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 10,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 2000102,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1994,
+    "transition": null
+  },
+  {
+    "category": 6,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780124,
+    "label": null,
+    "name": "得意属性が風属性のキャラを\n3人以上編成してクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 9,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 2000115,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1995,
+    "transition": null
+  },
+  {
+    "category": 6,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780125,
+    "label": null,
+    "name": "得意属性が氷属性のキャラを\n2人以上編成してクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 8,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 2000114,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1992,
+    "transition": null
+  },
+  {
+    "category": 6,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780126,
+    "label": null,
+    "name": "得意属性が氷属性のキャラを\n3人以上編成してクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 7,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 2000116,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1993,
+    "transition": null
+  },
+  {
+    "category": 6,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780127,
+    "label": null,
+    "name": "得意属性が雷属性のキャラを\n2人以上編成してクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 6,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 2000113,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1987,
+    "transition": null
+  },
+  {
+    "category": 6,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780128,
+    "label": null,
+    "name": "得意属性が雷属性のキャラを\n3人以上編成してクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 5,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 2000114,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1988,
+    "transition": null
+  },
+  {
+    "category": 6,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780129,
+    "label": null,
+    "name": "得意属性が斬属性のキャラを\n2人以上編成してクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 4,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 2000114,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1996,
+    "transition": null
+  },
+  {
+    "category": 6,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780130,
+    "label": null,
+    "name": "得意属性が斬属性のキャラを\n3人以上編成してクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 3,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 2000116,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1997,
+    "transition": null
+  },
+  {
+    "category": 6,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780131,
+    "label": null,
+    "name": "得意属性が突属性のキャラを\n2人以上編成してクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 2,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 2000102,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 1998,
+    "transition": null
+  },
+  {
+    "category": 6,
+    "end_at": null,
+    "event_tab_id": null,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 1780132,
+    "label": null,
+    "name": "得意属性が突属性のキャラを\n3人以上編成してクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 1,
+    "reset_cycle": null,
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 2000117,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 2034,
+    "transition": null
   },
   {
     "category": 3,
@@ -48982,6 +49599,500 @@
     "transition": {
       "equipment_slot_type": null,
       "focused_on": 100004133,
+      "transition": 31
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 202,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 2020001,
+    "label": null,
+    "name": "総力戦β初級 中央をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 1,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1700101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 2003,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 202,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 2020002,
+    "label": null,
+    "name": "総力戦β初級のマスを1ライン揃えよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 2,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1700101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 2004,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 203,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 2030003,
+    "label": null,
+    "name": "総力戦β上級 中央をクリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 1,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1710101,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": 2005,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 204,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 2042001,
+    "label": null,
+    "name": "九偉人伝 弱きを救う者 ゴゥ LEGEND FESを{}回引こう※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 7,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 2042001,
+        "start_at": null
+      },
+      {
+        "count": 20,
+        "reward_set_id": 2042001,
+        "start_at": null
+      },
+      {
+        "count": 30,
+        "reward_set_id": 2042001,
+        "start_at": null
+      },
+      {
+        "count": 40,
+        "reward_set_id": 2042001,
+        "start_at": null
+      },
+      {
+        "count": 50,
+        "reward_set_id": 2042002,
+        "start_at": null
+      },
+      {
+        "count": 60,
+        "reward_set_id": 2042002,
+        "start_at": null
+      },
+      {
+        "count": 70,
+        "reward_set_id": 2042002,
+        "start_at": null
+      },
+      {
+        "count": 80,
+        "reward_set_id": 2042002,
+        "start_at": null
+      },
+      {
+        "count": 90,
+        "reward_set_id": 2042002,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 204,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 2042002,
+    "label": null,
+    "name": "九偉人伝 弱きを救う者 ゴゥ LEGEND FESを{}回引こう※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 6,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 100,
+        "reward_set_id": 2042008,
+        "start_at": null
+      },
+      {
+        "count": 110,
+        "reward_set_id": 2042003,
+        "start_at": null
+      },
+      {
+        "count": 120,
+        "reward_set_id": 2042003,
+        "start_at": null
+      },
+      {
+        "count": 130,
+        "reward_set_id": 2042004,
+        "start_at": null
+      },
+      {
+        "count": 140,
+        "reward_set_id": 2042004,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 204,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 2042003,
+    "label": null,
+    "name": "九偉人伝 弱きを救う者 ゴゥ LEGEND FESを{}回引こう※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 5,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 150,
+        "reward_set_id": 2042009,
+        "start_at": null
+      },
+      {
+        "count": 160,
+        "reward_set_id": 2042005,
+        "start_at": null
+      },
+      {
+        "count": 170,
+        "reward_set_id": 2042005,
+        "start_at": null
+      },
+      {
+        "count": 180,
+        "reward_set_id": 2042006,
+        "start_at": null
+      },
+      {
+        "count": 190,
+        "reward_set_id": 2042006,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 204,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 2042004,
+    "label": null,
+    "name": "九偉人伝 弱きを救う者 ゴゥ LEGEND FESを{}回引こう※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 4,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 200,
+        "reward_set_id": 2042007,
+        "start_at": null
+      },
+      {
+        "count": 210,
+        "reward_set_id": 2042001,
+        "start_at": null
+      },
+      {
+        "count": 220,
+        "reward_set_id": 2042001,
+        "start_at": null
+      },
+      {
+        "count": 230,
+        "reward_set_id": 2042001,
+        "start_at": null
+      },
+      {
+        "count": 240,
+        "reward_set_id": 2042001,
+        "start_at": null
+      },
+      {
+        "count": 250,
+        "reward_set_id": 2042002,
+        "start_at": null
+      },
+      {
+        "count": 260,
+        "reward_set_id": 2042002,
+        "start_at": null
+      },
+      {
+        "count": 270,
+        "reward_set_id": 2042002,
+        "start_at": null
+      },
+      {
+        "count": 280,
+        "reward_set_id": 2042002,
+        "start_at": null
+      },
+      {
+        "count": 290,
+        "reward_set_id": 2042002,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 204,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 2042005,
+    "label": null,
+    "name": "九偉人伝 弱きを救う者 ゴゥ LEGEND FESを{}回引こう※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 3,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 300,
+        "reward_set_id": 2042008,
+        "start_at": null
+      },
+      {
+        "count": 310,
+        "reward_set_id": 2042003,
+        "start_at": null
+      },
+      {
+        "count": 320,
+        "reward_set_id": 2042003,
+        "start_at": null
+      },
+      {
+        "count": 330,
+        "reward_set_id": 2042004,
+        "start_at": null
+      },
+      {
+        "count": 340,
+        "reward_set_id": 2042004,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 204,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 2042006,
+    "label": null,
+    "name": "九偉人伝 弱きを救う者 ゴゥ LEGEND FESを{}回引こう※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 2,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 350,
+        "reward_set_id": 2042009,
+        "start_at": null
+      },
+      {
+        "count": 360,
+        "reward_set_id": 2042005,
+        "start_at": null
+      },
+      {
+        "count": 370,
+        "reward_set_id": 2042005,
+        "start_at": null
+      },
+      {
+        "count": 380,
+        "reward_set_id": 2042006,
+        "start_at": null
+      },
+      {
+        "count": 390,
+        "reward_set_id": 2042006,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 204,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 2042007,
+    "label": null,
+    "name": "九偉人伝 弱きを救う者 ゴゥ LEGEND FESを{}回引こう※有償限定も含む",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 1,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 400,
+        "reward_set_id": 2042007,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 4
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 209,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 2093001,
+    "label": null,
+    "name": "縁結ぶ者　星照らす道レジェンドチャレンジに挑戦しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 1,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 1813001,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 100004435,
       "transition": 31
     }
   },
@@ -66377,6 +67488,349 @@
       {
         "count": 30,
         "reward_set_id": 100066041,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 13
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 205,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 22000001,
+    "label": null,
+    "name": "ミッション期間中{}日ログインしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 100,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 2,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 3,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 4,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 5,
+        "reward_set_id": 100220040,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": null
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 205,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 22000002,
+    "label": null,
+    "name": "武器を{}回調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 99,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 5,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 10,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 15,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 20,
+        "reward_set_id": 100220040,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": 1,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 205,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 22000003,
+    "label": null,
+    "name": "防具を{}回調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 98,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 5,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 10,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 15,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 20,
+        "reward_set_id": 100220040,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": 2,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 205,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 22000004,
+    "label": null,
+    "name": "装飾品を{}回調合しよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 97,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 1,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 5,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 10,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 15,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 20,
+        "reward_set_id": 100220040,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": 3,
+      "focused_on": 1,
+      "transition": 22
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 205,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 22000005,
+    "label": null,
+    "name": "スコアバトルを{}回クリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 96,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 20,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 40,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 60,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 80,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 100,
+        "reward_set_id": 100220040,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 17
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 205,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 22000006,
+    "label": null,
+    "name": "育成クエストを{}回クリアしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 95,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 20,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 40,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 60,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 80,
+        "reward_set_id": 100220040,
+        "start_at": null
+      },
+      {
+        "count": 100,
+        "reward_set_id": 100220040,
+        "start_at": null
+      }
+    ],
+    "total_task_condition_id": null,
+    "transition": {
+      "equipment_slot_type": null,
+      "focused_on": 1,
+      "transition": 10
+    }
+  },
+  {
+    "category": 3,
+    "end_at": null,
+    "event_tab_id": 205,
+    "guide_mission_home_label": null,
+    "guide_mission_pickup_reward": null,
+    "guide_mission_step_id": null,
+    "guide_mission_tab_id": null,
+    "id": 22000007,
+    "label": null,
+    "name": "「大切なものを取り戻しに」のレベルを{}にしよう",
+    "name_when_count_one": "",
+    "navigation_task_url_id": null,
+    "prev_mission_id": null,
+    "priority": 94,
+    "reset_cycle": null,
+    "start_at": null,
+    "steps": [
+      {
+        "count": 10,
+        "reward_set_id": 100220041,
+        "start_at": null
+      },
+      {
+        "count": 20,
+        "reward_set_id": 100220041,
+        "start_at": null
+      },
+      {
+        "count": 30,
+        "reward_set_id": 100220041,
         "start_at": null
       }
     ],

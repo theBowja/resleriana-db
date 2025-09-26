@@ -1242,5 +1242,304 @@
     "start_at": "2025-09-12T03:00:00.000Z",
     "subsequent_branch": false,
     "talk_event_id": 12001009
+  },
+  {
+    "category_id": 15,
+    "continuous_playback": false,
+    "end_at": null,
+    "id": 12001010,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 12001004
+      }
+    ],
+    "key_tasks": [],
+    "name": "魔物を打ち倒しに",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 12001010
+  },
+  {
+    "category_id": 15,
+    "continuous_playback": false,
+    "end_at": null,
+    "id": 12001011,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 12001010
+      }
+    ],
+    "key_tasks": [],
+    "name": "ゴゥの思い出",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 12001011
+  },
+  {
+    "category_id": 15,
+    "continuous_playback": false,
+    "end_at": null,
+    "id": 12001012,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 12001011
+      }
+    ],
+    "key_tasks": [],
+    "name": "少年の好奇心",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "subsequent_branch": true,
+    "talk_event_id": 12001012
+  },
+  {
+    "category_id": 15,
+    "continuous_playback": true,
+    "end_at": null,
+    "id": 12001013,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 3,
+        "id": 12001012
+      }
+    ],
+    "key_tasks": [],
+    "name": "助けてお兄ちゃん",
+    "rewards": [],
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 12001013
+  },
+  {
+    "category_id": 15,
+    "continuous_playback": false,
+    "end_at": null,
+    "id": 12001014,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 2,
+        "id": 12001012
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1973,
+        "count": 800,
+        "name": "イベントポイントを800入手"
+      }
+    ],
+    "name": "命の優先順位",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 12001014
+  },
+  {
+    "category_id": 13,
+    "continuous_playback": false,
+    "end_at": null,
+    "id": 12001015,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 12001009
+      },
+      {
+        "condition": null,
+        "id": 12001014
+      }
+    ],
+    "key_tasks": [],
+    "name": "集落への襲撃",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 12001015
+  },
+  {
+    "category_id": 13,
+    "continuous_playback": false,
+    "end_at": null,
+    "id": 12001016,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 12001015
+      }
+    ],
+    "key_tasks": [],
+    "name": "鬼界島",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 12001016
+  },
+  {
+    "category_id": 13,
+    "continuous_playback": false,
+    "end_at": null,
+    "id": 12001017,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 12001016
+      }
+    ],
+    "key_tasks": [],
+    "name": "「粋」とは",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "subsequent_branch": true,
+    "talk_event_id": 12001017
+  },
+  {
+    "category_id": 13,
+    "continuous_playback": true,
+    "end_at": null,
+    "id": 12001018,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 3,
+        "id": 12001017
+      }
+    ],
+    "key_tasks": [],
+    "name": "意地っ張り",
+    "rewards": [],
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 12001018
+  },
+  {
+    "category_id": 13,
+    "continuous_playback": false,
+    "end_at": null,
+    "id": 12001019,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": 2,
+        "id": 12001017
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1973,
+        "count": 1000,
+        "name": "イベントポイントを1000入手"
+      }
+    ],
+    "name": "相容れない思想",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 12001019
+  },
+  {
+    "category_id": 13,
+    "continuous_playback": false,
+    "end_at": null,
+    "id": 12001020,
+    "key_quest_id": null,
+    "key_stories": [
+      {
+        "condition": null,
+        "id": 12001019
+      }
+    ],
+    "key_tasks": [
+      {
+        "condition_id": 1973,
+        "count": 1000,
+        "name": "イベントポイントを1000入手"
+      },
+      {
+        "condition_id": 1980,
+        "count": 1,
+        "name": "きょうだいゲンカをクリア"
+      }
+    ],
+    "name": "悔いはない",
+    "rewards": [
+      {
+        "id": 1,
+        "quantity": 50,
+        "resource_params": null,
+        "type": 1
+      }
+    ],
+    "start_at": "2025-09-19T03:00:00.000Z",
+    "subsequent_branch": false,
+    "talk_event_id": 12001020
   }
 ]

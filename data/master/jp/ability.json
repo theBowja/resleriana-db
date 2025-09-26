@@ -15590,6 +15590,19 @@
   },
   {
     "ability_category_type": null,
+    "description": "自身がゴゥ【Faithful Fighter】の時、攻撃を受けた時、物攻が最も高い味方1人に「物理攻撃スキルダメージ+{0}%」を1回行動終了するまで付与(上限2個)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001143,
+        "value": 3200
+      }
+    ],
+    "id": 301264,
+    "name": "天ヲ断チ切ル刀刃"
+  },
+  {
+    "ability_category_type": null,
     "description": "魔攻・魔防+{0}%",
     "effects": [
       {
@@ -18498,6 +18511,24 @@
     ],
     "id": 1980209,
     "name": "受けた恩は返すものさ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が打属性のキャラは「物防・魔防+{0}%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500004,
+        "value": 3500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500005,
+        "value": 3500
+      }
+    ],
+    "id": 1980210,
+    "name": "侠気に富んだ熱血漢"
   },
   {
     "ability_category_type": null,
@@ -25043,6 +25074,97 @@
     ],
     "id": 1990468,
     "name": "アタシの心意気"
+  },
+  {
+    "ability_category_type": null,
+    "description": "敵にとても狙われやすくなる<br>自身の物防・魔防+{0}%<br><br>得意属性が打属性の味方全員の最大HP+{1}%<br>バトル開始時、味方全員のHPを{2}%回復",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001113,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001440,
+        "value": 4000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001131,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001114,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72000914,
+        "value": 10000
+      }
+    ],
+    "id": 1990469,
+    "name": "兄としての責任"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のHPが一定以下になった時、以下の効果をそれぞれ発動する(全て発動上限1回)(戦闘不能時以外で解除されない)<br>80%以下：得意属性が打属性の味方全員に「物防・魔防+{0}%」を付与<br>50%以下：得意属性が打属性の味方全員に「物防・魔防+{1}%」を付与<br>30%以下：得意属性が打属性の味方全員に「物防・魔防+{2}%」を付与し、自身のHPを{3}%回復",
+    "effects": [
+      {
+        "ability_timing_value": 8000,
+        "id": 72001441,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": 5000,
+        "id": 72001443,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": 3000,
+        "id": 72001445,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": 3000,
+        "id": 72001447,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": 8000,
+        "id": 72001442,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": 5000,
+        "id": 72001444,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": 3000,
+        "id": 72001446,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": 8000,
+        "id": 72001449,
+        "value": 0
+      },
+      {
+        "ability_timing_value": 5000,
+        "id": 72001450,
+        "value": 0
+      },
+      {
+        "ability_timing_value": 2000,
+        "id": 72001451,
+        "value": 0
+      }
+    ],
+    "id": 1990470,
+    "name": "私が守ってみせる！"
   },
   {
     "ability_category_type": null,
@@ -39923,6 +40045,356 @@
     ],
     "id": 4991112,
     "name": "想力「粋を嗜む」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が打属性かつディフェンダーであり、攻撃を受けた時、敵全体に「打属性耐性-{0}%」を1回攻撃を受けるまで付与(上限2個)<br>「真面目」の時、受けるダメージ-{1}%(固定)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000277,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000278,
+        "value": 500
+      }
+    ],
+    "id": 4991113,
+    "name": "想力「兄の喜び」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が打属性かつディフェンダーであり、攻撃を受けた時、敵全体に「打属性耐性-{0}%」を1回攻撃を受けるまで付与(上限2個)<br>「真面目」の時、受けるダメージ-{1}%(固定)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000277,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000278,
+        "value": 1000
+      }
+    ],
+    "id": 4991114,
+    "name": "想力「兄の喜び」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が打属性かつディフェンダーであり、攻撃を受けた時、敵全体に「打属性耐性-{0}%」を1回攻撃を受けるまで付与(上限2個)<br>「真面目」の時、受けるダメージ-{1}%(固定)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000277,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000278,
+        "value": 1500
+      }
+    ],
+    "id": 4991115,
+    "name": "想力「兄の喜び」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が打属性かつディフェンダーであり、攻撃を受けた時、敵全体に「打属性耐性-{0}%」を1回攻撃を受けるまで付与(上限2個)<br>「真面目」の時、受けるダメージ-{1}%(固定)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000277,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000278,
+        "value": 2000
+      }
+    ],
+    "id": 4991116,
+    "name": "想力「兄の喜び」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が打属性かつディフェンダーであり、攻撃を受けた時、敵全体に「打属性耐性-{0}%」を1回攻撃を受けるまで付与(上限2個)<br>「真面目」の時、受けるダメージ-{1}%(固定)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000277,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000278,
+        "value": 2500
+      }
+    ],
+    "id": 4991117,
+    "name": "想力「兄の喜び」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が物理属性かつアタッカーの時、スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000279,
+        "value": 1500
+      }
+    ],
+    "id": 4991118,
+    "name": "攻者物理ダメージアップⅤ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が物理属性かつアタッカーの時、スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000279,
+        "value": 4900
+      }
+    ],
+    "id": 4991119,
+    "name": "攻者物理ダメージアップⅤ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が物理属性かつアタッカーの時、スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000279,
+        "value": 8300
+      }
+    ],
+    "id": 4991120,
+    "name": "攻者物理ダメージアップⅤ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が物理属性かつアタッカーの時、スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000279,
+        "value": 11600
+      }
+    ],
+    "id": 4991121,
+    "name": "攻者物理ダメージアップⅤ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が物理属性かつアタッカーの時、スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000279,
+        "value": 15000
+      }
+    ],
+    "id": 4991122,
+    "name": "攻者物理ダメージアップⅤ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が魔法属性かつアタッカーの時、スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000280,
+        "value": 1500
+      }
+    ],
+    "id": 4991123,
+    "name": "攻者魔法ダメージアップⅤ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が魔法属性かつアタッカーの時、スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000280,
+        "value": 4900
+      }
+    ],
+    "id": 4991124,
+    "name": "攻者魔法ダメージアップⅤ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が魔法属性かつアタッカーの時、スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000280,
+        "value": 8300
+      }
+    ],
+    "id": 4991125,
+    "name": "攻者魔法ダメージアップⅤ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が魔法属性かつアタッカーの時、スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000280,
+        "value": 11600
+      }
+    ],
+    "id": 4991126,
+    "name": "攻者魔法ダメージアップⅤ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が魔法属性かつアタッカーの時、スキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000280,
+        "value": 15000
+      }
+    ],
+    "id": 4991127,
+    "name": "攻者魔法ダメージアップⅤ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のHPが50%以下の時、ターン開始時、自身のHP回復+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000281,
+        "value": 100
+      }
+    ],
+    "id": 4991128,
+    "name": "逆境ヒールリズムⅡ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のHPが50%以下の時、ターン開始時、自身のHP回復+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000281,
+        "value": 200
+      }
+    ],
+    "id": 4991129,
+    "name": "逆境ヒールリズムⅡ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のHPが50%以下の時、ターン開始時、自身のHP回復+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000281,
+        "value": 300
+      }
+    ],
+    "id": 4991130,
+    "name": "逆境ヒールリズムⅡ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のHPが50%以下の時、ターン開始時、自身のHP回復+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000281,
+        "value": 400
+      }
+    ],
+    "id": 4991131,
+    "name": "逆境ヒールリズムⅡ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のHPが50%以下の時、ターン開始時、自身のHP回復+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000281,
+        "value": 500
+      }
+    ],
+    "id": 4991132,
+    "name": "逆境ヒールリズムⅡ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がブレイカーの時、ブレイクダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000282,
+        "value": 5000
+      }
+    ],
+    "id": 4991133,
+    "name": "破者ブレイクアップⅢ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がブレイカーの時、ブレイクダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000282,
+        "value": 5000
+      }
+    ],
+    "id": 4991134,
+    "name": "破者ブレイクアップⅢ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がブレイカーの時、ブレイクダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000282,
+        "value": 5000
+      }
+    ],
+    "id": 4991135,
+    "name": "破者ブレイクアップⅢ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がブレイカーの時、ブレイクダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000282,
+        "value": 5000
+      }
+    ],
+    "id": 4991136,
+    "name": "破者ブレイクアップⅢ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がブレイカーの時、ブレイクダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000282,
+        "value": 5000
+      }
+    ],
+    "id": 4991137,
+    "name": "破者ブレイクアップⅢ"
   },
   {
     "ability_category_type": null,
@@ -58920,6 +59392,242 @@
   },
   {
     "ability_category_type": null,
+    "description": "突、打以外の属性耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000719,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000721,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000717,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000720,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000722,
+        "value": 0
+      }
+    ],
+    "id": 26216002,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "火、打以外の属性耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000717,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000721,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000718,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000720,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000722,
+        "value": 0
+      }
+    ],
+    "id": 26216003,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "風、打以外の属性耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000719,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000717,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000718,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000720,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000722,
+        "value": 0
+      }
+    ],
+    "id": 26216004,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "氷、打以外の属性耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000719,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000721,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000718,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000717,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000722,
+        "value": 0
+      }
+    ],
+    "id": 26216005,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "雷、打以外の属性耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000719,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000721,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000718,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000720,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000717,
+        "value": 0
+      }
+    ],
+    "id": 26216006,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "斬、打以外の属性耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000719,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000721,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000718,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000720,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000722,
+        "value": 0
+      }
+    ],
+    "id": 26216007,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "打以外の属性耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000719,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000721,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000718,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000720,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000722,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000717,
+        "value": 0
+      }
+    ],
+    "id": 26216008,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
     "description": "戦闘不能時、敵全体に再生(5%)を付与",
     "effects": [
       {
@@ -58955,6 +59663,37 @@
       }
     ],
     "id": 26226001,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "HP30％以下になったとき、自身のターンを3ターン早め、行動再抽選",
+    "effects": [
+      {
+        "ability_timing_value": 3000,
+        "id": 86226002,
+        "value": 300
+      },
+      {
+        "ability_timing_value": 3000,
+        "id": 86226003,
+        "value": 0
+      }
+    ],
+    "id": 26226002,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "ブレイク時、自身の素早さUPを3つ解除",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 81226004,
+        "value": 300
+      }
+    ],
+    "id": 26226003,
     "name": ""
   },
   {
@@ -59784,6 +60523,29 @@
     ],
     "id": 26252009,
     "name": "ララ【Seaside Queen】の被ダメージDOWN"
+  },
+  {
+    "ability_category_type": null,
+    "description": "攻撃を3回受けると、自身に被クリティカル率UP(10%)を付与する(上限50%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 81251007,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81254017,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81254018,
+        "value": 10000
+      }
+    ],
+    "id": 26254001,
+    "name": ""
   },
   {
     "ability_category_type": null,
@@ -79308,6 +80070,50 @@
     ],
     "id": 600000722,
     "name": "鏑矢【地に輝ける一番星】または千歳【かんなぎの乙女】を編成時、被ダメージ減少"
+  },
+  {
+    "ability_category_type": null,
+    "description": "ゴゥ【Faithful Fighter】の被ダメージ-20％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000789,
+        "value": 2000
+      }
+    ],
+    "id": 600000723,
+    "name": "自身がゴゥ【Faithful Fighter】の被ダメージDOWN"
+  },
+  {
+    "ability_category_type": null,
+    "description": "ゴゥ【Faithful Fighter】またはイェルカ【Nifty Rover】を編成時、被ダメージ-25％(上限25％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000790,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000791,
+        "value": 2500
+      }
+    ],
+    "id": 600000724,
+    "name": "ゴゥ【Faithful Fighter】またはイェルカ【Nifty Rover】を編成時、被ダメージ減少"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身が「九偉人」のとき、スキル威力+100％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 20000792,
+        "value": 10000
+      }
+    ],
+    "id": 600000725,
+    "name": "自身が「九偉人」のとき、スキル威力UP"
   },
   {
     "ability_category_type": null,

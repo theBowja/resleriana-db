@@ -15668,6 +15668,71 @@
   },
   {
     "ability_category_type": null,
+    "description": "自身がアタッカーの時、攻撃前、対象に「打属性耐性-{0}％」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001147,
+        "value": 1500
+      }
+    ],
+    "id": 301270,
+    "name": "ぴょんぴょんルーレット"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がアタッカーの時、攻撃前、対象に「打属性耐性-{0}％」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001147,
+        "value": 1000
+      }
+    ],
+    "id": 301271,
+    "name": "ぴょんぴょんルーレット"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がサポーターの時、味方全員の物攻+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001148,
+        "value": 800
+      }
+    ],
+    "id": 301272,
+    "name": "どんけつ挑戦券"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がサポーターの時、味方全員の物攻+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001148,
+        "value": 500
+      }
+    ],
+    "id": 301273,
+    "name": "どんけつ挑戦券"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がレスナ【ヴィーナス・ノヴァ】の時、スキル発動後、物攻が最も高い味方1人に「スキルダメージ+{0}%」を2回行動終了するまで付与(上限3個)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001152,
+        "value": 1800
+      }
+    ],
+    "id": 301274,
+    "name": "ルミナスラグーン"
+  },
+  {
+    "ability_category_type": null,
     "description": "魔攻・魔防+{0}%",
     "effects": [
       {
@@ -18612,6 +18677,24 @@
     ],
     "id": 1980211,
     "name": "\"小\"悪魔サーバント"
+  },
+  {
+    "ability_category_type": null,
+    "description": "味方全員は「季節の装い」1人につき「スキルダメージ・ブレイクダメージ+{0}%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500178,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500179,
+        "value": 2000
+      }
+    ],
+    "id": 1980212,
+    "name": "常夏の島で見つけた新境地"
   },
   {
     "ability_category_type": null,
@@ -25299,6 +25382,47 @@
     ],
     "id": 1990472,
     "name": "もーっと盛り上げるんだから！"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>WAVE開始時、自身に「味方を対象としたスキル発動後、対象の次のパネルをバーストパネルに変換(空パネルの時は生成)」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001457,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001452,
+        "value": 30000
+      }
+    ],
+    "id": 1990473,
+    "name": "盛り上げていくよっ！"
+  },
+  {
+    "ability_category_type": null,
+    "description": "スキル発動後、味方全員のHPを{0}%回復し、<br>自身のバーストゲージを{1}%増加し、<br>自身に「与えるHP回復量+{2}%」を付与(上限50%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001131,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001474,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001458,
+        "value": 1000
+      }
+    ],
+    "id": 1990474,
+    "name": "バカンスチャージ"
   },
   {
     "ability_category_type": null,
@@ -40622,6 +40746,96 @@
   },
   {
     "ability_category_type": null,
+    "description": "得意属性が打属性かつサポーターの時、味方全員のWEAK攻撃ダメージ+{0}%\n「真面目」の時、与える強化効果量+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000285,
+        "value": 400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000286,
+        "value": 500
+      }
+    ],
+    "id": 4991143,
+    "name": "想力「レンズの奥の存在」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が打属性かつサポーターの時、味方全員のWEAK攻撃ダメージ+{0}%\n「真面目」の時、与える強化効果量+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000285,
+        "value": 1100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000286,
+        "value": 1400
+      }
+    ],
+    "id": 4991144,
+    "name": "想力「レンズの奥の存在」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が打属性かつサポーターの時、味方全員のWEAK攻撃ダメージ+{0}%\n「真面目」の時、与える強化効果量+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000285,
+        "value": 1700
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000286,
+        "value": 2300
+      }
+    ],
+    "id": 4991145,
+    "name": "想力「レンズの奥の存在」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が打属性かつサポーターの時、味方全員のWEAK攻撃ダメージ+{0}%\n「真面目」の時、与える強化効果量+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000285,
+        "value": 2400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000286,
+        "value": 3100
+      }
+    ],
+    "id": 4991146,
+    "name": "想力「レンズの奥の存在」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が打属性かつサポーターの時、味方全員のWEAK攻撃ダメージ+{0}%\n「真面目」の時、与える強化効果量+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000285,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000286,
+        "value": 4000
+      }
+    ],
+    "id": 4991147,
+    "name": "想力「レンズの奥の存在」"
+  },
+  {
+    "ability_category_type": null,
     "description": "突属性のスキルダメージ{0}%アップ",
     "effects": [
       {
@@ -55590,6 +55804,19 @@
       }
     ],
     "id": 26022000,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "バーストスキル被弾時、自身に被ダメージUP(50%/上限150%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 76160001,
+        "value": 5000
+      }
+    ],
+    "id": 26022001,
     "name": ""
   },
   {
@@ -80606,6 +80833,37 @@
     ],
     "id": 600000731,
     "name": "自身が「九偉人」のとき、スキル威力UP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "レスナ【ヴィーナス・ノヴァ】の与える強化効果量+150%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000819,
+        "value": 15000
+      }
+    ],
+    "id": 600000732,
+    "name": "レスナ【ヴィーナス・ノヴァ】の強化効果量UP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "マリー・ローズ【トゥインクル・ローズ】またはレスナ【ヴィーナス・ノヴァ】を編成時、被ダメージ-25％(上限25％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000816,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000826,
+        "value": 2500
+      }
+    ],
+    "id": 600000733,
+    "name": "マリー・ローズ【トゥインクル・ローズ】またはレスナ【ヴィーナス・ノヴァ】を編成時、被ダメージ減少"
   },
   {
     "ability_category_type": null,

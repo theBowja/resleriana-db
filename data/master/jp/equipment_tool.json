@@ -47492,5 +47492,583 @@
       }
     ],
     "still_path_hash": "2229041209497461048"
+  },
+  {
+    "ability_ids": [301275],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 0,
+      "wind": 0
+    },
+    "attack_attributes": [2],
+    "description": "自身がほのか【クロス・ザ・ライン】の時、バーストスキル使用前、敵全体に「打属性耐性-{0}％」を2回攻撃を受けるまで付与(上限3個)",
+    "easy_synthesis_trait_lottery_id": 7,
+    "id": 1192,
+    "large_still_path_hash": "608928597167073032",
+    "name": "シークレット・リップル",
+    "quality_group_id": 15,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 100,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [2],
+    "slot_type": 1,
+    "small_still_path_hash": "1559476655577940026",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 3,
+        "value": 145
+      }
+    ],
+    "still_path_hash": "4323500115541411284"
+  },
+  {
+    "ability_ids": [301276],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 0,
+      "wind": 0
+    },
+    "attack_attributes": [2],
+    "description": "自身がアルビーナ【トロピカル・シャイン】の時、与えるマイナス効果量+{0}％",
+    "easy_synthesis_trait_lottery_id": 14,
+    "id": 1193,
+    "large_still_path_hash": "1038557305947985945",
+    "name": "泡沫のガーター\t\t",
+    "quality_group_id": 35,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 1,
+    "small_still_path_hash": "492724906135191874",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 3,
+        "value": 145
+      }
+    ],
+    "still_path_hash": "3419064459491345584"
+  },
+  {
+    "ability_ids": [301277],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 0,
+      "wind": 0
+    },
+    "attack_attributes": [2],
+    "description": "得意属性が打属性かつアタッカーの時、受けるバーストゲージ増加量+{0}％\nさらに、バーストスキル使用前、対象に「受けるクリティカルダメージ+{1}％」を1回攻撃を受けるまで付与",
+    "easy_synthesis_trait_lottery_id": 15,
+    "id": 1194,
+    "large_still_path_hash": "1576774448140846853",
+    "name": "メイクアップ・ノブレス",
+    "quality_group_id": 5,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 100,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [1],
+    "slot_type": 2,
+    "small_still_path_hash": "7054771556540918902",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 300
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 3
+      }
+    ],
+    "still_path_hash": "5207255086961437084"
+  },
+  {
+    "ability_ids": [301278],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 0,
+      "wind": 0
+    },
+    "attack_attributes": [2],
+    "description": "得意属性が打属性かつアタッカーの時、HPが70％以上の時、スキルダメージ+{0}％",
+    "easy_synthesis_trait_lottery_id": 15,
+    "id": 1195,
+    "large_still_path_hash": "3337903128516083586",
+    "name": "クロックフェザー",
+    "quality_group_id": 5,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 100,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [1],
+    "slot_type": 3,
+    "small_still_path_hash": "8447397354150472030",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 150
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 15
+      }
+    ],
+    "still_path_hash": "6674150552256818356"
+  },
+  {
+    "ability_ids": [301279],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 0,
+      "wind": 0
+    },
+    "attack_attributes": [2],
+    "description": "得意属性が打属性かつサポーターの時、バーストスキル使用後、物攻が最も高い味方1人に「スキルダメージ+{0}％」を1回行動終了するまで付与",
+    "easy_synthesis_trait_lottery_id": 16,
+    "id": 1196,
+    "large_still_path_hash": "5042190415860128101",
+    "name": "ナイアガラ",
+    "quality_group_id": 35,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 2,
+    "small_still_path_hash": "633444281655077653",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 300
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 3
+      }
+    ],
+    "still_path_hash": "2408868915569864443"
+  },
+  {
+    "ability_ids": [301280],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 0,
+      "wind": 0
+    },
+    "attack_attributes": [2],
+    "description": "得意属性が打属性かつサポーターの時、スキル発動後、物攻が最も高い味方1人に「スキルダメージ+{0}%」を1回行動終了するまで付与(重複不可)",
+    "easy_synthesis_trait_lottery_id": 16,
+    "id": 1197,
+    "large_still_path_hash": "3880690463605137568",
+    "name": "青いイルカのヘアピン",
+    "quality_group_id": 35,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 3,
+    "small_still_path_hash": "1299913876103300202",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 150
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 15
+      }
+    ],
+    "still_path_hash": "4300462086866403720"
+  },
+  {
+    "ability_ids": [301281],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 0,
+      "wind": 0
+    },
+    "attack_attributes": [2],
+    "description": "得意属性が打属性かつブレイカーの時、バーストスキル使用前、対象に「受けるブレイクダメージ+{0}％」を1回攻撃を受けるまで付与",
+    "easy_synthesis_trait_lottery_id": 17,
+    "id": 1198,
+    "large_still_path_hash": "1861114847056165179",
+    "name": "メイクアップ・コスタ",
+    "quality_group_id": 15,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 100,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [2],
+    "slot_type": 2,
+    "small_still_path_hash": "3036973638012424185",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 300
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 3
+      }
+    ],
+    "still_path_hash": "252492799994022423"
+  },
+  {
+    "ability_ids": [301282],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 0,
+      "wind": 0
+    },
+    "attack_attributes": [2],
+    "description": "得意属性が打属性かつブレイカーの時、攻撃対象がブレイク時、物攻が最も高い味方1人に「スキルダメージ+{0}%」を1回行動終了するまで付与",
+    "easy_synthesis_trait_lottery_id": 17,
+    "id": 1199,
+    "large_still_path_hash": "7635725668976296130",
+    "name": "ホワイトハートイヤリング",
+    "quality_group_id": 15,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 100,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [2],
+    "slot_type": 3,
+    "small_still_path_hash": "3523281181502365830",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 150
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 15
+      }
+    ],
+    "still_path_hash": "1819808440467088748"
+  },
+  {
+    "ability_ids": [301283],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 0,
+      "wind": 0
+    },
+    "attack_attributes": [2],
+    "description": "得意属性が打属性かつサポーターの時、バーストスキルで攻撃後、対象に「受けるダメージ+{0}％」を1回攻撃を受けるまで付与",
+    "easy_synthesis_trait_lottery_id": 16,
+    "id": 1200,
+    "large_still_path_hash": "8250570697153814492",
+    "name": "エンジェル・ブーケ",
+    "quality_group_id": 35,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 2,
+    "small_still_path_hash": "6328721284252290482",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 300
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 3
+      }
+    ],
+    "still_path_hash": "9110876371575883872"
+  },
+  {
+    "ability_ids": [301284],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 100,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 0,
+      "wind": 0
+    },
+    "attack_attributes": [2],
+    "description": "得意属性が打属性かつサポーターの時、スキル発動後、物攻が最も高い味方1人に「WEAK攻撃ダメージ+{0}%」を1回行動終了するまで付与(重複不可)",
+    "easy_synthesis_trait_lottery_id": 16,
+    "id": 1201,
+    "large_still_path_hash": "8065215763595198431",
+    "name": "ゆるふわシュシュ",
+    "quality_group_id": 35,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 3,
+    "small_still_path_hash": "2564774566720545278",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 150
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 15
+      }
+    ],
+    "still_path_hash": "735106342827435024"
+  },
+  {
+    "ability_ids": [301285],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 20,
+      "ice": 20,
+      "impact": 20,
+      "lightning": 20,
+      "piercing": 20,
+      "slashing": 20,
+      "wind": 20
+    },
+    "attack_attributes": [],
+    "description": "味方全員のクリティカルダメージ+{0}％",
+    "easy_synthesis_trait_lottery_id": 4,
+    "id": 1202,
+    "large_still_path_hash": "2902699972418814109",
+    "name": "歴戦のローブ",
+    "quality_group_id": 33,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 2,
+    "small_still_path_hash": "7370688705002432550",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 5,
+        "value": 75
+      },
+      {
+        "change_method": 1,
+        "status_type": 6,
+        "value": 75
+      }
+    ],
+    "still_path_hash": "5759406698241420744"
+  },
+  {
+    "ability_ids": [301286],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 20,
+      "ice": 20,
+      "impact": 20,
+      "lightning": 20,
+      "piercing": 20,
+      "slashing": 20,
+      "wind": 20
+    },
+    "attack_attributes": [],
+    "description": "味方全員のクリティカルダメージ+{0}％",
+    "easy_synthesis_trait_lottery_id": 4,
+    "id": 1203,
+    "large_still_path_hash": "2902699972418814109",
+    "name": "歴戦のローブ",
+    "quality_group_id": 33,
+    "rarity": 2,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 2,
+    "small_still_path_hash": "7370688705002432550",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 5,
+        "value": 50
+      },
+      {
+        "change_method": 1,
+        "status_type": 6,
+        "value": 50
+      }
+    ],
+    "still_path_hash": "5759406698241420744"
+  },
+  {
+    "ability_ids": [301287],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 20,
+      "ice": 20,
+      "impact": 20,
+      "lightning": 20,
+      "piercing": 20,
+      "slashing": 20,
+      "wind": 20
+    },
+    "attack_attributes": [],
+    "description": "スキルダメージ+{0}％",
+    "easy_synthesis_trait_lottery_id": 2,
+    "id": 1204,
+    "large_still_path_hash": "8387111387948343491",
+    "name": "アトラスバングル",
+    "quality_group_id": 1,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 100,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [1],
+    "slot_type": 3,
+    "small_still_path_hash": "4946921660996259018",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 250
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 12
+      }
+    ],
+    "still_path_hash": "7854991031078881572"
+  },
+  {
+    "ability_ids": [301288],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 20,
+      "ice": 20,
+      "impact": 20,
+      "lightning": 20,
+      "piercing": 20,
+      "slashing": 20,
+      "wind": 20
+    },
+    "attack_attributes": [],
+    "description": "スキルダメージ+{0}％",
+    "easy_synthesis_trait_lottery_id": 2,
+    "id": 1205,
+    "large_still_path_hash": "8387111387948343491",
+    "name": "アトラスバングル",
+    "quality_group_id": 1,
+    "rarity": 2,
+    "role_combat_power_bonus": {
+      "attacker": 100,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 0
+    },
+    "roles": [1],
+    "slot_type": 3,
+    "small_still_path_hash": "4946921660996259018",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 200
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 10
+      }
+    ],
+    "still_path_hash": "7854991031078881572"
   }
 ]

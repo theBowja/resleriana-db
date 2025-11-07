@@ -15920,6 +15920,24 @@
   },
   {
     "ability_category_type": null,
+    "description": "自身が鴉【月影の執行者】の時、パーティの誰かがクリティカル攻撃後、味方全員に「クリティカルダメージ+{0}％(上限50％)」を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001166,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 6001166,
+        "value": 1000
+      }
+    ],
+    "id": 301289,
+    "name": "月光"
+  },
+  {
+    "ability_category_type": null,
     "description": "魔攻・魔防+{0}%",
     "effects": [
       {
@@ -18908,6 +18926,24 @@
     ],
     "id": 1980214,
     "name": "常夏の島で開花する才能"
+  },
+  {
+    "ability_category_type": null,
+    "description": "味方全員は「冥き追憶」1人につき「スキルダメージ・クリティカルダメージ+20%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500182,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500183,
+        "value": 2000
+      }
+    ],
+    "id": 1980216,
+    "name": "影の秩序を守る者"
   },
   {
     "ability_category_type": null,
@@ -25733,6 +25769,77 @@
     ],
     "id": 1990478,
     "name": "バカンストリック"
+  },
+  {
+    "ability_category_type": null,
+    "description": "スキル発動後、アイテムゲージを{0}%回復<br>「冥き追憶」タグを持つキャラ数に応じ、「冥き追憶」の味方全員の「物攻・魔攻・クリティカルダメージ+6～30％」(1～5人で多いほど増加)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001085,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001517,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001518,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001519,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001511,
+        "value": 0
+      }
+    ],
+    "id": 1990481,
+    "name": "侵食する冥暗"
+  },
+  {
+    "ability_category_type": null,
+    "description": "ブレイク状態の敵を攻撃後またはパーティの誰かが戦闘アイテム使用後、味方全員に「クリティカル確率+{0}%」を付与(上限50%)し、<br>物攻が最も高い味方1人に「クリティカル確率+{1}%」と「クリティカルダメージ+{2}%」を2回行動終了するまで付与<br>※アイテムを複数同時に使用しても発動は1回",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001487,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001488,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001489,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001486,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001491,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001490,
+        "value": 3000
+      }
+    ],
+    "id": 1990482,
+    "name": "突き刺す眼光"
   },
   {
     "ability_category_type": null,
@@ -41323,6 +41430,146 @@
     ],
     "id": 4991157,
     "name": "想力「優勝間違いなし！」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身が「ライザリン・シュタウト」の時、スキルダメージ+{0}％、ブレイクダメージ+{1}％、受ける強化効果量+{2}％、与えるマイナス効果量+{3}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000291,
+        "value": 800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000292,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000293,
+        "value": 300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000294,
+        "value": 500
+      }
+    ],
+    "id": 4991158,
+    "name": "想力「彼女が紡いだ光」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身が「ライザリン・シュタウト」の時、スキルダメージ+{0}％、ブレイクダメージ+{1}％、受ける強化効果量+{2}％、与えるマイナス効果量+{3}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000291,
+        "value": 2600
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000292,
+        "value": 3300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000293,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000294,
+        "value": 1600
+      }
+    ],
+    "id": 4991159,
+    "name": "想力「彼女が紡いだ光」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身が「ライザリン・シュタウト」の時、スキルダメージ+{0}％、ブレイクダメージ+{1}％、受ける強化効果量+{2}％、与えるマイナス効果量+{3}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000291,
+        "value": 4400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000292,
+        "value": 5500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000293,
+        "value": 1800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000294,
+        "value": 2800
+      }
+    ],
+    "id": 4991160,
+    "name": "想力「彼女が紡いだ光」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身が「ライザリン・シュタウト」の時、スキルダメージ+{0}％、ブレイクダメージ+{1}％、受ける強化効果量+{2}％、与えるマイナス効果量+{3}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000291,
+        "value": 6200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000292,
+        "value": 7800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000293,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000294,
+        "value": 3900
+      }
+    ],
+    "id": 4991161,
+    "name": "想力「彼女が紡いだ光」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身が「ライザリン・シュタウト」の時、スキルダメージ+{0}％、ブレイクダメージ+{1}％、受ける強化効果量+{2}％、与えるマイナス効果量+{3}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000291,
+        "value": 8000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000292,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000293,
+        "value": 3200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000294,
+        "value": 5000
+      }
+    ],
+    "id": 4991162,
+    "name": "想力「彼女が紡いだ光」"
   },
   {
     "ability_category_type": null,
@@ -58717,6 +58964,44 @@
       }
     ],
     "id": 26133001,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": " 自身のHPが70%以下になった時、1度のみ自身に被ブレイクダメージDOWN(25%/3回)と被ダメージDOWN(25%/3回)を付与　ブレイク復帰時、1度のみ自身に魔法ダメージUP(40%/1回)と素早さUP(10%/3回)を付与 バトル開始時、自身に被ダメージ(25%/5回)と被ブレイクダメージ(25%/3回)を付与",
+    "effects": [
+      {
+        "ability_timing_value": 7000,
+        "id": 86133001,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": 7000,
+        "id": 86133002,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 880133001,
+        "value": 4000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81133001,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 880133003,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 880133005,
+        "value": 2500
+      }
+    ],
+    "id": 26133002,
     "name": ""
   },
   {
@@ -81449,6 +81734,50 @@
     ],
     "id": 600000737,
     "name": "ほのか【クロス・ザ・ライン】またはレスナ【ヴィーナス・ノヴァ】を編成時、被ダメージ減少"
+  },
+  {
+    "ability_category_type": null,
+    "description": "アルビーナ【トロピカル・シャイン】の与えるマイナス効果量+150%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000833,
+        "value": 15000
+      }
+    ],
+    "id": 600000740,
+    "name": "アルビーナ【トロピカル・シャイン】のマイナス効果量UP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "鴉【月影の執行者】の与える強化効果量+150%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000834,
+        "value": 15000
+      }
+    ],
+    "id": 600000741,
+    "name": "鴉【月影の執行者】の強化効果量UP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "鴉【月影の執行者】またはアルビーナ【トロピカル・シャイン】を編成時、被ダメージ-25％(上限25％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000836,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000824,
+        "value": 2500
+      }
+    ],
+    "id": 600000742,
+    "name": "鴉【月影の執行者】 またはアルビーナ【トロピカル・シャイン】を編成時、被ダメージ減少"
   },
   {
     "ability_category_type": null,

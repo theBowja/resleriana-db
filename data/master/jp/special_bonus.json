@@ -2374,5 +2374,65 @@
     "event_ids": [122],
     "id": 77,
     "start_at": "2025-10-31T03:00:00.000Z"
+  },
+  {
+    "bonuses": [
+      {
+        "effects": [
+          {
+            "item_ids": [],
+            "limit": 200,
+            "targets": [
+              {
+                "character_scope_ids": [],
+                "memoria_scope_ids": [],
+                "memoria_sp_bonus_ids": [36],
+                "value": null
+              }
+            ]
+          }
+        ],
+        "name": "",
+        "type": 4,
+        "warning_text": ""
+      }
+    ],
+    "difficulties": [],
+    "end_at": "2025-11-24T03:00:00.000Z",
+    "episode_categories": [12],
+    "event_id": 125,
+    "event_ids": [125],
+    "id": 78,
+    "start_at": "2025-11-07T03:00:00.000Z"
+  },
+  {
+    "bonuses": [
+      {
+        "effects": [
+          {
+            "item_ids": [1190],
+            "limit": 5,
+            "targets": [
+              {
+                "character_scope_ids": [38],
+                "memoria_scope_ids": [],
+                "memoria_sp_bonus_ids": [],
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "name": "コイン増量ボーナス",
+        "type": 3,
+        "warning_text": "ライザのアトリエDXコイン増量ボーナスは\nパーティで合計＋5個までが上限となります。"
+      }
+    ],
+    "difficulties": [],
+    "end_at": "2025-11-27T03:00:00.000Z",
+    "episode_categories": [2, 3, 4, 5, 7, 8, 12, 13, 11],
+    "event_id": null,
+    "event_ids": [125, 87],
+    "id": 79,
+    "start_at": "2025-11-13T03:00:00.000Z"
   }
 ]

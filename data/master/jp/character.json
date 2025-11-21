@@ -5626,13 +5626,13 @@
     "voice_actor_id": 28
   },
   {
-    "ability_ids": [1990120, 1990121],
+    "ability_ids": [1990120, 1990121, 1990487],
     "acquisition_movie_path_hash": "4661931224315074945",
     "acquisition_text": "何ごとも挑戦です。\nでは、お菓子を集めに行きましょう",
     "active1_skill_id": null,
     "active2_skill_id": null,
     "active3_skill_id": null,
-    "all_skill_evolved_ability_ids": [],
+    "all_skill_evolved_ability_ids": [1990487],
     "another_name": "【魅惑のヴァンパイア】",
     "attack_attributes": [1],
     "base_character_id": 335,
@@ -5640,16 +5640,16 @@
     "board_ability1_ids": [1990443, 1990418, 1990393],
     "board_ability2_ids": [],
     "board_ability3_ids": [],
-    "burst_skill_ids": [14000626, 14000626, 14000626, 14000627, 14000628, 14000629, 14000630],
+    "burst_skill_ids": [14000626, 14000626, 14000626, 14000627, 14000628, 14000629, 14000630, 14003295],
     "change": null,
     "character_growth_id": 933502,
     "character_size_id": 2,
     "default_skin_id": null,
     "description": "人形に魂を移した錬金術士。\n人形の身体は定期的な整備が必要で、普段はソフィーが行っている。その際に衣装や部品を新調することで、プラフタの能力に様々な変化をもたらす。\nこの衣装はイタズラに特化しており、錬金術で培われた発想力と相まって周囲をあっと驚かせているようだ。",
     "equipment_tool_trait_ids": [10],
-    "evolved_burst_skill_ids": [],
-    "evolved_normal1_skill_ids": [],
-    "evolved_normal2_skill_ids": [],
+    "evolved_burst_skill_ids": [14003291, 14003291, 14003291, 14003291, 14003291, 14003291, 14003291, 14003291],
+    "evolved_normal1_skill_ids": [14003281, 14003282, 14003283, 14003284, 14003285],
+    "evolved_normal2_skill_ids": [14003286, 14003287, 14003288, 14003289, 14003290],
     "ex_growboard_id": 335022,
     "extra_skill_ids": [],
     "fullname": "プラフタ",
@@ -5676,7 +5676,7 @@
       "description": "「キルヘン・ベル」は「スキルダメージ・ブレイクダメージ+30%」",
       "name": "イタズラの時間です"
     },
-    "max_rarity": 7,
+    "max_rarity": 8,
     "model_path_hash": "3954629598630209020",
     "motion_type": 2,
     "name": "プラフタ",
@@ -5710,11 +5710,11 @@
         "still_path_hash": "7115992466489359891"
       },
       {
-        "large_narrow_still_path_hash": 0,
-        "large_still_path_hash": 0,
-        "narrow_still_path_hash": 0,
-        "rarity": null,
-        "still_path_hash": 0
+        "large_narrow_still_path_hash": "8406040322071849211",
+        "large_still_path_hash": "7304235679152447892",
+        "narrow_still_path_hash": "8033740781252714453",
+        "rarity": 8,
+        "still_path_hash": "7561094131094101459"
       }
     ],
     "support_color_id": 1,
@@ -15583,6 +15583,103 @@
     "tag_ids": [37, 23, 28],
     "trait_color_id": 3,
     "voice_actor_id": 82
+  },
+  {
+    "ability_ids": [1990479, 1990480],
+    "acquisition_movie_path_hash": "2992055496890568515",
+    "acquisition_text": "こうなることは初めから計画のうち――\n私の知略、どうぞお役立てください",
+    "active1_skill_id": 14003280,
+    "active2_skill_id": null,
+    "active3_skill_id": null,
+    "all_skill_evolved_ability_ids": [],
+    "another_name": "【Innate Strategist】",
+    "attack_attributes": [3],
+    "base_character_id": 461,
+    "battle_tool_trait_ids": [24, 46],
+    "board_ability1_ids": [1990443, 1990418, 1990393],
+    "board_ability2_ids": [],
+    "board_ability3_ids": [],
+    "burst_skill_ids": [14003245, 14003245, 14003245, 14003246, 14003247, 14003248, 14003249],
+    "change": null,
+    "character_growth_id": 946101,
+    "character_size_id": 2,
+    "default_skin_id": null,
+    "description": "パルメ族により創られたホムンクルスで、「九偉人」の６番目。\n他の九偉人と共に、パルメ族の命令で「管理」を行う。\n作戦の立案を得意としており、計画通りに動くことを好む。\n綺麗好きで、お気に入りのメガネをよく磨いている。",
+    "equipment_tool_trait_ids": [81],
+    "evolved_burst_skill_ids": [],
+    "evolved_normal1_skill_ids": [],
+    "evolved_normal2_skill_ids": [],
+    "ex_growboard_id": 461012,
+    "extra_skill_ids": [],
+    "fullname": "リーベ",
+    "growboard_id": 461011,
+    "id": 46101,
+    "initial_rarity": 3,
+    "initial_status": {
+      "attack": 63,
+      "defense": 61,
+      "hp": 174,
+      "magic": 61,
+      "mental": 66,
+      "speed": 265
+    },
+    "is_alchemist": false,
+    "leader_skill": {
+      "abilities": [
+        {
+          "ability_id": 1980215,
+          "combat_power_coefficient": 3500,
+          "condition_ids": [7]
+        }
+      ],
+      "description": "得意属性が突属性のキャラは「物攻+50%」",
+      "name": "才知に長けた参謀役"
+    },
+    "max_rarity": 7,
+    "model_path_hash": "8369641103606027768",
+    "motion_type": 2,
+    "name": "リーベ",
+    "neo_growboard_id": 461013,
+    "normal1_skill_ids": [11003235, 11003236, 11003237, 11003238, 11003239],
+    "normal2_skill_ids": [12003240, 12003241, 12003242, 12003243, 12003244],
+    "original_title_id": 27,
+    "overlay_name": "Liebe",
+    "personality": 2,
+    "profile_voice_text": "私はリーベ。参謀役はお任せください。\n完璧な作戦を立案してみせましょう",
+    "resistance": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 0,
+      "piercing": 5,
+      "slashing": 0,
+      "wind": 0
+    },
+    "result_timeline_hash": "5191058279024816723",
+    "role": 4,
+    "series_id": 10,
+    "sort_name": "リーベ",
+    "start_at": "2025-11-21T03:00:00.000Z",
+    "still_sets": [
+      {
+        "large_narrow_still_path_hash": "1708836199149500093",
+        "large_still_path_hash": "6538274178775638398",
+        "narrow_still_path_hash": "6884600421471625338",
+        "rarity": null,
+        "still_path_hash": "5075029600051949533"
+      },
+      {
+        "large_narrow_still_path_hash": 0,
+        "large_still_path_hash": 0,
+        "narrow_still_path_hash": 0,
+        "rarity": null,
+        "still_path_hash": 0
+      }
+    ],
+    "support_color_id": 4,
+    "tag_ids": [37, 20, 28],
+    "trait_color_id": 3,
+    "voice_actor_id": 85
   },
   {
     "ability_ids": [1990334, 1990335],

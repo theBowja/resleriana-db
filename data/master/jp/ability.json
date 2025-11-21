@@ -15938,6 +15938,47 @@
   },
   {
     "ability_category_type": null,
+    "description": "自身がリーベ【Innate Strategist】の時、スキル発動後、得意属性が突属性の味方全員に「バーストスキルダメージ+{0}％」「ブレイクダメージ+{1}％」を1回行動終了するまで付与し、「受けるダメージ-{2}％」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001167,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 6001168,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 6001169,
+        "value": 500
+      }
+    ],
+    "id": 301290,
+    "name": "万物ヲ穿ツ鋼心ノ弓"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性の時、スキル発動後、敵全体に「斬属性耐性-{0}%」を1回攻撃を受けるまで付与(上限3個)<br>自身がサポーターの時、味方全員のクリティカル確率+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001175,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 6001176,
+        "value": 1200
+      }
+    ],
+    "id": 301292,
+    "name": "スウィートバイト"
+  },
+  {
+    "ability_category_type": null,
     "description": "魔攻・魔防+{0}%",
     "effects": [
       {
@@ -18926,6 +18967,19 @@
     ],
     "id": 1980214,
     "name": "常夏の島で開花する才能"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が突属性のキャラは「物攻+{0}%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500002,
+        "value": 5000
+      }
+    ],
+    "id": 1980215,
+    "name": "才知に長けた参謀役"
   },
   {
     "ability_category_type": null,
@@ -25772,6 +25826,52 @@
   },
   {
     "ability_category_type": null,
+    "description": "バトル開始時、「クレアティオフロース」のスキルランプを3個点灯する<br>パーティの誰かが戦闘アイテム使用後、「クレアティオフロース」のスキルランプを1個点灯する<br>※アイテムを複数同時に使用しても点灯は1個",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001094,
+        "value": 300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001094,
+        "value": 100
+      }
+    ],
+    "id": 1990479,
+    "name": "すべて予定通りです"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が突属性の味方全員は、スキル使用前に付与されている強化効果の数に応じて以下のボーナスをそれぞれ獲得する<br>3個以上：スキルダメージ+{0}%<br>5個以上：スキルダメージ+{1}%<br>10個以上：スキル発動後、自身の次のパネル1つをバーストパネルに変換(空パネルの時は生成)(発動上限2回)<br>※バトル開始時に発動した回数制限のない強化効果は含まない",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001478,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001479,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001482,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001484,
+        "value": 0
+      }
+    ],
+    "id": 1990480,
+    "name": "突破の方程式"
+  },
+  {
+    "ability_category_type": null,
     "description": "スキル発動後、アイテムゲージを{0}%回復<br>「冥き追憶」タグを持つキャラ数に応じ、「冥き追憶」の味方全員の「物攻・魔攻・クリティカルダメージ+6～30％」(1～5人で多いほど増加)",
     "effects": [
       {
@@ -25840,6 +25940,24 @@
     ],
     "id": 1990482,
     "name": "突き刺す眼光"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身に付与されている強化効果の数に応じ、与える強化効果量+0～30%(0～10個で多いほど増加)<br>スキル使用前に自身に付与されている強化効果の数が10個以上の時、スキル発動後、物攻が最も高い味方1人の強化系パネルとバーストパネルを除くパネル全てを強化パネルに変換(空パネルの時は生成)<br>※バトル開始時に発動した回数制限のない強化効果は含まない",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001516,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001522,
+        "value": 1000
+      }
+    ],
+    "id": 1990487,
+    "name": "元気の出るイタズラです！"
   },
   {
     "ability_category_type": null,
@@ -41573,6 +41691,96 @@
   },
   {
     "ability_category_type": null,
+    "description": "得意属性が突属性かつサポーターの時、味方全員のバーストスキルダメージ+{0}％<br>「メガネ」の時、与えるHP回復量+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000295,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000296,
+        "value": 400
+      }
+    ],
+    "id": 4991163,
+    "name": "想力「つがえる一矢、刻限に」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が突属性かつサポーターの時、味方全員のバーストスキルダメージ+{0}％<br>「メガネ」の時、与えるHP回復量+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000295,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000296,
+        "value": 1300
+      }
+    ],
+    "id": 4991164,
+    "name": "想力「つがえる一矢、刻限に」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が突属性かつサポーターの時、味方全員のバーストスキルダメージ+{0}％<br>「メガネ」の時、与えるHP回復量+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000295,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000296,
+        "value": 2200
+      }
+    ],
+    "id": 4991165,
+    "name": "想力「つがえる一矢、刻限に」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が突属性かつサポーターの時、味方全員のバーストスキルダメージ+{0}％<br>「メガネ」の時、与えるHP回復量+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000295,
+        "value": 3500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000296,
+        "value": 3100
+      }
+    ],
+    "id": 4991166,
+    "name": "想力「つがえる一矢、刻限に」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が突属性かつサポーターの時、味方全員のバーストスキルダメージ+{0}％<br>「メガネ」の時、与えるHP回復量+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000295,
+        "value": 4500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000296,
+        "value": 4000
+      }
+    ],
+    "id": 4991167,
+    "name": "想力「つがえる一矢、刻限に」"
+  },
+  {
+    "ability_category_type": null,
     "description": "突属性のスキルダメージ{0}%アップ",
     "effects": [
       {
@@ -55465,6 +55673,42 @@
   },
   {
     "ability_category_type": null,
+    "description": "自身が物理属性でブレイク時、自身に悪性状態異常付与不可(5回)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 21261004,
+        "value": 0
+      }
+    ],
+    "id": 21261001,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のHPが50%以下になった時自身のデバフを解除し、素早さUP(5%永続)と与ダメージUP(30%/3回)を付与する",
+    "effects": [
+      {
+        "ability_timing_value": 5000,
+        "id": 71255007,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": 5000,
+        "id": 880009011,
+        "value": 500
+      },
+      {
+        "ability_timing_value": 5000,
+        "id": 21261007,
+        "value": 3000
+      }
+    ],
+    "id": 21261002,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
     "description": "HP50%以下の時、攻撃被弾時自身に与ダメージUP(10%/1回)を付与\nブレイク時、敵全体に再生10%(2回)",
     "effects": [
       {
@@ -58625,6 +58869,37 @@
       }
     ],
     "id": 26117002,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身が物理属性でブレイクされた時、物理被ダメージUP(70%/3回)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 880117001,
+        "value": 7000
+      }
+    ],
+    "id": 26117011,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がブレイクされた時、被弾した攻撃属性に応じて自身に効果を付与。 物理属性の場合：物理被ダメージUP(70%/3回)付与。 魔法属性の場合：魔法被ダメージUP(70%/3回)付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 880117001,
+        "value": 7000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 880117002,
+        "value": 7000
+      }
+    ],
+    "id": 26117012,
     "name": ""
   },
   {
@@ -81737,6 +82012,37 @@
   },
   {
     "ability_category_type": null,
+    "description": "戦闘アイテム使用後、味方全員の戦闘アイテムのスキル威力+100%(上限3000%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000831,
+        "value": 10000
+      }
+    ],
+    "id": 600000738,
+    "name": "アイテム使用時、味方全員の戦闘アイテムスキル威力UP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性または突属性のキャラがスキル発動後、味方全員の戦闘アイテムで与えるダメージ+100%(上限3000%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000832,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000849,
+        "value": 10000
+      }
+    ],
+    "id": 600000739,
+    "name": "斬属性または突属性がスキル発動後、味方全員の戦闘アイテムダメージUP"
+  },
+  {
+    "ability_category_type": null,
     "description": "アルビーナ【トロピカル・シャイン】の与えるマイナス効果量+150%",
     "effects": [
       {
@@ -81778,6 +82084,71 @@
     ],
     "id": 600000742,
     "name": "鴉【月影の執行者】 またはアルビーナ【トロピカル・シャイン】を編成時、被ダメージ減少"
+  },
+  {
+    "ability_category_type": null,
+    "description": "戦闘アイテム以外で与えるダメージ-99.9%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000668,
+        "value": 9990
+      }
+    ],
+    "id": 600000743,
+    "name": "戦闘アイテム以外与ダメージDOWN"
+  },
+  {
+    "ability_category_type": null,
+    "description": "プラフタ【魅惑のヴァンパイア】の与える強化効果量+75%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000837,
+        "value": 7500
+      }
+    ],
+    "id": 600000744,
+    "name": "プラフタ【魅惑のヴァンパイア】の強化効果量UP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "鴉【月影の執行者】の与える強化効果量+75%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000834,
+        "value": 7500
+      }
+    ],
+    "id": 600000745,
+    "name": "鴉【月影の執行者】の強化効果量UP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身が「真面目」のとき与える強化効果量+75%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000842,
+        "value": 7500
+      }
+    ],
+    "id": 600000746,
+    "name": "自身が「真面目」のとき、強化効果量UP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "スキル発動後、味方全員の戦闘アイテムで与えるダメージ+100%(上限3000%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 20000847,
+        "value": 10000
+      }
+    ],
+    "id": 600000754,
+    "name": "行動後、味方全員の戦闘アイテムダメージUP"
   },
   {
     "ability_category_type": null,

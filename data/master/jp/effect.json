@@ -12990,6 +12990,86 @@
     "summons_effect_id": null
   },
   {
+    "description": "自身がリーベ【Innate Strategist】の時、スキル発動後、得意属性が突属性の味方全員に「バーストスキルダメージアップ」を1回行動終了するまで付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001167,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身がリーベ【Innate Strategist】の時、スキル発動後、得意属性が突属性の味方全員に「ブレイクダメージアップ」を1回行動終了するまで付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001168,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身がリーベ【Innate Strategist】の時、スキル発動後、得意属性が突属性の味方全員に「受けるダメージダウン」を1回攻撃を受けるまで付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001169,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "敵全体に「受けるバーストスキルダメージアップ」を2回攻撃を受けるまで付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001172,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "被バーストダメージアップ",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001174,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "得意属性が斬属性の時、スキル発動後、敵全体に「斬属性耐性ダウン」を1回攻撃を受けるまで付与(上限3個)",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001175,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身がサポーターの時、味方全員のクリティカル確率アップ",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001176,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "敵全体に「受けるバーストスキルダメージアップ」を2回攻撃を受けるまで付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001177,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
     "description": "与回復量上昇",
     "effect_motion_id": null,
     "enemy_hp_gauge": null,
@@ -14700,11 +14780,61 @@
     "summons_effect_id": null
   },
   {
+    "description": "スキル発動後、「味方全員に戦闘アイテムで与えるダメージUP」を付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 20000846,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "スキル発動後、「味方全員に戦闘アイテムで与えるダメージUPの付与状態」を付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 20000847,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
     "description": "麻痺＋パネル効果「被ダメージUP」無効",
     "effect_motion_id": null,
     "enemy_hp_gauge": null,
     "field_effect_id": null,
     "id": 21045001,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身に悪性状態異常付与不可を付与",
+    "effect_motion_id": 1206,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 21261004,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身に与ダメージUPを付与",
+    "effect_motion_id": 1207,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 21261007,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身の悪性状態異常付与不可",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 21261008,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null
@@ -18328,6 +18458,26 @@
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": 28
+  },
+  {
+    "description": "タイムラインの前から5つを火傷パネルへ変換(BS除く)",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 71261001,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "状態異常を持っている敵に毒を付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 71261002,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
   },
   {
     "description": "[自身/常時/ダメージバフ]",
@@ -22694,6 +22844,86 @@
     "effect_motion_id": null,
     "enemy_hp_gauge": null,
     "field_effect_id": null,
+    "id": 72001478,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001479,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001480,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001481,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001482,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001483,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001484,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001485,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
     "id": 72001486,
     "is_positive_popup": null,
     "popup_text": "",
@@ -22764,6 +22994,26 @@
     "effect_motion_id": null,
     "enemy_hp_gauge": null,
     "field_effect_id": null,
+    "id": 72001515,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001516,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
     "id": 72001517,
     "is_positive_popup": null,
     "popup_text": "",
@@ -22785,6 +23035,16 @@
     "enemy_hp_gauge": null,
     "field_effect_id": null,
     "id": 72001519,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001522,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null
@@ -41300,6 +41560,76 @@
     "effect_motion_id": null,
     "enemy_hp_gauge": null,
     "field_effect_id": null,
+    "id": 91001920,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001921,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001922,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001923,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001924,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001925,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001926,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
     "id": 91001927,
     "is_positive_popup": null,
     "popup_text": "",
@@ -41353,6 +41683,36 @@
     "id": 91001932,
     "is_positive_popup": null,
     "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001935,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001936,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001937,
+    "is_positive_popup": true,
+    "popup_text": "ターン入れ替え",
     "summons_effect_id": null
   },
   {
@@ -41450,6 +41810,36 @@
     "effect_motion_id": null,
     "enemy_hp_gauge": null,
     "field_effect_id": null,
+    "id": 91001958,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001959,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001960,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
     "id": 91001961,
     "is_positive_popup": null,
     "popup_text": "",
@@ -41501,6 +41891,16 @@
     "enemy_hp_gauge": null,
     "field_effect_id": null,
     "id": 91001966,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91001967,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null
@@ -44571,6 +44971,26 @@
     "enemy_hp_gauge": null,
     "field_effect_id": null,
     "id": 95000294,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身が突属性かつサポーターの時、味方全員のバーストスキルダメージアップ",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 95000295,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "「メガネ」の時、与えるHP回復量アップ",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 95000296,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null
@@ -50896,6 +51316,46 @@
     "summons_effect_id": null
   },
   {
+    "description": "戦闘アイテム使用時、味方全員にアイテムスキル威力UP(上限3000%)を付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 120000828,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "スキル発動後、味方全員に「自身が突属性のとき味方全体に戦闘アイテムで与えるダメージUP」を付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 120000830,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "戦闘アイテム使用後、アイテムスキル威力UPを付与状態を付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 120000831,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身に「自身が突属性のとき味方全員に戦闘アイテムで与えるダメージUPの付与状態」を付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 120000832,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
     "description": "自身がアルビーナ【トロピカル・シャイン】のとき、自身に与えるマイナス効果量UPを付与する",
     "effect_motion_id": null,
     "enemy_hp_gauge": null,
@@ -50931,6 +51391,46 @@
     "enemy_hp_gauge": null,
     "field_effect_id": null,
     "id": 120000836,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "プラフタ【魅惑のヴァンパイア】の与える強化効果量+{0}%、自身に与える強化効果量UPを付与する",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 120000837,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身が「真面目」のとき強化効果量UP",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 120000842,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "スキル発動後、味方全員に「自身が斬属性のとき味方全員に戦闘アイテムで与えるダメージUP」を付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 120000848,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身に「自身が斬属性のとき味方全員に戦闘アイテムで与えるダメージUPの付与状態」を付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 120000849,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null

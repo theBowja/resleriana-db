@@ -48107,5 +48107,84 @@
       }
     ],
     "still_path_hash": "2944388835567780092"
+  },
+  {
+    "ability_ids": [301290],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 0,
+      "piercing": 100,
+      "slashing": 0,
+      "wind": 0
+    },
+    "attack_attributes": [3],
+    "description": "自身がリーベ【Innate Strategist】の時、スキル発動後、得意属性が突属性の味方全員に「バーストスキルダメージ+{0}％」「ブレイクダメージ+{1}％」を1回行動終了するまで付与し、「受けるダメージ-{2}％」を1回攻撃を受けるまで付与",
+    "easy_synthesis_trait_lottery_id": 9,
+    "id": 1207,
+    "large_still_path_hash": "2629433853280435875",
+    "name": "万物ヲ穿ツ鋼心ノ弓",
+    "quality_group_id": 36,
+    "rarity": 3,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 1,
+    "small_still_path_hash": "3281743588046998443",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 3,
+        "value": 145
+      }
+    ],
+    "still_path_hash": "301582657177587269"
+  },
+  {
+    "ability_ids": [301292],
+    "attack_attribute_combat_power_bonus": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 100,
+      "wind": 0
+    },
+    "attack_attributes": [1],
+    "description": "得意属性が斬属性の時、スキル発動後、敵全体に「斬属性耐性-{0}%」を1回攻撃を受けるまで付与(上限3個)<br>自身がサポーターの時、味方全員のクリティカル確率+{1}％",
+    "easy_synthesis_trait_lottery_id": 9,
+    "id": 1209,
+    "large_still_path_hash": "3390482967113549930",
+    "name": "スウィートバイト",
+    "quality_group_id": 34,
+    "rarity": 4,
+    "role_combat_power_bonus": {
+      "attacker": 0,
+      "breaker": 0,
+      "defender": 0,
+      "supporter": 100
+    },
+    "roles": [4],
+    "slot_type": 3,
+    "small_still_path_hash": "6138630996309298443",
+    "status_buffs": [
+      {
+        "change_method": 1,
+        "status_type": 1,
+        "value": 150
+      },
+      {
+        "change_method": 1,
+        "status_type": 2,
+        "value": 10
+      }
+    ],
+    "still_path_hash": "8977006587063290085"
   }
 ]

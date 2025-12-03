@@ -15961,6 +15961,19 @@
   },
   {
     "ability_category_type": null,
+    "description": "自身がシトリン【Charming Jewel】の時、HPが80％以上の時、クリティカルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001170,
+        "value": 5200
+      }
+    ],
+    "id": 301291,
+    "name": "魔彩ナル傾国ノ瞳"
+  },
+  {
+    "ability_category_type": null,
     "description": "得意属性が斬属性の時、スキル発動後、敵全体に「斬属性耐性-{0}%」を1回攻撃を受けるまで付与(上限3個)<br>自身がサポーターの時、味方全員のクリティカル確率+{1}％",
     "effects": [
       {
@@ -15976,6 +15989,76 @@
     ],
     "id": 301292,
     "name": "スウィートバイト"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がゴゥ【九偉人 No.5】 の時、攻撃対象がブレイク時、対象に「受ける物理攻撃ダメージ+{0}％」と「受けるクリティカルダメージ+{1}％」を1回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001178,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 6001179,
+        "value": 3000
+      }
+    ],
+    "id": 301293,
+    "name": "天ヲ断チ切ル刀刃・義烈"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のHPが70%以上の時、受けるダメージ-{0}%(固定)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001180,
+        "value": 2000
+      }
+    ],
+    "id": 301294,
+    "name": "ナイトプレート"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のHPが70%以上の時、受けるダメージ-{0}%(固定)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001180,
+        "value": 1400
+      }
+    ],
+    "id": 301295,
+    "name": "ナイトプレート"
+  },
+  {
+    "ability_category_type": null,
+    "description": "与えるHP回復量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001181,
+        "value": 2400
+      }
+    ],
+    "id": 301296,
+    "name": "慈愛の輪"
+  },
+  {
+    "ability_category_type": null,
+    "description": "与えるHP回復量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001181,
+        "value": 1600
+      }
+    ],
+    "id": 301297,
+    "name": "慈愛の輪"
   },
   {
     "ability_category_type": null,
@@ -18998,6 +19081,52 @@
     ],
     "id": 1980216,
     "name": "影の秩序を守る者"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「九偉人」は「先駆け」と「クリティカルダメージ+{0}%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500008,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500099,
+        "value": 0
+      }
+    ],
+    "id": 1980217,
+    "name": "心を惑わす魔性の瞳"
+  },
+  {
+    "ability_category_type": null,
+    "description": "味方全員は「冥き追憶」1人につき「物攻・魔攻+10%」と「スキルダメージ・ブレイクダメージ+20%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500182,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500184,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500180,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500181,
+        "value": 1000
+      }
+    ],
+    "id": 1980218,
+    "name": "父と母より与えられし使命"
   },
   {
     "ability_category_type": null,
@@ -25940,6 +26069,163 @@
     ],
     "id": 1990482,
     "name": "突き刺す眼光"
+  },
+  {
+    "ability_category_type": null,
+    "description": "1回目のターン開始時、自身に「黄水晶の加護」を3個付与(上限5個）<br>スキルで撃破時または敵の攻撃を回避した時、自身に「黄水晶の加護」を1個付与(上限5個)<br>自身への攻撃で1ダメージ以上受けた時、自身に付与されている「黄水晶の加護」を1個解除<br><br>※「黄水晶の加護」は、スキル威力+30%とクリティカル確率+30%(全て効果量固定)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001521,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001520,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001520,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001520,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001495,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001493,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001494,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001496,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001497,
+        "value": 3000
+      }
+    ],
+    "id": 1990483,
+    "name": "すっごく綺麗でしょ？"
+  },
+  {
+    "ability_category_type": null,
+    "description": "WAVE開始時、自身に「回避(確率{0}%固定)」を1回攻撃を受けるまで付与<br>自身のクリティカル確率が100%を超えている場合、攻撃時、100%を超えたクリティカル確率の上昇量をクリティカルダメージアップに変換(変換上限{1}%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001492,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001098,
+        "value": 20000
+      }
+    ],
+    "id": 1990484,
+    "name": "無垢で無情な身のこなし"
+  },
+  {
+    "ability_category_type": null,
+    "description": "スキル発動前に自身に付与されている強化効果の数に応じて以下のボーナスをそれぞれ獲得する<br>3個以上：ブレイクダメージ+{0}%<br>5個以上：ブレイクダメージ+{1}%<br>10個以上：ブレイクダメージ+{2}%<br>※バトル開始時に発動した回数制限のない強化効果は含まない",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001504,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001505,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001506,
+        "value": 5000
+      }
+    ],
+    "id": 1990485,
+    "name": "九偉人の力-Ⅴ-"
+  },
+  {
+    "ability_category_type": null,
+    "description": "WAVE開始時、自身に「ブレイクダメージ+{0}%」を1回行動終了するまで付与<br>攻撃対象がブレイク時、得意属性が突属性または「冥き追憶」の味方全員に「スキルダメージ+{1}%」(上限60%)と「物攻+{2}%」(上限50%)と「素早さ+{3}%」(上限15%)を付与<br>「冥き追憶」タグを持つキャラ数に応じ、「冥き追憶」の味方全員の「物攻・魔攻+6～30％」と「ブレイクダメージ+10～50%」(1～5人で多いほど増加)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001326,
+        "value": 15000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001498,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001499,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001500,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001512,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001513,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001514,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001517,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001518,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001536,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001511,
+        "value": 0
+      }
+    ],
+    "id": 1990486,
+    "name": "脈動する冥暗"
   },
   {
     "ability_category_type": null,
@@ -41781,6 +42067,96 @@
   },
   {
     "ability_category_type": null,
+    "description": "得意属性が突属性かつアタッカーの時、クリティカルダメージ+{0}％<br>「マイペース」の時、物攻+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000297,
+        "value": 800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000298,
+        "value": 500
+      }
+    ],
+    "id": 4991168,
+    "name": "想力「僕が遊んであげるね」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が突属性かつアタッカーの時、クリティカルダメージ+{0}％<br>「マイペース」の時、物攻+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000297,
+        "value": 2600
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000298,
+        "value": 1600
+      }
+    ],
+    "id": 4991169,
+    "name": "想力「僕が遊んであげるね」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が突属性かつアタッカーの時、クリティカルダメージ+{0}％<br>「マイペース」の時、物攻+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000297,
+        "value": 4400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000298,
+        "value": 2800
+      }
+    ],
+    "id": 4991170,
+    "name": "想力「僕が遊んであげるね」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が突属性かつアタッカーの時、クリティカルダメージ+{0}％<br>「マイペース」の時、物攻+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000297,
+        "value": 6200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000298,
+        "value": 3900
+      }
+    ],
+    "id": 4991171,
+    "name": "想力「僕が遊んであげるね」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が突属性かつアタッカーの時、クリティカルダメージ+{0}％<br>「マイペース」の時、物攻+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000297,
+        "value": 8000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000298,
+        "value": 5000
+      }
+    ],
+    "id": 4991172,
+    "name": "想力「僕が遊んであげるね」"
+  },
+  {
+    "ability_category_type": null,
     "description": "突属性のスキルダメージ{0}%アップ",
     "effects": [
       {
@@ -55709,6 +56085,471 @@
   },
   {
     "ability_category_type": null,
+    "description": "自身が再生を持っていて戦闘不能時、味方全体に再生(5％/2回)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 81262002,
+        "value": 500
+      }
+    ],
+    "id": 21262001,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "ウェーブ開始時、味方全体に特殊回避関連状態変化を付与、行動再抽選。\n自身にギミック用被ダメージDOWN、マイナス効果無効、全属性耐性UP×2を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 81263002,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263042,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263043,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263024,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263031,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263003,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263004,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263005,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263006,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263007,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 780113009,
+        "value": 0
+      }
+    ],
+    "id": 21263001,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "特殊回避状態でない行動後、自身にターンカウントバフ①Lv.1を付与。(敵3体時のみ)\nさらにターンカウントバフ①がLv2の場合、味方全体に特殊回避関連状態変化を付与し行動再抽選、ターンカウントバフ①を解除",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 81263008,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263009,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263044,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263045,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263025,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263032,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263010,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263011,
+        "value": 10000
+      }
+    ],
+    "id": 21263002,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "特殊状態で行動後、自身にターンカウントバフ②Lv.1を付与。\nさらにターンカウントバフ②がLv.2の場合、自身に特殊BS判定用状態変化を付与し、行動再抽選",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 81263012,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263013,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263014,
+        "value": 0
+      }
+    ],
+    "id": 21263003,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身が特殊回避状態を持っていて、スキルが命中した場合、味方全体に攻撃回数カウントバフLv.1を付与。\nさらに攻撃回数カウントバフがLv.5のとき味方全体の特殊回避関連状態変化を解除、両脚の被ダメージ+1000％、味方全体の攻撃回数カウントバフとターンカウントバフ②とターンカウントバフ①を解除し、BGを9900％削る。",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 81263015,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263016,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263034,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263035,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263033,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263017,
+        "value": 100000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263018,
+        "value": 100000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263019,
+        "value": 990000
+      }
+    ],
+    "id": 21263004,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身が特殊回避状態,攻撃回数カウントバフLv.5を持っていて、スキルが命中した場合、味方全体にターンカウントバフ①付与無効を付与し、行動再抽選。\n自身以外の全エネミーが戦闘不能時、自身にsubmoition用状態変化を付与し、ターンを遅らせる\nバトル開始時、味方全員に攻撃カウントバフがレベル5以上の場合、受ける攻撃必中状態を付与。\n味方戦闘不能時、味方全体の行動再抽選。",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 81263020,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263021,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263027,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263041,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263040,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 71263029,
+        "value": 0
+      }
+    ],
+    "id": 21263005,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "戦闘不能時、本体のギミック用被ダメージDOWN、全属性耐性UP(右脚)、ターンカウントバフ①を解除し、味方全体ターン遅延。\nさらに特殊回避状態の場合、味方全体の特殊回避関連状態変化を解除。\n自身が特殊回避状態を持っていて、スキルが命中した場合、味方全体に攻撃回数カウントバフLv.1を付与。\n戦闘不能時、味方全体を行動再抽選",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 81264001,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264002,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264005,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264018,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264006,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264007,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264008,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264003,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264019,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263015,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264004,
+        "value": 0
+      }
+    ],
+    "id": 21264006,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身が特殊回避状態を持っていて、攻撃回数カウントバフがLv.5を持っていて、単体攻撃被弾時、味方全体の特殊回避関連状態変化を解除、両脚の被ダメージ+1000％、味方全体の攻撃回数カウントバフとターンカウントバフ②とターンカウントバフ①を解除し、BGを9900％削り、味方全体にターンカウントバフ①付与無効を付与し、行動再抽選。",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 81264009,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264010,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264011,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264012,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264013,
+        "value": 100000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264014,
+        "value": 100000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264015,
+        "value": 990000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264016,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264017,
+        "value": 0
+      }
+    ],
+    "id": 21264008,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "戦闘不能時、本体のギミック用マイナス効果無効、全属性耐性UP(左脚)、ターンカウントバフ①を解除、味方全体ターン遅延。\nさらに特殊回避状態の場合、味方全体の特殊回避関連状態変化を解除。\n自身が特殊回避状態を持っていて、スキルが命中した場合、味方全体に攻撃回数カウントバフLv.1を付与。\n戦闘不能時、味方全体を行動再抽選",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 81265001,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81265002,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81265005,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81265009,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81265006,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81265007,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81265008,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81265003,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81265010,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81263015,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81265004,
+        "value": 0
+      }
+    ],
+    "id": 21265007,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身が特殊回避状態を持っていて、攻撃回数カウントバフがLv.5を持っていて、単体攻撃被弾時、味方全体の特殊回避関連状態変化を解除、両脚の被ダメージ+1000％、味方全体の攻撃回数カウントバフとターンカウントバフ②とターンカウントバフ①を解除し、BGを9900％削り、味方全体にターンカウントバフ①付与無効を付与し、行動再抽選。",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 81264009,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264010,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264011,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264012,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264013,
+        "value": 100000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264014,
+        "value": 100000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264015,
+        "value": 990000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264016,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81264017,
+        "value": 0
+      }
+    ],
+    "id": 21265009,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
     "description": "HP50%以下の時、攻撃被弾時自身に与ダメージUP(10%/1回)を付与\nブレイク時、敵全体に再生10%(2回)",
     "effects": [
       {
@@ -59281,6 +60122,44 @@
   },
   {
     "ability_category_type": null,
+    "description": "突属性以外の属性耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000719,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000720,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000717,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000721,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000716,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000722,
+        "value": 0
+      }
+    ],
+    "id": 26133015,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
     "description": "行動するたび、自身の素早さUP(2%)",
     "effects": [
       {
@@ -60405,6 +61284,39 @@
       }
     ],
     "id": 26187000,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "斬・突属性以外の属性耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000719,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000720,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000721,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000716,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000722,
+        "value": 0
+      }
+    ],
+    "id": 26187001,
     "name": ""
   },
   {
@@ -82136,6 +83048,50 @@
     ],
     "id": 600000746,
     "name": "自身が「真面目」のとき、強化効果量UP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "ゴゥ【九偉人 No.5】のブレイクダメージ+200%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000838,
+        "value": 20000
+      }
+    ],
+    "id": 600000748,
+    "name": "ゴゥ【九偉人 No.5】のブレイクダメージUP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "シトリン【Charming Jewel】のスキル威力+100%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000840,
+        "value": 10000
+      }
+    ],
+    "id": 600000749,
+    "name": "シトリン【Charming Jewel】のスキル威力UP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "ゴゥ【九偉人 No.5】またはシトリン【Charming Jewel】を編成時、被ダメージ-25％(上限25％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000839,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000841,
+        "value": 2500
+      }
+    ],
+    "id": 600000750,
+    "name": "ゴゥ【九偉人 No.5】 またはシトリン【Charming Jewel】を編成時、被ダメージ減少"
   },
   {
     "ability_category_type": null,

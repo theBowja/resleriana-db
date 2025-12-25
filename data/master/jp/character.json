@@ -9021,13 +9021,13 @@
     "voice_actor_id": 1
   },
   {
-    "ability_ids": [1990132, 1990133],
+    "ability_ids": [1990132, 1990133, 1990492],
     "acquisition_movie_path_hash": "8610714526118048828",
     "acquisition_text": "聖なる星の導きのままに、<br>みんなにとびっきりの祝福を――！",
     "active1_skill_id": null,
     "active2_skill_id": null,
     "active3_skill_id": null,
-    "all_skill_evolved_ability_ids": [],
+    "all_skill_evolved_ability_ids": [1990492],
     "another_name": "【Starry Heavens Gift】",
     "attack_attributes": [6],
     "base_character_id": 431,
@@ -9035,16 +9035,16 @@
     "board_ability1_ids": [1990463, 1990438, 1990413],
     "board_ability2_ids": [],
     "board_ability3_ids": [],
-    "burst_skill_ids": [14000776, 14000776, 14000776, 14000777, 14000778, 14000779, 14000780],
+    "burst_skill_ids": [14000776, 14000776, 14000776, 14000777, 14000778, 14000779, 14000780, 14003337],
     "change": null,
     "character_growth_id": 943103,
     "character_size_id": 2,
     "default_skin_id": null,
     "description": "「星誕祭」の衣装を身に纏った錬金術士。 \n星誕祭とは、この星が生まれた日を祝う行事で、特別な衣装を身に纏った「星誕の使者」が、人々に贈り物を配るというもの。 \nレスナは日頃お世話になっている人たちへ感謝の気持ちを伝えるため、星誕の使者としての役目を果たそうと意気込んでいる。",
     "equipment_tool_trait_ids": [2],
-    "evolved_burst_skill_ids": [],
-    "evolved_normal1_skill_ids": [],
-    "evolved_normal2_skill_ids": [],
+    "evolved_burst_skill_ids": [14003336, 14003336, 14003336, 14003336, 14003336, 14003336, 14003336, 14003336],
+    "evolved_normal1_skill_ids": [14003326, 14003327, 14003328, 14003329, 14003330],
+    "evolved_normal2_skill_ids": [14003331, 14003332, 14003333, 14003334, 14003335],
     "ex_growboard_id": 431032,
     "extra_skill_ids": [],
     "fullname": "レスナ・シュテルネンリヒト",
@@ -9071,7 +9071,7 @@
       "description": "味方全員は「クリティカルダメージ+15%」",
       "name": "星空に願いを"
     },
-    "max_rarity": 7,
+    "max_rarity": 8,
     "model_path_hash": "2381271382233257954",
     "motion_type": 2,
     "name": "レスナ",
@@ -9105,11 +9105,11 @@
         "still_path_hash": "5233121162927186316"
       },
       {
-        "large_narrow_still_path_hash": 0,
-        "large_still_path_hash": 0,
-        "narrow_still_path_hash": 0,
-        "rarity": null,
-        "still_path_hash": 0
+        "large_narrow_still_path_hash": "1134437511190849280",
+        "large_still_path_hash": "2359667973663016521",
+        "narrow_still_path_hash": "6746440813534078585",
+        "rarity": 8,
+        "still_path_hash": "8445682443528219980"
       }
     ],
     "support_color_id": 4,
@@ -9702,6 +9702,103 @@
     "support_color_id": 3,
     "tag_ids": [21, 7, 9, 15, 28],
     "trait_color_id": 5,
+    "voice_actor_id": 1
+  },
+  {
+    "ability_ids": [1990495, 1990496],
+    "acquisition_movie_path_hash": "3390776115152373873",
+    "acquisition_text": "新たな年をみなさんと祝えて幸甚の極み！\nこの幸せを明日に繋げていきたいな",
+    "active1_skill_id": null,
+    "active2_skill_id": null,
+    "active3_skill_id": null,
+    "all_skill_evolved_ability_ids": [],
+    "another_name": "【幸爛漫・福ノ華】",
+    "attack_attributes": [8],
+    "base_character_id": 431,
+    "battle_tool_trait_ids": [8, 51],
+    "board_ability1_ids": [1990464, 1990439, 1990414],
+    "board_ability2_ids": [],
+    "board_ability3_ids": [],
+    "burst_skill_ids": [14003363, 14003363, 14003363, 14003364, 14003365, 14003366, 14003367],
+    "change": null,
+    "character_growth_id": 943110,
+    "character_size_id": 2,
+    "default_skin_id": null,
+    "description": "「果ての大陸」を目指す錬金術士。\n母から贈られた、新年の衣装を身に纏っている。\n鏑矢に招待され、アルビーナと共に年中行事で賑わうケイウンへ。\n知識に対する好奇心が旺盛な彼女は、ランターナとは異なる文化が根付いたケイウンで過ごす年末年始に、胸を弾ませている。",
+    "equipment_tool_trait_ids": [80],
+    "evolved_burst_skill_ids": [],
+    "evolved_normal1_skill_ids": [],
+    "evolved_normal2_skill_ids": [],
+    "ex_growboard_id": 431102,
+    "extra_skill_ids": [],
+    "fullname": "レスナ・シュテルネンリヒト",
+    "growboard_id": 431101,
+    "id": 43110,
+    "initial_rarity": 3,
+    "initial_status": {
+      "attack": 62,
+      "defense": 53,
+      "hp": 190,
+      "magic": 79,
+      "mental": 55,
+      "speed": 242
+    },
+    "is_alchemist": false,
+    "leader_skill": {
+      "abilities": [
+        {
+          "ability_id": 1980222,
+          "combat_power_coefficient": 3500,
+          "condition_ids": [11]
+        }
+      ],
+      "description": "得意属性が風属性のキャラは「物攻・魔攻・物防・魔防+25%」",
+      "name": "追風に帆を上げましょう！"
+    },
+    "max_rarity": 7,
+    "model_path_hash": "2186923780439923715",
+    "motion_type": 2,
+    "name": "レスナ",
+    "neo_growboard_id": 431103,
+    "normal1_skill_ids": [11003353, 11003354, 11003355, 11003356, 11003357],
+    "normal2_skill_ids": [12003358, 12003359, 12003360, 12003361, 12003362],
+    "original_title_id": 27,
+    "overlay_name": "Resna Sternenlicht",
+    "personality": 2,
+    "profile_voice_text": "晴れ着を着ると、素敵な一年になりそうな、\nそんな予感で嬉しくなるんです",
+    "resistance": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 0,
+      "wind": 5
+    },
+    "result_timeline_hash": "3557249426417084736",
+    "role": 1,
+    "series_id": 10,
+    "sort_name": "レスナ",
+    "start_at": "2025-12-31T15:00:00.000Z",
+    "still_sets": [
+      {
+        "large_narrow_still_path_hash": "5726263596011828211",
+        "large_still_path_hash": "6103822353756303373",
+        "narrow_still_path_hash": "7334441102455966362",
+        "rarity": null,
+        "still_path_hash": "5039919987742315894"
+      },
+      {
+        "large_narrow_still_path_hash": 0,
+        "large_still_path_hash": 0,
+        "narrow_still_path_hash": 0,
+        "rarity": null,
+        "still_path_hash": 0
+      }
+    ],
+    "support_color_id": 2,
+    "tag_ids": [7, 9, 15, 21, 28],
+    "trait_color_id": 1,
     "voice_actor_id": 1
   },
   {
@@ -12419,6 +12516,103 @@
     "voice_actor_id": 40
   },
   {
+    "ability_ids": [1990493, 1990494],
+    "acquisition_movie_path_hash": "5319019398469064761",
+    "acquisition_text": "かわいい衣装が決まったしラッパも持ったし\n……さぁ、今年も星誕祭の始まりだよ！",
+    "active1_skill_id": null,
+    "active2_skill_id": null,
+    "active3_skill_id": null,
+    "all_skill_evolved_ability_ids": [],
+    "another_name": "【Starry Heavens Tone】",
+    "attack_attributes": [8],
+    "base_character_id": 438,
+    "battle_tool_trait_ids": [20, 50],
+    "board_ability1_ids": [1990456, 1990431, 1990406],
+    "board_ability2_ids": [],
+    "board_ability3_ids": [],
+    "burst_skill_ids": [14003348, 14003348, 14003348, 14003349, 14003350, 14003351, 14003352],
+    "change": null,
+    "character_growth_id": 943805,
+    "character_size_id": 2,
+    "default_skin_id": null,
+    "description": "王国騎士団に所属する獣人の少女。\n錬金術士レスナの幼馴染で、護衛として彼女の旅に同行している。\nレスナと共に星誕の使者に扮し、星誕祭を盛り上げようと張り切っている。衣装が違えど、王国騎士として、そしてレスナを守る騎士としての気持ちは忘れていない。",
+    "equipment_tool_trait_ids": [67],
+    "evolved_burst_skill_ids": [],
+    "evolved_normal1_skill_ids": [],
+    "evolved_normal2_skill_ids": [],
+    "ex_growboard_id": 438052,
+    "extra_skill_ids": [],
+    "fullname": "イザナ・ココシュカ",
+    "growboard_id": 438051,
+    "id": 43805,
+    "initial_rarity": 3,
+    "initial_status": {
+      "attack": 61,
+      "defense": 51,
+      "hp": 173,
+      "magic": 75,
+      "mental": 58,
+      "speed": 265
+    },
+    "is_alchemist": false,
+    "leader_skill": {
+      "abilities": [
+        {
+          "ability_id": 1980221,
+          "combat_power_coefficient": 3500,
+          "condition_ids": [37]
+        }
+      ],
+      "description": "「季節の装い」は「WEAK攻撃時、スキルダメージ+100%」",
+      "name": "星夜の調べ"
+    },
+    "max_rarity": 7,
+    "model_path_hash": "6638185625371898061",
+    "motion_type": 2,
+    "name": "イザナ",
+    "neo_growboard_id": 438053,
+    "normal1_skill_ids": [11003338, 11003339, 11003340, 11003341, 11003342],
+    "normal2_skill_ids": [12003343, 12003344, 12003345, 12003346, 12003347],
+    "original_title_id": 27,
+    "overlay_name": "Izana Kokoschka",
+    "personality": 3,
+    "profile_voice_text": "星誕祭を祝うかわいい衣装とラッパで、\nみんなに笑顔を届けるよ！",
+    "resistance": {
+      "fire": 0,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 0,
+      "wind": 5
+    },
+    "result_timeline_hash": "3386068167444766150",
+    "role": 2,
+    "series_id": 10,
+    "sort_name": "イザナ",
+    "start_at": "2025-12-24T03:00:00.000Z",
+    "still_sets": [
+      {
+        "large_narrow_still_path_hash": "2084747120524342400",
+        "large_still_path_hash": "8369017191814046683",
+        "narrow_still_path_hash": "8627128347001573977",
+        "rarity": null,
+        "still_path_hash": "5962454932227733503"
+      },
+      {
+        "large_narrow_still_path_hash": 0,
+        "large_still_path_hash": 0,
+        "narrow_still_path_hash": 0,
+        "rarity": null,
+        "still_path_hash": 0
+      }
+    ],
+    "support_color_id": 1,
+    "tag_ids": [7, 9, 11, 21, 26],
+    "trait_color_id": 2,
+    "voice_actor_id": 40
+  },
+  {
     "ability_ids": [1990226, 1990227],
     "acquisition_movie_path_hash": "2889923145407341737",
     "acquisition_text": "錬金術を復興させるのは私の願いでもある。\n――さあ、共に行きましょう",
@@ -14158,6 +14352,103 @@
     "voice_actor_id": 63
   },
   {
+    "ability_ids": [1990490, 1990491],
+    "acquisition_movie_path_hash": "1387661843753479658",
+    "acquisition_text": "このウサギの服……貴方はかわいいって\n思ってくれる？",
+    "active1_skill_id": null,
+    "active2_skill_id": null,
+    "active3_skill_id": null,
+    "all_skill_evolved_ability_ids": [],
+    "another_name": "【ミルキィバニー】",
+    "attack_attributes": [5],
+    "base_character_id": 448,
+    "battle_tool_trait_ids": [44, 5],
+    "board_ability1_ids": [1990442, 1990417, 1990392],
+    "board_ability2_ids": [],
+    "board_ability3_ids": [],
+    "burst_skill_ids": [14003321, 14003321, 14003321, 14003322, 14003323, 14003324, 14003325],
+    "change": null,
+    "character_growth_id": 944803,
+    "character_size_id": 2,
+    "default_skin_id": null,
+    "description": "暗い雰囲気を纏った錬金術士。\n以前は「極夜の錬金党」に所属し、クリセルダを手伝っていた。\n仮釈放中のクリセルダと共に、新たに開店した喫茶店の店員として働いているが、その目的は不明。\n引っ込み思案な性格だが、カード遊びではぬいぐるみたちに背中を押されて度胸を見せる。",
+    "equipment_tool_trait_ids": [84],
+    "evolved_burst_skill_ids": [],
+    "evolved_normal1_skill_ids": [],
+    "evolved_normal2_skill_ids": [],
+    "ex_growboard_id": 448032,
+    "extra_skill_ids": [],
+    "fullname": "アンチュ・モルトケ",
+    "growboard_id": 448031,
+    "id": 44803,
+    "initial_rarity": 3,
+    "initial_status": {
+      "attack": 57,
+      "defense": 56,
+      "hp": 183,
+      "magic": 70,
+      "mental": 61,
+      "speed": 265
+    },
+    "is_alchemist": true,
+    "leader_skill": {
+      "abilities": [
+        {
+          "ability_id": 1980220,
+          "combat_power_coefficient": 3500,
+          "condition_ids": [31]
+        }
+      ],
+      "description": "「読書」は「先駆け」と「クリティカルダメージ+50%」",
+      "name": "本からは得られない熱狂"
+    },
+    "max_rarity": 7,
+    "model_path_hash": "527151378185382534",
+    "motion_type": 2,
+    "name": "アンチュ",
+    "neo_growboard_id": 448033,
+    "normal1_skill_ids": [11003311, 11003312, 11003313, 11003314, 11003315],
+    "normal2_skill_ids": [12003316, 12003317, 12003318, 12003319, 12003320],
+    "original_title_id": 27,
+    "overlay_name": "Antje Moltke",
+    "personality": 1,
+    "profile_voice_text": "なぜこの衣装を着る羽目になったのかしら。\nクリセルダも一緒だし楽しもうって思うけど",
+    "resistance": {
+      "fire": 5,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 0,
+      "wind": 0
+    },
+    "result_timeline_hash": "3025301982195512892",
+    "role": 4,
+    "series_id": 10,
+    "sort_name": "アンチュ",
+    "start_at": "2025-12-19T03:00:00.000Z",
+    "still_sets": [
+      {
+        "large_narrow_still_path_hash": "1468587629958452874",
+        "large_still_path_hash": "4374007495958568301",
+        "narrow_still_path_hash": "6297281052645444243",
+        "rarity": null,
+        "still_path_hash": "4323242250411031187"
+      },
+      {
+        "large_narrow_still_path_hash": 0,
+        "large_still_path_hash": 0,
+        "narrow_still_path_hash": 0,
+        "rarity": null,
+        "still_path_hash": 0
+      }
+    ],
+    "support_color_id": 3,
+    "tag_ids": [7, 33, 15, 30],
+    "trait_color_id": 5,
+    "voice_actor_id": 63
+  },
+  {
     "ability_ids": [1990274, 1990275],
     "acquisition_movie_path_hash": "3744456248633401284",
     "acquisition_text": "私の願いはこの世のすべてを知ること……\nぜひ、あなたにも協力していただきたい！",
@@ -14446,6 +14737,103 @@
     "support_color_id": 1,
     "tag_ids": [7, 33, 16, 21, 23],
     "trait_color_id": 2,
+    "voice_actor_id": 65
+  },
+  {
+    "ability_ids": [1990488, 1990489],
+    "acquisition_movie_path_hash": "3020127080704847699",
+    "acquisition_text": "時には思いっきりもてなすのも\nアメルハウザー当主としての務めなの",
+    "active1_skill_id": 14003368,
+    "active2_skill_id": null,
+    "active3_skill_id": null,
+    "all_skill_evolved_ability_ids": [],
+    "another_name": "【トリッキーバニー】",
+    "attack_attributes": [5],
+    "base_character_id": 450,
+    "battle_tool_trait_ids": [49, 11],
+    "board_ability1_ids": [1990460, 1990435, 1990410],
+    "board_ability2_ids": [],
+    "board_ability3_ids": [],
+    "burst_skill_ids": [14003306, 14003306, 14003306, 14003307, 14003308, 14003309, 14003310],
+    "change": null,
+    "character_growth_id": 945003,
+    "character_size_id": 2,
+    "default_skin_id": 30,
+    "description": "優れた才を持つ錬金術士。\n以前は「極夜の錬金党」の党首として、渇望のままに動いていた。\n仮釈放中の身で、新たに開店した喫茶店の店員として働いているが、その目的は不明。\nからかうような仕草と巧みな話術で、相手を翻弄して楽しんでいるように見える。",
+    "equipment_tool_trait_ids": [104],
+    "evolved_burst_skill_ids": [],
+    "evolved_normal1_skill_ids": [],
+    "evolved_normal2_skill_ids": [],
+    "ex_growboard_id": 450032,
+    "extra_skill_ids": [],
+    "fullname": "クリセルダ・アメルハウザー",
+    "growboard_id": 450031,
+    "id": 45003,
+    "initial_rarity": 3,
+    "initial_status": {
+      "attack": 61,
+      "defense": 55,
+      "hp": 179,
+      "magic": 75,
+      "mental": 51,
+      "speed": 260
+    },
+    "is_alchemist": true,
+    "leader_skill": {
+      "abilities": [
+        {
+          "ability_id": 1980219,
+          "combat_power_coefficient": 3500,
+          "condition_ids": [8]
+        }
+      ],
+      "description": "得意属性が火属性のキャラは「物攻・魔攻・物防・魔防+25%」",
+      "name": "あなたの心に火をつけてあげる"
+    },
+    "max_rarity": 7,
+    "model_path_hash": "8930486629413302563",
+    "motion_type": 2,
+    "name": "クリセルダ",
+    "neo_growboard_id": 450033,
+    "normal1_skill_ids": [11003296, 11003297, 11003298, 11003299, 11003300],
+    "normal2_skill_ids": [12003301, 12003302, 12003303, 12003304, 12003305],
+    "original_title_id": 27,
+    "overlay_name": "Criselda Amelhauser",
+    "personality": 2,
+    "profile_voice_text": "アメルハウザーの当主たるもの、\nどんな状況でも先を見据えるものよ",
+    "resistance": {
+      "fire": 5,
+      "ice": 0,
+      "impact": 0,
+      "lightning": 0,
+      "piercing": 0,
+      "slashing": 0,
+      "wind": 0
+    },
+    "result_timeline_hash": "4289563557109780159",
+    "role": 2,
+    "series_id": 10,
+    "sort_name": "クリセルダ",
+    "start_at": "2025-12-12T03:00:00.000Z",
+    "still_sets": [
+      {
+        "large_narrow_still_path_hash": "587249153295418888",
+        "large_still_path_hash": "2374720754897374703",
+        "narrow_still_path_hash": "2798392443857412856",
+        "rarity": 3,
+        "still_path_hash": "2862062571317619217"
+      },
+      {
+        "large_narrow_still_path_hash": 0,
+        "large_still_path_hash": 0,
+        "narrow_still_path_hash": 0,
+        "rarity": 8,
+        "still_path_hash": 0
+      }
+    ],
+    "support_color_id": 2,
+    "tag_ids": [7, 33, 16, 23],
+    "trait_color_id": 1,
     "voice_actor_id": 65
   },
   {

@@ -16062,6 +16062,76 @@
   },
   {
     "ability_category_type": null,
+    "description": "自身がクリセルダ【トリッキーバニー】の時、攻撃前、対象に「火属性耐性-{0}％」を2回攻撃を受けるまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001182,
+        "value": 2500
+      }
+    ],
+    "id": 301298,
+    "name": "ノワールラパン"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が氷属性かつアタッカーの時、味方全員のクリティカルダメージ+{0}％<br>「読書」の時、攻撃前、対象に「状態異常耐性-{1}%」(上限50％)を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001183,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 6001184,
+        "value": 5000
+      }
+    ],
+    "id": 301299,
+    "name": "スターリーチェーン"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がアンチュ【ミルキィバニー】の時、強化系パネル獲得時、魔攻が最も高い味方1人に「スキル威力+{0}％」を1回行動終了するまで付与(重複不可)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001189,
+        "value": 1800
+      }
+    ],
+    "id": 301300,
+    "name": "シローナステッキ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がイザナ【Starry Heavens Tone】の時、攻撃対象がブレイク時、味方全員に「WEAK攻撃ダメージ+{0}％」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001190,
+        "value": 4000
+      }
+    ],
+    "id": 301301,
+    "name": "ルクス・トランペット"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がレスナ【幸爛漫・福ノ華】の時、WEAK攻撃後、自身に「受ける強化効果量+{0}％」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001191,
+        "value": 4000
+      }
+    ],
+    "id": 301302,
+    "name": "新春来福の羽子板"
+  },
+  {
+    "ability_category_type": null,
     "description": "魔攻・魔防+{0}%",
     "effects": [
       {
@@ -19127,6 +19197,93 @@
     ],
     "id": 1980218,
     "name": "父と母より与えられし使命"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が火属性のキャラは「物攻・魔攻・物防・魔防+25%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500002,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500003,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500004,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500005,
+        "value": 2500
+      }
+    ],
+    "id": 1980219,
+    "name": "あなたの心に火をつけてあげる"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「読書」は「先駆け」と「クリティカルダメージ+50%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500008,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500099,
+        "value": 0
+      }
+    ],
+    "id": 1980220,
+    "name": "本からは得られない熱狂"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「季節の装い」は「WEAK攻撃時、スキルダメージ+{0}%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500137,
+        "value": 10000
+      }
+    ],
+    "id": 1980221,
+    "name": "星夜の調べ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が風属性のキャラは「物攻・魔攻・物防・魔防+25%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500002,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500003,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500004,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500005,
+        "value": 2500
+      }
+    ],
+    "id": 1980222,
+    "name": "追風に帆を上げましょう！"
   },
   {
     "ability_category_type": null,
@@ -26244,6 +26401,233 @@
     ],
     "id": 1990487,
     "name": "元気の出るイタズラです！"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「アメイジングハット」または「叡智の切断イリュージョン」発動後、アイテムゲージを20%回復",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001526,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001527,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001528,
+        "value": 0
+      }
+    ],
+    "id": 1990488,
+    "name": "バニーの奇術"
+  },
+  {
+    "ability_category_type": null,
+    "description": "強化系パネル獲得時またはパーティの誰かが戦闘アイテム使用後、自身に「ブレイクダメージ+{0}%」を1回行動終了するまで付与<br>※アイテムを複数同時に使用しても発動は1回<br><br>攻撃対象がブレイク時、得意属性が火属性の味方全員に「クリティカル確率+100%」を2回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001529,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001326,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001530,
+        "value": 10000
+      }
+    ],
+    "id": 1990489,
+    "name": "種も仕掛けも錬金術よ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "スキル発動後、アイテムゲージを{0}%回復し、味方全員のHPを{1}%回復",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001085,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001131,
+        "value": 1500
+      }
+    ],
+    "id": 1990490,
+    "name": "バニーの献身"
+  },
+  {
+    "ability_category_type": null,
+    "description": "強化系パネルまたはバーストパネル獲得時またはパーティの誰かが戦闘アイテム使用後、得意属性が火属性の味方全員それぞれに以下の効果をランダムで付与<br>・「スキルダメージ+{0}%」を1回行動終了するまで付与<br>・「クリティカルダメージ+{0}%」を1回行動終了するまで付与<br>・「魔攻+{0}%」を1回行動終了するまで付与<br>・「受けるダメージ-{0}%(固定)」を1回攻撃を受けるまで付与<br>※アイテムを複数同時に使用しても発動は1回",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001531,
+        "value": 3500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001549,
+        "value": 3500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001532,
+        "value": 3500
+      }
+    ],
+    "id": 1990491,
+    "name": "絶対当たりラッキーカード"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身を含むパーティの誰かがクリティカル攻撃後、得意属性が氷属性の味方全員に「スキル威力+20％」(上限60％)を付与<br>得意属性が氷属性の味方全員は、スキル発動前に「カチコチ」が付与されている攻撃対象へのクリティカルダメージ+100％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001523,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001523,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001524,
+        "value": 10000
+      }
+    ],
+    "id": 1990492,
+    "name": "星誕の使者より祝福です！"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のバーストスキルをゲージ化<br>※バーストゲージは2周分ストック可能<br><br>自身が聖夜のまごころパネル獲得時、自身に「クリティカル確率+{0}%」を1回行動終了するまで付与し、バーストスキルを発動できる<br><br>WAVE開始時、自身に「クリティカル確率+{1}%」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001537,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001086,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001452,
+        "value": 20000
+      }
+    ],
+    "id": 1990493,
+    "name": "プレゼントボックス"
+  },
+  {
+    "ability_category_type": null,
+    "description": "攻撃対象がブレイク時、自身に「ブレイクダメージ+{0}%」を付与(上限100%)し、得意属性が風属性の味方全員に「魔攻+{1}%」を付与(上限50%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001538,
+        "value": 3500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001539,
+        "value": 2500
+      }
+    ],
+    "id": 1990494,
+    "name": "アタシからの祝福だよ！"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のバーストスキルをゲージ化<br>※バーストゲージは2周分ストック可能<br><br>WEAK攻撃時、自身のバーストゲージを{0}%増加<br>自身を除くパーティの誰かがバーストスキル発動後、自身のバーストゲージを{1}%増加<br><br>プラスパネルから受ける効果量+{2}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001548,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001460,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001045,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001452,
+        "value": 20000
+      }
+    ],
+    "id": 1990495,
+    "name": "お祭りへご招待"
+  },
+  {
+    "ability_category_type": null,
+    "description": "WEAK攻撃時、自身に「万福招来！」が付与されていない時、「万福招来！(Lv1)」を付与<br>既に付与されている時、「万福招来！」のLv+1(上限Lv5)<br>※スキル発動前に「万福招来！」のLvが5の場合、以上の効果は発動しない<br>強化系パネルまたはバーストパネル獲得時、自身に「万福招来！」が付与されていない時、「万福招来！(Lv2)」を付与<br>既に付与されている時、「万福招来！」のLv+2(上限Lv5)<br>「万福招来！」のLvに応じて以下のボーナスをそれぞれ獲得する<br>1LvにつきWEAK攻撃ダメージ+{0}%<br>Lv3以上：スキルダメージ+{1}%<br>Lv5：スキルダメージ+{2}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001540,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001542,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001544,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001546,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001547,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001558,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001567,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001566,
+        "value": 10000
+      }
+    ],
+    "id": 1990496,
+    "name": "福よ、来たれ！"
   },
   {
     "ability_category_type": null,
@@ -42154,6 +42538,1391 @@
     ],
     "id": 4991172,
     "name": "想力「僕が遊んであげるね」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が火属性かつブレイカーの時、対象をブレイク時、味方全員に「スキルダメージ+{0}％」を1回行動終了するまで付与<br>「世話焼き」の時、味方全員の強化系パネルから受ける強化効果量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000299,
+        "value": 800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000300,
+        "value": 500
+      }
+    ],
+    "id": 4991173,
+    "name": "想力「シュガースノーの心」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が火属性かつブレイカーの時、対象をブレイク時、味方全員に「スキルダメージ+{0}％」を1回行動終了するまで付与<br>「世話焼き」の時、味方全員の強化系パネルから受ける強化効果量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000299,
+        "value": 1600
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000300,
+        "value": 1500
+      }
+    ],
+    "id": 4991174,
+    "name": "想力「シュガースノーの心」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が火属性かつブレイカーの時、対象をブレイク時、味方全員に「スキルダメージ+{0}％」を1回行動終了するまで付与<br>「世話焼き」の時、味方全員の強化系パネルから受ける強化効果量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000299,
+        "value": 2400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000300,
+        "value": 2500
+      }
+    ],
+    "id": 4991175,
+    "name": "想力「シュガースノーの心」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が火属性かつブレイカーの時、対象をブレイク時、味方全員に「スキルダメージ+{0}％」を1回行動終了するまで付与<br>「世話焼き」の時、味方全員の強化系パネルから受ける強化効果量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000299,
+        "value": 3200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000300,
+        "value": 3500
+      }
+    ],
+    "id": 4991176,
+    "name": "想力「シュガースノーの心」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が火属性かつブレイカーの時、対象をブレイク時、味方全員に「スキルダメージ+{0}％」を1回行動終了するまで付与<br>「世話焼き」の時、味方全員の強化系パネルから受ける強化効果量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000299,
+        "value": 4000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000300,
+        "value": 4500
+      }
+    ],
+    "id": 4991177,
+    "name": "想力「シュガースノーの心」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が火属性かつサポーターの時、パネル獲得時、味方全員に「クリティカルダメージ+{0}％」を1回行動終了するまで付与(上限3個)<br>「読書」の時、与える強化効果量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000301,
+        "value": 800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000302,
+        "value": 500
+      }
+    ],
+    "id": 4991178,
+    "name": "想力「恥じらいバニーちゃん」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が火属性かつサポーターの時、パネル獲得時、味方全員に「クリティカルダメージ+{0}％」を1回行動終了するまで付与(上限3個)<br>「読書」の時、与える強化効果量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000301,
+        "value": 1400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000302,
+        "value": 1400
+      }
+    ],
+    "id": 4991179,
+    "name": "想力「恥じらいバニーちゃん」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が火属性かつサポーターの時、パネル獲得時、味方全員に「クリティカルダメージ+{0}％」を1回行動終了するまで付与(上限3個)<br>「読書」の時、与える強化効果量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000301,
+        "value": 1900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000302,
+        "value": 2300
+      }
+    ],
+    "id": 4991180,
+    "name": "想力「恥じらいバニーちゃん」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が火属性かつサポーターの時、パネル獲得時、味方全員に「クリティカルダメージ+{0}％」を1回行動終了するまで付与(上限3個)<br>「読書」の時、与える強化効果量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000301,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000302,
+        "value": 3100
+      }
+    ],
+    "id": 4991181,
+    "name": "想力「恥じらいバニーちゃん」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が火属性かつサポーターの時、パネル獲得時、味方全員に「クリティカルダメージ+{0}％」を1回行動終了するまで付与(上限3個)<br>「読書」の時、与える強化効果量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000301,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000302,
+        "value": 4000
+      }
+    ],
+    "id": 4991182,
+    "name": "想力「恥じらいバニーちゃん」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "敵を撃破時、自身に「クリティカルダメージ+{0}%」(上限5個)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000303,
+        "value": 600
+      }
+    ],
+    "id": 4991183,
+    "name": "想力「夏の終わり」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "敵を撃破時、自身に「クリティカルダメージ+{0}%」(上限5個)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000303,
+        "value": 2000
+      }
+    ],
+    "id": 4991184,
+    "name": "想力「夏の終わり」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "敵を撃破時、自身に「クリティカルダメージ+{0}%」(上限5個)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000303,
+        "value": 3300
+      }
+    ],
+    "id": 4991185,
+    "name": "想力「夏の終わり」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "敵を撃破時、自身に「クリティカルダメージ+{0}%」(上限5個)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000303,
+        "value": 4700
+      }
+    ],
+    "id": 4991186,
+    "name": "想力「夏の終わり」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "敵を撃破時、自身に「クリティカルダメージ+{0}%」(上限5個)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000303,
+        "value": 6000
+      }
+    ],
+    "id": 4991187,
+    "name": "想力「夏の終わり」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がアタッカーの時、スキル威力+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000304,
+        "value": 800
+      }
+    ],
+    "id": 4991188,
+    "name": "想力「斬撃に舞う」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がアタッカーの時、スキル威力+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000304,
+        "value": 2600
+      }
+    ],
+    "id": 4991189,
+    "name": "想力「斬撃に舞う」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がアタッカーの時、スキル威力+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000304,
+        "value": 4400
+      }
+    ],
+    "id": 4991190,
+    "name": "想力「斬撃に舞う」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がアタッカーの時、スキル威力+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000304,
+        "value": 6200
+      }
+    ],
+    "id": 4991191,
+    "name": "想力「斬撃に舞う」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がアタッカーの時、スキル威力+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000304,
+        "value": 8000
+      }
+    ],
+    "id": 4991192,
+    "name": "想力「斬撃に舞う」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がディフェンダーの時、攻撃後、または、攻撃を受けた時、敵全体に「自身の得意属性と一致する属性耐性-{0}%」を1回攻撃を受けるまで付与(上限4個)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000305,
+        "value": 300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000306,
+        "value": 300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000307,
+        "value": 300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000308,
+        "value": 300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000309,
+        "value": 300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000310,
+        "value": 300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000311,
+        "value": 300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000312,
+        "value": 300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000313,
+        "value": 300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000314,
+        "value": 300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000315,
+        "value": 300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000316,
+        "value": 300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000317,
+        "value": 300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000318,
+        "value": 300
+      }
+    ],
+    "id": 4991193,
+    "name": "想力「追いつきたい存在」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がディフェンダーの時、攻撃後、または、攻撃を受けた時、敵全体に「自身の得意属性と一致する属性耐性-{0}%」を1回攻撃を受けるまで付与(上限4個)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000305,
+        "value": 900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000306,
+        "value": 900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000307,
+        "value": 900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000308,
+        "value": 900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000309,
+        "value": 900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000310,
+        "value": 900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000311,
+        "value": 900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000312,
+        "value": 900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000313,
+        "value": 900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000314,
+        "value": 900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000315,
+        "value": 900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000316,
+        "value": 900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000317,
+        "value": 900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000318,
+        "value": 900
+      }
+    ],
+    "id": 4991194,
+    "name": "想力「追いつきたい存在」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がディフェンダーの時、攻撃後、または、攻撃を受けた時、敵全体に「自身の得意属性と一致する属性耐性-{0}%」を1回攻撃を受けるまで付与(上限4個)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000305,
+        "value": 1400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000306,
+        "value": 1400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000307,
+        "value": 1400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000308,
+        "value": 1400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000309,
+        "value": 1400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000310,
+        "value": 1400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000311,
+        "value": 1400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000312,
+        "value": 1400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000313,
+        "value": 1400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000314,
+        "value": 1400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000315,
+        "value": 1400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000316,
+        "value": 1400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000317,
+        "value": 1400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000318,
+        "value": 1400
+      }
+    ],
+    "id": 4991195,
+    "name": "想力「追いつきたい存在」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がディフェンダーの時、攻撃後、または、攻撃を受けた時、敵全体に「自身の得意属性と一致する属性耐性-{0}%」を1回攻撃を受けるまで付与(上限4個)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000305,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000306,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000307,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000308,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000309,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000310,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000311,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000312,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000313,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000314,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000315,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000316,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000317,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000318,
+        "value": 2000
+      }
+    ],
+    "id": 4991196,
+    "name": "想力「追いつきたい存在」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がディフェンダーの時、攻撃後、または、攻撃を受けた時、敵全体に「自身の得意属性と一致する属性耐性-{0}%」を1回攻撃を受けるまで付与(上限4個)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000305,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000306,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000307,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000308,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000309,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000310,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000311,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000312,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000313,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000314,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000315,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000316,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000317,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000318,
+        "value": 2500
+      }
+    ],
+    "id": 4991197,
+    "name": "想力「追いつきたい存在」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が風属性かつブレイカーの時、WEAK攻撃時、ブレイクダメージ+{0}%<br>「騎士」の時、対象をブレイク時、味方全体に「強化系パネルから受ける効果量+{1}％」を1回行動終了するまで付与(重複不可)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000319,
+        "value": 600
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000320,
+        "value": 600
+      }
+    ],
+    "id": 4991198,
+    "name": "想力「星誕祭の夜は一緒に」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が風属性かつブレイカーの時、WEAK攻撃時、ブレイクダメージ+{0}%<br>「騎士」の時、対象をブレイク時、味方全体に「強化系パネルから受ける効果量+{1}％」を1回行動終了するまで付与(重複不可)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000319,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000320,
+        "value": 2000
+      }
+    ],
+    "id": 4991199,
+    "name": "想力「星誕祭の夜は一緒に」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が風属性かつブレイカーの時、WEAK攻撃時、ブレイクダメージ+{0}%<br>「騎士」の時、対象をブレイク時、味方全体に「強化系パネルから受ける効果量+{1}％」を1回行動終了するまで付与(重複不可)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000319,
+        "value": 3300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000320,
+        "value": 3300
+      }
+    ],
+    "id": 4991200,
+    "name": "想力「星誕祭の夜は一緒に」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が風属性かつブレイカーの時、WEAK攻撃時、ブレイクダメージ+{0}%<br>「騎士」の時、対象をブレイク時、味方全体に「強化系パネルから受ける効果量+{1}％」を1回行動終了するまで付与(重複不可)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000319,
+        "value": 4700
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000320,
+        "value": 4700
+      }
+    ],
+    "id": 4991201,
+    "name": "想力「星誕祭の夜は一緒に」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が風属性かつブレイカーの時、WEAK攻撃時、ブレイクダメージ+{0}%<br>「騎士」の時、対象をブレイク時、味方全体に「強化系パネルから受ける効果量+{1}％」を1回行動終了するまで付与(重複不可)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000319,
+        "value": 6000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000320,
+        "value": 6000
+      }
+    ],
+    "id": 4991202,
+    "name": "想力「星誕祭の夜は一緒に」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が風属性かつアタッカーの時、WEAK攻撃時、自身の攻撃の貫通力+{0}<br>「真面目」の時、魔攻+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000321,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000322,
+        "value": 500
+      }
+    ],
+    "id": 4991203,
+    "name": "想力「幸多からんことを」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が風属性かつアタッカーの時、WEAK攻撃時、自身の攻撃の貫通力+{0}<br>「真面目」の時、魔攻+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000321,
+        "value": 4900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000322,
+        "value": 1600
+      }
+    ],
+    "id": 4991204,
+    "name": "想力「幸多からんことを」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が風属性かつアタッカーの時、WEAK攻撃時、自身の攻撃の貫通力+{0}<br>「真面目」の時、魔攻+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000321,
+        "value": 8300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000322,
+        "value": 2800
+      }
+    ],
+    "id": 4991205,
+    "name": "想力「幸多からんことを」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が風属性かつアタッカーの時、WEAK攻撃時、自身の攻撃の貫通力+{0}<br>「真面目」の時、魔攻+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000321,
+        "value": 11600
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000322,
+        "value": 3900
+      }
+    ],
+    "id": 4991206,
+    "name": "想力「幸多からんことを」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が風属性かつアタッカーの時、WEAK攻撃時、自身の攻撃の貫通力+{0}<br>「真面目」の時、魔攻+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000321,
+        "value": 15000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000322,
+        "value": 5000
+      }
+    ],
+    "id": 4991207,
+    "name": "想力「幸多からんことを」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「アラディス調査団」の時、スキルダメージ+{0}％、ブレイクダメージ+{1}％、与える強化効果量+{2}％、与えるマイナス効果量+{3}％<br>バトル開始時、はじめのレンジを入れ替える",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000332,
+        "value": 800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000333,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000334,
+        "value": 400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000335,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000323,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000324,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000325,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000326,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000327,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000328,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000329,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000330,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000331,
+        "value": 0
+      }
+    ],
+    "id": 4991208,
+    "name": "想力「ドキドキ・おそろい」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「アラディス調査団」の時、スキルダメージ+{0}％、ブレイクダメージ+{1}％、与える強化効果量+{2}％、与えるマイナス効果量+{3}％<br>バトル開始時、はじめのレンジを入れ替える",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000332,
+        "value": 2600
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000333,
+        "value": 3300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000334,
+        "value": 1300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000335,
+        "value": 1600
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000323,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000324,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000325,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000326,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000327,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000328,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000329,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000330,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000331,
+        "value": 0
+      }
+    ],
+    "id": 4991209,
+    "name": "想力「ドキドキ・おそろい」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「アラディス調査団」の時、スキルダメージ+{0}％、ブレイクダメージ+{1}％、与える強化効果量+{2}％、与えるマイナス効果量+{3}％<br>バトル開始時、はじめのレンジを入れ替える",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000332,
+        "value": 4400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000333,
+        "value": 5500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000334,
+        "value": 2200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000335,
+        "value": 2800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000323,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000324,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000325,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000326,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000327,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000328,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000329,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000330,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000331,
+        "value": 0
+      }
+    ],
+    "id": 4991210,
+    "name": "想力「ドキドキ・おそろい」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「アラディス調査団」の時、スキルダメージ+{0}％、ブレイクダメージ+{1}％、与える強化効果量+{2}％、与えるマイナス効果量+{3}％<br>バトル開始時、はじめのレンジを入れ替える",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000332,
+        "value": 6200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000333,
+        "value": 7800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000334,
+        "value": 3100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000335,
+        "value": 3900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000323,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000324,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000325,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000326,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000327,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000328,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000329,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000330,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000331,
+        "value": 0
+      }
+    ],
+    "id": 4991211,
+    "name": "想力「ドキドキ・おそろい」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「アラディス調査団」の時、スキルダメージ+{0}％、ブレイクダメージ+{1}％、与える強化効果量+{2}％、与えるマイナス効果量+{3}％<br>バトル開始時、はじめのレンジを入れ替える",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000332,
+        "value": 8000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000333,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000334,
+        "value": 4000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000335,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000323,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000324,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000325,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000326,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000327,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000328,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000329,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000330,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000331,
+        "value": 0
+      }
+    ],
+    "id": 4991212,
+    "name": "想力「ドキドキ・おそろい」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「アラディス調査団」の時、スキルダメージ+{0}％、ブレイクダメージ+{1}％、与える強化効果量+{2}％、与えるマイナス効果量+{3}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000332,
+        "value": 800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000333,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000334,
+        "value": 400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000335,
+        "value": 500
+      }
+    ],
+    "id": 4991213,
+    "name": "想力「心休まるひととき」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「アラディス調査団」の時、スキルダメージ+{0}％、ブレイクダメージ+{1}％、与える強化効果量+{2}％、与えるマイナス効果量+{3}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000332,
+        "value": 2600
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000333,
+        "value": 3300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000334,
+        "value": 1300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000335,
+        "value": 1600
+      }
+    ],
+    "id": 4991214,
+    "name": "想力「心休まるひととき」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「アラディス調査団」の時、スキルダメージ+{0}％、ブレイクダメージ+{1}％、与える強化効果量+{2}％、与えるマイナス効果量+{3}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000332,
+        "value": 4400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000333,
+        "value": 5500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000334,
+        "value": 2200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000335,
+        "value": 2800
+      }
+    ],
+    "id": 4991215,
+    "name": "想力「心休まるひととき」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「アラディス調査団」の時、スキルダメージ+{0}％、ブレイクダメージ+{1}％、与える強化効果量+{2}％、与えるマイナス効果量+{3}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000332,
+        "value": 6200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000333,
+        "value": 7800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000334,
+        "value": 3100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000335,
+        "value": 3900
+      }
+    ],
+    "id": 4991216,
+    "name": "想力「心休まるひととき」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「アラディス調査団」の時、スキルダメージ+{0}％、ブレイクダメージ+{1}％、与える強化効果量+{2}％、与えるマイナス効果量+{3}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000332,
+        "value": 8000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000333,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000334,
+        "value": 4000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000335,
+        "value": 5000
+      }
+    ],
+    "id": 4991217,
+    "name": "想力「心休まるひととき」"
   },
   {
     "ability_category_type": null,
@@ -58130,6 +59899,85 @@
   },
   {
     "ability_category_type": null,
+    "description": "自身がブレイク時、被ダメージUP(20%/永続)(上限3回)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86042001,
+        "value": 2000
+      }
+    ],
+    "id": 26042001,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "火、氷、突属性以外の属性耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000721,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000717,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000716,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000722,
+        "value": 0
+      }
+    ],
+    "id": 26042002,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "火以外の属性耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000721,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000718,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000720,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000717,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000716,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000722,
+        "value": 0
+      }
+    ],
+    "id": 26042003,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
     "description": "スキル発動後、自身に与ダメージ10％UP付与\n自身が毒でない場合、被ダメージ10％",
     "effects": [
       {
@@ -58352,6 +60200,34 @@
       }
     ],
     "id": 26060003,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "手番開始時、ブレイクゲージを最大の5%回復\n手番開始時、HPを最大HP割合で5%回復\n被弾時、自身に被ダメージ20%UP(上限100%)を付与\n被弾時、自身に被ブレイクダメージ20%UP(上限100%)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 880003014,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 880003013,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86060007,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86060008,
+        "value": 2000
+      }
+    ],
+    "id": 26060010,
     "name": ""
   },
   {
@@ -59199,6 +61075,39 @@
       }
     ],
     "id": 26103005,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "火、氷以外の属性耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000721,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000718,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000717,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000716,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000722,
+        "value": 0
+      }
+    ],
+    "id": 26103011,
     "name": ""
   },
   {
@@ -63232,6 +65141,534 @@
       }
     ],
     "id": 26259001,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "ブレイク時、自身に悪性状態異常付与不可(5回)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86261001,
+        "value": 0
+      }
+    ],
+    "id": 26261001,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "ウェーブ開始時、自身に素早さDOWN(99%)を付与。\nバトル開始時、ランダムチップを2回獲得。\nディーラー行動判定用状態変化獲得時、デバフ解除し、自身の手番短縮と、相手の手番遅延。\nチップレベル22以上で手番開始前、自身に猛毒を付与。\nA判定用状態変化獲得時、1or11レベルのチップを獲得。\n戦闘アイテムによる被ダメージDOWN(990%)。",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 76266044,
+        "value": 9900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266060,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266061,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266056,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266058,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266042,
+        "value": 99000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266043,
+        "value": 99000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266037,
+        "value": 99000
+      }
+    ],
+    "id": 26266001,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "スキル発動時、自身のチップレベルが相手を上回っていない場合、22レベル以上のチップを持っている場合、与ダメージDOWN(100%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 76266001,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266002,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266003,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266004,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266005,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266006,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266007,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266008,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266009,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266010,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266011,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266012,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266013,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266014,
+        "value": 10000
+      }
+    ],
+    "id": 26266002,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "スキル発動時、自身のチップレベルが相手を上回っていない場合、22レベル以上のチップを持っている場合、与ダメージDOWN(100%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 76266015,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266016,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266017,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266018,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266019,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266020,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266040,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266039,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266023,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266033,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 13000005,
+        "value": 99000
+      }
+    ],
+    "id": 26266003,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "チップレベルが21の時、アンチュへダメージを与えられる",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 76266041,
+        "value": 990000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266035,
+        "value": 990000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266050,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266051,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266059,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266062,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266063,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266064,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266065,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266066,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266067,
+        "value": 0
+      }
+    ],
+    "id": 26266004,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "アイテム使用時、自身の行動を終了し、アンチュにターンを譲る",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 76266048,
+        "value": 0
+      }
+    ],
+    "id": 26266005,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "チップレベルが22以上の手番開始時、自身に猛毒が付与されて戦闘不能になる",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 76266049,
+        "value": 10000
+      }
+    ],
+    "id": 26266006,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "戦闘アイテムによる与ダメージ-100％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 76266036,
+        "value": 10000
+      }
+    ],
+    "id": 26266007,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "キャラ入れ替えスキルを使用不可",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 76266082,
+        "value": 0
+      }
+    ],
+    "id": 26266008,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "戦闘不能時、同エネミーを仲間呼び。\n戦闘アイテムによる被ダメージDOWN(100%)。\n単体攻撃によって戦闘不能になった時、相手全員にランダムチップを付与。",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 76266046,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 13000005,
+        "value": 99000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266045,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266070,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266071,
+        "value": 0
+      }
+    ],
+    "id": 26267001,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "戦闘不能時、同エネミーを仲間呼び。\n戦闘アイテムによる被ダメージDOWN(100%)。\n戦闘不能時、相手全員にランダムチップを付与。",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 76266047,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 13000005,
+        "value": 99000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266021,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266068,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76266069,
+        "value": 0
+      }
+    ],
+    "id": 26267002,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "大ブレイク時、キバコオモリを最大2体仲間呼びし、行動を再抽選する",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86268028,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86268029,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81179045,
+        "value": 0
+      }
+    ],
+    "id": 26268008,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "大ブレイク時、キバコオモリを最大2体仲間呼びし、行動を再抽選する",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86268040,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86268041,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81179045,
+        "value": 0
+      }
+    ],
+    "id": 26268009,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "wave開始時、ゴールデンぷにとシルバーぷにを2体ずつ仲間呼びして被ダメージDOWN(40%)を3個付与。\n味方戦闘不能時、自身の被ダメージDOWNを1つ解除し、ゴールデンぷにまたはシルバーぷにをランダムで仲間呼びする",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86269018,
+        "value": 400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86269017,
+        "value": 4000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86269017,
+        "value": 4000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86269017,
+        "value": 4000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76269010,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86269016,
+        "value": 400
+      }
+    ],
+    "id": 26269006,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "wave開始時、ゴールデンぷにとシルバーぷにを2体ずつ仲間呼びして被ダメージDOWN(40%)を3個付与。\n味方戦闘不能時、自身の被ダメージDOWNを1つ解除し、ゴールデンぷにまたはシルバーぷにをランダムで仲間呼びする",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86269030,
+        "value": 400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86269017,
+        "value": 4000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86269017,
+        "value": 4000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86269017,
+        "value": 4000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 76269010,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86269042,
+        "value": 400
+      }
+    ],
+    "id": 26269007,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "ウェーブ開始前、自身に全体攻撃から受ける攻撃のスキル威力UP(70%)、全体攻撃から受けるブレイクダメージUP(200%)を付与\nWEAK攻撃被弾時、自身に被ダメージUP(10%/上限50％)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86270003,
+        "value": 7000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86270004,
+        "value": 20000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86270005,
+        "value": 1000
+      }
+    ],
+    "id": 26270001,
     "name": ""
   },
   {
@@ -83095,6 +85532,50 @@
   },
   {
     "ability_category_type": null,
+    "description": "クリセルダ【トリッキーバニー】のブレイクダメージ+200%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 20000843,
+        "value": 20000
+      }
+    ],
+    "id": 600000751,
+    "name": "クリセルダ【トリッキーバニー】のブレイクダメージUP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "ゴゥ【九偉人 No.5】またはクリセルダ【トリッキーバニー】を編成時、被ダメージ-25％(上限25％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 20000844,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000839,
+        "value": 2500
+      }
+    ],
+    "id": 600000752,
+    "name": "ゴゥ【九偉人 No.5】 またはクリセルダ【トリッキーバニー】を編成時、被ダメージ減少"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身が「錬金党」のとき、スキル威力+100%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 20000845,
+        "value": 10000
+      }
+    ],
+    "id": 600000753,
+    "name": "自身が「錬金党」のとき、スキル威力UP"
+  },
+  {
+    "ability_category_type": null,
     "description": "スキル発動後、味方全員の戦闘アイテムで与えるダメージ+100%(上限3000%)",
     "effects": [
       {
@@ -83105,6 +85586,112 @@
     ],
     "id": 600000754,
     "name": "行動後、味方全員の戦闘アイテムダメージUP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "アンチュ【ミルキィバニー】の与える強化効果量+150%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 20000854,
+        "value": 15000
+      }
+    ],
+    "id": 600000757,
+    "name": "アンチュ【ミルキィバニー】の強化効果量UP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "アンチュ【ミルキィバニー】またはクリセルダ【トリッキーバニー】を編成時、被ダメージ-25％(上限25％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 20000855,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 20000844,
+        "value": 2500
+      }
+    ],
+    "id": 600000758,
+    "name": "アンチュ【ミルキィバニー】またはクリセルダ【トリッキーバニー】を編成時、被ダメージ減少"
+  },
+  {
+    "ability_category_type": null,
+    "description": "イザナ【Starry Heavens Tone】のブレイクダメージ+200%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 20000856,
+        "value": 20000
+      }
+    ],
+    "id": 600000759,
+    "name": "イザナ【Starry Heavens Tone】のブレイクダメージUP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "イザナ【Starry Heavens Tone】またはアンチュ【ミルキィバニー】を編成時、被ダメージ-25％(上限25％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 20000857,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 20000855,
+        "value": 2500
+      }
+    ],
+    "id": 600000760,
+    "name": "イザナ【Starry Heavens Tone】 またはアンチュ【ミルキィバニー】を編成時、被ダメージ減少"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が火属性の時、クリティカル確率+25％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000855,
+        "value": 2500
+      }
+    ],
+    "id": 600000761,
+    "name": "得意属性が火の時、クリティカル確率上昇"
+  },
+  {
+    "ability_category_type": null,
+    "description": "レスナ【幸爛漫・福ノ華】のスキル威力+100%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000854,
+        "value": 10000
+      }
+    ],
+    "id": 600000762,
+    "name": "レスナ【幸爛漫・福ノ華】のスキル威力UP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "レスナ【幸爛漫・福ノ華】またはイザナ【Starry Heavens Tone】を編成時、被ダメージ-25％(上限25％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000853,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 20000857,
+        "value": 2500
+      }
+    ],
+    "id": 600000763,
+    "name": "レスナ【幸爛漫・福ノ華】またはイザナ【Starry Heavens Tone】を編成時、被ダメージ減少"
   },
   {
     "ability_category_type": null,

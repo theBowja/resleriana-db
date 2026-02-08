@@ -16132,6 +16132,179 @@
   },
   {
     "ability_category_type": null,
+    "description": "自身がリアス【Mistletoe of Hope】の時、パーティの誰かが戦闘アイテム使用後、自身に「スキル威力+{0}％」を1回行動終了するまで付与<br>※アイテムを複数同時に使用しても発動は1回",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001208,
+        "value": 4000
+      }
+    ],
+    "id": 301303,
+    "name": "グラシアシュターフ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がスレイ【白の意思を継ぐ者】の時、ブレイクダメージ+{0}％<br>さらに、攻撃対象がブレイク時、味方全員に「受ける強化効果量+{1}％」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001209,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 6001210,
+        "value": 2000
+      }
+    ],
+    "id": 301304,
+    "name": "ペルシェルツヴァイ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が火属性の時、攻撃前、対象に「全体攻撃から受ける魔法攻撃ダメージ+{0}％」を1回攻撃を受けるまで付与<br>自身がアタッカーの時、攻撃後、自身に「WEAK攻撃ダメージ+{1}％」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001211,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 6001212,
+        "value": 2000
+      }
+    ],
+    "id": 301305,
+    "name": "ウィッチクラフト"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性の時、攻撃対象がブレイク時、得意属性が物理属性または「ハルフェン復興隊」の味方全員に「クリティカルダメージ+{0}％」を1回行動終了するまで付与<br>自身がブレイカーの時、WEAK攻撃後、自身に「ブレイクダメージ+{1}％」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001213,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 6001215,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 6001214,
+        "value": 2000
+      }
+    ],
+    "id": 301306,
+    "name": "執事の襟締"
+  },
+  {
+    "ability_category_type": null,
+    "description": "ブレイクダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001216,
+        "value": 4300
+      }
+    ],
+    "id": 301307,
+    "name": "奔放なる衣"
+  },
+  {
+    "ability_category_type": null,
+    "description": "ブレイクダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001216,
+        "value": 2900
+      }
+    ],
+    "id": 301308,
+    "name": "奔放なる衣"
+  },
+  {
+    "ability_category_type": null,
+    "description": "味方全員の全体攻撃から受けるダメージ-{0}%(固定)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001217,
+        "value": 1100
+      }
+    ],
+    "id": 301309,
+    "name": "黒曜の腕輪"
+  },
+  {
+    "ability_category_type": null,
+    "description": "味方全員の全体攻撃から受けるダメージ-{0}%(固定)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001217,
+        "value": 800
+      }
+    ],
+    "id": 301310,
+    "name": "黒曜の腕輪"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がワルター【Suit of Vertex】の時、攻撃後、または、攻撃を受けた時、味方全員に「スキルダメージ+{0}％」を1回行動終了するまで付与(上限3個)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001219,
+        "value": 3500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 6001219,
+        "value": 3500
+      }
+    ],
+    "id": 301311,
+    "name": "イルグレイブ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がティム【Little Knight】の時、バトル開始時、味方全員に『攻撃対象の「餓狼の影」のLvが5以上の時、その攻撃のスキル威力+{0}%』を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001220,
+        "value": 2000
+      }
+    ],
+    "id": 301312,
+    "name": "ビヨンド・ザ・カース"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がジェロン【Break the Curse】の時、攻撃対象の「餓狼の影」のLvが3以上の時、自身の攻撃のクリティカル確率+{0}％とクリティカルダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001222,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 6001224,
+        "value": 5000
+      }
+    ],
+    "id": 301313,
+    "name": "ハデスファング"
+  },
+  {
+    "ability_category_type": null,
     "description": "魔攻・魔防+{0}%",
     "effects": [
       {
@@ -19287,6 +19460,101 @@
   },
   {
     "ability_category_type": null,
+    "description": "味方全員は「約束と協力」1人につき「物攻・魔攻+10%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500185,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500186,
+        "value": 1000
+      }
+    ],
+    "id": 1980223,
+    "name": "大好きな町をもう一度"
+  },
+  {
+    "ability_category_type": null,
+    "description": "味方全員は「ハルフェン復興隊」1人につき「基礎物攻・基礎魔攻+100」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500187,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500188,
+        "value": 10000
+      }
+    ],
+    "id": 1980224,
+    "name": "父の遺志を宿して"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「ランターナ」は「物防・魔防＋50%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500004,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500005,
+        "value": 5000
+      }
+    ],
+    "id": 1980225,
+    "name": "人造頂獣の遣い手"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「真面目」は「攻撃を受けた時、自身のHPを5%回復」と「スキルダメージ・ブレイクダメージ+50%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500116,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500051,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500052,
+        "value": 5000
+      }
+    ],
+    "id": 1980231,
+    "name": "心優しき健気な青年"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「騎士」は「先駆け」と「クリティカルダメージ+50%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500008,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500099,
+        "value": 0
+      }
+    ],
+    "id": 1980232,
+    "name": "呪いを乗り越えた先"
+  },
+  {
+    "ability_category_type": null,
     "description": "味方全員の物攻+{0}%",
     "effects": [
       {
@@ -20368,6 +20636,36 @@
         "ability_timing_value": null,
         "id": 72000926,
         "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001560,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001561,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001562,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001563,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001564,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001565,
+        "value": 0
       }
     ],
     "id": 1990114,
@@ -26628,6 +26926,350 @@
     ],
     "id": 1990496,
     "name": "福よ、来たれ！"
+  },
+  {
+    "ability_category_type": null,
+    "description": "攻撃対象がブレイク時またはブレイク状態の敵を攻撃後、味方全員に「クリティカルダメージ+40％」を付与(上限80％)し、<br>「ハルフェン復興隊」の味方全員に「物攻+25％」(上限50％)と「魔攻+25％」(上限50％)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001550,
+        "value": 4000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001551,
+        "value": 4000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001552,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001553,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001554,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001555,
+        "value": 2500
+      }
+    ],
+    "id": 1990497,
+    "name": "遠慮なくやらせてもらう"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「ハルフェン復興隊」タグを持つキャラ数に応じ、自身が与えるダメージ+20～100％(1～5人で多いほど増加)<br>「パンプキンボム」または「メテオストーム」発動後、敵の数に応じ、自身に「スキル威力+5～25％(1～5体で多いほど増加)」を付与(上限50％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001556,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001557,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001559,
+        "value": 10000
+      }
+    ],
+    "id": 1990498,
+    "name": "いい感じに燃えてきたわ！"
+  },
+  {
+    "ability_category_type": null,
+    "description": "スキル発動後、アイテムゲージを{0}%回復<br>クリティカル攻撃後、さらにアイテムゲージを{1}%回復<br>パーティの誰かが戦闘アイテム使用後、自身に「クリティカル確率+{2}%」を1回行動終了するまで付与<br>※アイテムを複数同時に使用しても発動は1回<br><br>自身のターンでアイテムゲージが100％の時、{{hyperlink_id 151}}を発動可能<br>アイテムミックススキル発動後、自身に「クリティカル確率+100%」を3回行動終了するまで付与し、「クリティカルダメージ+100%」を付与(上限300%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001085,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001569,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001568,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001577,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001578,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001579,
+        "value": 100
+      }
+    ],
+    "id": 1990499,
+    "name": "アルケミチャンス"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「ハルフェン復興隊」タグを持つキャラ数に応じ、基礎魔攻+100～500(1～5人で多いほど増加)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001570,
+        "value": 50000
+      }
+    ],
+    "id": 1990500,
+    "name": "みんなと一緒なら！"
+  },
+  {
+    "ability_category_type": null,
+    "description": "パーティの誰かが戦闘アイテム使用時、自身に「ブレイクダメージ+{0}%」を付与(上限80%)し、味方全員に「クリティカルダメージ+{1}%」を付与(上限80%)<br>※アイテムを複数同時に使用しても発動は1回",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001572,
+        "value": 4000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001573,
+        "value": 4000
+      }
+    ],
+    "id": 1990501,
+    "name": "奮うこと雷霆の如し"
+  },
+  {
+    "ability_category_type": null,
+    "description": "攻撃対象がブレイク時、アイテムゲージを{0}%回復し、対象に「受ける魔法攻撃ダメージ+{1}%」を付与(上限80%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72000984,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001574,
+        "value": 4000
+      }
+    ],
+    "id": 1990502,
+    "name": "一気に仕掛けよう！"
+  },
+  {
+    "ability_category_type": null,
+    "description": "敵にとても狙われやすくなる<br>得意属性が雷属性または「ハルフェン復興隊」の味方全員の最大HP+{0}%<br>バトル開始時、「ウェルテックスソード」のスキルランプを3個点灯し、<br>味方全員のHPを100%回復<br>自身が攻撃を受けた時またはパーティの誰かが戦闘アイテム使用時、「ウェルテックスソード」のスキルランプを1個点灯する<br>※アイテムを複数同時に使用しても発動は1回",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001580,
+        "value": 4000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001094,
+        "value": 300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001094,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001094,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001581,
+        "value": 4000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001131,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72000914,
+        "value": 10000
+      }
+    ],
+    "id": 1990503,
+    "name": "最後までお相手しましょう"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>攻撃を受けた時、自身のバーストゲージを{0}%増加<br>スキル発動後、自身のHPを{1}%回復<br><br>パーティの誰かが戦闘アイテム使用後、「ハルフェン復興隊」タグを持つキャラ数に応じ、得意属性が雷属性または「ハルフェン復興隊」の味方全員に「基礎物防・基礎魔防+50～250」を付与(上限500)(1～5人で多いほど増加)<br>※アイテムを複数同時に使用しても発動は1回",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001474,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72000950,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001452,
+        "value": 30000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001582,
+        "value": 25000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001583,
+        "value": 25000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001597,
+        "value": 25000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001598,
+        "value": 25000
+      }
+    ],
+    "id": 1990504,
+    "name": "錬金術効果検証実験"
+  },
+  {
+    "ability_category_type": null,
+    "description": "味方全員は「ハルフェン復興隊」タグを持つキャラ数に応じ「クリティカルダメージ+10～50％」と「戦闘アイテムクリティカルダメージ+10～50%」(1～5人で多いほど増加)<br><br>スキル発動後、アイテムゲージを{0}%回復し、味方全員のHPを{1}%回復",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001085,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001131,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001584,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001606,
+        "value": 5000
+      }
+    ],
+    "id": 1990505,
+    "name": "みんなで力を合わせよう！"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>「餓狼の影」が付与された敵を攻撃後、自身のバーストゲージを{0}%増加<br>スキル発動後、味方全員のHPを{1}%回復",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001599,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001131,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001452,
+        "value": 30000
+      }
+    ],
+    "id": 1990516,
+    "name": "兄の背を追って"
+  },
+  {
+    "ability_category_type": null,
+    "description": "バトル開始時、得意属性が物理属性の味方全員に以下の追加効果を付与<br>追加効果：「HP回復を受けた時、自身にクリティカルダメージ+35%を付与(上限210%)(効果量固定)」<br><br>※バトル開始時に発動した回復効果は含まない",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001600,
+        "value": 3500
+      }
+    ],
+    "id": 1990517,
+    "name": "兄想いの献身"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のバーストスキルをゲージ化<br>※バーストゲージは2周分ストック可能<br><br>「餓狼の影」が付与された敵を攻撃後、自身のバーストゲージを{0}%増加<br>「餓狼の影(Lv10)」が付与された対象を攻撃時、「バーストスキルダメージ+{1}%」を1回行動終了するまで付与し、自身のバーストゲージを{2}%増加(発動上限3回)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001599,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001603,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001604,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001602,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001452,
+        "value": 20000
+      }
+    ],
+    "id": 1990518,
+    "name": "頼れる兄として"
+  },
+  {
+    "ability_category_type": null,
+    "description": "パーティに自身以外の「騎士」がいる時、基礎物攻+{0}",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001605,
+        "value": 30000
+      }
+    ],
+    "id": 1990519,
+    "name": "弟と共に見る夢"
   },
   {
     "ability_category_type": null,
@@ -43926,6 +44568,801 @@
   },
   {
     "ability_category_type": null,
+    "description": "自身がサポーターの時、与えるHP回復量+{0}％<br>「家族と友情」の時、スキル発動後、味方全員に「クリティカルダメージ+{1}％」を1回行動終了するまで付与(上限3個)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000336,
+        "value": 400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000337,
+        "value": 300
+      }
+    ],
+    "id": 4991218,
+    "name": "想力「冒険者のカン」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がサポーターの時、与えるHP回復量+{0}％<br>「家族と友情」の時、スキル発動後、味方全員に「クリティカルダメージ+{1}％」を1回行動終了するまで付与(上限3個)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000336,
+        "value": 1100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000337,
+        "value": 900
+      }
+    ],
+    "id": 4991219,
+    "name": "想力「冒険者のカン」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がサポーターの時、与えるHP回復量+{0}％<br>「家族と友情」の時、スキル発動後、味方全員に「クリティカルダメージ+{1}％」を1回行動終了するまで付与(上限3個)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000336,
+        "value": 1700
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000337,
+        "value": 1400
+      }
+    ],
+    "id": 4991220,
+    "name": "想力「冒険者のカン」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がサポーターの時、与えるHP回復量+{0}％<br>「家族と友情」の時、スキル発動後、味方全員に「クリティカルダメージ+{1}％」を1回行動終了するまで付与(上限3個)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000336,
+        "value": 2400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000337,
+        "value": 2000
+      }
+    ],
+    "id": 4991221,
+    "name": "想力「冒険者のカン」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がサポーターの時、与えるHP回復量+{0}％<br>「家族と友情」の時、スキル発動後、味方全員に「クリティカルダメージ+{1}％」を1回行動終了するまで付与(上限3個)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000336,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000337,
+        "value": 2500
+      }
+    ],
+    "id": 4991222,
+    "name": "想力「冒険者のカン」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が風属性かつアタッカーの時、自身の手番で発動する戦闘アイテムダメージ+{0}%<br>「おてんば」の時、自身の手番で発動する戦闘アイテムクリティカルダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000338,
+        "value": 800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000339,
+        "value": 800
+      }
+    ],
+    "id": 4991223,
+    "name": "想力「二人で未来へ！」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が風属性かつアタッカーの時、自身の手番で発動する戦闘アイテムダメージ+{0}%<br>「おてんば」の時、自身の手番で発動する戦闘アイテムクリティカルダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000338,
+        "value": 2600
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000339,
+        "value": 2600
+      }
+    ],
+    "id": 4991224,
+    "name": "想力「二人で未来へ！」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が風属性かつアタッカーの時、自身の手番で発動する戦闘アイテムダメージ+{0}%<br>「おてんば」の時、自身の手番で発動する戦闘アイテムクリティカルダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000338,
+        "value": 4400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000339,
+        "value": 4400
+      }
+    ],
+    "id": 4991225,
+    "name": "想力「二人で未来へ！」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が風属性かつアタッカーの時、自身の手番で発動する戦闘アイテムダメージ+{0}%<br>「おてんば」の時、自身の手番で発動する戦闘アイテムクリティカルダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000338,
+        "value": 6200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000339,
+        "value": 6200
+      }
+    ],
+    "id": 4991226,
+    "name": "想力「二人で未来へ！」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が風属性かつアタッカーの時、自身の手番で発動する戦闘アイテムダメージ+{0}%<br>「おてんば」の時、自身の手番で発動する戦闘アイテムクリティカルダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000338,
+        "value": 8000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000339,
+        "value": 8000
+      }
+    ],
+    "id": 4991227,
+    "name": "想力「二人で未来へ！」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が雷属性かつブレイカーの時、パーティの誰かが戦闘アイテム使用時、相手全員に「受けるクリティカルダメージ+{0}％」を1回攻撃を受けるまで付与(上限2個)<br>※アイテムを複数同時に使用しても発動は1回<br>「料理」の時、ブレイクダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000340,
+        "value": 600
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000341,
+        "value": 500
+      }
+    ],
+    "id": 4991228,
+    "name": "想力「二人一緒なら」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が雷属性かつブレイカーの時、パーティの誰かが戦闘アイテム使用時、相手全員に「受けるクリティカルダメージ+{0}％」を1回攻撃を受けるまで付与(上限2個)<br>※アイテムを複数同時に使用しても発動は1回<br>「料理」の時、ブレイクダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000340,
+        "value": 1700
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000341,
+        "value": 1700
+      }
+    ],
+    "id": 4991229,
+    "name": "想力「二人一緒なら」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が雷属性かつブレイカーの時、パーティの誰かが戦闘アイテム使用時、相手全員に「受けるクリティカルダメージ+{0}％」を1回攻撃を受けるまで付与(上限2個)<br>※アイテムを複数同時に使用しても発動は1回<br>「料理」の時、ブレイクダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000340,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000341,
+        "value": 3000
+      }
+    ],
+    "id": 4991230,
+    "name": "想力「二人一緒なら」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が雷属性かつブレイカーの時、パーティの誰かが戦闘アイテム使用時、相手全員に「受けるクリティカルダメージ+{0}％」を1回攻撃を受けるまで付与(上限2個)<br>※アイテムを複数同時に使用しても発動は1回<br>「料理」の時、ブレイクダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000340,
+        "value": 4200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000341,
+        "value": 4200
+      }
+    ],
+    "id": 4991231,
+    "name": "想力「二人一緒なら」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が雷属性かつブレイカーの時、パーティの誰かが戦闘アイテム使用時、相手全員に「受けるクリティカルダメージ+{0}％」を1回攻撃を受けるまで付与(上限2個)<br>※アイテムを複数同時に使用しても発動は1回<br>「料理」の時、ブレイクダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000340,
+        "value": 6000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000341,
+        "value": 5400
+      }
+    ],
+    "id": 4991232,
+    "name": "想力「二人一緒なら」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が雷属性かつディフェンダーであり、攻撃でダメージを与えた時、敵全体に「受けるダメージ+{0}％」を1回攻撃を受けるまで付与(上限4個)<br>「マイペース」の時、物防・魔防+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000342,
+        "value": 800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000343,
+        "value": 400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000344,
+        "value": 400
+      }
+    ],
+    "id": 4991233,
+    "name": "想力「研究室に響く声」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が雷属性かつディフェンダーであり、攻撃でダメージを与えた時、敵全体に「受けるダメージ+{0}％」を1回攻撃を受けるまで付与(上限4個)<br>「マイペース」の時、物防・魔防+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000342,
+        "value": 1900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000343,
+        "value": 800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000344,
+        "value": 800
+      }
+    ],
+    "id": 4991234,
+    "name": "想力「研究室に響く声」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が雷属性かつディフェンダーであり、攻撃でダメージを与えた時、敵全体に「受けるダメージ+{0}％」を1回攻撃を受けるまで付与(上限4個)<br>「マイペース」の時、物防・魔防+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000342,
+        "value": 2900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000343,
+        "value": 1200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000344,
+        "value": 1200
+      }
+    ],
+    "id": 4991235,
+    "name": "想力「研究室に響く声」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が雷属性かつディフェンダーであり、攻撃でダメージを与えた時、敵全体に「受けるダメージ+{0}％」を1回攻撃を受けるまで付与(上限4個)<br>「マイペース」の時、物防・魔防+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000342,
+        "value": 4000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000343,
+        "value": 1600
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000344,
+        "value": 1600
+      }
+    ],
+    "id": 4991236,
+    "name": "想力「研究室に響く声」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が雷属性かつディフェンダーであり、攻撃でダメージを与えた時、敵全体に「受けるダメージ+{0}％」を1回攻撃を受けるまで付与(上限4個)<br>「マイペース」の時、物防・魔防+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000342,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000343,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000344,
+        "value": 2000
+      }
+    ],
+    "id": 4991237,
+    "name": "想力「研究室に響く声」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が突属性かつサポーターであり、HP回復を受けた時、味方全員に「スキルダメージ+{0}％」を1回行動終了するまで付与(上限3個)<br>「お菓子」の時、与えるHP回復量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000345,
+        "value": 300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000346,
+        "value": 400
+      }
+    ],
+    "id": 4991238,
+    "name": "想力「永遠先生の恋愛指南！？」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が突属性かつサポーターであり、HP回復を受けた時、味方全員に「スキルダメージ+{0}％」を1回行動終了するまで付与(上限3個)<br>「お菓子」の時、与えるHP回復量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000345,
+        "value": 900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000346,
+        "value": 1300
+      }
+    ],
+    "id": 4991239,
+    "name": "想力「永遠先生の恋愛指南！？」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が突属性かつサポーターであり、HP回復を受けた時、味方全員に「スキルダメージ+{0}％」を1回行動終了するまで付与(上限3個)<br>「お菓子」の時、与えるHP回復量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000345,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000346,
+        "value": 2200
+      }
+    ],
+    "id": 4991240,
+    "name": "想力「永遠先生の恋愛指南！？」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が突属性かつサポーターであり、HP回復を受けた時、味方全員に「スキルダメージ+{0}％」を1回行動終了するまで付与(上限3個)<br>「お菓子」の時、与えるHP回復量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000345,
+        "value": 2000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000346,
+        "value": 3100
+      }
+    ],
+    "id": 4991241,
+    "name": "想力「永遠先生の恋愛指南！？」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が突属性かつサポーターであり、HP回復を受けた時、味方全員に「スキルダメージ+{0}％」を1回行動終了するまで付与(上限3個)<br>「お菓子」の時、与えるHP回復量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000345,
+        "value": 2600
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000346,
+        "value": 4000
+      }
+    ],
+    "id": 4991242,
+    "name": "想力「永遠先生の恋愛指南！？」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつアタッカーの時、バーストスキルダメージ+{0}％<br>「騎士」の時、全体攻撃のスキルダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000347,
+        "value": 1200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000348,
+        "value": 500
+      }
+    ],
+    "id": 4991243,
+    "name": "想力「甘い幸せに満たされて」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつアタッカーの時、バーストスキルダメージ+{0}％<br>「騎士」の時、全体攻撃のスキルダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000347,
+        "value": 3900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000348,
+        "value": 1500
+      }
+    ],
+    "id": 4991244,
+    "name": "想力「甘い幸せに満たされて」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつアタッカーの時、バーストスキルダメージ+{0}％<br>「騎士」の時、全体攻撃のスキルダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000347,
+        "value": 6600
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000348,
+        "value": 2500
+      }
+    ],
+    "id": 4991245,
+    "name": "想力「甘い幸せに満たされて」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつアタッカーの時、バーストスキルダメージ+{0}％<br>「騎士」の時、全体攻撃のスキルダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000347,
+        "value": 9300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000348,
+        "value": 3500
+      }
+    ],
+    "id": 4991246,
+    "name": "想力「甘い幸せに満たされて」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつアタッカーの時、バーストスキルダメージ+{0}％<br>「騎士」の時、全体攻撃のスキルダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000347,
+        "value": 12000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000348,
+        "value": 4500
+      }
+    ],
+    "id": 4991247,
+    "name": "想力「甘い幸せに満たされて」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が魔法属性の時、自身の魔攻+{0}％<br>自身がアタッカーの時、スキルダメージ+{1}％<br>バトル開始時、自身のバーストゲージを{2}％増加",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000349,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000350,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000351,
+        "value": 1000
+      }
+    ],
+    "id": 4991248,
+    "name": "想力「錬金術を取り戻すために」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が魔法属性の時、自身の魔攻+{0}％<br>自身がアタッカーの時、スキルダメージ+{1}％<br>バトル開始時、自身のバーストゲージを{2}％増加",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000349,
+        "value": 3300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000350,
+        "value": 3300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000351,
+        "value": 2000
+      }
+    ],
+    "id": 4991249,
+    "name": "想力「錬金術を取り戻すために」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が魔法属性の時、自身の魔攻+{0}％<br>自身がアタッカーの時、スキルダメージ+{1}％<br>バトル開始時、自身のバーストゲージを{2}％増加",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000349,
+        "value": 5500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000350,
+        "value": 5500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000351,
+        "value": 3000
+      }
+    ],
+    "id": 4991250,
+    "name": "想力「錬金術を取り戻すために」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が魔法属性の時、自身の魔攻+{0}％<br>自身がアタッカーの時、スキルダメージ+{1}％<br>バトル開始時、自身のバーストゲージを{2}％増加",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000349,
+        "value": 7800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000350,
+        "value": 7800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000351,
+        "value": 4000
+      }
+    ],
+    "id": 4991251,
+    "name": "想力「錬金術を取り戻すために」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が魔法属性の時、自身の魔攻+{0}％<br>自身がアタッカーの時、スキルダメージ+{1}％<br>バトル開始時、自身のバーストゲージを{2}％増加",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000349,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000350,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000351,
+        "value": 5000
+      }
+    ],
+    "id": 4991252,
+    "name": "想力「錬金術を取り戻すために」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が物理属性の時、自身の物攻+{0}％<br>自身がアタッカーの時、スキルダメージ+{1}％<br>バトル開始時、自身のバーストゲージを{2}％増加",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000352,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000350,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000351,
+        "value": 1000
+      }
+    ],
+    "id": 4991253,
+    "name": "想力「大切なものを見つけに」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が物理属性の時、自身の物攻+{0}％<br>自身がアタッカーの時、スキルダメージ+{1}％<br>バトル開始時、自身のバーストゲージを{2}％増加",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000352,
+        "value": 3300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000350,
+        "value": 3300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000351,
+        "value": 2000
+      }
+    ],
+    "id": 4991254,
+    "name": "想力「大切なものを見つけに」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が物理属性の時、自身の物攻+{0}％<br>自身がアタッカーの時、スキルダメージ+{1}％<br>バトル開始時、自身のバーストゲージを{2}％増加",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000352,
+        "value": 5500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000350,
+        "value": 5500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000351,
+        "value": 3000
+      }
+    ],
+    "id": 4991255,
+    "name": "想力「大切なものを見つけに」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が物理属性の時、自身の物攻+{0}％<br>自身がアタッカーの時、スキルダメージ+{1}％<br>バトル開始時、自身のバーストゲージを{2}％増加",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000352,
+        "value": 7800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000350,
+        "value": 7800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000351,
+        "value": 4000
+      }
+    ],
+    "id": 4991256,
+    "name": "想力「大切なものを見つけに」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が物理属性の時、自身の物攻+{0}％<br>自身がアタッカーの時、スキルダメージ+{1}％<br>バトル開始時、自身のバーストゲージを{2}％増加",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000352,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000350,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000351,
+        "value": 5000
+      }
+    ],
+    "id": 4991257,
+    "name": "想力「大切なものを見つけに」"
+  },
+  {
+    "ability_category_type": null,
     "description": "突属性のスキルダメージ{0}%アップ",
     "effects": [
       {
@@ -60268,6 +61705,24 @@
   },
   {
     "ability_category_type": null,
+    "description": "状態異常またはマイナス効果を持つ相手に対し、与ダメージ上昇(15%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 880078005,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 880078006,
+        "value": 1500
+      }
+    ],
+    "id": 26078016,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
     "description": "手番開始時、自身のHPを5%,ブレイクゲージを5%回復",
     "effects": [
       {
@@ -60970,6 +62425,19 @@
       }
     ],
     "id": 26102001,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "ブレイク中、攻撃スキル被弾時、自身の被ダメージUP(30%/1回)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 780102009,
+        "value": 3000
+      }
+    ],
+    "id": 26102023,
     "name": ""
   },
   {
@@ -62149,6 +63617,19 @@
   },
   {
     "ability_category_type": null,
+    "description": "単体攻撃で戦闘不能時、敵全体にプラス効果無効(1回)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86143033,
+        "value": 0
+      }
+    ],
+    "id": 26143111,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
     "description": "自身に悪性状態異常が付与されていたら、被ダメージ50%上昇",
     "effects": [
       {
@@ -62648,6 +64129,70 @@
   },
   {
     "ability_category_type": null,
+    "description": "戦闘アイテムから受ける被クリティカルダメージUP(50%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 880111004,
+        "value": 5000
+      }
+    ],
+    "id": 26160011,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "火・風・雷・斬以外の属性耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000720,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000716,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000718,
+        "value": 0
+      }
+    ],
+    "id": 26160012,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "火・風・斬以外の属性耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000720,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000716,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000718,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000722,
+        "value": 0
+      }
+    ],
+    "id": 26160014,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
     "description": "バーストスキル被弾時、自身に被ダメージUP(10%/上限50%)、暗闇(1回)を付与",
     "effects": [
       {
@@ -62876,6 +64421,24 @@
   },
   {
     "ability_category_type": null,
+    "description": "打、突の属性耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000716,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000718,
+        "value": 0
+      }
+    ],
+    "id": 26164022,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
     "description": "ウェーブ開始時、自身に得意属性が雷属性以外の敵への与ダメージUP(1000%)を付与",
     "effects": [
       {
@@ -62926,6 +64489,19 @@
       }
     ],
     "id": 26170002,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "アイテム使用時、自身の被クリティカル率UP(30%/上限100%)を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86170011,
+        "value": 3000
+      }
+    ],
+    "id": 26170013,
     "name": ""
   },
   {
@@ -64041,6 +65617,19 @@
       }
     ],
     "id": 26216008,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "BS被弾時、自身に与ダメージDOWN(5%)を付与(上限30%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86216101,
+        "value": 500
+      }
+    ],
+    "id": 26216015,
     "name": ""
   },
   {
@@ -77111,6 +78700,81 @@
   },
   {
     "ability_category_type": null,
+    "description": "ティム【Little Knight】の与える強化効果量+150%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000864,
+        "value": 15000
+      }
+    ],
+    "id": 600000111,
+    "name": "ティム【Little Knight】の強化効果量UP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "ジェロン【Break the Curse】のスキル威力+100%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000865,
+        "value": 10000
+      }
+    ],
+    "id": 600000112,
+    "name": "ジェロン【Break the Curse】のスキル威力UP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "ティム【Little Knight】またはワルター【Suit of Vertex】を編成時、被ダメージ-25％(上限25％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000866,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000863,
+        "value": 2500
+      }
+    ],
+    "id": 600000113,
+    "name": "ティム【Little Knight】またはワルター【Suit of Vertex】を編成時、被ダメージ減少"
+  },
+  {
+    "ability_category_type": null,
+    "description": "ジェロン【Break the Curse】またはティム【Little Knight】を編成時、被ダメージ-25％(上限25％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000867,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000866,
+        "value": 2500
+      }
+    ],
+    "id": 600000114,
+    "name": "ジェロン【Break the Curse】またはティム【Little Knight】を編成時、被ダメージ減少"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身が「騎士」のとき、スキル威力+100%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000869,
+        "value": 10000
+      }
+    ],
+    "id": 600000115,
+    "name": "自身が「騎士」のとき、スキル威力UP"
+  },
+  {
+    "ability_category_type": null,
     "description": "自身のHPが70%以上の時、スキル威力+5%",
     "effects": [
       {
@@ -85692,6 +87356,112 @@
     ],
     "id": 600000763,
     "name": "レスナ【幸爛漫・福ノ華】またはイザナ【Starry Heavens Tone】を編成時、被ダメージ減少"
+  },
+  {
+    "ability_category_type": null,
+    "description": "リアス【Mistletoe of Hope】のスキル威力+100%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000857,
+        "value": 10000
+      }
+    ],
+    "id": 600000764,
+    "name": "リアス【Mistletoe of Hope】のスキル威力UP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "リアス【Mistletoe of Hope】またはレスナ【幸爛漫・福ノ華】を編成時、被ダメージ-25％(上限25％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000853,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000858,
+        "value": 2500
+      }
+    ],
+    "id": 600000765,
+    "name": "リアス【Mistletoe of Hope】またはレスナ【幸爛漫・福ノ華】を編成時、被ダメージ減少"
+  },
+  {
+    "ability_category_type": null,
+    "description": "スレイ【白の意思を継ぐ者】のブレイクダメージ+200%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000859,
+        "value": 20000
+      }
+    ],
+    "id": 600000766,
+    "name": "スレイ【白の意思を継ぐ者】のブレイクダメージUP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "スレイ【白の意思を継ぐ者】またはリアス【Mistletoe of Hope】を編成時、被ダメージ-25％(上限25％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000860,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000858,
+        "value": 2500
+      }
+    ],
+    "id": 600000767,
+    "name": "スレイ【白の意思を継ぐ者】またはリアス【Mistletoe of Hope】を編成時、被ダメージ減少"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身が「ハルフェン復興隊」のとき、スキル威力+100%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000861,
+        "value": 10000
+      }
+    ],
+    "id": 600000768,
+    "name": "自身が「ハルフェン復興隊」のとき、スキル威力UP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "ワルター【Suit of Vertex】の被ダメージ-20％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000862,
+        "value": 2000
+      }
+    ],
+    "id": 600000769,
+    "name": "ワルター【Suit of Vertex】の被ダメージDOWN"
+  },
+  {
+    "ability_category_type": null,
+    "description": "ワルター【Suit of Vertex】またはスレイ【白の意思を継ぐ者】を編成時、被ダメージ-25％(上限25％)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000863,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000860,
+        "value": 2500
+      }
+    ],
+    "id": 600000770,
+    "name": "ワルター【Suit of Vertex】またはスレイ【白の意思を継ぐ者】を編成時、被ダメージ減少"
   },
   {
     "ability_category_type": null,

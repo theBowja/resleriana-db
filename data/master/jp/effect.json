@@ -2710,11 +2710,31 @@
     "summons_effect_id": null
   },
   {
+    "description": "ブレイク威力{0}%アップ",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 3000393,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
     "description": "アタッカーに与える物攻/魔攻バフ{0}%アップ",
     "effect_motion_id": null,
     "enemy_hp_gauge": null,
     "field_effect_id": null,
     "id": 3000394,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "打属性かつアタッカーへのダメージバフ{0}%アップ",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 3000407,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null
@@ -3205,6 +3225,26 @@
     "enemy_hp_gauge": null,
     "field_effect_id": null,
     "id": 5000103,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身が「家族と友情」の時、攻撃前、対象に打属性耐性DOWNを付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 5000104,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身が「家族と友情」の時、物攻UPを付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 5000105,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null
@@ -15060,6 +15100,166 @@
     "summons_effect_id": null
   },
   {
+    "description": "自身がヨハナ【Cutie☆Hamster】の時、バーストスキル発動前、自身に「与える強化効果量+30％」を付与(上限90％)",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001266,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身がイザナ【Cutie☆Cat】の時、バーストスキルでブレイク後、自身に「与えるマイナス効果量アップ」を付与(重複不可)",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001267,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "得意属性が風属性の時、クリティカルダメージアップ",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001268,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身がアタッカーの時、強化系パネルから受ける効果量アップ",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001269,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身がカロリン【Courageous Sister】の時、攻撃後、スキル使用前の「クーゲルウルタイル」のスキルランプの数に応じ、自身に「物攻アップ」を1回行動終了するまで付与(1～3個で多いほど増加)",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001270,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身がカロリン【Courageous Sister】の時、攻撃後、スキル使用前の「クーゲルウルタイル」のスキルランプの数に応じ、自身に「クリティカル確率アップ」を1回行動終了するまで付与(1～3個で多いほど増加)",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001271,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "ブレイクダメージアップ",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001272,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "スキルダメージアップ",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001273,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "対象に「受けるバーストスキルダメージアップ」を2回攻撃を受けるまで付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001274,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "物攻が最も高い味方1人に「強化系パネルから受ける強化効果量アップ」を1回行動終了するまで付与(重複不可)",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001275,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "物攻が最も高い味方1人に「強化系パネルから受ける強化効果量アップ」を1回行動終了するまで付与(重複不可)",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001276,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身がハイディ【Buddy's Returning】の時、ブレイク時、対象に「受けるダメージアップ」を1回行動終了するまで付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001277,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身がハイディ【Buddy's Returning】の時、バーストゲージが200%以上かつバーストスキル発動後、バーストゲージを消費",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001278,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "味方全員に「自身がアタッカーの時、クリティカル確率アップ」を2回行動終了するまで付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001279,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "味方全員に「自身がアタッカーの時、クリティカルダメージアップ」を2回行動終了するまで付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001280,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身がハイディ【Buddy's Returning】の時、バーストゲージが200%以上かつバーストスキル発動後、対象に「受けるバーストスキルダメージアップ」を1回行動終了するまで付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 6001290,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
     "description": "与回復量上昇",
     "effect_motion_id": null,
     "enemy_hp_gauge": null,
@@ -16675,6 +16875,46 @@
     "enemy_hp_gauge": null,
     "field_effect_id": null,
     "id": 13000424,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "受ける攻撃の貫通力+{0}",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 13000425,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "味方全員の物攻+{value}%(上限150％)",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 13000426,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "弱体パネル無効",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 13000427,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 13000428,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null
@@ -27114,7 +27354,87 @@
     "effect_motion_id": null,
     "enemy_hp_gauge": null,
     "field_effect_id": null,
+    "id": 72001685,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
     "id": 72001686,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001687,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001688,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001689,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001690,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001691,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001692,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001693,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null
@@ -27144,7 +27464,127 @@
     "effect_motion_id": null,
     "enemy_hp_gauge": null,
     "field_effect_id": null,
+    "id": 72001696,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001697,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
     "id": 72001698,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001699,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001701,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001702,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001703,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001704,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001705,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001706,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001707,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001708,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72001709,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null
@@ -28100,6 +28540,66 @@
     "summons_effect_id": null
   },
   {
+    "description": "[自身/レスレリ学園が多いほど/スキルダメージアップ]",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72500193,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "[自身/レスレリ学園が多いほど/クリティカルダメージアップ]",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72500194,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "[自身/ランターナが多いほど/スキルダメージアップ]",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72500195,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "[自身/ランターナが多いほど/ブレイクダメージアップ]",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72500196,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "[自身/基礎物攻アップ]",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72500197,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "[自身/基礎魔攻アップ]",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 72500198,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
     "description": "スキル対象に被ダメージ(上限30%)を付与",
     "effect_motion_id": null,
     "enemy_hp_gauge": null,
@@ -28590,6 +29090,16 @@
     "summons_effect_id": null
   },
   {
+    "description": "自身にかばう(1回)を付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 76090001,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
     "description": "スキル対象のうち、アタッカーに与ダメージ低下(3回)を付与",
     "effect_motion_id": null,
     "enemy_hp_gauge": null,
@@ -29005,6 +29515,16 @@
     "enemy_hp_gauge": null,
     "field_effect_id": null,
     "id": 76146001,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "敵スキル対象に受ける強化効果量DOWN(1回)を付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 76146002,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null
@@ -36006,6 +36526,36 @@
     "summons_effect_id": null
   },
   {
+    "description": "ボムダメージを受けた時、自身の与ダメージダウン",
+    "effect_motion_id": 1086,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 83137019,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "ボムダメージを受けた時、被ダメージアップ",
+    "effect_motion_id": 1086,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 83137020,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "ボムダメージを受けた時、被ブレイクダメージUP",
+    "effect_motion_id": 1086,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 83137021,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
     "description": "自身に眠り(1回)を付与",
     "effect_motion_id": null,
     "enemy_hp_gauge": null,
@@ -37531,6 +38081,26 @@
     "enemy_hp_gauge": null,
     "field_effect_id": null,
     "id": 86112004,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身の被ダメージDOWNを1つ解除",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 86112050,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身に被ダメージDOWNを付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 86112054,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null
@@ -50470,7 +51040,207 @@
     "effect_motion_id": null,
     "enemy_hp_gauge": null,
     "field_effect_id": null,
+    "id": 91002208,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002210,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002211,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002212,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002213,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002214,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002215,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002216,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002217,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002218,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002219,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
     "id": 91002220,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002221,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002222,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002223,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002224,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002225,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002226,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002227,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002228,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002229,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null
@@ -50521,6 +51291,226 @@
     "enemy_hp_gauge": null,
     "field_effect_id": null,
     "id": 91002234,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002235,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002236,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002237,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002238,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002239,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002240,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002242,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002243,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002244,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002245,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002246,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002247,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002248,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002250,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002251,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002252,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002253,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002254,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002288,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002299,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002300,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 91002301,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null
@@ -54281,6 +55271,106 @@
     "enemy_hp_gauge": null,
     "field_effect_id": null,
     "id": 95000371,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "得意属性が雷属性かつサポーターの時、味方全員のバーストスキルダメージ+5％",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 95000372,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "「おてんば」の時、味方全員の魔攻+5％",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 95000373,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "得意属性が雷属性かつブレイカーの時、対象をブレイク時、味方全員に「バーストクリティカルダメージアップ」を1回行動終了するまで付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 95000374,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "「天然」の時、与えるマイナス効果量アップ",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 95000375,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "得意属性が打属性かつアタッカーの時、パネル獲得時、自身に「物攻アップ」を1回行動終了するまで付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 95000376,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "「世話焼き」の時、バーストスキルダメージアップ",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 95000377,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身がブレイカーの時、スキル2で攻撃前、対象に「全属性耐性ダウン」を2回攻撃を受けるまで付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 95000378,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "得意属性が打属性かつブレイカーの時、対象をブレイク時、対象に「パネルから受けるマイナス効果量アップ」を1回行動終了するまで付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 95000379,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "「ひょうきん者」の時、バーストブレイクダメージ+7％",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 95000380,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身がブレイカーの時、バーストスキルで攻撃前、対象に「全属性耐性ダウン」を2回攻撃を受けるまで付与",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 95000387,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null
@@ -61191,6 +62281,96 @@
     "enemy_hp_gauge": null,
     "field_effect_id": null,
     "id": 120000898,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "ヨハナ強化効果量UP",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 120000899,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "ヨハナ【Cutie☆Hamster】がパーティに編成されているとき、被ダメージDOWN",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 120000900,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身がイザナ【Cutie☆Cat】のとき、ブレイクダメージUP",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 120000901,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "イザナ【Cutie☆Cat】がパーティに編成されているとき、被ダメージDOWN",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 120000902,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身がカロリン【Courageous Sister】のときスキル威力UP",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 120000904,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身がハイディ【Buddy's Returning】のとき、ブレイクダメージUP",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 120000905,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "ハイディ【Buddy's Returning】がパーティに編成されているとき、被ダメージDOWN",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 120000906,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "カロリン【Courageous Sister】がパーティに編成されているとき、被ダメージDOWN",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 120000907,
+    "is_positive_popup": null,
+    "popup_text": "",
+    "summons_effect_id": null
+  },
+  {
+    "description": "自身が「家族と友情」のときスキル威力UP",
+    "effect_motion_id": null,
+    "enemy_hp_gauge": null,
+    "field_effect_id": null,
+    "id": 120000910,
     "is_positive_popup": null,
     "popup_text": "",
     "summons_effect_id": null

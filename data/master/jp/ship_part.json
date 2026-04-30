@@ -300,7 +300,7 @@
     "id": 13,
     "large_still_path_hash": "4752212084308204903",
     "name": "カノンコア",
-    "priority": 7,
+    "priority": 1000,
     "start_at": "2026-03-19T03:00:00.000Z",
     "still_path_hash": "2757519957212435646",
     "support_character_ids": [53, 129, 130, 132, 140],
@@ -328,7 +328,7 @@
     "id": 14,
     "large_still_path_hash": "5945282323935370269",
     "name": "アルケミットコア",
-    "priority": 8,
+    "priority": 1001,
     "start_at": "2026-03-19T03:00:00.000Z",
     "still_path_hash": "3834376081073460678",
     "support_character_ids": [65, 142, 170, 166, 167],
@@ -356,7 +356,7 @@
     "id": 15,
     "large_still_path_hash": "8101676246324934897",
     "name": "グラナートコア",
-    "priority": 9,
+    "priority": 1002,
     "start_at": "2026-03-19T03:00:00.000Z",
     "still_path_hash": "1718543150007071018",
     "support_character_ids": [66, 168, 169, 171, 178],
@@ -384,7 +384,7 @@
     "id": 16,
     "large_still_path_hash": "1684337963940533701",
     "name": "二六一式コア",
-    "priority": 10,
+    "priority": 1003,
     "start_at": "2026-03-19T03:00:00.000Z",
     "still_path_hash": "8135869312093232158",
     "support_character_ids": [38, 179, 188, 145, 146],
@@ -412,7 +412,7 @@
     "id": 17,
     "large_still_path_hash": "3868861655456166185",
     "name": "シュテルンコア",
-    "priority": 11,
+    "priority": 1004,
     "start_at": "2026-03-19T03:00:00.000Z",
     "still_path_hash": "5910806636400277746",
     "support_character_ids": [54, 147, 148, 149, 150],
@@ -440,11 +440,67 @@
     "id": 18,
     "large_still_path_hash": "6673510293025535562",
     "name": "ブレイクコア",
-    "priority": 12,
+    "priority": 1005,
     "start_at": "2026-03-19T03:00:00.000Z",
     "still_path_hash": "4263360993192837009",
     "support_character_ids": [141, 185, 186, 172, 174],
     "target_id": 7,
+    "value": 1
+  },
+  {
+    "costs": [
+      {
+        "id": 1,
+        "quantity": 2,
+        "resource_params": null,
+        "type": 9
+      },
+      {
+        "id": 1384,
+        "quantity": 10,
+        "resource_params": null,
+        "type": 5
+      }
+    ],
+    "description": "{0}の経験値＋{1}",
+    "enhance_target": 2,
+    "enhance_type": 1,
+    "id": 19,
+    "large_still_path_hash": "2604987657942593770",
+    "name": "ゼーゲンシャード",
+    "priority": 7,
+    "start_at": "2026-04-24T03:00:00.000Z",
+    "still_path_hash": "4868765055900006705",
+    "support_character_ids": [33, 56, 122, 203, 27],
+    "target_id": 8,
+    "value": 100
+  },
+  {
+    "costs": [
+      {
+        "id": 1,
+        "quantity": 20,
+        "resource_params": null,
+        "type": 9
+      },
+      {
+        "id": 1385,
+        "quantity": 100,
+        "resource_params": null,
+        "type": 5
+      }
+    ],
+    "description": "{0}の上限解放（{1}回目）\n解放するとレベル上限を{2}上昇させます",
+    "enhance_target": 2,
+    "enhance_type": 2,
+    "id": 20,
+    "large_still_path_hash": "489145373634892806",
+    "name": "ゼーゲンコア",
+    "priority": 1006,
+    "start_at": "2026-04-24T03:00:00.000Z",
+    "still_path_hash": "7025150724564082141",
+    "support_character_ids": [24, 122, 203, 26, 52],
+    "target_id": 8,
     "value": 1
   }
 ]

@@ -18371,6 +18371,138 @@
   },
   {
     "ability_category_type": null,
+    "description": "自身がヘルト【九偉人 No.1】であり攻撃対象が小ブレイクまたはブレイク時、対象に「受ける攻撃の貫通力+{0}」を1回行動終了するまで付与<br>※複数のゲージを同時に0にしても発動は1回",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001306,
+        "limit_count": null,
+        "value": 15000
+      }
+    ],
+    "id": 301360,
+    "name": "万象ヲ統ス英傑ノ槍"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がキューン【Lethal Arsenal】の時、「ガラクシア」発動後、自身に「スキル威力+15％」を1回行動終了するまで付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001310,
+        "limit_count": null,
+        "value": 0
+      }
+    ],
+    "id": 301361,
+    "name": "変幻ヲ纏ウ双極ノ牙"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がベップ【オーシャンフェアリー】の時、バーストスキル発動後、対象に「スキル威力+{0}%」を付与(重複不可)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001311,
+        "limit_count": null,
+        "value": 3200
+      }
+    ],
+    "id": 301362,
+    "name": "姉様特製釣り竿"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のHPが70%以上の時、受けるダメージ-{0}%(固定)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001312,
+        "limit_count": null,
+        "value": 2900
+      }
+    ],
+    "id": 301363,
+    "name": "霊銀甲アイトクロイツ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のHPが70%以上の時、受けるダメージ-{0}%(固定)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001312,
+        "limit_count": null,
+        "value": 2000
+      }
+    ],
+    "id": 301364,
+    "name": "霊銀甲アイトクロイツ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "味方全員のスキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001313,
+        "limit_count": null,
+        "value": 2200
+      }
+    ],
+    "id": 301365,
+    "name": "ハーナルリング"
+  },
+  {
+    "ability_category_type": null,
+    "description": "味方全員のスキルダメージ+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001313,
+        "limit_count": null,
+        "value": 1400
+      }
+    ],
+    "id": 301366,
+    "name": "ハーナルリング"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がヤドヴィガ【Loyal Servant】であり、パーティに自身以外の「九偉人」がいる時、与えるマイナス効果量+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001314,
+        "limit_count": null,
+        "value": 3000
+      }
+    ],
+    "id": 301367,
+    "name": "不動ナル忠義ノ鉄星"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がヤンネ【バケーションマドンナ】の時、パーティの誰かがスキル発動後、「エレガントフレグランス」が付与されていない味方全員に「エレガントフレグランス(Lv1)」を付与\n既に付与されている味方全員の「エレガントフレグランス」のLv+1(上限Lv50)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 6001315,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 6001315,
+        "limit_count": null,
+        "value": 0
+      }
+    ],
+    "id": 301368,
+    "name": "バケーションソード"
+  },
+  {
+    "ability_category_type": null,
     "description": "得意属性が火属性の時、スキルダメージ+{0}％",
     "effects": [
       {
@@ -29667,6 +29799,454 @@
   },
   {
     "ability_category_type": null,
+    "description": "「九偉人」の時、スキルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000111,
+        "limit_count": null,
+        "value": 2875
+      }
+    ],
+    "id": 500754,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「九偉人」の時、スキルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000111,
+        "limit_count": null,
+        "value": 2500
+      }
+    ],
+    "id": 500755,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「九偉人」の時、スキルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000111,
+        "limit_count": null,
+        "value": 2125
+      }
+    ],
+    "id": 500756,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「九偉人」の時、スキルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000111,
+        "limit_count": null,
+        "value": 1750
+      }
+    ],
+    "id": 500757,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「九偉人」の時、スキルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000111,
+        "limit_count": null,
+        "value": 1625
+      }
+    ],
+    "id": 500758,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「九偉人」の時、スキルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000111,
+        "limit_count": null,
+        "value": 1500
+      }
+    ],
+    "id": 500759,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「九偉人」の時、スキルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000111,
+        "limit_count": null,
+        "value": 1375
+      }
+    ],
+    "id": 500760,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「九偉人」の時、スキルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000111,
+        "limit_count": null,
+        "value": 1250
+      }
+    ],
+    "id": 500761,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「季節の装い」の時、スキルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000112,
+        "limit_count": null,
+        "value": 2875
+      }
+    ],
+    "id": 500762,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「季節の装い」の時、スキルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000112,
+        "limit_count": null,
+        "value": 2500
+      }
+    ],
+    "id": 500763,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「季節の装い」の時、スキルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000112,
+        "limit_count": null,
+        "value": 2125
+      }
+    ],
+    "id": 500764,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「季節の装い」の時、スキルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000112,
+        "limit_count": null,
+        "value": 1750
+      }
+    ],
+    "id": 500765,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「季節の装い」の時、スキルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000112,
+        "limit_count": null,
+        "value": 1625
+      }
+    ],
+    "id": 500766,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「季節の装い」の時、スキルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000112,
+        "limit_count": null,
+        "value": 1500
+      }
+    ],
+    "id": 500767,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「季節の装い」の時、スキルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000112,
+        "limit_count": null,
+        "value": 1375
+      }
+    ],
+    "id": 500768,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「季節の装い」の時、スキルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000112,
+        "limit_count": null,
+        "value": 1250
+      }
+    ],
+    "id": 500769,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「九偉人」の時、ブレイクダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000114,
+        "limit_count": null,
+        "value": 2875
+      }
+    ],
+    "id": 500770,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「九偉人」の時、ブレイクダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000114,
+        "limit_count": null,
+        "value": 2500
+      }
+    ],
+    "id": 500771,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「九偉人」の時、ブレイクダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000114,
+        "limit_count": null,
+        "value": 2125
+      }
+    ],
+    "id": 500772,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「九偉人」の時、ブレイクダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000114,
+        "limit_count": null,
+        "value": 1750
+      }
+    ],
+    "id": 500773,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「九偉人」の時、ブレイクダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000114,
+        "limit_count": null,
+        "value": 1625
+      }
+    ],
+    "id": 500774,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「九偉人」の時、ブレイクダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000114,
+        "limit_count": null,
+        "value": 1500
+      }
+    ],
+    "id": 500775,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「九偉人」の時、ブレイクダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000114,
+        "limit_count": null,
+        "value": 1375
+      }
+    ],
+    "id": 500776,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「九偉人」の時、ブレイクダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000114,
+        "limit_count": null,
+        "value": 1250
+      }
+    ],
+    "id": 500777,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「季節の装い」の時、クリティカルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000115,
+        "limit_count": null,
+        "value": 2875
+      }
+    ],
+    "id": 500778,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「季節の装い」の時、クリティカルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000115,
+        "limit_count": null,
+        "value": 2500
+      }
+    ],
+    "id": 500779,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「季節の装い」の時、クリティカルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000115,
+        "limit_count": null,
+        "value": 2125
+      }
+    ],
+    "id": 500780,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「季節の装い」の時、クリティカルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000115,
+        "limit_count": null,
+        "value": 1750
+      }
+    ],
+    "id": 500781,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「季節の装い」の時、クリティカルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000115,
+        "limit_count": null,
+        "value": 1625
+      }
+    ],
+    "id": 500782,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「季節の装い」の時、クリティカルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000115,
+        "limit_count": null,
+        "value": 1500
+      }
+    ],
+    "id": 500783,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「季節の装い」の時、クリティカルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000115,
+        "limit_count": null,
+        "value": 1375
+      }
+    ],
+    "id": 500784,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "「季節の装い」の時、クリティカルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 5000115,
+        "limit_count": null,
+        "value": 1250
+      }
+    ],
+    "id": 500785,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
     "description": "魔攻・魔防+{0}%",
     "effects": [
       {
@@ -33788,6 +34368,112 @@
     ],
     "id": 1980251,
     "name": "自称「九偉人最強」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「冥き追憶」は「先駆け」と「スキル威力+50%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500203,
+        "limit_count": null,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500099,
+        "limit_count": null,
+        "value": 0
+      }
+    ],
+    "id": 1980252,
+    "name": "原点にして頂点"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「お菓子」は「物攻・魔攻・物防・魔防+35%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500002,
+        "limit_count": null,
+        "value": 3500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500003,
+        "limit_count": null,
+        "value": 3500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500004,
+        "limit_count": null,
+        "value": 3500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500005,
+        "limit_count": null,
+        "value": 3500
+      }
+    ],
+    "id": 1980253,
+    "name": "普通に憧れる末っ子"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「季節の装い」は「スキル威力+60%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500203,
+        "limit_count": null,
+        "value": 6000
+      }
+    ],
+    "id": 1980254,
+    "name": "海辺の青き戦士"
+  },
+  {
+    "ability_category_type": null,
+    "description": "味方全員は「九偉人」1人につき「スキルダメージ・ブレイクダメージ+30%」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500204,
+        "limit_count": null,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500205,
+        "limit_count": null,
+        "value": 3000
+      }
+    ],
+    "id": 1980255,
+    "name": "忠実なる執行者"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「季節の装い」は「基礎物攻・基礎魔攻+400」",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72500197,
+        "limit_count": null,
+        "value": 40000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72500198,
+        "limit_count": null,
+        "value": 40000
+      }
+    ],
+    "id": 1980256,
+    "name": "海辺の母なる戦士"
   },
   {
     "ability_category_type": null,
@@ -44172,6 +44858,476 @@
     ],
     "id": 1990560,
     "name": "撃滅する冥暗"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>攻撃対象が小ブレイクまたはブレイク時、自身のバーストゲージを{0}％増加し、対象に「受ける物理攻撃ダメージ+{1}％」と「受ける魔法攻撃ダメージ+{2}％」を2回攻撃を受けるまで付与<br>※複数のゲージを同時に0にしても発動は1回",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001759,
+        "limit_count": null,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001760,
+        "limit_count": null,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001761,
+        "limit_count": null,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001452,
+        "limit_count": null,
+        "value": 30000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001511,
+        "limit_count": null,
+        "value": 0
+      }
+    ],
+    "id": 1990561,
+    "name": "九偉人の力-Ⅰ-"
+  },
+  {
+    "ability_category_type": null,
+    "description": "「冥き追憶」タグを持つキャラ数に応じ、自身が与えるマイナス効果量+10～{0}％と味方全員の物攻・魔攻+20～{1}％(1～5人で多いほど増加)<br><br>「冥き追憶」の味方全員は1回目のターン開始時、自身のパネルをバーストパネルに変換(空パネルの時は生成)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001762,
+        "limit_count": null,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001763,
+        "limit_count": null,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001764,
+        "limit_count": null,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001765,
+        "limit_count": null,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001766,
+        "limit_count": null,
+        "value": 0
+      }
+    ],
+    "id": 1990562,
+    "name": "支配する冥暗"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のバーストスキルをゲージ化<br>※バーストゲージは5周分ストック可能<br><br>自身のバーストゲージ100％につき、クリティカルダメージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001777,
+        "limit_count": null,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001778,
+        "limit_count": null,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001779,
+        "limit_count": null,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001780,
+        "limit_count": null,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001781,
+        "limit_count": null,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001782,
+        "limit_count": null,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001452,
+        "limit_count": null,
+        "value": 50000
+      }
+    ],
+    "id": 1990563,
+    "name": "パルメの知見の集大成"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身を除くパーティの誰かがスキル選択後、ブレイク状態の敵がいる場合または攻撃対象をブレイクした場合、現在HPが最も低い敵へ追加攻撃：{{hyperlink_id 163}}を発動する<br>自身に「MODE：グラヴィス」が付与されている時、追加攻撃：{{hyperlink_id 163}}の代わりに、強化追加攻撃：{{hyperlink_id 164}}を発動する<br><br>パーティに「真面目」がいる時、基礎物攻+{0}",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001783,
+        "limit_count": null,
+        "value": 40000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001784,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001785,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001786,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001787,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001788,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001789,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001790,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001791,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001792,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001793,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001794,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001795,
+        "limit_count": null,
+        "value": 0
+      }
+    ],
+    "id": 1990564,
+    "name": "早く終わらせちゃおう！"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>パーティの誰かがスキル発動後、自身のバーストゲージを{0}%増加",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001474,
+        "limit_count": null,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001474,
+        "limit_count": null,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001452,
+        "limit_count": null,
+        "value": 30000
+      }
+    ],
+    "id": 1990565,
+    "name": "姉様に捧ぐ演舞"
+  },
+  {
+    "ability_category_type": null,
+    "description": "スキル発動後、得意属性が斬属性の味方全員に「素早さ+{0}％」を付与(上限24％)<br>パーティの誰かがスキル発動後、得意属性が斬属性の味方全員に「クリティカル確率+{1}％」(上限100％)と「クリティカルダメージ+{2}％」(上限1600％)を付与<br><br>味方全員はそれぞれの素早さに応じ、貫通力+0～{3}(素早さ250～360で高いほど増加)<br><br>パーティに自身以外の「季節の装い」がいる時、与える強化効果量+{4}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001796,
+        "limit_count": null,
+        "value": 300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001797,
+        "limit_count": null,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001798,
+        "limit_count": null,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001800,
+        "limit_count": null,
+        "value": 36000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001801,
+        "limit_count": null,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001797,
+        "limit_count": null,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001798,
+        "limit_count": null,
+        "value": 1000
+      }
+    ],
+    "id": 1990566,
+    "name": "シーサイドリミット"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>パーティの誰かがスキル発動後、自身のバーストゲージを{0}％増加<br>攻撃対象が小ブレイクまたはブレイク時、自身のバーストゲージを{1}％増加し、対象のターンを{2}ターン遅らせる<br>※複数のゲージを同時に0にしても発動は1回",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001474,
+        "limit_count": null,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001802,
+        "limit_count": null,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001819,
+        "limit_count": null,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001474,
+        "limit_count": null,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001452,
+        "limit_count": null,
+        "value": 30000
+      }
+    ],
+    "id": 1990567,
+    "name": "不動の信念"
+  },
+  {
+    "ability_category_type": null,
+    "description": "攻撃対象が小ブレイクまたはブレイク時、もしくはブレイク状態の敵を攻撃後、対象に「受ける物理攻撃ダメージ+{0}％」を付与(上限320％)<br>※複数のゲージを同時に0にしても発動は1回<br><br>戦闘不能になっていない味方が3人以上かつブレイク状態の敵を「グラヴィスグローブス」または「プンゲレ・サルタティオ」で攻撃後、対象のターンを{1}ターン遅らせる<br><br>パーティに「お菓子」がいる時、ブレイク威力+{2}％<br>パーティに自身以外の「九偉人」がいる時、与えるマイナス効果量+{3}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001822,
+        "limit_count": null,
+        "value": 3200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001804,
+        "limit_count": null,
+        "value": 100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001806,
+        "limit_count": null,
+        "value": 8000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001823,
+        "limit_count": null,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001821,
+        "limit_count": null,
+        "value": 3200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001805,
+        "limit_count": null,
+        "value": 100
+      }
+    ],
+    "id": 1990568,
+    "name": "兄弟たちと鍛えた技で"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>パーティの誰かがスキル発動後、自身のバーストゲージを{0}％増加<br>スキル発動後、自身の「エレガントフレグランス」10Lvにつき、自身のバーストゲージを{1}％増加",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001474,
+        "limit_count": null,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001807,
+        "limit_count": null,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001808,
+        "limit_count": null,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001809,
+        "limit_count": null,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001810,
+        "limit_count": null,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001811,
+        "limit_count": null,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001474,
+        "limit_count": null,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001452,
+        "limit_count": null,
+        "value": 30000
+      }
+    ],
+    "id": 1990569,
+    "name": "楽しむ準備はいいかしら？"
+  },
+  {
+    "ability_category_type": null,
+    "description": "パーティの誰かがスキル発動後、「エレガントフレグランス」が付与されていない味方全員に「エレガントフレグランス(Lv1)」を付与<br>既に付与されている味方全員の「エレガントフレグランス」のLv+1(上限Lv50)<br>味方全員は、付与されている「エレガントフレグランス」のLvに応じて以下のボーナスをそれぞれ獲得する<br>1Lvにつきスキルダメージ+{0}%<br>Lv15以上：スキルダメージ+{1}%<br>Lv30以上：スキル威力+{2}%<br><br>パーティに自身以外の「季節の装い」がいる時、与える強化効果量+{3}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 72001815,
+        "limit_count": null,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001816,
+        "limit_count": null,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001817,
+        "limit_count": null,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001801,
+        "limit_count": null,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001818,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 72001818,
+        "limit_count": null,
+        "value": 0
+      }
+    ],
+    "id": 1990570,
+    "name": "シーサイドアフェクション"
   },
   {
     "ability_category_type": null,
@@ -64415,7 +65571,7 @@
   },
   {
     "ability_category_type": null,
-    "description": "得意属性が突属性かつディフェンダーの時、攻撃後、味方全員の「最大HP+{0}％」(上限20％)を付与<br>「真面目」の時、物防・魔防+{1}％",
+    "description": "得意属性が突属性かつディフェンダーの時、スキル発動後、味方全員に「最大HP+{0}％」(上限20％)を付与<br>「真面目」の時、物防・魔防+{1}％",
     "effects": [
       {
         "ability_timing_value": null,
@@ -64441,7 +65597,7 @@
   },
   {
     "ability_category_type": null,
-    "description": "得意属性が突属性かつディフェンダーの時、攻撃後、味方全員の「最大HP+{0}％」(上限20％)を付与<br>「真面目」の時、物防・魔防+{1}％",
+    "description": "得意属性が突属性かつディフェンダーの時、スキル発動後、味方全員に「最大HP+{0}％」(上限20％)を付与<br>「真面目」の時、物防・魔防+{1}％",
     "effects": [
       {
         "ability_timing_value": null,
@@ -64467,7 +65623,7 @@
   },
   {
     "ability_category_type": null,
-    "description": "得意属性が突属性かつディフェンダーの時、攻撃後、味方全員の「最大HP+{0}％」(上限20％)を付与<br>「真面目」の時、物防・魔防+{1}％",
+    "description": "得意属性が突属性かつディフェンダーの時、スキル発動後、味方全員に「最大HP+{0}％」(上限20％)を付与<br>「真面目」の時、物防・魔防+{1}％",
     "effects": [
       {
         "ability_timing_value": null,
@@ -64493,7 +65649,7 @@
   },
   {
     "ability_category_type": null,
-    "description": "得意属性が突属性かつディフェンダーの時、攻撃後、味方全員の「最大HP+{0}％」(上限20％)を付与<br>「真面目」の時、物防・魔防+{1}％",
+    "description": "得意属性が突属性かつディフェンダーの時、スキル発動後、味方全員に「最大HP+{0}％」(上限20％)を付与<br>「真面目」の時、物防・魔防+{1}％",
     "effects": [
       {
         "ability_timing_value": null,
@@ -64519,7 +65675,7 @@
   },
   {
     "ability_category_type": null,
-    "description": "得意属性が突属性かつディフェンダーの時、攻撃後、味方全員の「最大HP+{0}％」(上限20％)を付与<br>「真面目」の時、物防・魔防+{1}％",
+    "description": "得意属性が突属性かつディフェンダーの時、スキル発動後、味方全員に「最大HP+{0}％」(上限20％)を付与<br>「真面目」の時、物防・魔防+{1}％",
     "effects": [
       {
         "ability_timing_value": null,
@@ -66322,6 +67478,776 @@
     ],
     "id": 4991382,
     "name": "想力「お母さんに任せて！」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "バトル開始時、アトリエ砲ゲージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000401,
+        "limit_count": null,
+        "value": 5000
+      }
+    ],
+    "id": 4991383,
+    "name": "アトリエ砲チャージテンポⅢ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "バトル開始時、アトリエ砲ゲージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000401,
+        "limit_count": null,
+        "value": 5000
+      }
+    ],
+    "id": 4991384,
+    "name": "アトリエ砲チャージテンポⅢ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "バトル開始時、アトリエ砲ゲージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000401,
+        "limit_count": null,
+        "value": 5000
+      }
+    ],
+    "id": 4991385,
+    "name": "アトリエ砲チャージテンポⅢ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "バトル開始時、アトリエ砲ゲージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000401,
+        "limit_count": null,
+        "value": 5000
+      }
+    ],
+    "id": 4991386,
+    "name": "アトリエ砲チャージテンポⅢ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "バトル開始時、アトリエ砲ゲージ+{0}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000401,
+        "limit_count": null,
+        "value": 5000
+      }
+    ],
+    "id": 4991387,
+    "name": "アトリエ砲チャージテンポⅢ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつアタッカーの時、バーストスキル発動後、自身に「スキルダメージ+{0}％」を1回行動終了するまで付与<br>「お菓子」の時、クリティカルダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000402,
+        "limit_count": null,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000403,
+        "limit_count": null,
+        "value": 500
+      }
+    ],
+    "id": 4991388,
+    "name": "想力「スウィートタイム」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつアタッカーの時、バーストスキル発動後、自身に「スキルダメージ+{0}％」を1回行動終了するまで付与<br>「お菓子」の時、クリティカルダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000402,
+        "limit_count": null,
+        "value": 4900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000403,
+        "limit_count": null,
+        "value": 1600
+      }
+    ],
+    "id": 4991389,
+    "name": "想力「スウィートタイム」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつアタッカーの時、バーストスキル発動後、自身に「スキルダメージ+{0}％」を1回行動終了するまで付与<br>「お菓子」の時、クリティカルダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000402,
+        "limit_count": null,
+        "value": 8300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000403,
+        "limit_count": null,
+        "value": 2800
+      }
+    ],
+    "id": 4991390,
+    "name": "想力「スウィートタイム」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつアタッカーの時、バーストスキル発動後、自身に「スキルダメージ+{0}％」を1回行動終了するまで付与<br>「お菓子」の時、クリティカルダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000402,
+        "limit_count": null,
+        "value": 11600
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000403,
+        "limit_count": null,
+        "value": 3900
+      }
+    ],
+    "id": 4991391,
+    "name": "想力「スウィートタイム」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつアタッカーの時、バーストスキル発動後、自身に「スキルダメージ+{0}％」を1回行動終了するまで付与<br>「お菓子」の時、クリティカルダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000402,
+        "limit_count": null,
+        "value": 15000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000403,
+        "limit_count": null,
+        "value": 5000
+      }
+    ],
+    "id": 4991392,
+    "name": "想力「スウィートタイム」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性の時、与える強化効果量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000406,
+        "limit_count": null,
+        "value": 3600
+      }
+    ],
+    "id": 4991393,
+    "name": "斬得エンハンスアップⅡ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性の時、与える強化効果量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000406,
+        "limit_count": null,
+        "value": 3600
+      }
+    ],
+    "id": 4991394,
+    "name": "斬得エンハンスアップⅡ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性の時、与える強化効果量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000406,
+        "limit_count": null,
+        "value": 3600
+      }
+    ],
+    "id": 4991395,
+    "name": "斬得エンハンスアップⅡ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性の時、与える強化効果量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000406,
+        "limit_count": null,
+        "value": 3600
+      }
+    ],
+    "id": 4991396,
+    "name": "斬得エンハンスアップⅡ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性の時、与える強化効果量+{0}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000406,
+        "limit_count": null,
+        "value": 3600
+      }
+    ],
+    "id": 4991397,
+    "name": "斬得エンハンスアップⅡ"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつサポーターの時、味方全員のバーストスキルダメージ+{0}％<br>「騎士」の時、味方全員の物攻+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000404,
+        "limit_count": null,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000405,
+        "limit_count": null,
+        "value": 500
+      }
+    ],
+    "id": 4991398,
+    "name": "想力「遊び盛りバケーション」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつサポーターの時、味方全員のバーストスキルダメージ+{0}％<br>「騎士」の時、味方全員の物攻+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000404,
+        "limit_count": null,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000405,
+        "limit_count": null,
+        "value": 1000
+      }
+    ],
+    "id": 4991399,
+    "name": "想力「遊び盛りバケーション」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつサポーターの時、味方全員のバーストスキルダメージ+{0}％<br>「騎士」の時、味方全員の物攻+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000404,
+        "limit_count": null,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000405,
+        "limit_count": null,
+        "value": 1500
+      }
+    ],
+    "id": 4991400,
+    "name": "想力「遊び盛りバケーション」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつサポーターの時、味方全員のバーストスキルダメージ+{0}％<br>「騎士」の時、味方全員の物攻+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000404,
+        "limit_count": null,
+        "value": 3500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000405,
+        "limit_count": null,
+        "value": 2000
+      }
+    ],
+    "id": 4991401,
+    "name": "想力「遊び盛りバケーション」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつサポーターの時、味方全員のバーストスキルダメージ+{0}％<br>「騎士」の時、味方全員の物攻+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000404,
+        "limit_count": null,
+        "value": 4500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000405,
+        "limit_count": null,
+        "value": 2500
+      }
+    ],
+    "id": 4991402,
+    "name": "想力「遊び盛りバケーション」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつブレイカーの時、ブレイク状態の対象を攻撃後、対象に「受けるダメージ+{0}％」を1回攻撃を受けるまで付与<br>「寡黙」の時、単体攻撃のブレイクダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000407,
+        "limit_count": null,
+        "value": 400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000408,
+        "limit_count": null,
+        "value": 600
+      }
+    ],
+    "id": 4991403,
+    "name": "想力「彼女の素顔」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつブレイカーの時、ブレイク状態の対象を攻撃後、対象に「受けるダメージ+{0}％」を1回攻撃を受けるまで付与<br>「寡黙」の時、単体攻撃のブレイクダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000407,
+        "limit_count": null,
+        "value": 1400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000408,
+        "limit_count": null,
+        "value": 2000
+      }
+    ],
+    "id": 4991404,
+    "name": "想力「彼女の素顔」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつブレイカーの時、ブレイク状態の対象を攻撃後、対象に「受けるダメージ+{0}％」を1回攻撃を受けるまで付与<br>「寡黙」の時、単体攻撃のブレイクダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000407,
+        "limit_count": null,
+        "value": 2400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000408,
+        "limit_count": null,
+        "value": 3300
+      }
+    ],
+    "id": 4991405,
+    "name": "想力「彼女の素顔」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつブレイカーの時、ブレイク状態の対象を攻撃後、対象に「受けるダメージ+{0}％」を1回攻撃を受けるまで付与<br>「寡黙」の時、単体攻撃のブレイクダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000407,
+        "limit_count": null,
+        "value": 3400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000408,
+        "limit_count": null,
+        "value": 4700
+      }
+    ],
+    "id": 4991406,
+    "name": "想力「彼女の素顔」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつブレイカーの時、ブレイク状態の対象を攻撃後、対象に「受けるダメージ+{0}％」を1回攻撃を受けるまで付与<br>「寡黙」の時、単体攻撃のブレイクダメージ+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000407,
+        "limit_count": null,
+        "value": 4400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000408,
+        "limit_count": null,
+        "value": 6000
+      }
+    ],
+    "id": 4991407,
+    "name": "想力「彼女の素顔」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつサポーターの時、パーティの誰かがスキル発動後、味方全員に「クリティカルダメージ+{0}％」を付与(上限5個)<br>「季節の装い」の時、与えるHP回復量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000409,
+        "limit_count": null,
+        "value": 200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000410,
+        "limit_count": null,
+        "value": 400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000409,
+        "limit_count": null,
+        "value": 200
+      }
+    ],
+    "id": 4991408,
+    "name": "想力「日差しは大敵！」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつサポーターの時、パーティの誰かがスキル発動後、味方全員に「クリティカルダメージ+{0}％」を付与(上限5個)<br>「季節の装い」の時、与えるHP回復量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000409,
+        "limit_count": null,
+        "value": 400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000410,
+        "limit_count": null,
+        "value": 1300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000409,
+        "limit_count": null,
+        "value": 400
+      }
+    ],
+    "id": 4991409,
+    "name": "想力「日差しは大敵！」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつサポーターの時、パーティの誰かがスキル発動後、味方全員に「クリティカルダメージ+{0}％」を付与(上限5個)<br>「季節の装い」の時、与えるHP回復量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000409,
+        "limit_count": null,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000410,
+        "limit_count": null,
+        "value": 2200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000409,
+        "limit_count": null,
+        "value": 500
+      }
+    ],
+    "id": 4991410,
+    "name": "想力「日差しは大敵！」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつサポーターの時、パーティの誰かがスキル発動後、味方全員に「クリティカルダメージ+{0}％」を付与(上限5個)<br>「季節の装い」の時、与えるHP回復量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000409,
+        "limit_count": null,
+        "value": 700
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000410,
+        "limit_count": null,
+        "value": 3100
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000409,
+        "limit_count": null,
+        "value": 700
+      }
+    ],
+    "id": 4991411,
+    "name": "想力「日差しは大敵！」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "得意属性が斬属性かつサポーターの時、パーティの誰かがスキル発動後、味方全員に「クリティカルダメージ+{0}％」を付与(上限5個)<br>「季節の装い」の時、与えるHP回復量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000409,
+        "limit_count": null,
+        "value": 800
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000410,
+        "limit_count": null,
+        "value": 4000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000409,
+        "limit_count": null,
+        "value": 800
+      }
+    ],
+    "id": 4991412,
+    "name": "想力「日差しは大敵！」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がアタッカーの時、クリティカルダメージ+{0}%<br>攻撃対象がブレイク状態の時、スキルダメージ+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000411,
+        "limit_count": null,
+        "value": 1200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000412,
+        "limit_count": null,
+        "value": 1200
+      }
+    ],
+    "id": 4991413,
+    "name": "想力「スイカ退治と参る！」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がアタッカーの時、クリティカルダメージ+{0}%<br>攻撃対象がブレイク状態の時、スキルダメージ+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000411,
+        "limit_count": null,
+        "value": 3900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000412,
+        "limit_count": null,
+        "value": 3900
+      }
+    ],
+    "id": 4991414,
+    "name": "想力「スイカ退治と参る！」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がアタッカーの時、クリティカルダメージ+{0}%<br>攻撃対象がブレイク状態の時、スキルダメージ+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000411,
+        "limit_count": null,
+        "value": 6600
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000412,
+        "limit_count": null,
+        "value": 6600
+      }
+    ],
+    "id": 4991415,
+    "name": "想力「スイカ退治と参る！」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がアタッカーの時、クリティカルダメージ+{0}%<br>攻撃対象がブレイク状態の時、スキルダメージ+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000411,
+        "limit_count": null,
+        "value": 9300
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000412,
+        "limit_count": null,
+        "value": 9300
+      }
+    ],
+    "id": 4991416,
+    "name": "想力「スイカ退治と参る！」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身がアタッカーの時、クリティカルダメージ+{0}%<br>攻撃対象がブレイク状態の時、スキルダメージ+{1}%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000411,
+        "limit_count": null,
+        "value": 12000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000412,
+        "limit_count": null,
+        "value": 12000
+      }
+    ],
+    "id": 4991417,
+    "name": "想力「スイカ退治と参る！」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "与える強化効果量+{0}%<br>自身がアタッカーの時、受ける強化効果量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000413,
+        "limit_count": null,
+        "value": 500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000414,
+        "limit_count": null,
+        "value": 300
+      }
+    ],
+    "id": 4991418,
+    "name": "想力「くつろぎビーチタイム」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "与える強化効果量+{0}%<br>自身がアタッカーの時、受ける強化効果量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000413,
+        "limit_count": null,
+        "value": 1700
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000414,
+        "limit_count": null,
+        "value": 1100
+      }
+    ],
+    "id": 4991419,
+    "name": "想力「くつろぎビーチタイム」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "与える強化効果量+{0}%<br>自身がアタッカーの時、受ける強化効果量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000413,
+        "limit_count": null,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000414,
+        "limit_count": null,
+        "value": 2000
+      }
+    ],
+    "id": 4991420,
+    "name": "想力「くつろぎビーチタイム」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "与える強化効果量+{0}%<br>自身がアタッカーの時、受ける強化効果量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000413,
+        "limit_count": null,
+        "value": 4200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000414,
+        "limit_count": null,
+        "value": 2800
+      }
+    ],
+    "id": 4991421,
+    "name": "想力「くつろぎビーチタイム」"
+  },
+  {
+    "ability_category_type": null,
+    "description": "与える強化効果量+{0}%<br>自身がアタッカーの時、受ける強化効果量+{1}％",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 95000413,
+        "limit_count": null,
+        "value": 5400
+      },
+      {
+        "ability_timing_value": null,
+        "id": 95000414,
+        "limit_count": null,
+        "value": 3600
+      }
+    ],
+    "id": 4991422,
+    "name": "想力「くつろぎビーチタイム」"
   },
   {
     "ability_category_type": null,
@@ -81705,6 +83631,20 @@
   },
   {
     "ability_category_type": null,
+    "description": "アトリエ砲によるダメージを受けた時、自身に全属性耐性DOWN({0}%/3回)を付与する",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 81187002,
+        "limit_count": null,
+        "value": 10000
+      }
+    ],
+    "id": 21187002,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
     "description": "仲間が戦闘不能になった時、自身にダメージ無効(2回)を付与する",
     "effects": [
       {
@@ -84139,6 +86079,70 @@
       }
     ],
     "id": 21279003,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "wave開始前、マナチャージのレベルに応じて下記効果を発揮する状態変化を付与(指定レベル以上)\nLv.1：与ダメージUP(30%)、Lv.2：スタン付与率UP、Lv.3攻撃時、対象に素早さDOWN(10%/1回)を付与、Lv.4被ダメージDOWN(30%)、Lv5BSパネル生成",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 81281020,
+        "limit_count": null,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81281021,
+        "limit_count": null,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81281022,
+        "limit_count": null,
+        "value": 1000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81281023,
+        "limit_count": null,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81281032,
+        "limit_count": null,
+        "value": 0
+      }
+    ],
+    "id": 21281001,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "wave開始時、相手からの効果無効を付与\nブレイクした時、自身に防御DOWN(90%)を付与\nブレイク中の手番開始時、防御DOWNを解除",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 81281031,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81281025,
+        "limit_count": null,
+        "value": 9000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81281026,
+        "limit_count": null,
+        "value": 10000
+      }
+    ],
+    "id": 21281002,
     "name": ""
   },
   {
@@ -90781,6 +92785,34 @@
   },
   {
     "ability_category_type": null,
+    "description": "行動前、相手全員に与ダメージDOWN({0}%/1回)付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 91001457,
+        "limit_count": null,
+        "value": 2000
+      }
+    ],
+    "id": 26203006,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "行動前、相手全員に与ダメージDOWN({0}%/1回)付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 91001457,
+        "limit_count": null,
+        "value": 3000
+      }
+    ],
+    "id": 26203007,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
     "description": "Wave開始時、自身に被ダメージDOWN({0}%、解除不可)を付与\nバーストスキルを受けると、自身に「受けるクリティカルダメージ+{1}%」を2回攻撃を受けるまで付与",
     "effects": [
       {
@@ -92155,6 +94187,70 @@
   },
   {
     "ability_category_type": null,
+    "description": "WAVE開始時、自身に被ダメージDOWN(50%)を付与。WEAK攻撃を10回受けるとそれを解除",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86247004,
+        "limit_count": 1,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86231002,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86247005,
+        "limit_count": null,
+        "value": 5000
+      }
+    ],
+    "id": 26247003,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "火、斬属性以外の耐性DOWN無効",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000720,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000722,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000721,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000716,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000718,
+        "limit_count": null,
+        "value": 0
+      }
+    ],
+    "id": 26247004,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
     "description": "攻撃被弾時、自身の与ダメージUP(最大Lv10 不可視)のレベルを1上昇させる\n戦闘不能時、自身の持つ与ダメージUPのレベルに応じてフィールドアビリティを発動",
     "effects": [
       {
@@ -92393,6 +94489,114 @@
       }
     ],
     "id": 26250003,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "wave開始時、自身に「非ブレイク状態の時、受ける攻撃のクリティカル確率-{0}%」と「ブレイク状態の時、受けるマイナス効果の効果量+{1}%」を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86250009,
+        "limit_count": null,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86250011,
+        "limit_count": null,
+        "value": 5000
+      }
+    ],
+    "id": 26250004,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "特定のスキル使用後、自身に与ダメージUP({0}％/1回)を付与し、自身のターンを{1}ターン遅らせ行動再抽選\nブレイク時、自身が「強化状態(ハイドシャーク_高速潜水艦)」のバフをもっているなら自身のバフをすべて解除し、行動再抽選",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86250001,
+        "limit_count": null,
+        "value": 5000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86250002,
+        "limit_count": null,
+        "value": 200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86250003,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86250013,
+        "limit_count": null,
+        "value": 9900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86250014,
+        "limit_count": null,
+        "value": 9900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81179045,
+        "limit_count": null,
+        "value": 0
+      }
+    ],
+    "id": 26250005,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "特定のスキル使用後、自身に与ダメージUP({0}％/1回)を付与し、自身のターンを{1}ターン遅らせ行動再抽選\nブレイク時、自身が「強化状態(ハイドシャーク_高速潜水艦)」のバフをもっているなら自身のバフをすべて解除し、行動再抽選",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 86250001,
+        "limit_count": null,
+        "value": 8000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86250002,
+        "limit_count": null,
+        "value": 200
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86250003,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86250013,
+        "limit_count": null,
+        "value": 9900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 86250014,
+        "limit_count": null,
+        "value": 9900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81179045,
+        "limit_count": null,
+        "value": 0
+      }
+    ],
+    "id": 26250006,
     "name": ""
   },
   {
@@ -93655,6 +95859,102 @@
       }
     ],
     "id": 26280001,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "1回目のブレイク復帰時、自身に攻撃UP({0}%/永続)を付与\nブレイク時、自身に防御DOWN({1}%/永続)を付与\nブレイク復帰時、自身の防御DOWNを解除\nウェーブ開始時、相手からの効果無効を付与\nブレイクすると効果無効を解除、ブレイク復帰すると効果無効を再度付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 81282001,
+        "limit_count": 1,
+        "value": 1500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81282002,
+        "limit_count": null,
+        "value": 9900
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81282006,
+        "limit_count": null,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81282005,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81282007,
+        "limit_count": null,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81282008,
+        "limit_count": null,
+        "value": 10000
+      }
+    ],
+    "id": 26282001,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "ウェーブ開始時、セリフを表示\n1回目の小ブレイクまたはブレイク時、セリフを表示",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 81282003,
+        "limit_count": 1,
+        "value": 0
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81282009,
+        "limit_count": 1,
+        "value": 0
+      }
+    ],
+    "id": 26282002,
+    "name": ""
+  },
+  {
+    "ability_category_type": null,
+    "description": "1回目のブレイク復帰時、自身に攻撃UP({0}%/永続)を付与\nブレイク時、自身に防御DOWN({1}%/永続)を付与\nブレイク復帰時、自身の防御DOWNを解除\nウェーブ開始時、相手からの効果無効を付与",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 81282001,
+        "limit_count": 1,
+        "value": 3000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81282002,
+        "limit_count": null,
+        "value": 9500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81282006,
+        "limit_count": null,
+        "value": 10000
+      },
+      {
+        "ability_timing_value": null,
+        "id": 81282005,
+        "limit_count": null,
+        "value": 0
+      }
+    ],
+    "id": 26282003,
     "name": ""
   },
   {
@@ -116878,6 +119178,136 @@
     ],
     "id": 600000825,
     "name": "ユリエ【トレジャーハンター】のスキル威力UP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "キューン【Lethal Arsenal】のスキル威力+200%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000924,
+        "limit_count": null,
+        "value": 20000
+      }
+    ],
+    "id": 600000826,
+    "name": "キューン【Lethal Arsenal】のスキル威力UP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "ベップ【オーシャンフェアリー】の与える強化効果量+150%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000925,
+        "limit_count": null,
+        "value": 15000
+      }
+    ],
+    "id": 600000827,
+    "name": "ベップ【オーシャンフェアリー】の強化効果量UP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "ヤドヴィガ【Loyal Servant】のブレイクダメージ+200%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000926,
+        "limit_count": null,
+        "value": 20000
+      }
+    ],
+    "id": 600000828,
+    "name": "ヤドヴィガ【Loyal Servant】のブレイクダメージUP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "ヤンネ【バケーションマドンナ】の与える強化効果量+150%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000927,
+        "limit_count": null,
+        "value": 15000
+      }
+    ],
+    "id": 600000829,
+    "name": "ヤンネ【バケーションマドンナ】の強化効果量UP"
+  },
+  {
+    "ability_category_type": null,
+    "description": "ベップ【オーシャンフェアリー】またはキューン【Lethal Arsenal】を編成時、被ダメージ-25%(上限25%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000929,
+        "limit_count": null,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000928,
+        "limit_count": null,
+        "value": 2500
+      }
+    ],
+    "id": 600000830,
+    "name": "ベップ【オーシャンフェアリー】またはキューン【Lethal Arsenal】を編成時、被ダメージDOWN"
+  },
+  {
+    "ability_category_type": null,
+    "description": "ヤドヴィガ【Loyal Servant】またはベップ【オーシャンフェアリー】を編成時、被ダメージ-25%(上限25%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000930,
+        "limit_count": null,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000929,
+        "limit_count": null,
+        "value": 2500
+      }
+    ],
+    "id": 600000831,
+    "name": "ヤドヴィガ【Loyal Servant】またはベップ【オーシャンフェアリー】を編成時、被ダメージDOWN"
+  },
+  {
+    "ability_category_type": null,
+    "description": "ヤンネ【バケーションマドンナ】またはヤドヴィガ【Loyal Servant】を編成時、被ダメージ-25%(上限25%)",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000931,
+        "limit_count": null,
+        "value": 2500
+      },
+      {
+        "ability_timing_value": null,
+        "id": 120000930,
+        "limit_count": null,
+        "value": 2500
+      }
+    ],
+    "id": 600000832,
+    "name": "ヤンネ【バケーションマドンナ】またはヤドヴィガ【Loyal Servant】を編成時、被ダメージDOWN"
+  },
+  {
+    "ability_category_type": null,
+    "description": "自身が「お菓子」のとき、スキル威力+100%",
+    "effects": [
+      {
+        "ability_timing_value": null,
+        "id": 120000932,
+        "limit_count": null,
+        "value": 10000
+      }
+    ],
+    "id": 600000833,
+    "name": "自身が「お菓子」のとき、スキル威力UP"
   },
   {
     "ability_category_type": null,

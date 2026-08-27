@@ -614,5 +614,61 @@
     "support_character_ids": [139, 138, 70, 35, 69],
     "target_id": 10,
     "value": 1
+  },
+  {
+    "costs": [
+      {
+        "id": 1,
+        "quantity": 2,
+        "resource_params": null,
+        "type": 9
+      },
+      {
+        "id": 1467,
+        "quantity": 10,
+        "resource_params": null,
+        "type": 5
+      }
+    ],
+    "description": "{0}の経験値＋{1}",
+    "enhance_target": 2,
+    "enhance_type": 1,
+    "id": 25,
+    "large_still_path_hash": "8977628155132138015",
+    "name": "パインシャード",
+    "priority": 15,
+    "start_at": "2026-07-31T03:00:00.000Z",
+    "still_path_hash": "1954952844079700934",
+    "support_character_ids": [163, 162, 164, 214, 165],
+    "target_id": 11,
+    "value": 100
+  },
+  {
+    "costs": [
+      {
+        "id": 1,
+        "quantity": 20,
+        "resource_params": null,
+        "type": 9
+      },
+      {
+        "id": 1468,
+        "quantity": 100,
+        "resource_params": null,
+        "type": 5
+      }
+    ],
+    "description": "{0}の上限解放（{1}回目）\n解放するとレベル上限を{2}上昇させます",
+    "enhance_target": 2,
+    "enhance_type": 2,
+    "id": 26,
+    "large_still_path_hash": "101238809328963670",
+    "name": "パインコア",
+    "priority": 1009,
+    "start_at": "2026-07-31T03:00:00.000Z",
+    "still_path_hash": "7408489926040852879",
+    "support_character_ids": [162, 107, 214, 163, 164],
+    "target_id": 11,
+    "value": 1
   }
 ]
